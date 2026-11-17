@@ -99,7 +99,11 @@ class SafetyPolicyEngine:
             return p
 
         candidates = [
+            Path("config/autonomy_rules.yaml"),
             Path("configs/autonomy_rules.yaml"),
+            Path(__file__).resolve().parents[3] / "config" / "autonomy_rules.yaml",
+            Path(__file__).resolve().parents[2] / "config" / "autonomy_rules.yaml",
+            Path(__file__).resolve().parents[3] / "configs" / "autonomy_rules.yaml",
             Path(__file__).resolve().parents[2] / "configs" / "autonomy_rules.yaml",
             Path(__file__).resolve().parent / "autonomy_rules.yaml",
         ]

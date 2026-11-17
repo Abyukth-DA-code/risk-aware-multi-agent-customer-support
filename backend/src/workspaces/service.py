@@ -478,3 +478,4 @@ class WorkspaceService:
         """
         self.verify_workspace_access(authenticated_tenant_id, workspace_id)
         return self.db.delete_all_customer_memories(workspace_id=workspace_id, customer_id=customer_id)
+

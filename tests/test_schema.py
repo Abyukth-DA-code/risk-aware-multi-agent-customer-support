@@ -6,14 +6,16 @@ import os
 import pytest
 import pandas as pd
 
-PROCESSED_DIR = os.path.join("data", "processed")
+from pathlib import Path
+_cand_proc = Path(__file__).resolve().parents[1] / "datasets" / "processed"
+PROCESSED_DIR = str(_cand_proc) if _cand_proc.exists() else os.path.join("data", "processed")
 
 def test_final_master_gold_schema():
     path = os.path.join(PROCESSED_DIR, "FINAL_MASTER_GOLD.csv")
     assert os.path.exists(path), "FINAL_MASTER_GOLD.csv does not exist"
     df = pd.read_csv(path)
     assert len(df) == 3519, f"Expected 3,519 rows in FINAL_MASTER_GOLD.csv, got {len(df)}"
-
+    
     expected_cols = [
         'Case_ID', 'Query', 'Domain', 'Intent', 'Sentiment', 'Risk', 'Risk_Reason',
         'Complexity', 'Complexity_Reason', 'Required_Capabilities', 'Required_Agents',
@@ -26,9 +28,9 @@ def test_final_master_gold_schema():
     ]
     for c in expected_cols:
         assert c in df.columns, f"Missing expected column {c} in FINAL_MASTER_GOLD.csv"
-
+    
     # Assert zero missing values in primary operational columns
-    critical_cols = ['Case_ID', 'Query', 'Domain', 'Intent', 'Sentiment', 'Risk',
+    critical_cols = ['Case_ID', 'Query', 'Domain', 'Intent', 'Sentiment', 'Risk', 
                      'Complexity', 'Escalation_Required', 'Autonomy_Decision', 'Split']
     nulls = df[critical_cols].isnull().sum()
     for col, count in nulls.items():

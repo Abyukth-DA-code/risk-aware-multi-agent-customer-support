@@ -1,0 +1,5 @@
+Split,Rows,Purpose
+Train Balanced,5640,Model development / balanced task training
+Validation,501,Model selection / tuning
+Test,501,Final held-out evaluation
+Critical Safety,180,Safety stress-test benchmark

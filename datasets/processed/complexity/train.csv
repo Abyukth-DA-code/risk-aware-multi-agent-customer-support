@@ -1,0 +1,2098 @@
+Case_ID,Query,Domain,Complexity,Data_Origin
+CASE003200,assistance to inform of asign-up problem,E-commerce,High,PUBLIC_SOURCE
+CASE002576,would it be possible to cancel a {{Account Category}} account?,E-commerce,High,PUBLIC_SOURCE
+CASE001645,"I am unhappy with your work, I want to file a consumer claim",E-commerce,High,PUBLIC_SOURCE
+CASE002509,help me to lodge a claim against ur business,E-commerce,High,PUBLIC_SOURCE
+CASE001804,I'm waiting for a refund of {{Currency Symbol}}{{Refund Amount}},E-commerce,High,PUBLIC_SOURCE
+CASE001320,lodge consumer reclamation,E-commerce,High,PUBLIC_SOURCE
+CASE002598,where can i fiond information about a pro account removal,E-commerce,High,PUBLIC_SOURCE
+CASE002561,"I expect a refund of {{Currency Symbol}}{{Refund Amount}}, was it processeed",E-commerce,High,PUBLIC_SOURCE
+CASE001901,where can i lodge a customer claim,E-commerce,High,PUBLIC_SOURCE
+CASE001873,what do I have to do to report signup errors?,E-commerce,High,PUBLIC_SOURCE
+CASE002688,I need to receive a refund of my money,E-commerce,High,PUBLIC_SOURCE
+CASE001594,"I don't want my user account, help cancelling it",E-commerce,High,PUBLIC_SOURCE
+CASE001942,error modifying delivery address,E-commerce,High,PUBLIC_SOURCE
+CASE000317,how can I cancel the {{Account Category}} account?,E-commerce,High,PUBLIC_SOURCE
+CASE001516,I'm trying to know if there is anything new on my refund,E-commerce,High,PUBLIC_SOURCE
+CASE001502,i do not know what to do to report a trouble with payment,E-commerce,High,PUBLIC_SOURCE
+CASE003137,I want assistance to inform of errors with registrations,E-commerce,High,PUBLIC_SOURCE
+CASE002334,can you help me seeing in what cases can I request a refund?,E-commerce,High,PUBLIC_SOURCE
+CASE001211,assistance to check in what cases can I ask to be refunded,E-commerce,High,PUBLIC_SOURCE
+CASE001161,i cannot inform of a isgnup issue,E-commerce,High,PUBLIC_SOURCE
+CASE002459,i want assistance to notify of a goddamn signup problem,E-commerce,High,PUBLIC_SOURCE
+CASE002998,i dont know what i have to do to receive a reimbursement,E-commerce,High,PUBLIC_SOURCE
+CASE000099,Can my business get a refund for a damaged item? as soon as possible.,Small Business,High,SYNTHETIC
+CASE000847,"I don't use the goddamn gold account, I want to delete it",E-commerce,High,PUBLIC_SOURCE
+CASE002847,wanna see ur refund policy how to do it,E-commerce,High,PUBLIC_SOURCE
+CASE000512,i expect a reimbursement of {{Currency Symbol}}{{Refund Amount}},E-commerce,High,PUBLIC_SOURCE
+CASE001998,where to lodge a customer complaint,E-commerce,High,PUBLIC_SOURCE
+CASE001742,delete account,E-commerce,High,PUBLIC_SOURCE
+CASE001220,how can i get information about pro account cancellations,E-commerce,High,PUBLIC_SOURCE
+CASE000390,There is an error in my academic record.,Education,High,SYNTHETIC
+CASE001731,is it possible to see in which cases can I ask for a refund?,E-commerce,High,PUBLIC_SOURCE
+CASE003318,can huelp me check ur refund policy,E-commerce,High,PUBLIC_SOURCE
+CASE001012,"I can't pay, where do I report errors with payment?",E-commerce,High,PUBLIC_SOURCE
+CASE003172,need to report an issue with signup,E-commerce,High,PUBLIC_SOURCE
+CASE002505,I am waiting for an refund of {{Currency Symbol}}{{Refund Amount}},E-commerce,High,PUBLIC_SOURCE
+CASE002785,i try to lodge a cliam,E-commerce,High,PUBLIC_SOURCE
+CASE001559,I don't know how to lodge a condumer reclamation,E-commerce,High,PUBLIC_SOURCE
+CASE000167,I do not know what to do to cancel the standard account,E-commerce,High,PUBLIC_SOURCE
+CASE002068,I need help to see how long refunds take,E-commerce,High,PUBLIC_SOURCE
+CASE002548,I expect a restitution of {{Currency Symbol}}{{Refund Amount}},E-commerce,High,PUBLIC_SOURCE
+CASE003329,cold uhelp me deleting my platinum account,E-commerce,High,PUBLIC_SOURCE
+CASE003167,"I can't pay, assistance reporting troubles with payment",E-commerce,High,PUBLIC_SOURCE
+CASE001648,i want help to file a customer complaint against ur business,E-commerce,High,PUBLIC_SOURCE
+CASE001936,I expect a bloody reimbursement of {{Refund Amount}} dollars,E-commerce,High,PUBLIC_SOURCE
+CASE001944,help to make a consumer reclamation against your business,E-commerce,High,PUBLIC_SOURCE
+CASE002374,can ya help me to notify of an error with online payment,E-commerce,High,PUBLIC_SOURCE
+CASE001452,I have got to see in which situations can Irequest a refund,E-commerce,High,PUBLIC_SOURCE
+CASE001801,"I no longer use the standard account, assistance removing it",E-commerce,High,PUBLIC_SOURCE
+CASE000050,My refund has not arrived yet. Please help.,Small Business,High,SYNTHETIC
+CASE001153,is it possible to report problems with sign-up?,E-commerce,High,PUBLIC_SOURCE
+CASE001909,assistance to check in which cases can I request a refund,E-commerce,High,PUBLIC_SOURCE
+CASE000499,I'm experiencing a registration error,E-commerce,High,PUBLIC_SOURCE
+CASE002076,need help to report an issue with payment,E-commerce,High,PUBLIC_SOURCE
+CASE001281,I expect a compensation of {{Refund Amount}} dollars,E-commerce,High,PUBLIC_SOURCE
+CASE001414,where can I find information about {{Account Type}} account terminations?,E-commerce,High,PUBLIC_SOURCE
+CASE002720,where do I file a claim?,E-commerce,High,PUBLIC_SOURCE
+CASE002872,remove {{Account Type}} account,E-commerce,High,PUBLIC_SOURCE
+CASE001852,help to see in which cases can I ask for refunds,E-commerce,High,PUBLIC_SOURCE
+CASE002158,i dont know how to report an issue with a registration,E-commerce,High,PUBLIC_SOURCE
+CASE001007,i do not know what to do to lodge a customer reclamation,E-commerce,High,PUBLIC_SOURCE
+CASE002447,is it possible to check in what cases can I request refunds?,E-commerce,High,PUBLIC_SOURCE
+CASE003326,I do not know what to do to remove my standard account,E-commerce,High,PUBLIC_SOURCE
+CASE000960,i have to inform of problems with signup can i get some help,E-commerce,High,PUBLIC_SOURCE
+CASE000034,"For my business, my refund has not arrived yet.",Small Business,High,SYNTHETIC
+CASE003185,i do not know how i can obtain compensations of my money,E-commerce,High,PUBLIC_SOURCE
+CASE003335,help me see under which circumstances can i request a refund,E-commerce,High,PUBLIC_SOURCE
+CASE002356,can you help me obtaining refunds?,E-commerce,High,PUBLIC_SOURCE
+CASE002049,"I have entered a wrong shipping address, I want to modify it",E-commerce,High,PUBLIC_SOURCE
+CASE002193,can you help me notify of errors with payment?,E-commerce,High,PUBLIC_SOURCE
+CASE002614,help me check in what cases can I ask to be refunded,E-commerce,High,PUBLIC_SOURCE
+CASE002531,i have go to notify of a problem with a signup,E-commerce,High,PUBLIC_SOURCE
+CASE001530,i try to inform of issues with payment,E-commerce,High,PUBLIC_SOURCE
+CASE001288,need assstance to file a consumer claim against your company,E-commerce,High,PUBLIC_SOURCE
+CASE001921,remove premium account,E-commerce,High,PUBLIC_SOURCE
+CASE001669,"I am having an error signing up, can I get some help?",E-commerce,High,PUBLIC_SOURCE
+CASE001871,there are errors setting up a damn delivery address,E-commerce,High,PUBLIC_SOURCE
+CASE002126,I want assistance filing a complaint against your company,E-commerce,High,PUBLIC_SOURCE
+CASE002549,I am trying to notify of sign-up problems,E-commerce,High,PUBLIC_SOURCE
+CASE001124,"I entered a wrong delivery address, help me editing it",E-commerce,High,PUBLIC_SOURCE
+CASE002928,assistance to file a reclamation against your business,E-commerce,High,PUBLIC_SOURCE
+CASE002515,assistance with payment,E-commerce,High,PUBLIC_SOURCE
+CASE000977,I'm trying to inform of a error with signup,E-commerce,High,PUBLIC_SOURCE
+CASE002162,there is an error trying to update my shipping address,E-commerce,High,PUBLIC_SOURCE
+CASE001930,i have paid {{Currency Symbol}}{{Refund Amount}} for an article i want an refund,E-commerce,High,PUBLIC_SOURCE
+CASE003238,I do not know what to do to demand my money back,E-commerce,High,PUBLIC_SOURCE
+CASE001027,help me checking if there are any news on my refund,E-commerce,High,PUBLIC_SOURCE
+CASE000758,i do not know how i can remove the premium account,E-commerce,High,PUBLIC_SOURCE
+CASE001328,help to get my money back,E-commerce,High,PUBLIC_SOURCE
+CASE002714,how can i ask for refunds of money,E-commerce,High,PUBLIC_SOURCE
+CASE000582,can uhelpp me filing a reclamation against ur business,E-commerce,High,PUBLIC_SOURCE
+CASE002380,what do i need to deo to obtain a refund of money,E-commerce,High,PUBLIC_SOURCE
+CASE003064,how to report troubles with payments,E-commerce,High,PUBLIC_SOURCE
+CASE000311,I want help reporting payment problems,E-commerce,High,PUBLIC_SOURCE
+CASE001181,where do I lodge a complaint against your company?,E-commerce,High,PUBLIC_SOURCE
+CASE000248,"I entered a wrong shipping address, I need help to modify it",E-commerce,High,PUBLIC_SOURCE
+CASE003253,I would like to request a refund,E-commerce,High,PUBLIC_SOURCE
+CASE000611,help to check in what situations can I request a refund,E-commerce,High,PUBLIC_SOURCE
+CASE001470,I have to notify of issues with a signup,E-commerce,High,PUBLIC_SOURCE
+CASE001806,how can i lodge a cuxtomer complaint against ur organization,E-commerce,High,PUBLIC_SOURCE
+CASE000705,I am trying to see in what cases can I request refunds,E-commerce,High,PUBLIC_SOURCE
+CASE002857,"I cannot create a user, help to report sign-up errors",E-commerce,High,PUBLIC_SOURCE
+CASE002124,I have signup erors,E-commerce,High,PUBLIC_SOURCE
+CASE001511,where do i inform of a trouble with payments,E-commerce,High,PUBLIC_SOURCE
+CASE002426,I need help to ask for a rebate of my money,E-commerce,High,PUBLIC_SOURCE
+CASE000486,i do not know what i need to do to report errors with signup,E-commerce,High,PUBLIC_SOURCE
+CASE002735,delete user,E-commerce,High,PUBLIC_SOURCE
+CASE002764,I need help to demand a rebate of my money,E-commerce,High,PUBLIC_SOURCE
+CASE000923,refunding {{Refund Amount}} dollars,E-commerce,High,PUBLIC_SOURCE
+CASE002455,help me cancel my standard account,E-commerce,High,PUBLIC_SOURCE
+CASE001188,I want help lodging a consumer reclamation,E-commerce,High,PUBLIC_SOURCE
+CASE002788,help solving a problem with online payment,E-commerce,High,PUBLIC_SOURCE
+CASE001668,i expect a reimbursement of {{Refund Amount}} dollars,E-commerce,High,PUBLIC_SOURCE
+CASE000952,There is an error in the academic record.,Education,High,SYNTHETIC
+CASE001512,errors with online payments,E-commerce,High,PUBLIC_SOURCE
+CASE002476,I want help to notify of an issue with payments,E-commerce,High,PUBLIC_SOURCE
+CASE002495,can you help me reporting a registration issue?,E-commerce,High,PUBLIC_SOURCE
+CASE001310,help me obtaining a reimbursement of money,E-commerce,High,PUBLIC_SOURCE
+CASE001604,cancel {{Account Category}} account,E-commerce,High,PUBLIC_SOURCE
+CASE002710,how can I lodge a customer claim?,E-commerce,High,PUBLIC_SOURCE
+CASE000790,I cannot access the exam registration portal.,Education,High,SYNTHETIC
+CASE000866,what do i need to do to report prbolems with payment,E-commerce,High,PUBLIC_SOURCE
+CASE001793,can you help me making a complaint?,E-commerce,High,PUBLIC_SOURCE
+CASE002884,help me solving troubles with payment,E-commerce,High,PUBLIC_SOURCE
+CASE002623,how can I ask for a compensation of money?,E-commerce,High,PUBLIC_SOURCE
+CASE000843,I cannot access the placement registration portal. I need more information.,Education,High,SYNTHETIC
+CASE002796,I do not know what I need to do to obtain a reimbursement,E-commerce,High,PUBLIC_SOURCE
+CASE002227,get refund,E-commerce,High,PUBLIC_SOURCE
+CASE000393,I cannot access the placement registration portal. Please help me.,Education,High,SYNTHETIC
+CASE001596,show me in which situations can I ask to be refunded,E-commerce,High,PUBLIC_SOURCE
+CASE002843,I try to delete the {{Account Type}} account,E-commerce,High,PUBLIC_SOURCE
+CASE001346,show me in which cases can I ask for refunds,E-commerce,High,PUBLIC_SOURCE
+CASE000195,help solving a trouble with online payment,E-commerce,High,PUBLIC_SOURCE
+CASE000437,"I have to see my refund current status, will you help me?",E-commerce,High,PUBLIC_SOURCE
+CASE000302,i need help to solve problems with online payment,E-commerce,High,PUBLIC_SOURCE
+CASE002618,I do not know how I can see the current status of the refund,E-commerce,High,PUBLIC_SOURCE
+CASE001294,i dont know what i need to do to obtain rebates of money,E-commerce,High,PUBLIC_SOURCE
+CASE002911,wanna ask for a compensatin of money,E-commerce,High,PUBLIC_SOURCE
+CASE003125,help me see under what circumtsances can I ask for refunds,E-commerce,High,PUBLIC_SOURCE
+CASE001439,"I ain't happy with your work, I need to make a reclamation",E-commerce,High,PUBLIC_SOURCE
+CASE002664,I want help making a ucstomer claim against your company,E-commerce,High,PUBLIC_SOURCE
+CASE001972,I am waiting for a rebate of {{Currency Symbol}}{{Refund Amount}},E-commerce,High,PUBLIC_SOURCE
+CASE001570,help me delete my {{Account Category}} accoun,E-commerce,High,PUBLIC_SOURCE
+CASE003151,help me obtain a compensation of money,E-commerce,High,PUBLIC_SOURCE
+CASE000580,"I paid {{Currency Symbol}}{{Refund Amount}} for these items, where can I receive a refund?",E-commerce,High,PUBLIC_SOURCE
+CASE000795,"my card was declined, inform of an error with payments",E-commerce,High,PUBLIC_SOURCE
+CASE002545,see in what cases can I ask for a refund,E-commerce,High,PUBLIC_SOURCE
+CASE003309,refund {{Currency Symbol}}{{Refund Amount}},E-commerce,High,PUBLIC_SOURCE
+CASE000178,"I cannot create a user, help to inform of a signup problem",E-commerce,High,PUBLIC_SOURCE
+CASE002308,i need help to notify of an issue with payment,E-commerce,High,PUBLIC_SOURCE
+CASE003297,help filing a reclamation against your business,E-commerce,High,PUBLIC_SOURCE
+CASE000832,I do not know how I can file a claim,E-commerce,High,PUBLIC_SOURCE
+CASE002905,I do not know what I have to do to get refunds of my money,E-commerce,High,PUBLIC_SOURCE
+CASE001883,i have a question about the cancellation of my {{Account Type}} account,E-commerce,High,PUBLIC_SOURCE
+CASE000370,There is an error in my academic record. I need more information.,Education,High,SYNTHETIC
+CASE001696,where do i inform of payment problems,E-commerce,High,PUBLIC_SOURCE
+CASE001562,i try to see in what cases can i ask for a refund,E-commerce,High,PUBLIC_SOURCE
+CASE001059,I'm waiting for a refund of {{Refund Amount}} dollrs,E-commerce,High,PUBLIC_SOURCE
+CASE003289,I want assistance to notify of a problem with a registration,E-commerce,High,PUBLIC_SOURCE
+CASE000951,"I do not want my freemium account, assistance canceling it",E-commerce,High,PUBLIC_SOURCE
+CASE000623,I need hnelp to solve a trouble with online payment,E-commerce,High,PUBLIC_SOURCE
+CASE000596,rebating {{Currency Symbol}}{{Refund Amount}},E-commerce,High,PUBLIC_SOURCE
+CASE003146,can you help me to inform of a trouble with payment?,E-commerce,High,PUBLIC_SOURCE
+CASE003024,I need assistance to demand compensations of my money,E-commerce,High,PUBLIC_SOURCE
+CASE002456,error entering the new shipping address,E-commerce,High,PUBLIC_SOURCE
+CASE000572,is it possible to obtain reimbursements of my money,E-commerce,High,PUBLIC_SOURCE
+CASE001279,I need help to notify of problems with sign-up,E-commerce,High,PUBLIC_SOURCE
+CASE001701,can you help me deleting the {{Account Type}} account?,E-commerce,High,PUBLIC_SOURCE
+CASE000697,help me to make a customer reclamation against your company,E-commerce,High,PUBLIC_SOURCE
+CASE002104,I'd like to lodge a damn consumer claim how could i do it,E-commerce,High,PUBLIC_SOURCE
+CASE002309,i dont know what i need to do to make a customer claim,E-commerce,High,PUBLIC_SOURCE
+CASE000288,I want assistance to check how long refunds usually take,E-commerce,High,PUBLIC_SOURCE
+CASE001309,is it possible to get rebates of money?,E-commerce,High,PUBLIC_SOURCE
+CASE001390,Can you help me? i cannot access the exam registration portal.,Education,High,SYNTHETIC
+CASE002292,need help regadring my sign-up,E-commerce,High,PUBLIC_SOURCE
+CASE001034,I try to lodge a customer complaint,E-commerce,High,PUBLIC_SOURCE
+CASE001436,see in what situations can I ask for refunds,E-commerce,High,PUBLIC_SOURCE
+CASE002547,how can I lodge a consumer claim against your business?,E-commerce,High,PUBLIC_SOURCE
+CASE001116,I want to see in which cases can I request to be refunded,E-commerce,High,PUBLIC_SOURCE
+CASE000269,where can I get information about a gold account removal?,E-commerce,High,PUBLIC_SOURCE
+CASE001520,i dont know how i can notify of a trouble with payments,E-commerce,High,PUBLIC_SOURCE
+CASE002968,problem with {{Account Category}} account terminations,E-commerce,High,PUBLIC_SOURCE
+CASE001036,wanna check in wshat situations can i ask for a refund,E-commerce,High,PUBLIC_SOURCE
+CASE003105,help solving a goddamn error with online payments,E-commerce,High,PUBLIC_SOURCE
+CASE002709,is it possible to notify of troubles with online payment ?,E-commerce,High,PUBLIC_SOURCE
+CASE001589,"I can't pay, assistance notifying of an issue with payment",E-commerce,High,PUBLIC_SOURCE
+CASE000584,I want help to notify of a registration error,E-commerce,High,PUBLIC_SOURCE
+CASE000333,I want help to get refunds,E-commerce,High,PUBLIC_SOURCE
+CASE002784,could you help me deleting a platinum account?,E-commerce,High,PUBLIC_SOURCE
+CASE002053,in which situations can I ask for refunds?,E-commerce,High,PUBLIC_SOURCE
+CASE000417,I'm waiting for a compensation of {{Currency Symbol}}{{Refund Amount}},E-commerce,High,PUBLIC_SOURCE
+CASE002819,help me seeing in what cases can I ask for refunds,E-commerce,High,PUBLIC_SOURCE
+CASE003161,close {{Account Type}} account,E-commerce,High,PUBLIC_SOURCE
+CASE002862,information about the removal of my {{Account Category}} account,E-commerce,High,PUBLIC_SOURCE
+CASE000552,My refund has not arrived yet.,Small Business,High,SYNTHETIC
+CASE002739,how do i inform of a problem with a signup,E-commerce,High,PUBLIC_SOURCE
+CASE002337,want helpmaking a consumer reclamation against ur company,E-commerce,High,PUBLIC_SOURCE
+CASE002178,I am having an isuse with my signup,E-commerce,High,PUBLIC_SOURCE
+CASE002900,i need help reporting a trouble with online payments,E-commerce,High,PUBLIC_SOURCE
+CASE000996,where do I lodge a claim against your business?,E-commerce,High,PUBLIC_SOURCE
+CASE003020,how can I inform of a trouble with payhments?,E-commerce,High,PUBLIC_SOURCE
+CASE003211,"I am not happy with your work, I need help making a claim",E-commerce,High,PUBLIC_SOURCE
+CASE003225,I do not know how to notify of a trouble with payment,E-commerce,High,PUBLIC_SOURCE
+CASE001975,what do I need to do to request a fucking refund?,E-commerce,High,PUBLIC_SOURCE
+CASE001950,"I need to report a fucking registration error, help me",E-commerce,High,PUBLIC_SOURCE
+CASE001833,I have to check in which cases can I request a refund,E-commerce,High,PUBLIC_SOURCE
+CASE002132,"the experience with you was awful, file a customer complaint",E-commerce,High,PUBLIC_SOURCE
+CASE002209,I do not know what I need to do to close the {{Account Type}} account,E-commerce,High,PUBLIC_SOURCE
+CASE000585,I do not know what I have to do to delete a {{Account Category}} account,E-commerce,High,PUBLIC_SOURCE
+CASE001971,how can I ask for a restitution of my money?,E-commerce,High,PUBLIC_SOURCE
+CASE001280,I cannot report a registration error,E-commerce,High,PUBLIC_SOURCE
+CASE000638,Can my business get a refund for a damaged item? I need assistance.,Small Business,High,SYNTHETIC
+CASE002683,i cant make payments notify of issujes,E-commerce,High,PUBLIC_SOURCE
+CASE000465,"I chose a wrong delivery address, can you help me update it?",E-commerce,High,PUBLIC_SOURCE
+CASE003059,want help making an customer claim against your business,E-commerce,High,PUBLIC_SOURCE
+CASE001911,closing {{Account Category}} account,E-commerce,High,PUBLIC_SOURCE
+CASE001526,help me check in what cases can i ask for a refund,E-commerce,High,PUBLIC_SOURCE
+CASE003084,help me informing of an issue with payment,E-commerce,High,PUBLIC_SOURCE
+CASE003312,reporting troubles with online payment,E-commerce,High,PUBLIC_SOURCE
+CASE003110,inform of an issue with an registration,E-commerce,High,PUBLIC_SOURCE
+CASE002717,i dont kno how to request a refund of my money,E-commerce,High,PUBLIC_SOURCE
+CASE002876,remove pro accoint,E-commerce,High,PUBLIC_SOURCE
+CASE002497,I want to inform of problems with signup,E-commerce,High,PUBLIC_SOURCE
+CASE001221,I need help closing a platinum account,E-commerce,High,PUBLIC_SOURCE
+CASE001681,help me solve payment problems,E-commerce,High,PUBLIC_SOURCE
+CASE002806,help me inform of a problem with sign-up,E-commerce,High,PUBLIC_SOURCE
+CASE002559,want help to notify of troubles with online payment,E-commerce,High,PUBLIC_SOURCE
+CASE001808,need assistance to obtain a refund of money,E-commerce,High,PUBLIC_SOURCE
+CASE001406,there are errors setting up my secondary shipping address,E-commerce,High,PUBLIC_SOURCE
+CASE001336,get money back,E-commerce,High,PUBLIC_SOURCE
+CASE001317,I am having an online registration error,E-commerce,High,PUBLIC_SOURCE
+CASE001894,"I can't pay, how could I notify of a payment problem?",E-commerce,High,PUBLIC_SOURCE
+CASE002746,i need assistance to solve payment errors,E-commerce,High,PUBLIC_SOURCE
+CASE002646,I have got to check your refund policy,E-commerce,High,PUBLIC_SOURCE
+CASE002450,need to inform of problems with online payment,E-commerce,High,PUBLIC_SOURCE
+CASE002238,I need to close a {{Account Type}} account,E-commerce,High,PUBLIC_SOURCE
+CASE003044,help me getting reimbursements of my money,E-commerce,High,PUBLIC_SOURCE
+CASE000453,i dont know what i have to doto get refunds of my money,E-commerce,High,PUBLIC_SOURCE
+CASE000028,I cannot access the exam registration portal. I need more information.,Education,High,SYNTHETIC
+CASE003284,i cant open a user account help me report sign-up errors,E-commerce,High,PUBLIC_SOURCE
+CASE002874,need assistanbce to make a complaint,E-commerce,High,PUBLIC_SOURCE
+CASE001937,I try to see in what situations can I request to be refunded,E-commerce,High,PUBLIC_SOURCE
+CASE002823,I want to inform of registration issues,E-commerce,High,PUBLIC_SOURCE
+CASE001718,where to get a restitution of my money,E-commerce,High,PUBLIC_SOURCE
+CASE002499,I am trying to ask for rebates,E-commerce,High,PUBLIC_SOURCE
+CASE002743,help me report an issue with registrations,E-commerce,High,PUBLIC_SOURCE
+CASE000121,My exam registration is showing an error. Please help me.,Education,High,SYNTHETIC
+CASE001024,I need help making a complaint,E-commerce,High,PUBLIC_SOURCE
+CASE002868,I would like to delete my premium account,E-commerce,High,PUBLIC_SOURCE
+CASE001624,assistance filing a customer complaint against your business,E-commerce,High,PUBLIC_SOURCE
+CASE001134,I want to notify of goddamn registration errors,E-commerce,High,PUBLIC_SOURCE
+CASE003075,I want assistance to demand rebates of money,E-commerce,High,PUBLIC_SOURCE
+CASE001629,i cannot pay help me to report issues with payment,E-commerce,High,PUBLIC_SOURCE
+CASE001834,I need help to ask for a compensation of my money,E-commerce,High,PUBLIC_SOURCE
+CASE002706,want help to obtain a compensation of money,E-commerce,High,PUBLIC_SOURCE
+CASE001736,i cannot pay want help to report errors with payments,E-commerce,High,PUBLIC_SOURCE
+CASE000480,how can I file a customer claim against your organization?,E-commerce,High,PUBLIC_SOURCE
+CASE002859,help notifying of signup problems,E-commerce,High,PUBLIC_SOURCE
+CASE001963,"I ain't happy with your work, help lodging a consumer claim",E-commerce,High,PUBLIC_SOURCE
+CASE001393,what do i have to do to report errors with payments,E-commerce,High,PUBLIC_SOURCE
+CASE001186,I want assistance deleting my standard account,E-commerce,High,PUBLIC_SOURCE
+CASE001270,I have to notify of an issue with a signup,E-commerce,High,PUBLIC_SOURCE
+CASE003272,i need assistance requesting reimbursements of my money,E-commerce,High,PUBLIC_SOURCE
+CASE001004,I want assistance deleting a {{Account Category}} account,E-commerce,High,PUBLIC_SOURCE
+CASE002093,how do I notify of problems with sign-up?,E-commerce,High,PUBLIC_SOURCE
+CASE000085,"For my business, can my business get a refund for a damaged item?",Small Business,High,SYNTHETIC
+CASE002639,I don't know whar I need to do to notify of signup errors,E-commerce,High,PUBLIC_SOURCE
+CASE002953,I need help to notiyf of a registration problem,E-commerce,High,PUBLIC_SOURCE
+CASE001864,I am waiting for a restitution of {{Currency Symbol}}{{Refund Amount}},E-commerce,High,PUBLIC_SOURCE
+CASE002763,i want assistance to notify of errors with payment,E-commerce,High,PUBLIC_SOURCE
+CASE002168,i have to notify of problems with registrations,E-commerce,High,PUBLIC_SOURCE
+CASE000033,Can you help me? i cannot access the placement registration portal.,Education,High,SYNTHETIC
+CASE001333,can you help me solve a problem with online payment?,E-commerce,High,PUBLIC_SOURCE
+CASE000328,can I check in what cases can I request the damn refunds?,E-commerce,High,PUBLIC_SOURCE
+CASE003302,how do I inform of an issue with a signup?,E-commerce,High,PUBLIC_SOURCE
+CASE000345,can you help me report troubles with payment?,E-commerce,High,PUBLIC_SOURCE
+CASE002399,report issues creating account,E-commerce,High,PUBLIC_SOURCE
+CASE001531,wanna check uf refund policy,E-commerce,High,PUBLIC_SOURCE
+CASE002152,I'm trying to notify of errors with online payments,E-commerce,High,PUBLIC_SOURCE
+CASE000647,My exam registration is showing an error.,Education,High,SYNTHETIC
+CASE003252,need help to see the status of my refund,E-commerce,High,PUBLIC_SOURCE
+CASE002140,I want to lodge a consumer reclamation against your company,E-commerce,High,PUBLIC_SOURCE
+CASE001548,report registration error,E-commerce,High,PUBLIC_SOURCE
+CASE000666,what do I need to do to file a claim?,E-commerce,High,PUBLIC_SOURCE
+CASE002510,i dont know how i can ask for compensations of money,E-commerce,High,PUBLIC_SOURCE
+CASE001955,I do not know what I have to do to delete a gold account,E-commerce,High,PUBLIC_SOURCE
+CASE001354,I have got to report an error with signup,E-commerce,High,PUBLIC_SOURCE
+CASE002539,want assistance to notify of an erro with payment,E-commerce,High,PUBLIC_SOURCE
+CASE002414,I expect a rebate of {{Refund Amount}} dollars,E-commerce,High,PUBLIC_SOURCE
+CASE003204,"I do not need the platinum account, I have got to cancel it",E-commerce,High,PUBLIC_SOURCE
+CASE003227,error setting the shipping address up,E-commerce,High,PUBLIC_SOURCE
+CASE001459,need to make a consumer reclamation against ur organization,E-commerce,High,PUBLIC_SOURCE
+CASE002958,"I submitted a wrong address by mistake, could I update it?",E-commerce,High,PUBLIC_SOURCE
+CASE000972,problem with the cancellation of my {{Account Type}} account,E-commerce,High,PUBLIC_SOURCE
+CASE002408,I have to notify of a payment error,E-commerce,High,PUBLIC_SOURCE
+CASE002630,I need to file a customer claim against your organizaion,E-commerce,High,PUBLIC_SOURCE
+CASE002475,repor sign-up problems,E-commerce,High,PUBLIC_SOURCE
+CASE001261,want help lodging a customer claim against your organization,E-commerce,High,PUBLIC_SOURCE
+CASE000319,i dont know what i need to do to cancel my standard account,E-commerce,High,PUBLIC_SOURCE
+CASE002176,"I cannot open an account, how to inform of sign-up errors?",E-commerce,High,PUBLIC_SOURCE
+CASE000473,My refund has not arrived yet. I need assistance.,Small Business,High,SYNTHETIC
+CASE002429,i do not know what i have to do to ask for a rebate of money,E-commerce,High,PUBLIC_SOURCE
+CASE001693,i do not know how i can report a registration problem,E-commerce,High,PUBLIC_SOURCE
+CASE002787,I have got to file a complaint against your company,E-commerce,High,PUBLIC_SOURCE
+CASE002385,is it possible to obtain a damn restitution of my money?,E-commerce,High,PUBLIC_SOURCE
+CASE001786,am I entitled to a refund according to your policy?,E-commerce,High,PUBLIC_SOURCE
+CASE001896,where could I inform of issues with payment?,E-commerce,High,PUBLIC_SOURCE
+CASE003054,"I cannot open an account, how to report a sign-up issue?",E-commerce,High,PUBLIC_SOURCE
+CASE001305,problem with {{Account Type}} account removals,E-commerce,High,PUBLIC_SOURCE
+CASE001611,help me to lodge a consumer claim,E-commerce,High,PUBLIC_SOURCE
+CASE001253,find information about the termination of a standard account,E-commerce,High,PUBLIC_SOURCE
+CASE000455,rebating {{Refund Amount}} dollars,E-commerce,High,PUBLIC_SOURCE
+CASE000920,need help to lodge a complaint against your organization,E-commerce,High,PUBLIC_SOURCE
+CASE000630,i want help requesting a reimbursement of moey,E-commerce,High,PUBLIC_SOURCE
+CASE001063,I am waiting for a bloody compensation of {{Refund Amount}} dollars,E-commerce,High,PUBLIC_SOURCE
+CASE002155,help me obtain a reimbursement,E-commerce,High,PUBLIC_SOURCE
+CASE000877,I can't seed your refund policy,E-commerce,High,PUBLIC_SOURCE
+CASE000789,Can my business get a refund for a damaged item? Please help.,Small Business,High,SYNTHETIC
+CASE001679,help me making a claim against your business,E-commerce,High,PUBLIC_SOURCE
+CASE003135,I don't know what I have to do to close my {{Account Category}} account,E-commerce,High,PUBLIC_SOURCE
+CASE000767,I am waiting for a reimbursement of {{Refund Amount}} dollars,E-commerce,High,PUBLIC_SOURCE
+CASE000989,there is a problem with my registration,E-commerce,High,PUBLIC_SOURCE
+CASE002183,i need assistance deleting a {{Account Category}} account,E-commerce,High,PUBLIC_SOURCE
+CASE001746,I need to report a problem with online payment,E-commerce,High,PUBLIC_SOURCE
+CASE002085,closing freemium account,E-commerce,High,PUBLIC_SOURCE
+CASE000024,want help to report a trouble with payment,E-commerce,High,PUBLIC_SOURCE
+CASE002460,help to file a consumer complaint against your organization,E-commerce,High,PUBLIC_SOURCE
+CASE000965,Can you help me? my exam registration is showing an error.,Education,High,SYNTHETIC
+CASE002669,i want assistance solving a trouble with online payment,E-commerce,High,PUBLIC_SOURCE
+CASE003045,"I need to see in what cases can I request a refund, help me",E-commerce,High,PUBLIC_SOURCE
+CASE002212,I expect a compensation of {{Currency Symbol}}{{Refund Amount}},E-commerce,High,PUBLIC_SOURCE
+CASE001697,I am waiting for a refnd of {{Refund Amount}} dollars,E-commerce,High,PUBLIC_SOURCE
+CASE000856,the experience with ya was awful i have to lodge a claim,E-commerce,High,PUBLIC_SOURCE
+CASE001943,could you help me reporting errors with online payment?,E-commerce,High,PUBLIC_SOURCE
+CASE000447,i try to inform of issues with payments,E-commerce,High,PUBLIC_SOURCE
+CASE001358,i expect a refund of {{Currency Symbol}}{{Refund Amount}},E-commerce,High,PUBLIC_SOURCE
+CASE000822,I cannot access the exam registration portal. Please help me.,Education,High,SYNTHETIC
+CASE002860,"I cannot pay, help me to inform of a problem with payments",E-commerce,High,PUBLIC_SOURCE
+CASE001126,I have errors with my registration,E-commerce,High,PUBLIC_SOURCE
+CASE003153,assistance to know if there are any news on my refund,E-commerce,High,PUBLIC_SOURCE
+CASE002496,can you help me lodging a complaint against your company?,E-commerce,High,PUBLIC_SOURCE
+CASE002094,need help notifying of issueswith sign-up,E-commerce,High,PUBLIC_SOURCE
+CASE001703,issue with registration,E-commerce,High,PUBLIC_SOURCE
+CASE003194,can ya help me receive rebates,E-commerce,High,PUBLIC_SOURCE
+CASE002021,is it possible to ask for a refund of my money?,E-commerce,High,PUBLIC_SOURCE
+CASE001600,i dont know how i could inform of an error with signup,E-commerce,High,PUBLIC_SOURCE
+CASE000829,I cannot access the online library resources. I need more information.,Education,High,SYNTHETIC
+CASE003061,I am waiting for a rebate fo {{Refund Amount}} dollars,E-commerce,High,PUBLIC_SOURCE
+CASE003156,there are errors trying to modify my shipping address,E-commerce,High,PUBLIC_SOURCE
+CASE001443,deleting pro account,E-commerce,High,PUBLIC_SOURCE
+CASE001332,I am waiting for a compensation of {{Refund Amount}} doolars,E-commerce,High,PUBLIC_SOURCE
+CASE001010,there are errors submitting the new shipping address,E-commerce,High,PUBLIC_SOURCE
+CASE000565,I call to makle a customer claim against your business,E-commerce,High,PUBLIC_SOURCE
+CASE000750,My exam registration is showing an error. I need more information.,Education,High,SYNTHETIC
+CASE001496,I don't know how to make a complaint against your company,E-commerce,High,PUBLIC_SOURCE
+CASE002164,"I ain't happy with your service, I want help filing a claim",E-commerce,High,PUBLIC_SOURCE
+CASE003173,I am looking for information about a pro account removal,E-commerce,High,PUBLIC_SOURCE
+CASE001698,want help to know if there is anything wrong with the refund,E-commerce,High,PUBLIC_SOURCE
+CASE002740,help to report signup problems,E-commerce,High,PUBLIC_SOURCE
+CASE002154,I need help to inform of errors with online payment,E-commerce,High,PUBLIC_SOURCE
+CASE002002,I need assistance to report troubles with online payment,E-commerce,High,PUBLIC_SOURCE
+CASE001612,can ya help me obtaining restitutions of my money,E-commerce,High,PUBLIC_SOURCE
+CASE000466,"I need to cancel a {{Account Type}} account, could you help me?",E-commerce,High,PUBLIC_SOURCE
+CASE002340,I do not know how to demand a reimbursement,E-commerce,High,PUBLIC_SOURCE
+CASE001242,"I would like to report errors with sign-up, can you help me?",E-commerce,High,PUBLIC_SOURCE
+CASE001275,what do I need to do to ask for a compensation of money?,E-commerce,High,PUBLIC_SOURCE
+CASE002115,wanna inform of issues with payment,E-commerce,High,PUBLIC_SOURCE
+CASE002569,there are errors setting up the new shipping address,E-commerce,High,PUBLIC_SOURCE
+CASE002157,help solving troubles with online payment,E-commerce,High,PUBLIC_SOURCE
+CASE002345,I try to notify of a sign-up error,E-commerce,High,PUBLIC_SOURCE
+CASE002321,assistance to inform of problems with signup,E-commerce,High,PUBLIC_SOURCE
+CASE001710,help me reporting a sign-up problem,E-commerce,High,PUBLIC_SOURCE
+CASE000241,how do I make a reclamation against your organization?,E-commerce,High,PUBLIC_SOURCE
+CASE000716,I need assistance informing of sign-up problems,E-commerce,High,PUBLIC_SOURCE
+CASE003235,I have to receive a rebate of my money,E-commerce,High,PUBLIC_SOURCE
+CASE001047,help me informing of a problem with signup,E-commerce,High,PUBLIC_SOURCE
+CASE002621,can you help me check if there are any news on my refund?,E-commerce,High,PUBLIC_SOURCE
+CASE000661,wanna remove a {{Account Type}} account can ya helpme,E-commerce,High,PUBLIC_SOURCE
+CASE000524,can ya help me informing of problems with online payment,E-commerce,High,PUBLIC_SOURCE
+CASE000286,Can you help me? i cannot access the online library resources.,Education,High,SYNTHETIC
+CASE001662,there is an error setting my new delivery address up,E-commerce,High,PUBLIC_SOURCE
+CASE002254,I want assistance to request my money back,E-commerce,High,PUBLIC_SOURCE
+CASE002792,can ay help me notifying of a trouble with payment,E-commerce,High,PUBLIC_SOURCE
+CASE000772,reporting issues with payment,E-commerce,High,PUBLIC_SOURCE
+CASE000371,"I have entered a wrong delivery address, help me changing it",E-commerce,High,PUBLIC_SOURCE
+CASE003174,I do not know how to get refunds of my money,E-commerce,High,PUBLIC_SOURCE
+CASE002980,I don't know what to do to delete the freemium account,E-commerce,High,PUBLIC_SOURCE
+CASE000563,I want to report a problem with payment,E-commerce,High,PUBLIC_SOURCE
+CASE001130,i need assistance notifying of a payment probelm,E-commerce,High,PUBLIC_SOURCE
+CASE001301,is it possibe to inform of errors with payment?,E-commerce,High,PUBLIC_SOURCE
+CASE001899,can I check in which situations can I request refunds?,E-commerce,High,PUBLIC_SOURCE
+CASE001248,I expect a restitution of {{Refund Amount}} dollars,E-commerce,High,PUBLIC_SOURCE
+CASE001569,I'm waiting for an goddamn restitution of {{Refund Amount}} dollars,E-commerce,High,PUBLIC_SOURCE
+CASE000775,could you help me to file a damn consumer complaint?,E-commerce,High,PUBLIC_SOURCE
+CASE000887,how can i remove a platinum acclunt,E-commerce,High,PUBLIC_SOURCE
+CASE003209,"I have got to lodge a complaint, can I get some help?",E-commerce,High,PUBLIC_SOURCE
+CASE001087,where can I find information about my pro account removal?,E-commerce,High,PUBLIC_SOURCE
+CASE001994,clsoe {{Account Category}} account,E-commerce,High,PUBLIC_SOURCE
+CASE002891,lodging reclamation against your company,E-commerce,High,PUBLIC_SOURCE
+CASE001492,how to see if there is anything wrong with the restitution?,E-commerce,High,PUBLIC_SOURCE
+CASE000898,help me solving a trouble with payment,E-commerce,High,PUBLIC_SOURCE
+CASE001147,I want help to inform of a sign-up problem,E-commerce,High,PUBLIC_SOURCE
+CASE001224,I want assistance to notify of troubles with online payments,E-commerce,High,PUBLIC_SOURCE
+CASE002993,i expect an refund of {{Refund Amount}} dollars was it processed,E-commerce,High,PUBLIC_SOURCE
+CASE003199,"I paid {{Currency Symbol}}{{Refund Amount}} for a purchase, help me obtaining my money back",E-commerce,High,PUBLIC_SOURCE
+CASE002969,want help to check in what cases can i request refunds,E-commerce,High,PUBLIC_SOURCE
+CASE001705,delete standard account,E-commerce,High,PUBLIC_SOURCE
+CASE001858,need help to see in which situations can I request a refund,E-commerce,High,PUBLIC_SOURCE
+CASE002091,where can I report a problem with sign-up?,E-commerce,High,PUBLIC_SOURCE
+CASE003032,"I have got to close a premium account, I need help",E-commerce,High,PUBLIC_SOURCE
+CASE002280,I'm trying to close my {{Account Category}} account,E-commerce,High,PUBLIC_SOURCE
+CASE002397,what do I have to do to lodge a complaint?,E-commerce,High,PUBLIC_SOURCE
+CASE002564,I can't check if there is anything wrong with my rebate,E-commerce,High,PUBLIC_SOURCE
+CASE002729,"I want to file a customer reclamation, how do I do it?",E-commerce,High,PUBLIC_SOURCE
+CASE002558,want help to make a consumer complaint against ur company,E-commerce,High,PUBLIC_SOURCE
+CASE000831,help me ask for reimbursements of my money,E-commerce,High,PUBLIC_SOURCE
+CASE000151,I want help to ask for my money back,E-commerce,High,PUBLIC_SOURCE
+CASE002687,i want help to file a consumer claim against ur organization,E-commerce,High,PUBLIC_SOURCE
+CASE001764,I don't know how to demand a restitution of money,E-commerce,High,PUBLIC_SOURCE
+CASE001152,where can i inform of problems with online paymeny,E-commerce,High,PUBLIC_SOURCE
+CASE002524,I need help to see your refund policy,E-commerce,High,PUBLIC_SOURCE
+CASE000196,there is an error modifying my delivery address,E-commerce,High,PUBLIC_SOURCE
+CASE001958,ik do not know how i can notify of a sign-up problem,E-commerce,High,PUBLIC_SOURCE
+CASE003041,i paid {{Refund Amount}} dollars for an article how can i obtain a rebate,E-commerce,High,PUBLIC_SOURCE
+CASE002677,where do I inform of an issue with a signup?,E-commerce,High,PUBLIC_SOURCE
+CASE002822,help filing a customer complant against ur business,E-commerce,High,PUBLIC_SOURCE
+CASE002357,can I notify of a problem with registrations?,E-commerce,High,PUBLIC_SOURCE
+CASE001893,I need assistance notifying of a problem with online payment,E-commerce,High,PUBLIC_SOURCE
+CASE002153,I expect an reimbursement of {{Currency Symbol}}{{Refund Amount}},E-commerce,High,PUBLIC_SOURCE
+CASE001048,I try to notify of errors with online payment,E-commerce,High,PUBLIC_SOURCE
+CASE000432,i want information about the removal of a standard account,E-commerce,High,PUBLIC_SOURCE
+CASE003218,how to lodge a claim against your company?,E-commerce,High,PUBLIC_SOURCE
+CASE001913,i have to check in what cases can i ask for refunds,E-commerce,High,PUBLIC_SOURCE
+CASE001745,help informing of a problem with sign-up,E-commerce,High,PUBLIC_SOURCE
+CASE003012,want help filing a cudtomer claim against ur organization,E-commerce,High,PUBLIC_SOURCE
+CASE002322,assistance t obtain a refund,E-commerce,High,PUBLIC_SOURCE
+CASE002978,where do I report an error with online payment?,E-commerce,High,PUBLIC_SOURCE
+CASE002479,need to receive reimbursements of my money,E-commerce,High,PUBLIC_SOURCE
+CASE002713,want assistance informing of sign-up errors,E-commerce,High,PUBLIC_SOURCE
+CASE000298,i do not know whzt to do to inform of a problem with payment,E-commerce,High,PUBLIC_SOURCE
+CASE001941,i have paid {{Currency Symbol}}{{Refund Amount}} for an order I'm trying to obtain a refund,E-commerce,High,PUBLIC_SOURCE
+CASE002037,"I am waiting for a compensation of {{Currency Symbol}}{{Refund Amount}}, was it processed",E-commerce,High,PUBLIC_SOURCE
+CASE003249,i exepct a restitution of {{Currency Symbol}}{{Refund Amount}},E-commerce,High,PUBLIC_SOURCE
+CASE000721,where do I report an issue with payments ?,E-commerce,High,PUBLIC_SOURCE
+CASE003322,want assistance to lodge a complaint against your business,E-commerce,High,PUBLIC_SOURCE
+CASE003004,i need assistance to file a complaint,E-commerce,High,PUBLIC_SOURCE
+CASE002522,I need assistance lodging a claim,E-commerce,High,PUBLIC_SOURCE
+CASE000398,want help to report an issue with online payments,E-commerce,High,PUBLIC_SOURCE
+CASE002553,want assistance informing of a trouble with payment,E-commerce,High,PUBLIC_SOURCE
+CASE002887,can you help me notifying of issues with a registration?,E-commerce,High,PUBLIC_SOURCE
+CASE001557,where to lodge a complaint against ur business,E-commerce,High,PUBLIC_SOURCE
+CASE000852,where do I file a claim against your company?,E-commerce,High,PUBLIC_SOURCE
+CASE001201,I do not know how I can cancel the standard acconut,E-commerce,High,PUBLIC_SOURCE
+CASE000904,wantr help to solve issues with payment,E-commerce,High,PUBLIC_SOURCE
+CASE002658,i dont know what to do to notify of an issdue with a sign-up,E-commerce,High,PUBLIC_SOURCE
+CASE002581,cann I lodge a consumer reclamation against your business?,E-commerce,High,PUBLIC_SOURCE
+CASE002997,assistance demanding restitutions of money,E-commerce,High,PUBLIC_SOURCE
+CASE001203,is it possible to see in what cases can i ask for a refund,E-commerce,High,PUBLIC_SOURCE
+CASE001984,i want help to ask for compensatiuons,E-commerce,High,PUBLIC_SOURCE
+CASE002578,I need help to obtain refunds of money,E-commerce,High,PUBLIC_SOURCE
+CASE001898,wanna see in which situations can i ask for a refund,E-commerce,High,PUBLIC_SOURCE
+CASE001722,I have to inform of issues with a registration,E-commerce,High,PUBLIC_SOURCE
+CASE002306,what do I have to do to report a problem with sign-up?,E-commerce,High,PUBLIC_SOURCE
+CASE001493,i want assistance asking for a restitution of my money,E-commerce,High,PUBLIC_SOURCE
+CASE002521,reimbusre {{Currency Symbol}}{{Refund Amount}},E-commerce,High,PUBLIC_SOURCE
+CASE001476,can i file a complaint against ur organization,E-commerce,High,PUBLIC_SOURCE
+CASE002316,what do I need to do to remove the {{Account Type}} account?,E-commerce,High,PUBLIC_SOURCE
+CASE001838,can you help me inform of a fucking signup issue?,E-commerce,High,PUBLIC_SOURCE
+CASE003313,i need assistance informing of problems with online payment,E-commerce,High,PUBLIC_SOURCE
+CASE000927,i expect a damn restitution of {{Currency Symbol}}{{Refund Amount}},E-commerce,High,PUBLIC_SOURCE
+CASE002127,I cannot see your refund policy,E-commerce,High,PUBLIC_SOURCE
+CASE003295,"I have got to see your refund policy, help me",E-commerce,High,PUBLIC_SOURCE
+CASE001514,I need help to report a problem with a registration,E-commerce,High,PUBLIC_SOURCE
+CASE002391,"I don't want the freemium account, I need help to close it",E-commerce,High,PUBLIC_SOURCE
+CASE001787,can i inform of rwgistration errors,E-commerce,High,PUBLIC_SOURCE
+CASE002892,errors setting up a secondary shipping address,E-commerce,High,PUBLIC_SOURCE
+CASE002163,"I can't pay, is it possible to report troubles with payment?",E-commerce,High,PUBLIC_SOURCE
+CASE002119,can ya help me requesting a rebate of my money,E-commerce,High,PUBLIC_SOURCE
+CASE000155,I cannot access the placement registration portal.,Education,High,SYNTHETIC
+CASE002219,problem with a pro account removal,E-commerce,High,PUBLIC_SOURCE
+CASE002071,know if there is anything wrong with the refund,E-commerce,High,PUBLIC_SOURCE
+CASE002950,I want assistance notifying of a sign-up error,E-commerce,High,PUBLIC_SOURCE
+CASE002216,I have got to report a trouble with online payment,E-commerce,High,PUBLIC_SOURCE
+CASE000717,could I see in which cases can I ask to be refunded?,E-commerce,High,PUBLIC_SOURCE
+CASE002197,I need help to receive an reimbursement of money,E-commerce,High,PUBLIC_SOURCE
+CASE002642,customer reclamation against your organzation,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00001,I need help with this issue: assistance to inform of asign-up problem,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00002,would it be possible to cancel a {{Account Category}} account Can you help?,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00003,"I need assistance regarding this: I am unhappy with your work, I want to file a consumer claim.",E-commerce,High,PUBLIC_SOURCE
+COMPHIG00004,Can you please help me with this: help me to lodge a claim against ur business,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00005,I'm waiting for a refund of {{Currency Symbol}}{{Refund Amount}} Can you help?,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00006,I need assistance regarding this: lodge consumer reclamation.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00007,Please help me resolve this: where can i fiond information about a pro account removal,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00008,"I expect a refund of {{Currency Symbol}}{{Refund Amount}}, was it processeed Please let me know.",E-commerce,High,PUBLIC_SOURCE
+COMPHIG00009,I need assistance regarding this: where can i lodge a customer claim.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00010,Please help me resolve this: what do I have to do to report signup errors?,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00011,I need to receive a refund of my money What should I do?,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00012,"I need assistance regarding this: I don't want my user account, help cancelling it.",E-commerce,High,PUBLIC_SOURCE
+COMPHIG00013,Please help me resolve this: error modifying delivery address,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00014,how can I cancel the {{Account Category}} account Can you help?,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00015,I need assistance regarding this: I'm trying to know if there is anything new on my refund.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00016,Please help me resolve this: i do not know what to do to report a trouble with payment,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00017,I want assistance to inform of errors with registrations I need an update.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00018,I need assistance regarding this: can you help me seeing in what cases can I request a refund.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00019,Can you please help me with this: assistance to check in what cases can I ask to be refunded,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00020,i cannot inform of a isgnup issue Please let me know.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00021,I need assistance regarding this: i want assistance to notify of a goddamn signup problem.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00022,Please help me resolve this: i dont know what i have to do to receive a reimbursement,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00023,Can my business get a refund for a damaged item? as soon as possible What should I do?,Small Business,High,SYNTHETIC
+COMPHIG00024,"I need assistance regarding this: I don't use the goddamn gold account, I want to delete it.",E-commerce,High,PUBLIC_SOURCE
+COMPHIG00025,Please help me resolve this: wanna see ur refund policy how to do it,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00026,i expect a reimbursement of {{Currency Symbol}}{{Refund Amount}} Please let me know.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00027,I need assistance regarding this: where to lodge a customer complaint.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00028,I would like to know: delete account,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00029,how can i get information about pro account cancellations Please let me know.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00030,I need assistance regarding this: There is an error in my academic record.,Education,High,SYNTHETIC
+COMPHIG00031,I would like to know: is it possible to see in which cases can I ask for a refund?,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00032,can huelp me check ur refund policy Please let me know.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00033,"I need assistance regarding this: I can't pay, where do I report errors with payment.",E-commerce,High,PUBLIC_SOURCE
+COMPHIG00034,Can you please help me with this: need to report an issue with signup,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00035,I am waiting for an refund of {{Currency Symbol}}{{Refund Amount}} Please let me know.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00036,I need assistance regarding this: i try to lodge a cliam.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00037,Can you please help me with this: I don't know how to lodge a condumer reclamation,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00038,I do not know what to do to cancel the standard account I need an update.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00039,I need assistance regarding this: I need help to see how long refunds take.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00040,Please help me resolve this: I expect a restitution of {{Currency Symbol}}{{Refund Amount}},E-commerce,High,PUBLIC_SOURCE
+COMPHIG00041,cold uhelp me deleting my platinum account Please advise.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00042,"I need assistance regarding this: I can't pay, assistance reporting troubles with payment.",E-commerce,High,PUBLIC_SOURCE
+COMPHIG00043,I need help with this issue: i want help to file a customer complaint against ur business,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00044,I expect a bloody reimbursement of {{Refund Amount}} dollars Please let me know.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00045,I need assistance regarding this: help to make a consumer reclamation against your business.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00046,I would like to know: can ya help me to notify of an error with online payment,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00047,I have got to see in which situations can Irequest a refund I need an update.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00048,"I need assistance regarding this: I no longer use the standard account, assistance removing it.",E-commerce,High,PUBLIC_SOURCE
+COMPHIG00049,Can you please help me with this: My refund has not arrived yet. Please help.,Small Business,High,SYNTHETIC
+COMPHIG00050,is it possible to report problems with sign-up Please let me know.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00051,I need assistance regarding this: assistance to check in which cases can I request a refund.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00052,Please help me resolve this: I'm experiencing a registration error,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00053,need help to report an issue with payment Please let me know.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00054,I need assistance regarding this: I expect a compensation of {{Refund Amount}} dollars.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00055,Can you please help me with this: where can I find information about {{Account Type}} account terminations?,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00056,where do I file a claim Can you help?,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00057,I need assistance regarding this: remove {{Account Type}} account.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00058,Could you tell me about this: help to see in which cases can I ask for refunds,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00059,i dont know how to report an issue with a registration I need an update.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00060,I need assistance regarding this: i do not know what to do to lodge a customer reclamation.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00061,Please help me resolve this: is it possible to check in what cases can I request refunds?,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00062,I do not know what to do to remove my standard account What should I do?,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00063,I need assistance regarding this: i have to inform of problems with signup can i get some help.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00064,"Could you tell me about this: For my business, my refund has not arrived yet.",Small Business,High,SYNTHETIC
+COMPHIG00065,i do not know how i can obtain compensations of my money I need an update.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00066,I need assistance regarding this: help me see under which circumstances can i request a refund.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00067,I need help with this issue: can you help me obtaining refunds?,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00068,"I have entered a wrong shipping address, I want to modify it I need an update.",E-commerce,High,PUBLIC_SOURCE
+COMPHIG00069,I need assistance regarding this: can you help me notify of errors with payment.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00070,Could you tell me about this: help me check in what cases can I ask to be refunded,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00071,i have go to notify of a problem with a signup Please let me know.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00072,I need assistance regarding this: i try to inform of issues with payment.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00073,Can you please help me with this: need assstance to file a consumer claim against your company,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00074,remove premium account Please let me know.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00075,"I need assistance regarding this: I am having an error signing up, can I get some help.",E-commerce,High,PUBLIC_SOURCE
+COMPHIG00076,I need help with this issue: there are errors setting up a damn delivery address,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00077,I want assistance filing a complaint against your company I need an update.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00078,I need assistance regarding this: I am trying to notify of sign-up problems.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00079,"Please help me resolve this: I entered a wrong delivery address, help me editing it",E-commerce,High,PUBLIC_SOURCE
+COMPHIG00080,assistance to file a reclamation against your business Please advise.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00081,I need assistance regarding this: assistance with payment.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00082,I would like to know: I'm trying to inform of a error with signup,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00083,there is an error trying to update my shipping address Please advise.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00084,I need assistance regarding this: i have paid {{Currency Symbol}}{{Refund Amount}} for an article i want an refund.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00085,I need help with this issue: I do not know what to do to demand my money back,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00086,help me checking if there are any news on my refund Please let me know.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00087,I need assistance regarding this: i do not know how i can remove the premium account.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00088,I would like to know: help to get my money back,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00089,how can i ask for refunds of money Can you help?,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00090,I need assistance regarding this: can uhelpp me filing a reclamation against ur business.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00091,Please help me resolve this: what do i need to deo to obtain a refund of money,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00092,how to report troubles with payments I need an update.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00093,I need assistance regarding this: I want help reporting payment problems.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00094,Could you tell me about this: where do I lodge a complaint against your company?,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00095,"I entered a wrong shipping address, I need help to modify it I need an update.",E-commerce,High,PUBLIC_SOURCE
+COMPHIG00096,I need assistance regarding this: I would like to request a refund.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00097,Can you please help me with this: help to check in what situations can I request a refund,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00098,I have to notify of issues with a signup Can you help?,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00099,I need assistance regarding this: how can i lodge a cuxtomer complaint against ur organization.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00100,Please help me resolve this: I am trying to see in what cases can I request refunds,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00101,"I cannot create a user, help to report sign-up errors Please let me know.",E-commerce,High,PUBLIC_SOURCE
+COMPHIG00102,I need assistance regarding this: I have signup erors.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00103,I need help with this issue: where do i inform of a trouble with payments,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00104,I need help to ask for a rebate of my money I need an update.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00105,I need assistance regarding this: i do not know what i need to do to report errors with signup.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00106,Can you please help me with this: delete user,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00107,I need help to demand a rebate of my money What should I do?,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00108,I need assistance regarding this: refunding {{Refund Amount}} dollars.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00109,Could you tell me about this: help me cancel my standard account,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00110,I want help lodging a consumer reclamation Can you help?,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00111,I need assistance regarding this: help solving a problem with online payment.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00112,Can you please help me with this: i expect a reimbursement of {{Refund Amount}} dollars,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00113,There is an error in the academic record Please advise.,Education,High,SYNTHETIC
+COMPHIG00114,I need assistance regarding this: errors with online payments.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00115,Can you please help me with this: I want help to notify of an issue with payments,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00116,can you help me reporting a registration issue I need an update.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00117,I need assistance regarding this: help me obtaining a reimbursement of money.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00118,Could you tell me about this: cancel {{Account Category}} account,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00119,how can I lodge a customer claim Please advise.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00120,I need assistance regarding this: I cannot access the exam registration portal.,Education,High,SYNTHETIC
+COMPHIG00121,I would like to know: what do i need to do to report prbolems with payment,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00122,can you help me making a complaint I need an update.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00123,I need assistance regarding this: help me solving troubles with payment.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00124,I would like to know: how can I ask for a compensation of money?,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00125,I cannot access the placement registration portal. I need more information Please let me know.,Education,High,SYNTHETIC
+COMPHIG00126,I need assistance regarding this: I do not know what I need to do to obtain a reimbursement.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00127,I need help with this issue: get refund,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00128,I cannot access the placement registration portal. Please help me I need an update.,Education,High,SYNTHETIC
+COMPHIG00129,I need assistance regarding this: show me in which situations can I ask to be refunded.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00130,I would like to know: I try to delete the {{Account Type}} account,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00131,show me in which cases can I ask for refunds I need an update.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00132,I need assistance regarding this: help solving a trouble with online payment.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00133,"Can you please help me with this: I have to see my refund current status, will you help me?",E-commerce,High,PUBLIC_SOURCE
+COMPHIG00134,i need help to solve problems with online payment Can you help?,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00135,I need assistance regarding this: I do not know how I can see the current status of the refund.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00136,Could you tell me about this: i dont know what i need to do to obtain rebates of money,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00137,wanna ask for a compensatin of money Please let me know.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00138,I need assistance regarding this: help me see under what circumtsances can I ask for refunds.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00139,"I need help with this issue: I ain't happy with your work, I need to make a reclamation",E-commerce,High,PUBLIC_SOURCE
+COMPHIG00140,I want help making a ucstomer claim against your company Can you help?,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00141,I need assistance regarding this: I am waiting for a rebate of {{Currency Symbol}}{{Refund Amount}}.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00142,I need help with this issue: help me delete my {{Account Category}} accoun,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00143,help me obtain a compensation of money Can you help?,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00144,"I need assistance regarding this: I paid {{Currency Symbol}}{{Refund Amount}} for these items, where can I receive a refund.",E-commerce,High,PUBLIC_SOURCE
+COMPHIG00145,"Can you please help me with this: my card was declined, inform of an error with payments",E-commerce,High,PUBLIC_SOURCE
+COMPHIG00146,see in what cases can I ask for a refund I need an update.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00147,I need assistance regarding this: refund {{Currency Symbol}}{{Refund Amount}}.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00148,"Could you tell me about this: I cannot create a user, help to inform of a signup problem",E-commerce,High,PUBLIC_SOURCE
+COMPHIG00149,i need help to notify of an issue with payment What should I do?,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00150,I need assistance regarding this: help filing a reclamation against your business.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00151,Please help me resolve this: I do not know how I can file a claim,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00152,I do not know what I have to do to get refunds of my money What should I do?,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00153,I need assistance regarding this: i have a question about the cancellation of my {{Account Type}} account.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00154,I need help with this issue: There is an error in my academic record. I need more information.,Education,High,SYNTHETIC
+COMPHIG00155,where do i inform of payment problems Please advise.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00156,I need assistance regarding this: i try to see in what cases can i ask for a refund.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00157,I need help with this issue: I'm waiting for a refund of {{Refund Amount}} dollrs,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00158,I want assistance to notify of a problem with a registration Can you help?,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00159,"I need assistance regarding this: I do not want my freemium account, assistance canceling it.",E-commerce,High,PUBLIC_SOURCE
+COMPHIG00160,Can you please help me with this: I need hnelp to solve a trouble with online payment,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00161,rebating {{Currency Symbol}}{{Refund Amount}} Please let me know.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00162,I need assistance regarding this: can you help me to inform of a trouble with payment.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00163,Could you tell me about this: I need assistance to demand compensations of my money,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00164,error entering the new shipping address Please advise.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00165,I need assistance regarding this: is it possible to obtain reimbursements of my money.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00166,Please help me resolve this: I need help to notify of problems with sign-up,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00167,can you help me deleting the {{Account Type}} account I need an update.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00168,I need assistance regarding this: help me to make a customer reclamation against your company.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00169,Please help me resolve this: I'd like to lodge a damn consumer claim how could i do it,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00170,i dont know what i need to do to make a customer claim Please let me know.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00171,I need assistance regarding this: I want assistance to check how long refunds usually take.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00172,Can you please help me with this: is it possible to get rebates of money?,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00173,Can you help me? i cannot access the exam registration portal Please let me know.,Education,High,SYNTHETIC
+COMPHIG00174,I need assistance regarding this: need help regadring my sign-up.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00175,Please help me resolve this: I try to lodge a customer complaint,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00176,see in what situations can I ask for refunds Can you help?,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00177,I need assistance regarding this: how can I lodge a consumer claim against your business.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00178,I need help with this issue: I want to see in which cases can I request to be refunded,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00179,where can I get information about a gold account removal Please let me know.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00180,I need assistance regarding this: i dont know how i can notify of a trouble with payments.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00181,Please help me resolve this: problem with {{Account Category}} account terminations,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00182,wanna check in wshat situations can i ask for a refund I need an update.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00183,I need assistance regarding this: help solving a goddamn error with online payments.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00184,Please help me resolve this: is it possible to notify of troubles with online payment ?,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00185,"I can't pay, assistance notifying of an issue with payment I need an update.",E-commerce,High,PUBLIC_SOURCE
+COMPHIG00186,I need assistance regarding this: I want help to notify of a registration error.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00187,Can you please help me with this: I want help to get refunds,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00188,could you help me deleting a platinum account Please let me know.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00189,I need assistance regarding this: in which situations can I ask for refunds.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00190,I would like to know: I'm waiting for a compensation of {{Currency Symbol}}{{Refund Amount}},E-commerce,High,PUBLIC_SOURCE
+COMPHIG00191,help me seeing in what cases can I ask for refunds Please advise.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00192,I need assistance regarding this: close {{Account Type}} account.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00193,I need help with this issue: information about the removal of my {{Account Category}} account,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00194,My refund has not arrived yet Please let me know.,Small Business,High,SYNTHETIC
+COMPHIG00195,I need assistance regarding this: how do i inform of a problem with a signup.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00196,Could you tell me about this: want helpmaking a consumer reclamation against ur company,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00197,I am having an isuse with my signup Please let me know.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00198,I need assistance regarding this: i need help reporting a trouble with online payments.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00199,I would like to know: where do I lodge a claim against your business?,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00200,how can I inform of a trouble with payhments Can you help?,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00201,"I need assistance regarding this: I am not happy with your work, I need help making a claim.",E-commerce,High,PUBLIC_SOURCE
+COMPHIG00202,Can you please help me with this: I do not know how to notify of a trouble with payment,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00203,what do I need to do to request a fucking refund Can you help?,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00204,"I need assistance regarding this: I need to report a fucking registration error, help me.",E-commerce,High,PUBLIC_SOURCE
+COMPHIG00205,I need help with this issue: I have to check in which cases can I request a refund,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00206,"the experience with you was awful, file a customer complaint Please advise.",E-commerce,High,PUBLIC_SOURCE
+COMPHIG00207,I need assistance regarding this: I do not know what I need to do to close the {{Account Type}} account.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00208,Could you tell me about this: I do not know what I have to do to delete a {{Account Category}} account,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00209,how can I ask for a restitution of my money Please advise.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00210,I need assistance regarding this: I cannot report a registration error.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00211,I need help with this issue: Can my business get a refund for a damaged item? I need assistance.,Small Business,High,SYNTHETIC
+COMPHIG00212,i cant make payments notify of issujes Please advise.,E-commerce,High,PUBLIC_SOURCE
+COMPHIG00213,"I need assistance regarding this: I chose a wrong delivery address, can you help me update it.",E-commerce,High,PUBLIC_SOURCE
+COMPHIG00214,I would like to know: want help making an customer claim against your business,E-commerce,High,PUBLIC_SOURCE
+CASE000690,I cannot enroll in my selected subject. I need more information.,Education,Low,SYNTHETIC
+CASE000508,i need help to see at what time i can call customer support,E-commerce,Low,PUBLIC_SOURCE
+CASE002333,check what hours i can get in touch with customer service,E-commerce,Low,PUBLIC_SOURCE
+CASE000136,Can you help me? when is the last date to register for the exam?,Education,Low,SYNTHETIC
+CASE002137,I'm trying to see what hours i can call customer service,E-commerce,Low,PUBLIC_SOURCE
+CASE001653,I try to set up a shipping address,E-commerce,Low,PUBLIC_SOURCE
+CASE000041,When will my student ID be issued?,Education,Low,SYNTHETIC
+CASE000299,Can I pay by bank transfer? Please help.,Small Business,Low,SYNTHETIC
+CASE002910,I do not know how to list your allowed payment methods,E-commerce,Low,PUBLIC_SOURCE
+CASE000071,How can I download my marks card? I need more information.,Education,Low,SYNTHETIC
+CASE002478,can you help me see what hours I can call customer support?,E-commerce,Low,PUBLIC_SOURCE
+CASE001595,I have got to see what hours I can reach customer service,E-commerce,Low,PUBLIC_SOURCE
+CASE001269,what do I have to do to enter my new shipping address?,E-commerce,Low,PUBLIC_SOURCE
+CASE000792,I need assistance seeing how soon can I expect the purchase,E-commerce,Low,PUBLIC_SOURCE
+CASE001315,is it possible to chat with a human agent?,E-commerce,Low,PUBLIC_SOURCE
+CASE001670,check allowed payment methods,E-commerce,Low,PUBLIC_SOURCE
+CASE001528,help me to check the withdrawal penalties,E-commerce,Low,PUBLIC_SOURCE
+CASE001799,what do i have to do to sign up to ur company newsletter,E-commerce,Low,PUBLIC_SOURCE
+CASE002538,i want help towrite a comment for ur services,E-commerce,Low,PUBLIC_SOURCE
+CASE002700,would it be possible to speak to someone?,E-commerce,Low,PUBLIC_SOURCE
+CASE001163,how do I see the allowed payment methods?,E-commerce,Low,PUBLIC_SOURCE
+CASE001750,tell me what hours i can get in touch wit customer service,E-commerce,Low,PUBLIC_SOURCE
+CASE000458,check what payment options are available,E-commerce,Low,PUBLIC_SOURCE
+CASE002682,i want help to see when will my item arrive,E-commerce,Low,PUBLIC_SOURCE
+CASE000103,i do not know what i have to do to chat with somebody,E-commerce,Low,PUBLIC_SOURCE
+CASE000999,How can I contact customer support? I need assistance.,Small Business,Low,SYNTHETIC
+CASE000766,do you have a method to submit a review for your products?,E-commerce,Low,PUBLIC_SOURCE
+CASE001504,I need help getting in touch with customer assistance,E-commerce,Low,PUBLIC_SOURCE
+CASE000206,I don't know how I can talk to cstomer support,E-commerce,Low,PUBLIC_SOURCE
+CASE002615,"I want to submit my secondary shipping address, help me",E-commerce,Low,PUBLIC_SOURCE
+CASE000112,Is this product available in bulk quantities? I need assistance.,Small Business,Low,SYNTHETIC
+CASE001625,how do I write a comment about your services?,E-commerce,Low,PUBLIC_SOURCE
+CASE000023,How do I register for the semester exam? I need more information.,Education,Low,SYNTHETIC
+CASE002565,I want assistance to check how soon can Iexpect my purchase,E-commerce,Low,PUBLIC_SOURCE
+CASE001553,i dont know what to doto check ur accepted payment options,E-commerce,Low,PUBLIC_SOURCE
+CASE001533,is it possible to check how soon can i expect the item,E-commerce,Low,PUBLIC_SOURCE
+CASE000825,look for bill #00108,E-commerce,Low,PUBLIC_SOURCE
+CASE000084,"For my business, i need assistance with a recent purchase.",Small Business,Low,SYNTHETIC
+CASE000118,i have to contact an agent,E-commerce,Low,PUBLIC_SOURCE
+CASE001365,I don't know how to see the early exit charges,E-commerce,Low,PUBLIC_SOURCE
+CASE001584,do youhave an e-mail address to contact customer service?,E-commerce,Low,PUBLIC_SOURCE
+CASE002353,can you help me seeing when my article is going to arrive?,E-commerce,Low,PUBLIC_SOURCE
+CASE000135,What happens if my attendance falls below the required percentage? I need more information.,Education,Low,SYNTHETIC
+CASE001291,helpchecking the allowed payment options,E-commerce,Low,PUBLIC_SOURCE
+CASE002708,i want help leaving a comment,E-commerce,Low,PUBLIC_SOURCE
+CASE003142,is there an e-mail to send an opinion about your products?,E-commerce,Low,PUBLIC_SOURCE
+CASE001577,i have to subscribe to the corporate newsletter,E-commerce,Low,PUBLIC_SOURCE
+CASE002062,contact agent,E-commerce,Low,PUBLIC_SOURCE
+CASE003186,"you are not helpful, how to chat with an agent?",E-commerce,Low,PUBLIC_SOURCE
+CASE000817,I need help to list the accepted payment options,E-commerce,Low,PUBLIC_SOURCE
+CASE002810,"I have to talk with customer support, I need help",E-commerce,Low,PUBLIC_SOURCE
+CASE000040,Can you help me? is attendance compulsory for this subject?,Education,Low,SYNTHETIC
+CASE000230,Can you help me? how many classes can I miss this semester?,Education,Low,SYNTHETIC
+CASE000405,I cannot enroll in my selected subject. Please help me.,Education,Low,SYNTHETIC
+CASE002424,I need assistance seeing what payment options are allowed,E-commerce,Low,PUBLIC_SOURCE
+CASE001255,i try to check how soon can i expect my article,E-commerce,Low,PUBLIC_SOURCE
+CASE000890,i have got to se how long the shipment takes how to do it,E-commerce,Low,PUBLIC_SOURCE
+CASE000245,"I have to see my bill, help me",E-commerce,Low,PUBLIC_SOURCE
+CASE003210,can I see the termination charges?,E-commerce,Low,PUBLIC_SOURCE
+CASE002290,what di i need to do to give a quick look at the bill #12588,E-commerce,Low,PUBLIC_SOURCE
+CASE001399,i cant speak with a person,E-commerce,Low,PUBLIC_SOURCE
+CASE002943,where can i find information about the methods for shipment,E-commerce,Low,PUBLIC_SOURCE
+CASE002613,can you help me unsubscribing to your corporate newsletter?,E-commerce,Low,PUBLIC_SOURCE
+CASE002217,can you show me what shipping options I have?,E-commerce,Low,PUBLIC_SOURCE
+CASE001359,can ya help me see what payment options ya accept,E-commerce,Low,PUBLIC_SOURCE
+CASE000573,When will my student ID be issued? I need more information.,Education,Low,SYNTHETIC
+CASE000671,"I have got to write a comment about a product, help me",E-commerce,Low,PUBLIC_SOURCE
+CASE001772,I'm trying to submit a shipping address,E-commerce,Low,PUBLIC_SOURCE
+CASE001206,I call to check how long it takes for the purchase to arrive,E-commerce,Low,PUBLIC_SOURCE
+CASE001738,i want assistance checking when will my item arrive,E-commerce,Low,PUBLIC_SOURCE
+CASE001478,i try to chat with a live agent,E-commerce,Low,PUBLIC_SOURCE
+CASE000684,I do not know how I can see the methods for shipping,E-commerce,Low,PUBLIC_SOURCE
+CASE002171,assistance to see ru accepted payment options,E-commerce,Low,PUBLIC_SOURCE
+CASE003038,problems setting the shipping address up,E-commerce,Low,PUBLIC_SOURCE
+CASE001959,talk to agent,E-commerce,Low,PUBLIC_SOURCE
+CASE002667,need to check ur accepted payment options,E-commerce,Low,PUBLIC_SOURCE
+CASE002364,help me seeing the early termination penalties,E-commerce,Low,PUBLIC_SOURCE
+CASE000058,How can I get my student ID card? Please help me.,Education,Low,SYNTHETIC
+CASE002512,how can I check what payment methods are allowed?,E-commerce,Low,PUBLIC_SOURCE
+CASE002748,can uhelp me to chat with somebody,E-commerce,Low,PUBLIC_SOURCE
+CASE003103,see what hours I can contact customer support,E-commerce,Low,PUBLIC_SOURCE
+CASE001450,need assistance speaking to a human agent,E-commerce,Low,PUBLIC_SOURCE
+CASE001606,I want assistance to list your payment modalities,E-commerce,Low,PUBLIC_SOURCE
+CASE002902,can uhelp me unsubscribing from the company newsletter,E-commerce,Low,PUBLIC_SOURCE
+CASE001432,I don't know how I can speak with an operator,E-commerce,Low,PUBLIC_SOURCE
+CASE001682,I need information about the methods for shipment,E-commerce,Low,PUBLIC_SOURCE
+CASE001062,Can you help me? my student ID is not working.,Education,Low,SYNTHETIC
+CASE001127,where to see how long it takes for the item to arrive?,E-commerce,Low,PUBLIC_SOURCE
+CASE001675,"I have got to check your money back guarantee, how to do it?",E-commerce,Low,PUBLIC_SOURCE
+CASE000315,Can you help me? what time does my examination start?,Education,Low,SYNTHETIC
+CASE002579,I'm trying to see how long it takes for my product to arrive,E-commerce,Low,PUBLIC_SOURCE
+CASE001228,need help to see what shipping methods are there,E-commerce,Low,PUBLIC_SOURCE
+CASE003115,I need help to enter the secondaryshipping address,E-commerce,Low,PUBLIC_SOURCE
+CASE000459,see what hours i can reach customer service,E-commerce,Low,PUBLIC_SOURCE
+CASE001807,could you help me see how soon can I expect my parcel?,E-commerce,Low,PUBLIC_SOURCE
+CASE000509,Can you provide the specifications for this product? as soon as possible.,Small Business,Low,SYNTHETIC
+CASE000735,help to check what hours I can call customer support,E-commerce,Low,PUBLIC_SOURCE
+CASE001555,"I have to speak to customer service , can I get some help?",E-commerce,Low,PUBLIC_SOURCE
+CASE000322,help to chat with a damn operator,E-commerce,Low,PUBLIC_SOURCE
+CASE001142,can you help me to sign up to the corporate newsletter?,E-commerce,Low,PUBLIC_SOURCE
+CASE002535,i want help leaving an opinion about ur services,E-commerce,Low,PUBLIC_SOURCE
+CASE001215,help me to check when will my article arrive,E-commerce,Low,PUBLIC_SOURCE
+CASE001846,show me the withdrawal penalties,E-commerce,Low,PUBLIC_SOURCE
+CASE002609,I have got to unsubscribe from your newsletter,E-commerce,Low,PUBLIC_SOURCE
+CASE000493,want help to see ur allowedpayment modalities,E-commerce,Low,PUBLIC_SOURCE
+CASE001297,wanna see at what time i can reach customer assistance,E-commerce,Low,PUBLIC_SOURCE
+CASE003147,I need assistance to check the early exit penalty,E-commerce,Low,PUBLIC_SOURCE
+CASE000080,Can you provide the specifications for this product?,Small Business,Low,SYNTHETIC
+CASE002944,I want assistance to talk with an assistant,E-commerce,Low,PUBLIC_SOURCE
+CASE001827,"the secondary shipping address is not valid, help me",E-commerce,Low,PUBLIC_SOURCE
+CASE000107,Can I apply for attendance shortage condonation? I need more information.,Education,Low,SYNTHETIC
+CASE000658,I do not know how to see when will my product arrive,E-commerce,Low,PUBLIC_SOURCE
+CASE003005,"I need to leave a review about a product, how to do it?",E-commerce,Low,PUBLIC_SOURCE
+CASE001739,trouble setting up my secondary shipping address,E-commerce,Low,PUBLIC_SOURCE
+CASE002077,I don't know how to contact a person,E-commerce,Low,PUBLIC_SOURCE
+CASE002267,can ya direct to me an assistant,E-commerce,Low,PUBLIC_SOURCE
+CASE000184,setting up new shipping address,E-commerce,Low,PUBLIC_SOURCE
+CASE002557,help me list your accepted payment methods,E-commerce,Low,PUBLIC_SOURCE
+CASE002995,help me see what damn shipment methods are available,E-commerce,Low,PUBLIC_SOURCE
+CASE002770,contact a human agent,E-commerce,Low,PUBLIC_SOURCE
+CASE001202,how do i check at what time i can call customer service,E-commerce,Low,PUBLIC_SOURCE
+CASE000827,Can you help me? i lost my student ID card. What should I do?,Education,Low,SYNTHETIC
+CASE000276,My business payment failed. as soon as possible.,Small Business,Low,SYNTHETIC
+CASE000503,Do you offer products suitable for small businesses? I need assistance.,Small Business,Low,SYNTHETIC
+CASE001778,is it possible to speak to someone ?,E-commerce,Low,PUBLIC_SOURCE
+CASE000600,"I have got to see what shipping methods are there, help me",E-commerce,Low,PUBLIC_SOURCE
+CASE001673,help to speak with customer support,E-commerce,Low,PUBLIC_SOURCE
+CASE001970,show me in which situations can I ask to be reimbursed,E-commerce,Low,PUBLIC_SOURCE
+CASE002571,I have got to contact customre support,E-commerce,Low,PUBLIC_SOURCE
+CASE002161,I don't know how I can get in touch with customer support,E-commerce,Low,PUBLIC_SOURCE
+CASE001339,I do not know what I have to do to speak with an operator,E-commerce,Low,PUBLIC_SOURCE
+CASE002043,want assistance to see the terminatoin charges,E-commerce,Low,PUBLIC_SOURCE
+CASE002081,I need to list th payment methods,E-commerce,Low,PUBLIC_SOURCE
+CASE003073,I need help to check the bloody allowed payment options,E-commerce,Low,PUBLIC_SOURCE
+CASE000779,What payment methods do you accept for business customers? as soon as possible.,Small Business,Low,SYNTHETIC
+CASE000108,When will the semester exam timetable be released?,Education,Low,SYNTHETIC
+CASE001157,assistance seeing in what cases can i request reimbursements,E-commerce,Low,PUBLIC_SOURCE
+CASE000899,I want to check how long the shipping takes,E-commerce,Low,PUBLIC_SOURCE
+CASE000854,i wan assistance checking how soon can i expect the purchase,E-commerce,Low,PUBLIC_SOURCE
+CASE000431,What is your return policy? Please help.,Small Business,Low,SYNTHETIC
+CASE000496,How do I renew a library book?,Education,Low,SYNTHETIC
+CASE002240,i need assistance to check how long the shgipment takes,E-commerce,Low,PUBLIC_SOURCE
+CASE000329,What are the eligibility requirements for placements?,Education,Low,SYNTHETIC
+CASE000837,I have to check in which cases can I request refdunds,E-commerce,Low,PUBLIC_SOURCE
+CASE001563,I do not know how to contact customer service,E-commerce,Low,PUBLIC_SOURCE
+CASE002631,I am trying to see the early exit penalties,E-commerce,Low,PUBLIC_SOURCE
+CASE000773,i want assistance seeing the early exit charges,E-commerce,Low,PUBLIC_SOURCE
+CASE000139,assistance seeing how soon can i expect the item,E-commerce,Low,PUBLIC_SOURCE
+CASE000312,How can I get the student ID card?,Education,Low,SYNTHETIC
+CASE002678,help me see in what situations can i request my money back,E-commerce,Low,PUBLIC_SOURCE
+CASE002419,wanna check in what cases can i ask to be reimbursed,E-commerce,Low,PUBLIC_SOURCE
+CASE000015,Can you help me? i need a copy of the examination timetable.,Education,Low,SYNTHETIC
+CASE002849,"I need to call damn customer support, how could I do it?",E-commerce,Low,PUBLIC_SOURCE
+CASE001977,I don't know what I need to do to contact a live agent,E-commerce,Low,PUBLIC_SOURCE
+CASE003273,I want help seeing how soonj can I expect my parcel,E-commerce,Low,PUBLIC_SOURCE
+CASE002540,need assistance seeing the payment methods,E-commerce,Low,PUBLIC_SOURCE
+CASE000701,I need to see in what situations can I ask to be reimbursed,E-commerce,Low,PUBLIC_SOURCE
+CASE000326,y i cant set my secondary deilvery address valid up,E-commerce,Low,PUBLIC_SOURCE
+CASE001076,help mke chatting with a person,E-commerce,Low,PUBLIC_SOURCE
+CASE000783,What happens if the attendance falls below the required percentage?,Education,Low,SYNTHETIC
+CASE000242,Can you help with a supplier issue? Please help.,Small Business,Low,SYNTHETIC
+CASE001491,i dont know what to do to locate my bill from {{Person Name}},E-commerce,Low,PUBLIC_SOURCE
+CASE001638,i need help to ese what hours i can reach customer support,E-commerce,Low,PUBLIC_SOURCE
+CASE000279,"I need to speak to customer assistance, how can I do it?",E-commerce,Low,PUBLIC_SOURCE
+CASE000765,help me sign up to ur newsleter,E-commerce,Low,PUBLIC_SOURCE
+CASE002275,I do not know how to call customer service,E-commerce,Low,PUBLIC_SOURCE
+CASE002494,what do I need to do to check the goddamn shipping options?,E-commerce,Low,PUBLIC_SOURCE
+CASE001416,I want to talk to a goddamn human agent,E-commerce,Low,PUBLIC_SOURCE
+CASE002003,i try to check what paymnt payment modalities ya accept,E-commerce,Low,PUBLIC_SOURCE
+CASE002640,I need help checking your payment modalities,E-commerce,Low,PUBLIC_SOURCE
+CASE001306,i want assistance to list the payment methods,E-commerce,Low,PUBLIC_SOURCE
+CASE000961,I want assistance to check the available payment modalities,E-commerce,Low,PUBLIC_SOURCE
+CASE000076,My student ID is not working. I need more information.,Education,Low,SYNTHETIC
+CASE000485,Where can I view my grades?,Education,Low,SYNTHETIC
+CASE002741,"I want to write a review about your company, how do I do it?",E-commerce,Low,PUBLIC_SOURCE
+CASE000228,My business payment failed.,Small Business,Low,SYNTHETIC
+CASE000263,What documents are required for a scholarship? Please help me.,Education,Low,SYNTHETIC
+CASE001905,there are issues setting up the new shipping address,E-commerce,Low,PUBLIC_SOURCE
+CASE002994,I don't know what to do to chat with somebody,E-commerce,Low,PUBLIC_SOURCE
+CASE000604,I try to see in what cases can I ask to be reimbursed,E-commerce,Low,PUBLIC_SOURCE
+CASE003149,I do not know what I have to do to chat with a human agent,E-commerce,Low,PUBLIC_SOURCE
+CASE002346,talk to assistant,E-commerce,Low,PUBLIC_SOURCE
+CASE001006,How can I replace a damaged ID card? Please help me.,Education,Low,SYNTHETIC
+CASE001171,I can't submit a new shipping address,E-commerce,Low,PUBLIC_SOURCE
+CASE000514,Can you help me? how can I download my marks card?,Education,Low,SYNTHETIC
+CASE001888,need help to speak to a uhman agent,E-commerce,Low,PUBLIC_SOURCE
+CASE003050,see early exit penalty,E-commerce,Low,PUBLIC_SOURCE
+CASE000834,assistance to talk to customer support,E-commerce,Low,PUBLIC_SOURCE
+CASE002546,I am trying to check what hours I can call customer support,E-commerce,Low,PUBLIC_SOURCE
+CASE001869,"I would like to locate my bill #12588, can you help me?",E-commerce,Low,PUBLIC_SOURCE
+CASE000463,I cannot enroll in the selected subject.,Education,Low,SYNTHETIC
+CASE002755,help to check the early termination charge,E-commerce,Low,PUBLIC_SOURCE
+CASE001457,could I unsubscribe to your corporate newsletter?,E-commerce,Low,PUBLIC_SOURCE
+CASE000482,When is the scholarship application deadline? I need more information.,Education,Low,SYNTHETIC
+CASE001092,"I want to check the shipping options, can I get some help?",E-commerce,Low,PUBLIC_SOURCE
+CASE000523,Can I apply for a company if I have a backlog? I need more information.,Education,Low,SYNTHETIC
+CASE001318,help to check what hours I can call customer service,E-commerce,Low,PUBLIC_SOURCE
+CASE003011,how to unsubscribe from ur company newsletter,E-commerce,Low,PUBLIC_SOURCE
+CASE001377,How many classes can I miss this semester? Please help me.,Education,Low,SYNTHETIC
+CASE000957,how can I talk with a human agent?,E-commerce,Low,PUBLIC_SOURCE
+CASE000835,help checking what hours customer service available is,E-commerce,Low,PUBLIC_SOURCE
+CASE001267,help to receive your newslettyer,E-commerce,Low,PUBLIC_SOURCE
+CASE002990,I have a trouble setting the secondaru shipping address up,E-commerce,Low,PUBLIC_SOURCE
+CASE000282,I need assistance getting in touch with customer support,E-commerce,Low,PUBLIC_SOURCE
+CASE002350,can you help me to speak with a bloody operator?,E-commerce,Low,PUBLIC_SOURCE
+CASE001558,check the allowed payment options,E-commerce,Low,PUBLIC_SOURCE
+CASE002401,can you help me talking with customer assistance?,E-commerce,Low,PUBLIC_SOURCE
+CASE000358,What time does my examination start? Please help me.,Education,Low,SYNTHETIC
+CASE002589,i have to see how long it takes for the package to arrive,E-commerce,Low,PUBLIC_SOURCE
+CASE000256,What is the fine for an overdue book? I need more information.,Education,Low,SYNTHETIC
+CASE003177,can you help me speaking to an assistant?,E-commerce,Low,PUBLIC_SOURCE
+CASE000057,Can you help me? how do I request an official transcript?,Education,Low,SYNTHETIC
+CASE002046,i want help listing the available payment options,E-commerce,Low,PUBLIC_SOURCE
+CASE002881,I need help seeing the bills from {{Person Name}},E-commerce,Low,PUBLIC_SOURCE
+CASE001226,could you help me seeing when will my parcel arrive?,E-commerce,Low,PUBLIC_SOURCE
+CASE002151,see under what circumstances can i ask for reimbursements,E-commerce,Low,PUBLIC_SOURCE
+CASE002838,assistance to leave a comment for a service,E-commerce,Low,PUBLIC_SOURCE
+CASE000007,Can I apply for attendance shortage condonation?,Education,Low,SYNTHETIC
+CASE001617,i want assistance seeing ur avbailable payment options,E-commerce,Low,PUBLIC_SOURCE
+CASE002794,can you help me to check how soon can I expect my item?,E-commerce,Low,PUBLIC_SOURCE
+CASE000896,My business payment failed. Please help.,Small Business,Low,SYNTHETIC
+CASE001077,help me see the options for shipping,E-commerce,Low,PUBLIC_SOURCE
+CASE000211,"For my business, do you offer products suitable for small businesses?",Small Business,Low,SYNTHETIC
+CASE001775,can uhelp me see what hours i can call customer service,E-commerce,Low,PUBLIC_SOURCE
+CASE002698,can i see what hours customer support availabl is,E-commerce,Low,PUBLIC_SOURCE
+CASE002758,ned assistance checking ur available payment methods,E-commerce,Low,PUBLIC_SOURCE
+CASE001337,"I want to check the withdrawal charges, how to do it?",E-commerce,Low,PUBLIC_SOURCE
+CASE001156,help me see your allowed payment options,E-commerce,Low,PUBLIC_SOURCE
+CASE000407,How do I upgrade our business plan? as soon as possible.,Small Business,Low,SYNTHETIC
+CASE000885,want help checking the allowed payment methods,E-commerce,Low,PUBLIC_SOURCE
+CASE000097,Is this product available in bulk quantities? as soon as possible.,Small Business,Low,SYNTHETIC
+CASE002986,could you help me enter another shipping address?,E-commerce,Low,PUBLIC_SOURCE
+CASE002202,"I need to check your reimbursement policy, help me",E-commerce,Low,PUBLIC_SOURCE
+CASE001204,is it possible to talk with customer assistance?,E-commerce,Low,PUBLIC_SOURCE
+CASE000207,What happens if my attendance falls below the required percentage? Please help me.,Education,Low,SYNTHETIC
+CASE000550,Can you help me? when will the semester exam timetable be released?,Education,Low,SYNTHETIC
+CASE000527,I am trying to submit a new shipping address,E-commerce,Low,PUBLIC_SOURCE
+CASE001239,I want to check what payment payment modalities yu accept,E-commerce,Low,PUBLIC_SOURCE
+CASE000891,I do not know what to do to set my shipping address up,E-commerce,Low,PUBLIC_SOURCE
+CASE000124,I need a copy of the examination timetable.,Education,Low,SYNTHETIC
+CASE001466,I would like to see the termination charges,E-commerce,Low,PUBLIC_SOURCE
+CASE000718,Where can I view the grades?,Education,Low,SYNTHETIC
+CASE000147,"For my business, can someone help resolve this issue?",Small Business,Low,SYNTHETIC
+CASE002327,I want to speak with someone,E-commerce,Low,PUBLIC_SOURCE
+CASE001039,need to get in touch with customer assistance how to do it,E-commerce,Low,PUBLIC_SOURCE
+CASE000714,"I have to see the shipment methods, can you help me?",E-commerce,Low,PUBLIC_SOURCE
+CASE003245,I do not know how I could write an opinion for a product,E-commerce,Low,PUBLIC_SOURCE
+CASE002425,help subscribing to your corporate newsletter,E-commerce,Low,PUBLIC_SOURCE
+CASE000483,how do I talk to an operator?,E-commerce,Low,PUBLIC_SOURCE
+CASE002888,I am trying to list your acceoted payment options,E-commerce,Low,PUBLIC_SOURCE
+CASE000731,I do not know how I can list the goddamn payment methods,E-commerce,Low,PUBLIC_SOURCE
+CASE000392,I lost my student ID card. What should I do? Please help me.,Education,Low,SYNTHETIC
+CASE002297,what is your customer service phone number?,E-commerce,Low,PUBLIC_SOURCE
+CASE000117,How do I renew a library book? Please help me.,Education,Low,SYNTHETIC
+CASE002048,"I need to check your reimbursement policy , help me",E-commerce,Low,PUBLIC_SOURCE
+CASE001187,help me writing an opinion for your products,E-commerce,Low,PUBLIC_SOURCE
+CASE001547,"I need to unsubscribe from your newsletter, how can I do it?",E-commerce,Low,PUBLIC_SOURCE
+CASE001706,can ya show me at what time customer service available is,E-commerce,Low,PUBLIC_SOURCE
+CASE003208,i do not know what to do to contact a human agent,E-commerce,Low,PUBLIC_SOURCE
+CASE002704,what is the customer service mail,E-commerce,Low,PUBLIC_SOURCE
+CASE002923,where to receive your company newsletter?,E-commerce,Low,PUBLIC_SOURCE
+CASE000698,I don't know how to see how soon can I expect my parcel,E-commerce,Low,PUBLIC_SOURCE
+CASE002125,"I need to speak with customer support, help me",E-commerce,Low,PUBLIC_SOURCE
+CASE001544,where can I check what hours I can contact customer support?,E-commerce,Low,PUBLIC_SOURCE
+CASE001158,I do not know what to do to write a comment about a product,E-commerce,Low,PUBLIC_SOURCE
+CASE003268,I want assistance to sign up to the company newsletter,E-commerce,Low,PUBLIC_SOURCE
+CASE001133,I have to check how soon can I expect the purchase,E-commerce,Low,PUBLIC_SOURCE
+CASE001542,I need assistance giving a quick look at bill #37777,E-commerce,Low,PUBLIC_SOURCE
+CASE000620,How can I contact customer support?,Small Business,Low,SYNTHETIC
+CASE002913,show me in which situations can I ask for reimbursements,E-commerce,Low,PUBLIC_SOURCE
+CASE001304,where do I see the termination penalties?,E-commerce,Low,PUBLIC_SOURCE
+CASE001026,How do I return a product?,Small Business,Low,SYNTHETIC
+CASE002592,how do i ese when will my package arrive,E-commerce,Low,PUBLIC_SOURCE
+CASE001922,assistance to list the payment options,E-commerce,Low,PUBLIC_SOURCE
+CASE001229,need assistance to see your accepted payment options,E-commerce,Low,PUBLIC_SOURCE
+CASE000703,Can I pay by bank transfer? I need assistance.,Small Business,Low,SYNTHETIC
+CASE000343,Can you help me? can I apply for a company if I have a backlog?,Education,Low,SYNTHETIC
+CASE002057,where can i list ur accepted payment methods,E-commerce,Low,PUBLIC_SOURCE
+CASE002762,I need help to check what shipping methods are available,E-commerce,Low,PUBLIC_SOURCE
+CASE001987,I need to see in which cases can I ask for reimbursements,E-commerce,Low,PUBLIC_SOURCE
+CASE000132,how can I check your reimbursement policy?,E-commerce,Low,PUBLIC_SOURCE
+CASE001752,assistance taking a quick look at the bill #00108,E-commerce,Low,PUBLIC_SOURCE
+CASE002848,are the charges of ur services reimbursable,E-commerce,Low,PUBLIC_SOURCE
+CASE001906,I do not know how to speak to an assistant,E-commerce,Low,PUBLIC_SOURCE
+CASE002229,I need help talking with customer service,E-commerce,Low,PUBLIC_SOURCE
+CASE001083,where can i check how soon cn i expect my shipment,E-commerce,Low,PUBLIC_SOURCE
+CASE002145,can I check how soon can I expect the parcel?,E-commerce,Low,PUBLIC_SOURCE
+CASE000462,Can you help me? what are the eligibility requirements for placements?,Education,Low,SYNTHETIC
+CASE002177,what do I need to do to see bill #37777?,E-commerce,Low,PUBLIC_SOURCE
+CASE001631,need to receive the newsletter,E-commerce,Low,PUBLIC_SOURCE
+CASE003104,where could I submit the shipping address?,E-commerce,Low,PUBLIC_SOURCE
+CASE000470,Can you help with a supplier issue? I need assistance.,Small Business,Low,SYNTHETIC
+CASE001381,can you help me to talk to somebody?,E-commerce,Low,PUBLIC_SOURCE
+CASE003065,can I unsubscribe from your newsletter?,E-commerce,Low,PUBLIC_SOURCE
+CASE002413,how do I check what hours I can call customer support?,E-commerce,Low,PUBLIC_SOURCE
+CASE002542,how could i see what payment options ya accept,E-commerce,Low,PUBLIC_SOURCE
+CASE001268,I need to see the available payment modalities,E-commerce,Low,PUBLIC_SOURCE
+CASE000350,Can I get more information about this product? Please help.,Small Business,Low,SYNTHETIC
+CASE001667,want assistance to chat with a person,E-commerce,Low,PUBLIC_SOURCE
+CASE000301,What are the eligibility requirements for scholarships? Please help me.,Education,Low,SYNTHETIC
+CASE001000,show me under which circumstances can I ask to be reimbursed,E-commerce,Low,PUBLIC_SOURCE
+CASE001235,will you transfer to me somebody?,E-commerce,Low,PUBLIC_SOURCE
+CASE002583,show me what payment options are accepted,E-commerce,Low,PUBLIC_SOURCE
+CASE001360,where can I get information about the shipping period?,E-commerce,Low,PUBLIC_SOURCE
+CASE000226,Can you help me? how do I register for campus placements?,Education,Low,SYNTHETIC
+CASE000063,What are the eligibility requirements for scholarships?,Education,Low,SYNTHETIC
+CASE000413,can you help me to check what shipment methods I have?,E-commerce,Low,PUBLIC_SOURCE
+CASE000479,What is the minimum attendance required for my course? I need more information.,Education,Low,SYNTHETIC
+CASE000252,When will the semester exam timetable be released? Please help me.,Education,Low,SYNTHETIC
+CASE000163,Can you help me? can I apply for attendance shortage condonation?,Education,Low,SYNTHETIC
+CASE002266,i do not knwo how to see the payment methods,E-commerce,Low,PUBLIC_SOURCE
+CASE003107,can you help me checking the options for shipment?,E-commerce,Low,PUBLIC_SOURCE
+CASE000672,Can you help with a supplier issue?,Small Business,Low,SYNTHETIC
+CASE001217,want help giving a quick look at my inovice #85632,E-commerce,Low,PUBLIC_SOURCE
+CASE000776,"For my business, how can I contact customer support?",Small Business,Low,SYNTHETIC
+CASE001265,I want help leaving an opinion about your services,E-commerce,Low,PUBLIC_SOURCE
+CASE002725,where do I find the bill from {{Person Name}}?,E-commerce,Low,PUBLIC_SOURCE
+CASE002231,I cannot submit another shipping address,E-commerce,Low,PUBLIC_SOURCE
+CASE002010,how can i get information about receiving ur newsletter,E-commerce,Low,PUBLIC_SOURCE
+CASE001719,i want help listing ur payment options,E-commerce,Low,PUBLIC_SOURCE
+CASE000374,My student ID is not working.,Education,Low,SYNTHETIC
+CASE000217,Can you help me? what are the library opening hours?,Education,Low,SYNTHETIC
+CASE001549,I'm calling to leave a comment about a service,E-commerce,Low,PUBLIC_SOURCE
+CASE000188,What is the fine for an overdue book? Please help me.,Education,Low,SYNTHETIC
+CASE001777,I want assistance to locate bill #00108,E-commerce,Low,PUBLIC_SOURCE
+CASE000540,I have to conract customer assistance,E-commerce,Low,PUBLIC_SOURCE
+CASE000788,how can I sign up to your corporate nnewsletter?,E-commerce,Low,PUBLIC_SOURCE
+CASE002680,ohw do I check how soon can I expect the item?,E-commerce,Low,PUBLIC_SOURCE
+CASE001111,want assistance to leave an opinion about a service,E-commerce,Low,PUBLIC_SOURCE
+CASE002603,"I need to see when will my package arrive, help me",E-commerce,Low,PUBLIC_SOURCE
+CASE001926,I try to see when will my product arrive,E-commerce,Low,PUBLIC_SOURCE
+CASE000931,How do I register for a course? I need more information.,Education,Low,SYNTHETIC
+CASE002772,can I check how long the shipping takes?,E-commerce,Low,PUBLIC_SOURCE
+CASE001136,could I see the billfrom {{Person Name}}?,E-commerce,Low,PUBLIC_SOURCE
+CASE000863,help to see how soon can I expect my pacjage,E-commerce,Low,PUBLIC_SOURCE
+CASE000411,Can I get more information about this product? I need assistance.,Small Business,Low,SYNTHETIC
+CASE001164,is it possible to unsubscribe from the company newsletter,E-commerce,Low,PUBLIC_SOURCE
+CASE003246,i dont know how to see the shipping options,E-commerce,Low,PUBLIC_SOURCE
+CASE003301,I don't know how I can speak to a human agent,E-commerce,Low,PUBLIC_SOURCE
+CASE001471,could you help me talking with customer assistance?,E-commerce,Low,PUBLIC_SOURCE
+CASE000500,do ya ship toCanada,E-commerce,Low,PUBLIC_SOURCE
+CASE000054,Can you provide the specifications for this product? I need assistance.,Small Business,Low,SYNTHETIC
+CASE002166,"you aren't helpful, how can I chat wiuth someone?",E-commerce,Low,PUBLIC_SOURCE
+CASE000244,wanna talk with customer assistance,E-commerce,Low,PUBLIC_SOURCE
+CASE002951,how do I talk to somebody?,E-commerce,Low,PUBLIC_SOURCE
+CASE002752,I have got to locate hte bills from {{Person Name}},E-commerce,Low,PUBLIC_SOURCE
+CASE001859,could I see the goddamn available payment methods?,E-commerce,Low,PUBLIC_SOURCE
+CASE003018,I do not know how I can speak to an agent,E-commerce,Low,PUBLIC_SOURCE
+CASE003002,"I lost my bill from {{Person Name}}, will you show it to me?",E-commerce,Low,PUBLIC_SOURCE
+CASE001122,want help to see the withdrawal charges,E-commerce,Low,PUBLIC_SOURCE
+CASE001916,wanna look for my bill #85632 could i get some help,E-commerce,Low,PUBLIC_SOURCE
+CASE001726,i have lost my bill from {{Person Name}} find it for me,E-commerce,Low,PUBLIC_SOURCE
+CASE002979,"I want to receive the fucking corporate newsletter, help me",E-commerce,Low,PUBLIC_SOURCE
+CASE000561,How do I return a product? as soon as possible.,Small Business,Low,SYNTHETIC
+CASE002662,check bills from {{Person Name}},E-commerce,Low,PUBLIC_SOURCE
+CASE002977,i need assistance to see when will my product arrive,E-commerce,Low,PUBLIC_SOURCE
+CASE000323,i do not know what to do to talk with an operator,E-commerce,Low,PUBLIC_SOURCE
+CASE001200,i try to speak with someone,E-commerce,Low,PUBLIC_SOURCE
+CASE001597,I need assistance with a recent purchase. Please help.,Small Business,Low,SYNTHETIC
+CASE001349,help to see your money back guarantee,E-commerce,Low,PUBLIC_SOURCE
+CASE002136,I don't know what I have to do to see the bill #00108,E-commerce,Low,PUBLIC_SOURCE
+CASE000067,What payment methods do you accept for business customers? I need assistance.,Small Business,Low,SYNTHETIC
+CASE001574,need to check what shipping options are available,E-commerce,Low,PUBLIC_SOURCE
+CASE000796,i need help checking what payment options are accepted,E-commerce,Low,PUBLIC_SOURCE
+CASE000318,Can you help me? how do I renew a library book?,Education,Low,SYNTHETIC
+CASE002141,"I have got to leave a review about your company, help me",E-commerce,Low,PUBLIC_SOURCE
+CASE002415,I do not know how to get in touch with customer assistance,E-commerce,Low,PUBLIC_SOURCE
+CASE002803,help to see in what cases can I ask for a reimbursement,E-commerce,Low,PUBLIC_SOURCE
+CASE000348,Can you provide the specifications for this product? Please help.,Small Business,Low,SYNTHETIC
+CASE002130,i want help talking with an agent,E-commerce,Low,PUBLIC_SOURCE
+CASE001903,ya have a free number to talk with customer service,E-commerce,Low,PUBLIC_SOURCE
+CASE000730,i need assistance to set my new delovery address up,E-commerce,Low,PUBLIC_SOURCE
+CASE002935,"I have got to submit the secondary shipping address, help me",E-commerce,Low,PUBLIC_SOURCE
+CASE002016,I need assistance checking your reimbursement policy,E-commerce,Low,PUBLIC_SOURCE
+CASE001032,I have got to check what hours customer service available is,E-commerce,Low,PUBLIC_SOURCE
+CASE000820,Can someone help resolve this issue? I need assistance.,Small Business,Low,SYNTHETIC
+CASE000361,I need a copy of the examination timetable. I need more information.,Education,Low,SYNTHETIC
+CASE000689,"For my business, what is your return policy?",Small Business,Low,SYNTHETIC
+CASE000324,assistance to see what payment options are allowed,E-commerce,Low,PUBLIC_SOURCE
+CASE002273,help to see in what cases can i request my money back,E-commerce,Low,PUBLIC_SOURCE
+CASE001194,is there an address to submit an opinion for ur company,E-commerce,Low,PUBLIC_SOURCE
+CASE000807,help to see in which cases can i request my money back,E-commerce,Low,PUBLIC_SOURCE
+CASE000654,How do I upgrade our business plan? I need assistance.,Small Business,Low,SYNTHETIC
+CASE001342,I would like to list the payment modalities,E-commerce,Low,PUBLIC_SOURCE
+CASE002149,can uhelp me check the bloody early termination charge,E-commerce,Low,PUBLIC_SOURCE
+CASE003266,will you show me how soon canh I expect my parcel?,E-commerce,Low,PUBLIC_SOURCE
+CASE002452,where to check how soon can I expect the shipment?,E-commerce,Low,PUBLIC_SOURCE
+CASE000536,Can you help me? how can I apply for a scholarship?,Education,Low,SYNTHETIC
+CASE002533,what do i have to do to locate my biull #85632,E-commerce,Low,PUBLIC_SOURCE
+CASE000607,Can I pay by bank transfer? as soon as possible.,Small Business,Low,SYNTHETIC
+CASE000676,I cannot enroll in my selected subject.,Education,Low,SYNTHETIC
+CASE000769,I need help listing the available payment options,E-commerce,Low,PUBLIC_SOURCE
+CASE000907,I want help to check your bloody available payment methods,E-commerce,Low,PUBLIC_SOURCE
+CASE000367,Is attendance compulsory for this subject? I need more information.,Education,Low,SYNTHETIC
+CASE003122,want help leaving a coment for ur products,E-commerce,Low,PUBLIC_SOURCE
+CASE000919,want help to see at what time i can call customer support,E-commerce,Low,PUBLIC_SOURCE
+CASE002513,I do not know how to see when will my item arrive,E-commerce,Low,PUBLIC_SOURCE
+CASE003234,I try to see th accepted payment options,E-commerce,Low,PUBLIC_SOURCE
+CASE001817,leave review for a service,E-commerce,Low,PUBLIC_SOURCE
+CASE001969,help to talk to customer service,E-commerce,Low,PUBLIC_SOURCE
+CASE001166,What happens if my attendance falls below the required percentage?,Education,Low,SYNTHETIC
+CASE001002,"I have to check the shipment options, help me",E-commerce,Low,PUBLIC_SOURCE
+CASE001326,how do i cyat with a person,E-commerce,Low,PUBLIC_SOURCE
+CASE000175,How do I upgrade our business plan? Please help.,Small Business,Low,SYNTHETIC
+CASE000752,Can you help me? how can I get my student ID card?,Education,Low,SYNTHETIC
+CASE002593,i want help seeign when will my product arrive,E-commerce,Low,PUBLIC_SOURCE
+CASE002444,where can I sign up to the newsletter?,E-commerce,Low,PUBLIC_SOURCE
+CASE001487,what do i have to do to find my bills from {{Person Name}},E-commerce,Low,PUBLIC_SOURCE
+CASE001411,do you have an e-mai to send a review about a service?,E-commerce,Low,PUBLIC_SOURCE
+CASE000704,i have to talk to customer service,E-commerce,Low,PUBLIC_SOURCE
+CASE002440,"I have got to enter a new shipping address, help me",E-commerce,Low,PUBLIC_SOURCE
+CASE001451,"I have to see the early termination charge, can you help me?",E-commerce,Low,PUBLIC_SOURCE
+CASE000192,I need a copy of the examination timetable. Please help me.,Education,Low,SYNTHETIC
+CASE001551,how to check at what time I can call customer service?,E-commerce,Low,PUBLIC_SOURCE
+CASE002121,I want assistance to take a quick look at bill #85632,E-commerce,Low,PUBLIC_SOURCE
+CASE001820,i want assistance checking the termination penalty,E-commerce,Low,PUBLIC_SOURCE
+CASE001766,I want help talking with an assistant,E-commerce,Low,PUBLIC_SOURCE
+CASE002691,help seeing when will my package arrive,E-commerce,Low,PUBLIC_SOURCE
+CASE002602,"you are not helpful at all, help me contacting somebody",E-commerce,Low,PUBLIC_SOURCE
+CASE000186,I try to check what payment options are allowed,E-commerce,Low,PUBLIC_SOURCE
+CASE000100,How can I replace a damaged ID card?,Education,Low,SYNTHETIC
+CASE000171,Can you help me? how many books can I borrow from the library?,Education,Low,SYNTHETIC
+CASE003244,i have to check how soon can i expect tne article,E-commerce,Low,PUBLIC_SOURCE
+CASE000212,can i contact someone,E-commerce,Low,PUBLIC_SOURCE
+CASE002908,I cannot find the early termination charge,E-commerce,Low,PUBLIC_SOURCE
+CASE000537,submitting product review,E-commerce,Low,PUBLIC_SOURCE
+CASE002179,i cannot set up my new shipping address,E-commerce,Low,PUBLIC_SOURCE
+CASE001932,could uhelp me to contact an assistant,E-commerce,Low,PUBLIC_SOURCE
+CASE002816,"I am trying to find the shipping methods, I need help",E-commerce,Low,PUBLIC_SOURCE
+CASE001892,is it possible to list the available payment modalities ?,E-commerce,Low,PUBLIC_SOURCE
+CASE003123,i do not know what to do to look for thebill #00108,E-commerce,Low,PUBLIC_SOURCE
+CASE003277,I need help to speak to somebody,E-commerce,Low,PUBLIC_SOURCE
+CASE000235,When will the student ID be issued?,Education,Low,SYNTHETIC
+CASE000229,What is the fine for an overdue book?,Education,Low,SYNTHETIC
+CASE000336,I need assistance to chat with an operator,E-commerce,Low,PUBLIC_SOURCE
+CASE002907,"I need to speak with fucking customer assistance, help me",E-commerce,Low,PUBLIC_SOURCE
+CASE001565,where do I check how long it takes for my item to arrive?,E-commerce,Low,PUBLIC_SOURCE
+CASE003033,i want help to see ur allowed payment modalities,E-commerce,Low,PUBLIC_SOURCE
+CASE002903,how do I see your available payment modalities?,E-commerce,Low,PUBLIC_SOURCE
+CASE002716,"I want to list the available payment modalities, help me",E-commerce,Low,PUBLIC_SOURCE
+CASE001352,"I am looking for shipping period, will you help me?",E-commerce,Low,PUBLIC_SOURCE
+CASE002818,i need help seeing ur reimbursement policy,E-commerce,Low,PUBLIC_SOURCE
+CASE000055,I need help choosing the elective courses.,Education,Low,SYNTHETIC
+CASE000102,How many classes can I miss this semester?,Education,Low,SYNTHETIC
+CASE000841,how can I call customer service?,E-commerce,Low,PUBLIC_SOURCE
+CASE000193,My business payment failed. I need assistance.,Small Business,Low,SYNTHETIC
+CASE001289,Can you help me? what is the fine for an overdue book?,Education,Low,SYNTHETIC
+CASE002858,can you help me to set a shipping address up?,E-commerce,Low,PUBLIC_SOURCE
+CASE002504,"I have to see the early exit penalty, I need help",E-commerce,Low,PUBLIC_SOURCE
+CASE001078,need assistance to check when my product is gonna arrive,E-commerce,Low,PUBLIC_SOURCE
+CASE000652,I need help choosing my elective courses.,Education,Low,SYNTHETIC
+CASE002656,want assistance to see your payment modalities,E-commerce,Low,PUBLIC_SOURCE
+CASE001367,I want assistance chatting with someone,E-commerce,Low,PUBLIC_SOURCE
+CASE000364,what do I have to do to set up the new shipping addeess?,E-commerce,Low,PUBLIC_SOURCE
+CASE003013,need to speak to customersupport can ya help me,E-commerce,Low,PUBLIC_SOURCE
+CASE001313,how do i see ur accepted paument methods,E-commerce,Low,PUBLIC_SOURCE
+CASE002484,under what circumstances can I ask to be reimbursed?,E-commerce,Low,PUBLIC_SOURCE
+CASE001461,I want help to check what shipping methods are there,E-commerce,Low,PUBLIC_SOURCE
+CASE002985,where to see at what time I can call customer support?,E-commerce,Low,PUBLIC_SOURCE
+CASE000642,can I check the bloody payment methods?,E-commerce,Low,PUBLIC_SOURCE
+CASE002525,where to check what payment options are accepted?,E-commerce,Low,PUBLIC_SOURCE
+CASE001108,list the allowed payment modalities,E-commerce,Low,PUBLIC_SOURCE
+CASE003233,needc to talk to an assistant,E-commerce,Low,PUBLIC_SOURCE
+CASE000884,need assistance checking how soon can I expect the shipment,E-commerce,Low,PUBLIC_SOURCE
+CASE003176,looking for bill #37777,E-commerce,Low,PUBLIC_SOURCE
+CASE003296,"I want to see how soon can I expect my parcel, how to do it?",E-commerce,Low,PUBLIC_SOURCE
+CASE001700,I need help seeing the bloody termination penalty,E-commerce,Low,PUBLIC_SOURCE
+CASE001622,help me to unsubscribe from the company newsletter,E-commerce,Low,PUBLIC_SOURCE
+CASE002991,I need assistance taking a quick look at my bill #12588,E-commerce,Low,PUBLIC_SOURCE
+CASE000008,How can I replace a damaged ID card? I need more information.,Education,Low,SYNTHETIC
+CASE000149,tell me about subscribing to your corporate newsletter,E-commerce,Low,PUBLIC_SOURCE
+CASE000002,I lost the student ID card. What should I do?,Education,Low,SYNTHETIC
+CASE002276,I don't know how to speak with a humnan agent,E-commerce,Low,PUBLIC_SOURCE
+CASE002098,I don't know what I have to do to speak to somebody,E-commerce,Low,PUBLIC_SOURCE
+CASE000177,How many books can I borrow from the library? I need more information.,Education,Low,SYNTHETIC
+CASE000850,How many classes can I miss this semester? I need more information.,Education,Low,SYNTHETIC
+CASE000141,help to see when my purchase is going to arrive,E-commerce,Low,PUBLIC_SOURCE
+CASE001651,"I have to list your payment modalities, how do I do it?",E-commerce,Low,PUBLIC_SOURCE
+CASE000143,How can I apply for a scholarship? I need more information.,Education,Low,SYNTHETIC
+CASE003181,need to check what hours i can reach customer service,E-commerce,Low,PUBLIC_SOURCE
+CASE000129,Can I apply for a company if I have a backlog? Please help me.,Education,Low,SYNTHETIC
+CASE002681,I do not know how I can receive the newsletter,E-commerce,Low,PUBLIC_SOURCE
+CASE000187,I need assistance with a recent purchase.,Small Business,Low,SYNTHETIC
+CASE000844,I try to check in which cases can I ask for my money back,E-commerce,Low,PUBLIC_SOURCE
+CASE002058,how do i receive the corporate newsletter,E-commerce,Low,PUBLIC_SOURCE
+CASE001576,where can I list the payment options?,E-commerce,Low,PUBLIC_SOURCE
+CASE000895,Can you help me? how can I replace a damaged ID card?,Education,Low,SYNTHETIC
+CASE003328,need to check the withdrawal penalty will uhelp me,E-commerce,Low,PUBLIC_SOURCE
+CASE000521,Can someone help resolve this issue?,Small Business,Low,SYNTHETIC
+CASE003262,I have got to look for my bill #00108,E-commerce,Low,PUBLIC_SOURCE
+CASE000967,I do not know how I can check your allowed payment options,E-commerce,Low,PUBLIC_SOURCE
+CASE001632,how to unsubscribe from ur corporate newsletter,E-commerce,Low,PUBLIC_SOURCE
+CASE002471,need help to see ur available payment methods,E-commerce,Low,PUBLIC_SOURCE
+CASE002083,I don't know what to do to talk with an operator,E-commerce,Low,PUBLIC_SOURCE
+CASE001978,can uhelp me see what hours customer support available is,E-commerce,Low,PUBLIC_SOURCE
+CASE001101,i do not know how i could see ur payment modalities,E-commerce,Low,PUBLIC_SOURCE
+CASE000742,how to speak with somebody ?,E-commerce,Low,PUBLIC_SOURCE
+CASE003136,want help listing the accepted payment methods,E-commerce,Low,PUBLIC_SOURCE
+CASE002303,i want information about my fucking newsletter subscriptino,E-commerce,Low,PUBLIC_SOURCE
+CASE000928,I need help checking the early exit charge,E-commerce,Low,PUBLIC_SOURCE
+CASE000873,i have got to check the early exit pnalty,E-commerce,Low,PUBLIC_SOURCE
+CASE001486,i do not know how i can see the early termination penalties,E-commerce,Low,PUBLIC_SOURCE
+CASE001796,seebills from {{Person Name}},E-commerce,Low,PUBLIC_SOURCE
+CASE000106,How can I download my marks card? Please help me.,Education,Low,SYNTHETIC
+CASE000801,want help to see the termination charge,E-commerce,Low,PUBLIC_SOURCE
+CASE000981,want help to see your reimbursement policy,E-commerce,Low,PUBLIC_SOURCE
+CASE001685,contact customer service,E-commerce,Low,PUBLIC_SOURCE
+CASE000335,How do I register for a course? Please help me.,Education,Low,SYNTHETIC
+CASE000734,there are problems setting another shipping address up,E-commerce,Low,PUBLIC_SOURCE
+CASE000614,How can I contact customer support? Please help.,Small Business,Low,SYNTHETIC
+CASE000513,I need assistance with a recent purchase. I need assistance.,Small Business,Low,SYNTHETIC
+CASE003337,how to check what payment options are available,E-commerce,Low,PUBLIC_SOURCE
+CASE001730,help unsubscribing from ur damnnewsletter,E-commerce,Low,PUBLIC_SOURCE
+CASE000729,I don't know how I can check the withdrawal penalty,E-commerce,Low,PUBLIC_SOURCE
+CASE003098,"you are not helpful, help talking to an operator",E-commerce,Low,PUBLIC_SOURCE
+CASE000626,need assistance leaving a commnet for your services,E-commerce,Low,PUBLIC_SOURCE
+CASE000154,Where can I view my grades? I need more information.,Education,Low,SYNTHETIC
+CASE002921,i need assistance looking for the bills from {{Person Name}},E-commerce,Low,PUBLIC_SOURCE
+CASE002975,how long does it take for a shipment to arrive,E-commerce,Low,PUBLIC_SOURCE
+CASE000991,i need assistance to talk to somebody,E-commerce,Low,PUBLIC_SOURCE
+CASE001045,I try to see how soon can I expect my shipment,E-commerce,Low,PUBLIC_SOURCE
+CASE003067,I can't talk with a person,E-commerce,Low,PUBLIC_SOURCE
+CASE003145,I don't know how to check the early termination penalty,E-commerce,Low,PUBLIC_SOURCE
+CASE002915,I do not know how to write a review about your products,E-commerce,Low,PUBLIC_SOURCE
+CASE002386,where to check the withdrawal penalty?,E-commerce,Low,PUBLIC_SOURCE
+CASE000043,"For my business, my business payment failed.",Small Business,Low,SYNTHETIC
+CASE001423,I have to find the bills from {{Person Name}},E-commerce,Low,PUBLIC_SOURCE
+CASE002661,help me check what hours i can call customer assistancr,E-commerce,Low,PUBLIC_SOURCE
+CASE000199,How do I request an official transcript? I need more information.,Education,Low,SYNTHETIC
+CASE001939,i try to check the shipment options,E-commerce,Low,PUBLIC_SOURCE
+CASE000064,How do I upgrade our business plan?,Small Business,Low,SYNTHETIC
+CASE002988,help me check ur available payment options,E-commerce,Low,PUBLIC_SOURCE
+CASE002552,assistance receiving the company newsletter,E-commerce,Low,PUBLIC_SOURCE
+CASE001029,do you have an e-mail to send a review about your products?,E-commerce,Low,PUBLIC_SOURCE
+CASE002643,help to unsubscribe to the company newsletter,E-commerce,Low,PUBLIC_SOURCE
+CASE002679,need assistance to list ur fucking payment methods,E-commerce,Low,PUBLIC_SOURCE
+CASE000530,Where can I view my grades? Please help me.,Education,Low,SYNTHETIC
+CASE001856,how can i talk to customer assitance,E-commerce,Low,PUBLIC_SOURCE
+CASE003023,I am trying to subscribe to the newsletter,E-commerce,Low,PUBLIC_SOURCE
+CASE001299,help to check in which cases can i erquest my money back,E-commerce,Low,PUBLIC_SOURCE
+CASE002111,I call to check the shipment options,E-commerce,Low,PUBLIC_SOURCE
+CASE001725,is it possible to locate my bill from {{Person Name}},E-commerce,Low,PUBLIC_SOURCE
+CASE002488,could you help me to unsubscribe to the damn newsletter?,E-commerce,Low,PUBLIC_SOURCE
+CASE001650,can you help me checking the early exit charges?,E-commerce,Low,PUBLIC_SOURCE
+CASE001383,can you hwlp me talking with a person?,E-commerce,Low,PUBLIC_SOURCE
+CASE000185,i try to seehow long it takes for my package to arrive,E-commerce,Low,PUBLIC_SOURCE
+CASE002430,"I want to check how long the shipment taes, how can I do it?",E-commerce,Low,PUBLIC_SOURCE
+CASE002343,can I talk with an assistant?,E-commerce,Low,PUBLIC_SOURCE
+CASE002701,where can i enter a secondary shipping address,E-commerce,Low,PUBLIC_SOURCE
+CASE001535,"I have to check the shipping options, will you help me?",E-commerce,Low,PUBLIC_SOURCE
+CASE001081,What are the eligibility requirements for scholarships? I need more information.,Education,Low,SYNTHETIC
+CASE001356,need assistance to see how soon can I expect my article,E-commerce,Low,PUBLIC_SOURCE
+CASE001524,I try to see what hours customer service aailable is,E-commerce,Low,PUBLIC_SOURCE
+CASE000608,can i check the withdrawal penalty,E-commerce,Low,PUBLIC_SOURCE
+CASE002629,"I have to locate bill #12588, can you help me?",E-commerce,Low,PUBLIC_SOURCE
+CASE001041,I don't know what to do to sign up to your newsletter,E-commerce,Low,PUBLIC_SOURCE
+CASE001458,I don't know what to do to see the methods for shipping,E-commerce,Low,PUBLIC_SOURCE
+CASE002626,show me the bill from {{Person Name}},E-commerce,Low,PUBLIC_SOURCE
+CASE001539,I need assistance to speak to a live agent,E-commerce,Low,PUBLIC_SOURCE
+CASE003212,need to see the allowed payment options can uhelp me,E-commerce,Low,PUBLIC_SOURCE
+CASE000583,where to check at wnat time customer assistance available is,E-commerce,Low,PUBLIC_SOURCE
+CASE000133,Where can I find upcoming placement drives?,Education,Low,SYNTHETIC
+CASE000162,can uhelp me ti leave a damn review for a product,E-commerce,Low,PUBLIC_SOURCE
+CASE003303,assistance to submit a different shipping address,E-commerce,Low,PUBLIC_SOURCE
+CASE001729,help top speak with customer assistance,E-commerce,Low,PUBLIC_SOURCE
+CASE003113,I want help to see your available payment modalities,E-commerce,Low,PUBLIC_SOURCE
+CASE002026,I want assistanec to leave an opinion,E-commerce,Low,PUBLIC_SOURCE
+CASE000472,Can you help me? where can I view my grades?,Education,Low,SYNTHETIC
+CASE002482,I want to see what payment options are availabl,E-commerce,Low,PUBLIC_SOURCE
+CASE000051,"For my business, can I pay by bank transfer?",Small Business,Low,SYNTHETIC
+CASE003003,there is an issue setting up a shipping address,E-commerce,Low,PUBLIC_SOURCE
+CASE001720,help me to check what payment methods are available,E-commerce,Low,PUBLIC_SOURCE
+CASE001037,where could I see your payment modalities?,E-commerce,Low,PUBLIC_SOURCE
+CASE002474,I want toleave an opinion for a service,E-commerce,Low,PUBLIC_SOURCE
+CASE000918,What are the eligibility requirements for placements? Please help me.,Education,Low,SYNTHETIC
+CASE001324,can i see what payment payment modalities are available,E-commerce,Low,PUBLIC_SOURCE
+CASE001581,show me bill #37777,E-commerce,Low,PUBLIC_SOURCE
+CASE000681,where can i unsubscribe from ur fucking newsletter,E-commerce,Low,PUBLIC_SOURCE
+CASE003088,I need help to speak to a bloody human agent,E-commerce,Low,PUBLIC_SOURCE
+CASE002750,i dont know how i could see when my shipment is gonna arrive,E-commerce,Low,PUBLIC_SOURCE
+CASE001749,how can i leave a comment,E-commerce,Low,PUBLIC_SOURCE
+CASE002336,where do I check what shipment methods are available?,E-commerce,Low,PUBLIC_SOURCE
+CASE001519,i dont know how i can submit the secondary shipping address,E-commerce,Low,PUBLIC_SOURCE
+CASE001610,help me see what hours I can call customer support,E-commerce,Low,PUBLIC_SOURCE
+CASE000053,"For my business, can you help with a supplier issue?",Small Business,Low,SYNTHETIC
+CASE001824,need assistance to speak to a live agent,E-commerce,Low,PUBLIC_SOURCE
+CASE001591,what do I have to do to talk with an agent?,E-commerce,Low,PUBLIC_SOURCE
+CASE000010,What documents are required for a scholarship?,Education,Low,SYNTHETIC
+CASE002568,help seeing what shipping options you offer,E-commerce,Low,PUBLIC_SOURCE
+CASE001721,I do not know how I can enter a different shipping address,E-commerce,Low,PUBLIC_SOURCE
+CASE000257,i need help calling customer service,E-commerce,Low,PUBLIC_SOURCE
+CASE003280,can I check the bills from {{Person Name}}?,E-commerce,Low,PUBLIC_SOURCE
+CASE000959,i have got to list the accepted payment methods how to do it,E-commerce,Low,PUBLIC_SOURCE
+CASE000693,I am calling to leave a review for your services,E-commerce,Low,PUBLIC_SOURCE
+CASE000267,I have to see the options for shipping,E-commerce,Low,PUBLIC_SOURCE
+CASE000289,Can you help me? where can I find upcoming placement drives?,Education,Low,SYNTHETIC
+CASE001185,i try to check how long itg takes for the shipment to arrive,E-commerce,Low,PUBLIC_SOURCE
+CASE001791,I want help speaking with an operator,E-commerce,Low,PUBLIC_SOURCE
+CASE003263,can you help me to see when my item is going to arrive?,E-commerce,Low,PUBLIC_SOURCE
+CASE000644,I want to check at what time customer support available is,E-commerce,Low,PUBLIC_SOURCE
+CASE000615,how to see your goddamn reimbursement policy?,E-commerce,Low,PUBLIC_SOURCE
+CASE000292,need to check when my parcel is gonna arrive help me,E-commerce,Low,PUBLIC_SOURCE
+CASE002235,help me see what hours I can reach customer support,E-commerce,Low,PUBLIC_SOURCE
+CASE003042,can you help me subscribing to your corporate newsletter?,E-commerce,Low,PUBLIC_SOURCE
+CASE001636,I have an issue submitting a shipping address,E-commerce,Low,PUBLIC_SOURCE
+CASE000113,"For my business, can you provide the specifications for this product?",Small Business,Low,SYNTHETIC
+CASE001262,need help checking whatt hours customer support available is,E-commerce,Low,PUBLIC_SOURCE
+CASE001880,i try to speak to customer service,E-commerce,Low,PUBLIC_SOURCE
+CASE000049,What are the eligibility requirements for placements? I need more information.,Education,Low,SYNTHETIC
+CASE001419,show me your payment options,E-commerce,Low,PUBLIC_SOURCE
+CASE000308,How many books can I borrow from the library?,Education,Low,SYNTHETIC
+CASE002040,check in which situations can I request my money back,E-commerce,Low,PUBLIC_SOURCE
+CASE000494,What time does my examination start?,Education,Low,SYNTHETIC
+CASE000845,I need help to locate my bills from {{Person Name}},E-commerce,Low,PUBLIC_SOURCE
+CASE001952,seeing bill from {{Person Name}},E-commerce,Low,PUBLIC_SOURCE
+CASE001379,can you give me information about the damn shipment options?,E-commerce,Low,PUBLIC_SOURCE
+CASE000679,I want help to chat with a live agent,E-commerce,Low,PUBLIC_SOURCE
+CASE001422,help speaking to a human agent,E-commerce,Low,PUBLIC_SOURCE
+CASE001568,I want somebody,E-commerce,Low,PUBLIC_SOURCE
+CASE000958,i have got to talk with an assistant,E-commerce,Low,PUBLIC_SOURCE
+CASE000722,can you help me to take a quick look at my bill #85632?,E-commerce,Low,PUBLIC_SOURCE
+CASE000709,I want help unsubscribing from the company newsletter,E-commerce,Low,PUBLIC_SOURCE
+CASE002654,there are problems entering a secondary shipping address,E-commerce,Low,PUBLIC_SOURCE
+CASE000968,can you help me check how soon can I expect the product?,E-commerce,Low,PUBLIC_SOURCE
+CASE002769,need help to open a freemium afcount for my daughter,E-commerce,Low,PUBLIC_SOURCE
+CASE002605,I need to speak to someone,E-commerce,Low,PUBLIC_SOURCE
+CASE003334,"I havve to sign up to the newsletter, I need assistance",E-commerce,Low,PUBLIC_SOURCE
+CASE000495,I want assistance to locate my bill #00108,E-commerce,Low,PUBLIC_SOURCE
+CASE000221,i need help to see what hours customer support azvailable is,E-commerce,Low,PUBLIC_SOURCE
+CASE001740,I'm looking for the shipment methods help me find them,E-commerce,Low,PUBLIC_SOURCE
+CASE001031,i have got to set up my secondary deliver address,E-commerce,Low,PUBLIC_SOURCE
+CASE001388,I have problems submitting a different shipping address,E-commerce,Low,PUBLIC_SOURCE
+CASE003293,can you help me seeing how soon can I expect my purchase?,E-commerce,Low,PUBLIC_SOURCE
+CASE000442,i have got to write an opinion,E-commerce,Low,PUBLIC_SOURCE
+CASE000125,How many books can I borrow from the library? Please help me.,Education,Low,SYNTHETIC
+CASE001737,how to talk with customer service?,E-commerce,Low,PUBLIC_SOURCE
+CASE003077,help to check your damn money back guarantee,E-commerce,Low,PUBLIC_SOURCE
+CASE000464,How do I return a product? I need assistance.,Small Business,Low,SYNTHETIC
+CASE000401,What payment methods do you accept for business customers? Please help.,Small Business,Low,SYNTHETIC
+CASE003198,"I need to see how soon can I expect my shipment, help me",E-commerce,Low,PUBLIC_SOURCE
+CASE000549,need to see the payment potions how to do it,E-commerce,Low,PUBLIC_SOURCE
+CASE001866,"I have to see what shipping methods I have, can you help me?",E-commerce,Low,PUBLIC_SOURCE
+CASE000280,Can you help me? what documents are required for a scholarship?,Education,Low,SYNTHETIC
+CASE001809,I'd like to check what hours customer support available is,E-commerce,Low,PUBLIC_SOURCE
+CASE002148,I have to chat with a livbe agent,E-commerce,Low,PUBLIC_SOURCE
+CASE001277,is there a section to leave an opinion about a service?,E-commerce,Low,PUBLIC_SOURCE
+CASE001735,see the withdrawal penalties,E-commerce,Low,PUBLIC_SOURCE
+CASE000641,Can you help me? i cannot enroll in my selected subject.,Education,Low,SYNTHETIC
+CASE002129,I need assistance leaving an opinion for yor services,E-commerce,Low,PUBLIC_SOURCE
+CASE001762,how do I check the accepted payment methods?,E-commerce,Low,PUBLIC_SOURCE
+CASE002863,I want help listing your allowed payment methods,E-commerce,Low,PUBLIC_SOURCE
+CASE000925,where do i subscribe to ur corporate newsletter,E-commerce,Low,PUBLIC_SOURCE
+CASE003336,I do not know how to list the payment methods,E-commerce,Low,PUBLIC_SOURCE
+CASE001176,i have got to check the terminatiln penalties how to do it,E-commerce,Low,PUBLIC_SOURCE
+CASE002328,I am trying to sign up to the newsletter,E-commerce,Low,PUBLIC_SOURCE
+CASE003006,i dont know what i have to do to speak to an assistant,E-commerce,Low,PUBLIC_SOURCE
+CASE002671,I want help seeing the withdrawal penalties,E-commerce,Low,PUBLIC_SOURCE
+CASE002038,i want help writing a comment about ur services,E-commerce,Low,PUBLIC_SOURCE
+CASE001197,what do I have to do to contact someone?,E-commerce,Low,PUBLIC_SOURCE
+CASE001747,how can I contact customer service?,E-commerce,Low,PUBLIC_SOURCE
+CASE000119,When is the scholarship application deadline? Please help me.,Education,Low,SYNTHETIC
+CASE003089,I need to submit the secondary shipping address,E-commerce,Low,PUBLIC_SOURCE
+CASE002534,I don't know what I need to do to check bill #37777,E-commerce,Low,PUBLIC_SOURCE
+CASE001070,help me check how long it takes for the parcel to arrive,E-commerce,Low,PUBLIC_SOURCE
+CASE003078,i want help talking with an assistat,E-commerce,Low,PUBLIC_SOURCE
+CASE003092,where can I see what shipment options you offer?,E-commerce,Low,PUBLIC_SOURCE
+CASE001137,help talking with a live agent,E-commerce,Low,PUBLIC_SOURCE
+CASE001321,is there a way to leave an opinion about a service?,E-commerce,Low,PUBLIC_SOURCE
+CASE001292,can you help me unsubscribe to the newsletter?,E-commerce,Low,PUBLIC_SOURCE
+CASE000659,What time does my examination start? I need more information.,Education,Low,SYNTHETIC
+CASE001190,I want help contacting a person,E-commerce,Low,PUBLIC_SOURCE
+CASE001169,can I see the accepted payment modalities?,E-commerce,Low,PUBLIC_SOURCE
+CASE001518,I would like to see what hours I can call customer support,E-commerce,Low,PUBLIC_SOURCE
+CASE000069,Can you help me? how do I register for a course?,Education,Low,SYNTHETIC
+CASE001376,show me how long it takes for my parcel to arrive,E-commerce,Low,PUBLIC_SOURCE
+CASE002407,help checking in which cases can I ask for reimbursements,E-commerce,Low,PUBLIC_SOURCE
+CASE001155,why I can't set up my new shipping address valid,E-commerce,Low,PUBLIC_SOURCE
+CASE002767,"I want to see your money back guarantee, how can I do it?",E-commerce,Low,PUBLIC_SOURCE
+CASE000555,When is the last date to register for the exam? Please help me.,Education,Low,SYNTHETIC
+CASE000592,Can I get more information about this product? as soon as possible.,Small Business,Low,SYNTHETIC
+CASE002458,i have to check the shipment methods i need assistance,E-commerce,Low,PUBLIC_SOURCE
+CASE001428,I want help to contact an assistant,E-commerce,Low,PUBLIC_SOURCE
+CASE003319,I do not know what I have to do to talk to customer suppory,E-commerce,Low,PUBLIC_SOURCE
+CASE002566,I do not know how I can get in touch with customer service,E-commerce,Low,PUBLIC_SOURCE
+CASE002213,need assistance to subscribe to the company newsletter,E-commerce,Low,PUBLIC_SOURCE
+CASE001813,i dont know how i can unsubscribe from ur company newsletter,E-commerce,Low,PUBLIC_SOURCE
+CASE000954,"I do not understand you, direct to me a human agent",E-commerce,Low,PUBLIC_SOURCE
+CASE001413,direct to me a person,E-commerce,Low,PUBLIC_SOURCE
+CASE003306,I'm calling to write a comment about ur services,E-commerce,Low,PUBLIC_SOURCE
+CASE000476,Is attendance compulsory for this subject? Please help me.,Education,Low,SYNTHETIC
+CASE001177,"I want to write a comment, I need assistance",E-commerce,Low,PUBLIC_SOURCE
+CASE000598,What documents are required for a scholarship? I need more information.,Education,Low,SYNTHETIC
+CASE002470,I have got to subscribe to the corporate newsletter,E-commerce,Low,PUBLIC_SOURCE
+CASE001090,where do I take a quick look at my bill #12588?,E-commerce,Low,PUBLIC_SOURCE
+CASE000668,I want assistance to check how soon can I expect the package,E-commerce,Low,PUBLIC_SOURCE
+CASE001684,"I want to contact customer support, can I get some help?",E-commerce,Low,PUBLIC_SOURCE
+COMPLOW00001,I would like to know: I cannot enroll in my selected subject. I need more information.,Education,Low,SYNTHETIC
+COMPLOW00002,i need help to see at what time i can call customer support What should I do?,E-commerce,Low,PUBLIC_SOURCE
+COMPLOW00003,I need assistance regarding this: check what hours i can get in touch with customer service.,E-commerce,Low,PUBLIC_SOURCE
+CASE003269,i have problems with canceling order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE003117,see order {{Order Number}} stats,E-commerce,Medium,PUBLIC_SOURCE
+CASE002595,I want support modifying the shipping address,E-commerce,Medium,PUBLIC_SOURCE
+CASE003310,can I delete some articles from order {{Order Number}}?,E-commerce,Medium,PUBLIC_SOURCE
+CASE003214,change to premium account,E-commerce,Medium,PUBLIC_SOURCE
+CASE002457,wanna locate purchase {{Order Number}} can i get some help,E-commerce,Medium,PUBLIC_SOURCE
+CASE002774,"I need to earn several bloody items, how could I do it?",E-commerce,Medium,PUBLIC_SOURCE
+CASE003298,change info on platinum account,E-commerce,Medium,PUBLIC_SOURCE
+CASE002696,switching to {{Account Category}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE001734,need help cancelling purchase {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE003217,where could I submit a different delivery address?,E-commerce,Medium,PUBLIC_SOURCE
+CASE002358,I do not know how I can see the cancellation fees,E-commerce,Medium,PUBLIC_SOURCE
+CASE001366,"I want to remove an item from order {{Order Number}}, I need hepl",E-commerce,Medium,PUBLIC_SOURCE
+CASE002449,i need assistance to locate purchase {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000422,I don't know what I have to do to earn a few of your item,E-commerce,Medium,PUBLIC_SOURCE
+CASE002491,correcting info on {{Account Type}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE002896,wanna edit order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000274,getting bills from {{Person Name}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000507,My scholarship application status has not changed.,Education,Medium,SYNTHETIC
+CASE002325,help canceling my subscription to the corporate newsletter,E-commerce,Medium,PUBLIC_SOURCE
+CASE002395,i need help to submit my feedback for a service,E-commerce,Medium,PUBLIC_SOURCE
+CASE001751,i do not know how i can acquire several prdoucts,E-commerce,Medium,PUBLIC_SOURCE
+CASE002904,I want help restoring my user account PIN,E-commerce,Medium,PUBLIC_SOURCE
+CASE002689,i need assistance to create a {{Account Type}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE001085,I cannot afford order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002180,get bill #12588,E-commerce,Medium,PUBLIC_SOURCE
+CASE002940,modify information on {{Account Type}} acfount,E-commerce,Medium,PUBLIC_SOURCE
+CASE002647,I want to know more about opening {{Account Category}} accounts,E-commerce,Medium,PUBLIC_SOURCE
+CASE002294,I'd liketo see the ETA of the purchase {{Order Number}} help me,E-commerce,Medium,PUBLIC_SOURCE
+CASE001633,send me billa from {{Person Name}},E-commerce,Medium,PUBLIC_SOURCE
+CASE001445,assistance to retrieve my account pin,E-commerce,Medium,PUBLIC_SOURCE
+CASE003192,checking invoices from {{Person Name}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000724,is it possible to place an order from {{Delivery City}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000223,How do I update my business account details? Please help.,Small Business,Medium,SYNTHETIC
+CASE000035,Can I return part of a business order? I need assistance.,Small Business,Medium,SYNTHETIC
+CASE001482,how can I switch to the freemium account?,E-commerce,Medium,PUBLIC_SOURCE
+CASE001628,i want inofrmation about delivery periods how could i get it,E-commerce,Medium,PUBLIC_SOURCE
+CASE001626,help to restore my access key,E-commerce,Medium,PUBLIC_SOURCE
+CASE002251,I need help with updating order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000205,I need help canceling order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002370,check the withdrawal fees,E-commerce,Medium,PUBLIC_SOURCE
+CASE001702,can ya help me change a product of purchase {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE001430,i cantretrieve my user account pwd,E-commerce,Medium,PUBLIC_SOURCE
+CASE001758,wana swap a damn product of order {{Order Number}} help me,E-commerce,Medium,PUBLIC_SOURCE
+CASE001802,can you help me see what methods for delivery I have?,E-commerce,Medium,PUBLIC_SOURCE
+CASE000636,can uhelp me see my reimbursement current status,E-commerce,Medium,PUBLIC_SOURCE
+CASE002808,I do not know what I need to do to create a {{Account Type}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE001964,checking purchase {{Order Number}} status,E-commerce,Medium,PUBLIC_SOURCE
+CASE000759,I want help checking purchase {{Order Number}} status,E-commerce,Medium,PUBLIC_SOURCE
+CASE000640,Can you help me? when is the deadline for paying my fees?,Education,Medium,SYNTHETIC
+CASE001444,I need help seeing my invoices from {{Person Name}},E-commerce,Medium,PUBLIC_SOURCE
+CASE001509,i can no longer afford order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000782,I do not know how to cancel purchase {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000096,When will our subscription renew? as soon as possible.,Small Business,Medium,SYNTHETIC
+CASE000086,Can I change my elective after course registration? I need more information.,Education,Medium,SYNTHETIC
+CASE001159,how can I locate the invoice #37777?,E-commerce,Medium,PUBLIC_SOURCE
+CASE003152,could you tell me more about creating a platinum account?,E-commerce,Medium,PUBLIC_SOURCE
+CASE002075,there are problems tring to correct my address,E-commerce,Medium,PUBLIC_SOURCE
+CASE001784,would it be possible to swap an article of order {{Order Number}}?,E-commerce,Medium,PUBLIC_SOURCE
+CASE002760,where can I edit my delivery address?,E-commerce,Medium,PUBLIC_SOURCE
+CASE002206,can ya help me to open an platinum account,E-commerce,Medium,PUBLIC_SOURCE
+CASE002996,help me cancelling purchase {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000670,where to acquire several articles ?,E-commerce,Medium,PUBLIC_SOURCE
+CASE002393,assistance to retrieve the key of my user profile,E-commerce,Medium,PUBLIC_SOURCE
+CASE003120,want help to track the reimbursement,E-commerce,Medium,PUBLIC_SOURCE
+CASE003224,i do not know what i have to do to download invoice #12588,E-commerce,Medium,PUBLIC_SOURCE
+CASE001525,help checking the termmination fees,E-commerce,Medium,PUBLIC_SOURCE
+CASE001934,I am trying to see the status of order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE001208,I want assistance seeing the bloody cancellation fee,E-commerce,Medium,PUBLIC_SOURCE
+CASE003127,I am looking for information about a delivery address change,E-commerce,Medium,PUBLIC_SOURCE
+CASE001912,i dont know what i have to do to change to the pro account,E-commerce,Medium,PUBLIC_SOURCE
+CASE003196,how do i change an item of order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000159,The supplier has not confirmed my order. I need assistance.,Small Business,Medium,SYNTHETIC
+CASE000424,The supplier has not confirmed my order.,Small Business,Medium,SYNTHETIC
+CASE001841,updating info on {{Account Type}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE001855,information about my fucking subscription to the newsletter,E-commerce,Medium,PUBLIC_SOURCE
+CASE000911,I have a problem trying to correct the shipping address,E-commerce,Medium,PUBLIC_SOURCE
+CASE000851,download ibll #37777,E-commerce,Medium,PUBLIC_SOURCE
+CASE000060,"For my business, can I cancel the business subscription?",Small Business,Medium,SYNTHETIC
+CASE002281,wanna see the statusof order {{Order Number}} i need help,E-commerce,Medium,PUBLIC_SOURCE
+CASE000215,i do not know how i can open a pro account for my fiance,E-commerce,Medium,PUBLIC_SOURCE
+CASE001021,need help seeing the fucking status of order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE001094,I do not know how I can see the withdrawal fee,E-commerce,Medium,PUBLIC_SOURCE
+CASE000418,get bill fromMr. Jones,E-commerce,Medium,PUBLIC_SOURCE
+CASE002516,i need help checking the termination fee,E-commerce,Medium,PUBLIC_SOURCE
+CASE001704,i do not know how i can see the current status of the rebate,E-commerce,Medium,PUBLIC_SOURCE
+CASE002885,why I cannot enter the delivery address valid,E-commerce,Medium,PUBLIC_SOURCE
+CASE002722,what do I need to do to buy an item?,E-commerce,Medium,PUBLIC_SOURCE
+CASE003111,i dont know how to look for my invoice #85632,E-commerce,Medium,PUBLIC_SOURCE
+CASE002694,how do I retrieve the password of my user profile?,E-commerce,Medium,PUBLIC_SOURCE
+CASE000780,editing order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE003134,i dont know how i can take a quick look at my invoice #85632,E-commerce,Medium,PUBLIC_SOURCE
+CASE002879,I do not know what to do to get the invoice #37777,E-commerce,Medium,PUBLIC_SOURCE
+CASE003085,i have got to modify my shipping address how to do it,E-commerce,Medium,PUBLIC_SOURCE
+CASE002363,need assistance modifying my user info,E-commerce,Medium,PUBLIC_SOURCE
+CASE000237,Can I return part of a business order?,Small Business,Medium,SYNTHETIC
+CASE001877,another premium account for father,E-commerce,Medium,PUBLIC_SOURCE
+CASE000710,When will our subscription renew?,Small Business,Medium,SYNTHETIC
+CASE003282,i want assistance to download the bill from {{Person Name}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000586,I have a problem with my account. I need assistance.,Small Business,Medium,SYNTHETIC
+CASE002467,"my goddamn delivery address has changed, change it",E-commerce,Medium,PUBLIC_SOURCE
+CASE000799,is it possible to shop an item,E-commerce,Medium,PUBLIC_SOURCE
+CASE002992,I have got to change the details included on my user,E-commerce,Medium,PUBLIC_SOURCE
+CASE003060,what do I need to do to cancel purchase {{Order Number}}?,E-commerce,Medium,PUBLIC_SOURCE
+CASE000092,Do you offer express delivery for business orders? as soon as possible.,Small Business,Medium,SYNTHETIC
+CASE002981,i need help to add several product to order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000399,editing {{Account Category}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE001837,I want assistance to change to the freemium account,E-commerce,Medium,PUBLIC_SOURCE
+CASE000649,have a problem with cancelling order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE001056,need assistance recovering the PIN code of my account,E-commerce,Medium,PUBLIC_SOURCE
+CASE000939,modifying data on standard account,E-commerce,Medium,PUBLIC_SOURCE
+CASE000216,I need the invoice for my recent purchase.,Small Business,Medium,SYNTHETIC
+CASE001630,can I open a {{Account Type}} account?,E-commerce,Medium,PUBLIC_SOURCE
+CASE001647,I cannot set up my delivery address,E-commerce,Medium,PUBLIC_SOURCE
+CASE001803,is there a way to submit some feedback for ur services,E-commerce,Medium,PUBLIC_SOURCE
+CASE001025,how to see the status of my restitution?,E-commerce,Medium,PUBLIC_SOURCE
+CASE001340,adding article to order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000872,I do not know how I can restore the PIN code of my profile,E-commerce,Medium,PUBLIC_SOURCE
+CASE001225,where do I see the ETA of the order {{Order Number}}?,E-commerce,Medium,PUBLIC_SOURCE
+CASE001013,i do not know what i have to do to get my invoice #00108,E-commerce,Medium,PUBLIC_SOURCE
+CASE003116,I want assistance using the gold account,E-commerce,Medium,PUBLIC_SOURCE
+CASE000526,question about canceling purchase {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000982,I don't know what I have to do to download my bill #12588,E-commerce,Medium,PUBLIC_SOURCE
+CASE003286,i have to see the status of purchase {{Order Number}} how do i do it,E-commerce,Medium,PUBLIC_SOURCE
+CASE002398,i mised some items in purchase {{Order Number}} can i add them,E-commerce,Medium,PUBLIC_SOURCE
+CASE001812,change to freemium acount,E-commerce,Medium,PUBLIC_SOURCE
+CASE000886,"I have got to shop a damn item, how to do it?",E-commerce,Medium,PUBLIC_SOURCE
+CASE003261,I don't know what I have to do to buy some of your article,E-commerce,Medium,PUBLIC_SOURCE
+CASE002954,need help to set my delivery address up,E-commerce,Medium,PUBLIC_SOURCE
+CASE002052,what do i need to do to change to the {{Account Type}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE000363,Can I pay the tuition fees in installments?,Education,Medium,SYNTHETIC
+CASE000169,showing me order {{Order Number}} status,E-commerce,Medium,PUBLIC_SOURCE
+CASE000663,"I don't have a premium account, how do I sign up?",E-commerce,Medium,PUBLIC_SOURCE
+CASE001113,gedtting bill from {{Person Name}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002160,assistance checking how long the delivery takes,E-commerce,Medium,PUBLIC_SOURCE
+CASE002781,could uhelp me switch some articles of order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002360,how can i swap several items of purchase {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002095,how to check the early termination fee ?,E-commerce,Medium,PUBLIC_SOURCE
+CASE002106,help me sending my feedback about your services,E-commerce,Medium,PUBLIC_SOURCE
+CASE001709,how can i locate invoice #12588,E-commerce,Medium,PUBLIC_SOURCE
+CASE003049,I need hepl with opening a premium account,E-commerce,Medium,PUBLIC_SOURCE
+CASE000232,I need information about opening pro accounts,E-commerce,Medium,PUBLIC_SOURCE
+CASE001316,"I want to see how soon can I expect my delivery, help me",E-commerce,Medium,PUBLIC_SOURCE
+CASE002110,help to switch to the premium account,E-commerce,Medium,PUBLIC_SOURCE
+CASE000166,"I have to correct purchase {{Order Number}}, I need assistance",E-commerce,Medium,PUBLIC_SOURCE
+CASE001398,open platinum account for wife,E-commerce,Medium,PUBLIC_SOURCE
+CASE001715,I want a {{Account Type}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE003264,help me checking the status of my newsletter subscription,E-commerce,Medium,PUBLIC_SOURCE
+CASE003164,deliverids to {{Delivery Country}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000687,Can you help me? can I change my elective after course registration?,Education,Medium,SYNTHETIC
+CASE001854,"I want to see how soon can I expect the order, how to do it?",E-commerce,Medium,PUBLIC_SOURCE
+CASE002301,switch to {{Account Category}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE000725,When is the deadline for paying the fees?,Education,Medium,SYNTHETIC
+CASE003070,I do not know how to restore my user PIN code,E-commerce,Medium,PUBLIC_SOURCE
+CASE002812,I'm trying to set another delivery address up,E-commerce,Medium,PUBLIC_SOURCE
+CASE002378,can ya help me to send some feedback about a service,E-commerce,Medium,PUBLIC_SOURCE
+CASE000653,can you help me recover my user profile password?,E-commerce,Medium,PUBLIC_SOURCE
+CASE001120,I need help submitting some feedback about a product,E-commerce,Medium,PUBLIC_SOURCE
+CASE002517,want assistance trying to update my shipping address,E-commerce,Medium,PUBLIC_SOURCE
+CASE003076,i have got to cancel the subscription to ur newsletter,E-commerce,Medium,PUBLIC_SOURCE
+CASE000316,What is the minimum order quantity?,Small Business,Medium,SYNTHETIC
+CASE001732,can you help me check the status of my compensation?,E-commerce,Medium,PUBLIC_SOURCE
+CASE001743,I'm trying to see the eta of purchase {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE001583,what do I have to do to buy some items?,E-commerce,Medium,PUBLIC_SOURCE
+CASE003046,I would like to know about changing my delivery address,E-commerce,Medium,PUBLIC_SOURCE
+CASE003017,send me bill from {{Person Name}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000025,"For my business, can I return part of a business order?",Small Business,Medium,SYNTHETIC
+CASE000587,How can I place another order for the same products? I need assistance.,Small Business,Medium,SYNTHETIC
+CASE001465,I want information about opening a standard account,E-commerce,Medium,PUBLIC_SOURCE
+CASE000906,assistance to shop some products,E-commerce,Medium,PUBLIC_SOURCE
+CASE000726,I need help with a business order. I need assistance.,Small Business,Medium,SYNTHETIC
+CASE000828,i need help cancelling the company newsletter subsrciption,E-commerce,Medium,PUBLIC_SOURCE
+CASE001287,"I have got to download bill #85632, help me",E-commerce,Medium,PUBLIC_SOURCE
+CASE003188,i need help seeing the delivery methods,E-commerce,Medium,PUBLIC_SOURCE
+CASE000395,can you help me see the ETA of the order {{Order Number}}?,E-commerce,Medium,PUBLIC_SOURCE
+CASE001769,i want assistance seing the invoice from {{Person Name}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002033,i do not know how i can correct the user information,E-commerce,Medium,PUBLIC_SOURCE
+CASE000875,is it possible to earn several products?,E-commerce,Medium,PUBLIC_SOURCE
+CASE000416,can uhelp me to locate order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002723,there is an issue trying to update the address,E-commerce,Medium,PUBLIC_SOURCE
+CASE002668,I want help deleting something from purchase {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000871,Has the exam date for my subject changed? Please help me.,Education,Medium,SYNTHETIC
+CASE000179,How do I update my business account details? as soon as possible.,Small Business,Medium,SYNTHETIC
+CASE001369,what do I need to do to check the withdrawal fees?,E-commerce,Medium,PUBLIC_SOURCE
+CASE002200,is it possible to purchase several of your article?,E-commerce,Medium,PUBLIC_SOURCE
+CASE000433,"For my business, my delivery is delayed.",Small Business,Medium,SYNTHETIC
+CASE002736,could you help me to submit some feedback for your products?,E-commerce,Medium,PUBLIC_SOURCE
+CASE000551,What is the minimum order quantity? as soon as possible.,Small Business,Medium,SYNTHETIC
+CASE001956,i do not know what i neerd to do to download my bill #12588,E-commerce,Medium,PUBLIC_SOURCE
+CASE000749,"For my business, how can I check the status of my business order?",Small Business,Medium,SYNTHETIC
+CASE000027,How can I contact the vendor about a missing item? I need assistance.,Small Business,Medium,SYNTHETIC
+CASE002852,I call to send some feedback about a service,E-commerce,Medium,PUBLIC_SOURCE
+CASE000247,Where can I find the vendor details for my order? I need assistance.,Small Business,Medium,SYNTHETIC
+CASE000708,help me to create a {{Account Category}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE003087,can you help me to retrieve the password of my account?,E-commerce,Medium,PUBLIC_SOURCE
+CASE001371,I do not know how to buy several of your product,E-commerce,Medium,PUBLIC_SOURCE
+CASE001694,"my delivery address is not valid, what should I do?",E-commerce,Medium,PUBLIC_SOURCE
+CASE002492,help me create a {{Account Type}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE000793,"For my business, can you send me a copy of the invoice?",Small Business,Medium,SYNTHETIC
+CASE001499,"I cannot afford this article, cancel order {{Order Number}}",E-commerce,Medium,PUBLIC_SOURCE
+CASE000346,How can I change our business subscription?,Small Business,Medium,SYNTHETIC
+CASE003191,I don't know what to do to see the delivery options,E-commerce,Medium,PUBLIC_SOURCE
+CASE003247,how colud I delete something from order {{Order Number}}?,E-commerce,Medium,PUBLIC_SOURCE
+CASE003009,I have issues updating the address,E-commerce,Medium,PUBLIC_SOURCE
+CASE003158,editing information on {{Account Type}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE001497,how do i change a product of purchase {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE001237,how to use the pro profile,E-commerce,Medium,PUBLIC_SOURCE
+CASE002241,need help to shop several of ur item,E-commerce,Medium,PUBLIC_SOURCE
+CASE000341,Can I edit my exam registration after submitting it? I need more information.,Education,Medium,SYNTHETIC
+CASE000516,i need assistance with creating a platinum account,E-commerce,Medium,PUBLIC_SOURCE
+CASE000161,How can I contact the vendor about a missing item? as soon as possible.,Small Business,Medium,SYNTHETIC
+CASE000313,help me to acquire a few of your item,E-commerce,Medium,PUBLIC_SOURCE
+CASE000250,what do I have to do to restore the key of my user profile?,E-commerce,Medium,PUBLIC_SOURCE
+CASE000546,I need assistance to reset the pass of my profile,E-commerce,Medium,PUBLIC_SOURCE
+CASE001246,i want help downloading the bill #85632,E-commerce,Medium,PUBLIC_SOURCE
+CASE002432,I do not know how I can leave my feedback for your services,E-commerce,Medium,PUBLIC_SOURCE
+CASE001296,i want assistance downloading the bills from {{Person Name}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002841,help me get the bill from {{Person Name}},E-commerce,Medium,PUBLIC_SOURCE
+CASE001592,i have lost my account access key where can i recover it,E-commerce,Medium,PUBLIC_SOURCE
+CASE001843,status of order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000123,Can I cancel the business subscription? Please help.,Small Business,Medium,SYNTHETIC
+CASE002302,I don't know how I could submit feedback for your company,E-commerce,Medium,PUBLIC_SOURCE
+CASE002703,i want help modifying the address,E-commerce,Medium,PUBLIC_SOURCE
+CASE000643,ya have an address to submit some feednack,E-commerce,Medium,PUBLIC_SOURCE
+CASE001857,help to buy an few of your product,E-commerce,Medium,PUBLIC_SOURCE
+CASE003213,help to get my invoices from {{Person Name}},E-commerce,Medium,PUBLIC_SOURCE
+CASE001303,how do I see order {{Order Number}} current status?,E-commerce,Medium,PUBLIC_SOURCE
+CASE003108,help me check the ETA of order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002442,I have problems with canceling purchase {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000182,want help to change several items of purchase {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002448,how do i shop some products,E-commerce,Medium,PUBLIC_SOURCE
+CASE000660,How do I change the business contact email? as soon as possible.,Small Business,Medium,SYNTHETIC
+CASE000962,"I cannot afford order {{Order Number}}, I need help canceling it",E-commerce,Medium,PUBLIC_SOURCE
+CASE002641,I'm trying to get my damn bills from {{Person Name}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002347,could i order feom {{Delivery City}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002365,"I need to leave some feedback, can I get some help?",E-commerce,Medium,PUBLIC_SOURCE
+CASE000794,"I have to cancel my subscription to the newsletter, help me",E-commerce,Medium,PUBLIC_SOURCE
+CASE000061,"For my business, i need the invoice for my recent purchase.",Small Business,Medium,SYNTHETIC
+CASE001805,I need to remove an article from purchase {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE001148,edit details oon {{Account Type}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE000802,help me using the {{Account Type}} profile,E-commerce,Medium,PUBLIC_SOURCE
+CASE001830,how to check the current status of purchase {{Order Number}}?,E-commerce,Medium,PUBLIC_SOURCE
+CASE000016,Can you send me a copy of the invoice? I need assistance.,Small Business,Medium,SYNTHETIC
+CASE000294,what are the withdrawal fees?,E-commerce,Medium,PUBLIC_SOURCE
+CASE001968,"I have to edit some of my user details, how to do it?",E-commerce,Medium,PUBLIC_SOURCE
+CASE002078,I need assistance opening a pro account for my daughter,E-commerce,Medium,PUBLIC_SOURCE
+CASE002249,where do I see my rebate status?,E-commerce,Medium,PUBLIC_SOURCE
+CASE001373,want help to send my feedback for your rpoducts,E-commerce,Medium,PUBLIC_SOURCE
+CASE002952,open {{Account Category}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE000290,where could i see the eta of order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE001534,can you help me see the current status of the rebate?,E-commerce,Medium,PUBLIC_SOURCE
+CASE000156,correct data on premium account,E-commerce,Medium,PUBLIC_SOURCE
+CASE001993,support updating my address,E-commerce,Medium,PUBLIC_SOURCE
+CASE002318,I do not know what I need to do to purchase some products,E-commerce,Medium,PUBLIC_SOURCE
+CASE002776,will you give me information about my PIN retrieval?,E-commerce,Medium,PUBLIC_SOURCE
+CASE000617,How can I place another order for the same products?,Small Business,Medium,SYNTHETIC
+CASE000953,I don't know what I need to do to get the bill #37777,E-commerce,Medium,PUBLIC_SOURCE
+CASE002831,create new bloody {{Account Type}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE000285,i have to cancel the company newsletter subscription help me,E-commerce,Medium,PUBLIC_SOURCE
+CASE002747,I am calling to see what delivery methods you offer,E-commerce,Medium,PUBLIC_SOURCE
+CASE001218,canceling purchase {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002438,help me seeing if there are any news on my reimbursement,E-commerce,Medium,PUBLIC_SOURCE
+CASE003029,I need help cancelling purchase {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000478,can i change order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000409,see order {{Order Number}} current status,E-commerce,Medium,PUBLIC_SOURCE
+CASE001885,track order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002751,correct info on platinum account,E-commerce,Medium,PUBLIC_SOURCE
+CASE002224,need help editing m address,E-commerce,Medium,PUBLIC_SOURCE
+CASE001017,i have a question about creating a freemium account,E-commerce,Medium,PUBLIC_SOURCE
+CASE002079,i dontknow how to get the invoice #12588,E-commerce,Medium,PUBLIC_SOURCE
+CASE001429,change order,E-commerce,Medium,PUBLIC_SOURCE
+CASE001615,can you help me seeing the cancellation charges?,E-commerce,Medium,PUBLIC_SOURCE
+CASE002189,can i send my feedback about ur services,E-commerce,Medium,PUBLIC_SOURCE
+CASE000803,use platinum account,E-commerce,Medium,PUBLIC_SOURCE
+CASE002368,"I have got to open a new bloody {{Account Type}} account, I need help",E-commerce,Medium,PUBLIC_SOURCE
+CASE001266,wanna see the eta of order {{Order Number}} how can i do it,E-commerce,Medium,PUBLIC_SOURCE
+CASE002387,could you help me to check what delivery methods I have?,E-commerce,Medium,PUBLIC_SOURCE
+CASE001071,My business order is missing an item. Please help.,Small Business,Medium,SYNTHETIC
+CASE002134,I want to see the status of order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE001588,I want help getting my invoice from {{Person Name}},E-commerce,Medium,PUBLIC_SOURCE
+CASE003232,I would like to track the restitution,E-commerce,Medium,PUBLIC_SOURCE
+CASE000570,I'm trying to submit some feedback about a service,E-commerce,Medium,PUBLIC_SOURCE
+CASE002886,want help sending some feedback for your prfoducts,E-commerce,Medium,PUBLIC_SOURCE
+CASE002487,what do i need to do to send some feedback,E-commerce,Medium,PUBLIC_SOURCE
+CASE003157,"I have to see the damn compensation status, can you help me?",E-commerce,Medium,PUBLIC_SOURCE
+CASE003094,what do I need to do to order a few of your product?,E-commerce,Medium,PUBLIC_SOURCE
+CASE002718,there are problems trying to edit the delivery address,E-commerce,Medium,PUBLIC_SOURCE
+CASE000646,will ya shwo me the eta of order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002348,i have to open a {{Account Category}} account for my dad,E-commerce,Medium,PUBLIC_SOURCE
+CASE001599,updating purchase {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000355,update info on pro account,E-commerce,Medium,PUBLIC_SOURCE
+CASE001962,i do not know what to do to download the invoice #85632,E-commerce,Medium,PUBLIC_SOURCE
+CASE001639,I need to check the cancellation charge,E-commerce,Medium,PUBLIC_SOURCE
+CASE002877,where to ese how long the delivery takes,E-commerce,Medium,PUBLIC_SOURCE
+CASE001605,I want assistance to cancel order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000128,Has the exam date for my subject changed? I need more information.,Education,Medium,SYNTHETIC
+CASE000548,cance order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002032,I am trying to get my invoice from {{Person Name}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002194,I want help to set my new delivery address up,E-commerce,Medium,PUBLIC_SOURCE
+CASE000153,modifying information on pro account,E-commerce,Medium,PUBLIC_SOURCE
+CASE001219,help me to change to the goddamn {{Account Category}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE002795,"I have lost my profile access key, where can I recover it?",E-commerce,Medium,PUBLIC_SOURCE
+CASE001602,help to use the premium profile,E-commerce,Medium,PUBLIC_SOURCE
+CASE001826,how do I use the premium account?,E-commerce,Medium,PUBLIC_SOURCE
+CASE001580,I need helpto cancel order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002719,correct information on gold account,E-commerce,Medium,PUBLIC_SOURCE
+CASE002775,I do not know how to acquire a few of your product,E-commerce,Medium,PUBLIC_SOURCE
+CASE000980,"I want to update the damn user data, how could I do it?",E-commerce,Medium,PUBLIC_SOURCE
+CASE002362,i want help to check the current status of my compensation,E-commerce,Medium,PUBLIC_SOURCE
+CASE003182,i need assistance checking my rebate status,E-commerce,Medium,PUBLIC_SOURCE
+CASE002051,find information about the lost access key,E-commerce,Medium,PUBLIC_SOURCE
+CASE002239,want assistance to download my invoice #12588,E-commerce,Medium,PUBLIC_SOURCE
+CASE002287,could uhelp me to check the early exit fee,E-commerce,Medium,PUBLIC_SOURCE
+CASE000068,My business order is missing an item. as soon as possible.,Small Business,Medium,SYNTHETIC
+CASE001308,I cannot enter the new delivery address,E-commerce,Medium,PUBLIC_SOURCE
+CASE000443,How do I update my business account details?,Small Business,Medium,SYNTHETIC
+CASE002315,pudate info on {{Account Type}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE001331,I'm looking for infdormation about editing the address,E-commerce,Medium,PUBLIC_SOURCE
+CASE001949,modify info on {{Account Category}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE001844,seeing order {{Order Number}} status,E-commerce,Medium,PUBLIC_SOURCE
+CASE001057,can I download the bill from {{Person Name}} ?,E-commerce,Medium,PUBLIC_SOURCE
+CASE000929,I need help with a business order.,Small Business,Medium,SYNTHETIC
+CASE002844,eta fo order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002418,I can't find the early termination fee,E-commerce,Medium,PUBLIC_SOURCE
+CASE001364,would it be possible to enter the new delivery address?,E-commerce,Medium,PUBLIC_SOURCE
+CASE002807,how can I restore the password of my user profile?,E-commerce,Medium,PUBLIC_SOURCE
+CASE000170,Why has my invoice not been generated? as soon as possible.,Small Business,Medium,SYNTHETIC
+CASE001748,i need help to get my invoices from {{Person Name}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000101,How do I update my business account details? I need assistance.,Small Business,Medium,SYNTHETIC
+CASE003129,change info on {{Account Type}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE003287,get invoice #85632,E-commerce,Medium,PUBLIC_SOURCE
+CASE003305,help me entering my secondary delivery address,E-commerce,Medium,PUBLIC_SOURCE
+CASE002433,i need assistance to open a {{Account Category}} account for my dad,E-commerce,Medium,PUBLIC_SOURCE
+CASE002973,modify info on {{Account Type}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE003180,download bills from {{Person Name}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002247,help to use the bloody gold profile,E-commerce,Medium,PUBLIC_SOURCE
+CASE002778,I want help trying to edit my shipping address,E-commerce,Medium,PUBLIC_SOURCE
+CASE002846,how to swap some articles of order {{Order Number}}?,E-commerce,Medium,PUBLIC_SOURCE
+CASE003001,want assistance seeing the ETA of purchase {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE001966,i cant switch several aritcles of purchase {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002726,wanna chec order {{Order Number}} status,E-commerce,Medium,PUBLIC_SOURCE
+CASE002697,I want help to enter a damn secondary delivery address,E-commerce,Medium,PUBLIC_SOURCE
+CASE001656,know if there is anything new on my rebate,E-commerce,Medium,PUBLIC_SOURCE
+CASE000995,i dont know how to change to the premium account,E-commerce,Medium,PUBLIC_SOURCE
+CASE001716,is it possible to get my bill #00108?,E-commerce,Medium,PUBLIC_SOURCE
+CASE001744,i want assistance acquiring a few of ur item,E-commerce,Medium,PUBLIC_SOURCE
+CASE002207,I have an issue editing the address,E-commerce,Medium,PUBLIC_SOURCE
+CASE002824,where do I update the delivery address?,E-commerce,Medium,PUBLIC_SOURCE
+CASE001456,modify information on {{Account Category}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE000880,I'm trying to recover the pwd of my use,E-commerce,Medium,PUBLIC_SOURCE
+CASE002486,where to open a {{Account Category}} account?,E-commerce,Medium,PUBLIC_SOURCE
+CASE001870,how to send some feedback about your company?,E-commerce,Medium,PUBLIC_SOURCE
+CASE001988,edit information on {{Account Category}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE001663,i bought somegoddamn item how do i cancel order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE001798,modify order00004587345,E-commerce,Medium,PUBLIC_SOURCE
+CASE001991,help me restore the key of my user,E-commerce,Medium,PUBLIC_SOURCE
+CASE002384,i dont have a {{Account Category}} account eyt i need to sign up,E-commerce,Medium,PUBLIC_SOURCE
+CASE002906,I am trying to cancel purchaes {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002761,I want to update my address,E-commerce,Medium,PUBLIC_SOURCE
+CASE001782,how can I see the status of purchae {{Order Number}}?,E-commerce,Medium,PUBLIC_SOURCE
+CASE001082,I need hdlp to submit my feedback for a product,E-commerce,Medium,PUBLIC_SOURCE
+CASE001368,tell me about updating my delivery address,E-commerce,Medium,PUBLIC_SOURCE
+CASE001251,i need assistance creating a platinum account,E-commerce,Medium,PUBLIC_SOURCE
+CASE000568,correcting data on {{Account Type}} accoujnt,E-commerce,Medium,PUBLIC_SOURCE
+CASE001141,I'd like to see order {{Order Number}} current status will uhelp me,E-commerce,Medium,PUBLIC_SOURCE
+CASE002633,i do not know what i need to do to download the bioll #12588,E-commerce,Medium,PUBLIC_SOURCE
+CASE002220,shipping to {{Delivery Country}},E-commerce,Medium,PUBLIC_SOURCE
+CASE001395,i need assistance to send some feedback for ur produucts,E-commerce,Medium,PUBLIC_SOURCE
+CASE002920,edting info on standard account,E-commerce,Medium,PUBLIC_SOURCE
+CASE001763,assistance to recover the key of my user profile,E-commerce,Medium,PUBLIC_SOURCE
+CASE001652,I do not know how I can edit the delivery address,E-commerce,Medium,PUBLIC_SOURCE
+CASE001150,can i place an order from {{Delivery City}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002529,what do i need to do to correct my shippign address,E-commerce,Medium,PUBLIC_SOURCE
+CASE001489,"I have to check the early exit fees, help me",E-commerce,Medium,PUBLIC_SOURCE
+CASE000078,My delivery is delayed. as soon as possible.,Small Business,Medium,SYNTHETIC
+CASE001659,I am trying to retrieve the PIN of my user profile,E-commerce,Medium,PUBLIC_SOURCE
+CASE002645,correcting infornation on standard account,E-commerce,Medium,PUBLIC_SOURCE
+CASE003140,want help to remove several products from purchase {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002634,I want assistance to check hte ETA of order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000088,How do I change the business contact email? I need assistance.,Small Business,Medium,SYNTHETIC
+CASE001954,what do I have to do to use the {{Account Category}} profile?,E-commerce,Medium,PUBLIC_SOURCE
+CASE001407,I need to change an order I placed. as soon as possible.,Small Business,Medium,SYNTHETIC
+CASE003066,open nw pro account for daughter,E-commerce,Medium,PUBLIC_SOURCE
+CASE001567,wanna use the {{Account Type}} account i need help,E-commerce,Medium,PUBLIC_SOURCE
+CASE003101,help to biy some of ur article,E-commerce,Medium,PUBLIC_SOURCE
+CASE002329,how can I check the ETA of the purchase {{Order Number}}?,E-commerce,Medium,PUBLIC_SOURCE
+CASE001402,how can i tfack purchase {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002989,can uhelp me to change a product of purchase {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE001178,can utell me more about modifying my delivery address,E-commerce,Medium,PUBLIC_SOURCE
+CASE000456,I want information about correcting order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000434,I have got to locate my invoice from {{Person Name}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002138,where to earn several of your product?,E-commerce,Medium,PUBLIC_SOURCE
+CASE002170,need to acquire several of ur article,E-commerce,Medium,PUBLIC_SOURCE
+CASE000360,What features are included in the business subscription?,Small Business,Medium,SYNTHETIC
+CASE003014,I'm trying to see the rebate current status,E-commerce,Medium,PUBLIC_SOURCE
+CASE001140,is it possible to place an order from {{Delivery City}} ?,E-commerce,Medium,PUBLIC_SOURCE
+CASE001330,"I ain't registered yet, I try to open a {{Account Category}} account",E-commerce,Medium,PUBLIC_SOURCE
+CASE000270,Why has my invoice not been generated?,Small Business,Medium,SYNTHETIC
+CASE003155,swithcing to standard account,E-commerce,Medium,PUBLIC_SOURCE
+CASE001462,help switching an article of order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000261,Can I edit my exam registration after submitting it?,Education,Medium,SYNTHETIC
+CASE002955,help with canceling purchase {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000032,When is the deadline for paying my fees? Please help me.,Education,Medium,SYNTHETIC
+CASE001043,I try to see the fucking restitution current status,E-commerce,Medium,PUBLIC_SOURCE
+CASE002753,editing information on account,E-commerce,Medium,PUBLIC_SOURCE
+CASE000609,can ya help me cancel order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE001714,where can I buy some of your article?,E-commerce,Medium,PUBLIC_SOURCE
+CASE002279,I do not know what I have to do to see the termination fee,E-commerce,Medium,PUBLIC_SOURCE
+CASE000259,I have a problem with my account. Please help.,Small Business,Medium,SYNTHETIC
+CASE000142,can ya help me using the fucking {{Account Category}} profile,E-commerce,Medium,PUBLIC_SOURCE
+CASE002394,I have to set my new delivery address up,E-commerce,Medium,PUBLIC_SOURCE
+CASE000849,do you have an address to leave feedback for your services?,E-commerce,Medium,PUBLIC_SOURCE
+CASE001649,i dont know how to change my address,E-commerce,Medium,PUBLIC_SOURCE
+CASE002721,I dp not know how to cancel order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002842,need help earning several of your article,E-commerce,Medium,PUBLIC_SOURCE
+CASE000126,Can you send me a copy of the invoice? Please help.,Small Business,Medium,SYNTHETIC
+CASE000956,what do I need to do to see order {{Order Number}} status?,E-commerce,Medium,PUBLIC_SOURCE
+CASE002922,i have troubles entering my delivery address,E-commerce,Medium,PUBLIC_SOURCE
+CASE002590,need assistance changing the details on my profile,E-commerce,Medium,PUBLIC_SOURCE
+CASE002663,i need help entering another delivery address,E-commerce,Medium,PUBLIC_SOURCE
+CASE000700,I have a problem with my account.,Small Business,Medium,SYNTHETIC
+CASE001184,need help to modify my user information,E-commerce,Medium,PUBLIC_SOURCE
+CASE000602,how can I see if there is anything new on my compensation?,E-commerce,Medium,PUBLIC_SOURCE
+CASE002428,problem with canceling order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002423,"I have to cancel purchase {{Order Number}}, can I get some help?",E-commerce,Medium,PUBLIC_SOURCE
+CASE001989,acquire several of your item,E-commerce,Medium,PUBLIC_SOURCE
+CASE000484,i want help retrieving the access key of my account,E-commerce,Medium,PUBLIC_SOURCE
+CASE002236,i do ont know how to send fucking feedback for a service,E-commerce,Medium,PUBLIC_SOURCE
+CASE000109,What is the minimum order quantity? I need assistance.,Small Business,Medium,SYNTHETIC
+CASE001683,I'm looking for information about creating platinum accounts,E-commerce,Medium,PUBLIC_SOURCE
+CASE002436,could I check how long it takes for my order to arrive?,E-commerce,Medium,PUBLIC_SOURCE
+CASE001243,how do I update my delivery address?,E-commerce,Medium,PUBLIC_SOURCE
+CASE001329,need to change my shipping address,E-commerce,Medium,PUBLIC_SOURCE
+CASE000130,When will my business order be delivered? I need assistance.,Small Business,Medium,SYNTHETIC
+CASE002917,I need to see the current status of the compensation,E-commerce,Medium,PUBLIC_SOURCE
+CASE002468,I need assistance retreiving my profile key,E-commerce,Medium,PUBLIC_SOURCE
+CASE000394,Where can I find my exam schedule?,Education,Medium,SYNTHETIC
+CASE002620,i have a tyrouble modifying my address,E-commerce,Medium,PUBLIC_SOURCE
+CASE003074,updating details on {{Account Category}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE001319,how do I enter a secondary delivery address?,E-commerce,Medium,PUBLIC_SOURCE
+CASE001344,"I do not want this item, I try to cancel order {{Order Number}}",E-commerce,Medium,PUBLIC_SOURCE
+CASE003133,cancel order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000576,I try to order some of your article,E-commerce,Medium,PUBLIC_SOURCE
+CASE002597,can uhelp me to get the invoice #12588,E-commerce,Medium,PUBLIC_SOURCE
+CASE002445,how do I create a bloody {{Account Category}} account for my father?,E-commerce,Medium,PUBLIC_SOURCE
+CASE000560,changing details on {{Account Type}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE002685,need support tryinmg to change the address,E-commerce,Medium,PUBLIC_SOURCE
+CASE001182,My grade is missing from the student portal. Please help me.,Education,Medium,SYNTHETIC
+CASE001902,I want to change to the {{Account Type}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE000197,When does course registration open? Please help me.,Education,Medium,SYNTHETIC
+CASE001768,I want help correcting my shipping address,E-commerce,Medium,PUBLIC_SOURCE
+CASE002020,I need assistance retrieving the PIN of my user,E-commerce,Medium,PUBLIC_SOURCE
+CASE000864,i aint registered yet could i open a pro account withyou,E-commerce,Medium,PUBLIC_SOURCE
+CASE003193,i chose a wfong fucking address i wanna correct it,E-commerce,Medium,PUBLIC_SOURCE
+CASE000391,Can I change the delivery address? I need assistance.,Small Business,Medium,SYNTHETIC
+CASE001469,want help updating my address,E-commerce,Medium,PUBLIC_SOURCE
+CASE001561,i want help acquiring an article,E-commerce,Medium,PUBLIC_SOURCE
+CASE003083,can you help me downloading the invoice #12588?,E-commerce,Medium,PUBLIC_SOURCE
+CASE000365,How can I add another employee to the account? as soon as possible.,Small Business,Medium,SYNTHETIC
+CASE002118,I need help leaving feedback about a service,E-commerce,Medium,PUBLIC_SOURCE
+CASE002690,can you help me seeing the options for delivery?,E-commerce,Medium,PUBLIC_SOURCE
+CASE000278,"For my business, how can I download my invoice?",Small Business,Medium,SYNTHETIC
+CASE000420,Can I pay my tuition fees in installments?,Education,Medium,SYNTHETIC
+CASE002409,"I have got to see what delivery options you offer, help me",E-commerce,Medium,PUBLIC_SOURCE
+CASE000295,Where is my shipment?,Small Business,Medium,SYNTHETIC
+CASE002744,I don't know what to do to switch to the {{Account Category}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE001061,problems with cancelling order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE003300,i dont know what to do to download invoice #37777,E-commerce,Medium,PUBLIC_SOURCE
+CASE003195,assistance shopping some of your article,E-commerce,Medium,PUBLIC_SOURCE
+CASE003307,assistance downloading my bills from {{Person Name}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002570,I need help purchasing several of your product,E-commerce,Medium,PUBLIC_SOURCE
+CASE000787,open a {{Account Category}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE002372,find informtaion about my forgotten pin,E-commerce,Medium,PUBLIC_SOURCE
+CASE002461,I cannot recover my pwd,E-commerce,Medium,PUBLIC_SOURCE
+CASE000357,need to use the {{Account Category}} profile help me,E-commerce,Medium,PUBLIC_SOURCE
+CASE002501,how can I recover the key of my user?,E-commerce,Medium,PUBLIC_SOURCE
+CASE001173,give a quick look at the invoice #12588,E-commerce,Medium,PUBLIC_SOURCE
+CASE001227,where to check how long it takes for my delivery to arrive,E-commerce,Medium,PUBLIC_SOURCE
+CASE000816,how could I purchase several products?,E-commerce,Medium,PUBLIC_SOURCE
+CASE002855,updating platinum accojnt,E-commerce,Medium,PUBLIC_SOURCE
+CASE003037,i do not know how to buy several of ur item,E-commerce,Medium,PUBLIC_SOURCE
+CASE000115,I need assistance modifying the damn data on my account,E-commerce,Medium,PUBLIC_SOURCE
+CASE000138,could i swap some goddamn products of order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000938,I need to swap an item of purchase {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000786,Can I cancel my business order? I need assistance.,Small Business,Medium,SYNTHETIC
+CASE002945,how can isubmit my feedback for ur company,E-commerce,Medium,PUBLIC_SOURCE
+CASE001396,i do not know what i have to do to get my invoice #85632,E-commerce,Medium,PUBLIC_SOURCE
+CASE003304,can I see what delivery options are there?,E-commerce,Medium,PUBLIC_SOURCE
+CASE001168,help purchasing some bloody articles,E-commerce,Medium,PUBLIC_SOURCE
+CASE001881,checkmy invoice #37777,E-commerce,Medium,PUBLIC_SOURCE
+CASE002208,where do I submit feedback about a product?,E-commerce,Medium,PUBLIC_SOURCE
+CASE000935,i have problesm with my forgotten pwd,E-commerce,Medium,PUBLIC_SOURCE
+CASE000713,I am trying to order a few of your product,E-commerce,Medium,PUBLIC_SOURCE
+CASE002181,is it possible to ordet from {{Delivery Country}},E-commerce,Medium,PUBLIC_SOURCE
+CASE001327,assistance updating the info included on my user account,E-commerce,Medium,PUBLIC_SOURCE
+CASE002919,can i check purchase {{Order Number}} status,E-commerce,Medium,PUBLIC_SOURCE
+CASE001776,i cannot track my restitution,E-commerce,Medium,PUBLIC_SOURCE
+CASE002485,is it possible to enter my delivery address,E-commerce,Medium,PUBLIC_SOURCE
+CASE001086,assistance to dowmload the invoice from {{Person Name}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000603,My fee payment has failed. What should I do?,Education,Medium,SYNTHETIC
+CASE001247,where could I edit my delivery address?,E-commerce,Medium,PUBLIC_SOURCE
+CASE001438,When will my business order be delivered? Please help.,Small Business,Medium,SYNTHETIC
+CASE000386,Can I change my elective after course registration? Please help me.,Education,Medium,SYNTHETIC
+CASE002156,is it possible to restore my user PIN?,E-commerce,Medium,PUBLIC_SOURCE
+CASE000943,Can I cancel my business order? Please help.,Small Business,Medium,SYNTHETIC
+CASE002230,i need assistance giving a quick look at the invoice #12588,E-commerce,Medium,PUBLIC_SOURCE
+CASE000158,Can I pay my tuition fees in installments? Please help me.,Education,Medium,SYNTHETIC
+CASE002712,I don't know what I have to do to locate my invoice #00108,E-commerce,Medium,PUBLIC_SOURCE
+CASE000771,"I can't remember my user profile PIN, I have got to reset it",E-commerce,Medium,PUBLIC_SOURCE
+CASE000740,How can I check the status of my business order? Please help.,Small Business,Medium,SYNTHETIC
+CASE001298,The invoice amount is incorrect. Please help.,Small Business,Medium,SYNTHETIC
+CASE001230,I don't know what I have to do to see the termination fees,E-commerce,Medium,PUBLIC_SOURCE
+CASE001389,I want to know more about creating a standard account,E-commerce,Medium,PUBLIC_SOURCE
+CASE001278,can you help me purchasing a damn item?,E-commerce,Medium,PUBLIC_SOURCE
+CASE002323,i dont know what i need to do to download my bill #37777,E-commerce,Medium,PUBLIC_SOURCE
+CASE000932,i do not know what i have to do to get bill #00108,E-commerce,Medium,PUBLIC_SOURCE
+CASE002295,have a problem with creating my platinum account,E-commerce,Medium,PUBLIC_SOURCE
+CASE001822,"I can no longer afford purchase {{Order Number}}, cancel it",E-commerce,Medium,PUBLIC_SOURCE
+CASE000265,Can I return part of a business order? as soon as possible.,Small Business,Medium,SYNTHETIC
+CASE003250,I don't know what I have to do to open a {{Account Type}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE000377,Can you help me? can I edit my exam registration after submitting it?,Education,Medium,SYNTHETIC
+CASE002105,I'm trying to se the withdrawal fees,E-commerce,Medium,PUBLIC_SOURCE
+CASE000039,The payment was deducted but the order is still unpaid. as soon as possible.,Small Business,Medium,SYNTHETIC
+CASE000618,need help to download my invoice #37777,E-commerce,Medium,PUBLIC_SOURCE
+CASE001040,check order {{Order Number}} status,E-commerce,Medium,PUBLIC_SOURCE
+CASE001973,I don't know what I need to do to locate the invoice #85632,E-commerce,Medium,PUBLIC_SOURCE
+CASE002246,can I ordrr from {{Delivery City}}?,E-commerce,Medium,PUBLIC_SOURCE
+CASE002757,i cant retrieve my user pwd,E-commerce,Medium,PUBLIC_SOURCE
+CASE001783,issue submitting the secondary delivery address,E-commerce,Medium,PUBLIC_SOURCE
+CASE001585,how could I edit my damn user?,E-commerce,Medium,PUBLIC_SOURCE
+CASE000797,i need assstance to check how soon can i expect the order,E-commerce,Medium,PUBLIC_SOURCE
+CASE002670,I need assistance adding several articles to order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000702,help to get bill #00108,E-commerce,Medium,PUBLIC_SOURCE
+CASE003015,hsipping to {{Delivery Country}},E-commerce,Medium,PUBLIC_SOURCE
+CASE001351,I need help to see the early exit fees,E-commerce,Medium,PUBLIC_SOURCE
+CASE003294,how do I cancel my subscription to the newsletter ?,E-commerce,Medium,PUBLIC_SOURCE
+CASE000900,updaing info on {{Account Type}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE000209,"I lost the PIN of my user, I want help to retrieve it",E-commerce,Medium,PUBLIC_SOURCE
+CASE001323,what do I have to do to restore my user account key?,E-commerce,Medium,PUBLIC_SOURCE
+CASE002635,i do not know how i could switch tto the standard account,E-commerce,Medium,PUBLIC_SOURCE
+CASE002263,i need assistance trying to update the shipping address,E-commerce,Medium,PUBLIC_SOURCE
+CASE000633,"For my business, what is the minimum order quantity?",Small Business,Medium,SYNTHETIC
+CASE000763,need assistance to get my invoice #85632,E-commerce,Medium,PUBLIC_SOURCE
+CASE000366,Can I edit the exam registration after submitting it?,Education,Medium,SYNTHETIC
+CASE003219,I want assistance to swap some items of order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE001347,"I would like to get the bill from {{Person Name}}, help me",E-commerce,Medium,PUBLIC_SOURCE
+CASE003102,I have got to send feedback for a product,E-commerce,Medium,PUBLIC_SOURCE
+CASE001189,correcting infornation on {{Account Category}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE002011,I want assistance creatinga standard account,E-commerce,Medium,PUBLIC_SOURCE
+CASE001363,I have an issue trying to correct my delivery address,E-commerce,Medium,PUBLIC_SOURCE
+CASE001895,can you help me cancel purchase {{Order Number}}?,E-commerce,Medium,PUBLIC_SOURCE
+CASE003128,changing order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE001556,need assistance cancelling purchase {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE001540,is it possible to place a goddamn order from {{Delivery Country}},E-commerce,Medium,PUBLIC_SOURCE
+CASE003026,"I cannot find the termination fees, I need assistance",E-commerce,Medium,PUBLIC_SOURCE
+CASE001238,I am trying to download the bills from {{Person Name}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002285,problems setting a new delivery address up,E-commerce,Medium,PUBLIC_SOURCE
+CASE002490,I do not know how I can change to the standard account,E-commerce,Medium,PUBLIC_SOURCE
+CASE000454,another {{Account Type}} account for father,E-commerce,Medium,PUBLIC_SOURCE
+CASE002825,how can i take a quick look at my invoice from {{Person Name}},E-commerce,Medium,PUBLIC_SOURCE
+CASE001674,want assistance opening a standard account,E-commerce,Medium,PUBLIC_SOURCE
+CASE002665,is it possible to change to the {{Account Type}} account?,E-commerce,Medium,PUBLIC_SOURCE
+CASE000538,Can you help me? how can I pay my semester fees?,Education,Medium,SYNTHETIC
+CASE002265,help me setting another delivery address up,E-commerce,Medium,PUBLIC_SOURCE
+CASE002702,how can I cancel the newsletter subscription?,E-commerce,Medium,PUBLIC_SOURCE
+CASE001961,i do not have a {{Account Type}} cacount yet I'd like to create one,E-commerce,Medium,PUBLIC_SOURCE
+CASE001840,correct data on {{Account Category}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE000300,"For my business, where can I find the vendor details for my order?",Small Business,Medium,SYNTHETIC
+CASE001699,i try to restore the pwd of my user profile,E-commerce,Medium,PUBLIC_SOURCE
+CASE000373,"I want to check the goddamn rebate status, how to do it?",E-commerce,Medium,PUBLIC_SOURCE
+CASE001523,could i see the ETA of the purchase {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000037,The payment was deducted but the order is still unpaid.,Small Business,Medium,SYNTHETIC
+CASE000539,see invoice #37777,E-commerce,Medium,PUBLIC_SOURCE
+CASE000304,How can I add another employee to the account? Please help.,Small Business,Medium,SYNTHETIC
+CASE000452,How can I change our business subscription? as soon as possible.,Small Business,Medium,SYNTHETIC
+CASE002526,I do not know how I can buy some of your article,E-commerce,Medium,PUBLIC_SOURCE
+CASE002650,i try to rettieve my profile access key,E-commerce,Medium,PUBLIC_SOURCE
+CASE001637,I want information about correcting the address,E-commerce,Medium,PUBLIC_SOURCE
+CASE000913,I want assistance switching to the {{Account Category}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE002388,what do I need to do to recover the pwd of my profile?,E-commerce,Medium,PUBLIC_SOURCE
+CASE000251,How can I pay for my business order? Please help.,Small Business,Medium,SYNTHETIC
+CASE003292,"I made a mistake, I want help editing order {{Order Number}}",E-commerce,Medium,PUBLIC_SOURCE
+CASE000757,there is a problem entering my delivery address,E-commerce,Medium,PUBLIC_SOURCE
+CASE001810,I have to see the early termination fee,E-commerce,Medium,PUBLIC_SOURCE
+CASE002948,is it possible to order from {{Delivery Country}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000383,"For my business, the invoice amount is incorrect.",Small Business,Medium,SYNTHETIC
+CASE003112,i try to send feedback about ur services,E-commerce,Medium,PUBLIC_SOURCE
+CASE000686,i dont know what i habe to do to get my bill #85632,E-commerce,Medium,PUBLIC_SOURCE
+CASE002291,need assistance with opening my {{Account Type}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE000022,I cannot log in to my business account.,Small Business,Medium,SYNTHETIC
+CASE002027,swap an article of order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002582,I have to update my shipping address,E-commerce,Medium,PUBLIC_SOURCE
+CASE000651,i need assistance to set the new delivery address up,E-commerce,Medium,PUBLIC_SOURCE
+CASE000941,I do not knowwhat I need to do to get invoice #85632,E-commerce,Medium,PUBLIC_SOURCE
+CASE001195,i can no longer afford purchase {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE001198,What features are included in the business subscription? as soon as possible.,Small Business,Medium,SYNTHETIC
+CASE003063,I need assistance to restore the password of my user account,E-commerce,Medium,PUBLIC_SOURCE
+CASE000379,When is the deadline for paying my fees?,Education,Medium,SYNTHETIC
+CASE002377,i want help to reset my user profile pin code,E-commerce,Medium,PUBLIC_SOURCE
+CASE000859,changkng to platinum account,E-commerce,Medium,PUBLIC_SOURCE
+CASE002999,send me bull from {{Person Name}},E-commerce,Medium,PUBLIC_SOURCE
+CASE001974,I do not know what I need to do to download the bill #85632,E-commerce,Medium,PUBLIC_SOURCE
+CASE002025,how to cancel order {{Order Number}}?,E-commerce,Medium,PUBLIC_SOURCE
+CASE001686,i need assistance tracking purchase {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002101,can ya help me checking the withrawal fee,E-commerce,Medium,PUBLIC_SOURCE
+CASE002737,where do I reset my user key?,E-commerce,Medium,PUBLIC_SOURCE
+CASE003331,I do not know what to do to get my invoice from {{Person Name}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002317,what do i need to do to set up my delivery address,E-commerce,Medium,PUBLIC_SOURCE
+CASE002756,i do not know how to enter a delivery address,E-commerce,Medium,PUBLIC_SOURCE
+CASE000558,"For my business, how can I change our business subscription?",Small Business,Medium,SYNTHETIC
+CASE000359,How can I pay for my business order? I need assistance.,Small Business,Medium,SYNTHETIC
+CASE001680,mldifying premium account,E-commerce,Medium,PUBLIC_SOURCE
+CASE000944,edit info on {{Account Category}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE003025,find information about opening {{Account Category}} accounts,E-commerce,Medium,PUBLIC_SOURCE
+CASE001370,How do I update vendor information? I need assistance.,Small Business,Medium,SYNTHETIC
+CASE002759,could you help me to create a {{Account Type}} account for my fiance?,E-commerce,Medium,PUBLIC_SOURCE
+CASE002107,"I would like to shop some of your product, how to do it?",E-commerce,Medium,PUBLIC_SOURCE
+CASE000231,I need the invoice for my recent purchase. I need assistance.,Small Business,Medium,SYNTHETIC
+CASE003327,can uhelp me see the currnt status of order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE001678,need help to set up my secondary delivery address,E-commerce,Medium,PUBLIC_SOURCE
+CASE000894,is it possible to check when my order is gonna arrive,E-commerce,Medium,PUBLIC_SOURCE
+CASE001671,can ya help me to create a platinum account for my fiance,E-commerce,Medium,PUBLIC_SOURCE
+CASE002625,i dont know what i need to do to change to the {{Account Type}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE002585,can I order from {{Delivery Country}}?,E-commerce,Medium,PUBLIC_SOURCE
+CASE002511,i cannot check if there are any news on the compensation,E-commerce,Medium,PUBLIC_SOURCE
+CASE001302,find information about modifying my address,E-commerce,Medium,PUBLIC_SOURCE
+CASE003016,assistance to see if there are any news on the compensation,E-commerce,Medium,PUBLIC_SOURCE
+CASE000451,how to reset the damn password of my user?,E-commerce,Medium,PUBLIC_SOURCE
+CASE002612,I want help downloading invoice #85632,E-commerce,Medium,PUBLIC_SOURCE
+CASE003019,wanna deit order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002142,check invoice #85632,E-commerce,Medium,PUBLIC_SOURCE
+CASE000815,chnge data on pro account,E-commerce,Medium,PUBLIC_SOURCE
+CASE001312,show cancellation charges,E-commerce,Medium,PUBLIC_SOURCE
+CASE002443,i need assistance getting my bill from {{Person Name}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002982,I try to change to the {{Account Type}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE000756,I don't know what I have to do to download my invoice #12588,E-commerce,Medium,PUBLIC_SOURCE
+CASE001049,"I have to change purchase {{Order Number}}, help me",E-commerce,Medium,PUBLIC_SOURCE
+CASE000680,do you deliver to {{Delivery Country}}?,E-commerce,Medium,PUBLIC_SOURCE
+CASE001019,help me to change several products of purchase {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE001643,assistance ordering an article,E-commerce,Medium,PUBLIC_SOURCE
+CASE003274,I have troubles editing the address,E-commerce,Medium,PUBLIC_SOURCE
+CASE001284,I don't know how I can get my invoice from {{Person Name}},E-commerce,Medium,PUBLIC_SOURCE
+CASE001889,help seeing order {{Order Number}} status,E-commerce,Medium,PUBLIC_SOURCE
+CASE002947,there is an issue entering my delivery address,E-commerce,Medium,PUBLIC_SOURCE
+CASE002684,I don't know how I can submit some feedback,E-commerce,Medium,PUBLIC_SOURCE
+CASE001167,I need assistance to leave feedback about your company,E-commerce,Medium,PUBLIC_SOURCE
+CASE002573,help me shop several of your product,E-commerce,Medium,PUBLIC_SOURCE
+CASE002017,tell me about modifying my address,E-commerce,Medium,PUBLIC_SOURCE
+CASE001571,how to track the reimbursement?,E-commerce,Medium,PUBLIC_SOURCE
+CASE002223,need help getting the invoices from {{Person Name}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002282,help using the {{Account Type}} profile,E-commerce,Medium,PUBLIC_SOURCE
+CASE002477,question about opening standard accounts,E-commerce,Medium,PUBLIC_SOURCE
+CASE000044,"For my business, when will my business order be delivered?",Small Business,Medium,SYNTHETIC
+CASE000093,How can I check the status of my business order? I need assistance.,Small Business,Medium,SYNTHETIC
+CASE002480,is it possible to place an order from {{Delivery City}}?,E-commerce,Medium,PUBLIC_SOURCE
+CASE001872,help me to check the ETA of the order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002007,I don't know how I could see the cancellation penalties,E-commerce,Medium,PUBLIC_SOURCE
+CASE001876,how to delete an article from order {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE001882,"I need to change an item of purchase {{Order Number}}, help me",E-commerce,Medium,PUBLIC_SOURCE
+CASE002797,I have to acquire some items,E-commerce,Medium,PUBLIC_SOURCE
+CASE001815,i need support modifying my delivery addtess,E-commerce,Medium,PUBLIC_SOURCE
+CASE000888,How can I add another employee to the account?,Small Business,Medium,SYNTHETIC
+CASE000848,editing data on {{Account Category}} acocunt,E-commerce,Medium,PUBLIC_SOURCE
+CASE001506,need assistance to recover my account pass,E-commerce,Medium,PUBLIC_SOURCE
+CASE001753,I want to get bill #37777,E-commerce,Medium,PUBLIC_SOURCE
+CASE001172,I need assistance to shop a few of your item,E-commerce,Medium,PUBLIC_SOURCE
+CASE000970,I want supports changing the shipping address,E-commerce,Medium,PUBLIC_SOURCE
+CASE001990,i do not know what to do toreset the pwd of my user,E-commerce,Medium,PUBLIC_SOURCE
+CASE002600,can I place a bloody order from {{Delivery City}}?,E-commerce,Medium,PUBLIC_SOURCE
+CASE000150,I can't correct the shipping address,E-commerce,Medium,PUBLIC_SOURCE
+CASE002869,where could i check order {{Order Number}} fucking curent status,E-commerce,Medium,PUBLIC_SOURCE
+CASE000082,"For my business, can I cancel my business order?",Small Business,Medium,SYNTHETIC
+CASE000605,where do i open a gold account for my fiance,E-commerce,Medium,PUBLIC_SOURCE
+CASE000448,I need the invoice for my recent purchase. as soon as possible.,Small Business,Medium,SYNTHETIC
+CASE001995,assistance seeing the status of my newsletter subscription,E-commerce,Medium,PUBLIC_SOURCE
+CASE000564,I need help seeing the termination fees,E-commerce,Medium,PUBLIC_SOURCE
+CASE003339,I want help to update some of the details on my user account,E-commerce,Medium,PUBLIC_SOURCE
+CASE002090,can you help me take a quick look at my invoice #85632?,E-commerce,Medium,PUBLIC_SOURCE
+CASE001244,check current status of purchase {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000976,I try to know if there are any updates on my restitution,E-commerce,Medium,PUBLIC_SOURCE
+CASE001295,I was charged but the fee payment is not updated.,Education,Medium,SYNTHETIC
+CASE000876,I need help retrieving my goddamn account password,E-commerce,Medium,PUBLIC_SOURCE
+CASE000810,How do I update vendor information? as soon as possible.,Small Business,Medium,SYNTHETIC
+CASE000204,I cannot log in to my business account. I need assistance.,Small Business,Medium,SYNTHETIC
+CASE003007,I do not know what I have to do to reset my user PIN code,E-commerce,Medium,PUBLIC_SOURCE
+CASE003223,"I want to see the cancellation penalty, help me",E-commerce,Medium,PUBLIC_SOURCE
+CASE003241,i need help trying to change the address,E-commerce,Medium,PUBLIC_SOURCE
+CASE002652,help me check if there are any news on the rebate,E-commerce,Medium,PUBLIC_SOURCE
+CASE002805,how can i see the status of my subscription to ur newsletter,E-commerce,Medium,PUBLIC_SOURCE
+CASE001437,i want help retrieving my pin code,E-commerce,Medium,PUBLIC_SOURCE
+CASE000122,How can I change our business subscription? I need assistance.,Small Business,Medium,SYNTHETIC
+CASE000743,cancelling purchase {{Order Number}},E-commerce,Medium,PUBLIC_SOURCE
+CASE002427,how to see how long it takes for my delivery to arrive?,E-commerce,Medium,PUBLIC_SOURCE
+CASE002584,what do I have to do to see my invoice from {{Person Name}}?,E-commerce,Medium,PUBLIC_SOURCE
+CASE002793,assistance seeing the invoices from {{Person Name}},E-commerce,Medium,PUBLIC_SOURCE
+CASE000213,I need to change an order I placed. Please help.,Small Business,Medium,SYNTHETIC
+CASE001038,mldifying {{Account Category}} account,E-commerce,Medium,PUBLIC_SOURCE
+CASE003022,assistance giving an quick look at my invoice from {{Person Name}},E-commerce,Medium,PUBLIC_SOURCE
+CASE001341,I need assistance tracking my reimbursement,E-commerce,Medium,PUBLIC_SOURCE

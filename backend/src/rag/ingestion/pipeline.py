@@ -8,6 +8,10 @@ embedding generation, and tenant-isolated ChromaDB indexing.
 
 from datetime import datetime, timezone
 import hashlib
+import os
+os.environ.setdefault("HF_HUB_OFFLINE", "1")
+os.environ.setdefault("TRANSFORMERS_OFFLINE", "1")
+os.environ.setdefault("ANONYMIZED_TELEMETRY", "False")
 from pathlib import Path
 import shutil
 from typing import Any, Dict, List, Optional, Tuple
@@ -22,8 +26,24 @@ from src.workspaces.db import WorkspaceDB
 from src.workspaces.models import ChecklistItemStatus
 
 ROOT = Path(__file__).resolve().parents[3]
-VECTOR_DIR = ROOT / "vector_store" / "rag_chroma"
-DATA_TENANTS_DIR = ROOT / "data" / "tenants"
+_cand_vector = [
+    ROOT / "vector_store" / "rag_chroma",
+    Path(__file__).resolve().parents[4] / "backend" / "vector_store" / "rag_chroma",
+    Path(__file__).resolve().parents[4] / "vector_store" / "rag_chroma",
+    Path("backend/vector_store/rag_chroma"),
+    Path("vector_store/rag_chroma"),
+]
+VECTOR_DIR = next((c for c in _cand_vector if c.exists()), _cand_vector[0])
+
+_cand_tenants = [
+    Path(__file__).resolve().parents[4] / "datasets" / "tenants",
+    ROOT / "datasets" / "tenants",
+    Path(__file__).resolve().parents[4] / "data" / "tenants",
+    ROOT / "data" / "tenants",
+    Path("datasets/tenants"),
+    Path("data/tenants"),
+]
+DATA_TENANTS_DIR = next((c for c in _cand_tenants if c.exists()), _cand_tenants[0])
 EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 MAX_FILE_SIZE_BYTES = 10 * 1024 * 1024  # 10 MB limit
 

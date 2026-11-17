@@ -43,11 +43,11 @@ for idx, row in sample_queries.iterrows():
     q = str(row["Query"])
     d = str(row.get("Domain", "E-commerce"))
     EvidenceEntailmentVerifier.clear_cache()
-
+    
     t0 = time.perf_counter()
     state = pipeline.run(query=q, domain=d, generate_grounded_response=True)
     e2e_actual = (time.perf_counter() - t0) * 1000
-
+    
     bd = state.metadata.get("latency_breakdown", {})
     sum_stages = 0.0
     for stage in stages:
@@ -59,7 +59,7 @@ for idx, row in sample_queries.iterrows():
             val = bd.get(stage, 0.0)
             cold_metrics[stage].append(val)
             sum_stages += val
-
+    
     overhead = max(0.0, e2e_actual - sum_stages)
     cold_metrics["latency_orchestration_overhead_ms"].append(overhead)
 
@@ -74,11 +74,11 @@ warm_metrics = {stage: [] for stage in stages}
 for idx, row in sample_queries.iterrows():
     q = str(row["Query"])
     d = str(row.get("Domain", "E-commerce"))
-
+    
     t0 = time.perf_counter()
     state = pipeline.run(query=q, domain=d, generate_grounded_response=True)
     e2e_actual = (time.perf_counter() - t0) * 1000
-
+    
     bd = state.metadata.get("latency_breakdown", {})
     sum_stages = 0.0
     for stage in stages:
@@ -90,7 +90,7 @@ for idx, row in sample_queries.iterrows():
             val = bd.get(stage, 0.0)
             warm_metrics[stage].append(val)
             sum_stages += val
-
+            
     overhead = max(0.0, e2e_actual - sum_stages)
     warm_metrics["latency_orchestration_overhead_ms"].append(overhead)
 

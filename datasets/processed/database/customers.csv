@@ -1,0 +1,1001 @@
+Customer_ID,Domain,Customer_Type,Account_Status,Verification_Status,Dataset_Version,Data_Origin
+CUST0001,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0002,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0003,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0004,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0005,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0006,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0007,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0008,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0009,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0010,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0011,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0012,Small Business,Business Customer,Inactive,Pending,V4,SYNTHETIC
+CUST0013,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0014,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0015,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0016,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0017,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0018,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0019,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0020,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0021,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0022,E-commerce,Consumer,Inactive,Pending,V4,SYNTHETIC
+CUST0023,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0024,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0025,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0026,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0027,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0028,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0029,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0030,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0031,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0032,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0033,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0034,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0035,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0036,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0037,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0038,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0039,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0040,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0041,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0042,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0043,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0044,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0045,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0046,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0047,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0048,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0049,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0050,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0051,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0052,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0053,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0054,Small Business,Business Customer,Inactive,Pending,V4,SYNTHETIC
+CUST0055,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0056,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0057,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0058,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0059,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0060,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0061,E-commerce,Consumer,Inactive,Pending,V4,SYNTHETIC
+CUST0062,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0063,Small Business,Business Customer,Inactive,Pending,V4,SYNTHETIC
+CUST0064,E-commerce,Consumer,Inactive,Pending,V4,SYNTHETIC
+CUST0065,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0066,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0067,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0068,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0069,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0070,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0071,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0072,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0073,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0074,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0075,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0076,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0077,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0078,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0079,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0080,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0081,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0082,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0083,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0084,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0085,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0086,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0087,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0088,E-commerce,Consumer,Inactive,Pending,V4,SYNTHETIC
+CUST0089,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0090,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0091,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0092,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0093,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0094,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0095,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0096,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0097,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0098,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0099,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0100,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0101,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0102,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0103,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0104,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0105,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0106,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0107,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0108,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0109,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0110,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0111,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0112,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0113,Education,Student,Inactive,Pending,V4,SYNTHETIC
+CUST0114,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0115,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0116,Education,Student,Inactive,Pending,V4,SYNTHETIC
+CUST0117,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0118,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0119,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0120,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0121,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0122,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0123,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0124,E-commerce,Consumer,Inactive,Pending,V4,SYNTHETIC
+CUST0125,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0126,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0127,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0128,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0129,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0130,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0131,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0132,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0133,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0134,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0135,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0136,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0137,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0138,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0139,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0140,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0141,Small Business,Business Customer,Inactive,Pending,V4,SYNTHETIC
+CUST0142,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0143,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0144,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0145,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0146,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0147,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0148,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0149,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0150,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0151,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0152,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0153,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0154,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0155,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0156,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0157,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0158,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0159,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0160,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0161,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0162,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0163,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0164,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0165,Small Business,Business Customer,Inactive,Pending,V4,SYNTHETIC
+CUST0166,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0167,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0168,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0169,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0170,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0171,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0172,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0173,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0174,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0175,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0176,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0177,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0178,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0179,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0180,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0181,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0182,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0183,Small Business,Business Customer,Inactive,Pending,V4,SYNTHETIC
+CUST0184,E-commerce,Consumer,Inactive,Pending,V4,SYNTHETIC
+CUST0185,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0186,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0187,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0188,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0189,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0190,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0191,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0192,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0193,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0194,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0195,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0196,E-commerce,Consumer,Inactive,Pending,V4,SYNTHETIC
+CUST0197,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0198,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0199,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0200,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0201,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0202,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0203,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0204,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0205,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0206,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0207,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0208,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0209,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0210,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0211,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0212,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0213,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0214,E-commerce,Consumer,Inactive,Pending,V4,SYNTHETIC
+CUST0215,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0216,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0217,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0218,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0219,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0220,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0221,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0222,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0223,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0224,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0225,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0226,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0227,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0228,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0229,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0230,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0231,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0232,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0233,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0234,Small Business,Business Customer,Inactive,Pending,V4,SYNTHETIC
+CUST0235,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0236,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0237,Small Business,Business Customer,Inactive,Pending,V4,SYNTHETIC
+CUST0238,E-commerce,Consumer,Inactive,Pending,V4,SYNTHETIC
+CUST0239,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0240,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0241,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0242,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0243,Small Business,Business Customer,Inactive,Pending,V4,SYNTHETIC
+CUST0244,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0245,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0246,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0247,E-commerce,Consumer,Inactive,Pending,V4,SYNTHETIC
+CUST0248,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0249,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0250,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0251,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0252,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0253,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0254,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0255,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0256,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0257,Education,Student,Inactive,Pending,V4,SYNTHETIC
+CUST0258,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0259,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0260,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0261,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0262,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0263,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0264,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0265,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0266,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0267,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0268,E-commerce,Consumer,Inactive,Pending,V4,SYNTHETIC
+CUST0269,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0270,Small Business,Business Customer,Inactive,Pending,V4,SYNTHETIC
+CUST0271,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0272,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0273,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0274,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0275,Education,Student,Inactive,Pending,V4,SYNTHETIC
+CUST0276,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0277,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0278,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0279,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0280,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0281,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0282,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0283,E-commerce,Consumer,Inactive,Pending,V4,SYNTHETIC
+CUST0284,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0285,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0286,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0287,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0288,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0289,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0290,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0291,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0292,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0293,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0294,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0295,E-commerce,Consumer,Inactive,Pending,V4,SYNTHETIC
+CUST0296,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0297,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0298,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0299,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0300,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0301,E-commerce,Consumer,Inactive,Pending,V4,SYNTHETIC
+CUST0302,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0303,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0304,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0305,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0306,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0307,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0308,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0309,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0310,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0311,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0312,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0313,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0314,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0315,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0316,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0317,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0318,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0319,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0320,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0321,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0322,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0323,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0324,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0325,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0326,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0327,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0328,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0329,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0330,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0331,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0332,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0333,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0334,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0335,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0336,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0337,E-commerce,Consumer,Inactive,Pending,V4,SYNTHETIC
+CUST0338,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0339,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0340,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0341,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0342,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0343,E-commerce,Consumer,Inactive,Pending,V4,SYNTHETIC
+CUST0344,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0345,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0346,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0347,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0348,Small Business,Business Customer,Inactive,Pending,V4,SYNTHETIC
+CUST0349,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0350,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0351,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0352,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0353,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0354,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0355,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0356,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0357,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0358,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0359,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0360,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0361,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0362,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0363,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0364,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0365,Education,Student,Inactive,Pending,V4,SYNTHETIC
+CUST0366,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0367,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0368,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0369,Small Business,Business Customer,Inactive,Pending,V4,SYNTHETIC
+CUST0370,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0371,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0372,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0373,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0374,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0375,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0376,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0377,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0378,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0379,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0380,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0381,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0382,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0383,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0384,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0385,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0386,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0387,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0388,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0389,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0390,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0391,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0392,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0393,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0394,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0395,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0396,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0397,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0398,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0399,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0400,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0401,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0402,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0403,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0404,Education,Student,Inactive,Pending,V4,SYNTHETIC
+CUST0405,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0406,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0407,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0408,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0409,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0410,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0411,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0412,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0413,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0414,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0415,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0416,Education,Student,Inactive,Pending,V4,SYNTHETIC
+CUST0417,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0418,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0419,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0420,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0421,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0422,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0423,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0424,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0425,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0426,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0427,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0428,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0429,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0430,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0431,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0432,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0433,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0434,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0435,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0436,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0437,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0438,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0439,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0440,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0441,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0442,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0443,Education,Student,Inactive,Pending,V4,SYNTHETIC
+CUST0444,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0445,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0446,Education,Student,Inactive,Pending,V4,SYNTHETIC
+CUST0447,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0448,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0449,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0450,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0451,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0452,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0453,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0454,E-commerce,Consumer,Inactive,Pending,V4,SYNTHETIC
+CUST0455,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0456,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0457,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0458,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0459,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0460,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0461,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0462,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0463,E-commerce,Consumer,Inactive,Pending,V4,SYNTHETIC
+CUST0464,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0465,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0466,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0467,Education,Student,Inactive,Pending,V4,SYNTHETIC
+CUST0468,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0469,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0470,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0471,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0472,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0473,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0474,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0475,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0476,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0477,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0478,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0479,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0480,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0481,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0482,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0483,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0484,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0485,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0486,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0487,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0488,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0489,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0490,E-commerce,Consumer,Inactive,Pending,V4,SYNTHETIC
+CUST0491,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0492,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0493,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0494,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0495,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0496,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0497,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0498,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0499,E-commerce,Consumer,Inactive,Pending,V4,SYNTHETIC
+CUST0500,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0501,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0502,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0503,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0504,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0505,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0506,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0507,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0508,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0509,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0510,Small Business,Business Customer,Inactive,Pending,V4,SYNTHETIC
+CUST0511,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0512,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0513,Small Business,Business Customer,Inactive,Pending,V4,SYNTHETIC
+CUST0514,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0515,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0516,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0517,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0518,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0519,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0520,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0521,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0522,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0523,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0524,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0525,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0526,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0527,Education,Student,Inactive,Pending,V4,SYNTHETIC
+CUST0528,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0529,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0530,Education,Student,Inactive,Pending,V4,SYNTHETIC
+CUST0531,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0532,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0533,Education,Student,Inactive,Pending,V4,SYNTHETIC
+CUST0534,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0535,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0536,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0537,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0538,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0539,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0540,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0541,E-commerce,Consumer,Inactive,Pending,V4,SYNTHETIC
+CUST0542,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0543,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0544,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0545,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0546,Small Business,Business Customer,Inactive,Pending,V4,SYNTHETIC
+CUST0547,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0548,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0549,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0550,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0551,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0552,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0553,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0554,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0555,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0556,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0557,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0558,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0559,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0560,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0561,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0562,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0563,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0564,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0565,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0566,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0567,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0568,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0569,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0570,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0571,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0572,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0573,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0574,E-commerce,Consumer,Inactive,Pending,V4,SYNTHETIC
+CUST0575,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0576,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0577,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0578,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0579,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0580,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0581,Education,Student,Inactive,Pending,V4,SYNTHETIC
+CUST0582,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0583,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0584,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0585,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0586,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0587,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0588,Small Business,Business Customer,Inactive,Pending,V4,SYNTHETIC
+CUST0589,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0590,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0591,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0592,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0593,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0594,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0595,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0596,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0597,Small Business,Business Customer,Inactive,Pending,V4,SYNTHETIC
+CUST0598,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0599,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0600,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0601,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0602,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0603,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0604,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0605,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0606,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0607,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0608,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0609,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0610,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0611,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0612,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0613,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0614,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0615,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0616,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0617,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0618,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0619,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0620,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0621,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0622,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0623,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0624,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0625,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0626,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0627,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0628,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0629,Education,Student,Inactive,Pending,V4,SYNTHETIC
+CUST0630,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0631,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0632,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0633,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0634,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0635,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0636,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0637,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0638,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0639,Small Business,Business Customer,Inactive,Pending,V4,SYNTHETIC
+CUST0640,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0641,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0642,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0643,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0644,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0645,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0646,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0647,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0648,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0649,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0650,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0651,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0652,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0653,Education,Student,Inactive,Pending,V4,SYNTHETIC
+CUST0654,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0655,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0656,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0657,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0658,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0659,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0660,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0661,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0662,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0663,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0664,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0665,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0666,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0667,E-commerce,Consumer,Inactive,Pending,V4,SYNTHETIC
+CUST0668,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0669,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0670,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0671,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0672,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0673,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0674,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0675,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0676,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0677,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0678,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0679,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0680,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0681,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0682,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0683,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0684,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0685,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0686,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0687,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0688,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0689,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0690,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0691,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0692,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0693,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0694,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0695,Education,Student,Inactive,Pending,V4,SYNTHETIC
+CUST0696,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0697,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0698,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0699,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0700,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0701,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0702,Small Business,Business Customer,Inactive,Pending,V4,SYNTHETIC
+CUST0703,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0704,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0705,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0706,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0707,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0708,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0709,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0710,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0711,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0712,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0713,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0714,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0715,E-commerce,Consumer,Inactive,Pending,V4,SYNTHETIC
+CUST0716,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0717,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0718,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0719,Education,Student,Inactive,Pending,V4,SYNTHETIC
+CUST0720,Small Business,Business Customer,Inactive,Pending,V4,SYNTHETIC
+CUST0721,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0722,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0723,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0724,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0725,Education,Student,Inactive,Pending,V4,SYNTHETIC
+CUST0726,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0727,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0728,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0729,Small Business,Business Customer,Inactive,Pending,V4,SYNTHETIC
+CUST0730,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0731,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0732,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0733,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0734,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0735,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0736,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0737,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0738,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0739,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0740,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0741,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0742,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0743,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0744,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0745,E-commerce,Consumer,Inactive,Pending,V4,SYNTHETIC
+CUST0746,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0747,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0748,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0749,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0750,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0751,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0752,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0753,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0754,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0755,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0756,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0757,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0758,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0759,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0760,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0761,Education,Student,Inactive,Pending,V4,SYNTHETIC
+CUST0762,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0763,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0764,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0765,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0766,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0767,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0768,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0769,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0770,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0771,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0772,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0773,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0774,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0775,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0776,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0777,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0778,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0779,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0780,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0781,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0782,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0783,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0784,E-commerce,Consumer,Inactive,Pending,V4,SYNTHETIC
+CUST0785,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0786,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0787,E-commerce,Consumer,Inactive,Pending,V4,SYNTHETIC
+CUST0788,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0789,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0790,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0791,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0792,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0793,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0794,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0795,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0796,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0797,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0798,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0799,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0800,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0801,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0802,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0803,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0804,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0805,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0806,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0807,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0808,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0809,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0810,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0811,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0812,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0813,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0814,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0815,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0816,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0817,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0818,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0819,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0820,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0821,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0822,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0823,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0824,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0825,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0826,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0827,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0828,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0829,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0830,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0831,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0832,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0833,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0834,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0835,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0836,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0837,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0838,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0839,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0840,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0841,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0842,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0843,Small Business,Business Customer,Inactive,Pending,V4,SYNTHETIC
+CUST0844,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0845,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0846,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0847,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0848,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0849,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0850,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0851,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0852,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0853,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0854,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0855,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0856,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0857,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0858,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0859,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0860,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0861,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0862,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0863,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0864,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0865,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0866,Education,Student,Inactive,Pending,V4,SYNTHETIC
+CUST0867,Small Business,Business Customer,Inactive,Pending,V4,SYNTHETIC
+CUST0868,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0869,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0870,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0871,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0872,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0873,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0874,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0875,Education,Student,Inactive,Pending,V4,SYNTHETIC
+CUST0876,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0877,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0878,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0879,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0880,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0881,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0882,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0883,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0884,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0885,Small Business,Business Customer,Inactive,Pending,V4,SYNTHETIC
+CUST0886,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0887,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0888,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0889,E-commerce,Consumer,Inactive,Pending,V4,SYNTHETIC
+CUST0890,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0891,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0892,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0893,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0894,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0895,E-commerce,Consumer,Inactive,Pending,V4,SYNTHETIC
+CUST0896,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0897,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0898,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0899,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0900,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0901,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0902,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0903,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0904,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0905,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0906,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0907,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0908,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0909,Small Business,Business Customer,Inactive,Pending,V4,SYNTHETIC
+CUST0910,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0911,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0912,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0913,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0914,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0915,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0916,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0917,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0918,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0919,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0920,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0921,Small Business,Business Customer,Inactive,Pending,V4,SYNTHETIC
+CUST0922,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0923,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0924,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0925,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0926,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0927,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0928,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0929,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0930,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0931,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0932,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0933,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0934,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0935,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0936,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0937,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0938,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0939,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0940,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0941,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0942,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0943,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0944,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0945,Small Business,Business Customer,Inactive,Pending,V4,SYNTHETIC
+CUST0946,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0947,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0948,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0949,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0950,Education,Student,Inactive,Pending,V4,SYNTHETIC
+CUST0951,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0952,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0953,Education,Student,Inactive,Pending,V4,SYNTHETIC
+CUST0954,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0955,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0956,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0957,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0958,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0959,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0960,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0961,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0962,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0963,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0964,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0965,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0966,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0967,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0968,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0969,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0970,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0971,Education,Student,Inactive,Pending,V4,SYNTHETIC
+CUST0972,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0973,E-commerce,Consumer,Active,Pending,V4,SYNTHETIC
+CUST0974,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0975,Small Business,Business Customer,Active,Pending,V4,SYNTHETIC
+CUST0976,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0977,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0978,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0979,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0980,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0981,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0982,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0983,Education,Student,Active,Pending,V4,SYNTHETIC
+CUST0984,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0985,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0986,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0987,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0988,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0989,Education,Student,Inactive,Verified,V4,SYNTHETIC
+CUST0990,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0991,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0992,Education,Student,Inactive,Pending,V4,SYNTHETIC
+CUST0993,Small Business,Business Customer,Inactive,Verified,V4,SYNTHETIC
+CUST0994,E-commerce,Consumer,Active,Verified,V4,SYNTHETIC
+CUST0995,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0996,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST0997,E-commerce,Consumer,Inactive,Verified,V4,SYNTHETIC
+CUST0998,Education,Student,Active,Verified,V4,SYNTHETIC
+CUST0999,Small Business,Business Customer,Active,Verified,V4,SYNTHETIC
+CUST1000,E-commerce,Consumer,Inactive,Pending,V4,SYNTHETIC

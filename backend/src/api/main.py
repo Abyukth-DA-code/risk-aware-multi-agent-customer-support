@@ -924,3 +924,5 @@ async def predict_escalation(request: EscalationPredictionRequest) -> Escalation
         confidence=res.get("confidence"),
         class_probabilities=res.get("class_probabilities", {}),
     )
+
+

@@ -1,0 +1,11 @@
+{
+  "selected_model": "tfidf_logistic_regression",
+  "accuracy": 0.9596491228070175,
+  "macro_precision": 0.9582437386086707,
+  "macro_recall": 0.9219892292441317,
+  "macro_f1": 0.9360941945687707,
+  "weighted_precision": 0.9614579392512738,
+  "weighted_recall": 0.9596491228070175,
+  "weighted_f1": 0.9590859746524332,
+  "negative_class_recall": 0.9823008849557522
+}

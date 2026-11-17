@@ -1,0 +1,1 @@
+Derived summary tables from frozen V4. Import CSVs into Power BI. Suggested pages: Overview; Domain & Intent; Risk & Safety; Complexity & Escalation; RAG; Operations; Quality.

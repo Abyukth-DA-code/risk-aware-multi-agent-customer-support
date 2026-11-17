@@ -1,0 +1,1001 @@
+Ticket_ID,Customer_ID,Query_Type,Customer_Query,Ticket_Status,Previous_Resolution,Dataset_Version,Domain,Data_Origin
+TKT00001,CUST0001,Payment,I was charged twice for my order.,In Progress,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00002,CUST0004,Order status,What is the current status of my order?,Open,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00003,CUST0007,Subscription,My subscription is not working after renewal.,In Progress,Human Review,V4,E-commerce,SYNTHETIC
+TKT00004,CUST0010,Return,I want to return the product I purchased.,Open,Human Review,V4,E-commerce,SYNTHETIC
+TKT00005,CUST0013,Delivery,My order delivery is delayed.,Open,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00006,CUST0016,Refund,My refund has not arrived yet.,Escalated,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00007,CUST0019,Account,I cannot access my customer account.,Escalated,Human Review,V4,E-commerce,SYNTHETIC
+TKT00008,CUST0022,Payment,I was charged twice for my order for ticket reference TKT00008.,Escalated,Human Review,V4,E-commerce,SYNTHETIC
+TKT00009,CUST0025,Order status,What is the current status of my order?,Open,Human Review,V4,E-commerce,SYNTHETIC
+TKT00010,CUST0028,Subscription,My subscription is not working after renewal for ticket reference TKT00010.,In Progress,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00011,CUST0031,Return,I want to return the product I purchased for ticket reference TKT00011.,Open,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00012,CUST0034,Delivery,My order delivery is delayed for ticket reference TKT00012.,Open,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00013,CUST0037,Refund,My refund has not arrived yet for ticket reference TKT00013.,Escalated,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00014,CUST0040,Account,I cannot access my customer account for ticket reference TKT00014.,Open,Human Review,V4,E-commerce,SYNTHETIC
+TKT00015,CUST0043,Payment,I was charged twice for my order and I need a status update.,Open,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00016,CUST0046,Order status,What is the current status of my order?,Resolved,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00017,CUST0049,Subscription,My subscription is not working after renewal and I need a status update.,Escalated,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00018,CUST0052,Return,I want to return the product I purchased and I need a status update.,In Progress,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00019,CUST0055,Delivery,My order delivery is delayed and I need a status update.,In Progress,Human Review,V4,E-commerce,SYNTHETIC
+TKT00020,CUST0058,Refund,My refund has not arrived yet and I need a status update.,Open,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00021,CUST0061,Account,I cannot access my customer account and I need a status update.,In Progress,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00022,CUST0064,Payment,I was charged twice for my order.,Open,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00023,CUST0067,Order status,What is the current status of my order?,Escalated,Human Review,V4,E-commerce,SYNTHETIC
+TKT00024,CUST0070,Subscription,My subscription is not working after renewal.,Resolved,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00025,CUST0073,Return,I want to return the product I purchased.,Resolved,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00026,CUST0076,Delivery,My order delivery is delayed.,In Progress,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00027,CUST0079,Refund,My refund has not arrived yet.,Escalated,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00028,CUST0082,Account,I cannot access my customer account.,Escalated,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00029,CUST0085,Payment,I was charged twice for my order for ticket reference TKT00029.,Resolved,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00030,CUST0088,Order status,What is the current status of my order?,Escalated,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00031,CUST0091,Subscription,My subscription is not working after renewal for ticket reference TKT00031.,Escalated,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00032,CUST0094,Return,I want to return the product I purchased for ticket reference TKT00032.,Escalated,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00033,CUST0097,Delivery,My order delivery is delayed for ticket reference TKT00033.,Resolved,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00034,CUST0100,Refund,My refund has not arrived yet for ticket reference TKT00034.,Open,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00035,CUST0103,Account,I cannot access my customer account for ticket reference TKT00035.,In Progress,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00036,CUST0106,Payment,I was charged twice for my order and I need a status update.,In Progress,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00037,CUST0109,Order status,What is the current status of my order?,Open,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00038,CUST0112,Subscription,My subscription is not working after renewal and I need a status update.,Escalated,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00039,CUST0115,Return,I want to return the product I purchased and I need a status update.,Resolved,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00040,CUST0118,Delivery,My order delivery is delayed and I need a status update.,Open,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00041,CUST0121,Refund,My refund has not arrived yet and I need a status update.,Open,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00042,CUST0124,Account,I cannot access my customer account and I need a status update.,In Progress,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00043,CUST0127,Payment,I was charged twice for my order.,In Progress,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00044,CUST0130,Order status,What is the current status of my order?,Open,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00045,CUST0133,Subscription,My subscription is not working after renewal.,Resolved,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00046,CUST0136,Return,I want to return the product I purchased.,Resolved,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00047,CUST0139,Delivery,My order delivery is delayed.,In Progress,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00048,CUST0142,Refund,My refund has not arrived yet.,Resolved,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00049,CUST0145,Account,I cannot access my customer account.,Resolved,Human Review,V4,E-commerce,SYNTHETIC
+TKT00050,CUST0148,Payment,I was charged twice for my order for ticket reference TKT00050.,Open,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00051,CUST0151,Order status,What is the current status of my order?,In Progress,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00052,CUST0154,Subscription,My subscription is not working after renewal for ticket reference TKT00052.,Open,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00053,CUST0157,Return,I want to return the product I purchased for ticket reference TKT00053.,Escalated,Human Review,V4,E-commerce,SYNTHETIC
+TKT00054,CUST0160,Delivery,My order delivery is delayed for ticket reference TKT00054.,Open,Human Review,V4,E-commerce,SYNTHETIC
+TKT00055,CUST0163,Refund,My refund has not arrived yet for ticket reference TKT00055.,In Progress,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00056,CUST0166,Account,I cannot access my customer account for ticket reference TKT00056.,Open,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00057,CUST0169,Payment,I was charged twice for my order and I need a status update.,In Progress,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00058,CUST0172,Order status,What is the current status of my order?,Resolved,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00059,CUST0175,Subscription,My subscription is not working after renewal and I need a status update.,Escalated,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00060,CUST0178,Return,I want to return the product I purchased and I need a status update.,Open,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00061,CUST0181,Delivery,My order delivery is delayed and I need a status update.,Escalated,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00062,CUST0184,Refund,My refund has not arrived yet and I need a status update.,Open,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00063,CUST0187,Account,I cannot access my customer account and I need a status update.,Escalated,Human Review,V4,E-commerce,SYNTHETIC
+TKT00064,CUST0190,Payment,I was charged twice for my order.,Open,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00065,CUST0193,Order status,What is the current status of my order?,In Progress,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00066,CUST0196,Subscription,My subscription is not working after renewal.,Open,Human Review,V4,E-commerce,SYNTHETIC
+TKT00067,CUST0199,Return,I want to return the product I purchased.,Resolved,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00068,CUST0202,Delivery,My order delivery is delayed.,In Progress,Human Review,V4,E-commerce,SYNTHETIC
+TKT00069,CUST0205,Refund,My refund has not arrived yet.,Open,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00070,CUST0208,Account,I cannot access my customer account.,Escalated,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00071,CUST0211,Payment,I was charged twice for my order for ticket reference TKT00071.,Escalated,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00072,CUST0214,Order status,What is the current status of my order?,Resolved,Human Review,V4,E-commerce,SYNTHETIC
+TKT00073,CUST0217,Subscription,My subscription is not working after renewal for ticket reference TKT00073.,Escalated,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00074,CUST0220,Return,I want to return the product I purchased for ticket reference TKT00074.,In Progress,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00075,CUST0223,Delivery,My order delivery is delayed for ticket reference TKT00075.,Resolved,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00076,CUST0226,Refund,My refund has not arrived yet for ticket reference TKT00076.,Open,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00077,CUST0229,Account,I cannot access my customer account for ticket reference TKT00077.,Open,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00078,CUST0232,Payment,I was charged twice for my order and I need a status update.,Resolved,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00079,CUST0235,Order status,What is the current status of my order?,Resolved,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00080,CUST0238,Subscription,My subscription is not working after renewal and I need a status update.,Escalated,Human Review,V4,E-commerce,SYNTHETIC
+TKT00081,CUST0241,Return,I want to return the product I purchased and I need a status update.,Resolved,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00082,CUST0244,Delivery,My order delivery is delayed and I need a status update.,In Progress,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00083,CUST0247,Refund,My refund has not arrived yet and I need a status update.,In Progress,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00084,CUST0250,Account,I cannot access my customer account and I need a status update.,In Progress,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00085,CUST0253,Payment,I was charged twice for my order.,Escalated,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00086,CUST0256,Order status,What is the current status of my order?,Resolved,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00087,CUST0259,Subscription,My subscription is not working after renewal.,Open,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00088,CUST0262,Return,I want to return the product I purchased.,Resolved,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00089,CUST0265,Delivery,My order delivery is delayed.,Escalated,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00090,CUST0268,Refund,My refund has not arrived yet.,Resolved,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00091,CUST0271,Account,I cannot access my customer account.,Resolved,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00092,CUST0274,Payment,I was charged twice for my order for ticket reference TKT00092.,Escalated,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00093,CUST0277,Order status,What is the current status of my order?,Open,Human Review,V4,E-commerce,SYNTHETIC
+TKT00094,CUST0280,Subscription,My subscription is not working after renewal for ticket reference TKT00094.,Open,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00095,CUST0283,Return,I want to return the product I purchased for ticket reference TKT00095.,In Progress,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00096,CUST0286,Delivery,My order delivery is delayed for ticket reference TKT00096.,Open,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00097,CUST0289,Refund,My refund has not arrived yet for ticket reference TKT00097.,Open,Human Review,V4,E-commerce,SYNTHETIC
+TKT00098,CUST0292,Account,I cannot access my customer account for ticket reference TKT00098.,Resolved,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00099,CUST0295,Payment,I was charged twice for my order and I need a status update.,Open,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00100,CUST0298,Order status,What is the current status of my order?,In Progress,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00101,CUST0301,Subscription,My subscription is not working after renewal and I need a status update.,Resolved,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00102,CUST0304,Return,I want to return the product I purchased and I need a status update.,In Progress,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00103,CUST0307,Delivery,My order delivery is delayed and I need a status update.,Resolved,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00104,CUST0310,Refund,My refund has not arrived yet and I need a status update.,Escalated,Human Review,V4,E-commerce,SYNTHETIC
+TKT00105,CUST0313,Account,I cannot access my customer account and I need a status update.,In Progress,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00106,CUST0316,Payment,I was charged twice for my order.,Open,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00107,CUST0319,Order status,What is the current status of my order?,Escalated,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00108,CUST0322,Subscription,My subscription is not working after renewal.,In Progress,Human Review,V4,E-commerce,SYNTHETIC
+TKT00109,CUST0325,Return,I want to return the product I purchased.,Resolved,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00110,CUST0328,Delivery,My order delivery is delayed.,Open,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00111,CUST0331,Refund,My refund has not arrived yet.,Resolved,Human Review,V4,E-commerce,SYNTHETIC
+TKT00112,CUST0334,Account,I cannot access my customer account.,Escalated,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00113,CUST0337,Payment,I was charged twice for my order for ticket reference TKT00113.,Resolved,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00114,CUST0340,Order status,What is the current status of my order?,In Progress,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00115,CUST0343,Subscription,My subscription is not working after renewal for ticket reference TKT00115.,In Progress,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00116,CUST0346,Return,I want to return the product I purchased for ticket reference TKT00116.,Resolved,Human Review,V4,E-commerce,SYNTHETIC
+TKT00117,CUST0349,Delivery,My order delivery is delayed for ticket reference TKT00117.,Open,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00118,CUST0352,Refund,My refund has not arrived yet for ticket reference TKT00118.,Resolved,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00119,CUST0355,Account,I cannot access my customer account for ticket reference TKT00119.,Open,Human Review,V4,E-commerce,SYNTHETIC
+TKT00120,CUST0358,Payment,I was charged twice for my order and I need a status update.,Open,Human Review,V4,E-commerce,SYNTHETIC
+TKT00121,CUST0361,Order status,What is the current status of my order?,Open,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00122,CUST0364,Subscription,My subscription is not working after renewal and I need a status update.,In Progress,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00123,CUST0367,Return,I want to return the product I purchased and I need a status update.,Escalated,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00124,CUST0370,Delivery,My order delivery is delayed and I need a status update.,In Progress,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00125,CUST0373,Refund,My refund has not arrived yet and I need a status update.,Escalated,Human Review,V4,E-commerce,SYNTHETIC
+TKT00126,CUST0376,Account,I cannot access my customer account and I need a status update.,Escalated,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00127,CUST0379,Payment,I was charged twice for my order.,Escalated,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00128,CUST0382,Order status,What is the current status of my order?,Resolved,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00129,CUST0385,Subscription,My subscription is not working after renewal.,Resolved,Human Review,V4,E-commerce,SYNTHETIC
+TKT00130,CUST0388,Return,I want to return the product I purchased.,In Progress,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00131,CUST0391,Delivery,My order delivery is delayed.,Open,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00132,CUST0394,Refund,My refund has not arrived yet.,Resolved,Human Review,V4,E-commerce,SYNTHETIC
+TKT00133,CUST0397,Account,I cannot access my customer account.,In Progress,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00134,CUST0400,Payment,I was charged twice for my order for ticket reference TKT00134.,Open,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00135,CUST0403,Order status,What is the current status of my order?,In Progress,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00136,CUST0406,Subscription,My subscription is not working after renewal for ticket reference TKT00136.,In Progress,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00137,CUST0409,Return,I want to return the product I purchased for ticket reference TKT00137.,Open,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00138,CUST0412,Delivery,My order delivery is delayed for ticket reference TKT00138.,Open,Human Review,V4,E-commerce,SYNTHETIC
+TKT00139,CUST0415,Refund,My refund has not arrived yet for ticket reference TKT00139.,In Progress,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00140,CUST0418,Account,I cannot access my customer account for ticket reference TKT00140.,Open,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00141,CUST0421,Payment,I was charged twice for my order and I need a status update.,Escalated,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00142,CUST0424,Order status,What is the current status of my order?,Escalated,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00143,CUST0427,Subscription,My subscription is not working after renewal and I need a status update.,In Progress,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00144,CUST0430,Return,I want to return the product I purchased and I need a status update.,In Progress,Human Review,V4,E-commerce,SYNTHETIC
+TKT00145,CUST0433,Delivery,My order delivery is delayed and I need a status update.,In Progress,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00146,CUST0436,Refund,My refund has not arrived yet and I need a status update.,Resolved,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00147,CUST0439,Account,I cannot access my customer account and I need a status update.,In Progress,Human Review,V4,E-commerce,SYNTHETIC
+TKT00148,CUST0442,Payment,I was charged twice for my order.,Open,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00149,CUST0445,Order status,What is the current status of my order?,Open,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00150,CUST0448,Subscription,My subscription is not working after renewal.,Open,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00151,CUST0451,Return,I want to return the product I purchased.,Escalated,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00152,CUST0454,Delivery,My order delivery is delayed.,In Progress,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00153,CUST0457,Refund,My refund has not arrived yet.,Resolved,Human Review,V4,E-commerce,SYNTHETIC
+TKT00154,CUST0460,Account,I cannot access my customer account.,In Progress,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00155,CUST0463,Payment,I was charged twice for my order for ticket reference TKT00155.,Resolved,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00156,CUST0466,Order status,What is the current status of my order?,Escalated,Human Review,V4,E-commerce,SYNTHETIC
+TKT00157,CUST0469,Subscription,My subscription is not working after renewal for ticket reference TKT00157.,Resolved,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00158,CUST0472,Return,I want to return the product I purchased for ticket reference TKT00158.,Open,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00159,CUST0475,Delivery,My order delivery is delayed for ticket reference TKT00159.,Escalated,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00160,CUST0478,Refund,My refund has not arrived yet for ticket reference TKT00160.,In Progress,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00161,CUST0481,Account,I cannot access my customer account for ticket reference TKT00161.,Resolved,Human Review,V4,E-commerce,SYNTHETIC
+TKT00162,CUST0484,Payment,I was charged twice for my order and I need a status update.,Open,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00163,CUST0487,Order status,What is the current status of my order?,In Progress,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00164,CUST0490,Subscription,My subscription is not working after renewal and I need a status update.,In Progress,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00165,CUST0493,Return,I want to return the product I purchased and I need a status update.,Resolved,Human Review,V4,E-commerce,SYNTHETIC
+TKT00166,CUST0496,Delivery,My order delivery is delayed and I need a status update.,Open,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00167,CUST0499,Refund,My refund has not arrived yet and I need a status update.,In Progress,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00168,CUST0502,Account,I cannot access my customer account and I need a status update.,In Progress,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00169,CUST0505,Payment,I was charged twice for my order.,Escalated,Human Review,V4,E-commerce,SYNTHETIC
+TKT00170,CUST0508,Order status,What is the current status of my order?,Escalated,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00171,CUST0511,Subscription,My subscription is not working after renewal.,Open,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00172,CUST0514,Return,I want to return the product I purchased.,In Progress,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00173,CUST0517,Delivery,My order delivery is delayed.,In Progress,Human Review,V4,E-commerce,SYNTHETIC
+TKT00174,CUST0520,Refund,My refund has not arrived yet.,Open,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00175,CUST0523,Account,I cannot access my customer account.,Escalated,Human Review,V4,E-commerce,SYNTHETIC
+TKT00176,CUST0526,Payment,I was charged twice for my order for ticket reference TKT00176.,Resolved,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00177,CUST0529,Order status,What is the current status of my order?,Open,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00178,CUST0532,Subscription,My subscription is not working after renewal for ticket reference TKT00178.,Escalated,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00179,CUST0535,Return,I want to return the product I purchased for ticket reference TKT00179.,In Progress,Human Review,V4,E-commerce,SYNTHETIC
+TKT00180,CUST0538,Delivery,My order delivery is delayed for ticket reference TKT00180.,Escalated,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00181,CUST0541,Refund,My refund has not arrived yet for ticket reference TKT00181.,In Progress,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00182,CUST0544,Account,I cannot access my customer account for ticket reference TKT00182.,Resolved,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00183,CUST0547,Payment,I was charged twice for my order and I need a status update.,Resolved,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00184,CUST0550,Order status,What is the current status of my order?,Escalated,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00185,CUST0553,Subscription,My subscription is not working after renewal and I need a status update.,Resolved,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00186,CUST0556,Return,I want to return the product I purchased and I need a status update.,Open,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00187,CUST0559,Delivery,My order delivery is delayed and I need a status update.,Escalated,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00188,CUST0562,Refund,My refund has not arrived yet and I need a status update.,In Progress,Human Review,V4,E-commerce,SYNTHETIC
+TKT00189,CUST0565,Account,I cannot access my customer account and I need a status update.,Resolved,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00190,CUST0568,Payment,I was charged twice for my order.,Open,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00191,CUST0571,Order status,What is the current status of my order?,Escalated,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00192,CUST0574,Subscription,My subscription is not working after renewal.,In Progress,Human Review,V4,E-commerce,SYNTHETIC
+TKT00193,CUST0577,Return,I want to return the product I purchased.,Open,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00194,CUST0580,Delivery,My order delivery is delayed.,Escalated,Human Review,V4,E-commerce,SYNTHETIC
+TKT00195,CUST0583,Refund,My refund has not arrived yet.,Resolved,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00196,CUST0586,Account,I cannot access my customer account.,In Progress,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00197,CUST0589,Payment,I was charged twice for my order for ticket reference TKT00197.,In Progress,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00198,CUST0592,Order status,What is the current status of my order?,Resolved,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00199,CUST0595,Subscription,My subscription is not working after renewal for ticket reference TKT00199.,In Progress,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00200,CUST0598,Return,I want to return the product I purchased for ticket reference TKT00200.,Escalated,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00201,CUST0601,Delivery,My order delivery is delayed for ticket reference TKT00201.,Open,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00202,CUST0604,Refund,My refund has not arrived yet for ticket reference TKT00202.,In Progress,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00203,CUST0607,Account,I cannot access my customer account for ticket reference TKT00203.,Open,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00204,CUST0610,Payment,I was charged twice for my order and I need a status update.,In Progress,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00205,CUST0613,Order status,What is the current status of my order?,Open,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00206,CUST0616,Subscription,My subscription is not working after renewal and I need a status update.,Escalated,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00207,CUST0619,Return,I want to return the product I purchased and I need a status update.,Resolved,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00208,CUST0622,Delivery,My order delivery is delayed and I need a status update.,Escalated,Human Review,V4,E-commerce,SYNTHETIC
+TKT00209,CUST0625,Refund,My refund has not arrived yet and I need a status update.,Resolved,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00210,CUST0628,Account,I cannot access my customer account and I need a status update.,In Progress,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00211,CUST0631,Payment,I was charged twice for my order.,Open,Human Review,V4,E-commerce,SYNTHETIC
+TKT00212,CUST0634,Order status,What is the current status of my order?,Resolved,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00213,CUST0637,Subscription,My subscription is not working after renewal.,Open,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00214,CUST0640,Return,I want to return the product I purchased.,Resolved,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00215,CUST0643,Delivery,My order delivery is delayed.,Escalated,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00216,CUST0646,Refund,My refund has not arrived yet.,Open,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00217,CUST0649,Account,I cannot access my customer account.,Resolved,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00218,CUST0652,Payment,I was charged twice for my order for ticket reference TKT00218.,In Progress,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00219,CUST0655,Order status,What is the current status of my order?,Resolved,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00220,CUST0658,Subscription,My subscription is not working after renewal for ticket reference TKT00220.,Escalated,Human Review,V4,E-commerce,SYNTHETIC
+TKT00221,CUST0661,Return,I want to return the product I purchased for ticket reference TKT00221.,In Progress,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00222,CUST0664,Delivery,My order delivery is delayed for ticket reference TKT00222.,Escalated,Human Review,V4,E-commerce,SYNTHETIC
+TKT00223,CUST0667,Refund,My refund has not arrived yet for ticket reference TKT00223.,In Progress,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00224,CUST0670,Account,I cannot access my customer account for ticket reference TKT00224.,In Progress,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00225,CUST0673,Payment,I was charged twice for my order and I need a status update.,In Progress,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00226,CUST0676,Order status,What is the current status of my order?,In Progress,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00227,CUST0679,Subscription,My subscription is not working after renewal and I need a status update.,Escalated,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00228,CUST0682,Return,I want to return the product I purchased and I need a status update.,Resolved,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00229,CUST0685,Delivery,My order delivery is delayed and I need a status update.,Escalated,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00230,CUST0688,Refund,My refund has not arrived yet and I need a status update.,Escalated,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00231,CUST0691,Account,I cannot access my customer account and I need a status update.,In Progress,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00232,CUST0694,Payment,I was charged twice for my order.,In Progress,Human Review,V4,E-commerce,SYNTHETIC
+TKT00233,CUST0697,Order status,What is the current status of my order?,Resolved,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00234,CUST0700,Subscription,My subscription is not working after renewal.,Resolved,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00235,CUST0703,Return,I want to return the product I purchased.,Escalated,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00236,CUST0706,Delivery,My order delivery is delayed.,Escalated,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00237,CUST0709,Refund,My refund has not arrived yet.,Open,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00238,CUST0712,Account,I cannot access my customer account.,Open,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00239,CUST0715,Payment,I was charged twice for my order for ticket reference TKT00239.,Escalated,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00240,CUST0718,Order status,What is the current status of my order?,In Progress,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00241,CUST0721,Subscription,My subscription is not working after renewal for ticket reference TKT00241.,Open,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00242,CUST0724,Return,I want to return the product I purchased for ticket reference TKT00242.,In Progress,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00243,CUST0727,Delivery,My order delivery is delayed for ticket reference TKT00243.,In Progress,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00244,CUST0730,Refund,My refund has not arrived yet for ticket reference TKT00244.,Resolved,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00245,CUST0733,Account,I cannot access my customer account for ticket reference TKT00245.,In Progress,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00246,CUST0736,Payment,I was charged twice for my order and I need a status update.,Resolved,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00247,CUST0739,Order status,What is the current status of my order?,Resolved,Human Review,V4,E-commerce,SYNTHETIC
+TKT00248,CUST0742,Subscription,My subscription is not working after renewal and I need a status update.,Open,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00249,CUST0745,Return,I want to return the product I purchased and I need a status update.,In Progress,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00250,CUST0748,Delivery,My order delivery is delayed and I need a status update.,In Progress,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00251,CUST0751,Refund,My refund has not arrived yet and I need a status update.,In Progress,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00252,CUST0754,Account,I cannot access my customer account and I need a status update.,Escalated,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00253,CUST0757,Payment,I was charged twice for my order.,Open,Human Review,V4,E-commerce,SYNTHETIC
+TKT00254,CUST0760,Order status,What is the current status of my order?,Resolved,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00255,CUST0763,Subscription,My subscription is not working after renewal.,Resolved,Human Review,V4,E-commerce,SYNTHETIC
+TKT00256,CUST0766,Return,I want to return the product I purchased.,Open,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00257,CUST0769,Delivery,My order delivery is delayed.,Open,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00258,CUST0772,Refund,My refund has not arrived yet.,Open,Human Review,V4,E-commerce,SYNTHETIC
+TKT00259,CUST0775,Account,I cannot access my customer account.,In Progress,Human Review,V4,E-commerce,SYNTHETIC
+TKT00260,CUST0778,Payment,I was charged twice for my order for ticket reference TKT00260.,Resolved,Human Review,V4,E-commerce,SYNTHETIC
+TKT00261,CUST0781,Order status,What is the current status of my order?,In Progress,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00262,CUST0784,Subscription,My subscription is not working after renewal for ticket reference TKT00262.,Resolved,Human Review,V4,E-commerce,SYNTHETIC
+TKT00263,CUST0787,Return,I want to return the product I purchased for ticket reference TKT00263.,Open,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00264,CUST0790,Delivery,My order delivery is delayed for ticket reference TKT00264.,Resolved,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00265,CUST0793,Refund,My refund has not arrived yet for ticket reference TKT00265.,Escalated,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00266,CUST0796,Account,I cannot access my customer account for ticket reference TKT00266.,Escalated,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00267,CUST0799,Payment,I was charged twice for my order and I need a status update.,In Progress,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00268,CUST0802,Order status,What is the current status of my order?,Escalated,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00269,CUST0805,Subscription,My subscription is not working after renewal and I need a status update.,Escalated,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00270,CUST0808,Return,I want to return the product I purchased and I need a status update.,In Progress,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00271,CUST0811,Delivery,My order delivery is delayed and I need a status update.,Escalated,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00272,CUST0814,Refund,My refund has not arrived yet and I need a status update.,Open,Human Review,V4,E-commerce,SYNTHETIC
+TKT00273,CUST0817,Account,I cannot access my customer account and I need a status update.,Escalated,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00274,CUST0820,Payment,I was charged twice for my order.,Escalated,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00275,CUST0823,Order status,What is the current status of my order?,In Progress,Human Review,V4,E-commerce,SYNTHETIC
+TKT00276,CUST0826,Subscription,My subscription is not working after renewal.,Escalated,Human Review,V4,E-commerce,SYNTHETIC
+TKT00277,CUST0829,Return,I want to return the product I purchased.,In Progress,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00278,CUST0832,Delivery,My order delivery is delayed.,In Progress,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00279,CUST0835,Refund,My refund has not arrived yet.,Open,Human Review,V4,E-commerce,SYNTHETIC
+TKT00280,CUST0838,Account,I cannot access my customer account.,Open,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00281,CUST0841,Payment,I was charged twice for my order for ticket reference TKT00281.,In Progress,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00282,CUST0844,Order status,What is the current status of my order?,Open,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00283,CUST0847,Subscription,My subscription is not working after renewal for ticket reference TKT00283.,Resolved,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00284,CUST0850,Return,I want to return the product I purchased for ticket reference TKT00284.,Resolved,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00285,CUST0853,Delivery,My order delivery is delayed for ticket reference TKT00285.,Open,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00286,CUST0856,Refund,My refund has not arrived yet for ticket reference TKT00286.,Open,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00287,CUST0859,Account,I cannot access my customer account for ticket reference TKT00287.,In Progress,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00288,CUST0862,Payment,I was charged twice for my order and I need a status update.,Resolved,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00289,CUST0865,Order status,What is the current status of my order?,In Progress,Human Review,V4,E-commerce,SYNTHETIC
+TKT00290,CUST0868,Subscription,My subscription is not working after renewal and I need a status update.,Escalated,Human Review,V4,E-commerce,SYNTHETIC
+TKT00291,CUST0871,Return,I want to return the product I purchased and I need a status update.,In Progress,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00292,CUST0874,Delivery,My order delivery is delayed and I need a status update.,Resolved,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00293,CUST0877,Refund,My refund has not arrived yet and I need a status update.,In Progress,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00294,CUST0880,Account,I cannot access my customer account and I need a status update.,Resolved,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00295,CUST0883,Payment,I was charged twice for my order.,In Progress,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00296,CUST0886,Order status,What is the current status of my order?,Open,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00297,CUST0889,Subscription,My subscription is not working after renewal.,In Progress,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00298,CUST0892,Return,I want to return the product I purchased.,Resolved,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00299,CUST0895,Delivery,My order delivery is delayed.,Resolved,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00300,CUST0898,Refund,My refund has not arrived yet.,Resolved,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00301,CUST0901,Account,I cannot access my customer account.,In Progress,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00302,CUST0904,Payment,I was charged twice for my order for ticket reference TKT00302.,In Progress,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00303,CUST0907,Order status,What is the current status of my order?,Resolved,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00304,CUST0910,Subscription,My subscription is not working after renewal for ticket reference TKT00304.,Open,Human Review,V4,E-commerce,SYNTHETIC
+TKT00305,CUST0913,Return,I want to return the product I purchased for ticket reference TKT00305.,Escalated,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00306,CUST0916,Delivery,My order delivery is delayed for ticket reference TKT00306.,Open,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00307,CUST0919,Refund,My refund has not arrived yet for ticket reference TKT00307.,Resolved,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00308,CUST0922,Account,I cannot access my customer account for ticket reference TKT00308.,Resolved,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00309,CUST0925,Payment,I was charged twice for my order and I need a status update.,Resolved,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00310,CUST0928,Order status,What is the current status of my order?,Resolved,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00311,CUST0931,Subscription,My subscription is not working after renewal and I need a status update.,Open,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00312,CUST0934,Return,I want to return the product I purchased and I need a status update.,Open,Human Review,V4,E-commerce,SYNTHETIC
+TKT00313,CUST0937,Delivery,My order delivery is delayed and I need a status update.,Open,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00314,CUST0940,Refund,My refund has not arrived yet and I need a status update.,Escalated,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00315,CUST0943,Account,I cannot access my customer account and I need a status update.,In Progress,Human Review,V4,E-commerce,SYNTHETIC
+TKT00316,CUST0946,Payment,I was charged twice for my order.,Resolved,Human Review,V4,E-commerce,SYNTHETIC
+TKT00317,CUST0949,Order status,What is the current status of my order?,Resolved,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00318,CUST0952,Subscription,My subscription is not working after renewal.,Resolved,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00319,CUST0955,Return,I want to return the product I purchased.,Resolved,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00320,CUST0958,Delivery,My order delivery is delayed.,Resolved,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00321,CUST0961,Refund,My refund has not arrived yet.,Resolved,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00322,CUST0964,Account,I cannot access my customer account.,Open,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00323,CUST0967,Payment,I was charged twice for my order for ticket reference TKT00323.,In Progress,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00324,CUST0970,Order status,What is the current status of my order?,In Progress,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00325,CUST0973,Subscription,My subscription is not working after renewal for ticket reference TKT00325.,Open,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00326,CUST0976,Return,I want to return the product I purchased for ticket reference TKT00326.,Escalated,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00327,CUST0979,Delivery,My order delivery is delayed for ticket reference TKT00327.,Resolved,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00328,CUST0982,Refund,My refund has not arrived yet for ticket reference TKT00328.,Resolved,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00329,CUST0985,Account,I cannot access my customer account for ticket reference TKT00329.,Open,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00330,CUST0988,Payment,I was charged twice for my order and I need a status update.,Open,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00331,CUST0991,Order status,What is the current status of my order?,Resolved,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00332,CUST0994,Subscription,My subscription is not working after renewal and I need a status update.,Escalated,Human Review,V4,E-commerce,SYNTHETIC
+TKT00333,CUST0997,Return,I want to return the product I purchased and I need a status update.,Open,Human Review,V4,E-commerce,SYNTHETIC
+TKT00334,CUST1000,Delivery,My order delivery is delayed and I need a status update.,Escalated,Human Review,V4,E-commerce,SYNTHETIC
+TKT00335,CUST0001,Refund,My refund has not arrived yet and I need a status update.,In Progress,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00336,CUST0004,Account,I cannot access my customer account and I need a status update.,Resolved,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00337,CUST0007,Payment,I was charged twice for my order.,In Progress,Human Review,V4,E-commerce,SYNTHETIC
+TKT00338,CUST0010,Order status,What is the current status of my order?,Resolved,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00339,CUST0013,Subscription,My subscription is not working after renewal.,In Progress,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00340,CUST0016,Return,I want to return the product I purchased.,Escalated,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00341,CUST0019,Delivery,My order delivery is delayed.,Resolved,Human Review,V4,E-commerce,SYNTHETIC
+TKT00342,CUST0022,Refund,My refund has not arrived yet.,Escalated,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00343,CUST0025,Account,I cannot access my customer account.,Escalated,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00344,CUST0028,Payment,I was charged twice for my order for ticket reference TKT00344.,In Progress,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00345,CUST0031,Order status,What is the current status of my order?,Resolved,Human Review,V4,E-commerce,SYNTHETIC
+TKT00346,CUST0034,Subscription,My subscription is not working after renewal for ticket reference TKT00346.,Resolved,Human Review,V4,E-commerce,SYNTHETIC
+TKT00347,CUST0037,Return,I want to return the product I purchased for ticket reference TKT00347.,Resolved,Human Review,V4,E-commerce,SYNTHETIC
+TKT00348,CUST0040,Delivery,My order delivery is delayed for ticket reference TKT00348.,Resolved,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00349,CUST0043,Refund,My refund has not arrived yet for ticket reference TKT00349.,Resolved,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00350,CUST0046,Account,I cannot access my customer account for ticket reference TKT00350.,In Progress,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00351,CUST0049,Payment,I was charged twice for my order and I need a status update.,Open,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00352,CUST0052,Order status,What is the current status of my order?,Escalated,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00353,CUST0055,Subscription,My subscription is not working after renewal and I need a status update.,In Progress,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00354,CUST0058,Return,I want to return the product I purchased and I need a status update.,Open,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00355,CUST0061,Delivery,My order delivery is delayed and I need a status update.,Resolved,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00356,CUST0064,Refund,My refund has not arrived yet and I need a status update.,In Progress,Human Review,V4,E-commerce,SYNTHETIC
+TKT00357,CUST0067,Account,I cannot access my customer account and I need a status update.,In Progress,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00358,CUST0070,Payment,I was charged twice for my order.,In Progress,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00359,CUST0073,Order status,What is the current status of my order?,Resolved,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00360,CUST0076,Subscription,My subscription is not working after renewal.,In Progress,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00361,CUST0079,Return,I want to return the product I purchased.,Resolved,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00362,CUST0082,Delivery,My order delivery is delayed.,In Progress,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00363,CUST0085,Refund,My refund has not arrived yet.,In Progress,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00364,CUST0088,Account,I cannot access my customer account.,Resolved,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00365,CUST0091,Payment,I was charged twice for my order for ticket reference TKT00365.,Escalated,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00366,CUST0094,Order status,What is the current status of my order?,Escalated,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00367,CUST0097,Subscription,My subscription is not working after renewal for ticket reference TKT00367.,In Progress,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00368,CUST0100,Return,I want to return the product I purchased for ticket reference TKT00368.,Escalated,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00369,CUST0103,Delivery,My order delivery is delayed for ticket reference TKT00369.,Escalated,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00370,CUST0106,Refund,My refund has not arrived yet for ticket reference TKT00370.,Open,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00371,CUST0109,Account,I cannot access my customer account for ticket reference TKT00371.,In Progress,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00372,CUST0112,Payment,I was charged twice for my order and I need a status update.,In Progress,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00373,CUST0115,Order status,What is the current status of my order?,In Progress,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00374,CUST0118,Subscription,My subscription is not working after renewal and I need a status update.,Open,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00375,CUST0121,Return,I want to return the product I purchased and I need a status update.,Open,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00376,CUST0124,Delivery,My order delivery is delayed and I need a status update.,In Progress,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00377,CUST0127,Refund,My refund has not arrived yet and I need a status update.,Resolved,Human Review,V4,E-commerce,SYNTHETIC
+TKT00378,CUST0130,Account,I cannot access my customer account and I need a status update.,Open,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00379,CUST0133,Payment,I was charged twice for my order.,Open,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00380,CUST0136,Order status,What is the current status of my order?,In Progress,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00381,CUST0139,Subscription,My subscription is not working after renewal.,Escalated,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00382,CUST0142,Return,I want to return the product I purchased.,Escalated,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00383,CUST0145,Delivery,My order delivery is delayed.,In Progress,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00384,CUST0148,Refund,My refund has not arrived yet.,Open,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00385,CUST0151,Account,I cannot access my customer account.,In Progress,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00386,CUST0154,Payment,I was charged twice for my order for ticket reference TKT00386.,Escalated,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00387,CUST0157,Order status,What is the current status of my order?,Resolved,Human Review,V4,E-commerce,SYNTHETIC
+TKT00388,CUST0160,Subscription,My subscription is not working after renewal for ticket reference TKT00388.,Resolved,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00389,CUST0163,Return,I want to return the product I purchased for ticket reference TKT00389.,Escalated,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00390,CUST0166,Delivery,My order delivery is delayed for ticket reference TKT00390.,Open,Order Checked,V4,E-commerce,SYNTHETIC
+TKT00391,CUST0169,Refund,My refund has not arrived yet for ticket reference TKT00391.,Open,Human Review,V4,E-commerce,SYNTHETIC
+TKT00392,CUST0172,Account,I cannot access my customer account for ticket reference TKT00392.,Escalated,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00393,CUST0175,Payment,I was charged twice for my order and I need a status update.,In Progress,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00394,CUST0178,Order status,What is the current status of my order?,Open,Human Review,V4,E-commerce,SYNTHETIC
+TKT00395,CUST0181,Subscription,My subscription is not working after renewal and I need a status update.,In Progress,Identity Verification,V4,E-commerce,SYNTHETIC
+TKT00396,CUST0184,Return,I want to return the product I purchased and I need a status update.,Escalated,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00397,CUST0187,Delivery,My order delivery is delayed and I need a status update.,Escalated,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00398,CUST0190,Refund,My refund has not arrived yet and I need a status update.,Escalated,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00399,CUST0193,Account,I cannot access my customer account and I need a status update.,In Progress,Information Provided,V4,E-commerce,SYNTHETIC
+TKT00400,CUST0196,Payment,I was charged twice for my order.,In Progress,Refund Initiated,V4,E-commerce,SYNTHETIC
+TKT00401,CUST0002,Attendance,I want to know my current attendance status and I need a status update.,In Progress,Identity Verification,V4,Education,SYNTHETIC
+TKT00402,CUST0005,Fees,I have a question about my pending semester fee and I need a status update.,Open,Identity Verification,V4,Education,SYNTHETIC
+TKT00403,CUST0008,Exam,When is the next examination scheduled?,Resolved,Human Review,V4,Education,SYNTHETIC
+TKT00404,CUST0011,Academic Records,I need help accessing my academic records and I need a status update.,Resolved,Refund Initiated,V4,Education,SYNTHETIC
+TKT00405,CUST0014,Course Registration,I need help registering for a course and I need a status update.,In Progress,Refund Initiated,V4,Education,SYNTHETIC
+TKT00406,CUST0017,Scholarship,I need information about my scholarship status and I need a status update.,Resolved,Order Checked,V4,Education,SYNTHETIC
+TKT00407,CUST0020,Student ID,I lost my student ID and need a replacement and I need a status update.,In Progress,Human Review,V4,Education,SYNTHETIC
+TKT00408,CUST0023,Placement,I need help with placement support and I need a status update.,In Progress,Order Checked,V4,Education,SYNTHETIC
+TKT00409,CUST0026,Attendance,I want to know my current attendance status.,Resolved,Order Checked,V4,Education,SYNTHETIC
+TKT00410,CUST0029,Fees,I have a question about my pending semester fee.,Open,Identity Verification,V4,Education,SYNTHETIC
+TKT00411,CUST0032,Exam,When is the next examination scheduled?,Escalated,Identity Verification,V4,Education,SYNTHETIC
+TKT00412,CUST0035,Academic Records,I need help accessing my academic records.,In Progress,Identity Verification,V4,Education,SYNTHETIC
+TKT00413,CUST0038,Course Registration,I need help registering for a course.,In Progress,Information Provided,V4,Education,SYNTHETIC
+TKT00414,CUST0041,Scholarship,I need information about my scholarship status.,Resolved,Order Checked,V4,Education,SYNTHETIC
+TKT00415,CUST0044,Student ID,I lost my student ID and need a replacement.,Resolved,Human Review,V4,Education,SYNTHETIC
+TKT00416,CUST0047,Placement,I need help with placement support.,Escalated,Human Review,V4,Education,SYNTHETIC
+TKT00417,CUST0050,Attendance,I want to know my current attendance status for ticket reference TKT00417.,Open,Refund Initiated,V4,Education,SYNTHETIC
+TKT00418,CUST0053,Fees,I have a question about my pending semester fee for ticket reference TKT00418.,Escalated,Information Provided,V4,Education,SYNTHETIC
+TKT00419,CUST0056,Exam,When is the next examination scheduled?,In Progress,Identity Verification,V4,Education,SYNTHETIC
+TKT00420,CUST0059,Academic Records,I need help accessing my academic records for ticket reference TKT00420.,In Progress,Information Provided,V4,Education,SYNTHETIC
+TKT00421,CUST0062,Course Registration,I need help registering for a course for ticket reference TKT00421.,In Progress,Human Review,V4,Education,SYNTHETIC
+TKT00422,CUST0065,Scholarship,I need information about my scholarship status for ticket reference TKT00422.,Escalated,Information Provided,V4,Education,SYNTHETIC
+TKT00423,CUST0068,Student ID,I lost my student ID and need a replacement for ticket reference TKT00423.,Escalated,Order Checked,V4,Education,SYNTHETIC
+TKT00424,CUST0071,Placement,I need help with placement support for ticket reference TKT00424.,In Progress,Refund Initiated,V4,Education,SYNTHETIC
+TKT00425,CUST0074,Attendance,I want to know my current attendance status and I need a status update.,Open,Information Provided,V4,Education,SYNTHETIC
+TKT00426,CUST0077,Fees,I have a question about my pending semester fee and I need a status update.,Resolved,Identity Verification,V4,Education,SYNTHETIC
+TKT00427,CUST0080,Exam,When is the next examination scheduled?,Open,Human Review,V4,Education,SYNTHETIC
+TKT00428,CUST0083,Academic Records,I need help accessing my academic records and I need a status update.,In Progress,Information Provided,V4,Education,SYNTHETIC
+TKT00429,CUST0086,Course Registration,I need help registering for a course and I need a status update.,Resolved,Human Review,V4,Education,SYNTHETIC
+TKT00430,CUST0089,Scholarship,I need information about my scholarship status and I need a status update.,Escalated,Human Review,V4,Education,SYNTHETIC
+TKT00431,CUST0092,Student ID,I lost my student ID and need a replacement and I need a status update.,Escalated,Order Checked,V4,Education,SYNTHETIC
+TKT00432,CUST0095,Placement,I need help with placement support and I need a status update.,In Progress,Order Checked,V4,Education,SYNTHETIC
+TKT00433,CUST0098,Attendance,I want to know my current attendance status.,Resolved,Refund Initiated,V4,Education,SYNTHETIC
+TKT00434,CUST0101,Fees,I have a question about my pending semester fee.,Escalated,Information Provided,V4,Education,SYNTHETIC
+TKT00435,CUST0104,Exam,When is the next examination scheduled?,Open,Refund Initiated,V4,Education,SYNTHETIC
+TKT00436,CUST0107,Academic Records,I need help accessing my academic records.,Resolved,Order Checked,V4,Education,SYNTHETIC
+TKT00437,CUST0110,Course Registration,I need help registering for a course.,Escalated,Information Provided,V4,Education,SYNTHETIC
+TKT00438,CUST0113,Scholarship,I need information about my scholarship status.,Resolved,Information Provided,V4,Education,SYNTHETIC
+TKT00439,CUST0116,Student ID,I lost my student ID and need a replacement.,Open,Order Checked,V4,Education,SYNTHETIC
+TKT00440,CUST0119,Placement,I need help with placement support.,In Progress,Refund Initiated,V4,Education,SYNTHETIC
+TKT00441,CUST0122,Attendance,I want to know my current attendance status for ticket reference TKT00441.,Open,Information Provided,V4,Education,SYNTHETIC
+TKT00442,CUST0125,Fees,I have a question about my pending semester fee for ticket reference TKT00442.,In Progress,Human Review,V4,Education,SYNTHETIC
+TKT00443,CUST0128,Exam,When is the next examination scheduled?,Resolved,Information Provided,V4,Education,SYNTHETIC
+TKT00444,CUST0131,Academic Records,I need help accessing my academic records for ticket reference TKT00444.,Resolved,Refund Initiated,V4,Education,SYNTHETIC
+TKT00445,CUST0134,Course Registration,I need help registering for a course for ticket reference TKT00445.,Resolved,Human Review,V4,Education,SYNTHETIC
+TKT00446,CUST0137,Scholarship,I need information about my scholarship status for ticket reference TKT00446.,Open,Human Review,V4,Education,SYNTHETIC
+TKT00447,CUST0140,Student ID,I lost my student ID and need a replacement for ticket reference TKT00447.,In Progress,Information Provided,V4,Education,SYNTHETIC
+TKT00448,CUST0143,Placement,I need help with placement support for ticket reference TKT00448.,Escalated,Identity Verification,V4,Education,SYNTHETIC
+TKT00449,CUST0146,Attendance,I want to know my current attendance status and I need a status update.,In Progress,Human Review,V4,Education,SYNTHETIC
+TKT00450,CUST0149,Fees,I have a question about my pending semester fee and I need a status update.,Open,Human Review,V4,Education,SYNTHETIC
+TKT00451,CUST0152,Exam,When is the next examination scheduled?,In Progress,Identity Verification,V4,Education,SYNTHETIC
+TKT00452,CUST0155,Academic Records,I need help accessing my academic records and I need a status update.,In Progress,Refund Initiated,V4,Education,SYNTHETIC
+TKT00453,CUST0158,Course Registration,I need help registering for a course and I need a status update.,In Progress,Refund Initiated,V4,Education,SYNTHETIC
+TKT00454,CUST0161,Scholarship,I need information about my scholarship status and I need a status update.,Escalated,Identity Verification,V4,Education,SYNTHETIC
+TKT00455,CUST0164,Student ID,I lost my student ID and need a replacement and I need a status update.,In Progress,Information Provided,V4,Education,SYNTHETIC
+TKT00456,CUST0167,Placement,I need help with placement support and I need a status update.,Open,Information Provided,V4,Education,SYNTHETIC
+TKT00457,CUST0170,Attendance,I want to know my current attendance status.,Escalated,Identity Verification,V4,Education,SYNTHETIC
+TKT00458,CUST0173,Fees,I have a question about my pending semester fee.,In Progress,Refund Initiated,V4,Education,SYNTHETIC
+TKT00459,CUST0176,Exam,When is the next examination scheduled?,Open,Human Review,V4,Education,SYNTHETIC
+TKT00460,CUST0179,Academic Records,I need help accessing my academic records.,Open,Identity Verification,V4,Education,SYNTHETIC
+TKT00461,CUST0182,Course Registration,I need help registering for a course.,Resolved,Human Review,V4,Education,SYNTHETIC
+TKT00462,CUST0185,Scholarship,I need information about my scholarship status.,Escalated,Refund Initiated,V4,Education,SYNTHETIC
+TKT00463,CUST0188,Student ID,I lost my student ID and need a replacement.,In Progress,Information Provided,V4,Education,SYNTHETIC
+TKT00464,CUST0191,Placement,I need help with placement support.,In Progress,Identity Verification,V4,Education,SYNTHETIC
+TKT00465,CUST0194,Attendance,I want to know my current attendance status for ticket reference TKT00465.,Resolved,Refund Initiated,V4,Education,SYNTHETIC
+TKT00466,CUST0197,Fees,I have a question about my pending semester fee for ticket reference TKT00466.,Open,Refund Initiated,V4,Education,SYNTHETIC
+TKT00467,CUST0200,Exam,When is the next examination scheduled?,Resolved,Human Review,V4,Education,SYNTHETIC
+TKT00468,CUST0203,Academic Records,I need help accessing my academic records for ticket reference TKT00468.,In Progress,Order Checked,V4,Education,SYNTHETIC
+TKT00469,CUST0206,Course Registration,I need help registering for a course for ticket reference TKT00469.,Open,Information Provided,V4,Education,SYNTHETIC
+TKT00470,CUST0209,Scholarship,I need information about my scholarship status for ticket reference TKT00470.,Open,Human Review,V4,Education,SYNTHETIC
+TKT00471,CUST0212,Student ID,I lost my student ID and need a replacement for ticket reference TKT00471.,Escalated,Human Review,V4,Education,SYNTHETIC
+TKT00472,CUST0215,Placement,I need help with placement support for ticket reference TKT00472.,Resolved,Information Provided,V4,Education,SYNTHETIC
+TKT00473,CUST0218,Attendance,I want to know my current attendance status and I need a status update.,Resolved,Refund Initiated,V4,Education,SYNTHETIC
+TKT00474,CUST0221,Fees,I have a question about my pending semester fee and I need a status update.,Resolved,Identity Verification,V4,Education,SYNTHETIC
+TKT00475,CUST0224,Exam,When is the next examination scheduled?,Open,Human Review,V4,Education,SYNTHETIC
+TKT00476,CUST0227,Academic Records,I need help accessing my academic records and I need a status update.,Resolved,Order Checked,V4,Education,SYNTHETIC
+TKT00477,CUST0230,Course Registration,I need help registering for a course and I need a status update.,Escalated,Information Provided,V4,Education,SYNTHETIC
+TKT00478,CUST0233,Scholarship,I need information about my scholarship status and I need a status update.,Open,Refund Initiated,V4,Education,SYNTHETIC
+TKT00479,CUST0236,Student ID,I lost my student ID and need a replacement and I need a status update.,Resolved,Refund Initiated,V4,Education,SYNTHETIC
+TKT00480,CUST0239,Placement,I need help with placement support and I need a status update.,Escalated,Information Provided,V4,Education,SYNTHETIC
+TKT00481,CUST0242,Attendance,I want to know my current attendance status.,Open,Refund Initiated,V4,Education,SYNTHETIC
+TKT00482,CUST0245,Fees,I have a question about my pending semester fee.,Open,Refund Initiated,V4,Education,SYNTHETIC
+TKT00483,CUST0248,Exam,When is the next examination scheduled?,In Progress,Identity Verification,V4,Education,SYNTHETIC
+TKT00484,CUST0251,Academic Records,I need help accessing my academic records.,Resolved,Human Review,V4,Education,SYNTHETIC
+TKT00485,CUST0254,Course Registration,I need help registering for a course.,Escalated,Order Checked,V4,Education,SYNTHETIC
+TKT00486,CUST0257,Scholarship,I need information about my scholarship status.,In Progress,Refund Initiated,V4,Education,SYNTHETIC
+TKT00487,CUST0260,Student ID,I lost my student ID and need a replacement.,Open,Order Checked,V4,Education,SYNTHETIC
+TKT00488,CUST0263,Placement,I need help with placement support.,In Progress,Information Provided,V4,Education,SYNTHETIC
+TKT00489,CUST0266,Attendance,I want to know my current attendance status for ticket reference TKT00489.,Escalated,Information Provided,V4,Education,SYNTHETIC
+TKT00490,CUST0269,Fees,I have a question about my pending semester fee for ticket reference TKT00490.,Open,Order Checked,V4,Education,SYNTHETIC
+TKT00491,CUST0272,Exam,When is the next examination scheduled?,In Progress,Identity Verification,V4,Education,SYNTHETIC
+TKT00492,CUST0275,Academic Records,I need help accessing my academic records for ticket reference TKT00492.,Escalated,Order Checked,V4,Education,SYNTHETIC
+TKT00493,CUST0278,Course Registration,I need help registering for a course for ticket reference TKT00493.,In Progress,Human Review,V4,Education,SYNTHETIC
+TKT00494,CUST0281,Scholarship,I need information about my scholarship status for ticket reference TKT00494.,Open,Identity Verification,V4,Education,SYNTHETIC
+TKT00495,CUST0284,Student ID,I lost my student ID and need a replacement for ticket reference TKT00495.,Open,Identity Verification,V4,Education,SYNTHETIC
+TKT00496,CUST0287,Placement,I need help with placement support for ticket reference TKT00496.,Open,Identity Verification,V4,Education,SYNTHETIC
+TKT00497,CUST0290,Attendance,I want to know my current attendance status and I need a status update.,In Progress,Refund Initiated,V4,Education,SYNTHETIC
+TKT00498,CUST0293,Fees,I have a question about my pending semester fee and I need a status update.,Resolved,Human Review,V4,Education,SYNTHETIC
+TKT00499,CUST0296,Exam,When is the next examination scheduled?,Open,Order Checked,V4,Education,SYNTHETIC
+TKT00500,CUST0299,Academic Records,I need help accessing my academic records and I need a status update.,Resolved,Refund Initiated,V4,Education,SYNTHETIC
+TKT00501,CUST0302,Course Registration,I need help registering for a course and I need a status update.,Open,Refund Initiated,V4,Education,SYNTHETIC
+TKT00502,CUST0305,Scholarship,I need information about my scholarship status and I need a status update.,Resolved,Information Provided,V4,Education,SYNTHETIC
+TKT00503,CUST0308,Student ID,I lost my student ID and need a replacement and I need a status update.,Open,Information Provided,V4,Education,SYNTHETIC
+TKT00504,CUST0311,Placement,I need help with placement support and I need a status update.,Resolved,Identity Verification,V4,Education,SYNTHETIC
+TKT00505,CUST0314,Attendance,I want to know my current attendance status.,Escalated,Order Checked,V4,Education,SYNTHETIC
+TKT00506,CUST0317,Fees,I have a question about my pending semester fee.,Resolved,Human Review,V4,Education,SYNTHETIC
+TKT00507,CUST0320,Exam,When is the next examination scheduled?,Resolved,Identity Verification,V4,Education,SYNTHETIC
+TKT00508,CUST0323,Academic Records,I need help accessing my academic records.,Resolved,Order Checked,V4,Education,SYNTHETIC
+TKT00509,CUST0326,Course Registration,I need help registering for a course.,Escalated,Refund Initiated,V4,Education,SYNTHETIC
+TKT00510,CUST0329,Scholarship,I need information about my scholarship status.,Resolved,Identity Verification,V4,Education,SYNTHETIC
+TKT00511,CUST0332,Student ID,I lost my student ID and need a replacement.,Open,Refund Initiated,V4,Education,SYNTHETIC
+TKT00512,CUST0335,Placement,I need help with placement support.,Resolved,Identity Verification,V4,Education,SYNTHETIC
+TKT00513,CUST0338,Attendance,I want to know my current attendance status for ticket reference TKT00513.,Open,Information Provided,V4,Education,SYNTHETIC
+TKT00514,CUST0341,Fees,I have a question about my pending semester fee for ticket reference TKT00514.,Open,Information Provided,V4,Education,SYNTHETIC
+TKT00515,CUST0344,Exam,When is the next examination scheduled?,Open,Information Provided,V4,Education,SYNTHETIC
+TKT00516,CUST0347,Academic Records,I need help accessing my academic records for ticket reference TKT00516.,Open,Identity Verification,V4,Education,SYNTHETIC
+TKT00517,CUST0350,Course Registration,I need help registering for a course for ticket reference TKT00517.,In Progress,Information Provided,V4,Education,SYNTHETIC
+TKT00518,CUST0353,Scholarship,I need information about my scholarship status for ticket reference TKT00518.,Escalated,Order Checked,V4,Education,SYNTHETIC
+TKT00519,CUST0356,Student ID,I lost my student ID and need a replacement for ticket reference TKT00519.,Open,Identity Verification,V4,Education,SYNTHETIC
+TKT00520,CUST0359,Placement,I need help with placement support for ticket reference TKT00520.,Escalated,Human Review,V4,Education,SYNTHETIC
+TKT00521,CUST0362,Attendance,I want to know my current attendance status and I need a status update.,Open,Human Review,V4,Education,SYNTHETIC
+TKT00522,CUST0365,Fees,I have a question about my pending semester fee and I need a status update.,Resolved,Identity Verification,V4,Education,SYNTHETIC
+TKT00523,CUST0368,Exam,When is the next examination scheduled?,In Progress,Human Review,V4,Education,SYNTHETIC
+TKT00524,CUST0371,Academic Records,I need help accessing my academic records and I need a status update.,Open,Order Checked,V4,Education,SYNTHETIC
+TKT00525,CUST0374,Course Registration,I need help registering for a course and I need a status update.,Open,Identity Verification,V4,Education,SYNTHETIC
+TKT00526,CUST0377,Scholarship,I need information about my scholarship status and I need a status update.,In Progress,Human Review,V4,Education,SYNTHETIC
+TKT00527,CUST0380,Student ID,I lost my student ID and need a replacement and I need a status update.,Escalated,Identity Verification,V4,Education,SYNTHETIC
+TKT00528,CUST0383,Placement,I need help with placement support and I need a status update.,In Progress,Information Provided,V4,Education,SYNTHETIC
+TKT00529,CUST0386,Attendance,I want to know my current attendance status.,In Progress,Order Checked,V4,Education,SYNTHETIC
+TKT00530,CUST0389,Fees,I have a question about my pending semester fee.,Open,Order Checked,V4,Education,SYNTHETIC
+TKT00531,CUST0392,Exam,When is the next examination scheduled?,Resolved,Identity Verification,V4,Education,SYNTHETIC
+TKT00532,CUST0395,Academic Records,I need help accessing my academic records.,In Progress,Identity Verification,V4,Education,SYNTHETIC
+TKT00533,CUST0398,Course Registration,I need help registering for a course.,Open,Refund Initiated,V4,Education,SYNTHETIC
+TKT00534,CUST0401,Scholarship,I need information about my scholarship status.,Open,Human Review,V4,Education,SYNTHETIC
+TKT00535,CUST0404,Student ID,I lost my student ID and need a replacement.,In Progress,Order Checked,V4,Education,SYNTHETIC
+TKT00536,CUST0407,Placement,I need help with placement support.,Resolved,Identity Verification,V4,Education,SYNTHETIC
+TKT00537,CUST0410,Attendance,I want to know my current attendance status for ticket reference TKT00537.,Escalated,Human Review,V4,Education,SYNTHETIC
+TKT00538,CUST0413,Fees,I have a question about my pending semester fee for ticket reference TKT00538.,Escalated,Information Provided,V4,Education,SYNTHETIC
+TKT00539,CUST0416,Exam,When is the next examination scheduled?,Open,Human Review,V4,Education,SYNTHETIC
+TKT00540,CUST0419,Academic Records,I need help accessing my academic records for ticket reference TKT00540.,Resolved,Refund Initiated,V4,Education,SYNTHETIC
+TKT00541,CUST0422,Course Registration,I need help registering for a course for ticket reference TKT00541.,In Progress,Human Review,V4,Education,SYNTHETIC
+TKT00542,CUST0425,Scholarship,I need information about my scholarship status for ticket reference TKT00542.,In Progress,Identity Verification,V4,Education,SYNTHETIC
+TKT00543,CUST0428,Student ID,I lost my student ID and need a replacement for ticket reference TKT00543.,Escalated,Identity Verification,V4,Education,SYNTHETIC
+TKT00544,CUST0431,Placement,I need help with placement support for ticket reference TKT00544.,In Progress,Information Provided,V4,Education,SYNTHETIC
+TKT00545,CUST0434,Attendance,I want to know my current attendance status and I need a status update.,Open,Human Review,V4,Education,SYNTHETIC
+TKT00546,CUST0437,Fees,I have a question about my pending semester fee and I need a status update.,In Progress,Identity Verification,V4,Education,SYNTHETIC
+TKT00547,CUST0440,Exam,When is the next examination scheduled?,Open,Information Provided,V4,Education,SYNTHETIC
+TKT00548,CUST0443,Academic Records,I need help accessing my academic records and I need a status update.,Escalated,Identity Verification,V4,Education,SYNTHETIC
+TKT00549,CUST0446,Course Registration,I need help registering for a course and I need a status update.,Open,Order Checked,V4,Education,SYNTHETIC
+TKT00550,CUST0449,Scholarship,I need information about my scholarship status and I need a status update.,Open,Information Provided,V4,Education,SYNTHETIC
+TKT00551,CUST0452,Student ID,I lost my student ID and need a replacement and I need a status update.,Open,Information Provided,V4,Education,SYNTHETIC
+TKT00552,CUST0455,Placement,I need help with placement support and I need a status update.,Escalated,Identity Verification,V4,Education,SYNTHETIC
+TKT00553,CUST0458,Attendance,I want to know my current attendance status.,Resolved,Information Provided,V4,Education,SYNTHETIC
+TKT00554,CUST0461,Fees,I have a question about my pending semester fee.,Resolved,Human Review,V4,Education,SYNTHETIC
+TKT00555,CUST0464,Exam,When is the next examination scheduled?,Open,Human Review,V4,Education,SYNTHETIC
+TKT00556,CUST0467,Academic Records,I need help accessing my academic records.,Resolved,Human Review,V4,Education,SYNTHETIC
+TKT00557,CUST0470,Course Registration,I need help registering for a course.,Resolved,Refund Initiated,V4,Education,SYNTHETIC
+TKT00558,CUST0473,Scholarship,I need information about my scholarship status.,Open,Order Checked,V4,Education,SYNTHETIC
+TKT00559,CUST0476,Student ID,I lost my student ID and need a replacement.,In Progress,Information Provided,V4,Education,SYNTHETIC
+TKT00560,CUST0479,Placement,I need help with placement support.,Open,Human Review,V4,Education,SYNTHETIC
+TKT00561,CUST0482,Attendance,I want to know my current attendance status for ticket reference TKT00561.,Escalated,Identity Verification,V4,Education,SYNTHETIC
+TKT00562,CUST0485,Fees,I have a question about my pending semester fee for ticket reference TKT00562.,Escalated,Refund Initiated,V4,Education,SYNTHETIC
+TKT00563,CUST0488,Exam,When is the next examination scheduled?,Open,Refund Initiated,V4,Education,SYNTHETIC
+TKT00564,CUST0491,Academic Records,I need help accessing my academic records for ticket reference TKT00564.,Escalated,Information Provided,V4,Education,SYNTHETIC
+TKT00565,CUST0494,Course Registration,I need help registering for a course for ticket reference TKT00565.,Escalated,Identity Verification,V4,Education,SYNTHETIC
+TKT00566,CUST0497,Scholarship,I need information about my scholarship status for ticket reference TKT00566.,Resolved,Information Provided,V4,Education,SYNTHETIC
+TKT00567,CUST0500,Student ID,I lost my student ID and need a replacement for ticket reference TKT00567.,Escalated,Information Provided,V4,Education,SYNTHETIC
+TKT00568,CUST0503,Placement,I need help with placement support for ticket reference TKT00568.,In Progress,Identity Verification,V4,Education,SYNTHETIC
+TKT00569,CUST0506,Attendance,I want to know my current attendance status and I need a status update.,Open,Identity Verification,V4,Education,SYNTHETIC
+TKT00570,CUST0509,Fees,I have a question about my pending semester fee and I need a status update.,Resolved,Refund Initiated,V4,Education,SYNTHETIC
+TKT00571,CUST0512,Exam,When is the next examination scheduled?,In Progress,Order Checked,V4,Education,SYNTHETIC
+TKT00572,CUST0515,Academic Records,I need help accessing my academic records and I need a status update.,In Progress,Refund Initiated,V4,Education,SYNTHETIC
+TKT00573,CUST0518,Course Registration,I need help registering for a course and I need a status update.,Resolved,Human Review,V4,Education,SYNTHETIC
+TKT00574,CUST0521,Scholarship,I need information about my scholarship status and I need a status update.,Open,Human Review,V4,Education,SYNTHETIC
+TKT00575,CUST0524,Student ID,I lost my student ID and need a replacement and I need a status update.,Open,Information Provided,V4,Education,SYNTHETIC
+TKT00576,CUST0527,Placement,I need help with placement support and I need a status update.,Resolved,Refund Initiated,V4,Education,SYNTHETIC
+TKT00577,CUST0530,Attendance,I want to know my current attendance status.,In Progress,Information Provided,V4,Education,SYNTHETIC
+TKT00578,CUST0533,Fees,I have a question about my pending semester fee.,Escalated,Information Provided,V4,Education,SYNTHETIC
+TKT00579,CUST0536,Exam,When is the next examination scheduled?,Escalated,Human Review,V4,Education,SYNTHETIC
+TKT00580,CUST0539,Academic Records,I need help accessing my academic records.,In Progress,Information Provided,V4,Education,SYNTHETIC
+TKT00581,CUST0542,Course Registration,I need help registering for a course.,Escalated,Information Provided,V4,Education,SYNTHETIC
+TKT00582,CUST0545,Scholarship,I need information about my scholarship status.,In Progress,Information Provided,V4,Education,SYNTHETIC
+TKT00583,CUST0548,Student ID,I lost my student ID and need a replacement.,Resolved,Information Provided,V4,Education,SYNTHETIC
+TKT00584,CUST0551,Placement,I need help with placement support.,Open,Refund Initiated,V4,Education,SYNTHETIC
+TKT00585,CUST0554,Attendance,I want to know my current attendance status for ticket reference TKT00585.,Escalated,Refund Initiated,V4,Education,SYNTHETIC
+TKT00586,CUST0557,Fees,I have a question about my pending semester fee for ticket reference TKT00586.,Open,Identity Verification,V4,Education,SYNTHETIC
+TKT00587,CUST0560,Exam,When is the next examination scheduled?,Resolved,Human Review,V4,Education,SYNTHETIC
+TKT00588,CUST0563,Academic Records,I need help accessing my academic records for ticket reference TKT00588.,Open,Human Review,V4,Education,SYNTHETIC
+TKT00589,CUST0566,Course Registration,I need help registering for a course for ticket reference TKT00589.,Resolved,Order Checked,V4,Education,SYNTHETIC
+TKT00590,CUST0569,Scholarship,I need information about my scholarship status for ticket reference TKT00590.,In Progress,Refund Initiated,V4,Education,SYNTHETIC
+TKT00591,CUST0572,Student ID,I lost my student ID and need a replacement for ticket reference TKT00591.,Open,Identity Verification,V4,Education,SYNTHETIC
+TKT00592,CUST0575,Placement,I need help with placement support for ticket reference TKT00592.,In Progress,Human Review,V4,Education,SYNTHETIC
+TKT00593,CUST0578,Attendance,I want to know my current attendance status and I need a status update.,Resolved,Identity Verification,V4,Education,SYNTHETIC
+TKT00594,CUST0581,Fees,I have a question about my pending semester fee and I need a status update.,In Progress,Information Provided,V4,Education,SYNTHETIC
+TKT00595,CUST0584,Exam,When is the next examination scheduled?,Open,Order Checked,V4,Education,SYNTHETIC
+TKT00596,CUST0587,Academic Records,I need help accessing my academic records and I need a status update.,Open,Identity Verification,V4,Education,SYNTHETIC
+TKT00597,CUST0590,Course Registration,I need help registering for a course and I need a status update.,Resolved,Identity Verification,V4,Education,SYNTHETIC
+TKT00598,CUST0593,Scholarship,I need information about my scholarship status and I need a status update.,Open,Refund Initiated,V4,Education,SYNTHETIC
+TKT00599,CUST0596,Student ID,I lost my student ID and need a replacement and I need a status update.,In Progress,Identity Verification,V4,Education,SYNTHETIC
+TKT00600,CUST0599,Placement,I need help with placement support and I need a status update.,Open,Order Checked,V4,Education,SYNTHETIC
+TKT00601,CUST0602,Attendance,I want to know my current attendance status.,Escalated,Information Provided,V4,Education,SYNTHETIC
+TKT00602,CUST0605,Fees,I have a question about my pending semester fee.,Open,Refund Initiated,V4,Education,SYNTHETIC
+TKT00603,CUST0608,Exam,When is the next examination scheduled?,Escalated,Human Review,V4,Education,SYNTHETIC
+TKT00604,CUST0611,Academic Records,I need help accessing my academic records.,In Progress,Human Review,V4,Education,SYNTHETIC
+TKT00605,CUST0614,Course Registration,I need help registering for a course.,Escalated,Human Review,V4,Education,SYNTHETIC
+TKT00606,CUST0617,Scholarship,I need information about my scholarship status.,In Progress,Identity Verification,V4,Education,SYNTHETIC
+TKT00607,CUST0620,Student ID,I lost my student ID and need a replacement.,Escalated,Human Review,V4,Education,SYNTHETIC
+TKT00608,CUST0623,Placement,I need help with placement support.,Escalated,Information Provided,V4,Education,SYNTHETIC
+TKT00609,CUST0626,Attendance,I want to know my current attendance status for ticket reference TKT00609.,Open,Human Review,V4,Education,SYNTHETIC
+TKT00610,CUST0629,Fees,I have a question about my pending semester fee for ticket reference TKT00610.,In Progress,Information Provided,V4,Education,SYNTHETIC
+TKT00611,CUST0632,Exam,When is the next examination scheduled?,Open,Human Review,V4,Education,SYNTHETIC
+TKT00612,CUST0635,Academic Records,I need help accessing my academic records for ticket reference TKT00612.,Open,Order Checked,V4,Education,SYNTHETIC
+TKT00613,CUST0638,Course Registration,I need help registering for a course for ticket reference TKT00613.,Open,Identity Verification,V4,Education,SYNTHETIC
+TKT00614,CUST0641,Scholarship,I need information about my scholarship status for ticket reference TKT00614.,In Progress,Refund Initiated,V4,Education,SYNTHETIC
+TKT00615,CUST0644,Student ID,I lost my student ID and need a replacement for ticket reference TKT00615.,Resolved,Human Review,V4,Education,SYNTHETIC
+TKT00616,CUST0647,Placement,I need help with placement support for ticket reference TKT00616.,In Progress,Order Checked,V4,Education,SYNTHETIC
+TKT00617,CUST0650,Attendance,I want to know my current attendance status and I need a status update.,Escalated,Order Checked,V4,Education,SYNTHETIC
+TKT00618,CUST0653,Fees,I have a question about my pending semester fee and I need a status update.,Escalated,Human Review,V4,Education,SYNTHETIC
+TKT00619,CUST0656,Exam,When is the next examination scheduled?,Escalated,Refund Initiated,V4,Education,SYNTHETIC
+TKT00620,CUST0659,Academic Records,I need help accessing my academic records and I need a status update.,Open,Human Review,V4,Education,SYNTHETIC
+TKT00621,CUST0662,Course Registration,I need help registering for a course and I need a status update.,Resolved,Human Review,V4,Education,SYNTHETIC
+TKT00622,CUST0665,Scholarship,I need information about my scholarship status and I need a status update.,Escalated,Human Review,V4,Education,SYNTHETIC
+TKT00623,CUST0668,Student ID,I lost my student ID and need a replacement and I need a status update.,Resolved,Human Review,V4,Education,SYNTHETIC
+TKT00624,CUST0671,Placement,I need help with placement support and I need a status update.,Open,Order Checked,V4,Education,SYNTHETIC
+TKT00625,CUST0674,Attendance,I want to know my current attendance status.,Resolved,Refund Initiated,V4,Education,SYNTHETIC
+TKT00626,CUST0677,Fees,I have a question about my pending semester fee.,Escalated,Information Provided,V4,Education,SYNTHETIC
+TKT00627,CUST0680,Exam,When is the next examination scheduled?,Resolved,Information Provided,V4,Education,SYNTHETIC
+TKT00628,CUST0683,Academic Records,I need help accessing my academic records.,In Progress,Refund Initiated,V4,Education,SYNTHETIC
+TKT00629,CUST0686,Course Registration,I need help registering for a course.,In Progress,Identity Verification,V4,Education,SYNTHETIC
+TKT00630,CUST0689,Scholarship,I need information about my scholarship status.,In Progress,Information Provided,V4,Education,SYNTHETIC
+TKT00631,CUST0692,Student ID,I lost my student ID and need a replacement.,In Progress,Order Checked,V4,Education,SYNTHETIC
+TKT00632,CUST0695,Placement,I need help with placement support.,Escalated,Human Review,V4,Education,SYNTHETIC
+TKT00633,CUST0698,Attendance,I want to know my current attendance status for ticket reference TKT00633.,In Progress,Human Review,V4,Education,SYNTHETIC
+TKT00634,CUST0701,Fees,I have a question about my pending semester fee for ticket reference TKT00634.,Escalated,Refund Initiated,V4,Education,SYNTHETIC
+TKT00635,CUST0704,Exam,When is the next examination scheduled?,Escalated,Identity Verification,V4,Education,SYNTHETIC
+TKT00636,CUST0707,Academic Records,I need help accessing my academic records for ticket reference TKT00636.,Escalated,Human Review,V4,Education,SYNTHETIC
+TKT00637,CUST0710,Course Registration,I need help registering for a course for ticket reference TKT00637.,Open,Identity Verification,V4,Education,SYNTHETIC
+TKT00638,CUST0713,Scholarship,I need information about my scholarship status for ticket reference TKT00638.,Open,Information Provided,V4,Education,SYNTHETIC
+TKT00639,CUST0716,Student ID,I lost my student ID and need a replacement for ticket reference TKT00639.,Open,Refund Initiated,V4,Education,SYNTHETIC
+TKT00640,CUST0719,Placement,I need help with placement support for ticket reference TKT00640.,Open,Human Review,V4,Education,SYNTHETIC
+TKT00641,CUST0722,Attendance,I want to know my current attendance status and I need a status update.,In Progress,Order Checked,V4,Education,SYNTHETIC
+TKT00642,CUST0725,Fees,I have a question about my pending semester fee and I need a status update.,In Progress,Refund Initiated,V4,Education,SYNTHETIC
+TKT00643,CUST0728,Exam,When is the next examination scheduled?,Escalated,Information Provided,V4,Education,SYNTHETIC
+TKT00644,CUST0731,Academic Records,I need help accessing my academic records and I need a status update.,In Progress,Identity Verification,V4,Education,SYNTHETIC
+TKT00645,CUST0734,Course Registration,I need help registering for a course and I need a status update.,Escalated,Information Provided,V4,Education,SYNTHETIC
+TKT00646,CUST0737,Scholarship,I need information about my scholarship status and I need a status update.,In Progress,Refund Initiated,V4,Education,SYNTHETIC
+TKT00647,CUST0740,Student ID,I lost my student ID and need a replacement and I need a status update.,Resolved,Order Checked,V4,Education,SYNTHETIC
+TKT00648,CUST0743,Placement,I need help with placement support and I need a status update.,Open,Identity Verification,V4,Education,SYNTHETIC
+TKT00649,CUST0746,Attendance,I want to know my current attendance status.,Open,Refund Initiated,V4,Education,SYNTHETIC
+TKT00650,CUST0749,Fees,I have a question about my pending semester fee.,Resolved,Order Checked,V4,Education,SYNTHETIC
+TKT00651,CUST0752,Exam,When is the next examination scheduled?,In Progress,Order Checked,V4,Education,SYNTHETIC
+TKT00652,CUST0755,Academic Records,I need help accessing my academic records.,Open,Identity Verification,V4,Education,SYNTHETIC
+TKT00653,CUST0758,Course Registration,I need help registering for a course.,Open,Refund Initiated,V4,Education,SYNTHETIC
+TKT00654,CUST0761,Scholarship,I need information about my scholarship status.,Resolved,Order Checked,V4,Education,SYNTHETIC
+TKT00655,CUST0764,Student ID,I lost my student ID and need a replacement.,Escalated,Identity Verification,V4,Education,SYNTHETIC
+TKT00656,CUST0767,Placement,I need help with placement support.,Open,Identity Verification,V4,Education,SYNTHETIC
+TKT00657,CUST0770,Attendance,I want to know my current attendance status for ticket reference TKT00657.,Escalated,Information Provided,V4,Education,SYNTHETIC
+TKT00658,CUST0773,Fees,I have a question about my pending semester fee for ticket reference TKT00658.,In Progress,Order Checked,V4,Education,SYNTHETIC
+TKT00659,CUST0776,Exam,When is the next examination scheduled?,Open,Human Review,V4,Education,SYNTHETIC
+TKT00660,CUST0779,Academic Records,I need help accessing my academic records for ticket reference TKT00660.,Open,Identity Verification,V4,Education,SYNTHETIC
+TKT00661,CUST0782,Course Registration,I need help registering for a course for ticket reference TKT00661.,In Progress,Information Provided,V4,Education,SYNTHETIC
+TKT00662,CUST0785,Scholarship,I need information about my scholarship status for ticket reference TKT00662.,Open,Identity Verification,V4,Education,SYNTHETIC
+TKT00663,CUST0788,Student ID,I lost my student ID and need a replacement for ticket reference TKT00663.,Escalated,Human Review,V4,Education,SYNTHETIC
+TKT00664,CUST0791,Placement,I need help with placement support for ticket reference TKT00664.,Open,Refund Initiated,V4,Education,SYNTHETIC
+TKT00665,CUST0794,Attendance,I want to know my current attendance status and I need a status update.,Resolved,Human Review,V4,Education,SYNTHETIC
+TKT00666,CUST0797,Fees,I have a question about my pending semester fee and I need a status update.,Escalated,Identity Verification,V4,Education,SYNTHETIC
+TKT00667,CUST0800,Exam,When is the next examination scheduled?,Escalated,Human Review,V4,Education,SYNTHETIC
+TKT00668,CUST0803,Academic Records,I need help accessing my academic records and I need a status update.,In Progress,Human Review,V4,Education,SYNTHETIC
+TKT00669,CUST0806,Course Registration,I need help registering for a course and I need a status update.,Escalated,Order Checked,V4,Education,SYNTHETIC
+TKT00670,CUST0809,Scholarship,I need information about my scholarship status and I need a status update.,Escalated,Human Review,V4,Education,SYNTHETIC
+TKT00671,CUST0812,Student ID,I lost my student ID and need a replacement and I need a status update.,Open,Order Checked,V4,Education,SYNTHETIC
+TKT00672,CUST0815,Placement,I need help with placement support and I need a status update.,Resolved,Order Checked,V4,Education,SYNTHETIC
+TKT00673,CUST0818,Attendance,I want to know my current attendance status.,Open,Information Provided,V4,Education,SYNTHETIC
+TKT00674,CUST0821,Fees,I have a question about my pending semester fee.,In Progress,Human Review,V4,Education,SYNTHETIC
+TKT00675,CUST0824,Exam,When is the next examination scheduled?,In Progress,Information Provided,V4,Education,SYNTHETIC
+TKT00676,CUST0827,Academic Records,I need help accessing my academic records.,Escalated,Order Checked,V4,Education,SYNTHETIC
+TKT00677,CUST0830,Course Registration,I need help registering for a course.,Escalated,Information Provided,V4,Education,SYNTHETIC
+TKT00678,CUST0833,Scholarship,I need information about my scholarship status.,Open,Information Provided,V4,Education,SYNTHETIC
+TKT00679,CUST0836,Student ID,I lost my student ID and need a replacement.,Open,Identity Verification,V4,Education,SYNTHETIC
+TKT00680,CUST0839,Placement,I need help with placement support.,Open,Refund Initiated,V4,Education,SYNTHETIC
+TKT00681,CUST0842,Attendance,I want to know my current attendance status for ticket reference TKT00681.,Escalated,Refund Initiated,V4,Education,SYNTHETIC
+TKT00682,CUST0845,Fees,I have a question about my pending semester fee for ticket reference TKT00682.,Resolved,Refund Initiated,V4,Education,SYNTHETIC
+TKT00683,CUST0848,Exam,When is the next examination scheduled?,In Progress,Information Provided,V4,Education,SYNTHETIC
+TKT00684,CUST0851,Academic Records,I need help accessing my academic records for ticket reference TKT00684.,Resolved,Order Checked,V4,Education,SYNTHETIC
+TKT00685,CUST0854,Course Registration,I need help registering for a course for ticket reference TKT00685.,Open,Identity Verification,V4,Education,SYNTHETIC
+TKT00686,CUST0857,Scholarship,I need information about my scholarship status for ticket reference TKT00686.,Open,Information Provided,V4,Education,SYNTHETIC
+TKT00687,CUST0860,Student ID,I lost my student ID and need a replacement for ticket reference TKT00687.,Resolved,Refund Initiated,V4,Education,SYNTHETIC
+TKT00688,CUST0863,Placement,I need help with placement support for ticket reference TKT00688.,Resolved,Refund Initiated,V4,Education,SYNTHETIC
+TKT00689,CUST0866,Attendance,I want to know my current attendance status and I need a status update.,Resolved,Identity Verification,V4,Education,SYNTHETIC
+TKT00690,CUST0869,Fees,I have a question about my pending semester fee and I need a status update.,Resolved,Human Review,V4,Education,SYNTHETIC
+TKT00691,CUST0872,Exam,When is the next examination scheduled?,Escalated,Identity Verification,V4,Education,SYNTHETIC
+TKT00692,CUST0875,Academic Records,I need help accessing my academic records and I need a status update.,Escalated,Information Provided,V4,Education,SYNTHETIC
+TKT00693,CUST0878,Course Registration,I need help registering for a course and I need a status update.,Escalated,Order Checked,V4,Education,SYNTHETIC
+TKT00694,CUST0881,Scholarship,I need information about my scholarship status and I need a status update.,Open,Order Checked,V4,Education,SYNTHETIC
+TKT00695,CUST0884,Student ID,I lost my student ID and need a replacement and I need a status update.,Escalated,Order Checked,V4,Education,SYNTHETIC
+TKT00696,CUST0887,Placement,I need help with placement support and I need a status update.,Escalated,Order Checked,V4,Education,SYNTHETIC
+TKT00697,CUST0890,Attendance,I want to know my current attendance status.,Open,Human Review,V4,Education,SYNTHETIC
+TKT00698,CUST0893,Fees,I have a question about my pending semester fee.,Resolved,Order Checked,V4,Education,SYNTHETIC
+TKT00699,CUST0896,Exam,When is the next examination scheduled?,In Progress,Human Review,V4,Education,SYNTHETIC
+TKT00700,CUST0899,Academic Records,I need help accessing my academic records.,Open,Identity Verification,V4,Education,SYNTHETIC
+TKT00701,CUST0003,Vendor Support,I need help with a vendor transaction.,In Progress,Order Checked,V4,Small Business,SYNTHETIC
+TKT00702,CUST0006,Return and Refund,A customer requested a return and refund.,Escalated,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00703,CUST0009,Account Management,I need help managing my business account.,In Progress,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00704,CUST0012,Product Information,I need information about a product for my business.,Escalated,Order Checked,V4,Small Business,SYNTHETIC
+TKT00705,CUST0015,Invoice,I need help with an invoice for my business for ticket reference TKT00705.,Resolved,Information Provided,V4,Small Business,SYNTHETIC
+TKT00706,CUST0018,Business Payment,A business payment is still pending for ticket reference TKT00706.,Escalated,Order Checked,V4,Small Business,SYNTHETIC
+TKT00707,CUST0021,Delivery,A customer delivery is delayed for ticket reference TKT00707.,Resolved,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00708,CUST0024,Order Management,I need help updating a business order for ticket reference TKT00708.,Open,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00709,CUST0027,Vendor Support,I need help with a vendor transaction for ticket reference TKT00709.,In Progress,Information Provided,V4,Small Business,SYNTHETIC
+TKT00710,CUST0030,Return and Refund,A customer requested a return and refund for ticket reference TKT00710.,In Progress,Order Checked,V4,Small Business,SYNTHETIC
+TKT00711,CUST0033,Account Management,I need help managing my business account for ticket reference TKT00711.,Escalated,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00712,CUST0036,Product Information,I need information about a product for my business for ticket reference TKT00712.,Escalated,Order Checked,V4,Small Business,SYNTHETIC
+TKT00713,CUST0039,Invoice,I need help with an invoice for my business and I need a status update.,In Progress,Order Checked,V4,Small Business,SYNTHETIC
+TKT00714,CUST0042,Business Payment,A business payment is still pending and I need a status update.,Open,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00715,CUST0045,Delivery,A customer delivery is delayed and I need a status update.,Open,Information Provided,V4,Small Business,SYNTHETIC
+TKT00716,CUST0048,Order Management,I need help updating a business order and I need a status update.,Resolved,Information Provided,V4,Small Business,SYNTHETIC
+TKT00717,CUST0051,Vendor Support,I need help with a vendor transaction and I need a status update.,Resolved,Human Review,V4,Small Business,SYNTHETIC
+TKT00718,CUST0054,Return and Refund,A customer requested a return and refund and I need a status update.,Resolved,Human Review,V4,Small Business,SYNTHETIC
+TKT00719,CUST0057,Account Management,I need help managing my business account and I need a status update.,Escalated,Information Provided,V4,Small Business,SYNTHETIC
+TKT00720,CUST0060,Product Information,I need information about a product for my business and I need a status update.,Open,Information Provided,V4,Small Business,SYNTHETIC
+TKT00721,CUST0063,Invoice,I need help with an invoice for my business.,Escalated,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00722,CUST0066,Business Payment,A business payment is still pending.,Escalated,Human Review,V4,Small Business,SYNTHETIC
+TKT00723,CUST0069,Delivery,A customer delivery is delayed.,In Progress,Information Provided,V4,Small Business,SYNTHETIC
+TKT00724,CUST0072,Order Management,I need help updating a business order.,Resolved,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00725,CUST0075,Vendor Support,I need help with a vendor transaction.,Open,Order Checked,V4,Small Business,SYNTHETIC
+TKT00726,CUST0078,Return and Refund,A customer requested a return and refund.,In Progress,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00727,CUST0081,Account Management,I need help managing my business account.,Resolved,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00728,CUST0084,Product Information,I need information about a product for my business.,Escalated,Information Provided,V4,Small Business,SYNTHETIC
+TKT00729,CUST0087,Invoice,I need help with an invoice for my business for ticket reference TKT00729.,Open,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00730,CUST0090,Business Payment,A business payment is still pending for ticket reference TKT00730.,In Progress,Human Review,V4,Small Business,SYNTHETIC
+TKT00731,CUST0093,Delivery,A customer delivery is delayed for ticket reference TKT00731.,In Progress,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00732,CUST0096,Order Management,I need help updating a business order for ticket reference TKT00732.,In Progress,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00733,CUST0099,Vendor Support,I need help with a vendor transaction for ticket reference TKT00733.,Escalated,Human Review,V4,Small Business,SYNTHETIC
+TKT00734,CUST0102,Return and Refund,A customer requested a return and refund for ticket reference TKT00734.,Escalated,Human Review,V4,Small Business,SYNTHETIC
+TKT00735,CUST0105,Account Management,I need help managing my business account for ticket reference TKT00735.,In Progress,Order Checked,V4,Small Business,SYNTHETIC
+TKT00736,CUST0108,Product Information,I need information about a product for my business for ticket reference TKT00736.,In Progress,Order Checked,V4,Small Business,SYNTHETIC
+TKT00737,CUST0111,Invoice,I need help with an invoice for my business and I need a status update.,Open,Human Review,V4,Small Business,SYNTHETIC
+TKT00738,CUST0114,Business Payment,A business payment is still pending and I need a status update.,In Progress,Human Review,V4,Small Business,SYNTHETIC
+TKT00739,CUST0117,Delivery,A customer delivery is delayed and I need a status update.,Resolved,Order Checked,V4,Small Business,SYNTHETIC
+TKT00740,CUST0120,Order Management,I need help updating a business order and I need a status update.,Resolved,Information Provided,V4,Small Business,SYNTHETIC
+TKT00741,CUST0123,Vendor Support,I need help with a vendor transaction and I need a status update.,Escalated,Order Checked,V4,Small Business,SYNTHETIC
+TKT00742,CUST0126,Return and Refund,A customer requested a return and refund and I need a status update.,Resolved,Order Checked,V4,Small Business,SYNTHETIC
+TKT00743,CUST0129,Account Management,I need help managing my business account and I need a status update.,Escalated,Order Checked,V4,Small Business,SYNTHETIC
+TKT00744,CUST0132,Product Information,I need information about a product for my business and I need a status update.,In Progress,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00745,CUST0135,Invoice,I need help with an invoice for my business.,Open,Information Provided,V4,Small Business,SYNTHETIC
+TKT00746,CUST0138,Business Payment,A business payment is still pending.,In Progress,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00747,CUST0141,Delivery,A customer delivery is delayed.,Escalated,Order Checked,V4,Small Business,SYNTHETIC
+TKT00748,CUST0144,Order Management,I need help updating a business order.,Escalated,Human Review,V4,Small Business,SYNTHETIC
+TKT00749,CUST0147,Vendor Support,I need help with a vendor transaction.,Open,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00750,CUST0150,Return and Refund,A customer requested a return and refund.,Escalated,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00751,CUST0153,Account Management,I need help managing my business account.,Resolved,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00752,CUST0156,Product Information,I need information about a product for my business.,In Progress,Information Provided,V4,Small Business,SYNTHETIC
+TKT00753,CUST0159,Invoice,I need help with an invoice for my business for ticket reference TKT00753.,Escalated,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00754,CUST0162,Business Payment,A business payment is still pending for ticket reference TKT00754.,Open,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00755,CUST0165,Delivery,A customer delivery is delayed for ticket reference TKT00755.,Open,Human Review,V4,Small Business,SYNTHETIC
+TKT00756,CUST0168,Order Management,I need help updating a business order for ticket reference TKT00756.,Open,Human Review,V4,Small Business,SYNTHETIC
+TKT00757,CUST0171,Vendor Support,I need help with a vendor transaction for ticket reference TKT00757.,Escalated,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00758,CUST0174,Return and Refund,A customer requested a return and refund for ticket reference TKT00758.,Open,Order Checked,V4,Small Business,SYNTHETIC
+TKT00759,CUST0177,Account Management,I need help managing my business account for ticket reference TKT00759.,In Progress,Information Provided,V4,Small Business,SYNTHETIC
+TKT00760,CUST0180,Product Information,I need information about a product for my business for ticket reference TKT00760.,In Progress,Order Checked,V4,Small Business,SYNTHETIC
+TKT00761,CUST0183,Invoice,I need help with an invoice for my business and I need a status update.,In Progress,Order Checked,V4,Small Business,SYNTHETIC
+TKT00762,CUST0186,Business Payment,A business payment is still pending and I need a status update.,In Progress,Order Checked,V4,Small Business,SYNTHETIC
+TKT00763,CUST0189,Delivery,A customer delivery is delayed and I need a status update.,In Progress,Order Checked,V4,Small Business,SYNTHETIC
+TKT00764,CUST0192,Order Management,I need help updating a business order and I need a status update.,Open,Information Provided,V4,Small Business,SYNTHETIC
+TKT00765,CUST0195,Vendor Support,I need help with a vendor transaction and I need a status update.,Open,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00766,CUST0198,Return and Refund,A customer requested a return and refund and I need a status update.,Escalated,Human Review,V4,Small Business,SYNTHETIC
+TKT00767,CUST0201,Account Management,I need help managing my business account and I need a status update.,Open,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00768,CUST0204,Product Information,I need information about a product for my business and I need a status update.,In Progress,Order Checked,V4,Small Business,SYNTHETIC
+TKT00769,CUST0207,Invoice,I need help with an invoice for my business.,Resolved,Order Checked,V4,Small Business,SYNTHETIC
+TKT00770,CUST0210,Business Payment,A business payment is still pending.,Resolved,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00771,CUST0213,Delivery,A customer delivery is delayed.,In Progress,Human Review,V4,Small Business,SYNTHETIC
+TKT00772,CUST0216,Order Management,I need help updating a business order.,Open,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00773,CUST0219,Vendor Support,I need help with a vendor transaction.,In Progress,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00774,CUST0222,Return and Refund,A customer requested a return and refund.,Open,Information Provided,V4,Small Business,SYNTHETIC
+TKT00775,CUST0225,Account Management,I need help managing my business account.,Resolved,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00776,CUST0228,Product Information,I need information about a product for my business.,Open,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00777,CUST0231,Invoice,I need help with an invoice for my business for ticket reference TKT00777.,Escalated,Human Review,V4,Small Business,SYNTHETIC
+TKT00778,CUST0234,Business Payment,A business payment is still pending for ticket reference TKT00778.,Resolved,Human Review,V4,Small Business,SYNTHETIC
+TKT00779,CUST0237,Delivery,A customer delivery is delayed for ticket reference TKT00779.,Escalated,Human Review,V4,Small Business,SYNTHETIC
+TKT00780,CUST0240,Order Management,I need help updating a business order for ticket reference TKT00780.,Escalated,Human Review,V4,Small Business,SYNTHETIC
+TKT00781,CUST0243,Vendor Support,I need help with a vendor transaction for ticket reference TKT00781.,In Progress,Human Review,V4,Small Business,SYNTHETIC
+TKT00782,CUST0246,Return and Refund,A customer requested a return and refund for ticket reference TKT00782.,Resolved,Order Checked,V4,Small Business,SYNTHETIC
+TKT00783,CUST0249,Account Management,I need help managing my business account for ticket reference TKT00783.,In Progress,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00784,CUST0252,Product Information,I need information about a product for my business for ticket reference TKT00784.,Resolved,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00785,CUST0255,Invoice,I need help with an invoice for my business and I need a status update.,In Progress,Order Checked,V4,Small Business,SYNTHETIC
+TKT00786,CUST0258,Business Payment,A business payment is still pending and I need a status update.,In Progress,Information Provided,V4,Small Business,SYNTHETIC
+TKT00787,CUST0261,Delivery,A customer delivery is delayed and I need a status update.,Open,Human Review,V4,Small Business,SYNTHETIC
+TKT00788,CUST0264,Order Management,I need help updating a business order and I need a status update.,Escalated,Order Checked,V4,Small Business,SYNTHETIC
+TKT00789,CUST0267,Vendor Support,I need help with a vendor transaction and I need a status update.,Resolved,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00790,CUST0270,Return and Refund,A customer requested a return and refund and I need a status update.,In Progress,Human Review,V4,Small Business,SYNTHETIC
+TKT00791,CUST0273,Account Management,I need help managing my business account and I need a status update.,In Progress,Human Review,V4,Small Business,SYNTHETIC
+TKT00792,CUST0276,Product Information,I need information about a product for my business and I need a status update.,In Progress,Human Review,V4,Small Business,SYNTHETIC
+TKT00793,CUST0279,Invoice,I need help with an invoice for my business.,Open,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00794,CUST0282,Business Payment,A business payment is still pending.,Escalated,Information Provided,V4,Small Business,SYNTHETIC
+TKT00795,CUST0285,Delivery,A customer delivery is delayed.,In Progress,Human Review,V4,Small Business,SYNTHETIC
+TKT00796,CUST0288,Order Management,I need help updating a business order.,In Progress,Human Review,V4,Small Business,SYNTHETIC
+TKT00797,CUST0291,Vendor Support,I need help with a vendor transaction.,Open,Human Review,V4,Small Business,SYNTHETIC
+TKT00798,CUST0294,Return and Refund,A customer requested a return and refund.,In Progress,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00799,CUST0297,Account Management,I need help managing my business account.,Open,Information Provided,V4,Small Business,SYNTHETIC
+TKT00800,CUST0300,Product Information,I need information about a product for my business.,Open,Information Provided,V4,Small Business,SYNTHETIC
+TKT00801,CUST0303,Invoice,I need help with an invoice for my business for ticket reference TKT00801.,In Progress,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00802,CUST0306,Business Payment,A business payment is still pending for ticket reference TKT00802.,Open,Information Provided,V4,Small Business,SYNTHETIC
+TKT00803,CUST0309,Delivery,A customer delivery is delayed for ticket reference TKT00803.,Escalated,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00804,CUST0312,Order Management,I need help updating a business order for ticket reference TKT00804.,Escalated,Information Provided,V4,Small Business,SYNTHETIC
+TKT00805,CUST0315,Vendor Support,I need help with a vendor transaction for ticket reference TKT00805.,Open,Human Review,V4,Small Business,SYNTHETIC
+TKT00806,CUST0318,Return and Refund,A customer requested a return and refund for ticket reference TKT00806.,Escalated,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00807,CUST0321,Account Management,I need help managing my business account for ticket reference TKT00807.,Open,Human Review,V4,Small Business,SYNTHETIC
+TKT00808,CUST0324,Product Information,I need information about a product for my business for ticket reference TKT00808.,Resolved,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00809,CUST0327,Invoice,I need help with an invoice for my business and I need a status update.,Escalated,Information Provided,V4,Small Business,SYNTHETIC
+TKT00810,CUST0330,Business Payment,A business payment is still pending and I need a status update.,Open,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00811,CUST0333,Delivery,A customer delivery is delayed and I need a status update.,Resolved,Order Checked,V4,Small Business,SYNTHETIC
+TKT00812,CUST0336,Order Management,I need help updating a business order and I need a status update.,In Progress,Information Provided,V4,Small Business,SYNTHETIC
+TKT00813,CUST0339,Vendor Support,I need help with a vendor transaction and I need a status update.,Open,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00814,CUST0342,Return and Refund,A customer requested a return and refund and I need a status update.,Escalated,Human Review,V4,Small Business,SYNTHETIC
+TKT00815,CUST0345,Account Management,I need help managing my business account and I need a status update.,In Progress,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00816,CUST0348,Product Information,I need information about a product for my business and I need a status update.,Resolved,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00817,CUST0351,Invoice,I need help with an invoice for my business.,Resolved,Information Provided,V4,Small Business,SYNTHETIC
+TKT00818,CUST0354,Business Payment,A business payment is still pending.,Open,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00819,CUST0357,Delivery,A customer delivery is delayed.,Open,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00820,CUST0360,Order Management,I need help updating a business order.,Escalated,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00821,CUST0363,Vendor Support,I need help with a vendor transaction.,Resolved,Order Checked,V4,Small Business,SYNTHETIC
+TKT00822,CUST0366,Return and Refund,A customer requested a return and refund.,Escalated,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00823,CUST0369,Account Management,I need help managing my business account.,Open,Order Checked,V4,Small Business,SYNTHETIC
+TKT00824,CUST0372,Product Information,I need information about a product for my business.,Open,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00825,CUST0375,Invoice,I need help with an invoice for my business for ticket reference TKT00825.,Escalated,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00826,CUST0378,Business Payment,A business payment is still pending for ticket reference TKT00826.,Open,Information Provided,V4,Small Business,SYNTHETIC
+TKT00827,CUST0381,Delivery,A customer delivery is delayed for ticket reference TKT00827.,Escalated,Order Checked,V4,Small Business,SYNTHETIC
+TKT00828,CUST0384,Order Management,I need help updating a business order for ticket reference TKT00828.,Open,Information Provided,V4,Small Business,SYNTHETIC
+TKT00829,CUST0387,Vendor Support,I need help with a vendor transaction for ticket reference TKT00829.,In Progress,Order Checked,V4,Small Business,SYNTHETIC
+TKT00830,CUST0390,Return and Refund,A customer requested a return and refund for ticket reference TKT00830.,Escalated,Human Review,V4,Small Business,SYNTHETIC
+TKT00831,CUST0393,Account Management,I need help managing my business account for ticket reference TKT00831.,Open,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00832,CUST0396,Product Information,I need information about a product for my business for ticket reference TKT00832.,Resolved,Human Review,V4,Small Business,SYNTHETIC
+TKT00833,CUST0399,Invoice,I need help with an invoice for my business and I need a status update.,Open,Human Review,V4,Small Business,SYNTHETIC
+TKT00834,CUST0402,Business Payment,A business payment is still pending and I need a status update.,Open,Order Checked,V4,Small Business,SYNTHETIC
+TKT00835,CUST0405,Delivery,A customer delivery is delayed and I need a status update.,In Progress,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00836,CUST0408,Order Management,I need help updating a business order and I need a status update.,In Progress,Order Checked,V4,Small Business,SYNTHETIC
+TKT00837,CUST0411,Vendor Support,I need help with a vendor transaction and I need a status update.,In Progress,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00838,CUST0414,Return and Refund,A customer requested a return and refund and I need a status update.,Escalated,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00839,CUST0417,Account Management,I need help managing my business account and I need a status update.,Escalated,Information Provided,V4,Small Business,SYNTHETIC
+TKT00840,CUST0420,Product Information,I need information about a product for my business and I need a status update.,In Progress,Human Review,V4,Small Business,SYNTHETIC
+TKT00841,CUST0423,Invoice,I need help with an invoice for my business.,Open,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00842,CUST0426,Business Payment,A business payment is still pending.,Escalated,Human Review,V4,Small Business,SYNTHETIC
+TKT00843,CUST0429,Delivery,A customer delivery is delayed.,Resolved,Information Provided,V4,Small Business,SYNTHETIC
+TKT00844,CUST0432,Order Management,I need help updating a business order.,Escalated,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00845,CUST0435,Vendor Support,I need help with a vendor transaction.,Escalated,Information Provided,V4,Small Business,SYNTHETIC
+TKT00846,CUST0438,Return and Refund,A customer requested a return and refund.,Escalated,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00847,CUST0441,Account Management,I need help managing my business account.,In Progress,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00848,CUST0444,Product Information,I need information about a product for my business.,Open,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00849,CUST0447,Invoice,I need help with an invoice for my business for ticket reference TKT00849.,Resolved,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00850,CUST0450,Business Payment,A business payment is still pending for ticket reference TKT00850.,In Progress,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00851,CUST0453,Delivery,A customer delivery is delayed for ticket reference TKT00851.,Resolved,Information Provided,V4,Small Business,SYNTHETIC
+TKT00852,CUST0456,Order Management,I need help updating a business order for ticket reference TKT00852.,Open,Human Review,V4,Small Business,SYNTHETIC
+TKT00853,CUST0459,Vendor Support,I need help with a vendor transaction for ticket reference TKT00853.,In Progress,Information Provided,V4,Small Business,SYNTHETIC
+TKT00854,CUST0462,Return and Refund,A customer requested a return and refund for ticket reference TKT00854.,Escalated,Order Checked,V4,Small Business,SYNTHETIC
+TKT00855,CUST0465,Account Management,I need help managing my business account for ticket reference TKT00855.,Resolved,Information Provided,V4,Small Business,SYNTHETIC
+TKT00856,CUST0468,Product Information,I need information about a product for my business for ticket reference TKT00856.,Escalated,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00857,CUST0471,Invoice,I need help with an invoice for my business and I need a status update.,Open,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00858,CUST0474,Business Payment,A business payment is still pending and I need a status update.,Resolved,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00859,CUST0477,Delivery,A customer delivery is delayed and I need a status update.,In Progress,Information Provided,V4,Small Business,SYNTHETIC
+TKT00860,CUST0480,Order Management,I need help updating a business order and I need a status update.,In Progress,Order Checked,V4,Small Business,SYNTHETIC
+TKT00861,CUST0483,Vendor Support,I need help with a vendor transaction and I need a status update.,Escalated,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00862,CUST0486,Return and Refund,A customer requested a return and refund and I need a status update.,Resolved,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00863,CUST0489,Account Management,I need help managing my business account and I need a status update.,In Progress,Human Review,V4,Small Business,SYNTHETIC
+TKT00864,CUST0492,Product Information,I need information about a product for my business and I need a status update.,Resolved,Human Review,V4,Small Business,SYNTHETIC
+TKT00865,CUST0495,Invoice,I need help with an invoice for my business.,Open,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00866,CUST0498,Business Payment,A business payment is still pending.,Resolved,Order Checked,V4,Small Business,SYNTHETIC
+TKT00867,CUST0501,Delivery,A customer delivery is delayed.,In Progress,Information Provided,V4,Small Business,SYNTHETIC
+TKT00868,CUST0504,Order Management,I need help updating a business order.,Resolved,Order Checked,V4,Small Business,SYNTHETIC
+TKT00869,CUST0507,Vendor Support,I need help with a vendor transaction.,Escalated,Information Provided,V4,Small Business,SYNTHETIC
+TKT00870,CUST0510,Return and Refund,A customer requested a return and refund.,Escalated,Human Review,V4,Small Business,SYNTHETIC
+TKT00871,CUST0513,Account Management,I need help managing my business account.,Open,Human Review,V4,Small Business,SYNTHETIC
+TKT00872,CUST0516,Product Information,I need information about a product for my business.,In Progress,Order Checked,V4,Small Business,SYNTHETIC
+TKT00873,CUST0519,Invoice,I need help with an invoice for my business for ticket reference TKT00873.,Open,Human Review,V4,Small Business,SYNTHETIC
+TKT00874,CUST0522,Business Payment,A business payment is still pending for ticket reference TKT00874.,Open,Information Provided,V4,Small Business,SYNTHETIC
+TKT00875,CUST0525,Delivery,A customer delivery is delayed for ticket reference TKT00875.,Escalated,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00876,CUST0528,Order Management,I need help updating a business order for ticket reference TKT00876.,Resolved,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00877,CUST0531,Vendor Support,I need help with a vendor transaction for ticket reference TKT00877.,Open,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00878,CUST0534,Return and Refund,A customer requested a return and refund for ticket reference TKT00878.,In Progress,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00879,CUST0537,Account Management,I need help managing my business account for ticket reference TKT00879.,Escalated,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00880,CUST0540,Product Information,I need information about a product for my business for ticket reference TKT00880.,In Progress,Human Review,V4,Small Business,SYNTHETIC
+TKT00881,CUST0543,Invoice,I need help with an invoice for my business and I need a status update.,Resolved,Order Checked,V4,Small Business,SYNTHETIC
+TKT00882,CUST0546,Business Payment,A business payment is still pending and I need a status update.,Open,Information Provided,V4,Small Business,SYNTHETIC
+TKT00883,CUST0549,Delivery,A customer delivery is delayed and I need a status update.,In Progress,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00884,CUST0552,Order Management,I need help updating a business order and I need a status update.,Resolved,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00885,CUST0555,Vendor Support,I need help with a vendor transaction and I need a status update.,Open,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00886,CUST0558,Return and Refund,A customer requested a return and refund and I need a status update.,Open,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00887,CUST0561,Account Management,I need help managing my business account and I need a status update.,Resolved,Information Provided,V4,Small Business,SYNTHETIC
+TKT00888,CUST0564,Product Information,I need information about a product for my business and I need a status update.,Open,Information Provided,V4,Small Business,SYNTHETIC
+TKT00889,CUST0567,Invoice,I need help with an invoice for my business.,Resolved,Human Review,V4,Small Business,SYNTHETIC
+TKT00890,CUST0570,Business Payment,A business payment is still pending.,Open,Information Provided,V4,Small Business,SYNTHETIC
+TKT00891,CUST0573,Delivery,A customer delivery is delayed.,Resolved,Information Provided,V4,Small Business,SYNTHETIC
+TKT00892,CUST0576,Order Management,I need help updating a business order.,In Progress,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00893,CUST0579,Vendor Support,I need help with a vendor transaction.,Open,Information Provided,V4,Small Business,SYNTHETIC
+TKT00894,CUST0582,Return and Refund,A customer requested a return and refund.,In Progress,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00895,CUST0585,Account Management,I need help managing my business account.,Open,Order Checked,V4,Small Business,SYNTHETIC
+TKT00896,CUST0588,Product Information,I need information about a product for my business.,Escalated,Information Provided,V4,Small Business,SYNTHETIC
+TKT00897,CUST0591,Invoice,I need help with an invoice for my business for ticket reference TKT00897.,In Progress,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00898,CUST0594,Business Payment,A business payment is still pending for ticket reference TKT00898.,Open,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00899,CUST0597,Delivery,A customer delivery is delayed for ticket reference TKT00899.,Escalated,Human Review,V4,Small Business,SYNTHETIC
+TKT00900,CUST0600,Order Management,I need help updating a business order for ticket reference TKT00900.,Open,Information Provided,V4,Small Business,SYNTHETIC
+TKT00901,CUST0603,Vendor Support,I need help with a vendor transaction for ticket reference TKT00901.,Resolved,Information Provided,V4,Small Business,SYNTHETIC
+TKT00902,CUST0606,Return and Refund,A customer requested a return and refund for ticket reference TKT00902.,Resolved,Human Review,V4,Small Business,SYNTHETIC
+TKT00903,CUST0609,Account Management,I need help managing my business account for ticket reference TKT00903.,Resolved,Order Checked,V4,Small Business,SYNTHETIC
+TKT00904,CUST0612,Product Information,I need information about a product for my business for ticket reference TKT00904.,In Progress,Human Review,V4,Small Business,SYNTHETIC
+TKT00905,CUST0615,Invoice,I need help with an invoice for my business and I need a status update.,Escalated,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00906,CUST0618,Business Payment,A business payment is still pending and I need a status update.,In Progress,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00907,CUST0621,Delivery,A customer delivery is delayed and I need a status update.,In Progress,Human Review,V4,Small Business,SYNTHETIC
+TKT00908,CUST0624,Order Management,I need help updating a business order and I need a status update.,Resolved,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00909,CUST0627,Vendor Support,I need help with a vendor transaction and I need a status update.,Open,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00910,CUST0630,Return and Refund,A customer requested a return and refund and I need a status update.,Open,Human Review,V4,Small Business,SYNTHETIC
+TKT00911,CUST0633,Account Management,I need help managing my business account and I need a status update.,In Progress,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00912,CUST0636,Product Information,I need information about a product for my business and I need a status update.,Resolved,Human Review,V4,Small Business,SYNTHETIC
+TKT00913,CUST0639,Invoice,I need help with an invoice for my business.,In Progress,Information Provided,V4,Small Business,SYNTHETIC
+TKT00914,CUST0642,Business Payment,A business payment is still pending.,Resolved,Order Checked,V4,Small Business,SYNTHETIC
+TKT00915,CUST0645,Delivery,A customer delivery is delayed.,In Progress,Order Checked,V4,Small Business,SYNTHETIC
+TKT00916,CUST0648,Order Management,I need help updating a business order.,Escalated,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00917,CUST0651,Vendor Support,I need help with a vendor transaction.,In Progress,Information Provided,V4,Small Business,SYNTHETIC
+TKT00918,CUST0654,Return and Refund,A customer requested a return and refund.,Resolved,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00919,CUST0657,Account Management,I need help managing my business account.,Resolved,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00920,CUST0660,Product Information,I need information about a product for my business.,In Progress,Order Checked,V4,Small Business,SYNTHETIC
+TKT00921,CUST0663,Invoice,I need help with an invoice for my business for ticket reference TKT00921.,In Progress,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00922,CUST0666,Business Payment,A business payment is still pending for ticket reference TKT00922.,Open,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00923,CUST0669,Delivery,A customer delivery is delayed for ticket reference TKT00923.,Resolved,Human Review,V4,Small Business,SYNTHETIC
+TKT00924,CUST0672,Order Management,I need help updating a business order for ticket reference TKT00924.,Open,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00925,CUST0675,Vendor Support,I need help with a vendor transaction for ticket reference TKT00925.,In Progress,Human Review,V4,Small Business,SYNTHETIC
+TKT00926,CUST0678,Return and Refund,A customer requested a return and refund for ticket reference TKT00926.,In Progress,Order Checked,V4,Small Business,SYNTHETIC
+TKT00927,CUST0681,Account Management,I need help managing my business account for ticket reference TKT00927.,In Progress,Human Review,V4,Small Business,SYNTHETIC
+TKT00928,CUST0684,Product Information,I need information about a product for my business for ticket reference TKT00928.,In Progress,Order Checked,V4,Small Business,SYNTHETIC
+TKT00929,CUST0687,Invoice,I need help with an invoice for my business and I need a status update.,In Progress,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00930,CUST0690,Business Payment,A business payment is still pending and I need a status update.,Resolved,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00931,CUST0693,Delivery,A customer delivery is delayed and I need a status update.,Open,Order Checked,V4,Small Business,SYNTHETIC
+TKT00932,CUST0696,Order Management,I need help updating a business order and I need a status update.,Open,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00933,CUST0699,Vendor Support,I need help with a vendor transaction and I need a status update.,Escalated,Order Checked,V4,Small Business,SYNTHETIC
+TKT00934,CUST0702,Return and Refund,A customer requested a return and refund and I need a status update.,Open,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00935,CUST0705,Account Management,I need help managing my business account and I need a status update.,Escalated,Human Review,V4,Small Business,SYNTHETIC
+TKT00936,CUST0708,Product Information,I need information about a product for my business and I need a status update.,Resolved,Information Provided,V4,Small Business,SYNTHETIC
+TKT00937,CUST0711,Invoice,I need help with an invoice for my business.,Escalated,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00938,CUST0714,Business Payment,A business payment is still pending.,In Progress,Information Provided,V4,Small Business,SYNTHETIC
+TKT00939,CUST0717,Delivery,A customer delivery is delayed.,Open,Human Review,V4,Small Business,SYNTHETIC
+TKT00940,CUST0720,Order Management,I need help updating a business order.,Resolved,Information Provided,V4,Small Business,SYNTHETIC
+TKT00941,CUST0723,Vendor Support,I need help with a vendor transaction.,Escalated,Order Checked,V4,Small Business,SYNTHETIC
+TKT00942,CUST0726,Return and Refund,A customer requested a return and refund.,Open,Human Review,V4,Small Business,SYNTHETIC
+TKT00943,CUST0729,Account Management,I need help managing my business account.,In Progress,Information Provided,V4,Small Business,SYNTHETIC
+TKT00944,CUST0732,Product Information,I need information about a product for my business.,Open,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00945,CUST0735,Invoice,I need help with an invoice for my business for ticket reference TKT00945.,Escalated,Information Provided,V4,Small Business,SYNTHETIC
+TKT00946,CUST0738,Business Payment,A business payment is still pending for ticket reference TKT00946.,Open,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00947,CUST0741,Delivery,A customer delivery is delayed for ticket reference TKT00947.,Resolved,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00948,CUST0744,Order Management,I need help updating a business order for ticket reference TKT00948.,Escalated,Information Provided,V4,Small Business,SYNTHETIC
+TKT00949,CUST0747,Vendor Support,I need help with a vendor transaction for ticket reference TKT00949.,In Progress,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00950,CUST0750,Return and Refund,A customer requested a return and refund for ticket reference TKT00950.,Open,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00951,CUST0753,Account Management,I need help managing my business account for ticket reference TKT00951.,Resolved,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00952,CUST0756,Product Information,I need information about a product for my business for ticket reference TKT00952.,Resolved,Information Provided,V4,Small Business,SYNTHETIC
+TKT00953,CUST0759,Invoice,I need help with an invoice for my business and I need a status update.,In Progress,Information Provided,V4,Small Business,SYNTHETIC
+TKT00954,CUST0762,Business Payment,A business payment is still pending and I need a status update.,In Progress,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00955,CUST0765,Delivery,A customer delivery is delayed and I need a status update.,Resolved,Human Review,V4,Small Business,SYNTHETIC
+TKT00956,CUST0768,Order Management,I need help updating a business order and I need a status update.,Open,Information Provided,V4,Small Business,SYNTHETIC
+TKT00957,CUST0771,Vendor Support,I need help with a vendor transaction and I need a status update.,Escalated,Information Provided,V4,Small Business,SYNTHETIC
+TKT00958,CUST0774,Return and Refund,A customer requested a return and refund and I need a status update.,Resolved,Information Provided,V4,Small Business,SYNTHETIC
+TKT00959,CUST0777,Account Management,I need help managing my business account and I need a status update.,In Progress,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00960,CUST0780,Product Information,I need information about a product for my business and I need a status update.,Resolved,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00961,CUST0783,Invoice,I need help with an invoice for my business.,Resolved,Information Provided,V4,Small Business,SYNTHETIC
+TKT00962,CUST0786,Business Payment,A business payment is still pending.,Resolved,Information Provided,V4,Small Business,SYNTHETIC
+TKT00963,CUST0789,Delivery,A customer delivery is delayed.,Escalated,Information Provided,V4,Small Business,SYNTHETIC
+TKT00964,CUST0792,Order Management,I need help updating a business order.,Escalated,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00965,CUST0795,Vendor Support,I need help with a vendor transaction.,In Progress,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00966,CUST0798,Return and Refund,A customer requested a return and refund.,Open,Order Checked,V4,Small Business,SYNTHETIC
+TKT00967,CUST0801,Account Management,I need help managing my business account.,Resolved,Information Provided,V4,Small Business,SYNTHETIC
+TKT00968,CUST0804,Product Information,I need information about a product for my business.,Open,Information Provided,V4,Small Business,SYNTHETIC
+TKT00969,CUST0807,Invoice,I need help with an invoice for my business for ticket reference TKT00969.,Escalated,Order Checked,V4,Small Business,SYNTHETIC
+TKT00970,CUST0810,Business Payment,A business payment is still pending for ticket reference TKT00970.,In Progress,Order Checked,V4,Small Business,SYNTHETIC
+TKT00971,CUST0813,Delivery,A customer delivery is delayed for ticket reference TKT00971.,Open,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00972,CUST0816,Order Management,I need help updating a business order for ticket reference TKT00972.,Open,Information Provided,V4,Small Business,SYNTHETIC
+TKT00973,CUST0819,Vendor Support,I need help with a vendor transaction for ticket reference TKT00973.,Resolved,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00974,CUST0822,Return and Refund,A customer requested a return and refund for ticket reference TKT00974.,In Progress,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00975,CUST0825,Account Management,I need help managing my business account for ticket reference TKT00975.,Resolved,Information Provided,V4,Small Business,SYNTHETIC
+TKT00976,CUST0828,Product Information,I need information about a product for my business for ticket reference TKT00976.,Resolved,Human Review,V4,Small Business,SYNTHETIC
+TKT00977,CUST0831,Invoice,I need help with an invoice for my business and I need a status update.,In Progress,Order Checked,V4,Small Business,SYNTHETIC
+TKT00978,CUST0834,Business Payment,A business payment is still pending and I need a status update.,In Progress,Human Review,V4,Small Business,SYNTHETIC
+TKT00979,CUST0837,Delivery,A customer delivery is delayed and I need a status update.,Resolved,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00980,CUST0840,Order Management,I need help updating a business order and I need a status update.,Resolved,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00981,CUST0843,Vendor Support,I need help with a vendor transaction and I need a status update.,Resolved,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00982,CUST0846,Return and Refund,A customer requested a return and refund and I need a status update.,Open,Information Provided,V4,Small Business,SYNTHETIC
+TKT00983,CUST0849,Account Management,I need help managing my business account and I need a status update.,Escalated,Human Review,V4,Small Business,SYNTHETIC
+TKT00984,CUST0852,Product Information,I need information about a product for my business and I need a status update.,Open,Information Provided,V4,Small Business,SYNTHETIC
+TKT00985,CUST0855,Invoice,I need help with an invoice for my business.,Escalated,Human Review,V4,Small Business,SYNTHETIC
+TKT00986,CUST0858,Business Payment,A business payment is still pending.,Open,Human Review,V4,Small Business,SYNTHETIC
+TKT00987,CUST0861,Delivery,A customer delivery is delayed.,Escalated,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00988,CUST0864,Order Management,I need help updating a business order.,Open,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00989,CUST0867,Vendor Support,I need help with a vendor transaction.,Resolved,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00990,CUST0870,Return and Refund,A customer requested a return and refund.,In Progress,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00991,CUST0873,Account Management,I need help managing my business account.,Resolved,Order Checked,V4,Small Business,SYNTHETIC
+TKT00992,CUST0876,Product Information,I need information about a product for my business.,Resolved,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00993,CUST0879,Invoice,I need help with an invoice for my business for ticket reference TKT00993.,Open,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00994,CUST0882,Business Payment,A business payment is still pending for ticket reference TKT00994.,Escalated,Identity Verification,V4,Small Business,SYNTHETIC
+TKT00995,CUST0885,Delivery,A customer delivery is delayed for ticket reference TKT00995.,In Progress,Order Checked,V4,Small Business,SYNTHETIC
+TKT00996,CUST0888,Order Management,I need help updating a business order for ticket reference TKT00996.,Open,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00997,CUST0891,Vendor Support,I need help with a vendor transaction for ticket reference TKT00997.,Resolved,Information Provided,V4,Small Business,SYNTHETIC
+TKT00998,CUST0894,Return and Refund,A customer requested a return and refund for ticket reference TKT00998.,Escalated,Refund Initiated,V4,Small Business,SYNTHETIC
+TKT00999,CUST0897,Account Management,I need help managing my business account for ticket reference TKT00999.,Resolved,Order Checked,V4,Small Business,SYNTHETIC
+TKT01000,CUST0900,Product Information,I need information about a product for my business for ticket reference TKT01000.,Escalated,Refund Initiated,V4,Small Business,SYNTHETIC

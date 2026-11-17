@@ -1,7 +1,7 @@
 /**
  * Embeddable Customer Support Chat Widget
  * Project: Autonomous Multi-Agent Customer Support System with HITL Escalation
- *
+ * 
  * Secure, dependency-free vanilla JavaScript widget embeddable into any website.
  * Communicates with backend via scoped public widget tokens (wtk_...).
  * Enforces evidence grounding, authentic citations, and safe HITL escalation.

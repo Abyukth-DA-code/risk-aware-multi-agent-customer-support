@@ -1,0 +1,502 @@
+Case_ID,Query,Domain,Expected_Document_ID,Retrieved_Document_IDs,Expected_Rank,Recall_at_1,Recall_at_3,Recall_at_5,Reciprocal_Rank,Top1_Similarity,Latency_ms,Is_Answerable
+CASE002728,I'd like to purcjase several of ur item help me,E-commerce,NONE_KNOWLEDGE_GAP,E001 | E004 | E008 | E009 | E007,,0,0,0,0.0,0.3434392809867859,61.357,0
+CASE003008,what do I need to do to shop some of your product?,E-commerce,NONE_KNOWLEDGE_GAP,E001 | E009 | E011 | E004 | E008,,0,0,0,0.0,0.32427334785461426,47.65,0
+CASE002147,I'd like to change to the standard acconut,E-commerce,E006,E008 | E007 | E012 | E001 | E006,5.0,0,0,1,0.2,0.217498779296875,42.533,1
+CASE003197,I ned assistance to get my invoice #12588,E-commerce,E009,E009 | E012 | E007 | E008 | E010,1.0,1,1,1,1.0,0.6301024556159973,48.558,1
+CASE000902,i ahve to report problems with signup,E-commerce,E006,E006 | E007 | E012 | E008 | E010,1.0,1,1,1,1.0,0.4217092990875244,47.38,1
+CASE000657,I lost my student ID card. What should I do? I need more information.,Education,E022,E022 | E023 | E016 | E024 | E013,1.0,1,1,1,1.0,0.4699310064315796,51.264,1
+CASE001672,check in which cases can I ask for a refund,E-commerce,E002,E005 | E001 | E002 | EV1004 | E004,3.0,0,1,1,0.3333333333333333,0.4624054431915283,40.974,1
+CASE001527,want help to cancel purchase {{Order Number}},E-commerce,E003,E003 | E009 | E008 | E011 | E007,1.0,1,1,1,1.0,0.5270217657089233,36.835,1
+CASE003109,I want assistance canceling purchase {{Order Number}},E-commerce,E003,E003 | E009 | E008 | E011 | E004,1.0,1,1,1,1.0,0.5456433296203613,37.338,1
+CASE001607,want assistance to write an opinion,E-commerce,NONE_KNOWLEDGE_GAP,E010 | E012 | E003 | E006 | E001,,0,0,0,0.0,0.025692760944366455,29.762,0
+CASE001982,how can I see your reimbursement policy?,E-commerce,E002,E002 | E009 | EV1004 | E008 | E001,1.0,1,1,1,1.0,0.30111074447631836,34.252,1
+CASE001947,can ushow me the withdrawal penalties,E-commerce,E012,E002 | EV1004 | E008 | E003 | E004,,0,0,0,0.0,0.2694777846336365,31.627,1
+CASE000210,can you help me make a claim against your organization?,E-commerce,E012,E008 | E012 | EV1004 | E002 | E004,2.0,0,1,1,0.5,0.17797696590423584,31.498,1
+CASE000804,speaking with assistant,E-commerce,E012,E009 | E012 | E003 | E008 | E001,2.0,0,1,1,0.5,0.2178424596786499,31.23,1
+CASE001816,could I open a standard account?,E-commerce,E006,E006 | E001 | E003 | E012 | E005,1.0,1,1,1,1.0,0.45818930864334106,35.033,1
+CASE002446,i do not know how to report a trouble with online payments,E-commerce,E005,E006 | E010 | E003 | E007 | E009,,0,0,0,0.0,0.4285559058189392,36.754,1
+CASE001448,purchase {{Order Number}} status,E-commerce,E004,E004 | E007 | E009 | E003 | E011,1.0,1,1,1,1.0,0.5167684555053711,33.743,1
+CASE000860,is it possible to lodge a claim?,E-commerce,E012,E005 | E001 | E003 | E012 | E006,4.0,0,0,1,0.25,0.25742119550704956,38.198,1
+CASE000047,Can I apply for a company if I have a backlog?,Education,NONE_KNOWLEDGE_GAP,E021 | EV1006 | EV1005 | EV1008 | E013,,0,0,0,0.0,0.28239166736602783,38.165,0
+CASE001861,assistance to set my new shipping address up,E-commerce,E007,E007 | E012 | E004 | E008 | E009,1.0,1,1,1,1.0,0.5972275137901306,32.618,1
+CASE002182,I have to speak with a person,E-commerce,E012,E003 | E008 | E012 | E005 | E009,3.0,0,1,1,0.3333333333333333,0.07580703496932983,35.455,1
+CASE001475,need assistance submitting a shipping address,E-commerce,E007,E007 | E003 | E012 | E004 | E005,1.0,1,1,1,1.0,0.5183672904968262,34.115,1
+CASE001412,"my experience with your brand was bad, make a consumer claim",E-commerce,E012,E001 | E005 | E003 | EV1004 | E010,,0,0,0,0.0,0.28221046924591064,37.52,1
+CASE000477,I need help choosing my elective courses. I need more information.,Education,E019,E013 | E019 | E014 | E021 | E020,2.0,0,1,1,0.5,0.24732565879821777,39.307,1
+CASE001378,can you show me when my item is going to arrive?,E-commerce,E004,E004 | E003 | EV1004 | E008 | E001,1.0,1,1,1,1.0,0.4943881034851074,36.732,1
+CASE000018,Can my business get a refund for a damaged item?,Small Business,E027,E027 | E028 | E029 | E035 | E026,1.0,1,1,1,1.0,0.5078570246696472,38.085,1
+CASE000314,Can you help me? when is the scholarship application deadline?,Education,E021,E021 | E015 | E020 | E016 | EV1005,1.0,1,1,1,1.0,0.5704402923583984,35.535,1
+CASE002520,get invoices from last purchase,E-commerce,E009,E009 | E011 | E005 | E001 | EV1004,1.0,1,1,1,1.0,0.7027892470359802,33.005,1
+CASE001257,can you help me listing your allowed payment methods?,E-commerce,NONE_KNOWLEDGE_GAP,E002 | E008 | E009 | EV1004 | E004,,0,0,0,0.0,0.36651432514190674,35.184,0
+CASE000950,I need assistance to enter another shipping address,E-commerce,E007,E007 | E012 | E004 | E008 | E009,1.0,1,1,1,1.0,0.567514181137085,33.507,1
+CASE001165,"I need to check your allowed payment options, how to do it?",E-commerce,NONE_KNOWLEDGE_GAP,E012 | E008 | E004 | E003 | E009,,0,0,0,0.0,0.37873727083206177,42.219,0
+CASE001951,want help seeing the withdrawal charge,E-commerce,E012,E005 | E008 | E002 | E006 | E001,,0,0,0,0.0,0.26013684272766113,37.314,1
+CASE002734,is it possible to unsubscribe to the company newsletter?,E-commerce,E008,E003 | E008 | E007 | EV1004 | E002,2.0,0,1,1,0.5,0.27748584747314453,41.477,1
+CASE000183,Can I change the delivery address?,Small Business,NONE_KNOWLEDGE_GAP,E032 | E030 | E028 | EV1009 | E026,,0,0,0,0.0,0.2748143672943115,36.662,0
+CASE003143,wanna file a customer claim against ur company,E-commerce,E012,E001 | E012 | E010 | E005 | E006,2.0,0,1,1,0.5,0.31300169229507446,41.414,1
+CASE000969,changing data on {{Account Type}} account,E-commerce,E006,E006 | E007 | E011 | EV1001 | E012,1.0,1,1,1,1.0,0.4102904796600342,45.387,1
+CASE002780,I'm trying to inform of an issue with payments,E-commerce,E005,E010 | E004 | E009 | E003 | E012,,0,0,0,0.0,0.43590104579925537,41.948,1
+CASE000254,uhave a free number to call customer support,E-commerce,E012,E012 | E001 | E010 | E006 | E005,1.0,1,1,1,1.0,0.6316362023353577,48.572,1
+CASE003081,could you help me list your accepted payment modalities?,E-commerce,NONE_KNOWLEDGE_GAP,E002 | E009 | EV1001 | E005 | E012,,0,0,0,0.0,0.4089798927307129,49.923,0
+CASE000491,how to subscribe to the newsletter?,E-commerce,E008,E008 | E012 | E004 | E007 | E001,1.0,1,1,1,1.0,0.2978767156600952,35.436,1
+CASE000559,tell me more about updating the delivery address,E-commerce,E007,E007 | E004 | E005 | E012 | E003,1.0,1,1,1,1.0,0.6323191523551941,31.637,1
+CASE002899,help to cancel purchase {{Order Number}},E-commerce,E003,E003 | E009 | E011 | E007 | E008,1.0,1,1,1,1.0,0.5451090335845947,32.127,1
+CASE002693,add some products to order {{Order Number}},E-commerce,E012,E003 | E001 | E009 | EV1004 | E007,,0,0,0,0.0,0.23955512046813965,33.654,1
+CASE001274,could you give me information about the shipment methods?,E-commerce,E004,E004 | E009 | E001 | E007 | E003,1.0,1,1,1,1.0,0.5192533731460571,35.017,1
+CASE000173,Can you help me? how do I register for the semester exam?,Education,E014,EV1007 | EV1008 | EV1005 | E013 | E024,,0,0,0,0.0,0.6472418308258057,37.002,1
+CASE001236,Where can I find my exam schedule? I need more information.,Education,E014,EV1007 | EV1008 | E014 | E020 | E015,3.0,0,1,1,0.3333333333333333,0.5158023834228516,37.414,1
+CASE002022,need aasistance reporting a problem with goddamn sign-up,E-commerce,E006,E003 | E006 | E005 | E012 | E001,2.0,0,1,1,0.5,0.0,41.384,1
+CASE002192,where do I get the bill from {{Person Name}}?,E-commerce,E009,E012 | E003 | E009 | E008 | E001,3.0,0,1,1,0.3333333333333333,0.15768909454345703,40.26,1
+CASE000325,what is the shpiping period?,E-commerce,E004,E008 | E002 | E011 | E005 | E006,,0,0,0,0.0,0.17570388317108154,34.924,1
+CASE003124,assistance checking the early exit fee,E-commerce,E012,E005 | E008 | E002 | E010 | E001,,0,0,0,0.0,0.23763543367385864,30.91,1
+CASE002754,assistance informing of problems with registrations,E-commerce,E006,E004 | E012 | E006 | E010 | E007,3.0,0,1,1,0.3333333333333333,0.0,34.222,1
+CASE001687,"I have to sign up to your newsletter, I need assistance",E-commerce,E008,E008 | E012 | E007 | E006 | E001,1.0,1,1,1,1.0,0.2246936559677124,38.345,1
+CASE000557,Can someone help resolve this issue? Please help.,Small Business,E030,E031 | E028 | E030 | E026 | E036,3.0,0,1,1,0.3333333333333333,0.20817673206329346,35.884,1
+CASE000498,wanna see the payment methods help me,E-commerce,NONE_KNOWLEDGE_GAP,E009 | E002 | EV1001 | E008 | E005,,0,0,0,0.0,0.4003196358680725,33.133,0
+CASE003036,opening new platinum account for daughter,E-commerce,E006,E006 | E001 | E009 | E012 | E010,1.0,1,1,1,1.0,0.31470251083374023,32.733,1
+CASE000990,Can I update my company information? as soon as possible.,Small Business,E030,E030 | E035 | E032 | E025 | E033,1.0,1,1,1,1.0,0.48621487617492676,36.494,1
+CASE002966,I need to check in which situations can I ask for a refund,E-commerce,E002,E002 | E001 | E005 | EV1004 | E004,1.0,1,1,1,1.0,0.46090036630630493,38.819,1
+CASE002942,want help notifying of troubles with online payments,E-commerce,E005,E004 | E010 | E009 | E012 | E006,,0,0,0,0.0,0.0,40.296,1
+CASE001467,how acn i get information about forgotten access keys,E-commerce,E006,E006 | E009 | E004 | E012 | E010,1.0,1,1,1,1.0,0.33054590225219727,33.987,1
+CASE002255,"someone stole my PIN, I want assistance to restore it",E-commerce,E006,E012 | E003 | E006 | E010 | E008,3.0,0,1,1,0.3333333333333333,0.24637794494628906,37.049,1
+CASE002405,i try to check at what time i can contact customer support,E-commerce,E012,E012 | E004 | E008 | EV1004 | E010,1.0,1,1,1,1.0,0.5783246159553528,62.338,1
+CASE000754,I lost my student ID card. What should I do?,Education,E022,E022 | E016 | E023 | E024 | E013,1.0,1,1,1,1.0,0.4603379964828491,35.926,1
+CASE003231,i do not know what to do to close the {{Account Category}} account,E-commerce,E006,E006 | E008 | E001 | E007 | E010,1.0,1,1,1,1.0,0.2670804262161255,38.468,1
+CASE000664,there is an issue trying to change my shipping address,E-commerce,E007,E007 | E010 | E003 | E006 | E002,1.0,1,1,1,1.0,0.6403314471244812,32.468,1
+CASE002035,"I need to see what damn shipment options I have, help me",E-commerce,E004,E004 | E007 | E008 | E009 | E012,1.0,1,1,1,1.0,0.5017852783203125,34.507,1
+CASE000528,cn I place an order from {{Delivery City}}?,E-commerce,E004,E004 | E003 | E007 | E009 | E010,1.0,1,1,1,1.0,0.3713572025299072,36.479,1
+CASE003069,filing consumer claim against your business,E-commerce,E012,E009 | E001 | E010 | E008 | E006,,0,0,0,0.0,0.464963436126709,37.717,1
+CASE002320,i need assistance to reset the pin code of my account,E-commerce,E006,E006 | E012 | E007 | E004 | E010,1.0,1,1,1,1.0,0.31244897842407227,41.401,1
+CASE001011,I want assistance to cancel purchase {{Order Number}},E-commerce,E003,E003 | E009 | E008 | E011 | E007,1.0,1,1,1,1.0,0.5331734418869019,40.286,1
+CASE000610,lodging consumer complaint against your business,E-commerce,E012,E010 | E006 | E009 | E008 | E012,5.0,0,0,1,0.2,0.38727760314941406,37.559,1
+CASE001075,want assistance to check how long refunds take,E-commerce,E002,EV1002 | E002 | EV1001 | E004 | E001,2.0,0,1,1,0.5,0.6819266080856323,31.089,1
+CASE000566,is it possible to see the bills from {{Person Name}}?,E-commerce,E009,E007 | E012 | E005 | E003 | E009,5.0,0,0,1,0.2,0.10590857267379761,40.554,1
+CASE000146,I don't know what to do to inform of an error with a sign-up,E-commerce,E006,E007 | E012 | E010 | E003 | E006,5.0,0,0,1,0.2,0.31424134969711304,38.228,1
+CASE000218,How do I register for a course?,Education,E019,E019 | E013 | EV1005 | E015 | E024,1.0,1,1,1,1.0,0.6563238501548767,34.095,1
+CASE001355,could you tell me about shipping periods?,E-commerce,E004,E007 | E004 | E002 | E008 | E003,2.0,0,1,1,0.5,0.3196774125099182,31.079,1
+CASE001992,assistance seeing what shipment options are available,E-commerce,E004,E004 | E007 | EV1002 | E002 | E012,1.0,1,1,1,1.0,0.5526907444000244,31.963,1
+CASE001384,editing data on {{Account Type}} account,E-commerce,E006,E006 | E007 | E011 | E012 | EV1001,1.0,1,1,1,1.0,0.36574018001556396,32.722,1
+CASE003086,how to get bill #85632?,E-commerce,E009,E012 | E007 | E008 | E009 | E010,4.0,0,0,1,0.25,0.33489716053009033,37.231,1
+CASE002532,want assistance seeinhg how long the shipment takes,E-commerce,E004,E004 | E012 | E008 | E001 | E002,1.0,1,1,1,1.0,0.5105147361755371,43.707,1
+CASE002946,I need help retrieving my account access key,E-commerce,E006,E006 | E012 | E010 | E001 | E009,1.0,1,1,1,1.0,0.3585028052330017,33.954,1
+CASE002813,wqhere to obtain rebates of money,E-commerce,E002,E009 | E001 | E004 | E002 | EV1001,4.0,0,0,1,0.25,0.40722399950027466,31.941,1
+CASE001640,Why has my invoice not been generated? I need assistance.,Small Business,E025,E025 | EV1009 | EV1010 | E026 | E033,1.0,1,1,1,1.0,0.45351529121398926,35.86,1
+CASE001614,are there early exit fees?,E-commerce,E012,E002 | EV1002 | EV1001 | E009 | E007,,0,0,0,0.0,0.24730455875396729,30.469,1
+CASE001620,want help to check in what situations can i ask for refunds,E-commerce,E002,EV1002 | E002 | EV1001 | EV1004 | E004,2.0,0,1,1,0.5,0.574736475944519,36.163,1
+CASE001420,"I want to see my invoice #37777, I need assistance",E-commerce,E009,E009 | E012 | E008 | E004 | E007,1.0,1,1,1,1.0,0.6406530141830444,44.089,1
+CASE000203,I want to submit the edlivery address,E-commerce,E007,E007 | E012 | E008 | E009 | EV1003,1.0,1,1,1,1.0,0.35903459787368774,34.914,1
+CASE002331,"I lost bill #37777, mail it to me",E-commerce,E009,E007 | E012 | E003 | E009 | E008,4.0,0,0,1,0.25,0.2563960552215576,38.122,1
+CASE002268,there is an error trying to update the address,E-commerce,E007,E007 | E010 | E003 | E006 | E002,1.0,1,1,1,1.0,0.3645169734954834,38.955,1
+CASE002898,I don't know how to talk with an agent,E-commerce,E012,E010 | E012 | E008 | E003 | E009,2.0,0,1,1,0.5,0.1491004228591919,38.328,1
+CASE002610,i havent registered yet i need help creating a {{Account Type}} account,E-commerce,E006,E006 | E003 | E012 | E005 | E010,1.0,1,1,1,1.0,0.26755446195602417,39.638,1
+CASE001677,can you help md unsubscribing to your company newsletter?,E-commerce,E008,E008 | E012 | EV1004 | E002 | E010,1.0,1,1,1,1.0,0.39341115951538086,39.846,1
+CASE003317,I need help leaving a comment for your services,E-commerce,NONE_KNOWLEDGE_GAP,E003 | E001 | E012 | E006 | E005,,0,0,0,0.0,0.12678873538970947,34.31,0
+CASE001578,I don't know how I can order some of your article,E-commerce,NONE_KNOWLEDGE_GAP,EV1004 | E004 | E003 | E008 | E009,,0,0,0,0.0,0.18341219425201416,39.462,0
+CASE001050,how to download the bills from {{Person Name}}?,E-commerce,E009,E012 | E007 | E008 | E009 | E002,4.0,0,0,1,0.25,0.12162679433822632,42.046,1
+CASE000798,wanna see how soon can i expect the shipment help me,E-commerce,E004,E004 | EV1004 | E008 | E003 | E007,1.0,1,1,1,1.0,0.4428459405899048,51.487,1
+CASE000356,where can i acquire an few of ur article,E-commerce,NONE_KNOWLEDGE_GAP,EV1004 | E003 | E009 | E004 | E012,,0,0,0,0.0,0.13333094120025635,38.118,0
+CASE000083,Can I update my company information? I need assistance.,Small Business,E030,E030 | E035 | E032 | E025 | E033,1.0,1,1,1,1.0,0.4974619150161743,35.83,1
+CASE000208,show me what shipment methods I have,E-commerce,E004,E004 | E007 | E009 | E003 | E001,1.0,1,1,1,1.0,0.5766777992248535,31.07,1
+CASE000699,My refund has not arrived yet. as soon as possible.,Small Business,E027,E027 | E026 | E028 | E033,1.0,1,1,1,1.0,0.5482601523399353,38.199,1
+CASE000137,How can I download my invoice? as soon as possible.,Small Business,E025,E025 | EV1009 | EV1010 | E026 | E033,1.0,1,1,1,1.0,0.4481493830680847,38.267,1
+CASE003256,want help checking in what situations can I ask for a refund,E-commerce,E002,E002 | E001 | E005 | EV1002 | EV1001,1.0,1,1,1,1.0,0.4497869610786438,37.389,1
+CASE002636,I do not know how I can enter the new delivery address,E-commerce,E007,E007 | E004 | E003 | E009 | E008,1.0,1,1,1,1.0,0.6366978883743286,45.887,1
+CASE002463,I do not know how to seehow soon can I expect my purchase,E-commerce,E004,EV1004 | E004 | E001 | E008 | E011,2.0,0,1,1,0.5,0.32551586627960205,41.536,1
+CASE002056,need to check what hours i can call customer service,E-commerce,E012,E004 | E008 | E002 | E012 | EV1002,4.0,0,0,1,0.25,0.3446362614631653,37.547,1
+CASE001245,deleter a product from purchase {{Order Number}},E-commerce,E012,E001 | E003 | E005 | E009 | E011,,0,0,0,0.0,0.3089678883552551,40.306,1
+CASE002435,I don't know what I have to do to cancel my {{Account Type}} account,E-commerce,E006,E008 | E006 | E007 | E003 | E012,2.0,0,1,1,0.5,0.40618032217025757,42.079,1
+CASE000628,How can I pay my semester fees?,Education,E016,E016 | E017 | E013 | E024 | E020,1.0,1,1,1,1.0,0.6147866249084473,30.534,1
+CASE002567,how to change to the {{Account Category}} account,E-commerce,E006,E006 | E008 | E007 | E001 | E012,1.0,1,1,1,1.0,0.32588428258895874,35.004,1
+CASE001522,I want to update my user profile,E-commerce,E006,E007 | E008 | E012 | E006 | E004,4.0,0,0,1,0.25,0.15860795974731445,30.039,1
+CASE000070,How can I apply for a scholarship?,Education,E021,E021 | EV1005 | E024 | E013 | E016,1.0,1,1,1,1.0,0.6259186863899231,30.064,1
+CASE000396,The supplier has not confirmed my order. Please help.,Small Business,NONE_KNOWLEDGE_GAP,E028 | E034 | E026 | E033 | EV1009,,0,0,0,0.0,0.33455991744995117,40.2,0
+CASE000492,what do i need to do to ask for a rebate of money,E-commerce,E002,E001 | E005 | E002 | E004 | E009,3.0,0,1,1,0.3333333333333333,0.34870195388793945,37.611,1
+CASE001409,what do i need to do to get my invoices from {{Person Name}},E-commerce,E009,E009 | E012 | E008 | E007 | E010,1.0,1,1,1,1.0,0.5599536895751953,43.965,1
+CASE001154,i have got to ceck ur money back guarantee i need help,E-commerce,E002,E012 | E008 | EV1001 | E002 | E007,4.0,0,0,1,0.25,0.3134719133377075,37.931,1
+CASE000908,i dont know how to inform of a trouble with payment,E-commerce,E005,E005 | E009 | E002 | E004 | E010,1.0,1,1,1,1.0,0.3713284730911255,40.568,1
+CASE003096,I do not know what I need to do to purchase something,E-commerce,NONE_KNOWLEDGE_GAP,E012 | E007 | E009 | E011 | E001,,0,0,0,0.0,0.2326982617378235,37.633,0
+CASE003221,help trying to edit the deliveyr address,E-commerce,E007,E007 | E012 | E008 | E009 | E006,1.0,1,1,1,1.0,0.3333085775375366,34.011,1
+CASE001727,I have to give a quick look at the invoice #00108,E-commerce,E009,E009 | E001 | E005 | E003 | EV1004,1.0,1,1,1,1.0,0.5697845220565796,42.097,1
+CASE003165,"I lost the bill #12588, mail it to me",E-commerce,E009,E012 | E007 | E008 | E003 | E009,5.0,0,0,1,0.2,0.3091333508491516,38.93,1
+CASE002839,"I have to correct order {{Order Number}}, can you help me?",E-commerce,E012,E007 | E004 | E009 | E003 | E005,,0,0,0,0.0,0.28728246688842773,43.149,1
+CASE002404,i have a problem with the cancellation of my {{Account Category}} account,E-commerce,E006,E008 | E006 | E003 | E001 | E002,2.0,0,1,1,0.5,0.40422356128692627,41.609,1
+CASE001129,help me to delete an item from order {{Order Number}},E-commerce,E012,E003 | E007 | E009 | E010 | E005,,0,0,0,0.0,0.3358428478240967,50.978,1
+CASE002005,I want assistance to see my invoices from {{Person Name}},E-commerce,E009,E009 | E012 | E008 | E007 | E004,1.0,1,1,1,1.0,0.5904466509819031,41.176,1
+CASE001582,I am trying to file a rreclamation against your business,E-commerce,E012,E012 | E003 | E010 | E005 | E009,1.0,1,1,1,1.0,0.25086313486099243,41.859,1
+CASE003311,directing to person,E-commerce,E012,E012 | E008 | E007 | E003 | E009,1.0,1,1,1,1.0,0.13000154495239258,37.32,1
+CASE001404,I don't know what I need to do to contact customer service,E-commerce,E012,E012 | E010 | E006 | E008 | E007,1.0,1,1,1,1.0,0.5908756852149963,38.937,1
+CASE000094,Can you help me? has the exam date for my subject changed?,Education,E014,EV1007 | EV1008 | E020 | E015 | E014,5.0,0,0,1,0.2,0.4411739110946655,38.627,1
+CASE003220,"I have to enter a new shipping address, how do I do it?",E-commerce,E007,E007 | E003 | E004 | E005 | E009,1.0,1,1,1,1.0,0.6418974995613098,39.101,1
+CASE001455,have a problem with the removal of my {{Account Type}} account,E-commerce,E006,E006 | E004 | E010 | E005 | E001,1.0,1,1,1,1.0,0.314896821975708,35.749,1
+CASE000501,I want to check at what time I can reach customer serfvice,E-commerce,E012,E004 | E002 | E008 | E012 | EV1004,4.0,0,0,1,0.25,0.45052093267440796,39.414,1
+CASE000983,I need to check in which cases can I ask for a reimbursement,E-commerce,E002,E012 | E001 | E004 | E009 | E005,,0,0,0,0.0,0.3745760917663574,43.525,1
+CASE001193,where can I check what hours I can call customer service?,E-commerce,E012,E004 | E008 | E012 | EV1004 | E002,3.0,0,1,1,0.3333333333333333,0.3367409110069275,45.52,1
+CASE001839,find information about the cancellation of a pro account,E-commerce,E006,E008 | E003 | E006 | E004 | E010,3.0,0,1,1,0.3333333333333333,0.4755823612213135,46.957,1
+CASE002259,can you help me see the damn withdrawal charge?,E-commerce,E012,E008 | E006 | E004 | E010 | EV1004,,0,0,0,0.0,0.25255072116851807,43.289,1
+CASE001771,help with creating my {{Account Type}} account,E-commerce,E006,E006 | EV1003 | E001 | E012 | E010,1.0,1,1,1,1.0,0.21601444482803345,39.894,1
+CASE001175,can ya help me to speak with customer assistance,E-commerce,E012,E008 | E012 | E004 | E009 | EV1004,2.0,0,1,1,0.5,0.30192869901657104,37.35,1
+CASE002146,want assistance submitting my feedback for a service,E-commerce,NONE_KNOWLEDGE_GAP,E001 | E009 | E012 | E003 | E010,,0,0,0,0.0,0.23726165294647217,36.231,0
+CASE000937,can I check what hours I can reach customer assistance?,E-commerce,E012,E004 | E012 | E008 | EV1004 | E002,2.0,0,1,1,0.5,0.3586822748184204,32.67,1
+CASE002970,i dont know how i can acquire some of ur item,E-commerce,NONE_KNOWLEDGE_GAP,E001 | EV1004 | E004 | E009 | E008,,0,0,0,0.0,0.34678900241851807,34.776,0
+CASE000120,How can I contact the vendor about a missing item? Please help.,Small Business,NONE_KNOWLEDGE_GAP,E033 | E028 | E027 | E029 | E034,,0,0,0,0.0,0.30310237407684326,35.744,0
+CASE002897,help me to see at what time I can contact customer service,E-commerce,E012,E012 | E002 | E008 | E004 | EV1004,1.0,1,1,1,1.0,0.4539148807525635,36.075,1
+CASE001223,how can I check if there are any updates on the restitution?,E-commerce,E002,E004 | EV1004 | E005 | E007 | E012,,0,0,0,0.0,0.3160257339477539,37.311,1
+CASE000428,where can i eanr a few of ur item,E-commerce,NONE_KNOWLEDGE_GAP,EV1004 | E004 | E001 | E003 | E009,,0,0,0,0.0,0.21717631816864014,32.86,0
+CASE002416,where can I see the withdrawal penalty?,E-commerce,E012,E002 | E003 | EV1004 | E008 | E004,,0,0,0,0.0,0.2798680067062378,34.042,1
+CASE002976,assistance checking the withdrawal penalty,E-commerce,E012,E002 | E005 | E008 | E001 | E010,,0,0,0,0.0,0.34510546922683716,32.717,1
+CASE001212,i dont use m freemium account I'm trying to cancel it,E-commerce,E006,E008 | E003 | E006 | E010 | E002,3.0,0,1,1,0.3333333333333333,0.5443857312202454,40.299,1
+CASE002066,is there an address to leave an opinion ?,E-commerce,NONE_KNOWLEDGE_GAP,E007 | E003 | E010 | E008 | E012,,0,0,0,0.0,0.20370006561279297,32.35,0
+CASE000892,How do I request an official transcript? Please help me.,Education,E024,E024 | E016 | E018 | E021 | E020,1.0,1,1,1,1.0,0.44996416568756104,41.977,1
+CASE002672,consumer reclamation,E-commerce,E012,EV1004 | E001 | E009 | E008 | E011,,0,0,0,0.0,0.3575479984283447,37.473,1
+CASE000127,Can I pay by bank transfer?,Small Business,E026,E026 | E029 | E033 | E035 | EV1009,1.0,1,1,1,1.0,0.3857366442680359,41.709,1
+CASE002507,i want supports trying to correct the address,E-commerce,E007,E007 | E012 | E008 | E006 | E001,1.0,1,1,1,1.0,0.5608500242233276,34.7,1
+CASE001131,can you help me see the early exit penalties?,E-commerce,E012,E002 | E008 | E004 | EV1002 | E003,,0,0,0,0.0,0.131058931350708,36.085,1
+CASE003055,can I inform of a problem with registrations?,E-commerce,E006,E004 | E006 | E010 | E012 | EV1004,2.0,0,1,1,0.5,0.0,32.042,1
+CASE002587,i cant make a payment where can i notify of an error,E-commerce,E005,E003 | E012 | E010 | E004 | E002,,0,0,0,0.0,0.0,36.805,1
+CASE002932,is there a method to send some feedback about your products?,E-commerce,NONE_KNOWLEDGE_GAP,E001 | EV1004 | E012 | E002 | E003,,0,0,0,0.0,0.3096350431442261,34.368,0
+CASE001425,assistance to see order {{Order Number}} current status,E-commerce,E004,E004 | E007 | E009 | E003 | E008,1.0,1,1,1,1.0,0.46226274967193604,39.207,1
+CASE000575,Do you offer products suitable for small businesses? Please help.,Small Business,NONE_KNOWLEDGE_GAP,E030 | E031 | E034 | E035 | E027,,0,0,0,0.0,0.2030043601989746,41.667,0
+CASE003203,I am trying to unsubscribe from your company newsletter,E-commerce,E008,E008 | E007 | E012 | E006 | E003,1.0,1,1,1,1.0,0.4285765290260315,42.798,1
+CASE000005,My student ID is not working. Please help me.,Education,E022,E022 | E023 | EV1008 | E016 | E024,1.0,1,1,1,1.0,0.4817257523536682,35.453,1
+CASE002054,create new standard account for daughter,E-commerce,E006,E006 | E009 | E012 | E001 | E010,1.0,1,1,1,1.0,0.4114975929260254,33.459,1
+CASE001609,is there anaddress to send feedback for a service,E-commerce,NONE_KNOWLEDGE_GAP,E001 | E009 | E003 | E012 | E005,,0,0,0,0.0,0.22799772024154663,43.148,0
+CASE002727,updating order {{Order Number}},E-commerce,E012,E003 | E009 | E007 | E004 | E005,,0,0,0,0.0,0.3079468011856079,39.071,1
+CASE002875,I do not know how I can chat with an agent,E-commerce,E012,E010 | E008 | E004 | E003 | E012,5.0,0,0,1,0.2,0.1371753215789795,32.592,1
+CASE001256,I need to see when will my product arrive,E-commerce,E004,E001 | E004 | E011 | EV1004 | E003,2.0,0,1,1,0.5,0.29930198192596436,35.075,1
+CASE002373,"I need to see when will my parcel arrive, how to do it?",E-commerce,E004,E007 | E003 | E004 | E008 | E009,3.0,0,1,1,0.3333333333333333,0.3700108528137207,43.087,1
+CASE002674,i do not know how i can talk to a human agent,E-commerce,E012,E004 | E003 | E012 | E008 | E010,3.0,0,1,1,0.3333333333333333,0.16076242923736572,44.575,1
+CASE001054,I do not know how I can set up my shipping address,E-commerce,E007,E007 | E004 | EV1004 | E008 | E009,1.0,1,1,1,1.0,0.5177972316741943,39.962,1
+CASE000791,I can't talk with a human agent,E-commerce,E012,E003 | E012 | EV1004 | E008 | E002,2.0,0,1,1,0.5,0.08791959285736084,36.351,1
+CASE000404,"For my business, can I get more information about this product?",Small Business,NONE_KNOWLEDGE_GAP,E030 | E034 | E025 | E035 | E033,,0,0,0,0.0,0.2595391869544983,41.662,0
+CASE000481,i call to check when my parcel is gonna arive,E-commerce,E004,E004 | E007 | E003 | E002 | E009,1.0,1,1,1,1.0,0.519557774066925,35.873,1
+CASE002361,what is your customer assistance number?,E-commerce,E012,E012 | E010 | E005 | E002 | E003,1.0,1,1,1,1.0,0.539307713508606,29.049,1
+CASE001481,"I can't sign up, I want help to inform of signup issues",E-commerce,E006,E007 | E012 | E004 | E006 | E008,4.0,0,0,1,0.25,0.21306639909744263,36.031,1
+CASE000624,want assistance notifying of problems with online payment,E-commerce,E005,E009 | E004 | E010 | E012 | E002,,0,0,0,0.0,0.4323049783706665,31.461,1
+CASE000397,chnge data on {{Account Type}} account,E-commerce,E006,E006 | E001 | E011 | E012 | EV1001,1.0,1,1,1,1.0,0.27017903327941895,33.178,1
+CASE002185,"I paid {{Currency Symbol}}{{Refund Amount}} for this item, want help to get a rebate",E-commerce,E002,E001 | E002 | E005 | EV1002 | EV1001,2.0,0,1,1,0.5,0.3619650602340698,46.905,1
+CASE000307,I have to look for the bills from {{Person Name}},E-commerce,E009,E009 | E012 | E001 | E008 | E002,1.0,1,1,1,1.0,0.408450722694397,40.186,1
+CASE000753,change to the {{Account Category}} account,E-commerce,E006,E006 | E008 | E007 | E001 | E012,1.0,1,1,1,1.0,0.34453678131103516,44.13,1
+CASE002506,could you mail me my goddamn invoices from {{Person Name}}?,E-commerce,E009,E009 | E012 | E010 | E007 | E003,1.0,1,1,1,1.0,0.5118865370750427,69.843,1
+CASE002890,I have troubles setting up a new shipping address,E-commerce,E007,E007 | E003 | E004 | E005 | E012,1.0,1,1,1,1.0,0.5524311065673828,30.683,1
+CASE002169,information about the removal of a {{Account Type}} account,E-commerce,E006,E006 | E004 | E008 | E012 | E005,1.0,1,1,1,1.0,0.41492748260498047,35.362,1
+CASE000342,"For my business, can I update my company information?",Small Business,E030,E030 | E035 | E025 | E033 | E032,1.0,1,1,1,1.0,0.5572736859321594,33.701,1
+CASE001472,show me at what time I can contact customer support,E-commerce,E012,E012 | E008 | E004 | EV1004 | E006,1.0,1,1,1,1.0,0.5383620262145996,33.347,1
+CASE003100,there is a trouble setting up a delivery address,E-commerce,E007,E007 | E003 | E004 | E005 | E012,1.0,1,1,1,1.0,0.46351003646850586,32.522,1
+CASE001664,where can i obtain a compensation of money,E-commerce,E002,E009 | E002 | E003 | E012 | E004,2.0,0,1,1,0.5,0.2064225673675537,31.924,1
+CASE002086,do ya deoiver to {{Delivery City}},E-commerce,E004,E004 | E007 | E003 | E008 | E012,1.0,1,1,1,1.0,0.269172728061676,41.801,1
+CASE000595,Can I cancel the business subscription?,Small Business,NONE_KNOWLEDGE_GAP,E028 | E030 | E035 | E025 | E026,,0,0,0,0.0,0.5914316773414612,31.143,0
+CASE003237,I want help to see order {{Order Number}} status,E-commerce,E004,E004 | E007 | E009 | E003 | E005,1.0,1,1,1,1.0,0.5002132654190063,38.923,1
+CASE001417,how do i create a premium account,E-commerce,E006,E006 | E001 | E008 | E009 | E003,1.0,1,1,1,1.0,0.2291538119316101,35.63,1
+CASE001552,i have lost my pwd could i reset it,E-commerce,E006,E003 | E006 | EV1004 | E007 | E010,2.0,0,1,1,0.5,0.0,40.182,1
+CASE000258,What is the minimum attendance required for my course?,Education,E013,E013 | EV1005 | EV1006 | E019 | E015,1.0,1,1,1,1.0,0.7189632058143616,34.237,1
+CASE002437,can you help me contact osmeone?,E-commerce,E012,E012 | E008 | E001 | E010 | EV1004,1.0,1,1,1,1.0,0.4149336814880371,41.006,1
+CASE001847,i have problems with a forgotten password,E-commerce,E006,E003 | E006 | E005 | E010 | E001,2.0,0,1,1,0.5,0.0,42.429,1
+CASE000134,How do I register for campus placements? Please help me.,Education,NONE_KNOWLEDGE_GAP,EV1005 | E024 | E013 | E019 | EV1006,,0,0,0,0.0,0.43309247493743896,42.052,0
+CASE000297,When is the scholarship application deadline?,Education,E021,E021 | E015 | E020 | E016 | EV1005,1.0,1,1,1,1.0,0.5639515519142151,34.469,1
+CASE000266,When is the last date to register for the exam? I need more information.,Education,E014,EV1008 | EV1007 | EV1005 | E020 | E014,5.0,0,0,1,0.2,0.6793538928031921,44.944,1
+CASE002889,where do I restore my user pass?,E-commerce,E006,E003 | E006 | E012 | EV1004 | E010,2.0,0,1,1,0.5,0.0,43.432,1
+CASE002949,changing purchase {{Order Number}},E-commerce,E012,E009 | E007 | E003 | E011 | E004,,0,0,0,0.0,0.4304523468017578,32.345,1
+CASE000243,help touse the {{Account Category}} profile,E-commerce,E006,E006 | E001 | E008 | E007 | E005,1.0,1,1,1,1.0,0.24092495441436768,41.9,1
+CASE001380,can you help me changing purchase {{Order Number}}?,E-commerce,E012,E004 | E003 | E009 | E011 | E007,,0,0,0,0.0,0.26950281858444214,39.414,1
+CASE000338,list ur payment modalities,E-commerce,NONE_KNOWLEDGE_GAP,E009 | E002 | EV1001 | E012 | E005,,0,0,0,0.0,0.41880548000335693,40.925,0
+CASE001904,i dont know how i can see my rebate current status,E-commerce,E002,E004 | E002 | E001 | E008 | EV1003,2.0,0,1,1,0.5,0.30604249238967896,39.504,1
+CASE001400,I need to see my goddamn invoices from last year,E-commerce,E009,E009 | E008 | E007 | E012 | E004,1.0,1,1,1,1.0,0.6090695858001709,35.721,1
+CASE001018,how can I find bill #00108?,E-commerce,E009,E009 | EV1004 | E008 | E002 | E004,1.0,1,1,1,1.0,0.451435387134552,31.851,1
+CASE001454,how can I find information about the shipping period?,E-commerce,E004,E004 | E007 | E008 | E009 | E002,1.0,1,1,1,1.0,0.48681342601776123,33.708,1
+CASE001724,i do not know how i can report an error with signup,E-commerce,E006,E006 | E010 | E003 | E012 | E007,1.0,1,1,1,1.0,0.37358689308166504,38.858,1
+CASE000152,How can I add another employee to the account? I need assistance.,Small Business,E030,E031 | E032 | E036 | E025 | E033,,0,0,0,0.0,0.35221046209335327,37.249,1
+CASE001473,what do I need to do to create a {{Account Type}} account?,E-commerce,E006,E006 | E012 | E008 | EV1003 | E001,1.0,1,1,1,1.0,0.2455899715423584,36.542,1
+CASE000650,help me see in what cases can I reuest my money back,E-commerce,E002,EV1004 | E002 | E012 | E005 | EV1001,2.0,0,1,1,0.5,0.4006292223930359,36.462,1
+CASE002733,i want help trying to edit my delivery address,E-commerce,E007,E007 | E012 | E009 | E004 | E008,1.0,1,1,1,1.0,0.601580023765564,35.454,1
+CASE001300,i want help sending some feedback about a product,E-commerce,NONE_KNOWLEDGE_GAP,E001 | E012 | E011 | EV1004 | E003,,0,0,0,0.0,0.19521260261535645,36.31,0
+CASE000236,where could I see when my delivery is going to arrive?,E-commerce,E004,E004 | E007 | E003 | E009 | E002,1.0,1,1,1,1.0,0.4858752489089966,33.271,1
+CASE002252,I try to acquire an article,E-commerce,NONE_KNOWLEDGE_GAP,E012 | E003 | EV1003 | E009 | E010,,0,0,0,0.0,0.17995357513427734,31.668,0
+CASE002964,I submitted a wrong shipping address,E-commerce,E007,E007 | E003 | E005 | E009 | E010,1.0,1,1,1,1.0,0.5834381580352783,32.498,1
+CASE000578,"For my business, i have a problem with my account.",Small Business,E030,E030 | E035 | E025 | E031 | E036,1.0,1,1,1,1.0,0.4074970483779907,36.529,1
+CASE002174,there are problems setting up a new delivery address,E-commerce,E007,E007 | E004 | E003 | E010 | E012,1.0,1,1,1,1.0,0.5528033971786499,35.625,1
+CASE002420,status of order,E-commerce,E004,E004 | E003 | E007 | E009 | E005,1.0,1,1,1,1.0,0.4559671878814697,31.2,1
+CASE000309,ya have a section to send a comment for ur services,E-commerce,NONE_KNOWLEDGE_GAP,E001 | E008 | E009 | E012 | E003,,0,0,0,0.0,0.19231879711151123,36.983,0
+CASE000384,want assistance receiving a refund of money,E-commerce,E002,EV1002 | E002 | EV1001 | E001 | E005,2.0,0,1,1,0.5,0.41411828994750977,34.716,1
+CASE002411,wat support trying to update my address,E-commerce,E007,E007 | E012 | E006 | E008 | E010,1.0,1,1,1,1.0,0.5155184268951416,33.731,1
+CASE003150,help removing several products from purchase {{Order Number}},E-commerce,E012,EV1004 | E003 | E001 | E009 | E011,,0,0,0,0.0,0.33563232421875,38.127,1
+CASE000239,i have a question about opening pro accounts,E-commerce,E006,E001 | E003 | E006 | E005 | E012,3.0,0,1,1,0.3333333333333333,0.24487793445587158,41.987,1
+CASE002245,I don't know how to check the early exit charge,E-commerce,E012,E004 | E008 | E005 | E009 | E003,,0,0,0,0.0,0.19343602657318115,39.767,1
+CASE002883,I'm waiting for an refund of {{Currency Symbol}}{{Refund Amount}},E-commerce,E002,EV1002 | E002 | EV1001 | E005 | E001,2.0,0,1,1,0.5,0.3866318464279175,44.731,1
+CASE002551,i have got to change the details on my user i need help,E-commerce,E006,E007 | E012 | E006 | E011 | EV1001,3.0,0,1,1,0.3333333333333333,0.2909884452819824,38.094,1
+CASE001271,what do I need to do to check your accepted payment methods?,E-commerce,NONE_KNOWLEDGE_GAP,E009 | E012 | E002 | E004 | E008,,0,0,0,0.0,0.46636033058166504,39.34,0
+CASE002283,I don't knowhow to cancel purchase {{Order Number}},E-commerce,E003,E003 | E009 | E011 | E007 | E008,1.0,1,1,1,1.0,0.5738794803619385,43.101,1
+CASE001875,I don't know what to do to remove the premium account,E-commerce,E006,E008 | E006 | E012 | E010 | E007,2.0,0,1,1,0.5,0.38881874084472656,37.628,1
+CASE000378,Can I get more information about this product?,Small Business,NONE_KNOWLEDGE_GAP,E034 | E030 | E025 | E027 | E036,,0,0,0,0.0,0.19551748037338257,34.212,0
+CASE002527,I am trying to see your accepted payment methods,E-commerce,NONE_KNOWLEDGE_GAP,E009 | E002 | EV1001 | E008 | E007,,0,0,0,0.0,0.4707527160644531,43.109,0
+CASE000339,can ya help me to change to the gold account,E-commerce,E006,E006 | E012 | E008 | E007 | E004,1.0,1,1,1,1.0,0.4587986469268799,39.811,1
+CASE001003,could I check at what time I can call customer service?,E-commerce,E012,E004 | E012 | E008 | E002 | EV1004,2.0,0,1,1,0.5,0.42487549781799316,45.682,1
+CASE003010,edit details on {{Account Category}} account,E-commerce,E006,E006 | E001 | E011 | E007 | EV1001,1.0,1,1,1,1.0,0.3558638095855713,35.372,1
+CASE001886,see purchase {{Order Number}} status,E-commerce,E004,E004 | E007 | E009 | E003 | E011,1.0,1,1,1,1.0,0.5686699748039246,56.644,1
+CASE001290,I want help canceling the {{Account Type}} account,E-commerce,E006,E006 | E008 | E001 | E010 | E003,1.0,1,1,1,1.0,0.2936124801635742,42.221,1
+CASE002730,wanna order a few of ur article,E-commerce,NONE_KNOWLEDGE_GAP,E003 | E009 | E004 | E007 | E006,,0,0,0,0.0,0.13963961601257324,29.476,0
+CASE000655,How do I renew a library book? I need more information.,Education,NONE_KNOWLEDGE_GAP,E016 | E021 | E020 | E023 | EV1007,,0,0,0,0.0,0.299515962600708,74.174,0
+CASE000855,there is a problem setting up my delivery address,E-commerce,E007,E007 | E003 | E004 | E005 | E012,1.0,1,1,1,1.0,0.48533642292022705,41.799,1
+CASE000474,where do I buy something?,E-commerce,NONE_KNOWLEDGE_GAP,E003 | E009 | E001 | EV1004 | E012,,0,0,0,0.0,0.0,29.564,0
+CASE003043,help seeing in what cases can i request refunds,E-commerce,E002,E002 | EV1002 | EV1004 | E008 | E012,1.0,1,1,1,1.0,0.5348300337791443,31.888,1
+CASE000111,I do not know how I candownload my bill #37777,E-commerce,E009,E007 | E010 | E009 | E003 | E012,3.0,0,1,1,0.3333333333333333,0.25853991508483887,34.646,1
+CASE002895,"I can't open an account, where do I report a signup issue?",E-commerce,E006,E006 | E010 | E003 | E012 | EV1004,1.0,1,1,1,1.0,0.5081896185874939,38.458,1
+CASE002622,can you help me receive your corporate newsletter?,E-commerce,E008,E008 | EV1004 | E004 | E012 | E001,1.0,1,1,1,1.0,0.25044775009155273,34.468,1
+CASE001831,can ya tell me about signing up to ur newsletter,E-commerce,E008,E008 | E004 | E012 | EV1004 | E002,1.0,1,1,1,1.0,0.23458778858184814,32.535,1
+CASE002493,I expect a rebate of {{Currency Symbol}}{{Refund Amount}},E-commerce,E002,EV1002 | E005 | E002 | EV1001 | E001,3.0,0,1,1,0.3333333333333333,0.36949336528778076,38.073,1
+CASE001240,I try to switch to the {{Account Category}} account,E-commerce,E006,E006 | E007 | E001 | E008 | E012,1.0,1,1,1,1.0,0.29348087310791016,37.911,1
+CASE002088,help to check what shipping options i have,E-commerce,E004,E007 | E004 | E009 | E008 | E012,2.0,0,1,1,0.5,0.445711612701416,34.188,1
+CASE002927,what do I need to do to restore my user account access key ?,E-commerce,E006,E006 | E012 | E008 | E007 | E010,1.0,1,1,1,1.0,0.3923894762992859,38.925,1
+CASE002234,i need help to chat with an human agent,E-commerce,E012,E010 | E012 | E003 | E004 | E008,2.0,0,1,1,0.5,0.1495458483695984,35.129,1
+CASE000985,help trying to modify the damn address,E-commerce,E007,E007 | E012 | E006 | E008 | E010,1.0,1,1,1,1.0,0.5043137669563293,34.737,1
+CASE002675,i have issues modifying the address,E-commerce,E007,E007 | E006 | E008 | E001 | E005,1.0,1,1,1,1.0,0.48273682594299316,33.997,1
+CASE002215,"I ain't registered, I want to create a pro account",E-commerce,E006,E006 | E001 | E012 | E003 | E005,1.0,1,1,1,1.0,0.363707959651947,38.748,1
+CASE002936,I awnt assistance to locate the bill #00108,E-commerce,E009,E012 | E007 | E008 | E009 | E010,4.0,0,0,1,0.25,0.27829891443252563,38.163,1
+CASE000145,"For my business, how do I upgrade our business plan?",Small Business,NONE_KNOWLEDGE_GAP,E030 | E035 | E025 | E033 | E029,,0,0,0,0.0,0.32741016149520874,38.051,0
+CASE001845,want assistance retrieving the password of my user,E-commerce,E006,E012 | E004 | E006 | E008 | E001,3.0,0,1,1,0.3333333333333333,0.2177494764328003,42.664,1
+CASE003034,is there an e-mail to submit feedback for your company?,E-commerce,NONE_KNOWLEDGE_GAP,E002 | E001 | E009 | E003 | E012,,0,0,0,0.0,0.2710009813308716,46.256,0
+CASE002339,"the payment failed, how to report an error with payment?",E-commerce,E005,E009 | E006 | E005 | E010 | EV1001,3.0,0,1,1,0.3333333333333333,0.4009014368057251,39.614,1
+CASE000518,where to check the restitution status?,E-commerce,E002,E004 | E007 | E012 | EV1003 | E003,,0,0,0,0.0,0.29696357250213623,35.28,1
+CASE002502,"I ain't registered, how to open a standard account with you?",E-commerce,E006,E006 | E003 | E012 | E005 | E010,1.0,1,1,1,1.0,0.41226696968078613,39.955,1
+CASE001350,help me reporting an issue wigh online payment,E-commerce,E005,E010 | E009 | E005 | E003 | E006,3.0,0,1,1,0.3333333333333333,0.4974900484085083,35.302,1
+CASE002537,assistance to see thd early termination fee,E-commerce,E012,E008 | E007 | E009 | E012 | E002,4.0,0,0,1,0.25,0.2772195339202881,37.883,1
+CASE003275,I can't notify of errors with a signup,E-commerce,E006,E004 | E010 | E006 | EV1004 | E007,3.0,0,1,1,0.3333333333333333,0.0,47.564,1
+CASE003270,assistance to leave some feedback about a service,E-commerce,NONE_KNOWLEDGE_GAP,E008 | E001 | E012 | E003 | E010,,0,0,0,0.0,0.288482666015625,37.381,0
+CASE001068,i have got to see how soon can i expect my delivery,E-commerce,E004,E004 | E002 | E007 | E003 | E008,1.0,1,1,1,1.0,0.3829871416091919,43.628,1
+CASE002099,I try to notify of issues with registrations,E-commerce,E006,E012 | E004 | E007 | E006 | E008,4.0,0,0,1,0.25,0.41290414333343506,41.934,1
+CASE000011,Where can I find upcoming placement drives? Please help me.,Education,NONE_KNOWLEDGE_GAP,E015 | E019 | EV1007 | EV1008 | E014,,0,0,0,0.0,0.3513522148132324,40.522,0
+CASE000077,Is attendance compulsory for this subject?,Education,E013,EV1005 | E013 | EV1006 | EV1008 | E014,2.0,0,1,1,0.5,0.7305000424385071,38.325,1
+CASE002628,I don't know what I need to do to chat with an operator,E-commerce,E012,E012 | E010 | E008 | E007 | E004,1.0,1,1,1,1.0,0.24756813049316406,35.089,1
+CASE002128,seeing reimbursement status,E-commerce,E002,E004 | E009 | E007 | E002 | E001,4.0,0,0,1,0.25,0.38967394828796387,29.824,1
+CASE000031,How can I download my marks card?,Education,E024,E016 | EV1008 | E024 | EV1007 | E022,3.0,0,1,1,0.3333333333333333,0.256583034992218,30.509,1
+CASE000813,can you help me leave an opinion foor a product?,E-commerce,NONE_KNOWLEDGE_GAP,E001 | EV1004 | E011 | E008 | E003,,0,0,0,0.0,0.29999107122421265,35.387,0
+CASE003080,modify {{Account Category}} account,E-commerce,E006,E006 | E001 | E007 | E008 | E012,1.0,1,1,1,1.0,0.3834318518638611,31.647,1
+CASE002167,"I want to earn some goddamn items, I need assistance",E-commerce,NONE_KNOWLEDGE_GAP,E001 | E012 | E009 | E008 | E007,,0,0,0,0.0,0.25762665271759033,32.822,0
+CASE001792,is it possible to receive reimbursements?,E-commerce,E002,E002 | E003 | E009 | EV1001 | E007,1.0,1,1,1,1.0,0.364801287651062,31.871,1
+CASE001754,i have to se ur available payment methods could ya help me,E-commerce,NONE_KNOWLEDGE_GAP,E002 | E009 | EV1001 | E008 | E007,,0,0,0,0.0,0.4064140319824219,37.914,0
+CASE001691,I have problems entering a different shipping address,E-commerce,E007,E007 | E003 | E005 | E004 | E009,1.0,1,1,1,1.0,0.5839084386825562,34.995,1
+CASE001707,can i call customer assistance,E-commerce,E012,E012 | E008 | E010 | EV1004 | E002,1.0,1,1,1,1.0,0.6366305351257324,32.266,1
+CASE001836,I have problems with cancelling purchase {{Order Number}},E-commerce,E003,E003 | E009 | E011 | E008 | E004,1.0,1,1,1,1.0,0.5272141098976135,36.697,1
+CASE001174,I have to see the current status of my reimbursement,E-commerce,E002,E004 | E009 | E008 | E002 | E007,4.0,0,0,1,0.25,0.0,41.695,1
+CASE001695,need assistance to find my fucking bill from {{Person Name}},E-commerce,E009,E012 | E008 | E009 | E007 | E010,3.0,0,1,1,0.3333333333333333,0.22359907627105713,38.225,1
+CASE003248,"I have paid {{Currency Symbol}}{{Refund Amount}} for a purchase, I want to get a refund",E-commerce,E002,E001 | EV1002 | E002 | E005 | EV1001,3.0,0,1,1,0.3333333333333333,0.33858412504196167,50.889,1
+CASE003323,help to check what methods for delivery i have,E-commerce,E004,E004 | E009 | E007 | E001 | E012,1.0,1,1,1,1.0,0.431584894657135,35.927,1
+CASE000469,I don't know how to inform of problems with a signup,E-commerce,E006,E007 | E004 | E012 | E006 | E003,4.0,0,0,1,0.25,0.28582489490509033,39.086,1
+CASE002312,need help seeing in what cases can I ask for a refund,E-commerce,E002,E001 | E002 | E005 | EV1004 | EV1002,2.0,0,1,1,0.5,0.4159749746322632,37.124,1
+CASE000087,Can I change the delivery address? Please help.,Small Business,NONE_KNOWLEDGE_GAP,E032 | E030 | EV1009 | E025 | E026,,0,0,0,0.0,0.2766457796096802,38.534,0
+CASE001717,I'm tryng to get the bill #00108,E-commerce,E009,E012 | E007 | E008 | E009 | E010,4.0,0,0,1,0.25,0.28278839588165283,38.01,1
+CASE002293,help me to reset my profile pwd,E-commerce,E006,E007 | E008 | E006 | E012 | E010,3.0,0,1,1,0.3333333333333333,0.1138310432434082,35.864,1
+CASE002749,how to see the cancellation penalty,E-commerce,E012,E008 | E002 | E003 | EV1001 | E012,5.0,0,0,1,0.2,0.4950897693634033,33.709,1
+CASE001382,tracking order {{Order Number}},E-commerce,E004,E004 | E003 | E009 | E005 | E007,1.0,1,1,1,1.0,0.42654526233673096,38.792,1
+CASE001121,I need hepl to report an error with online payment,E-commerce,E005,E010 | E006 | E009 | E003 | E002,,0,0,0,0.0,0.46077680587768555,43.877,1
+CASE002514,would it be possible to check the shipping methods?,E-commerce,E004,E004 | E007 | E003 | E009 | E012,1.0,1,1,1,1.0,0.5747730135917664,38.862,1
+CASE000065,Can I cancel the business subscription? as soon as possible.,Small Business,NONE_KNOWLEDGE_GAP,E028 | E030 | E025 | E035 | E027,,0,0,0,0.0,0.5915080904960632,43.447,0
+CASE002811,i have to see the invoice #00108,E-commerce,E009,E009 | E012 | E007 | E008 | E003,1.0,1,1,1,1.0,0.5802059173583984,38.007,1
+CASE000021,How can I check the status of my business order? as soon as possible.,Small Business,E028,E028 | E026 | E033 | E034 | EV1010,1.0,1,1,1,1.0,0.47001099586486816,48.495,1
+CASE002045,where can I make a consumer claim against your company?,E-commerce,E012,E001 | EV1004 | E008 | E003 | E009,,0,0,0,0.0,0.3575642704963684,45.628,1
+CASE001095,how to get bill #12588,E-commerce,E009,E012 | E008 | E009 | E007 | E010,3.0,0,1,1,0.3333333333333333,0.3613218665122986,38.034,1
+CASE002851,I'm trying to get th fucking invoices from {{Person Name}},E-commerce,E009,E009 | E012 | E008 | E007 | E010,1.0,1,1,1,1.0,0.5235689878463745,49.704,1
+CASE002611,can i set the shipping address up,E-commerce,E007,E007 | E004 | E008 | E003 | E012,1.0,1,1,1,1.0,0.6420407295227051,39.637,1
+CASE000806,problem with {{Account Category}} account cancellations,E-commerce,E006,E006 | E008 | E001 | E003 | E002,1.0,1,1,1,1.0,0.270296573638916,38.13,1
+CASE000376,What are the library opening hours? I need more information.,Education,NONE_KNOWLEDGE_GAP,E013 | E015 | E016 | E014 | E021,,0,0,0,0.0,0.3067030906677246,35.103,0
+CASE003320,i do not know how to check my refund current status,E-commerce,E002,E004 | EV1002 | E002 | E007 | E008,3.0,0,1,1,0.3333333333333333,0.3476351499557495,35.195,1
+CASE001546,updaing info on gold account,E-commerce,E006,E006 | E010 | E011 | EV1001 | E012,1.0,1,1,1,1.0,0.396098792552948,30.802,1
+CASE000176,"For my business, why has my invoice not been generated?",Small Business,E025,E025 | EV1009 | E026 | EV1010 | E035,1.0,1,1,1,1.0,0.4959055781364441,36.228,1
+CASE000340,where could I see what options for delivery I have?,E-commerce,E004,E004 | E009 | E003 | E012 | E007,1.0,1,1,1,1.0,0.41762858629226685,30.466,1
+CASE001273,could I set up a delivery address?,E-commerce,E007,E007 | E004 | E003 | E009 | E012,1.0,1,1,1,1.0,0.5152822136878967,31.201,1
+CASE000744,I need assistance editing my delivery address,E-commerce,E007,E007 | E009 | E004 | E012 | E003,1.0,1,1,1,1.0,0.6302174925804138,30.17,1
+CASE002389,updating data on {{Account Type}} account,E-commerce,E006,E006 | E007 | E011 | EV1001 | E008,1.0,1,1,1,1.0,0.34976649284362793,38.312,1
+CASE000520,where do I report an issue iwth sign-up?,E-commerce,E006,E006 | E010 | E003 | E012 | E007,1.0,1,1,1,1.0,0.42264682054519653,42.574,1
+CASE001434,how could I report problems with payment?,E-commerce,E005,E006 | E009 | E005 | E010 | E002,3.0,0,1,1,0.3333333333333333,0.410857617855072,34.356,1
+CASE001863,i dont know what to do to recover the pwd of my profile,E-commerce,E006,E012 | E007 | E006 | E008 | E004,3.0,0,1,1,0.3333333333333333,0.09547150135040283,38.945,1
+CASE003175,how to submit my feedback about your company?,E-commerce,NONE_KNOWLEDGE_GAP,E012 | E008 | E007 | E001 | E002,,0,0,0,0.0,0.2581815719604492,35.32,0
+CASE001515,I'd like to get the bill from {{Person Name}} how to od it,E-commerce,E009,E012 | E007 | E008 | E009 | E003,4.0,0,0,1,0.25,0.1858658790588379,41.147,1
+CASE000926,I don't know what I need to do to get the bill #85632,E-commerce,E009,E012 | E007 | E008 | E009 | E010,4.0,0,0,1,0.25,0.30311572551727295,41.979,1
+CASE001207,I want assistance seeing your available payment modalities,E-commerce,NONE_KNOWLEDGE_GAP,E002 | E009 | EV1001 | E012 | E005,,0,0,0,0.0,0.3718146085739136,36.621,0
+CASE001825,I want to check what hours I can contact customer support,E-commerce,E012,E012 | E004 | EV1002 | E008 | E002,1.0,1,1,1,1.0,0.48319894075393677,35.826,1
+CASE002113,help me seeing in what cases can I request reimbursements,E-commerce,E002,E012 | E001 | E002 | E008 | E009,3.0,0,1,1,0.3333333333333333,0.33821022510528564,40.26,1
+CASE002815,"I paid {{Currency Symbol}}{{Refund Amount}} for an item, help me receive my money back",E-commerce,E002,EV1002 | E002 | EV1001 | E001 | E009,2.0,0,1,1,0.5,0.4000958204269409,55.216,1
+CASE000200,problem with cancelling purchase {{Order Number}},E-commerce,E003,E003 | E009 | E011 | E008 | E004,1.0,1,1,1,1.0,0.5666077136993408,35.963,1
+CASE001853,open new {{Account Type}} account for daughter,E-commerce,E006,E006 | E001 | E009 | E012 | EV1003,1.0,1,1,1,1.0,0.2864811420440674,35.653,1
+CASE001573,I have problems with an address correction,E-commerce,E007,E007 | E010 | E003 | E006 | E009,1.0,1,1,1,1.0,0.46670103073120117,33.567,1
+CASE002594,how to see the withdrawal fee?,E-commerce,E012,E008 | E002 | E012 | E007 | E009,3.0,0,1,1,0.3333333333333333,0.264651894569397,33.343,1
+CASE000839,what do i need to do to speak with an assistant,E-commerce,E012,E012 | E010 | E008 | E007 | E009,1.0,1,1,1,1.0,0.17539775371551514,39.798,1
+CASE001940,there is a problem entering my secondary delivery address,E-commerce,E007,E007 | E003 | E005 | E010 | E009,1.0,1,1,1,1.0,0.46778130531311035,32.677,1
+CASE002218,i want assistance to solve issues with payment,E-commerce,E005,E009 | E002 | E005 | E012 | EV1001,3.0,0,1,1,0.3333333333333333,0.43448448181152344,34.024,1
+CASE001123,could you help me reset the PIN of my user profile?,E-commerce,E006,E012 | E004 | E006 | E008 | E001,3.0,0,1,1,0.3333333333333333,0.15821993350982666,36.792,1
+CASE002580,can you help me chat with a human agent?,E-commerce,E012,E004 | E012 | EV1004 | E008 | E002,2.0,0,1,1,0.5,0.12149608135223389,35.082,1
+CASE001114,is it possible to check invoice #37777,E-commerce,E009,E009 | E004 | E003 | E007 | E010,1.0,1,1,1,1.0,0.6300140023231506,48.702,1
+CASE001590,i dont know how to check what methods for delivery are there,E-commerce,E004,E004 | E009 | E007 | E012 | EV1002,1.0,1,1,1,1.0,0.47786945104599,47.744,1
+CASE002956,have a question abut canceling purchase {{Order Number}},E-commerce,E003,E003 | E005 | E009 | E008 | E011,1.0,1,1,1,1.0,0.5840234756469727,42.501,1
+CASE001374,can you help me to report a trouble with payments?,E-commerce,E005,E006 | E005 | E008 | E010 | E009,2.0,0,1,1,0.5,0.3966357111930847,44.007,1
+CASE002601,i need assistance to locate the bills from {{Person Name}},E-commerce,E009,E012 | E007 | E005 | E008 | E009,5.0,0,0,1,0.2,0.17726147174835205,40.594,1
+CASE003047,I am trying to speak with an operator,E-commerce,E012,E003 | E012 | E007 | E009 | E010,2.0,0,1,1,0.5,0.11198306083679199,37.65,1
+CASE003239,help using the standard account,E-commerce,E006,E006 | E008 | E004 | E012 | E010,1.0,1,1,1,1.0,0.41672372817993164,31.297,1
+CASE002296,what do i have to do to close the {{Account Type}} account,E-commerce,E006,E006 | E008 | E012 | E007 | E010,1.0,1,1,1,1.0,0.2722722887992859,37.023,1
+CASE003202,i dont know how to report signup issues,E-commerce,E006,E006 | E007 | E012 | E008 | E010,1.0,1,1,1,1.0,0.4153980016708374,34.554,1
+CASE000685,can you help me to check the methods for shipping?,E-commerce,E004,E004 | E007 | E008 | E003 | E009,1.0,1,1,1,1.0,0.520123302936554,32.852,1
+CASE002840,I need to know if there is anything new on the restitution,E-commerce,E002,E002 | E012 | E005 | E011 | EV1004,1.0,1,1,1,1.0,0.1571761965751648,34.022,1
+CASE001151,"For my business, what payment methods do you accept for business customers?",Small Business,E026,E033 | E025 | E035 | E030 | E026,5.0,0,0,1,0.2,0.5424064993858337,44.905,1
+CASE002382,can i place an oeder from {{Delivery City}},E-commerce,E004,E004 | E007 | E003 | EV1004 | E008,1.0,1,1,1,1.0,0.28264540433883667,40.868,1
+CASE000194,"For my business, i need to change an order I placed.",Small Business,E028,E032 | E025 | E028 | E030 | E033,3.0,0,1,1,0.3333333333333333,0.4277677536010742,37.062,1
+CASE000457,I do not know what to do to speak with an live agent,E-commerce,E012,E010 | E012 | E008 | E003 | E007,2.0,0,1,1,0.5,0.25242674350738525,46.049,1
+CASE002039,I don't know how I could see purchase {{Order Number}} status,E-commerce,E004,E004 | E007 | E009 | E011 | E003,1.0,1,1,1,1.0,0.5713897943496704,44.45,1
+CASE000105,Can you help me? my fee payment has failed. What should I do?,Education,E016,E016 | E017 | E022 | E015 | EV1008,1.0,1,1,1,1.0,0.4595370292663574,54.769,1
+CASE001447,"I would like to make a bloody complaint, could you help me?",E-commerce,E012,E005 | E012 | E003 | E006 | E010,2.0,0,1,1,0.5,0.16647040843963623,39.311,1
+CASE001490,help checking your accepted payment options,E-commerce,NONE_KNOWLEDGE_GAP,E009 | E002 | EV1001 | E005 | E010,,0,0,0,0.0,0.42319977283477783,40.337,0
+CASE001258,will umail me the bills from {{Person Name}},E-commerce,E009,E009 | E001 | E008 | E005 | E012,1.0,1,1,1,1.0,0.3324323892593384,41.539,1
+CASE001635,what do I have to do to cancel a premium account?,E-commerce,E006,E008 | E006 | E003 | E007 | E012,2.0,0,1,1,0.5,0.5821205973625183,42.278,1
+CASE001449,show me in which situations can i ask for refunds,E-commerce,E002,EV1002 | E002 | EV1004 | E008 | EV1001,2.0,0,1,1,0.5,0.5059655904769897,37.749,1
+CASE000667,Can I return part of a business order? Please help.,Small Business,E027,E028 | E033 | E027 | EV1010 | E034,3.0,0,1,1,0.3333333333333333,0.5065230131149292,33.574,1
+CASE000826,want assistance to see the shipping options,E-commerce,E004,E007 | E012 | E004 | E008 | E009,3.0,0,1,1,0.3333333333333333,0.41714656352996826,35.549,1
+CASE001232,i want assistance to locatr my bill #00108,E-commerce,E009,E012 | E007 | E008 | E009 | E010,4.0,0,0,1,0.25,0.3470189571380615,40.315,1
+CASE003259,can you help me create a different bloody platinum account?,E-commerce,E006,E006 | E008 | E012 | EV1004 | E002,1.0,1,1,1,1.0,0.32564759254455566,34.513,1
+CASE001361,is there a method to send some feedback for ur products,E-commerce,NONE_KNOWLEDGE_GAP,E001 | EV1004 | E012 | E002 | E003,,0,0,0,0.0,0.40610408782958984,39.291,0
+CASE001408,i need assistance to set up the new delivery address,E-commerce,E007,E007 | E004 | E012 | E009 | E003,1.0,1,1,1,1.0,0.5827940702438354,34.315,1
+CASE002122,I need help receiving refunds,E-commerce,E002,EV1002 | E002 | EV1001 | E001 | E005,2.0,0,1,1,0.5,0.5927377939224243,36.917,1
+CASE002707,how to check the early termination penalty?,E-commerce,E012,E008 | E004 | E002 | E003 | E012,5.0,0,0,1,0.2,0.3270551562309265,36.455,1
+CASE002962,want assistance opening a {{Account Category}} account for my dad,E-commerce,E006,E006 | E001 | E009 | E012 | E003,1.0,1,1,1,1.0,0.2996293902397156,37.806,1
+CASE002939,checking invoice from 4 purchases ago,E-commerce,E009,E009 | E005 | E010 | E001 | E004,1.0,1,1,1,1.0,0.6403971910476685,40.832,1
+CASE001545,I do not know how I could check the ETA of purchase {{Order Number}},E-commerce,E004,E004 | E009 | E011 | E003 | E005,1.0,1,1,1,1.0,0.4962804317474365,49.835,1
+CASE003030,show me purchase {{Order Number}} statud,E-commerce,E004,E009 | E004 | E003 | E011 | E001,2.0,0,1,1,0.5,0.4452921152114868,41.166,1
+CASE001654,I need help checking the biol #37777,E-commerce,E009,E004 | E012 | E009 | E008 | E001,3.0,0,1,1,0.3333333333333333,0.15882724523544312,38.826,1
+CASE000264,How do I update vendor information?,Small Business,NONE_KNOWLEDGE_GAP,E033 | E030 | E025 | E032 | E029,,0,0,0,0.0,0.5132894515991211,38.471,0
+CASE000809,i have got to locate purchase {{Order Number}} help me,E-commerce,E004,E007 | E009 | E004 | E011 | E003,3.0,0,1,1,0.3333333333333333,0.28595858812332153,43.277,1
+CASE001945,there is an issue trying to correct the address,E-commerce,E007,E007 | E010 | E003 | E006 | E002,1.0,1,1,1,1.0,0.46213454008102417,31.489,1
+CASE000246,file complaint against your business,E-commerce,E012,E010 | E006 | E009 | E012 | E005,4.0,0,0,1,0.25,0.373016893863678,30.957,1
+CASE001938,need help to make a complaint against your organization,E-commerce,E012,E008 | E012 | E003 | E005 | E006,2.0,0,1,1,0.5,0.17748230695724487,55.134,1
+CASE002055,I want help to see the fucking ETA of the order {{Order Number}},E-commerce,E004,E004 | E009 | E003 | E007 | E005,1.0,1,1,1,1.0,0.2450026273727417,39.825,1
+CASE002272,I want to correct purchase {{Order Number}},E-commerce,E012,E007 | E009 | E004 | E003 | E011,,0,0,0,0.0,0.36992090940475464,35.201,1
+CASE001733,I want information about the removal of my {{Account Type}} account,E-commerce,E006,E006 | E008 | E004 | E010 | E009,1.0,1,1,1,1.0,0.41803431510925293,38.084,1
+CASE002324,what do i have to do to get invoice #37777,E-commerce,E009,E009 | E012 | E007 | E008 | E010,1.0,1,1,1,1.0,0.6457604169845581,50.907,1
+CASE001623,Can you help me? my grade is missing from the student portal.,Education,E024,E022 | E016 | E018 | E021 | EV1005,,0,0,0,0.0,0.47504448890686035,43.538,1
+CASE000948,I cannot submit a secondary delivery address,E-commerce,E007,E007 | E003 | E004 | E009 | E012,1.0,1,1,1,1.0,0.4411735534667969,37.474,1
+CASE001618,want help to write a comment about a product,E-commerce,NONE_KNOWLEDGE_GAP,E001 | E011 | E003 | E005 | EV1004,,0,0,0,0.0,0.33016932010650635,36.144,0
+CASE000222,know if there is anything new on my restitution,E-commerce,E002,E005 | EV1004 | E001 | E011 | E006,,0,0,0,0.0,0.0,35.706,1
+CASE002867,how to see what shipping options I have?,E-commerce,E004,E007 | E004 | E008 | E009 | E012,2.0,0,1,1,0.5,0.382938027381897,34.011,1
+CASE001849,how to change order {{Order Number}}?,E-commerce,E012,E007 | E003 | E009 | E004 | E005,,0,0,0,0.0,0.29839539527893066,36.774,1
+CASE001035,hoe can i check the withdrawal penalties,E-commerce,E012,E002 | E004 | E010 | E008 | EV1001,,0,0,0,0.0,0.29667848348617554,34.068,1
+CASE000677,"I have got to notify of registration problems, help me",E-commerce,E006,E012 | E007 | E004 | E006 | E008,4.0,0,0,1,0.25,0.384480357170105,39.813,1
+CASE000737,"I have to edit the address, I need assistance",E-commerce,E007,E007 | E012 | E006 | E008 | E009,1.0,1,1,1,1.0,0.46545565128326416,43.559,1
+CASE000214,Can you help me? what is the minimum attendance required for my course?,Education,E013,E013 | EV1005 | E019 | EV1006 | E015,1.0,1,1,1,1.0,0.713316023349762,43.946,1
+CASE003148,supports editnig my delivery address,E-commerce,E007,E007 | E004 | E012 | E009 | E003,1.0,1,1,1,1.0,0.6561414003372192,36.331,1
+CASE003169,assistance to order some of ur item,E-commerce,NONE_KNOWLEDGE_GAP,E004 | E001 | E009 | E007 | E012,,0,0,0,0.0,0.263810396194458,33.357,0
+CASE001353,I want help receiving the corporate newsletter,E-commerce,E008,E012 | E008 | E004 | E001 | E005,2.0,0,1,1,0.5,0.4259577989578247,36.995,1
+CASE002965,need assistance submitting some feedback about ur company,E-commerce,NONE_KNOWLEDGE_GAP,E001 | E012 | E010 | E006 | E009,,0,0,0,0.0,0.1902066469192505,35.866,0
+CASE001564,I need help to check purchase {{Order Number}} current status,E-commerce,E004,E004 | E007 | E009 | E008 | E011,1.0,1,1,1,1.0,0.5796666145324707,41.419,1
+CASE002188,can you give me information about receiving your newsletter?,E-commerce,E008,E004 | E008 | E009 | E012 | EV1004,2.0,0,1,1,0.5,0.27671027183532715,35.198,1
+CASE002187,can you help me to see your accepted payment modalities?,E-commerce,NONE_KNOWLEDGE_GAP,E002 | E009 | EV1001 | E008 | EV1004,,0,0,0,0.0,0.4155353307723999,37.297,0
+CASE002000,where can I see the early termination charge?,E-commerce,E012,E008 | E002 | E003 | E004 | E009,,0,0,0,0.0,0.2838953733444214,35.682,1
+CASE003071,"I need to edit my goddamn user, could I get some help?",E-commerce,E006,E012 | E007 | E001 | E006 | E008,4.0,0,0,1,0.25,0.19203966856002808,46.412,1
+CASE001283,I need to see purchase {{Order Number}} current status,E-commerce,E004,E004 | E007 | E009 | E008 | E011,1.0,1,1,1,1.0,0.557659387588501,50.272,1
+CASE000964,where to file a customer reclamation against your company ?,E-commerce,E012,E012 | E001 | E010 | E003 | E009,1.0,1,1,1,1.0,0.3089839816093445,40.626,1
+CASE000497,what do I have to do to list the allowed payment methods?,E-commerce,NONE_KNOWLEDGE_GAP,E009 | E012 | E008 | E002 | E007,,0,0,0,0.0,0.38266807794570923,40.423,0
+CASE001483,"I can no longer afford order {{Order Number}}, cancel it",E-commerce,E003,E003 | E009 | E004 | E008 | E007,1.0,1,1,1,1.0,0.5673936009407043,44.238,1
+CASE000131,do you have a method to submit a comment for your company?,E-commerce,NONE_KNOWLEDGE_GAP,E001 | E003 | E009 | E012 | E005,,0,0,0,0.0,0.22666621208190918,38.981,0
+CASE001097,I try to chat with an operator,E-commerce,E012,E010 | E012 | E003 | E004 | E008,2.0,0,1,1,0.5,0.188463032245636,32.306,1
+CASE000675,What are the library opening hours?,Education,NONE_KNOWLEDGE_GAP,E013 | E015 | E016 | E014 | EV1005,,0,0,0,0.0,0.2982296943664551,31.297,0
+CASE002864,need to modify my personal data can uhelp me,E-commerce,E006,E007 | E012 | E006 | E008 | EV1004,3.0,0,1,1,0.3333333333333333,0.2557353377342224,32.915,1
+CASE000674,how long till I obtain a refund of money?,E-commerce,E002,EV1002 | E005 | E002 | E003 | E009,3.0,0,1,1,0.3333333333333333,0.6874005794525146,36.853,1
+CASE001494,"I cannot make a payment, I need help notifying of errors",E-commerce,E005,E009 | E005 | E012 | E004 | E010,2.0,0,1,1,0.5,0.32788002490997314,36.219,1
+CASE001627,how could i change to the {{Account Type}} account,E-commerce,E006,E006 | E007 | E012 | E008 | E010,1.0,1,1,1,1.0,0.31160783767700195,35.281,1
+CASE001276,need assistance to obtain a refund of my money,E-commerce,E002,EV1002 | E005 | E009 | E002 | E004,4.0,0,0,1,0.25,0.42624419927597046,30.541,1
+CASE000281,Can I change my elective after course registration?,Education,E019,E019 | EV1007 | EV1008 | E015 | E020,1.0,1,1,1,1.0,0.49355006217956543,32.33,1
+CASE001118,"For my business, the payment was deducted but the order is still unpaid.",Small Business,E026,E026 | E028 | EV1009 | E033 | EV1010,1.0,1,1,1,1.0,0.6083285212516785,36.063,1
+CASE000619,where do I reset my user account key?,E-commerce,E006,E006 | E003 | E010 | E012 | E008,1.0,1,1,1,1.0,0.33100295066833496,30.499,1
+CASE000811,i have got to buy several articles,E-commerce,NONE_KNOWLEDGE_GAP,E008 | E009 | E001 | E007 | E012,,0,0,0,0.0,0.1199343204498291,30.145,0
+CASE000712,What features are included in the business subscription? I need assistance.,Small Business,NONE_KNOWLEDGE_GAP,E035 | E030 | E025 | E033 | E027,,0,0,0,0.0,0.40108436346054077,33.067,0
+CASE002572,I have got to check if there are any news on the restitution,E-commerce,E002,EV1004 | E007 | E002 | EV1001 | E006,3.0,0,1,1,0.3333333333333333,0.21521854400634766,37.297,1
+CASE001067,trouble modifying delivery address,E-commerce,E007,E007 | E003 | E004 | E009 | E006,1.0,1,1,1,1.0,0.6612828969955444,29.338,1
+CASE001794,need assistance to make a consumer claim against ur business,E-commerce,E012,E001 | E003 | E009 | E005 | E012,5.0,0,0,1,0.2,0.39595574140548706,33.203,1
+CASE001046,i dont khow what i need to do to change to the gold account,E-commerce,E006,E006 | E007 | E012 | E008 | E010,1.0,1,1,1,1.0,0.46370571851730347,36.078,1
+CASE002914,I need to retrieve the pass of my user account,E-commerce,E006,E006 | E012 | E004 | E009 | E008,1.0,1,1,1,1.0,0.37338966131210327,32.969,1
+CASE001030,update standard account,E-commerce,E006,E006 | E007 | E012 | E008 | E010,1.0,1,1,1,1.0,0.4841982126235962,31.657,1
+CASE000554,show me ur reimbursement policy,E-commerce,E002,E008 | E009 | E010 | E001 | E002,5.0,0,0,1,0.2,0.2871399521827698,34.401,1
+CASE000225,do you have a way to submit a review for your services ?,E-commerce,NONE_KNOWLEDGE_GAP,E001 | E009 | E005 | E008 | E012,,0,0,0,0.0,0.26622211933135986,36.624,0
+CASE002591,how can i notify of errors with a sign-up,E-commerce,E006,E004 | E010 | E006 | E012 | EV1004,3.0,0,1,1,0.3333333333333333,0.24168241024017334,38.615,1
+CASE002131,how can I purchase several of your article?,E-commerce,NONE_KNOWLEDGE_GAP,EV1004 | E008 | E004 | E009 | E011,,0,0,0,0.0,0.23521316051483154,35.31,0
+CASE001655,watn assistance recovering my account pass,E-commerce,E006,E006 | E010 | E012 | E005,1.0,1,1,1,1.0,0.4057730436325073,36.932,1
+CASE001080,see bill from {{Person Name}},E-commerce,E009,E009 | E012 | E006 | E010 | E005,1.0,1,1,1,1.0,0.325558066368103,34.835,1
+CASE001586,"I need to check what delivery options I have, help me",E-commerce,E004,E004 | E007 | E012 | E008 | E009,1.0,1,1,1,1.0,0.5142666101455688,37.861,1
+CASE001908,where to report issues with online payments,E-commerce,E005,E006 | E012 | E010 | E003 | E008,,0,0,0,0.0,0.4009968042373657,34.317,1
+CASE000380,help me see your allowed payment modalities,E-commerce,NONE_KNOWLEDGE_GAP,E002 | E009 | EV1001 | E012 | E005,,0,0,0,0.0,0.33197832107543945,39.184,0
+CASE002349,I want help to switch something of order {{Order Number}},E-commerce,E012,E007 | E003 | E009 | E004 | E005,,0,0,0,0.0,0.2387068271636963,39.303,1
+CASE000098,I need help with a business order. Please help.,Small Business,E030,E028 | E033 | E035 | E025 | E034,,0,0,0,0.0,0.43389177322387695,39.859,1
+CASE001093,need assistance cancelinv purchase {{Order Number}},E-commerce,E003,E003 | E009 | E011 | E008 | E004,1.0,1,1,1,1.0,0.5103603005409241,47.689,1
+CASE002528,what do i need to do to reportt registration errors,E-commerce,E006,E007 | E012 | E006 | E008 | E010,3.0,0,1,1,0.3333333333333333,0.32049059867858887,41.742,1
+CASE002653,I want help checking the restitution current status,E-commerce,E002,E004 | E007 | E008 | EV1003 | E012,,0,0,0,0.0,0.385677695274353,45.064,1
+CASE001785,how do i sign up to thhe corporate newsletter,E-commerce,E008,E008 | E012 | E007 | E006 | E001,1.0,1,1,1,1.0,0.24494028091430664,44.676,1
+CASE000612,"I cannot open an account, help to inform of signup issues",E-commerce,E006,E006 | E010 | E004 | E003 | E012,1.0,1,1,1,1.0,0.4420773386955261,43.744,1
+CASE000079,Has the exam date for my subject changed?,Education,E014,EV1007 | EV1008 | E020 | E015 | EV1006,,0,0,0,0.0,0.45148080587387085,35.803,1
+CASE002659,i cannot see if there is anything new on my refund,E-commerce,E002,E002 | EV1001 | EV1002 | E005 | E001,1.0,1,1,1,1.0,0.4755864143371582,32.626,1
+CASE000449,What is the minimum attendance required for my course? Please help me.,Education,E013,E013 | EV1005 | EV1006 | E019 | E015,1.0,1,1,1,1.0,0.7056928873062134,33.7,1
+CASE002799,where can I see when my package is going to arrive?,E-commerce,E004,E004 | E003 | E008 | E009 | E002,1.0,1,1,1,1.0,0.5122368931770325,36.315,1
+CASE000287,"For my business, how can I pay for my business order?",Small Business,E026,E035 | E033 | E025 | E030 | E026,5.0,0,0,1,0.2,0.4272300601005554,36.697,1
+CASE002523,I do not know how I can restore the apss of my user profile,E-commerce,E006,EV1004 | E007 | E004 | E006 | E008,4.0,0,0,1,0.25,0.15293163061141968,34.959,1
+CASE000692,help me see under what circumstances can I request a refund,E-commerce,E002,E002 | E001 | E005 | EV1002 | EV1004,1.0,1,1,1,1.0,0.5145668983459473,31.856,1
+CASE001427,I have to check in which cases can I ask to be reimbursed,E-commerce,E002,E012 | E009 | E004 | EV1001 | E005,,0,0,0,0.0,0.41608524322509766,39.434,1
+CASE001357,"I need to see how soon can I expect the order, help me",E-commerce,E004,E004 | E002 | E003 | E008 | E007,1.0,1,1,1,1.0,0.34204530715942383,41.32,1
+CASE000306,I have got to inform of an issue with online payments,E-commerce,E005,E010 | E004 | E003 | E009 | E012,,0,0,0,0.0,0.4854145050048828,35.906,1
+CASE002232,wanna know more about the shipping periods,E-commerce,E004,E007 | E004 | E008 | E005 | E002,2.0,0,1,1,0.5,0.33843129873275757,35.587,1
+CASE002518,"I have got to change to the freemium account, help me",E-commerce,E006,E006 | E008 | E007 | E012 | E010,1.0,1,1,1,1.0,0.3940314054489136,39.938,1
+CASE001162,I want assistance doing a purchase,E-commerce,NONE_KNOWLEDGE_GAP,E001 | E011 | E012 | E003 | E009,,0,0,0,0.0,0.38466471433639526,32.609,0
+CASE002941,"I cannot find the termination penalty, can I get some help?",E-commerce,E012,E008 | E001 | E003 | E004 | E002,,0,0,0,0.0,0.2827990651130676,36.756,1
+CASE000905,Why has my invoice not been generated? Please help.,Small Business,E025,E025 | EV1009 | EV1010 | E026 | E033,1.0,1,1,1,1.0,0.42697250843048096,39.286,1
+CASE002655,i have to inform of a payment issue,E-commerce,E005,E005 | E009 | E002 | E004 | E010,1.0,1,1,1,1.0,0.3520073890686035,35.392,1
+CASE000095,Can you help me? there is an error in my academic record.,Education,E024,E018 | EV1008 | E021 | E016 | E023,,0,0,0,0.0,0.45194387435913086,39.326,1
+CASE000332,I need to change an order I placed. I need assistance.,Small Business,E028,E032 | E034 | E025 | E028 | E026,4.0,0,0,1,0.25,0.379294753074646,37.94,1
+CASE001914,question about canceling a bloody purchase,E-commerce,E003,E003 | E005 | E008 | E011 | E001,1.0,1,1,1,1.0,0.5560088753700256,33.284,1
+CASE001887,help me seeing purchase {{Order Number}} status,E-commerce,E004,E004 | E007 | E009 | E003 | E011,1.0,1,1,1,1.0,0.5580310821533203,37.285,1
+CASE002023,how to use the standard profile,E-commerce,E006,E012 | E001 | E007 | E006 | E008,4.0,0,0,1,0.25,0.09581649303436279,32.871,1
+CASE003058,"I paid {{Currency Symbol}}{{Refund Amount}} for these articles, I have to obtain a rebate",E-commerce,E002,E009 | E001 | E005 | E002 | EV1002,4.0,0,0,1,0.25,0.36184656620025635,49.52,1
+CASE001044,where can I see if there is anything new on the restitution?,E-commerce,E002,E005 | EV1004 | E003 | E012 | E002,5.0,0,0,1,0.2,0.0,41.946,1
+CASE000867,could you tell me more about opening platinum accounts?,E-commerce,E006,E005 | E006 | E012 | E010 | E001,2.0,0,1,1,0.5,0.0,35.844,1
+CASE002870,I don't know what todo to purchase something,E-commerce,NONE_KNOWLEDGE_GAP,E001 | E011 | E008 | E009 | E007,,0,0,0,0.0,0.27690041065216064,37.353,0
+CASE003068,add article to order {{Order Number}},E-commerce,E012,E003 | E007 | E009 | E005 | E004,,0,0,0,0.0,0.2530241012573242,41.487,1
+CASE000293,creating new {{Account Type}} account,E-commerce,E006,E006 | E012 | EV1003 | E010 | E001,1.0,1,1,1,1.0,0.3205499053001404,35.955,1
+CASE000861,how do I acquire some articles?,E-commerce,NONE_KNOWLEDGE_GAP,E001 | E009 | E012 | EV1003 | E004,,0,0,0,0.0,0.09793150424957275,39.66,0
+CASE000755,I want assistance to see the payment methods,E-commerce,NONE_KNOWLEDGE_GAP,E009 | E002 | EV1001 | E012 | E008,,0,0,0,0.0,0.4810752868652344,51.015,0
+CASE002937,I am trying to check the accepted payment modalities,E-commerce,NONE_KNOWLEDGE_GAP,E009 | EV1001 | E002 | E012 | E004,,0,0,0,0.0,0.4686930179595947,35.854,0
+CASE001579,What is your return policy?,Small Business,E027,E027 | E026 | E029 | E030 | E025,1.0,1,1,1,1.0,0.5051965713500977,31.985,1
+CASE002371,help checking the status of purchase {{Order Number}},E-commerce,E004,E004 | E007 | E009 | E005 | E011,1.0,1,1,1,1.0,0.5640823245048523,46.559,1
+CASE002024,I want to check when my item is going to arrive,E-commerce,E004,E004 | E007 | E003 | E009 | E008,1.0,1,1,1,1.0,0.5979819297790527,40.313,1
+CASE002637,I cannot receive the fucking newsletter,E-commerce,E008,E012 | E008 | E004 | E001 | E006,2.0,0,1,1,0.5,0.3448900580406189,35.104,1
+CASE002031,where to know if there is anything new on the rebate,E-commerce,E002,E005 | E002 | EV1001 | E001 | E003,2.0,0,1,1,0.5,0.29397857189178467,37.586,1
+CASE003082,"I have to see the ETA of the order {{Order Number}}, how to do it?",E-commerce,E004,E004 | E009 | E003 | E007 | E005,1.0,1,1,1,1.0,0.24762868881225586,45.347,1
+CASE000321,can ya help me to request a refund of my money,E-commerce,E002,E001 | E002 | E005 | EV1004 | E008,2.0,0,1,1,0.5,0.3737146854400635,37.523,1
+CASE002123,open a gold account,E-commerce,E006,E006 | E001 | E003 | E010 | E005,1.0,1,1,1,1.0,0.3570603132247925,32.336,1
+CASE002237,is there a way to submit a comment for your services?,E-commerce,NONE_KNOWLEDGE_GAP,E001 | E003 | E009 | E012 | E005,,0,0,0,0.0,0.21674907207489014,41.626,0
+CASE000220,Can I edit my exam registration after submitting it? Please help me.,Education,E014,EV1007 | EV1008 | E019 | E020 | E015,,0,0,0,0.0,0.6294012069702148,39.52,1
+CASE002971,i want help notifying of a problem with online payments,E-commerce,E005,E004 | E010 | E009 | E003 | E005,5.0,0,0,1,0.2,0.0,38.696,1
+CASE002960,"I cannot find my invoice #12588, will you mail it to me?",E-commerce,E009,E009 | E007 | E003 | E012 | E008,1.0,1,1,1,1.0,0.5858908295631409,40.868,1
+CASE001500,can I check what hours customer service available is?,E-commerce,E012,E004 | E008 | EV1002 | E012 | E002,4.0,0,0,1,0.25,0.37473630905151367,35.781,1
+CASE002375,could you help me enter the secondary delivery address?,E-commerce,E007,E007 | E004 | E009 | E003 | E012,1.0,1,1,1,1.0,0.46804487705230713,41.99,1
+CASE000529,"I have to list your allowed payment options, how do I do it?",E-commerce,NONE_KNOWLEDGE_GAP,E009 | E008 | E002 | E003 | E012,,0,0,0,0.0,0.3399868607521057,46.649,0
+CASE000104,i need help with cancelling order {{Order Number}},E-commerce,E003,E003 | E009 | E005 | E008 | E004,1.0,1,1,1,1.0,0.5735573768615723,36.824,1
+CASE002261,how could I get in touch with customer support?,E-commerce,E012,E012 | E010 | E009 | E006 | E005,1.0,1,1,1,1.0,0.7232668399810791,37.487,1
+CASE000075,Is this product available in bulk quantities? Please help.,Small Business,NONE_KNOWLEDGE_GAP,E034 | E028 | E029 | E027 | E033,,0,0,0,0.0,0.1757258176803589,37.207,0
+CASE000352,where can i get information about opening pro accounts,E-commerce,E006,E004 | E006 | E003 | E012 | EV1004,2.0,0,1,1,0.5,0.0,37.708,1
+CASE002015,"I have to list the payment options, I need assistance",E-commerce,NONE_KNOWLEDGE_GAP,E009 | E008 | EV1001 | E002 | E012,,0,0,0,0.0,0.42261213064193726,37.154,0
+CASE000940,i missed several items in purchase {{Order Number}},E-commerce,E012,E001 | E003 | E009 | E004 | E011,,0,0,0,0.0,0.2962339520454407,35.975,1
+CASE002498,i want help talkingh to a live agent,E-commerce,E012,E008 | E012 | E003 | E005 | E001,2.0,0,1,1,0.5,0.19790244102478027,37.912,1
+CASE001713,create {{Account Category}} accountfor wife,E-commerce,E006,E006 | E001 | EV1003 | E010 | E009,1.0,1,1,1,1.0,0.1719961166381836,38.48,1
+CASE000148,how could I edit my goddamn account?,E-commerce,E006,E006 | E012 | E010 | E007,1.0,1,1,1,1.0,0.39091503620147705,34.441,1
+CASE003315,"I have to check the status of my compensation, I need help",E-commerce,E002,E012 | E007 | E004 | E009 | EV1003,,0,0,0,0.0,0.3531340956687927,44.417,1
+CASE000733,need assistance to cancel order {{Order Number}},E-commerce,E003,E003 | E009 | E005 | E007 | E008,1.0,1,1,1,1.0,0.6157430410385132,99.048,1
+CASE001463,i do not know what to do to rerquest a compensation of money,E-commerce,E002,E005 | E002 | E007 | E003 | EV1001,2.0,0,1,1,0.5,0.29628318548202515,50.808,1
+CASE001946,I have got to subscribe to the fucking newsletter,E-commerce,E008,E008 | E012 | E006 | E007 | E003,1.0,1,1,1,1.0,0.23065483570098877,34.993,1
+CASE001098,I don't know what I need to do to get the bill #12588,E-commerce,E009,E012 | E007 | E008 | E009 | E001,4.0,0,0,1,0.25,0.3093975782394409,42.155,1
+CASE002338,can ya tell me about an address correction,E-commerce,E007,E007 | E010 | E006 | EV1004 | E008,1.0,1,1,1,1.0,0.5832351446151733,36.793,1
+CASE003240,I would like to change to the goddamn {{Account Type}} account,E-commerce,E006,E006 | E007 | E008 | E012 | E010,1.0,1,1,1,1.0,0.3709601163864136,38.18,1
+CASE000004,My delivery is delayed.,Small Business,NONE_KNOWLEDGE_GAP,E028 | E026 | E034 | E025 | EV1009,,0,0,0,0.0,0.3457490801811218,31.236,0
+CASE003000,I can't remove some articles from purchase {{Order Number}},E-commerce,E012,E003 | E008 | EV1004 | E004 | E001,,0,0,0,0.0,0.3216574192047119,38.223,1
+CASE001055,I do not know how to submit some feedback,E-commerce,NONE_KNOWLEDGE_GAP,E001 | E010 | E008 | E012 | E007,,0,0,0,0.0,0.15452498197555542,33.886,0
+CASE002257,i do not know how to file a customer complaint,E-commerce,E012,E010 | E005 | E012 | E003 | E006,3.0,0,1,1,0.3333333333333333,0.3610897660255432,30.911,1
+CASE000936,help me contact customer assistance,E-commerce,E012,E012 | E010 | E006 | E005 | E009,1.0,1,1,1,1.0,0.6208993792533875,31.412,1
+CASE000439,When is the deadline for paying my fees? I need more information.,Education,E016,E016 | E015 | EV1008 | EV1006 | E017,1.0,1,1,1,1.0,0.6108449697494507,35.868,1
+CASE000800,updateorder {{Order Number}},E-commerce,E012,E003 | E009 | E007 | E004 | E005,,0,0,0,0.0,0.3082771301269531,33.003,1
+CASE002242,wanna edit the data included on my user profile can uhelp me,E-commerce,E006,E008 | E006 | E011 | EV1001 | E007,2.0,0,1,1,0.5,0.08269274234771729,35.29,1
+CASE002173,help making a consumer claim against your organization,E-commerce,E012,E001 | E003 | E009 | E005 | E012,5.0,0,0,1,0.2,0.32891374826431274,32.2,1
+CASE002214,i want assistance to speak to an agentt,E-commerce,E012,E012 | E010 | E008 | E007 | E009,1.0,1,1,1,1.0,0.37902379035949707,32.448,1
+CASE001690,can uhelp me changing to the standard account,E-commerce,E006,E006 | E008 | E007 | E004 | E012,1.0,1,1,1,1.0,0.5835942029953003,38.396,1
+CASE003332,how do I get compensations?,E-commerce,E002,E012 | E009 | EV1002 | E002 | E008,4.0,0,0,1,0.25,0.340431809425354,31.876,1
+CASE000435,I try to modify my address,E-commerce,E007,E007 | E012 | E006 | E008 | E010,1.0,1,1,1,1.0,0.49055349826812744,30.798,1

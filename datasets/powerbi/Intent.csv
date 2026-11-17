@@ -1,0 +1,48 @@
+Intent,Count,Percentage
+get_invoice,128,3.83
+review,122,3.65
+set_up_shipping_address,121,3.62
+change_shipping_address,117,3.5
+create_account,115,3.44
+contact_human_agent,114,3.41
+payment_issue,112,3.35
+contact_customer_service,112,3.35
+check_payment_methods,112,3.35
+registration_problems,110,3.29
+track_refund,110,3.29
+recover_password,110,3.29
+delivery_options,109,3.26
+place_order,109,3.26
+track_order,107,3.2
+check_refund_policy,107,3.2
+delivery_period,106,3.17
+complaint,104,3.11
+check_cancellation_fee,103,3.08
+check_invoice,102,3.05
+get_refund,100,2.99
+change_order,98,2.94
+edit_account,94,2.82
+delete_account,90,2.7
+cancel_order,89,2.67
+switch_account,85,2.55
+newsletter_subscription,84,2.52
+Invoice Inquiry,25,0.75
+Product Information,25,0.75
+Delivery Inquiry,25,0.75
+Return and Refund,25,0.75
+Business Payment,25,0.75
+Vendor Support,25,0.75
+Order Management,25,0.75
+Account Management,25,0.75
+Subscription Management,25,0.75
+Customer Support,25,0.75
+Fees and Payment,24,0.72
+Exam Schedule,23,0.69
+Student ID,23,0.69
+Academic Records,23,0.69
+Course Registration,23,0.69
+Attendance Policy,22,0.66
+Exam Registration,21,0.63
+Library,20,0.6
+Scholarship,20,0.6
+Placement Support,20,0.6

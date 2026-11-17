@@ -6,7 +6,9 @@ import os
 import pytest
 import pandas as pd
 
-PROCESSED_DIR = os.path.join("data", "processed")
+from pathlib import Path
+_cand_proc = Path(__file__).resolve().parents[1] / "datasets" / "processed"
+PROCESSED_DIR = str(_cand_proc) if _cand_proc.exists() else os.path.join("data", "processed")
 
 def test_rag_documents_integrity():
     p = os.path.join(PROCESSED_DIR, "rag", "documents.csv")
@@ -26,11 +28,11 @@ def test_rag_documents_integrity():
 
 def test_rag_conflict_pairs_preserved():
     df = pd.read_csv(os.path.join(PROCESSED_DIR, "rag", "documents.csv"))
-
+    
     # 5 intentionally outdated conflict documents must be present
     outdated = df[df['Freshness_Status'] == 'Outdated']
     assert len(outdated) == 5, f"Expected 5 outdated documents for conflict testing, got {len(outdated)}"
-
+    
     expected_outdated_ids = {'EV1002', 'EV1004', 'EV1006', 'EV1008', 'EV1010'}
     assert set(outdated['Document_ID']) == expected_outdated_ids, "Outdated conflict test documents altered or missing"
 

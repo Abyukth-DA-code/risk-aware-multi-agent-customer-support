@@ -1,0 +1,1500 @@
+Case_ID,Query,Domain,Sentiment,Data_Origin
+CASE002132,"the experience with you was awful, file a customer complaint",E-commerce,Negative,PUBLIC_SOURCE
+CASE001647,I cannot set up my delivery address,E-commerce,Negative,PUBLIC_SOURCE
+CASE001681,help me solve payment problems,E-commerce,Negative,PUBLIC_SOURCE
+CASE000056,My delivery is delayed. Please help.,Small Business,Negative,SYNTHETIC
+CASE000954,"I do not understand you, direct to me a human agent",E-commerce,Negative,PUBLIC_SOURCE
+CASE002152,I'm trying to notify of errors with online payments,E-commerce,Negative,PUBLIC_SOURCE
+CASE001833,I have to check in which cases can I request a refund,E-commerce,Negative,PUBLIC_SOURCE
+CASE002511,i cannot check if there are any news on the compensation,E-commerce,Negative,PUBLIC_SOURCE
+CASE002614,help me check in what cases can I ask to be refunded,E-commerce,Negative,PUBLIC_SOURCE
+CASE002306,what do I have to do to report a problem with sign-up?,E-commerce,Negative,PUBLIC_SOURCE
+CASE002683,i cant make payments notify of issujes,E-commerce,Negative,PUBLIC_SOURCE
+CASE002531,i have go to notify of a problem with a signup,E-commerce,Negative,PUBLIC_SOURCE
+CASE001363,I have an issue trying to correct my delivery address,E-commerce,Negative,PUBLIC_SOURCE
+CASE000833,I cannot switch to the {{Account Type}} account,E-commerce,Negative,PUBLIC_SOURCE
+CASE000286,Can you help me? i cannot access the online library resources.,Education,Negative,SYNTHETIC
+CASE003326,I do not know what to do to remove my standard account,E-commerce,Negative,PUBLIC_SOURCE
+CASE000960,i have to inform of problems with signup can i get some help,E-commerce,Negative,PUBLIC_SOURCE
+CASE003009,I have issues updating the address,E-commerce,Negative,PUBLIC_SOURCE
+CASE001147,I want help to inform of a sign-up problem,E-commerce,Negative,PUBLIC_SOURCE
+CASE000611,help to check in what situations can I request a refund,E-commerce,Negative,PUBLIC_SOURCE
+CASE002308,i need help to notify of an issue with payment,E-commerce,Negative,PUBLIC_SOURCE
+CASE001010,there are errors submitting the new shipping address,E-commerce,Negative,PUBLIC_SOURCE
+CASE001783,issue submitting the secondary delivery address,E-commerce,Negative,PUBLIC_SOURCE
+CASE002265,help me setting another delivery address up,E-commerce,Negative,PUBLIC_SOURCE
+CASE000700,I have a problem with my account.,Small Business,Negative,SYNTHETIC
+CASE000820,Can someone help resolve this issue? I need assistance.,Small Business,Negative,SYNTHETIC
+CASE001974,I do not know what I need to do to download the bill #85632,E-commerce,Negative,PUBLIC_SOURCE
+CASE001652,I do not know how I can edit the delivery address,E-commerce,Negative,PUBLIC_SOURCE
+CASE002812,I'm trying to set another delivery address up,E-commerce,Negative,PUBLIC_SOURCE
+CASE000374,My student ID is not working.,Education,Negative,SYNTHETIC
+CASE003185,i do not know how i can obtain compensations of my money,E-commerce,Negative,PUBLIC_SOURCE
+CASE002429,i do not know what i have to do to ask for a rebate of money,E-commerce,Negative,PUBLIC_SOURCE
+CASE001873,what do I have to do to report signup errors?,E-commerce,Negative,PUBLIC_SOURCE
+CASE002322,assistance t obtain a refund,E-commerce,Negative,PUBLIC_SOURCE
+CASE002526,I do not know how I can buy some of your article,E-commerce,Negative,PUBLIC_SOURCE
+CASE000400,"For my business, how can I add another employee to the account?",Small Business,Negative,SYNTHETIC
+CASE001787,can i inform of rwgistration errors,E-commerce,Negative,PUBLIC_SOURCE
+CASE000507,My scholarship application status has not changed.,Education,Negative,SYNTHETIC
+CASE001894,"I can't pay, how could I notify of a payment problem?",E-commerce,Negative,PUBLIC_SOURCE
+CASE002739,how do i inform of a problem with a signup,E-commerce,Negative,PUBLIC_SOURCE
+CASE002049,"I have entered a wrong shipping address, I want to modify it",E-commerce,Negative,PUBLIC_SOURCE
+CASE003224,i do not know what i have to do to download invoice #12588,E-commerce,Negative,PUBLIC_SOURCE
+CASE000304,How can I add another employee to the account? Please help.,Small Business,Negative,SYNTHETIC
+CASE003318,can huelp me check ur refund policy,E-commerce,Negative,PUBLIC_SOURCE
+CASE000789,Can my business get a refund for a damaged item? Please help.,Small Business,Negative,SYNTHETIC
+CASE001710,help  me reporting a sign-up problem,E-commerce,Negative,PUBLIC_SOURCE
+CASE002126,I want assistance filing a complaint against your company,E-commerce,Negative,PUBLIC_SOURCE
+CASE002681,I do not know how I can receive the newsletter,E-commerce,Negative,PUBLIC_SOURCE
+CASE002717,i dont kno how to request a refund of my money,E-commerce,Negative,PUBLIC_SOURCE
+CASE000647,My exam registration is showing an error.,Education,Negative,SYNTHETIC
+CASE002548,I expect a restitution of {{Currency Symbol}}{{Refund Amount}},E-commerce,Negative,PUBLIC_SOURCE
+CASE002721,I dp not know how to cancel order {{Order Number}},E-commerce,Negative,PUBLIC_SOURCE
+CASE002950,I want assistance notifying of a sign-up error,E-commerce,Negative,PUBLIC_SOURCE
+CASE000041,When will my student ID be issued?,Education,Negative,SYNTHETIC
+CASE003149,I do not know what I have to do to chat with a human agent,E-commerce,Negative,PUBLIC_SOURCE
+CASE001960,I do not know how to track order {{Order Number}},E-commerce,Negative,PUBLIC_SOURCE
+CASE000053,"For my business, can you help with a supplier issue?",Small Business,Negative,SYNTHETIC
+CASE000563,I want to report a problem with payment,E-commerce,Negative,PUBLIC_SOURCE
+CASE002033,i do not know how i can correct the user information,E-commerce,Negative,PUBLIC_SOURCE
+CASE003123,i do not know what to do to look for thebill #00108,E-commerce,Negative,PUBLIC_SOURCE
+CASE000790,I cannot access the exam registration portal.,Education,Negative,SYNTHETIC
+CASE000161,How can I contact the vendor about a missing item? as soon as possible.,Small Business,Negative,SYNTHETIC
+CASE002418,I can't find the early termination fee,E-commerce,Negative,PUBLIC_SOURCE
+CASE003255,open another standard account for mum,E-commerce,Negative,PUBLIC_SOURCE
+CASE002513,I do not know how to see when will my item arrive,E-commerce,Negative,PUBLIC_SOURCE
+CASE001636,I have an issue submitting a shipping address,E-commerce,Negative,PUBLIC_SOURCE
+CASE002558,want help to make a consumer complaint against ur company,E-commerce,Negative,PUBLIC_SOURCE
+CASE002153,I expect an reimbursement of {{Currency Symbol}}{{Refund Amount}},E-commerce,Negative,PUBLIC_SOURCE
+CASE001827,"the secondary shipping address is not valid, help me",E-commerce,Negative,PUBLIC_SOURCE
+CASE002654,there are problems entering a secondary shipping address,E-commerce,Negative,PUBLIC_SOURCE
+CASE002219,problem with a pro account removal,E-commerce,Negative,PUBLIC_SOURCE
+CASE002442,I have problems with canceling purchase {{Order Number}},E-commerce,Negative,PUBLIC_SOURCE
+CASE000302,i need help to solve problems with online payment,E-commerce,Negative,PUBLIC_SOURCE
+CASE002051,find information about the lost access key,E-commerce,Negative,PUBLIC_SOURCE
+CASE002356,can you help me obtaining refunds?,E-commerce,Negative,PUBLIC_SOURCE
+CASE000795,"my card was declined, inform of an error with payments",E-commerce,Negative,PUBLIC_SOURCE
+CASE001808,need assistance to obtain a refund of money,E-commerce,Negative,PUBLIC_SOURCE
+CASE000731,I do not know how I can list the goddamn payment methods,E-commerce,Negative,PUBLIC_SOURCE
+CASE000052,I cannot log in to my business account. as soon as possible.,Small Business,Negative,SYNTHETIC
+CASE001470,I have to notify of issues with a signup,E-commerce,Negative,PUBLIC_SOURCE
+CASE003070,I do not know how to restore my user PIN code,E-commerce,Negative,PUBLIC_SOURCE
+CASE003245,I do not know how I could write an opinion for a product,E-commerce,Negative,PUBLIC_SOURCE
+CASE002714,how can i ask for refunds of money,E-commerce,Negative,PUBLIC_SOURCE
+CASE002968,problem with {{Account Category}} account terminations,E-commerce,Negative,PUBLIC_SOURCE
+CASE000989,there is a problem with my registration,E-commerce,Negative,PUBLIC_SOURCE
+CASE002718,there are problems trying to edit the delivery address,E-commerce,Negative,PUBLIC_SOURCE
+CASE001696,where do i inform of payment problems,E-commerce,Negative,PUBLIC_SOURCE
+CASE002144,I have an issue editing the shipping address,E-commerce,Negative,PUBLIC_SOURCE
+CASE000822,I cannot access the exam registration portal. Please help me.,Education,Negative,SYNTHETIC
+CASE003335,help me see under which circumstances can i request a refund,E-commerce,Negative,PUBLIC_SOURCE
+CASE001126,I have errors with my registration,E-commerce,Negative,PUBLIC_SOURCE
+CASE002658,i dont know what to do to notify of an issdue with a sign-up,E-commerce,Negative,PUBLIC_SOURCE
+CASE000770,"I have not signed up yet, help creating a gold account",E-commerce,Negative,PUBLIC_SOURCE
+CASE000877,I can't seed your refund policy,E-commerce,Negative,PUBLIC_SOURCE
+CASE001746,I need to report a problem with online payment,E-commerce,Negative,PUBLIC_SOURCE
+CASE001499,"I cannot afford this article, cancel order {{Order Number}}",E-commerce,Negative,PUBLIC_SOURCE
+CASE000034,"For my business, my refund has not arrived yet.",Small Business,Negative,SYNTHETIC
+CASE000114,My scholarship application status has not changed. Please help me.,Education,Negative,SYNTHETIC
+CASE002094,need help notifying of issueswith sign-up,E-commerce,Negative,PUBLIC_SOURCE
+CASE002792,can ay help me notifying of a trouble with payment,E-commerce,Negative,PUBLIC_SOURCE
+CASE001007,i do not know what to do to lodge a customer reclamation,E-commerce,Negative,PUBLIC_SOURCE
+CASE002859,help notifying of signup problems,E-commerce,Negative,PUBLIC_SOURCE
+CASE001281,I expect a compensation of {{Refund Amount}} dollars,E-commerce,Negative,PUBLIC_SOURCE
+CASE001203,is it possible to see in what cases can i ask for a refund,E-commerce,Negative,PUBLIC_SOURCE
+CASE001858,need help to see in which situations can I request a refund,E-commerce,Negative,PUBLIC_SOURCE
+CASE003137,I want assistance to inform of errors with registrations,E-commerce,Negative,PUBLIC_SOURCE
+CASE000952,There is an error in the academic record.,Education,Negative,SYNTHETIC
+CASE001898,wanna see in which situations can i ask for a refund,E-commerce,Negative,PUBLIC_SOURCE
+CASE001669,"I am having an error signing up, can I get some help?",E-commerce,Negative,PUBLIC_SOURCE
+CASE000033,Can you help me? i cannot access the placement registration portal.,Education,Negative,SYNTHETIC
+CASE001295,I was charged but the fee payment is not updated.,Education,Negative,SYNTHETIC
+CASE003172,need to report an issue with signup,E-commerce,Negative,PUBLIC_SOURCE
+CASE002617,i do not know what i need to do to purchase several products,E-commerce,Negative,PUBLIC_SOURCE
+CASE003302,how do I inform of an issue with a signup?,E-commerce,Negative,PUBLIC_SOURCE
+CASE001572,I have problems submitting my new delivery address,E-commerce,Negative,PUBLIC_SOURCE
+CASE000690,I cannot enroll in my selected subject. I need more information.,Education,Negative,SYNTHETIC
+CASE001942,error modifying  delivery address,E-commerce,Negative,PUBLIC_SOURCE
+CASE003284,i cant open a user account help me report sign-up errors,E-commerce,Negative,PUBLIC_SOURCE
+CASE002947,there is an issue entering my delivery address,E-commerce,Negative,PUBLIC_SOURCE
+CASE000967,I do not know how I can check your allowed payment options,E-commerce,Negative,PUBLIC_SOURCE
+CASE000584,I want help to notify of a registration error,E-commerce,Negative,PUBLIC_SOURCE
+CASE001668,i expect a reimbursement of {{Refund Amount}} dollars,E-commerce,Negative,PUBLIC_SOURCE
+CASE001793,can you help me making a complaint?,E-commerce,Negative,PUBLIC_SOURCE
+CASE001871,there are errors setting up a damn delivery address,E-commerce,Negative,PUBLIC_SOURCE
+CASE002892,errors setting up a secondary shipping address,E-commerce,Negative,PUBLIC_SOURCE
+CASE001059,I'm waiting for a refund of {{Refund Amount}} dollrs,E-commerce,Negative,PUBLIC_SOURCE
+CASE000437,"I have to see my refund current status, will you help me?",E-commerce,Negative,PUBLIC_SOURCE
+CASE001211,assistance to check in what cases can I ask to be refunded,E-commerce,Negative,PUBLIC_SOURCE
+CASE000393,I cannot access the placement registration portal. Please help me.,Education,Negative,SYNTHETIC
+CASE003269,i have problems with canceling order {{Order Number}},E-commerce,Negative,PUBLIC_SOURCE
+CASE002978,where do I report an error with online payment?,E-commerce,Negative,PUBLIC_SOURCE
+CASE000447,i try to inform of issues with payments,E-commerce,Negative,PUBLIC_SOURCE
+CASE002176,"I cannot open an account, how to inform of sign-up errors?",E-commerce,Negative,PUBLIC_SOURCE
+CASE000882,i habe a problem with my pin retrieval,E-commerce,Negative,PUBLIC_SOURCE
+CASE000193,My business payment failed. I need assistance.,Small Business,Negative,SYNTHETIC
+CASE000573,When will my student ID be issued? I need more information.,Education,Negative,SYNTHETIC
+CASE003309,refund  {{Currency Symbol}}{{Refund Amount}},E-commerce,Negative,PUBLIC_SOURCE
+CASE000405,I cannot enroll in my selected subject. Please help me.,Education,Negative,SYNTHETIC
+CASE000827,Can you help me? i lost my student ID card. What should I do?,Education,Negative,SYNTHETIC
+CASE002345,I try to notify of a sign-up error,E-commerce,Negative,PUBLIC_SOURCE
+CASE001280,I cannot report a registration  error,E-commerce,Negative,PUBLIC_SOURCE
+CASE001406,there are errors setting up my secondary shipping address,E-commerce,Negative,PUBLIC_SOURCE
+CASE001592,i  have lost my account access key where can i recover it,E-commerce,Negative,PUBLIC_SOURCE
+CASE000043,"For my business, my business payment failed.",Small Business,Negative,SYNTHETIC
+CASE002460,help to file a consumer complaint against your organization,E-commerce,Negative,PUBLIC_SOURCE
+CASE000891,I do not know what to do to set my shipping address up,E-commerce,Negative,PUBLIC_SOURCE
+CASE001800,I can't create a {{Account Category}} account,E-commerce,Negative,PUBLIC_SOURCE
+CASE001913,i have to check in what cases can i ask for refunds,E-commerce,Negative,PUBLIC_SOURCE
+CASE000235,When will the student ID be issued?,Education,Negative,SYNTHETIC
+CASE000365,How can I add another employee to the account? as soon as possible.,Small Business,Negative,SYNTHETIC
+CASE000716,I need assistance informing of sign-up problems,E-commerce,Negative,PUBLIC_SOURCE
+CASE002447,is it possible to check in what cases can I request refunds?,E-commerce,Negative,PUBLIC_SOURCE
+CASE000552,My refund has not arrived yet.,Small Business,Negative,SYNTHETIC
+CASE001183,ido not know what i need to do to get the invoice #12588,E-commerce,Negative,PUBLIC_SOURCE
+CASE002796,I do not know what I need to do to obtain a reimbursement,E-commerce,Negative,PUBLIC_SOURCE
+CASE003322,want assistance to lodge a complaint against your business,E-commerce,Negative,PUBLIC_SOURCE
+CASE000463,I cannot enroll in the selected subject.,Education,Negative,SYNTHETIC
+CASE001877,another premium account for father,E-commerce,Negative,PUBLIC_SOURCE
+CASE003156,there are errors trying to modify my shipping address,E-commerce,Negative,PUBLIC_SOURCE
+CASE000417,I'm waiting for a  compensation of {{Currency Symbol}}{{Refund Amount}},E-commerce,Negative,PUBLIC_SOURCE
+CASE002399,report issues creating account,E-commerce,Negative,PUBLIC_SOURCE
+CASE001333,can you help me solve a problem with online payment?,E-commerce,Negative,PUBLIC_SOURCE
+CASE000596,rebating  {{Currency Symbol}}{{Refund Amount}},E-commerce,Negative,PUBLIC_SOURCE
+CASE002887,can you help me notifying of issues with a registration?,E-commerce,Negative,PUBLIC_SOURCE
+CASE000030,My business order is missing an item. I need assistance.,Small Business,Negative,SYNTHETIC
+CASE001557,where to lodge a complaint against ur business,E-commerce,Negative,PUBLIC_SOURCE
+CASE002663,i need help entering another delivery address,E-commerce,Negative,PUBLIC_SOURCE
+CASE002828,I have problems with cancelling order {{Order Number}},E-commerce,Negative,PUBLIC_SOURCE
+CASE000632,How can I contact the vendor about a missing item?,Small Business,Negative,SYNTHETIC
+CASE001134,I want to notify of goddamn registration errors,E-commerce,Negative,PUBLIC_SOURCE
+CASE000757,there is a problem entering my delivery address,E-commerce,Negative,PUBLIC_SOURCE
+CASE001492,how to see if there is anything wrong with the restitution?,E-commerce,Negative,PUBLIC_SOURCE
+CASE002577,i do not know how i could casncel order {{Order Number}},E-commerce,Negative,PUBLIC_SOURCE
+CASE002795,"I have lost my profile access key, where can I recover it?",E-commerce,Negative,PUBLIC_SOURCE
+CASE002096,I do not know what I need to do to buy an product,E-commerce,Negative,PUBLIC_SOURCE
+CASE001153,is it possible to report problems with sign-up?,E-commerce,Negative,PUBLIC_SOURCE
+CASE002497,I want to inform of problems with signup,E-commerce,Negative,PUBLIC_SOURCE
+CASE001024,I need help making a complaint,E-commerce,Negative,PUBLIC_SOURCE
+CASE002860,"I cannot pay, help me to inform of a problem with payments",E-commerce,Negative,PUBLIC_SOURCE
+CASE002279,I do not know what I have to do to see the termination fee,E-commerce,Negative,PUBLIC_SOURCE
+CASE001726,i have lost my bill from {{Person Name}} find it for me,E-commerce,Negative,PUBLIC_SOURCE
+CASE000398,want help to report an issue with online payments,E-commerce,Negative,PUBLIC_SOURCE
+CASE002908,I cannot find the early termination charge,E-commerce,Negative,PUBLIC_SOURCE
+CASE002847,wanna see ur refund policy how to do  it,E-commerce,Negative,PUBLIC_SOURCE
+CASE002212,I expect a compensation of {{Currency Symbol}}{{Refund Amount}},E-commerce,Negative,PUBLIC_SOURCE
+CASE003054,"I cannot open an account, how to report a sign-up issue?",E-commerce,Negative,PUBLIC_SOURCE
+CASE003084,help me informing of an issue with payment,E-commerce,Negative,PUBLIC_SOURCE
+CASE003167,"I can't pay, assistance reporting troubles with payment",E-commerce,Negative,PUBLIC_SOURCE
+CASE002075,there are problems tring to correct my address,E-commerce,Negative,PUBLIC_SOURCE
+CASE001034,I try to lodge a customer complaint,E-commerce,Negative,PUBLIC_SOURCE
+CASE000872,I do not know how I can restore the PIN code of my profile,E-commerce,Negative,PUBLIC_SOURCE
+CASE001896,where could I inform of issues with payment?,E-commerce,Negative,PUBLIC_SOURCE
+CASE002179,i cannot set up my new shipping address,E-commerce,Negative,PUBLIC_SOURCE
+CASE000204,I cannot log in to my business account. I need assistance.,Small Business,Negative,SYNTHETIC
+CASE000923,refunding {{Refund Amount}}  dollars,E-commerce,Negative,PUBLIC_SOURCE
+CASE002559,want help to notify of troubles with online payment,E-commerce,Negative,PUBLIC_SOURCE
+CASE002677,where do I inform of an issue with a signup?,E-commerce,Negative,PUBLIC_SOURCE
+CASE001943,could you help me reporting errors with online payment?,E-commerce,Negative,PUBLIC_SOURCE
+CASE002986,could you help me  enter another shipping address?,E-commerce,Negative,PUBLIC_SOURCE
+CASE000782,I do not know how to cancel purchase {{Order Number}},E-commerce,Negative,PUBLIC_SOURCE
+CASE001181,where do I lodge a complaint against your company?,E-commerce,Negative,PUBLIC_SOURCE
+CASE002092,problems with swapping a product of purchase {{Order Number}},E-commerce,Negative,PUBLIC_SOURCE
+CASE001972,I am waiting for a rebate of {{Currency Symbol}}{{Refund Amount}},E-commerce,Negative,PUBLIC_SOURCE
+CASE000586,I have a problem with my account. I need assistance.,Small Business,Negative,SYNTHETIC
+CASE000351,How can I place another order for the same products? Please help.,Small Business,Negative,SYNTHETIC
+CASE000209,"I lost the PIN of my user, I want help to retrieve it",E-commerce,Negative,PUBLIC_SOURCE
+CASE000521,Can someone help resolve this issue?,Small Business,Negative,SYNTHETIC
+CASE000103,i do not know what i have to do to chat with somebody,E-commerce,Negative,PUBLIC_SOURCE
+CASE002285,problems setting a new delivery address up,E-commerce,Negative,PUBLIC_SOURCE
+CASE003154,"I have lost my user account password, how can I reset it?",E-commerce,Negative,PUBLIC_SOURCE
+CASE001062,Can you help me? my student ID is not working.,Education,Negative,SYNTHETIC
+CASE003061,I am waiting for a rebate fo {{Refund Amount}} dollars,E-commerce,Negative,PUBLIC_SOURCE
+CASE002874,need assistanbce to make a complaint,E-commerce,Negative,PUBLIC_SOURCE
+CASE002564,I can't check if there is anything wrong with my rebate,E-commerce,Negative,PUBLIC_SOURCE
+CASE001009,i have problems with creating  my freemium account,E-commerce,Negative,PUBLIC_SOURCE
+CASE002746,i need assistance to solve payment errors,E-commerce,Negative,PUBLIC_SOURCE
+CASE003199,"I paid {{Currency Symbol}}{{Refund Amount}} for a purchase, help me obtaining my money back",E-commerce,Negative,PUBLIC_SOURCE
+CASE002061,I do not know how to get the bill from {{Person Name}},E-commerce,Negative,PUBLIC_SOURCE
+CASE000962,"I cannot afford order {{Order Number}}, I need help canceling it",E-commerce,Negative,PUBLIC_SOURCE
+CASE000170,Why has my invoice not been generated? as soon as possible.,Small Business,Negative,SYNTHETIC
+CASE000333,I want help to get refunds,E-commerce,Negative,PUBLIC_SOURCE
+CASE001124,"I entered a wrong delivery address, help me editing it",E-commerce,Negative,PUBLIC_SOURCE
+CASE000099,Can my business get a refund for a damaged item? as soon as possible.,Small Business,Negative,SYNTHETIC
+CASE001094,I do not know how I can see the withdrawal fee,E-commerce,Negative,PUBLIC_SOURCE
+CASE002953,I need help to notiyf of a registration problem,E-commerce,Negative,PUBLIC_SOURCE
+CASE001460,i do not know what i need to do to hsop several articles,E-commerce,Negative,PUBLIC_SOURCE
+CASE002561,"I expect a refund of {{Currency Symbol}}{{Refund Amount}}, was it processeed",E-commerce,Negative,PUBLIC_SOURCE
+CASE003253,I would like to request a refund,E-commerce,Negative,PUBLIC_SOURCE
+CASE002503,there are issues trying to update the goddamn address,E-commerce,Negative,PUBLIC_SOURCE
+CASE002775,I do not know how to acquire a few of your product,E-commerce,Negative,PUBLIC_SOURCE
+CASE002115,wanna inform of issues with payment,E-commerce,Negative,PUBLIC_SOURCE
+CASE002539,want assistance to notify of an erro with payment,E-commerce,Negative,PUBLIC_SOURCE
+CASE001014,there is a problem trying to modify the delivery address,E-commerce,Negative,PUBLIC_SOURCE
+CASE002334,can you help me seeing in what cases can I request a refund?,E-commerce,Negative,PUBLIC_SOURCE
+CASE001452,I have got to see in which situations can Irequest a refund,E-commerce,Negative,PUBLIC_SOURCE
+CASE001155,why I can't set up my new shipping address valid,E-commerce,Negative,PUBLIC_SOURCE
+CASE003026,"I cannot find the termination fees, I need assistance",E-commerce,Negative,PUBLIC_SOURCE
+CASE002318,I do not know what I need to do to purchase some products,E-commerce,Negative,PUBLIC_SOURCE
+CASE000453,i dont know what i have to doto get refunds of my money,E-commerce,Negative,PUBLIC_SOURCE
+CASE002832,I have issues correcting the address,E-commerce,Negative,PUBLIC_SOURCE
+CASE000684,I do not know how I can see the methods for shipping,E-commerce,Negative,PUBLIC_SOURCE
+CASE003208,i do not know what to do to contact a human agent,E-commerce,Negative,PUBLIC_SOURCE
+CASE001145,I cannot change the shipping address,E-commerce,Negative,PUBLIC_SOURCE
+CASE002127,I cannot see your refund policy,E-commerce,Negative,PUBLIC_SOURCE
+CASE002380,what do i need to deo to obtain a refund of money,E-commerce,Negative,PUBLIC_SOURCE
+CASE002566,I do not know how I can get in touch with customer service,E-commerce,Negative,PUBLIC_SOURCE
+CASE002763,i want assistance to notify of errors with payment,E-commerce,Negative,PUBLIC_SOURCE
+CASE001731,is it possible to see in which cases can I ask for a refund?,E-commerce,Negative,PUBLIC_SOURCE
+CASE002578,I need help to obtain refunds of money,E-commerce,Negative,PUBLIC_SOURCE
+CASE002709,is it possible to notify of troubles with online payment ?,E-commerce,Negative,PUBLIC_SOURCE
+CASE000424,The supplier has not confirmed my order.,Small Business,Negative,SYNTHETIC
+CASE000512,i expect a reimbursement of {{Currency Symbol}}{{Refund Amount}},E-commerce,Negative,PUBLIC_SOURCE
+CASE002910,I do not know how to list your allowed payment methods,E-commerce,Negative,PUBLIC_SOURCE
+CASE002545,see in what cases can I ask for a refund,E-commerce,Negative,PUBLIC_SOURCE
+CASE000059,The supplier has not confirmed my order. as soon as possible.,Small Business,Negative,SYNTHETIC
+CASE000758,i do not know how i can remove the premium account,E-commerce,Negative,PUBLIC_SOURCE
+CASE003279,I do not know what to do to earn several of yoru item,E-commerce,Negative,PUBLIC_SOURCE
+CASE000167,I do not know what to do to cancel the standard account,E-commerce,Negative,PUBLIC_SOURCE
+CASE000998,there is a problem trying to edit the address,E-commerce,Negative,PUBLIC_SOURCE
+CASE000672,Can you help with a supplier issue?,Small Business,Negative,SYNTHETIC
+CASE001838,can you help me inform of a fucking signup issue?,E-commerce,Negative,PUBLIC_SOURCE
+CASE000580,"I paid {{Currency Symbol}}{{Refund Amount}} for these items, where can I receive a refund?",E-commerce,Negative,PUBLIC_SOURCE
+CASE000945,"I have not signed up, can I open a platinum account?",E-commerce,Negative,PUBLIC_SOURCE
+CASE001514,I need help to report a problem with a registration,E-commerce,Negative,PUBLIC_SOURCE
+CASE000941,I do not knowwhat I need to do to get invoice #85632,E-commerce,Negative,PUBLIC_SOURCE
+CASE001893,I need assistance notifying of a problem with online payment,E-commerce,Negative,PUBLIC_SOURCE
+CASE002158,i dont know how to report an issue with a registration,E-commerce,Negative,PUBLIC_SOURCE
+CASE002646,I have got to check your refund policy,E-commerce,Negative,PUBLIC_SOURCE
+CASE002618,I do not know how I can see the current status of the refund,E-commerce,Negative,PUBLIC_SOURCE
+CASE002415,I do not know how to get in touch with customer assistance,E-commerce,Negative,PUBLIC_SOURCE
+CASE001477,i do not know how i can see my invoice #12588,E-commerce,Negative,PUBLIC_SOURCE
+CASE001562,i try to see in what cases can i ask for a refund,E-commerce,Negative,PUBLIC_SOURCE
+CASE001020,I do not know how I could enter my new delivery address,E-commerce,Negative,PUBLIC_SOURCE
+CASE000371,"I have entered a wrong delivery address, help me changing it",E-commerce,Negative,PUBLIC_SOURCE
+CASE001751,i do not know how i can acquire several prdoucts,E-commerce,Negative,PUBLIC_SOURCE
+CASE001242,"I would like to report errors with sign-up, can you help me?",E-commerce,Negative,PUBLIC_SOURCE
+CASE000569,I cannot log in to my business account. Please help.,Small Business,Negative,SYNTHETIC
+CASE002112,"I have lost bill #12588, can you mail it to me?",E-commerce,Negative,PUBLIC_SOURCE
+CASE003209,"I have got to lodge a complaint, can I get some help?",E-commerce,Negative,PUBLIC_SOURCE
+CASE000587,How can I place another order for the same products? I need assistance.,Small Business,Negative,SYNTHETIC
+CASE001396,i do not know what i have to do to get my invoice #85632,E-commerce,Negative,PUBLIC_SOURCE
+CASE003319,I do not know what I have to do to talk to customer suppory,E-commerce,Negative,PUBLIC_SOURCE
+CASE001563,I do not know how to contact customer service,E-commerce,Negative,PUBLIC_SOURCE
+CASE001354,I have got to report an error with signup,E-commerce,Negative,PUBLIC_SOURCE
+CASE000603,My fee payment has failed. What should I do?,Education,Negative,SYNTHETIC
+CASE000641,Can you help me? i cannot enroll in my selected subject.,Education,Negative,SYNTHETIC
+CASE000888,How can I add another employee to the account?,Small Business,Negative,SYNTHETIC
+CASE002093,how do I notify of problems with sign-up?,E-commerce,Negative,PUBLIC_SOURCE
+CASE000676,I cannot enroll in my selected subject.,Education,Negative,SYNTHETIC
+CASE000027,How can I contact the vendor about a missing item? I need assistance.,Small Business,Negative,SYNTHETIC
+CASE001958,ik do not know how i can notify of a sign-up problem,E-commerce,Negative,PUBLIC_SOURCE
+CASE001548,report registration error,E-commerce,Negative,PUBLIC_SOURCE
+CASE001962,i do not know what to do to download the invoice #85632,E-commerce,Negative,PUBLIC_SOURCE
+CASE002495,can you help me reporting a registration issue?,E-commerce,Negative,PUBLIC_SOURCE
+CASE000585,I do not know what I have to do to delete a {{Account Category}} account,E-commerce,Negative,PUBLIC_SOURCE
+CASE001248,I expect a restitution of {{Refund Amount}} dollars,E-commerce,Negative,PUBLIC_SOURCE
+CASE000499,I'm experiencing a registration error,E-commerce,Negative,PUBLIC_SOURCE
+CASE000311,I want help reporting payment problems,E-commerce,Negative,PUBLIC_SOURCE
+CASE002168,i have to notify of problems with registrations,E-commerce,Negative,PUBLIC_SOURCE
+CASE000085,"For my business, can my business get a refund for a damaged item?",Small Business,Negative,SYNTHETIC
+CASE003110,inform of an issue with an registration,E-commerce,Negative,PUBLIC_SOURCE
+CASE001079,have problems wth canceling purchase {{Order Number}},E-commerce,Negative,PUBLIC_SOURCE
+CASE001624,assistance filing a customer complaint against your business,E-commerce,Negative,PUBLIC_SOURCE
+CASE002756,i do not know how to enter a delivery address,E-commerce,Negative,PUBLIC_SOURCE
+CASE002885,why I cannot enter the delivery address valid,E-commerce,Negative,PUBLIC_SOURCE
+CASE000927,i expect a damn restitution of {{Currency Symbol}}{{Refund Amount}},E-commerce,Negative,PUBLIC_SOURCE
+CASE002068,I need help to see how long refunds take,E-commerce,Negative,PUBLIC_SOURCE
+CASE001332,I am waiting for a compensation of {{Refund Amount}} doolars,E-commerce,Negative,PUBLIC_SOURCE
+CASE001073,I have issues entering a new delivery address,E-commerce,Negative,PUBLIC_SOURCE
+CASE000951,"I do not want my freemium account, assistance canceling it",E-commerce,Negative,PUBLIC_SOURCE
+CASE003313,i need assistance informing of problems with online payment,E-commerce,Negative,PUBLIC_SOURCE
+CASE001171,I can't submit a new shipping address,E-commerce,Negative,PUBLIC_SOURCE
+CASE002969,want help to check in what cases can i request refunds,E-commerce,Negative,PUBLIC_SOURCE
+CASE003331,I do not know what to do to get my invoice from {{Person Name}},E-commerce,Negative,PUBLIC_SOURCE
+CASE000920,need help to lodge a complaint against your organization,E-commerce,Negative,PUBLIC_SOURCE
+CASE000750,My exam registration is showing an error. I need more information.,Education,Negative,SYNTHETIC
+CASE000486,i do not know what i need to do to report errors with signup,E-commerce,Negative,PUBLIC_SOURCE
+CASE001047,help me informing of a problem with signup,E-commerce,Negative,PUBLIC_SOURCE
+CASE000977,I'm trying to inform of a error with signup,E-commerce,Negative,PUBLIC_SOURCE
+CASE001905,there are issues setting up the new shipping address,E-commerce,Negative,PUBLIC_SOURCE
+CASE003225,I do not know how to notify of a trouble with payment,E-commerce,Negative,PUBLIC_SOURCE
+CASE003252,need help to see the status of my refund,E-commerce,Negative,PUBLIC_SOURCE
+CASE002162,there is an error trying to update my shipping address,E-commerce,Negative,PUBLIC_SOURCE
+CASE002358,I do not know how I can see the cancellation fees,E-commerce,Negative,PUBLIC_SOURCE
+CASE002823,I want to inform of registration issues,E-commerce,Negative,PUBLIC_SOURCE
+CASE000593,My scholarship application status has not changed. I need more information.,Education,Negative,SYNTHETIC
+CASE002857,"I cannot create a user, help to report sign-up errors",E-commerce,Negative,PUBLIC_SOURCE
+CASE000178,"I cannot create a user, help to inform of a signup problem",E-commerce,Negative,PUBLIC_SOURCE
+CASE001279,I need help to notify of problems with sign-up,E-commerce,Negative,PUBLIC_SOURCE
+CASE000328,can I check in what cases can I request the damn refunds?,E-commerce,Negative,PUBLIC_SOURCE
+CASE002490,I do not know how I can change to the standard account,E-commerce,Negative,PUBLIC_SOURCE
+CASE001305,problem with {{Account Type}} account removals,E-commerce,Negative,PUBLIC_SOURCE
+CASE000455,rebating {{Refund Amount}} dollars,E-commerce,Negative,PUBLIC_SOURCE
+CASE002154,I need help to inform of errors with online payment,E-commerce,Negative,PUBLIC_SOURCE
+CASE001786,am I entitled to a refund according to your policy?,E-commerce,Negative,PUBLIC_SOURCE
+CASE001476,can i file a complaint against ur organization,E-commerce,Negative,PUBLIC_SOURCE
+CASE002414,I expect a rebate of {{Refund Amount}} dollars,E-commerce,Negative,PUBLIC_SOURCE
+CASE000911,I have a problem trying to correct the shipping address,E-commerce,Negative,PUBLIC_SOURCE
+CASE002432,I do not know how I can leave my feedback for your services,E-commerce,Negative,PUBLIC_SOURCE
+CASE003105,help solving a goddamn error with online payments,E-commerce,Negative,PUBLIC_SOURCE
+CASE002713,want assistance informing of sign-up errors,E-commerce,Negative,PUBLIC_SOURCE
+CASE001036,wanna check in wshat situations can i ask for a refund,E-commerce,Negative,PUBLIC_SOURCE
+CASE000242,Can you help with a supplier issue? Please help.,Small Business,Negative,SYNTHETIC
+CASE001941,i have paid {{Currency Symbol}}{{Refund Amount}} for an order I'm trying to obtain a refund,E-commerce,Negative,PUBLIC_SOURCE
+CASE000772,reporting issues with payment,E-commerce,Negative,PUBLIC_SOURCE
+CASE001358,i expect a refund of {{Currency Symbol}}{{Refund Amount}},E-commerce,Negative,PUBLIC_SOURCE
+CASE003041,i paid {{Refund Amount}} dollars for an article how can i obtain a rebate,E-commerce,Negative,PUBLIC_SOURCE
+CASE000972,problem with the cancellation of my {{Account Type}} account,E-commerce,Negative,PUBLIC_SOURCE
+CASE002340,I do not know how to demand a reimbursement,E-commerce,Negative,PUBLIC_SOURCE
+CASE000473,My refund has not arrived yet. I need assistance.,Small Business,Negative,SYNTHETIC
+CASE002743,help me report an issue with registrations,E-commerce,Negative,PUBLIC_SOURCE
+CASE000022,I cannot log in to my business account.,Small Business,Negative,SYNTHETIC
+CASE000734,there are problems setting another shipping address up,E-commerce,Negative,PUBLIC_SOURCE
+CASE001745,help informing of a problem with sign-up,E-commerce,Negative,PUBLIC_SOURCE
+CASE001704,i do not know how i can see the current status of the rebate,E-commerce,Negative,PUBLIC_SOURCE
+CASE000259,I have a problem with my account. Please help.,Small Business,Negative,SYNTHETIC
+CASE002431,i cannot poay for purchase {{Order Number}},E-commerce,Negative,PUBLIC_SOURCE
+CASE002021,is it possible to ask for a refund of my money?,E-commerce,Negative,PUBLIC_SOURCE
+CASE002915,I do not know how to write a review about your products,E-commerce,Negative,PUBLIC_SOURCE
+CASE002639,I don't know whar I need to do to notify of signup errors,E-commerce,Negative,PUBLIC_SOURCE
+CASE000843,I cannot access the placement registration portal. I need more information.,Education,Negative,SYNTHETIC
+CASE002569,there are errors setting up the new shipping address,E-commerce,Negative,PUBLIC_SOURCE
+CASE002604,i do not know how to download the bill #37777,E-commerce,Negative,PUBLIC_SOURCE
+CASE001393,what do i have to do to report errors with payments,E-commerce,Negative,PUBLIC_SOURCE
+CASE001063,I am waiting for a bloody compensation of {{Refund Amount}} dollars,E-commerce,Negative,PUBLIC_SOURCE
+CASE001013,i do not know what i have to do to get my invoice #00108,E-commerce,Negative,PUBLIC_SOURCE
+CASE001864,I am waiting for a restitution of {{Currency Symbol}}{{Refund Amount}},E-commerce,Negative,PUBLIC_SOURCE
+CASE003276,i do notknow what i have to do to get the bill #85632,E-commerce,Negative,PUBLIC_SOURCE
+CASE003289,I want assistance to notify of a problem with a registration,E-commerce,Negative,PUBLIC_SOURCE
+CASE002740,help to report signup problems,E-commerce,Negative,PUBLIC_SOURCE
+CASE000465,"I chose a wrong delivery address, can you help me update it?",E-commerce,Negative,PUBLIC_SOURCE
+CASE002819,help me seeing in what cases can I ask for refunds,E-commerce,Negative,PUBLIC_SOURCE
+CASE000248,"I entered a wrong shipping address, I need help to modify it",E-commerce,Negative,PUBLIC_SOURCE
+CASE001806,how can i lodge a cuxtomer complaint against ur organization,E-commerce,Negative,PUBLIC_SOURCE
+CASE001698,want help to know if there is anything wrong with the refund,E-commerce,Negative,PUBLIC_SOURCE
+CASE000219,How can I place another order for the same products? as soon as possible.,Small Business,Negative,SYNTHETIC
+CASE001152,where can i inform of problems with online paymeny,E-commerce,Negative,PUBLIC_SOURCE
+CASE002496,can you help me lodging a complaint against your company?,E-commerce,Negative,PUBLIC_SOURCE
+CASE002958,"I submitted a wrong address by mistake, could I update it?",E-commerce,Negative,PUBLIC_SOURCE
+CASE000771,"I can't remember my user profile PIN, I have got to reset it",E-commerce,Negative,PUBLIC_SOURCE
+CASE002163,"I can't pay, is it possible to report troubles with payment?",E-commerce,Negative,PUBLIC_SOURCE
+CASE001694,"my delivery address is not valid, what should I do?",E-commerce,Negative,PUBLIC_SOURCE
+CASE001201,I do not know how I can cancel the standard acconut,E-commerce,Negative,PUBLIC_SOURCE
+CASE001048,I try to notify of errors with online payment,E-commerce,Negative,PUBLIC_SOURCE
+CASE001027,help me checking if there are any news on my refund,E-commerce,Negative,PUBLIC_SOURCE
+CASE000524,can ya help me informing  of problems with online payment,E-commerce,Negative,PUBLIC_SOURCE
+CASE003249,i exepct a restitution of {{Currency Symbol}}{{Refund Amount}},E-commerce,Negative,PUBLIC_SOURCE
+CASE002275,I do not know how to call customer service,E-commerce,Negative,PUBLIC_SOURCE
+CASE002321,assistance to inform of problems with signup,E-commerce,Negative,PUBLIC_SOURCE
+CASE001936,I expect a bloody reimbursement of {{Refund Amount}} dollars,E-commerce,Negative,PUBLIC_SOURCE
+CASE000433,"For my business, my delivery is delayed.",Small Business,Negative,SYNTHETIC
+CASE001852,help to see in which cases can I ask for refunds,E-commerce,Negative,PUBLIC_SOURCE
+CASE000159,The supplier has not confirmed my order. I need assistance.,Small Business,Negative,SYNTHETIC
+CASE001530,i try to inform of issues with payment,E-commerce,Negative,PUBLIC_SOURCE
+CASE002231,I cannot submit another shipping address,E-commerce,Negative,PUBLIC_SOURCE
+CASE000832,I do not know how I can file a claim,E-commerce,Negative,PUBLIC_SOURCE
+CASE000775,could you help me to file a damn consumer complaint?,E-commerce,Negative,PUBLIC_SOURCE
+CASE001596,show me in which situations can I ask to be refunded,E-commerce,Negative,PUBLIC_SOURCE
+CASE001516,I'm trying to know if there is anything new on my refund,E-commerce,Negative,PUBLIC_SOURCE
+CASE001566,I do not know what I need to do to send some damn feedback,E-commerce,Negative,PUBLIC_SOURCE
+CASE000390,There is an error in my academic record.,Education,Negative,SYNTHETIC
+CASE000649,have a problem with cancelling order {{Order Number}},E-commerce,Negative,PUBLIC_SOURCE
+CASE000228,My business payment failed.,Small Business,Negative,SYNTHETIC
+CASE002397,what do I have to do to lodge a complaint?,E-commerce,Negative,PUBLIC_SOURCE
+CASE000829,I cannot access the online library resources. I need more information.,Education,Negative,SYNTHETIC
+CASE000470,Can you help with a supplier issue? I need assistance.,Small Business,Negative,SYNTHETIC
+CASE001388,I have problems submitting a different shipping address,E-commerce,Negative,PUBLIC_SOURCE
+CASE000276,My business payment failed. as soon as possible.,Small Business,Negative,SYNTHETIC
+CASE001182,My grade is missing from the student portal. Please help me.,Education,Negative,SYNTHETIC
+CASE001975,what do I need to do to request a fucking refund?,E-commerce,Negative,PUBLIC_SOURCE
+CASE001662,there is an error setting my new delivery address up,E-commerce,Negative,PUBLIC_SOURCE
+CASE002475,repor sign-up problems,E-commerce,Negative,PUBLIC_SOURCE
+CASE001130,i need assistance notifying of a payment probelm,E-commerce,Negative,PUBLIC_SOURCE
+CASE000147,"For my business, can someone help resolve this issue?",Small Business,Negative,SYNTHETIC
+CASE002993,i expect an refund of {{Refund Amount}} dollars was it processed,E-commerce,Negative,PUBLIC_SOURCE
+CASE002428,problem with canceling order {{Order Number}},E-commerce,Negative,PUBLIC_SOURCE
+CASE000904,wantr help to solve issues with payment,E-commerce,Negative,PUBLIC_SOURCE
+CASE000155,I cannot access the placement registration portal.,Education,Negative,SYNTHETIC
+CASE002879,I do not know what to do to get the invoice #37777,E-commerce,Negative,PUBLIC_SOURCE
+CASE001101,i do not know how i could see ur payment modalities,E-commerce,Negative,PUBLIC_SOURCE
+CASE002450,need to inform of problems with online payment,E-commerce,Negative,PUBLIC_SOURCE
+CASE001693,i do not know how i can report a registration problem,E-commerce,Negative,PUBLIC_SOURCE
+CASE001486,i do not know how i can see the early termination penalties,E-commerce,Negative,PUBLIC_SOURCE
+CASE001061,problems with cancelling order {{Order Number}},E-commerce,Negative,PUBLIC_SOURCE
+CASE002724,"I can't remember the PIN of my account, how do I reset it?",E-commerce,Negative,PUBLIC_SOURCE
+CASE001804,I'm waiting for a refund of {{Currency Symbol}}{{Refund Amount}},E-commerce,Negative,PUBLIC_SOURCE
+CASE000638,Can my business get a refund for a damaged item? I need assistance.,Small Business,Negative,SYNTHETIC
+CASE001722,I have to inform of issues with a registration,E-commerce,Negative,PUBLIC_SOURCE
+CASE002635,i do not know how i could switch tto the standard account,E-commerce,Negative,PUBLIC_SOURCE
+CASE001589,"I can't pay, assistance notifying of an issue with payment",E-commerce,Negative,PUBLIC_SOURCE
+CASE003004,i need assistance to file a complaint,E-commerce,Negative,PUBLIC_SOURCE
+CASE001436,see in what situations can I ask for refunds,E-commerce,Negative,PUBLIC_SOURCE
+CASE002037,"I am waiting for a compensation of {{Currency Symbol}}{{Refund Amount}}, was it processed",E-commerce,Negative,PUBLIC_SOURCE
+CASE003125,help me see under what circumtsances can I ask for refunds,E-commerce,Negative,PUBLIC_SOURCE
+CASE001956,i do not know what i neerd to do to download my bill #12588,E-commerce,Negative,PUBLIC_SOURCE
+CASE001937,I try to see in what situations can I request to be refunded,E-commerce,Negative,PUBLIC_SOURCE
+CASE001116,I want to see in which cases can I request to be refunded,E-commerce,Negative,PUBLIC_SOURCE
+CASE003038,problems setting the shipping address up,E-commerce,Negative,PUBLIC_SOURCE
+CASE001703,issue with registration,E-commerce,Negative,PUBLIC_SOURCE
+CASE002374,can ya help me to notify of an error with online payment,E-commerce,Negative,PUBLIC_SOURCE
+CASE001012,"I can't pay, where do I report errors with payment?",E-commerce,Negative,PUBLIC_SOURCE
+CASE000330,My fee payment has failed. What should I do? Please help me.,Education,Negative,SYNTHETIC
+CASE003018,I do not know how I can speak to an agent,E-commerce,Negative,PUBLIC_SOURCE
+CASE001531,wanna check uf refund policy,E-commerce,Negative,PUBLIC_SOURCE
+CASE001158,I do not know what to do to write a comment about a product,E-commerce,Negative,PUBLIC_SOURCE
+CASE001512,errors with online payments,E-commerce,Negative,PUBLIC_SOURCE
+CASE001998,where to lodge a customer complaint,E-commerce,Negative,PUBLIC_SOURCE
+CASE001224,I want assistance to notify of troubles with online payments,E-commerce,Negative,PUBLIC_SOURCE
+CASE002053,in which situations can I ask for refunds?,E-commerce,Negative,PUBLIC_SOURCE
+CASE001776,i cannot track my restitution,E-commerce,Negative,PUBLIC_SOURCE
+CASE000767,I am waiting for a reimbursement of {{Refund Amount}} dollars,E-commerce,Negative,PUBLIC_SOURCE
+CASE000028,I cannot access the exam registration portal. I need more information.,Education,Negative,SYNTHETIC
+CASE001496,I don't know how to make a complaint against your company,E-commerce,Negative,PUBLIC_SOURCE
+CASE001346,show me in which cases can I ask for refunds,E-commerce,Negative,PUBLIC_SOURCE
+CASE001697,I am waiting for a refnd of {{Refund Amount}} dollars,E-commerce,Negative,PUBLIC_SOURCE
+CASE002461,I cannot recover my pwd,E-commerce,Negative,PUBLIC_SOURCE
+CASE002476,I want help to notify of an issue with payments,E-commerce,Negative,PUBLIC_SOURCE
+CASE002076,need help to report an issue with payment,E-commerce,Negative,PUBLIC_SOURCE
+CASE000076,My student ID is not working. I need more information.,Education,Negative,SYNTHETIC
+CASE000078,My delivery is delayed. as soon as possible.,Small Business,Negative,SYNTHETIC
+CASE000914,My grade is missing from the student portal. I need more information.,Education,Negative,SYNTHETIC
+CASE002688,I need to receive a refund of my money,E-commerce,Negative,PUBLIC_SOURCE
+CASE001371,I do not know how to buy several of your product,E-commerce,Negative,PUBLIC_SOURCE
+CASE003227,error setting the shipping address up,E-commerce,Negative,PUBLIC_SOURCE
+CASE000215,i do not know how i can open a pro account for my fiance,E-commerce,Negative,PUBLIC_SOURCE
+CASE001629,i cannot pay help me to report issues with payment,E-commerce,Negative,PUBLIC_SOURCE
+CASE001502,i do not know what to do to report a trouble with payment,E-commerce,Negative,PUBLIC_SOURCE
+CASE002227,get refund,E-commerce,Negative,PUBLIC_SOURCE
+CASE001308,I cannot enter the new delivery address,E-commerce,Negative,PUBLIC_SOURCE
+CASE000002,I lost the student ID card. What should I do?,Education,Negative,SYNTHETIC
+CASE002905,I do not know what I have to do to get refunds of my money,E-commerce,Negative,PUBLIC_SOURCE
+CASE003295,"I have got to see your refund policy, help me",E-commerce,Negative,PUBLIC_SOURCE
+CASE002808,I do not know what I need to do to create a {{Account Type}} account,E-commerce,Negative,PUBLIC_SOURCE
+CASE001600,i dont know how i could inform of an error with signup,E-commerce,Negative,PUBLIC_SOURCE
+CASE000323,i do not know what to do to talk with an operator,E-commerce,Negative,PUBLIC_SOURCE
+CASE000050,My refund has not arrived yet. Please help.,Small Business,Negative,SYNTHETIC
+CASE003336,I do not know how to list the payment methods,E-commerce,Negative,PUBLIC_SOURCE
+CASE002207,I have an issue editing the address,E-commerce,Negative,PUBLIC_SOURCE
+CASE002266,i do not knwo how to see the payment methods,E-commerce,Negative,PUBLIC_SOURCE
+CASE001390,Can you help me? i cannot access the exam registration portal.,Education,Negative,SYNTHETIC
+CASE001906,I do not know how to speak to an assistant,E-commerce,Negative,PUBLIC_SOURCE
+CASE000121,My exam registration is showing an error. Please help me.,Education,Negative,SYNTHETIC
+CASE002521,reimbusre {{Currency Symbol}}{{Refund Amount}},E-commerce,Negative,PUBLIC_SOURCE
+CASE000932,i do not know what i have to do to get bill #00108,E-commerce,Negative,PUBLIC_SOURCE
+CASE002771,i do not know what to do to download the invoice #37777,E-commerce,Negative,PUBLIC_SOURCE
+CASE001569,I'm waiting for an goddamn restitution of {{Refund Amount}} dollars,E-commerce,Negative,PUBLIC_SOURCE
+CASE003003,there is an issue setting up a shipping address,E-commerce,Negative,PUBLIC_SOURCE
+CASE000717,could I see in which cases can I ask to be refunded?,E-commerce,Negative,PUBLIC_SOURCE
+CASE001736,i cannot pay want help to report errors with payments,E-commerce,Negative,PUBLIC_SOURCE
+CASE002408,I have to notify of a payment error,E-commerce,Negative,PUBLIC_SOURCE
+CASE003002,"I lost my bill from {{Person Name}}, will you show it to me?",E-commerce,Negative,PUBLIC_SOURCE
+CASE002524,I need help to see your refund policy,E-commerce,Negative,PUBLIC_SOURCE
+CASE002621,can you help me check if there are any news on my refund?,E-commerce,Negative,PUBLIC_SOURCE
+CASE002456,error entering the new shipping address,E-commerce,Negative,PUBLIC_SOURCE
+CASE001344,"I do not want this item, I try to cancel order {{Order Number}}",E-commerce,Negative,PUBLIC_SOURCE
+CASE001648,i want help to file a customer complaint against ur business,E-commerce,Negative,PUBLIC_SOURCE
+CASE001520,i dont know how i can notify of a trouble with payments,E-commerce,Negative,PUBLIC_SOURCE
+CASE003153,assistance to know if there are any news on my refund,E-commerce,Negative,PUBLIC_SOURCE
+CASE000392,I lost my student ID card. What should I do? Please help me.,Education,Negative,SYNTHETIC
+CASE001891,I do not know what to do to get my bills from {{Person Name}},E-commerce,Negative,PUBLIC_SOURCE
+CASE002018,check purchase {{Order Number}} current status,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002928,assistance to file a reclamation against your business,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002138,where to earn several of your product?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003122,want help leaving a coment for ur products,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002758,ned assistance checking ur available payment methods,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000130,When will my business order be delivered? I need assistance.,Small Business,Neutral,SYNTHETIC
+CASE002903,how do I see your available payment modalities?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002877,where to ese how long the delivery takes,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001052,where to restore my account key?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002183,i need assistance deleting a {{Account Category}} account,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000513,I need assistance with a recent purchase. I need assistance.,Small Business,Neutral,SYNTHETIC
+CASE000110,how to use the freemium profile?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002991,I need assistance taking a quick look at my bill #12588,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002256,can you help me restore my fucking profile password?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001843,status of order {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE002629,"I have to locate bill #12588, can you help me?",E-commerce,Neutral,PUBLIC_SOURCE
+CASE001016,how do i see what options for delivery are available,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003035,help me to create a {{Account Type}} account,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001659,I am trying to retrieve the PIN of my user profile,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002668,I want help deleting something from purchase {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE002516,i need help checking the termination fee,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002696,switching to {{Account Category}} account,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001254,i need help seeing the goddamn eta of purchae {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE001177,"I want to write a comment, I need assistance",E-commerce,Neutral,PUBLIC_SOURCE
+CASE000024,want help to report a trouble with payment,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000140,How can I change our business subscription? Please help.,Small Business,Neutral,SYNTHETIC
+CASE000766,do you have a method to submit a review for your products?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000331,How do I change the business contact email? Please help.,Small Business,Neutral,SYNTHETIC
+CASE001381,can you help me to talk to somebody?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002020,I need assistance retrieving the PIN of my user,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001156,help me see your allowed payment options,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001419,show me your payment options,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003011,how to unsubscribe from ur company newsletter,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002471,need help to see ur available payment methods,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002087,"I bought some articles, how to cancel order {{Order Number}}?",E-commerce,Neutral,PUBLIC_SOURCE
+CASE001577,i have to subscribe to the corporate newsletter,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002800,help updating my address,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002478,can you help me see what hours I can call customer support?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002698,can i see what hours customer support availabl is,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000237,Can I return part of a business order?,Small Business,Neutral,SYNTHETIC
+CASE002452,where to check how soon can I expect the shipment?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003052,help me see purchase {{Order Number}} status,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002454,need assistance setting the delivery address up,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000899,I want to check how long the shipping takes,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002161,I don't know how I can get in touch with customer support,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002810,"I have to talk with customer support, I need help",E-commerce,Neutral,PUBLIC_SOURCE
+CASE002670,I need assistance adding several articles to order {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE001781,can ya help me to modify the delivery address,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002818,i need help seeing ur reimbursement policy,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003292,"I made a mistake, I want help editing order {{Order Number}}",E-commerce,Neutral,PUBLIC_SOURCE
+CASE001837,I want assistance to change to the freemium account,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002533,what do i have to do to locate my biull #85632,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000592,Can I get more information about this product? as soon as possible.,Small Business,Neutral,SYNTHETIC
+CASE001638,i need help to ese what hours i can reach customer support,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001239,I want to check what payment payment modalities yu accept,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002930,I don't know how to check my restitution status,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003050,see early exit penalty,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002359,I need assistance with canceling purchase {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE000668,I want assistance to check how soon can I expect the package,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001769,i want assistance seing the invoice from {{Person Name}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE002605,I need to speak to someone,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000299,Can I pay by bank transfer? Please help.,Small Business,Neutral,SYNTHETIC
+CASE002536,reset the access key of my account,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001829,I need assistance editing the address,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003022,assistance giving an quick look at my invoice from {{Person Name}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE001830,how to check the current status of purchase {{Order Number}}?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001903,ya have a free number to talk with customer service,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000212,can i contact someone,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002525,where to check what payment options are accepted?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001360,where can I get information about the shipping period?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003032,"I have got to close a premium account, I need help",E-commerce,Neutral,PUBLIC_SOURCE
+CASE002701,where can i enter a secondary shipping address,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002388,what do I need to do to recover the pwd of my profile?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000583,where to check at wnat time customer assistance available is,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001076,help mke chatting with a person,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001728,I call to send my feedback about your services,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001141,I'd like to see order {{Order Number}} current status will  uhelp me,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003066,open nw pro account for daughter,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001897,I want to retrieve my key,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003127,I am looking for information about a delivery address change,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002902,can uhelp me unsubscribing from the company newsletter,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000113,"For my business, can you provide the specifications for this product?",Small Business,Neutral,SYNTHETIC
+CASE000064,How do I upgrade our business plan?,Small Business,Neutral,SYNTHETIC
+CASE002801,modifying details on {{Account Type}} account,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003262,I have got to look for my bill #00108,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002438,help me seeing if there are any news on my reimbursement,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001394,Can I pay my tuition fees in installments? I need more information.,Education,Neutral,SYNTHETIC
+CASE000975,"I need to change to the pro account, how can I do it?",E-commerce,Neutral,PUBLIC_SOURCE
+CASE001122,want help to see the withdrawal charges,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001325,open freemium account for wife,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001373,want help to send my feedback for your rpoducts,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000773,i want assistance seeing the early exit charges,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002702,how can I cancel the newsletter subscription?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001910,how to download my bills from {{Person Name}}?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002919,can i check purchase {{Order Number}} status,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001160,I would like to cancel purchase {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE001925,I want information about updating order {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE002392,need assistance to use the platinum profile,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001835,help to check the ETA of order {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE002977,i need assistance to see when will my product arrive,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000742,how to speak with somebody ?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000701,I need to see in what situations can I ask to be reimbursed,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002994,I don't know what to do to chat with somebody,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001762,how do I check the accepted payment methods?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003113,I want help to see your available payment modalities,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001139,acquire an item,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002027,swap an article of order {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE000207,What happens if my attendance falls below the required percentage? Please help me.,Education,Neutral,SYNTHETIC
+CASE000851,download ibll #37777,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000880,I'm trying to recover the pwd of my use,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003180,download bills from {{Person Name}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE002625,i dont know what i need to do to change to the {{Account Type}} account,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001045,I try to see how soon can I expect my shipment,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002145,can I check how soon can I expect the parcel?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002341,add item to order {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE002985,where to see at what time I can call customer support?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002273,help to see in what cases can i request my money back,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002692,I don't know how to leave some feedback,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001237,how to use the pro profile,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001310,help me obtaining a reimbursement of money,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003219,I want assistance to swap some items of order {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE002542,how could i see what payment options ya accept,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002216,I have got to report a trouble with online payment,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000476,Is attendance compulsory for this subject? Please help me.,Education,Neutral,SYNTHETIC
+CASE001612,can ya help me obtaining restitutions of my money,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002824,where do I update the delivery address?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000928,I need help checking the early exit charge,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000386,Can I change my elective after course registration? Please help me.,Education,Neutral,SYNTHETIC
+CASE003201,want help to shop a few of ur article,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001389,I want to know more about creating a standard account,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003223,"I want to see the cancellation penalty, help me",E-commerce,Neutral,PUBLIC_SOURCE
+CASE000781,How can I pay the semester fees?,Education,Neutral,SYNTHETIC
+CASE002664,I want help making a ucstomer claim against your company,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001870,how to send some feedback about your company?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000698,I don't know how to see how soon can I expect my parcel,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000984,I want help cancelling purchase {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE003241,i need help trying to change the address,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001220,how can i get information about pro account cancellations,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000153,modifying information on pro account,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000535,How can I pay my semester fees? Please help me.,Education,Neutral,SYNTHETIC
+CASE001599,updating purchase {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE002376,could I cancel my corporate newsletter subscription?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003129,change info on {{Account Type}} account,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002479,need to receive reimbursements of my money,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001351,I need help to see the early exit fees,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000944,edit info on {{Account Category}} account,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000929,I need help with a business order.,Small Business,Neutral,SYNTHETIC
+CASE002665,is it possible to change to the {{Account Type}} account?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002008,updating {{Account Category}} account,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003046,I would like to know about changing my delivery address,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000935,i have problesm with my forgotten pwd,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000669,could I retrieve the password of my user account?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003265,where do I order something?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002517,want assistance trying to update my shipping address,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001414,where can I find information about {{Account Type}} account terminations?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003147,I need assistance to check the early exit penalty,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000267,I have to see the options for shipping,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002858,can you help me to set a shipping address up?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002690,can you help me seeing the options for delivery?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000752,Can you help me? how can I get my student ID card?,Education,Neutral,SYNTHETIC
+CASE003173,I am looking for information about a pro account removal,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001595,I have got to see what hours I can reach customer service,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000636,can uhelp me see my reimbursement current status,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002240,i need assistance to check how long the shgipment takes,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003088,I need help to speak to a bloody human agent,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001884,want assistance to get the bills from {{Person Name}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE002809,help me to use the gold profile,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002430,"I want to check how long the shipment taes, how can I do it?",E-commerce,Neutral,PUBLIC_SOURCE
+CASE000643,ya have an address to submit some feednack,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003188,i need help seeing the delivery methods,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001444,I need help seeing my invoices from {{Person Name}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE001971,how can I ask for a restitution of my money?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002609,I have got to unsubscribe from your newsletter,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000126,Can you send me a copy of the invoice? Please help.,Small Business,Neutral,SYNTHETIC
+CASE000251,How can I pay for my business order? Please help.,Small Business,Neutral,SYNTHETIC
+CASE000016,Can you send me a copy of the invoice? I need assistance.,Small Business,Neutral,SYNTHETIC
+CASE000350,Can I get more information about this product? Please help.,Small Business,Neutral,SYNTHETIC
+CASE000925,where do i subscribe to ur corporate newsletter,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002955,help with canceling purchase {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE002316,what do I need to do to remove the {{Account Type}} account?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003325,can I place an order from {{Delivery City}}?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003120,want help to track the reimbursement,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001303,how do I see order {{Order Number}} current status?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002666,need to change something of purchase {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE002921,i need assistance looking for the bills from {{Person Name}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE003334,"I havve to sign up to the newsletter, I need assistance",E-commerce,Neutral,PUBLIC_SOURCE
+CASE000377,Can you help me? can I edit my exam registration after submitting it?,Education,Neutral,SYNTHETIC
+CASE002657,i dont know what i havr to do to download the invoice #00108,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002387,could you help me to check what delivery methods I have?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001995,assistance seeing the status of my newsletter subscription,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002924,I want to open a {{Account Category}} account,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001150,can i place an order from {{Delivery City}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE000618,need help to download my invoice #37777,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002767,"I want to see your money back guarantee, how can I do it?",E-commerce,Neutral,PUBLIC_SOURCE
+CASE000862,"I have to create a platinum account, help me",E-commerce,Neutral,PUBLIC_SOURCE
+CASE002640,I need help checking your payment modalities,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001879,help to use the pro profile,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001064,want assistanfe to shop several damn articles,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001613,changing info on freemium account,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002972,I want help to recover the PIN of my user profile,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001109,how do I create a {{Account Type}} account for my daughter?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000458,check what payment options are available,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000399,editing {{Account Category}} account,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003305,help me entering my secondary delivery address,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001673,help to speak with customer support,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002900,i need help reporting a trouble with online payments,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001082,I need hdlp to submit my feedback for a product,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002836,"I would like to do a purchase, can you help me?",E-commerce,Neutral,PUBLIC_SOURCE
+CASE000372,"For my business, i need help with a business order.",Small Business,Neutral,SYNTHETIC
+CASE000051,"For my business, can I pay by bank transfer?",Small Business,Neutral,SYNTHETIC
+CASE000185,i try to seehow long it takes for my package to arrive,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002194,I want help to set my new delivery address up,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000626,need assistance leaving a commnet for your services,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001524,I try to see what hours customer service aailable is,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002211,check status of order,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002481,acn i switch to the pro account,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000970,I want supports changing the shipping address,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001755,need to create an standard account,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002107,"I would like to shop some of your product, how to do it?",E-commerce,Neutral,PUBLIC_SOURCE
+CASE000568,correcting data on {{Account Type}} accoujnt,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002904,I want help restoring my user account PIN,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002085,closing freemium account,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001720,help me to check what payment methods are available,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001230,I don't know what I have to do to see the termination fees,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000858,Can I change the delivery address? as soon as possible.,Small Business,Neutral,SYNTHETIC
+CASE000886,"I have got to shop a damn item, how to do it?",E-commerce,Neutral,PUBLIC_SOURCE
+CASE000816,how could I purchase several products?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002876,remove pro accoint,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002886,want help sending some feedback for your prfoducts,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001932,could uhelp me to contact an assistant,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003101,help to biy some of ur article,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002019,"I have to acquire a bloody item, I need assistance",E-commerce,Neutral,PUBLIC_SOURCE
+CASE001634,help submitting some feedback for ur products,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000834,assistance to talk to customer support,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000999,How can I contact customer support? I need assistance.,Small Business,Neutral,SYNTHETIC
+CASE000166,"I have to correct purchase {{Order Number}}, I need assistance",E-commerce,Neutral,PUBLIC_SOURCE
+CASE002891,lodging reclamation against your company,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002424,I need assistance seeing what payment options are allowed,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000226,Can you help me? how do I register for campus placements?,Education,Neutral,SYNTHETIC
+CASE000252,When will the semester exam timetable be released? Please help me.,Education,Neutral,SYNTHETIC
+CASE002482,I want to see what payment options are availabl,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000192,I need a copy of the examination timetable. Please help me.,Education,Neutral,SYNTHETIC
+CASE000464,How do I return a product? I need assistance.,Small Business,Neutral,SYNTHETIC
+CASE001603,I want information about changing the delivery address,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001471,could you help me talking with customer assistance?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003304,can I see what delivery options are there?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003327,can uhelp me see the currnt status of order {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE001994,clsoe {{Account Category}} account,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001466,I would like to see the termination charges,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000660,How do I change the business contact email? as soon as possible.,Small Business,Neutral,SYNTHETIC
+CASE002837,I want assistance canceling purchyase {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE000615,how to see your goddamn reimbursement policy?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001292,can you help me unsubscribe to the newsletter?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003297,help filing a reclamation against your business,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000162,can uhelp me ti leave a damn review for a product,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000471,order {{Order Number}} current status,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002287,could uhelp me to check the early exit fee,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001226,could you help me seeing when will my parcel arrive?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001764,I don't know how to demand a restitution of money,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001146,I don't know what I need to do to download invoice #37777,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001489,"I have to check the early exit fees, help me",E-commerce,Neutral,PUBLIC_SOURCE
+CASE000540,I have to conract customer assistance,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002981,i need help to add several product to order {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE001510,I need assistance to see what delivery methods are there,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001921,remove premium account,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002337,want helpmaking a consumer reclamation against ur company,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001278,can you help me purchasing a damn item?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002142,check invoice #85632,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000223,How do I update my business account details? Please help.,Small Business,Neutral,SYNTHETIC
+CASE001718,where to get a restitution of my money,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001111,want assistance to leave an opinion about a service,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000063,What are the eligibility requirements for scholarships?,Education,Neutral,SYNTHETIC
+CASE000320,getting invoice from January,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001504,I need help getting in touch with customer assistance,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002114,I don't know how I can cancel purchase {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE001288,need assstance to file a consumer claim against your company,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000799,is it possible to shop an item,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003339,I want help to update some of the details on my user account,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000864,i aint registered yet could i open a pro account withyou,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001966,i cant switch several aritcles of purchase {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE003181,need to check what hours i can reach customer service,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000553,I try to submit the new delivery address,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002602,"you are not helpful at all, help me contacting somebody",E-commerce,Neutral,PUBLIC_SOURCE
+CASE003015,hsipping to {{Delivery Country}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE002395,i need help to submit my feedback for a service,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003020,how can I inform of a trouble with payhments?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001299,help to check in which cases can i erquest my money back,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001312,show cancellation charges,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001267,help to receive your newslettyer,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001185,i try to check how long itg takes for the shipment to arrive,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001077,help me see the options for shipping,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001854,"I want to see how soon can I expect the order, how to do it?",E-commerce,Neutral,PUBLIC_SOURCE
+CASE001856,how can i talk to customer assitance,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001117,where could I check the current status of my restitution?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002863,I want help listing your allowed payment methods,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001712,need assistance with canceling order {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE001650,can you help me checking the early exit charges?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000897,i need help to see purchase {{Order Number}} status,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000973,i hjave to use the {{Account Category}} profile can i get some help,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002872,remove {{Account Type}} account,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002136,I don't know what I have to do to see the bill #00108,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000001,"For my business, can I change the delivery address?",Small Business,Neutral,SYNTHETIC
+CASE000186,I try to check what payment options are allowed,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001304,where do I see the termination penalties?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000431,What is your return policy? Please help.,Small Business,Neutral,SYNTHETIC
+CASE002426,I need help to ask for a rebate of my money,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001487,what do i have to do to find my bills from {{Person Name}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE001597,I need assistance with a recent purchase. Please help.,Small Business,Neutral,SYNTHETIC
+CASE000483,how do I talk to an operator?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003145,I don't know how to check the early termination penalty,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003182,i need assistance checking my rebate status,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000930,need assistance to see the ETA of the purchase {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE002529,what do i need to do to correct my shippign address,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002393,assistance to retrieve the key of my user profile,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002710,how can I lodge a customer claim?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002239,want assistance to download my invoice #12588,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002470,I have got to subscribe to the corporate newsletter,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000015,Can you help me? i need a copy of the examination timetable.,Education,Neutral,SYNTHETIC
+CASE000117,How do I renew a library book? Please help me.,Education,Neutral,SYNTHETIC
+CASE000156,correct data on premium account,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002560,where can i send some feedback for ur company,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000661,wanna remove a {{Account Type}} account can ya helpme,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001565,where do I check how long it takes for my item to arrive?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001583,what do I have to do to buy some items?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002667,need to check ur accepted payment options,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000269,where can I get information about a gold account removal?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003083,can you help me downloading the invoice #12588?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002348,i have to open a {{Account Category}} account for my dad,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002427,how to see how long it takes for my delivery to arrive?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002570,I need help purchasing several of your product,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003029,I need help cancelling purchase {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE000604,I try to see in what cases can I ask to be reimbursed,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000687,Can you help me? can I change my elective after course registration?,Education,Neutral,SYNTHETIC
+CASE002151,see under what circumstances can i ask for reimbursements,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001822,"I can no longer afford purchase {{Order Number}}, cancel it",E-commerce,Neutral,PUBLIC_SOURCE
+CASE001485,i want assistance trying to update my address,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000138,could i swap some goddamn products of order {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE000406,Where is my shipment? as soon as possible.,Small Business,Neutral,SYNTHETIC
+CASE002586,can I get my bill from {{Person Name}}?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000740,How can I check the status of my business order? Please help.,Small Business,Neutral,SYNTHETIC
+CASE001433,order {{Order Number}} status,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000058,How can I get my student ID card? Please help me.,Education,Neutral,SYNTHETIC
+CASE002125,"I need to speak with customer support, help me",E-commerce,Neutral,PUBLIC_SOURCE
+CASE002007,I don't know how I could see the cancellation penalties,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001352,"I am looking for shipping period, will you help me?",E-commerce,Neutral,PUBLIC_SOURCE
+CASE000836,i need help checking the ET of the purchase {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE003312,reporting troubles with online payment,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000642,can I check the bloody payment methods?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002935,"I have got to submit the secondary shipping address, help me",E-commerce,Neutral,PUBLIC_SOURCE
+CASE000801,want help to see the termination charge,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002917,I need to see the current status of the compensation,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003133,cancel order {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE000184,setting up new shipping address,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002931,I don't know how to see what delivery options I have,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002762,I need help to check what shipping methods are available,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000382,I need assistanc canceling the newsletter subscription,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001423,I have to find the bills from {{Person Name}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE001700,I need help seeing the bloody termination penalty,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002423,"I have to cancel purchase {{Order Number}}, can I get some help?",E-commerce,Neutral,PUBLIC_SOURCE
+CASE000659,What time does my examination start? I need more information.,Education,Neutral,SYNTHETIC
+CASE000663,"I don't have a premium account, how do I sign up?",E-commerce,Neutral,PUBLIC_SOURCE
+CASE002221,download bill from {{Person Name}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE003065,can I unsubscribe from your newsletter?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002422,I am trying to purchase a product,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001169,can I see the accepted payment modalities?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001888,need help to speak to a uhman agent,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001204,is it possible to talk with customer assistance?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001630,can I open a {{Account Type}} account?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002291,need assistance with opening my {{Account Type}} account,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000451,how to reset the damn password of my user?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000213,I need to change an order I placed. Please help.,Small Business,Neutral,SYNTHETIC
+CASE001491,i dont know what to do to locate my bill from {{Person Name}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE002488,could you help me to unsubscribe to the damn newsletter?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002004,what do I need to do to order something?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001264,can I check order {{Order Number}} current status?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001663,i bought somegoddamn item how do i cancel order {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE001302,find information about modifying my address,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001766,I want help talking with an assistant,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000646,will ya shwo me the eta of order {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE002954,need help to set my delivery address up,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002684,I don't know how I can submit some feedback,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001924,I don't know what I have to do to see my compensation status,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002849,"I need to call damn customer support, how could I do it?",E-commerce,Neutral,PUBLIC_SOURCE
+CASE002353,can you help me seeing when my article is going to arrive?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000756,I don't know what I have to do to download my invoice #12588,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002708,i want help leaving a comment,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001342,I would like to list the payment modalities,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002719,correct information on gold account,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001235,will you transfer to me somebody?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002413,how do I check what hours I can call customer support?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001187,help me writing an opinion for your products,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002350,can you help me to speak with a bloody operator?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002189,can i send my feedback about ur services,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000607,Can I pay by bank transfer? as soon as possible.,Small Business,Neutral,SYNTHETIC
+CASE000590,Can I cancel my business order?,Small Business,Neutral,SYNTHETIC
+CASE002585,can I order from {{Delivery Country}}?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002197,I need help to receive an reimbursement of money,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000889,could you help me create a standard account for my daughter?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000848,editing data on {{Account Category}} acocunt,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002101,can ya help me checking the withrawal fee,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003140,want help to remove several products from purchase {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE002034,how to check the current status of order {{Order Number}}?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002141,"I have got to leave a review about your company, help me",E-commerce,Neutral,PUBLIC_SOURCE
+CASE002582,I have to update my shipping address,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003146,can you help me to inform of a trouble with payment?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002938,i need assistance using the platinum account,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002052,what do i need to do to change to the {{Account Type}} account,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001714,where can I buy some of your article?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002804,"I have to check the early exit fee, I need assistance",E-commerce,Neutral,PUBLIC_SOURCE
+CASE000125,How many books can I borrow from the library? Please help me.,Education,Neutral,SYNTHETIC
+CASE001428,I want help to contact an assistant,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002249,where do I see my rebate status?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002365,"I need to leave some feedback, can I get some help?",E-commerce,Neutral,PUBLIC_SOURCE
+CASE001763,assistance to recover the key of my user profile,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000681,where can i unsubscribe from ur fucking  newsletter,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002711,do you deliver to {{Delivery City}}?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001954,what do I have to do to use the {{Account Category}} profile?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000097,Is this product available in bulk quantities? as soon as possible.,Small Business,Neutral,SYNTHETIC
+CASE001503,i have got to acquire somethingi need assistance,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001743,I'm trying to see the eta of purchase {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE001920,could you help me check hte cancellation penalties?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001307,i have got to reset my account pwd,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003106,assistance to purchase a few of your product,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003264,help me checking the status of my newsletter subscription,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002689,i need assistance to create a {{Account Type}} account,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000290,where could i see the eta of order {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE001752,assistance taking a quick look at the bill #00108,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002557,help me list your accepted payment methods,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002443,i need assistance getting my bill from {{Person Name}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE000460,What is the minimum order quantity? Please help.,Small Business,Neutral,SYNTHETIC
+CASE002282,help using the {{Account Type}} profile,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000233,I need assistance to check the early termination fee,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001928,i need help to add something to order {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE001345,want help to leave some feedback about your services,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000779,What payment methods do you accept for business customers? as soon as possible.,Small Business,Neutral,SYNTHETIC
+CASE001127,where to see how long it takes for the item to arrive?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000814,How can I pay for my business order? as soon as possible.,Small Business,Neutral,SYNTHETIC
+CASE000582,can uhelpp me filing a reclamation against ur business,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002067,get invoices from {{Person Name}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE002650,i try to rettieve my profile access key,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001247,where could I edit my delivery address?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000591,Can I cancel my business order? as soon as possible.,Small Business,Neutral,SYNTHETIC
+CASE001568,I want somebody,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002784,could you help me deleting a platinum account?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000175,How do I upgrade our business plan? Please help.,Small Business,Neutral,SYNTHETIC
+CASE002766,i want assistance to shop a product,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001642,I need assistance changing the user information,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002190,"I have to update order {{Order Number}}, I need assistance",E-commerce,Neutral,PUBLIC_SOURCE
+CASE000630,i want help requesting a reimbursement of moey,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002753,editing information on account,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002597,can uhelp me to get the invoice #12588,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001968,"I have to edit some of my user details, how to do it?",E-commerce,Neutral,PUBLIC_SOURCE
+CASE001015,i have got to retrieve my account pin how could i do it,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002522,I need assistance lodging a claim,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000600,"I have got to see what shipping methods are there, help me",E-commerce,Neutral,PUBLIC_SOURCE
+CASE001140,is it possible to place an order from {{Delivery City}} ?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001615,can you help me seeing the cancellation charges?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002111,I call to check the shipment options,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000387,"For my business, where is my shipment?",Small Business,Neutral,SYNTHETIC
+CASE000432,i want information about the removal of a standard account,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000718,Where can I view the grades?,Education,Neutral,SYNTHETIC
+CASE000850,How many classes can I miss this semester? I need more information.,Education,Neutral,SYNTHETIC
+CASE003044,help me getting reimbursements of my money,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001087,where can I find information about my pro account removal?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003075,I want assistance to demand rebates of money,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002254,I want assistance to request my money back,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001934,I am trying to see the status of order {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE001356,need assistance to see how soon can I expect my article,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000715,What features are included in the business subscription? Please help.,Small Business,Neutral,SYNTHETIC
+CASE000082,"For my business, can I cancel my business order?",Small Business,Neutral,SYNTHETIC
+CASE000968,can you help me check how soon can I expect the product?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001782,how can I see the status of purchae {{Order Number}}?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002016,I need assistance checking your reimbursement policy,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001407,I need to change an order I placed. as soon as possible.,Small Business,Neutral,SYNTHETIC
+CASE001022,i need assistance ordering some articles,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002704,what is the customer service mail,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002571,I have got to contact customre support,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001993,support updating my address,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000570,I'm trying to submit some feedback about a service,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000530,Where can I view my grades? Please help me.,Education,Neutral,SYNTHETIC
+CASE001716,is it possible to get my bill #00108?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000062,Where can I find the vendor details for my order? Please help.,Small Business,Neutral,SYNTHETIC
+CASE003298,change info on platinum account,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002616,add product to purchase {{Order Number}},E-commerce,Neutral,PUBLIC_SOURCE
+CASE003233,needc to talk to an assistant,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000169,showing me order {{Order Number}} status,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001758,wana swap a damn product of order {{Order Number}} help me,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000280,Can you help me? what documents are required for a scholarship?,Education,Neutral,SYNTHETIC
+CASE003273,I want help seeing how soonj can I expect my parcel,E-commerce,Neutral,PUBLIC_SOURCE
+CASE003194,can ya help me receive rebates,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001135,can I send feedback for a service?,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001969,help to talk to customer service,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001518,I would like to see what hours I can call customer support,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002750,i dont know how i could see when my shipment is gonna arrive,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002407,help checking in which cases can I ask for reimbursements,E-commerce,Neutral,PUBLIC_SOURCE
+CASE002911,wanna ask for a compensatin of money,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000466,"I need to cancel a {{Account Type}} account, could you help me?",E-commerce,Neutral,PUBLIC_SOURCE
+CASE000802,help me using the {{Account Type}} profile,E-commerce,Neutral,PUBLIC_SOURCE
+CASE000543,edit information onfree account,E-commerce,Neutral,PUBLIC_SOURCE
+CASE001645,"I am unhappy with your work, I want to file a consumer claim",E-commerce,Positive,PUBLIC_SOURCE
+CASE001439,"I ain't happy with your work, I need to make a reclamation",E-commerce,Positive,PUBLIC_SOURCE
+CASE002166,"you aren't helpful, how can I chat wiuth someone?",E-commerce,Positive,PUBLIC_SOURCE
+CASE000730,i need assistance to set my new delovery address up,E-commerce,Positive,PUBLIC_SOURCE
+CASE001963,"I ain't happy with your work, help lodging a consumer claim",E-commerce,Positive,PUBLIC_SOURCE
+CASE002164,"I ain't happy with your service, I want help filing a claim",E-commerce,Positive,PUBLIC_SOURCE
+POS00001,"Thank you, that solved my issue.",E-commerce,Positive,SYNTHETIC
+POS00002,Thanks for the quick help with my request.,Education,Positive,SYNTHETIC
+POS00003,I am happy with the support I received.,Small Business,Positive,SYNTHETIC
+POS00004,"The issue was resolved successfully, thank you.",E-commerce,Positive,SYNTHETIC
+POS00005,"Great support, my problem is fixed.",Education,Positive,SYNTHETIC
+POS00006,I appreciate the assistance with my account.,Small Business,Positive,SYNTHETIC
+POS00007,Thank you for explaining the process clearly.,E-commerce,Positive,SYNTHETIC
+POS00008,The resolution worked perfectly for me.,Education,Positive,SYNTHETIC
+POS00009,I am satisfied with the support provided.,Small Business,Positive,SYNTHETIC
+POS00010,Thanks for helping me complete my request.,E-commerce,Positive,SYNTHETIC
+POS00011,"Thank you, that solved my issue.",Education,Positive,SYNTHETIC
+POS00012,Thanks for the quick help with my request.,Small Business,Positive,SYNTHETIC
+POS00013,I am happy with the support I received.,E-commerce,Positive,SYNTHETIC
+POS00014,"The issue was resolved successfully, thank you.",Education,Positive,SYNTHETIC
+POS00015,"Great support, my problem is fixed.",Small Business,Positive,SYNTHETIC
+POS00016,I appreciate the assistance with my account.,E-commerce,Positive,SYNTHETIC
+POS00017,Thank you for explaining the process clearly.,Education,Positive,SYNTHETIC
+POS00018,The resolution worked perfectly for me.,Small Business,Positive,SYNTHETIC
+POS00019,I am satisfied with the support provided.,E-commerce,Positive,SYNTHETIC
+POS00020,Thanks for helping me complete my request.,Education,Positive,SYNTHETIC
+POS00021,"Thank you, that solved my issue.",Small Business,Positive,SYNTHETIC
+POS00022,Thanks for the quick help with my request.,E-commerce,Positive,SYNTHETIC
+POS00023,I am happy with the support I received.,Education,Positive,SYNTHETIC
+POS00024,"The issue was resolved successfully, thank you.",Small Business,Positive,SYNTHETIC
+POS00025,"Great support, my problem is fixed.",E-commerce,Positive,SYNTHETIC
+POS00026,I appreciate the assistance with my account.,Education,Positive,SYNTHETIC
+POS00027,Thank you for explaining the process clearly.,Small Business,Positive,SYNTHETIC
+POS00028,The resolution worked perfectly for me.,E-commerce,Positive,SYNTHETIC
+POS00029,I am satisfied with the support provided.,Education,Positive,SYNTHETIC
+POS00030,Thanks for helping me complete my request.,Small Business,Positive,SYNTHETIC
+POS00031,"Thank you, that solved my issue.",E-commerce,Positive,SYNTHETIC
+POS00032,Thanks for the quick help with my request.,Education,Positive,SYNTHETIC
+POS00033,I am happy with the support I received.,Small Business,Positive,SYNTHETIC
+POS00034,"The issue was resolved successfully, thank you.",E-commerce,Positive,SYNTHETIC
+POS00035,"Great support, my problem is fixed.",Education,Positive,SYNTHETIC
+POS00036,I appreciate the assistance with my account.,Small Business,Positive,SYNTHETIC
+POS00037,Thank you for explaining the process clearly.,E-commerce,Positive,SYNTHETIC
+POS00038,The resolution worked perfectly for me.,Education,Positive,SYNTHETIC
+POS00039,I am satisfied with the support provided.,Small Business,Positive,SYNTHETIC
+POS00040,Thanks for helping me complete my request.,E-commerce,Positive,SYNTHETIC
+POS00041,"Thank you, that solved my issue.",Education,Positive,SYNTHETIC
+POS00042,Thanks for the quick help with my request.,Small Business,Positive,SYNTHETIC
+POS00043,I am happy with the support I received.,E-commerce,Positive,SYNTHETIC
+POS00044,"The issue was resolved successfully, thank you.",Education,Positive,SYNTHETIC
+POS00045,"Great support, my problem is fixed.",Small Business,Positive,SYNTHETIC
+POS00046,I appreciate the assistance with my account.,E-commerce,Positive,SYNTHETIC
+POS00047,Thank you for explaining the process clearly.,Education,Positive,SYNTHETIC
+POS00048,The resolution worked perfectly for me.,Small Business,Positive,SYNTHETIC
+POS00049,I am satisfied with the support provided.,E-commerce,Positive,SYNTHETIC
+POS00050,Thanks for helping me complete my request.,Education,Positive,SYNTHETIC
+POS00051,"Thank you, that solved my issue.",Small Business,Positive,SYNTHETIC
+POS00052,Thanks for the quick help with my request.,E-commerce,Positive,SYNTHETIC
+POS00053,I am happy with the support I received.,Education,Positive,SYNTHETIC
+POS00054,"The issue was resolved successfully, thank you.",Small Business,Positive,SYNTHETIC
+POS00055,"Great support, my problem is fixed.",E-commerce,Positive,SYNTHETIC
+POS00056,I appreciate the assistance with my account.,Education,Positive,SYNTHETIC
+POS00057,Thank you for explaining the process clearly.,Small Business,Positive,SYNTHETIC
+POS00058,The resolution worked perfectly for me.,E-commerce,Positive,SYNTHETIC
+POS00059,I am satisfied with the support provided.,Education,Positive,SYNTHETIC
+POS00060,Thanks for helping me complete my request.,Small Business,Positive,SYNTHETIC
+POS00061,"Thank you, that solved my issue.",E-commerce,Positive,SYNTHETIC
+POS00062,Thanks for the quick help with my request.,Education,Positive,SYNTHETIC
+POS00063,I am happy with the support I received.,Small Business,Positive,SYNTHETIC
+POS00064,"The issue was resolved successfully, thank you.",E-commerce,Positive,SYNTHETIC
+POS00065,"Great support, my problem is fixed.",Education,Positive,SYNTHETIC
+POS00066,I appreciate the assistance with my account.,Small Business,Positive,SYNTHETIC
+POS00067,Thank you for explaining the process clearly.,E-commerce,Positive,SYNTHETIC
+POS00068,The resolution worked perfectly for me.,Education,Positive,SYNTHETIC
+POS00069,I am satisfied with the support provided.,Small Business,Positive,SYNTHETIC
+POS00070,Thanks for helping me complete my request.,E-commerce,Positive,SYNTHETIC
+POS00071,"Thank you, that solved my issue.",Education,Positive,SYNTHETIC
+POS00072,Thanks for the quick help with my request.,Small Business,Positive,SYNTHETIC
+POS00073,I am happy with the support I received.,E-commerce,Positive,SYNTHETIC
+POS00074,"The issue was resolved successfully, thank you.",Education,Positive,SYNTHETIC
+POS00075,"Great support, my problem is fixed.",Small Business,Positive,SYNTHETIC
+POS00076,I appreciate the assistance with my account.,E-commerce,Positive,SYNTHETIC
+POS00077,Thank you for explaining the process clearly.,Education,Positive,SYNTHETIC
+POS00078,The resolution worked perfectly for me.,Small Business,Positive,SYNTHETIC
+POS00079,I am satisfied with the support provided.,E-commerce,Positive,SYNTHETIC
+POS00080,Thanks for helping me complete my request.,Education,Positive,SYNTHETIC
+POS00081,"Thank you, that solved my issue.",Small Business,Positive,SYNTHETIC
+POS00082,Thanks for the quick help with my request.,E-commerce,Positive,SYNTHETIC
+POS00083,I am happy with the support I received.,Education,Positive,SYNTHETIC
+POS00084,"The issue was resolved successfully, thank you.",Small Business,Positive,SYNTHETIC
+POS00085,"Great support, my problem is fixed.",E-commerce,Positive,SYNTHETIC
+POS00086,I appreciate the assistance with my account.,Education,Positive,SYNTHETIC
+POS00087,Thank you for explaining the process clearly.,Small Business,Positive,SYNTHETIC
+POS00088,The resolution worked perfectly for me.,E-commerce,Positive,SYNTHETIC
+POS00089,I am satisfied with the support provided.,Education,Positive,SYNTHETIC
+POS00090,Thanks for helping me complete my request.,Small Business,Positive,SYNTHETIC
+POS00091,"Thank you, that solved my issue.",E-commerce,Positive,SYNTHETIC
+POS00092,Thanks for the quick help with my request.,Education,Positive,SYNTHETIC
+POS00093,I am happy with the support I received.,Small Business,Positive,SYNTHETIC
+POS00094,"The issue was resolved successfully, thank you.",E-commerce,Positive,SYNTHETIC
+POS00095,"Great support, my problem is fixed.",Education,Positive,SYNTHETIC
+POS00096,I appreciate the assistance with my account.,Small Business,Positive,SYNTHETIC
+POS00097,Thank you for explaining the process clearly.,E-commerce,Positive,SYNTHETIC
+POS00098,The resolution worked perfectly for me.,Education,Positive,SYNTHETIC
+POS00099,I am satisfied with the support provided.,Small Business,Positive,SYNTHETIC
+POS00100,Thanks for helping me complete my request.,E-commerce,Positive,SYNTHETIC
+POS00101,"Thank you, that solved my issue.",Education,Positive,SYNTHETIC
+POS00102,Thanks for the quick help with my request.,Small Business,Positive,SYNTHETIC
+POS00103,I am happy with the support I received.,E-commerce,Positive,SYNTHETIC
+POS00104,"The issue was resolved successfully, thank you.",Education,Positive,SYNTHETIC
+POS00105,"Great support, my problem is fixed.",Small Business,Positive,SYNTHETIC
+POS00106,I appreciate the assistance with my account.,E-commerce,Positive,SYNTHETIC
+POS00107,Thank you for explaining the process clearly.,Education,Positive,SYNTHETIC
+POS00108,The resolution worked perfectly for me.,Small Business,Positive,SYNTHETIC
+POS00109,I am satisfied with the support provided.,E-commerce,Positive,SYNTHETIC
+POS00110,Thanks for helping me complete my request.,Education,Positive,SYNTHETIC
+POS00111,"Thank you, that solved my issue.",Small Business,Positive,SYNTHETIC
+POS00112,Thanks for the quick help with my request.,E-commerce,Positive,SYNTHETIC
+POS00113,I am happy with the support I received.,Education,Positive,SYNTHETIC
+POS00114,"The issue was resolved successfully, thank you.",Small Business,Positive,SYNTHETIC
+POS00115,"Great support, my problem is fixed.",E-commerce,Positive,SYNTHETIC
+POS00116,I appreciate the assistance with my account.,Education,Positive,SYNTHETIC
+POS00117,Thank you for explaining the process clearly.,Small Business,Positive,SYNTHETIC
+POS00118,The resolution worked perfectly for me.,E-commerce,Positive,SYNTHETIC
+POS00119,I am satisfied with the support provided.,Education,Positive,SYNTHETIC
+POS00120,Thanks for helping me complete my request.,Small Business,Positive,SYNTHETIC
+POS00121,"Thank you, that solved my issue.",E-commerce,Positive,SYNTHETIC
+POS00122,Thanks for the quick help with my request.,Education,Positive,SYNTHETIC
+POS00123,I am happy with the support I received.,Small Business,Positive,SYNTHETIC
+POS00124,"The issue was resolved successfully, thank you.",E-commerce,Positive,SYNTHETIC
+POS00125,"Great support, my problem is fixed.",Education,Positive,SYNTHETIC
+POS00126,I appreciate the assistance with my account.,Small Business,Positive,SYNTHETIC
+POS00127,Thank you for explaining the process clearly.,E-commerce,Positive,SYNTHETIC
+POS00128,The resolution worked perfectly for me.,Education,Positive,SYNTHETIC
+POS00129,I am satisfied with the support provided.,Small Business,Positive,SYNTHETIC
+POS00130,Thanks for helping me complete my request.,E-commerce,Positive,SYNTHETIC
+POS00131,"Thank you, that solved my issue.",Education,Positive,SYNTHETIC
+POS00132,Thanks for the quick help with my request.,Small Business,Positive,SYNTHETIC
+POS00133,I am happy with the support I received.,E-commerce,Positive,SYNTHETIC
+POS00134,"The issue was resolved successfully, thank you.",Education,Positive,SYNTHETIC
+POS00135,"Great support, my problem is fixed.",Small Business,Positive,SYNTHETIC
+POS00136,I appreciate the assistance with my account.,E-commerce,Positive,SYNTHETIC
+POS00137,Thank you for explaining the process clearly.,Education,Positive,SYNTHETIC
+POS00138,The resolution worked perfectly for me.,Small Business,Positive,SYNTHETIC
+POS00139,I am satisfied with the support provided.,E-commerce,Positive,SYNTHETIC
+POS00140,Thanks for helping me complete my request.,Education,Positive,SYNTHETIC
+POS00141,"Thank you, that solved my issue.",Small Business,Positive,SYNTHETIC
+POS00142,Thanks for the quick help with my request.,E-commerce,Positive,SYNTHETIC
+POS00143,I am happy with the support I received.,Education,Positive,SYNTHETIC
+POS00144,"The issue was resolved successfully, thank you.",Small Business,Positive,SYNTHETIC
+POS00145,"Great support, my problem is fixed.",E-commerce,Positive,SYNTHETIC
+POS00146,I appreciate the assistance with my account.,Education,Positive,SYNTHETIC
+POS00147,Thank you for explaining the process clearly.,Small Business,Positive,SYNTHETIC
+POS00148,The resolution worked perfectly for me.,E-commerce,Positive,SYNTHETIC
+POS00149,I am satisfied with the support provided.,Education,Positive,SYNTHETIC
+POS00150,Thanks for helping me complete my request.,Small Business,Positive,SYNTHETIC
+POS00151,"Thank you, that solved my issue.",E-commerce,Positive,SYNTHETIC
+POS00152,Thanks for the quick help with my request.,Education,Positive,SYNTHETIC
+POS00153,I am happy with the support I received.,Small Business,Positive,SYNTHETIC
+POS00154,"The issue was resolved successfully, thank you.",E-commerce,Positive,SYNTHETIC
+POS00155,"Great support, my problem is fixed.",Education,Positive,SYNTHETIC
+POS00156,I appreciate the assistance with my account.,Small Business,Positive,SYNTHETIC
+POS00157,Thank you for explaining the process clearly.,E-commerce,Positive,SYNTHETIC
+POS00158,The resolution worked perfectly for me.,Education,Positive,SYNTHETIC
+POS00159,I am satisfied with the support provided.,Small Business,Positive,SYNTHETIC
+POS00160,Thanks for helping me complete my request.,E-commerce,Positive,SYNTHETIC
+POS00161,"Thank you, that solved my issue.",Education,Positive,SYNTHETIC
+POS00162,Thanks for the quick help with my request.,Small Business,Positive,SYNTHETIC
+POS00163,I am happy with the support I received.,E-commerce,Positive,SYNTHETIC
+POS00164,"The issue was resolved successfully, thank you.",Education,Positive,SYNTHETIC
+POS00165,"Great support, my problem is fixed.",Small Business,Positive,SYNTHETIC
+POS00166,I appreciate the assistance with my account.,E-commerce,Positive,SYNTHETIC
+POS00167,Thank you for explaining the process clearly.,Education,Positive,SYNTHETIC
+POS00168,The resolution worked perfectly for me.,Small Business,Positive,SYNTHETIC
+POS00169,I am satisfied with the support provided.,E-commerce,Positive,SYNTHETIC
+POS00170,Thanks for helping me complete my request.,Education,Positive,SYNTHETIC
+POS00171,"Thank you, that solved my issue.",Small Business,Positive,SYNTHETIC
+POS00172,Thanks for the quick help with my request.,E-commerce,Positive,SYNTHETIC
+POS00173,I am happy with the support I received.,Education,Positive,SYNTHETIC
+POS00174,"The issue was resolved successfully, thank you.",Small Business,Positive,SYNTHETIC
+POS00175,"Great support, my problem is fixed.",E-commerce,Positive,SYNTHETIC
+POS00176,I appreciate the assistance with my account.,Education,Positive,SYNTHETIC
+POS00177,Thank you for explaining the process clearly.,Small Business,Positive,SYNTHETIC
+POS00178,The resolution worked perfectly for me.,E-commerce,Positive,SYNTHETIC
+POS00179,I am satisfied with the support provided.,Education,Positive,SYNTHETIC
+POS00180,Thanks for helping me complete my request.,Small Business,Positive,SYNTHETIC
+POS00181,"Thank you, that solved my issue.",E-commerce,Positive,SYNTHETIC
+POS00182,Thanks for the quick help with my request.,Education,Positive,SYNTHETIC
+POS00183,I am happy with the support I received.,Small Business,Positive,SYNTHETIC
+POS00184,"The issue was resolved successfully, thank you.",E-commerce,Positive,SYNTHETIC
+POS00185,"Great support, my problem is fixed.",Education,Positive,SYNTHETIC
+POS00186,I appreciate the assistance with my account.,Small Business,Positive,SYNTHETIC
+POS00187,Thank you for explaining the process clearly.,E-commerce,Positive,SYNTHETIC
+POS00188,The resolution worked perfectly for me.,Education,Positive,SYNTHETIC
+POS00189,I am satisfied with the support provided.,Small Business,Positive,SYNTHETIC
+POS00190,Thanks for helping me complete my request.,E-commerce,Positive,SYNTHETIC
+POS00191,"Thank you, that solved my issue.",Education,Positive,SYNTHETIC
+POS00192,Thanks for the quick help with my request.,Small Business,Positive,SYNTHETIC
+POS00193,I am happy with the support I received.,E-commerce,Positive,SYNTHETIC
+POS00194,"The issue was resolved successfully, thank you.",Education,Positive,SYNTHETIC
+POS00195,"Great support, my problem is fixed.",Small Business,Positive,SYNTHETIC
+POS00196,I appreciate the assistance with my account.,E-commerce,Positive,SYNTHETIC
+POS00197,Thank you for explaining the process clearly.,Education,Positive,SYNTHETIC
+POS00198,The resolution worked perfectly for me.,Small Business,Positive,SYNTHETIC
+POS00199,I am satisfied with the support provided.,E-commerce,Positive,SYNTHETIC
+POS00200,Thanks for helping me complete my request.,Education,Positive,SYNTHETIC
+POS00201,"Thank you, that solved my issue.",Small Business,Positive,SYNTHETIC
+POS00202,Thanks for the quick help with my request.,E-commerce,Positive,SYNTHETIC
+POS00203,I am happy with the support I received.,Education,Positive,SYNTHETIC
+POS00204,"The issue was resolved successfully, thank you.",Small Business,Positive,SYNTHETIC
+POS00205,"Great support, my problem is fixed.",E-commerce,Positive,SYNTHETIC
+POS00206,I appreciate the assistance with my account.,Education,Positive,SYNTHETIC
+POS00207,Thank you for explaining the process clearly.,Small Business,Positive,SYNTHETIC
+POS00208,The resolution worked perfectly for me.,E-commerce,Positive,SYNTHETIC
+POS00209,I am satisfied with the support provided.,Education,Positive,SYNTHETIC
+POS00210,Thanks for helping me complete my request.,Small Business,Positive,SYNTHETIC
+POS00211,"Thank you, that solved my issue.",E-commerce,Positive,SYNTHETIC
+POS00212,Thanks for the quick help with my request.,Education,Positive,SYNTHETIC
+POS00213,I am happy with the support I received.,Small Business,Positive,SYNTHETIC
+POS00214,"The issue was resolved successfully, thank you.",E-commerce,Positive,SYNTHETIC
+POS00215,"Great support, my problem is fixed.",Education,Positive,SYNTHETIC
+POS00216,I appreciate the assistance with my account.,Small Business,Positive,SYNTHETIC
+POS00217,Thank you for explaining the process clearly.,E-commerce,Positive,SYNTHETIC
+POS00218,The resolution worked perfectly for me.,Education,Positive,SYNTHETIC
+POS00219,I am satisfied with the support provided.,Small Business,Positive,SYNTHETIC
+POS00220,Thanks for helping me complete my request.,E-commerce,Positive,SYNTHETIC
+POS00221,"Thank you, that solved my issue.",Education,Positive,SYNTHETIC
+POS00222,Thanks for the quick help with my request.,Small Business,Positive,SYNTHETIC
+POS00223,I am happy with the support I received.,E-commerce,Positive,SYNTHETIC
+POS00224,"The issue was resolved successfully, thank you.",Education,Positive,SYNTHETIC
+POS00225,"Great support, my problem is fixed.",Small Business,Positive,SYNTHETIC
+POS00226,I appreciate the assistance with my account.,E-commerce,Positive,SYNTHETIC
+POS00227,Thank you for explaining the process clearly.,Education,Positive,SYNTHETIC
+POS00228,The resolution worked perfectly for me.,Small Business,Positive,SYNTHETIC
+POS00229,I am satisfied with the support provided.,E-commerce,Positive,SYNTHETIC
+POS00230,Thanks for helping me complete my request.,Education,Positive,SYNTHETIC
+POS00231,"Thank you, that solved my issue.",Small Business,Positive,SYNTHETIC
+POS00232,Thanks for the quick help with my request.,E-commerce,Positive,SYNTHETIC
+POS00233,I am happy with the support I received.,Education,Positive,SYNTHETIC
+POS00234,"The issue was resolved successfully, thank you.",Small Business,Positive,SYNTHETIC
+POS00235,"Great support, my problem is fixed.",E-commerce,Positive,SYNTHETIC
+POS00236,I appreciate the assistance with my account.,Education,Positive,SYNTHETIC
+POS00237,Thank you for explaining the process clearly.,Small Business,Positive,SYNTHETIC
+POS00238,The resolution worked perfectly for me.,E-commerce,Positive,SYNTHETIC
+POS00239,I am satisfied with the support provided.,Education,Positive,SYNTHETIC
+POS00240,Thanks for helping me complete my request.,Small Business,Positive,SYNTHETIC
+POS00241,"Thank you, that solved my issue.",E-commerce,Positive,SYNTHETIC
+POS00242,Thanks for the quick help with my request.,Education,Positive,SYNTHETIC
+POS00243,I am happy with the support I received.,Small Business,Positive,SYNTHETIC
+POS00244,"The issue was resolved successfully, thank you.",E-commerce,Positive,SYNTHETIC
+POS00245,"Great support, my problem is fixed.",Education,Positive,SYNTHETIC
+POS00246,I appreciate the assistance with my account.,Small Business,Positive,SYNTHETIC
+POS00247,Thank you for explaining the process clearly.,E-commerce,Positive,SYNTHETIC
+POS00248,The resolution worked perfectly for me.,Education,Positive,SYNTHETIC
+POS00249,I am satisfied with the support provided.,Small Business,Positive,SYNTHETIC
+POS00250,Thanks for helping me complete my request.,E-commerce,Positive,SYNTHETIC
+POS00251,"Thank you, that solved my issue.",Education,Positive,SYNTHETIC
+POS00252,Thanks for the quick help with my request.,Small Business,Positive,SYNTHETIC
+POS00253,I am happy with the support I received.,E-commerce,Positive,SYNTHETIC
+POS00254,"The issue was resolved successfully, thank you.",Education,Positive,SYNTHETIC
+POS00255,"Great support, my problem is fixed.",Small Business,Positive,SYNTHETIC
+POS00256,I appreciate the assistance with my account.,E-commerce,Positive,SYNTHETIC
+POS00257,Thank you for explaining the process clearly.,Education,Positive,SYNTHETIC
+POS00258,The resolution worked perfectly for me.,Small Business,Positive,SYNTHETIC
+POS00259,I am satisfied with the support provided.,E-commerce,Positive,SYNTHETIC
+POS00260,Thanks for helping me complete my request.,Education,Positive,SYNTHETIC
+POS00261,"Thank you, that solved my issue.",Small Business,Positive,SYNTHETIC
+POS00262,Thanks for the quick help with my request.,E-commerce,Positive,SYNTHETIC
+POS00263,I am happy with the support I received.,Education,Positive,SYNTHETIC
+POS00264,"The issue was resolved successfully, thank you.",Small Business,Positive,SYNTHETIC
+POS00265,"Great support, my problem is fixed.",E-commerce,Positive,SYNTHETIC
+POS00266,I appreciate the assistance with my account.,Education,Positive,SYNTHETIC
+POS00267,Thank you for explaining the process clearly.,Small Business,Positive,SYNTHETIC
+POS00268,The resolution worked perfectly for me.,E-commerce,Positive,SYNTHETIC
+POS00269,I am satisfied with the support provided.,Education,Positive,SYNTHETIC
+POS00270,Thanks for helping me complete my request.,Small Business,Positive,SYNTHETIC
+POS00271,"Thank you, that solved my issue.",E-commerce,Positive,SYNTHETIC
+POS00272,Thanks for the quick help with my request.,Education,Positive,SYNTHETIC
+POS00273,I am happy with the support I received.,Small Business,Positive,SYNTHETIC
+POS00274,"The issue was resolved successfully, thank you.",E-commerce,Positive,SYNTHETIC
+POS00275,"Great support, my problem is fixed.",Education,Positive,SYNTHETIC
+POS00276,I appreciate the assistance with my account.,Small Business,Positive,SYNTHETIC
+POS00277,Thank you for explaining the process clearly.,E-commerce,Positive,SYNTHETIC
+POS00278,The resolution worked perfectly for me.,Education,Positive,SYNTHETIC
+POS00279,I am satisfied with the support provided.,Small Business,Positive,SYNTHETIC
+POS00280,Thanks for helping me complete my request.,E-commerce,Positive,SYNTHETIC
+POS00281,"Thank you, that solved my issue.",Education,Positive,SYNTHETIC
+POS00282,Thanks for the quick help with my request.,Small Business,Positive,SYNTHETIC
+POS00283,I am happy with the support I received.,E-commerce,Positive,SYNTHETIC
+POS00284,"The issue was resolved successfully, thank you.",Education,Positive,SYNTHETIC
+POS00285,"Great support, my problem is fixed.",Small Business,Positive,SYNTHETIC
+POS00286,I appreciate the assistance with my account.,E-commerce,Positive,SYNTHETIC
+POS00287,Thank you for explaining the process clearly.,Education,Positive,SYNTHETIC
+POS00288,The resolution worked perfectly for me.,Small Business,Positive,SYNTHETIC
+POS00289,I am satisfied with the support provided.,E-commerce,Positive,SYNTHETIC
+POS00290,Thanks for helping me complete my request.,Education,Positive,SYNTHETIC
+POS00291,"Thank you, that solved my issue.",Small Business,Positive,SYNTHETIC
+POS00292,Thanks for the quick help with my request.,E-commerce,Positive,SYNTHETIC
+POS00293,I am happy with the support I received.,Education,Positive,SYNTHETIC
+POS00294,"The issue was resolved successfully, thank you.",Small Business,Positive,SYNTHETIC
+POS00295,"Great support, my problem is fixed.",E-commerce,Positive,SYNTHETIC
+POS00296,I appreciate the assistance with my account.,Education,Positive,SYNTHETIC
+POS00297,Thank you for explaining the process clearly.,Small Business,Positive,SYNTHETIC
+POS00298,The resolution worked perfectly for me.,E-commerce,Positive,SYNTHETIC
+POS00299,I am satisfied with the support provided.,Education,Positive,SYNTHETIC
+POS00300,Thanks for helping me complete my request.,Small Business,Positive,SYNTHETIC
+SENTPOS00001,"Could you tell me about this: I am unhappy with your work, I want to file a consumer claim",E-commerce,Positive,PUBLIC_SOURCE
+SENTPOS00002,"I ain't happy with your work, I need to make a reclamation Please advise.",E-commerce,Positive,PUBLIC_SOURCE
+SENTPOS00003,"I need assistance regarding this: you aren't helpful, how can I chat wiuth someone.",E-commerce,Positive,PUBLIC_SOURCE
+SENTPOS00004,Can you please help me with this: i need assistance to set my new delovery address up,E-commerce,Positive,PUBLIC_SOURCE
+SENTPOS00005,"I ain't happy with your work, help lodging a consumer claim Please advise.",E-commerce,Positive,PUBLIC_SOURCE
+SENTPOS00006,"I need assistance regarding this: I ain't happy with your service, I want help filing a claim.",E-commerce,Positive,PUBLIC_SOURCE
+SENTPOS00007,"Please help me resolve this: Thank you, that solved my issue.",E-commerce,Positive,SYNTHETIC
+SENTPOS00008,Thanks for the quick help with my request Can you help?,Education,Positive,SYNTHETIC
+SENTPOS00009,I need assistance regarding this: I am happy with the support I received.,Small Business,Positive,SYNTHETIC
+SENTPOS00010,"I need help with this issue: The issue was resolved successfully, thank you.",E-commerce,Positive,SYNTHETIC
+SENTPOS00011,"Great support, my problem is fixed What should I do?",Education,Positive,SYNTHETIC
+SENTPOS00012,I need assistance regarding this: I appreciate the assistance with my account.,Small Business,Positive,SYNTHETIC
+SENTPOS00013,I would like to know: Thank you for explaining the process clearly.,E-commerce,Positive,SYNTHETIC
+SENTPOS00014,The resolution worked perfectly for me Please let me know.,Education,Positive,SYNTHETIC
+SENTPOS00015,I need assistance regarding this: I am satisfied with the support provided.,Small Business,Positive,SYNTHETIC
+SENTPOS00016,I would like to know: Thanks for helping me complete my request.,E-commerce,Positive,SYNTHETIC
+SENTPOS00017,"Thank you, that solved my issue Please let me know.",Education,Positive,SYNTHETIC
+SENTPOS00018,I need assistance regarding this: Thanks for the quick help with my request.,Small Business,Positive,SYNTHETIC
+SENTPOS00019,I need help with this issue: I am happy with the support I received.,E-commerce,Positive,SYNTHETIC
+SENTPOS00020,"The issue was resolved successfully, thank you I need an update.",Education,Positive,SYNTHETIC
+SENTPOS00021,"I need assistance regarding this: Great support, my problem is fixed.",Small Business,Positive,SYNTHETIC
+SENTPOS00022,I would like to know: I appreciate the assistance with my account.,E-commerce,Positive,SYNTHETIC
+SENTPOS00023,Thank you for explaining the process clearly What should I do?,Education,Positive,SYNTHETIC
+SENTPOS00024,I need assistance regarding this: The resolution worked perfectly for me.,Small Business,Positive,SYNTHETIC
+SENTPOS00025,Can you please help me with this: I am satisfied with the support provided.,E-commerce,Positive,SYNTHETIC
+SENTPOS00026,Thanks for helping me complete my request Please advise.,Education,Positive,SYNTHETIC
+SENTPOS00027,"I need assistance regarding this: Thank you, that solved my issue.",Small Business,Positive,SYNTHETIC
+SENTPOS00028,Could you tell me about this: Thanks for the quick help with my request.,E-commerce,Positive,SYNTHETIC
+SENTPOS00029,I am happy with the support I received What should I do?,Education,Positive,SYNTHETIC
+SENTPOS00030,"I need assistance regarding this: The issue was resolved successfully, thank you.",Small Business,Positive,SYNTHETIC
+SENTPOS00031,"Could you tell me about this: Great support, my problem is fixed.",E-commerce,Positive,SYNTHETIC
+SENTPOS00032,I appreciate the assistance with my account I need an update.,Education,Positive,SYNTHETIC
+SENTPOS00033,I need assistance regarding this: Thank you for explaining the process clearly.,Small Business,Positive,SYNTHETIC
+SENTPOS00034,Can you please help me with this: The resolution worked perfectly for me.,E-commerce,Positive,SYNTHETIC
+SENTPOS00035,I am satisfied with the support provided I need an update.,Education,Positive,SYNTHETIC
+SENTPOS00036,I need assistance regarding this: Thanks for helping me complete my request.,Small Business,Positive,SYNTHETIC
+SENTPOS00037,"I would like to know: Thank you, that solved my issue.",E-commerce,Positive,SYNTHETIC
+SENTPOS00038,Thanks for the quick help with my request Please advise.,Education,Positive,SYNTHETIC
+SENTPOS00039,I need assistance regarding this: I am happy with the support I received.,Small Business,Positive,SYNTHETIC
+SENTPOS00040,"Could you tell me about this: The issue was resolved successfully, thank you.",E-commerce,Positive,SYNTHETIC
+SENTPOS00041,"Great support, my problem is fixed I need an update.",Education,Positive,SYNTHETIC
+SENTPOS00042,I need assistance regarding this: I appreciate the assistance with my account.,Small Business,Positive,SYNTHETIC
+SENTPOS00043,I need help with this issue: Thank you for explaining the process clearly.,E-commerce,Positive,SYNTHETIC
+SENTPOS00044,The resolution worked perfectly for me Please advise.,Education,Positive,SYNTHETIC
+SENTPOS00045,I need assistance regarding this: I am satisfied with the support provided.,Small Business,Positive,SYNTHETIC
+SENTPOS00046,Could you tell me about this: Thanks for helping me complete my request.,E-commerce,Positive,SYNTHETIC
+SENTPOS00047,"Thank you, that solved my issue What should I do?",Education,Positive,SYNTHETIC
+SENTPOS00048,I need assistance regarding this: Thanks for the quick help with my request.,Small Business,Positive,SYNTHETIC
+SENTPOS00049,I would like to know: I am happy with the support I received.,E-commerce,Positive,SYNTHETIC
+SENTPOS00050,"The issue was resolved successfully, thank you I need an update.",Education,Positive,SYNTHETIC
+SENTPOS00051,"I need assistance regarding this: Great support, my problem is fixed.",Small Business,Positive,SYNTHETIC
+SENTPOS00052,I would like to know: I appreciate the assistance with my account.,E-commerce,Positive,SYNTHETIC
+SENTPOS00053,Thank you for explaining the process clearly Can you help?,Education,Positive,SYNTHETIC
+SENTPOS00054,I need assistance regarding this: The resolution worked perfectly for me.,Small Business,Positive,SYNTHETIC
+SENTPOS00055,I need help with this issue: I am satisfied with the support provided.,E-commerce,Positive,SYNTHETIC
+SENTPOS00056,Thanks for helping me complete my request Please let me know.,Education,Positive,SYNTHETIC
+SENTPOS00057,"I need assistance regarding this: Thank you, that solved my issue.",Small Business,Positive,SYNTHETIC
+SENTPOS00058,Can you please help me with this: Thanks for the quick help with my request.,E-commerce,Positive,SYNTHETIC
+SENTPOS00059,I am happy with the support I received Please advise.,Education,Positive,SYNTHETIC
+SENTPOS00060,"I need assistance regarding this: The issue was resolved successfully, thank you.",Small Business,Positive,SYNTHETIC
+SENTPOS00061,"I would like to know: Great support, my problem is fixed.",E-commerce,Positive,SYNTHETIC
+SENTPOS00062,I appreciate the assistance with my account Please let me know.,Education,Positive,SYNTHETIC
+SENTPOS00063,I need assistance regarding this: Thank you for explaining the process clearly.,Small Business,Positive,SYNTHETIC
+SENTPOS00064,Can you please help me with this: The resolution worked perfectly for me.,E-commerce,Positive,SYNTHETIC
+SENTPOS00065,I am satisfied with the support provided I need an update.,Education,Positive,SYNTHETIC
+SENTPOS00066,I need assistance regarding this: Thanks for helping me complete my request.,Small Business,Positive,SYNTHETIC
+SENTPOS00067,"I would like to know: Thank you, that solved my issue.",E-commerce,Positive,SYNTHETIC
+SENTPOS00068,Thanks for the quick help with my request What should I do?,Education,Positive,SYNTHETIC
+SENTPOS00069,I need assistance regarding this: I am happy with the support I received.,Small Business,Positive,SYNTHETIC
+SENTPOS00070,"Please help me resolve this: The issue was resolved successfully, thank you.",E-commerce,Positive,SYNTHETIC
+SENTPOS00071,"Great support, my problem is fixed Please let me know.",Education,Positive,SYNTHETIC
+SENTPOS00072,I need assistance regarding this: I appreciate the assistance with my account.,Small Business,Positive,SYNTHETIC
+SENTPOS00073,Could you tell me about this: Thank you for explaining the process clearly.,E-commerce,Positive,SYNTHETIC
+SENTPOS00074,The resolution worked perfectly for me What should I do?,Education,Positive,SYNTHETIC
+SENTPOS00075,I need assistance regarding this: I am satisfied with the support provided.,Small Business,Positive,SYNTHETIC
+SENTPOS00076,I would like to know: Thanks for helping me complete my request.,E-commerce,Positive,SYNTHETIC
+SENTPOS00077,"Thank you, that solved my issue Please let me know.",Education,Positive,SYNTHETIC
+SENTPOS00078,I need assistance regarding this: Thanks for the quick help with my request.,Small Business,Positive,SYNTHETIC
+SENTPOS00079,I would like to know: I am happy with the support I received.,E-commerce,Positive,SYNTHETIC
+SENTPOS00080,"The issue was resolved successfully, thank you What should I do?",Education,Positive,SYNTHETIC
+SENTPOS00081,"I need assistance regarding this: Great support, my problem is fixed.",Small Business,Positive,SYNTHETIC
+SENTPOS00082,I need help with this issue: I appreciate the assistance with my account.,E-commerce,Positive,SYNTHETIC
+SENTPOS00083,Thank you for explaining the process clearly Please let me know.,Education,Positive,SYNTHETIC
+SENTPOS00084,I need assistance regarding this: The resolution worked perfectly for me.,Small Business,Positive,SYNTHETIC
+SENTPOS00085,I would like to know: I am satisfied with the support provided.,E-commerce,Positive,SYNTHETIC
+SENTPOS00086,Thanks for helping me complete my request I need an update.,Education,Positive,SYNTHETIC
+SENTPOS00087,"I need assistance regarding this: Thank you, that solved my issue.",Small Business,Positive,SYNTHETIC
+SENTPOS00088,I would like to know: Thanks for the quick help with my request.,E-commerce,Positive,SYNTHETIC
+SENTPOS00089,I am happy with the support I received I need an update.,Education,Positive,SYNTHETIC
+SENTPOS00090,"I need assistance regarding this: The issue was resolved successfully, thank you.",Small Business,Positive,SYNTHETIC
+SENTPOS00091,"Please help me resolve this: Great support, my problem is fixed.",E-commerce,Positive,SYNTHETIC
+SENTPOS00092,I appreciate the assistance with my account Can you help?,Education,Positive,SYNTHETIC
+SENTPOS00093,I need assistance regarding this: Thank you for explaining the process clearly.,Small Business,Positive,SYNTHETIC
+SENTPOS00094,I would like to know: The resolution worked perfectly for me.,E-commerce,Positive,SYNTHETIC
+SENTPOS00095,I am satisfied with the support provided Can you help?,Education,Positive,SYNTHETIC
+SENTPOS00096,I need assistance regarding this: Thanks for helping me complete my request.,Small Business,Positive,SYNTHETIC
+SENTPOS00097,"Could you tell me about this: Thank you, that solved my issue.",E-commerce,Positive,SYNTHETIC
+SENTPOS00098,Thanks for the quick help with my request Can you help?,Education,Positive,SYNTHETIC
+SENTPOS00099,I need assistance regarding this: I am happy with the support I received.,Small Business,Positive,SYNTHETIC
+SENTPOS00100,"Can you please help me with this: The issue was resolved successfully, thank you.",E-commerce,Positive,SYNTHETIC
+SENTPOS00101,"Great support, my problem is fixed Please advise.",Education,Positive,SYNTHETIC
+SENTPOS00102,I need assistance regarding this: I appreciate the assistance with my account.,Small Business,Positive,SYNTHETIC
+SENTPOS00103,Can you please help me with this: Thank you for explaining the process clearly.,E-commerce,Positive,SYNTHETIC
+SENTPOS00104,The resolution worked perfectly for me I need an update.,Education,Positive,SYNTHETIC
+SENTPOS00105,I need assistance regarding this: I am satisfied with the support provided.,Small Business,Positive,SYNTHETIC
+SENTPOS00106,Can you please help me with this: Thanks for helping me complete my request.,E-commerce,Positive,SYNTHETIC
+SENTPOS00107,"Thank you, that solved my issue Can you help?",Education,Positive,SYNTHETIC
+SENTPOS00108,I need assistance regarding this: Thanks for the quick help with my request.,Small Business,Positive,SYNTHETIC
+SENTPOS00109,I would like to know: I am happy with the support I received.,E-commerce,Positive,SYNTHETIC
+SENTPOS00110,"The issue was resolved successfully, thank you I need an update.",Education,Positive,SYNTHETIC
+SENTPOS00111,"I need assistance regarding this: Great support, my problem is fixed.",Small Business,Positive,SYNTHETIC
+SENTPOS00112,Please help me resolve this: I appreciate the assistance with my account.,E-commerce,Positive,SYNTHETIC
+SENTPOS00113,Thank you for explaining the process clearly Please advise.,Education,Positive,SYNTHETIC
+SENTPOS00114,I need assistance regarding this: The resolution worked perfectly for me.,Small Business,Positive,SYNTHETIC
+SENTPOS00115,Could you tell me about this: I am satisfied with the support provided.,E-commerce,Positive,SYNTHETIC
+SENTPOS00116,Thanks for helping me complete my request What should I do?,Education,Positive,SYNTHETIC
+SENTPOS00117,"I need assistance regarding this: Thank you, that solved my issue.",Small Business,Positive,SYNTHETIC
+SENTPOS00118,I would like to know: Thanks for the quick help with my request.,E-commerce,Positive,SYNTHETIC
+SENTPOS00119,I am happy with the support I received Can you help?,Education,Positive,SYNTHETIC
+SENTPOS00120,"I need assistance regarding this: The issue was resolved successfully, thank you.",Small Business,Positive,SYNTHETIC
+SENTPOS00121,"Can you please help me with this: Great support, my problem is fixed.",E-commerce,Positive,SYNTHETIC
+SENTPOS00122,I appreciate the assistance with my account Can you help?,Education,Positive,SYNTHETIC
+SENTPOS00123,I need assistance regarding this: Thank you for explaining the process clearly.,Small Business,Positive,SYNTHETIC
+SENTPOS00124,Could you tell me about this: The resolution worked perfectly for me.,E-commerce,Positive,SYNTHETIC
+SENTPOS00125,I am satisfied with the support provided What should I do?,Education,Positive,SYNTHETIC
+SENTPOS00126,I need assistance regarding this: Thanks for helping me complete my request.,Small Business,Positive,SYNTHETIC
+SENTPOS00127,"Can you please help me with this: Thank you, that solved my issue.",E-commerce,Positive,SYNTHETIC
+SENTPOS00128,Thanks for the quick help with my request What should I do?,Education,Positive,SYNTHETIC
+SENTPOS00129,I need assistance regarding this: I am happy with the support I received.,Small Business,Positive,SYNTHETIC
+SENTPOS00130,"Could you tell me about this: The issue was resolved successfully, thank you.",E-commerce,Positive,SYNTHETIC
+SENTPOS00131,"Great support, my problem is fixed Please let me know.",Education,Positive,SYNTHETIC
+SENTPOS00132,I need assistance regarding this: I appreciate the assistance with my account.,Small Business,Positive,SYNTHETIC
+SENTPOS00133,I would like to know: Thank you for explaining the process clearly.,E-commerce,Positive,SYNTHETIC
+SENTPOS00134,The resolution worked perfectly for me What should I do?,Education,Positive,SYNTHETIC
+SENTPOS00135,I need assistance regarding this: I am satisfied with the support provided.,Small Business,Positive,SYNTHETIC
+SENTPOS00136,Can you please help me with this: Thanks for helping me complete my request.,E-commerce,Positive,SYNTHETIC
+SENTPOS00137,"Thank you, that solved my issue Please advise.",Education,Positive,SYNTHETIC
+SENTPOS00138,I need assistance regarding this: Thanks for the quick help with my request.,Small Business,Positive,SYNTHETIC
+SENTPOS00139,Could you tell me about this: I am happy with the support I received.,E-commerce,Positive,SYNTHETIC
+SENTPOS00140,"The issue was resolved successfully, thank you What should I do?",Education,Positive,SYNTHETIC
+SENTPOS00141,"I need assistance regarding this: Great support, my problem is fixed.",Small Business,Positive,SYNTHETIC
+SENTPOS00142,Please help me resolve this: I appreciate the assistance with my account.,E-commerce,Positive,SYNTHETIC
+SENTPOS00143,Thank you for explaining the process clearly Please let me know.,Education,Positive,SYNTHETIC
+SENTPOS00144,I need assistance regarding this: The resolution worked perfectly for me.,Small Business,Positive,SYNTHETIC
+SENTPOS00145,I would like to know: I am satisfied with the support provided.,E-commerce,Positive,SYNTHETIC
+SENTPOS00146,Thanks for helping me complete my request Please advise.,Education,Positive,SYNTHETIC
+SENTPOS00147,"I need assistance regarding this: Thank you, that solved my issue.",Small Business,Positive,SYNTHETIC
+SENTPOS00148,I need help with this issue: Thanks for the quick help with my request.,E-commerce,Positive,SYNTHETIC
+SENTPOS00149,I am happy with the support I received Can you help?,Education,Positive,SYNTHETIC
+SENTPOS00150,"I need assistance regarding this: The issue was resolved successfully, thank you.",Small Business,Positive,SYNTHETIC
+SENTPOS00151,"Could you tell me about this: Great support, my problem is fixed.",E-commerce,Positive,SYNTHETIC
+SENTPOS00152,I appreciate the assistance with my account What should I do?,Education,Positive,SYNTHETIC
+SENTPOS00153,I need assistance regarding this: Thank you for explaining the process clearly.,Small Business,Positive,SYNTHETIC
+SENTPOS00154,Please help me resolve this: The resolution worked perfectly for me.,E-commerce,Positive,SYNTHETIC
+SENTPOS00155,I am satisfied with the support provided I need an update.,Education,Positive,SYNTHETIC
+SENTPOS00156,I need assistance regarding this: Thanks for helping me complete my request.,Small Business,Positive,SYNTHETIC
+SENTPOS00157,"Can you please help me with this: Thank you, that solved my issue.",E-commerce,Positive,SYNTHETIC
+SENTPOS00158,Thanks for the quick help with my request Can you help?,Education,Positive,SYNTHETIC
+SENTPOS00159,I need assistance regarding this: I am happy with the support I received.,Small Business,Positive,SYNTHETIC
+SENTPOS00160,"Please help me resolve this: The issue was resolved successfully, thank you.",E-commerce,Positive,SYNTHETIC
+SENTPOS00161,"Great support, my problem is fixed Can you help?",Education,Positive,SYNTHETIC
+SENTPOS00162,I need assistance regarding this: I appreciate the assistance with my account.,Small Business,Positive,SYNTHETIC
+SENTPOS00163,Please help me resolve this: Thank you for explaining the process clearly.,E-commerce,Positive,SYNTHETIC
+SENTPOS00164,The resolution worked perfectly for me Please let me know.,Education,Positive,SYNTHETIC
+SENTPOS00165,I need assistance regarding this: I am satisfied with the support provided.,Small Business,Positive,SYNTHETIC
+SENTPOS00166,Could you tell me about this: Thanks for helping me complete my request.,E-commerce,Positive,SYNTHETIC
+SENTPOS00167,"Thank you, that solved my issue I need an update.",Education,Positive,SYNTHETIC
+SENTPOS00168,I need assistance regarding this: Thanks for the quick help with my request.,Small Business,Positive,SYNTHETIC
+SENTPOS00169,Please help me resolve this: I am happy with the support I received.,E-commerce,Positive,SYNTHETIC
+SENTPOS00170,"The issue was resolved successfully, thank you Please advise.",Education,Positive,SYNTHETIC
+SENTPOS00171,"I need assistance regarding this: Great support, my problem is fixed.",Small Business,Positive,SYNTHETIC
+SENTPOS00172,I would like to know: I appreciate the assistance with my account.,E-commerce,Positive,SYNTHETIC
+SENTPOS00173,Thank you for explaining the process clearly What should I do?,Education,Positive,SYNTHETIC
+SENTPOS00174,I need assistance regarding this: The resolution worked perfectly for me.,Small Business,Positive,SYNTHETIC
+SENTPOS00175,I would like to know: I am satisfied with the support provided.,E-commerce,Positive,SYNTHETIC
+SENTPOS00176,Thanks for helping me complete my request What should I do?,Education,Positive,SYNTHETIC
+SENTPOS00177,"I need assistance regarding this: Thank you, that solved my issue.",Small Business,Positive,SYNTHETIC
+SENTPOS00178,I would like to know: Thanks for the quick help with my request.,E-commerce,Positive,SYNTHETIC
+SENTPOS00179,I am happy with the support I received Please let me know.,Education,Positive,SYNTHETIC
+SENTPOS00180,"I need assistance regarding this: The issue was resolved successfully, thank you.",Small Business,Positive,SYNTHETIC
+SENTPOS00181,"Can you please help me with this: Great support, my problem is fixed.",E-commerce,Positive,SYNTHETIC
+SENTPOS00182,I appreciate the assistance with my account Can you help?,Education,Positive,SYNTHETIC
+SENTPOS00183,I need assistance regarding this: Thank you for explaining the process clearly.,Small Business,Positive,SYNTHETIC
+SENTPOS00184,I would like to know: The resolution worked perfectly for me.,E-commerce,Positive,SYNTHETIC
+SENTPOS00185,I am satisfied with the support provided What should I do?,Education,Positive,SYNTHETIC
+SENTPOS00186,I need assistance regarding this: Thanks for helping me complete my request.,Small Business,Positive,SYNTHETIC
+SENTPOS00187,"Could you tell me about this: Thank you, that solved my issue.",E-commerce,Positive,SYNTHETIC
+SENTPOS00188,Thanks for the quick help with my request Please advise.,Education,Positive,SYNTHETIC
+SENTPOS00189,I need assistance regarding this: I am happy with the support I received.,Small Business,Positive,SYNTHETIC
+SENTPOS00190,"I need help with this issue: The issue was resolved successfully, thank you.",E-commerce,Positive,SYNTHETIC
+SENTPOS00191,"Great support, my problem is fixed What should I do?",Education,Positive,SYNTHETIC
+SENTPOS00192,I need assistance regarding this: I appreciate the assistance with my account.,Small Business,Positive,SYNTHETIC
+SENTPOS00193,Can you please help me with this: Thank you for explaining the process clearly.,E-commerce,Positive,SYNTHETIC
+SENTPOS00194,The resolution worked perfectly for me What should I do?,Education,Positive,SYNTHETIC

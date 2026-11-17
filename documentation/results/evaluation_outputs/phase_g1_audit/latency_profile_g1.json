@@ -1,0 +1,108 @@
+{
+  "cold_profile": {
+    "latency_resolution_ms": {
+      "mean": 0.08140000000000001,
+      "median": 0.005,
+      "p95": 0.009049999999999997,
+      "max": 4.541
+    },
+    "latency_triage_ms": {
+      "mean": 71.8903,
+      "median": 66.1085,
+      "p95": 104.2239,
+      "max": 216.228
+    },
+    "latency_retrieval_ms": {
+      "mean": 23.246533333333335,
+      "median": 16.2115,
+      "p95": 22.605449999999966,
+      "max": 392.615
+    },
+    "latency_verification_ms": {
+      "mean": 22.569149999999997,
+      "median": 25.595,
+      "p95": 36.1964,
+      "max": 55.201
+    },
+    "latency_policy_ms": {
+      "mean": 0.16591666666666666,
+      "median": 0.154,
+      "p95": 0.3298,
+      "max": 0.418
+    },
+    "latency_supervisor_ms": {
+      "mean": 0.028050000000000002,
+      "median": 0.025,
+      "p95": 0.057099999999999936,
+      "max": 0.157
+    },
+    "latency_generation_ms": {
+      "mean": 0.002633333333333334,
+      "median": 0.0,
+      "p95": 0.010049999999999998,
+      "max": 0.017
+    },
+    "latency_e2e_ms": {
+      "mean": 118.04361666666667,
+      "median": 104.223,
+      "p95": 151.40245,
+      "max": 633.52
+    }
+  },
+  "warm_profile": {
+    "latency_resolution_ms": {
+      "mean": 0.005666666666666666,
+      "median": 0.006,
+      "p95": 0.007049999999999997,
+      "max": 0.009
+    },
+    "latency_triage_ms": {
+      "mean": 69.64985,
+      "median": 69.09899999999999,
+      "p95": 85.00104999999999,
+      "max": 96.006
+    },
+    "latency_retrieval_ms": {
+      "mean": 17.89316666666667,
+      "median": 16.5385,
+      "p95": 26.85955,
+      "max": 40.687
+    },
+    "latency_verification_ms": {
+      "mean": 5.231583333333332,
+      "median": 0.207,
+      "p95": 27.84985,
+      "max": 33.777
+    },
+    "latency_policy_ms": {
+      "mean": 0.15998333333333334,
+      "median": 0.1535,
+      "p95": 0.27925,
+      "max": 0.497
+    },
+    "latency_supervisor_ms": {
+      "mean": 0.0218,
+      "median": 0.025,
+      "p95": 0.03339999999999998,
+      "max": 0.056
+    },
+    "latency_generation_ms": {
+      "mean": 0.0023000000000000004,
+      "median": 0.0,
+      "p95": 0.009,
+      "max": 0.013
+    },
+    "latency_e2e_ms": {
+      "mean": 93.01733333333335,
+      "median": 90.664,
+      "p95": 115.3608,
+      "max": 125.727
+    }
+  },
+  "cache_stats": {
+    "size": 39,
+    "max_size": 1000,
+    "hits": 71,
+    "misses": 39
+  }
+}

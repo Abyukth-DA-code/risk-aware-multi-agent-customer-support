@@ -1,0 +1,501 @@
+Student_ID,Customer_ID,Program,Year,Attendance_Percent,Fee_Status,Exam_Status,Scholarship_Status,Dataset_Version,Domain
+STU0001,CUST0002,BCA,1,90,Pending,Eligible,Applied,V4,Education
+STU0002,CUST0005,M.Tech,1,72,Pending,Eligible,Applied,V4,Education
+STU0003,CUST0008,BBA,3,82,Paid,Eligible,Not Applied,V4,Education
+STU0004,CUST0011,B.Tech,1,86,Paid,Eligible,Applied,V4,Education
+STU0005,CUST0014,B.Tech,4,94,Paid,Eligible,Not Applied,V4,Education
+STU0006,CUST0017,BBA,1,68,Partially Paid,Review Required,Not Eligible,V4,Education
+STU0007,CUST0020,BBA,2,62,Paid,Eligible,Not Eligible,V4,Education
+STU0008,CUST0023,BCA,4,82,Pending,Eligible,Not Applied,V4,Education
+STU0009,CUST0026,BBA,4,78,Paid,Review Required,Not Applied,V4,Education
+STU0010,CUST0029,BBA,2,86,Paid,Eligible,Applied,V4,Education
+STU0011,CUST0032,MBA,3,82,Pending,Eligible,Not Applied,V4,Education
+STU0012,CUST0035,BCA,4,90,Paid,Eligible,Not Applied,V4,Education
+STU0013,CUST0038,MBA,1,68,Paid,Eligible,Applied,V4,Education
+STU0014,CUST0041,M.Tech,1,72,Paid,Review Required,Applied,V4,Education
+STU0015,CUST0044,B.Tech,2,68,Paid,Eligible,Not Eligible,V4,Education
+STU0016,CUST0047,B.Tech,3,68,Partially Paid,Eligible,Not Applied,V4,Education
+STU0017,CUST0050,M.Tech,4,75,Pending,Eligible,Approved,V4,Education
+STU0018,CUST0053,M.Tech,1,82,Pending,Review Required,Not Eligible,V4,Education
+STU0019,CUST0056,BBA,1,86,Pending,Eligible,Not Applied,V4,Education
+STU0020,CUST0059,BCA,2,90,Pending,Eligible,Not Applied,V4,Education
+STU0021,CUST0062,M.Tech,4,72,Pending,Review Required,Applied,V4,Education
+STU0022,CUST0065,M.Tech,3,82,Paid,Eligible,Not Applied,V4,Education
+STU0023,CUST0068,M.Tech,2,72,Partially Paid,Eligible,Not Applied,V4,Education
+STU0024,CUST0071,B.Tech,2,94,Paid,Eligible,Applied,V4,Education
+STU0025,CUST0074,BBA,2,72,Paid,Eligible,Not Applied,V4,Education
+STU0026,CUST0077,BCA,3,90,Paid,Eligible,Applied,V4,Education
+STU0027,CUST0080,M.Tech,1,68,Partially Paid,Eligible,Applied,V4,Education
+STU0028,CUST0083,B.Tech,2,62,Paid,Eligible,Applied,V4,Education
+STU0029,CUST0086,B.Tech,3,72,Paid,Eligible,Applied,V4,Education
+STU0030,CUST0089,MBA,4,82,Paid,Eligible,Applied,V4,Education
+STU0031,CUST0092,BCA,2,62,Paid,Eligible,Not Eligible,V4,Education
+STU0032,CUST0095,BCA,1,86,Paid,Review Required,Applied,V4,Education
+STU0033,CUST0098,B.Tech,1,82,Pending,Eligible,Not Eligible,V4,Education
+STU0034,CUST0101,MBA,4,82,Partially Paid,Eligible,Applied,V4,Education
+STU0035,CUST0104,BBA,1,62,Paid,Eligible,Not Eligible,V4,Education
+STU0036,CUST0107,B.Tech,4,78,Partially Paid,Eligible,Applied,V4,Education
+STU0037,CUST0110,M.Tech,2,68,Paid,Eligible,Applied,V4,Education
+STU0038,CUST0113,M.Tech,3,68,Pending,Review Required,Not Eligible,V4,Education
+STU0039,CUST0116,BBA,2,68,Paid,Eligible,Not Eligible,V4,Education
+STU0040,CUST0119,MBA,1,94,Paid,Eligible,Not Eligible,V4,Education
+STU0041,CUST0122,M.Tech,3,86,Partially Paid,Review Required,Not Applied,V4,Education
+STU0042,CUST0125,MBA,2,86,Paid,Eligible,Not Eligible,V4,Education
+STU0043,CUST0128,BCA,3,62,Paid,Eligible,Approved,V4,Education
+STU0044,CUST0131,BCA,1,90,Partially Paid,Review Required,Applied,V4,Education
+STU0045,CUST0134,BCA,2,75,Pending,Review Required,Approved,V4,Education
+STU0046,CUST0137,B.Tech,3,86,Paid,Review Required,Applied,V4,Education
+STU0047,CUST0140,BBA,2,86,Paid,Review Required,Not Applied,V4,Education
+STU0048,CUST0143,B.Tech,3,72,Paid,Eligible,Not Eligible,V4,Education
+STU0049,CUST0146,BBA,3,94,Paid,Eligible,Applied,V4,Education
+STU0050,CUST0149,B.Tech,1,94,Partially Paid,Eligible,Not Eligible,V4,Education
+STU0051,CUST0152,BBA,2,78,Paid,Review Required,Approved,V4,Education
+STU0052,CUST0155,BBA,2,94,Paid,Eligible,Applied,V4,Education
+STU0053,CUST0158,BCA,4,72,Paid,Eligible,Approved,V4,Education
+STU0054,CUST0161,M.Tech,2,75,Paid,Eligible,Applied,V4,Education
+STU0055,CUST0164,B.Tech,2,68,Paid,Eligible,Not Eligible,V4,Education
+STU0056,CUST0167,MBA,1,82,Paid,Eligible,Not Eligible,V4,Education
+STU0057,CUST0170,MBA,3,90,Paid,Review Required,Not Eligible,V4,Education
+STU0058,CUST0173,M.Tech,3,82,Paid,Eligible,Applied,V4,Education
+STU0059,CUST0176,MBA,3,90,Paid,Review Required,Not Eligible,V4,Education
+STU0060,CUST0179,M.Tech,4,68,Partially Paid,Eligible,Approved,V4,Education
+STU0061,CUST0182,BBA,1,72,Paid,Eligible,Approved,V4,Education
+STU0062,CUST0185,B.Tech,1,82,Pending,Eligible,Not Applied,V4,Education
+STU0063,CUST0188,BCA,2,86,Pending,Eligible,Approved,V4,Education
+STU0064,CUST0191,BCA,4,86,Paid,Review Required,Applied,V4,Education
+STU0065,CUST0194,B.Tech,2,62,Partially Paid,Eligible,Applied,V4,Education
+STU0066,CUST0197,BBA,3,68,Paid,Eligible,Not Eligible,V4,Education
+STU0067,CUST0200,B.Tech,3,62,Paid,Eligible,Applied,V4,Education
+STU0068,CUST0203,BBA,4,68,Paid,Eligible,Approved,V4,Education
+STU0069,CUST0206,BBA,1,90,Pending,Review Required,Applied,V4,Education
+STU0070,CUST0209,MBA,2,68,Paid,Eligible,Not Applied,V4,Education
+STU0071,CUST0212,MBA,3,72,Paid,Eligible,Not Applied,V4,Education
+STU0072,CUST0215,BCA,4,68,Pending,Eligible,Approved,V4,Education
+STU0073,CUST0218,BBA,2,82,Paid,Eligible,Not Eligible,V4,Education
+STU0074,CUST0221,M.Tech,4,78,Paid,Review Required,Not Applied,V4,Education
+STU0075,CUST0224,B.Tech,4,75,Paid,Eligible,Not Eligible,V4,Education
+STU0076,CUST0227,BCA,2,75,Partially Paid,Review Required,Not Eligible,V4,Education
+STU0077,CUST0230,BBA,4,86,Paid,Review Required,Applied,V4,Education
+STU0078,CUST0233,BBA,4,62,Paid,Eligible,Not Applied,V4,Education
+STU0079,CUST0236,B.Tech,3,72,Partially Paid,Eligible,Not Applied,V4,Education
+STU0080,CUST0239,BCA,3,94,Paid,Eligible,Not Applied,V4,Education
+STU0081,CUST0242,BBA,4,72,Paid,Eligible,Approved,V4,Education
+STU0082,CUST0245,BBA,3,90,Paid,Eligible,Not Eligible,V4,Education
+STU0083,CUST0248,B.Tech,3,75,Pending,Eligible,Applied,V4,Education
+STU0084,CUST0251,MBA,1,90,Paid,Eligible,Applied,V4,Education
+STU0085,CUST0254,B.Tech,2,86,Pending,Eligible,Approved,V4,Education
+STU0086,CUST0257,BBA,4,72,Paid,Eligible,Not Eligible,V4,Education
+STU0087,CUST0260,BBA,3,72,Paid,Eligible,Applied,V4,Education
+STU0088,CUST0263,BBA,2,72,Paid,Review Required,Applied,V4,Education
+STU0089,CUST0266,M.Tech,2,94,Pending,Eligible,Not Applied,V4,Education
+STU0090,CUST0269,BCA,3,90,Paid,Eligible,Applied,V4,Education
+STU0091,CUST0272,BBA,2,86,Partially Paid,Eligible,Approved,V4,Education
+STU0092,CUST0275,B.Tech,4,86,Paid,Eligible,Not Eligible,V4,Education
+STU0093,CUST0278,B.Tech,2,86,Pending,Review Required,Not Applied,V4,Education
+STU0094,CUST0281,M.Tech,2,75,Partially Paid,Eligible,Not Applied,V4,Education
+STU0095,CUST0284,B.Tech,4,68,Paid,Review Required,Not Applied,V4,Education
+STU0096,CUST0287,BCA,2,94,Pending,Eligible,Not Applied,V4,Education
+STU0097,CUST0290,MBA,4,78,Pending,Eligible,Not Eligible,V4,Education
+STU0098,CUST0293,MBA,2,82,Partially Paid,Eligible,Applied,V4,Education
+STU0099,CUST0296,BBA,2,75,Paid,Eligible,Applied,V4,Education
+STU0100,CUST0299,M.Tech,1,68,Pending,Eligible,Approved,V4,Education
+STU0101,CUST0302,BBA,3,94,Pending,Eligible,Applied,V4,Education
+STU0102,CUST0305,BBA,3,86,Paid,Review Required,Applied,V4,Education
+STU0103,CUST0308,M.Tech,3,75,Paid,Eligible,Not Eligible,V4,Education
+STU0104,CUST0311,BBA,4,75,Paid,Eligible,Not Applied,V4,Education
+STU0105,CUST0314,BCA,4,90,Paid,Eligible,Applied,V4,Education
+STU0106,CUST0317,B.Tech,4,82,Paid,Eligible,Not Applied,V4,Education
+STU0107,CUST0320,M.Tech,3,72,Paid,Eligible,Applied,V4,Education
+STU0108,CUST0323,MBA,2,86,Paid,Eligible,Not Eligible,V4,Education
+STU0109,CUST0326,BBA,4,82,Partially Paid,Eligible,Approved,V4,Education
+STU0110,CUST0329,BCA,4,62,Paid,Eligible,Approved,V4,Education
+STU0111,CUST0332,M.Tech,1,72,Paid,Eligible,Not Applied,V4,Education
+STU0112,CUST0335,MBA,3,68,Paid,Eligible,Approved,V4,Education
+STU0113,CUST0338,MBA,3,62,Pending,Eligible,Not Eligible,V4,Education
+STU0114,CUST0341,M.Tech,2,82,Partially Paid,Review Required,Approved,V4,Education
+STU0115,CUST0344,BBA,1,90,Paid,Eligible,Not Applied,V4,Education
+STU0116,CUST0347,BCA,2,86,Paid,Eligible,Not Applied,V4,Education
+STU0117,CUST0350,M.Tech,4,68,Paid,Eligible,Applied,V4,Education
+STU0118,CUST0353,BCA,1,75,Pending,Eligible,Not Eligible,V4,Education
+STU0119,CUST0356,M.Tech,4,90,Pending,Review Required,Not Eligible,V4,Education
+STU0120,CUST0359,B.Tech,4,75,Paid,Eligible,Not Eligible,V4,Education
+STU0121,CUST0362,MBA,4,75,Paid,Eligible,Applied,V4,Education
+STU0122,CUST0365,MBA,4,62,Partially Paid,Eligible,Not Eligible,V4,Education
+STU0123,CUST0368,M.Tech,4,82,Paid,Eligible,Approved,V4,Education
+STU0124,CUST0371,BBA,1,68,Partially Paid,Eligible,Approved,V4,Education
+STU0125,CUST0374,BBA,1,94,Pending,Eligible,Applied,V4,Education
+STU0126,CUST0377,BBA,1,72,Paid,Eligible,Not Applied,V4,Education
+STU0127,CUST0380,M.Tech,1,82,Paid,Eligible,Not Eligible,V4,Education
+STU0128,CUST0383,MBA,3,78,Pending,Review Required,Approved,V4,Education
+STU0129,CUST0386,MBA,1,62,Paid,Eligible,Not Eligible,V4,Education
+STU0130,CUST0389,M.Tech,4,86,Paid,Eligible,Not Eligible,V4,Education
+STU0131,CUST0392,MBA,4,78,Pending,Review Required,Not Eligible,V4,Education
+STU0132,CUST0395,BCA,1,86,Paid,Review Required,Approved,V4,Education
+STU0133,CUST0398,MBA,1,78,Paid,Eligible,Not Applied,V4,Education
+STU0134,CUST0401,MBA,2,82,Paid,Eligible,Not Eligible,V4,Education
+STU0135,CUST0404,BBA,1,86,Paid,Review Required,Applied,V4,Education
+STU0136,CUST0407,MBA,4,68,Paid,Eligible,Applied,V4,Education
+STU0137,CUST0410,M.Tech,4,75,Paid,Eligible,Not Applied,V4,Education
+STU0138,CUST0413,BCA,4,62,Paid,Eligible,Approved,V4,Education
+STU0139,CUST0416,B.Tech,2,94,Paid,Review Required,Not Eligible,V4,Education
+STU0140,CUST0419,BBA,4,78,Paid,Eligible,Approved,V4,Education
+STU0141,CUST0422,M.Tech,3,94,Pending,Eligible,Not Eligible,V4,Education
+STU0142,CUST0425,BCA,3,86,Partially Paid,Eligible,Approved,V4,Education
+STU0143,CUST0428,BCA,3,78,Paid,Eligible,Approved,V4,Education
+STU0144,CUST0431,B.Tech,3,68,Partially Paid,Eligible,Applied,V4,Education
+STU0145,CUST0434,BCA,3,90,Paid,Eligible,Approved,V4,Education
+STU0146,CUST0437,MBA,3,62,Pending,Eligible,Applied,V4,Education
+STU0147,CUST0440,BBA,1,82,Pending,Review Required,Applied,V4,Education
+STU0148,CUST0443,M.Tech,4,75,Pending,Eligible,Not Applied,V4,Education
+STU0149,CUST0446,BBA,2,68,Paid,Review Required,Applied,V4,Education
+STU0150,CUST0449,B.Tech,2,68,Partially Paid,Eligible,Not Eligible,V4,Education
+STU0151,CUST0452,BCA,3,94,Paid,Eligible,Approved,V4,Education
+STU0152,CUST0455,MBA,3,82,Partially Paid,Eligible,Applied,V4,Education
+STU0153,CUST0458,B.Tech,2,62,Paid,Eligible,Approved,V4,Education
+STU0154,CUST0461,M.Tech,4,78,Partially Paid,Eligible,Applied,V4,Education
+STU0155,CUST0464,M.Tech,2,62,Paid,Eligible,Approved,V4,Education
+STU0156,CUST0467,B.Tech,2,68,Paid,Review Required,Approved,V4,Education
+STU0157,CUST0470,MBA,3,94,Pending,Review Required,Applied,V4,Education
+STU0158,CUST0473,BCA,3,90,Paid,Review Required,Not Applied,V4,Education
+STU0159,CUST0476,M.Tech,2,68,Paid,Eligible,Approved,V4,Education
+STU0160,CUST0479,BBA,3,82,Partially Paid,Review Required,Applied,V4,Education
+STU0161,CUST0482,B.Tech,1,75,Pending,Eligible,Not Applied,V4,Education
+STU0162,CUST0485,BBA,3,72,Paid,Review Required,Applied,V4,Education
+STU0163,CUST0488,BBA,1,75,Paid,Eligible,Not Eligible,V4,Education
+STU0164,CUST0491,BCA,2,78,Partially Paid,Eligible,Not Applied,V4,Education
+STU0165,CUST0494,B.Tech,3,75,Partially Paid,Review Required,Not Eligible,V4,Education
+STU0166,CUST0497,M.Tech,1,62,Pending,Eligible,Applied,V4,Education
+STU0167,CUST0500,M.Tech,3,86,Pending,Eligible,Applied,V4,Education
+STU0168,CUST0503,B.Tech,4,90,Paid,Eligible,Not Eligible,V4,Education
+STU0169,CUST0506,BCA,2,62,Paid,Eligible,Approved,V4,Education
+STU0170,CUST0509,B.Tech,2,75,Pending,Eligible,Not Applied,V4,Education
+STU0171,CUST0512,BBA,2,94,Pending,Eligible,Not Eligible,V4,Education
+STU0172,CUST0515,MBA,3,72,Partially Paid,Eligible,Applied,V4,Education
+STU0173,CUST0518,BBA,2,72,Pending,Eligible,Applied,V4,Education
+STU0174,CUST0521,B.Tech,2,62,Paid,Eligible,Not Eligible,V4,Education
+STU0175,CUST0524,M.Tech,1,75,Paid,Eligible,Applied,V4,Education
+STU0176,CUST0527,B.Tech,2,75,Paid,Review Required,Not Eligible,V4,Education
+STU0177,CUST0530,MBA,1,68,Partially Paid,Review Required,Approved,V4,Education
+STU0178,CUST0533,B.Tech,4,86,Paid,Review Required,Approved,V4,Education
+STU0179,CUST0536,BCA,2,62,Paid,Eligible,Approved,V4,Education
+STU0180,CUST0539,BBA,1,68,Paid,Eligible,Approved,V4,Education
+STU0181,CUST0542,MBA,2,75,Paid,Eligible,Approved,V4,Education
+STU0182,CUST0545,BBA,1,72,Pending,Eligible,Not Eligible,V4,Education
+STU0183,CUST0548,B.Tech,1,68,Partially Paid,Eligible,Applied,V4,Education
+STU0184,CUST0551,BBA,3,62,Paid,Eligible,Not Eligible,V4,Education
+STU0185,CUST0554,MBA,3,94,Partially Paid,Eligible,Not Eligible,V4,Education
+STU0186,CUST0557,MBA,3,78,Partially Paid,Eligible,Applied,V4,Education
+STU0187,CUST0560,BCA,1,86,Paid,Eligible,Not Eligible,V4,Education
+STU0188,CUST0563,BBA,4,72,Paid,Eligible,Applied,V4,Education
+STU0189,CUST0566,BBA,3,62,Pending,Eligible,Not Eligible,V4,Education
+STU0190,CUST0569,MBA,3,78,Pending,Eligible,Applied,V4,Education
+STU0191,CUST0572,MBA,2,75,Partially Paid,Eligible,Applied,V4,Education
+STU0192,CUST0575,B.Tech,2,68,Paid,Eligible,Not Applied,V4,Education
+STU0193,CUST0578,M.Tech,4,94,Paid,Eligible,Approved,V4,Education
+STU0194,CUST0581,M.Tech,4,62,Paid,Review Required,Not Applied,V4,Education
+STU0195,CUST0584,MBA,3,62,Paid,Eligible,Approved,V4,Education
+STU0196,CUST0587,B.Tech,3,82,Paid,Eligible,Not Applied,V4,Education
+STU0197,CUST0590,MBA,1,72,Paid,Eligible,Not Eligible,V4,Education
+STU0198,CUST0593,MBA,3,75,Paid,Review Required,Applied,V4,Education
+STU0199,CUST0596,BBA,1,82,Paid,Eligible,Applied,V4,Education
+STU0200,CUST0599,B.Tech,4,72,Partially Paid,Eligible,Approved,V4,Education
+STU0201,CUST0602,M.Tech,4,75,Paid,Eligible,Applied,V4,Education
+STU0202,CUST0605,BBA,3,78,Paid,Review Required,Not Applied,V4,Education
+STU0203,CUST0608,BCA,4,94,Pending,Eligible,Not Applied,V4,Education
+STU0204,CUST0611,BCA,4,62,Paid,Eligible,Approved,V4,Education
+STU0205,CUST0614,M.Tech,4,94,Paid,Eligible,Approved,V4,Education
+STU0206,CUST0617,BBA,4,90,Paid,Eligible,Not Eligible,V4,Education
+STU0207,CUST0620,MBA,2,72,Pending,Eligible,Not Eligible,V4,Education
+STU0208,CUST0623,BBA,3,72,Partially Paid,Review Required,Not Eligible,V4,Education
+STU0209,CUST0626,BCA,2,72,Paid,Eligible,Not Applied,V4,Education
+STU0210,CUST0629,MBA,1,86,Paid,Eligible,Applied,V4,Education
+STU0211,CUST0632,M.Tech,2,62,Paid,Eligible,Applied,V4,Education
+STU0212,CUST0635,M.Tech,3,68,Paid,Eligible,Not Eligible,V4,Education
+STU0213,CUST0638,BBA,1,72,Pending,Eligible,Approved,V4,Education
+STU0214,CUST0641,M.Tech,4,75,Partially Paid,Eligible,Not Eligible,V4,Education
+STU0215,CUST0644,BBA,4,72,Pending,Eligible,Applied,V4,Education
+STU0216,CUST0647,B.Tech,4,86,Paid,Eligible,Approved,V4,Education
+STU0217,CUST0650,M.Tech,1,94,Paid,Eligible,Applied,V4,Education
+STU0218,CUST0653,BBA,1,75,Pending,Eligible,Not Applied,V4,Education
+STU0219,CUST0656,BCA,2,72,Paid,Eligible,Applied,V4,Education
+STU0220,CUST0659,BBA,1,72,Paid,Eligible,Approved,V4,Education
+STU0221,CUST0662,M.Tech,1,82,Pending,Eligible,Not Eligible,V4,Education
+STU0222,CUST0665,M.Tech,4,94,Partially Paid,Review Required,Approved,V4,Education
+STU0223,CUST0668,B.Tech,1,68,Pending,Eligible,Approved,V4,Education
+STU0224,CUST0671,M.Tech,1,86,Paid,Eligible,Applied,V4,Education
+STU0225,CUST0674,B.Tech,1,86,Paid,Review Required,Not Eligible,V4,Education
+STU0226,CUST0677,M.Tech,4,75,Paid,Eligible,Not Eligible,V4,Education
+STU0227,CUST0680,MBA,3,86,Paid,Eligible,Not Eligible,V4,Education
+STU0228,CUST0683,BBA,2,78,Paid,Eligible,Applied,V4,Education
+STU0229,CUST0686,MBA,2,72,Paid,Eligible,Applied,V4,Education
+STU0230,CUST0689,B.Tech,3,68,Paid,Eligible,Applied,V4,Education
+STU0231,CUST0692,M.Tech,3,94,Paid,Eligible,Approved,V4,Education
+STU0232,CUST0695,MBA,1,68,Partially Paid,Review Required,Applied,V4,Education
+STU0233,CUST0698,MBA,3,94,Paid,Eligible,Applied,V4,Education
+STU0234,CUST0701,B.Tech,1,62,Paid,Review Required,Not Eligible,V4,Education
+STU0235,CUST0704,MBA,1,72,Paid,Eligible,Not Applied,V4,Education
+STU0236,CUST0707,BCA,2,72,Pending,Eligible,Applied,V4,Education
+STU0237,CUST0710,M.Tech,4,75,Paid,Eligible,Approved,V4,Education
+STU0238,CUST0713,B.Tech,3,72,Paid,Eligible,Applied,V4,Education
+STU0239,CUST0716,M.Tech,1,82,Pending,Eligible,Not Eligible,V4,Education
+STU0240,CUST0719,M.Tech,2,62,Paid,Review Required,Not Eligible,V4,Education
+STU0241,CUST0722,M.Tech,4,72,Partially Paid,Review Required,Applied,V4,Education
+STU0242,CUST0725,BBA,2,94,Paid,Review Required,Applied,V4,Education
+STU0243,CUST0728,BBA,4,86,Paid,Eligible,Not Applied,V4,Education
+STU0244,CUST0731,M.Tech,4,72,Partially Paid,Review Required,Not Applied,V4,Education
+STU0245,CUST0734,BBA,4,94,Paid,Eligible,Not Applied,V4,Education
+STU0246,CUST0737,B.Tech,2,72,Pending,Eligible,Applied,V4,Education
+STU0247,CUST0740,BBA,2,68,Pending,Eligible,Approved,V4,Education
+STU0248,CUST0743,BBA,4,68,Pending,Review Required,Approved,V4,Education
+STU0249,CUST0746,B.Tech,4,90,Partially Paid,Review Required,Not Applied,V4,Education
+STU0250,CUST0749,B.Tech,4,82,Pending,Eligible,Not Applied,V4,Education
+STU0251,CUST0752,M.Tech,1,78,Paid,Eligible,Applied,V4,Education
+STU0252,CUST0755,MBA,4,86,Paid,Review Required,Not Applied,V4,Education
+STU0253,CUST0758,BCA,4,94,Paid,Eligible,Approved,V4,Education
+STU0254,CUST0761,MBA,2,62,Paid,Review Required,Not Eligible,V4,Education
+STU0255,CUST0764,BCA,4,94,Partially Paid,Eligible,Approved,V4,Education
+STU0256,CUST0767,M.Tech,1,72,Paid,Review Required,Applied,V4,Education
+STU0257,CUST0770,BCA,2,82,Paid,Eligible,Approved,V4,Education
+STU0258,CUST0773,MBA,1,90,Paid,Eligible,Not Applied,V4,Education
+STU0259,CUST0776,MBA,3,90,Paid,Review Required,Not Eligible,V4,Education
+STU0260,CUST0779,M.Tech,3,68,Partially Paid,Review Required,Not Eligible,V4,Education
+STU0261,CUST0782,B.Tech,1,94,Pending,Review Required,Approved,V4,Education
+STU0262,CUST0785,MBA,3,94,Paid,Eligible,Not Eligible,V4,Education
+STU0263,CUST0788,BCA,1,94,Paid,Eligible,Not Applied,V4,Education
+STU0264,CUST0791,MBA,4,75,Paid,Review Required,Approved,V4,Education
+STU0265,CUST0794,BBA,4,94,Pending,Eligible,Not Eligible,V4,Education
+STU0266,CUST0797,BCA,1,78,Paid,Eligible,Not Applied,V4,Education
+STU0267,CUST0800,M.Tech,2,94,Partially Paid,Eligible,Approved,V4,Education
+STU0268,CUST0803,BBA,1,62,Paid,Review Required,Applied,V4,Education
+STU0269,CUST0806,MBA,1,86,Partially Paid,Eligible,Not Applied,V4,Education
+STU0270,CUST0809,B.Tech,2,78,Pending,Eligible,Approved,V4,Education
+STU0271,CUST0812,M.Tech,1,75,Paid,Eligible,Not Applied,V4,Education
+STU0272,CUST0815,BCA,4,78,Pending,Eligible,Not Eligible,V4,Education
+STU0273,CUST0818,BCA,1,94,Paid,Review Required,Applied,V4,Education
+STU0274,CUST0821,B.Tech,2,90,Paid,Eligible,Not Applied,V4,Education
+STU0275,CUST0824,B.Tech,2,62,Paid,Review Required,Not Eligible,V4,Education
+STU0276,CUST0827,B.Tech,3,75,Paid,Eligible,Not Eligible,V4,Education
+STU0277,CUST0830,BCA,1,94,Paid,Eligible,Not Eligible,V4,Education
+STU0278,CUST0833,M.Tech,3,86,Partially Paid,Eligible,Not Eligible,V4,Education
+STU0279,CUST0836,B.Tech,1,94,Partially Paid,Eligible,Not Eligible,V4,Education
+STU0280,CUST0839,B.Tech,1,68,Paid,Review Required,Approved,V4,Education
+STU0281,CUST0842,B.Tech,1,75,Paid,Eligible,Approved,V4,Education
+STU0282,CUST0845,BCA,2,62,Partially Paid,Review Required,Approved,V4,Education
+STU0283,CUST0848,BCA,4,94,Partially Paid,Eligible,Applied,V4,Education
+STU0284,CUST0851,BCA,1,86,Paid,Eligible,Not Applied,V4,Education
+STU0285,CUST0854,BCA,3,86,Partially Paid,Eligible,Approved,V4,Education
+STU0286,CUST0857,MBA,2,72,Paid,Eligible,Not Applied,V4,Education
+STU0287,CUST0860,BCA,2,75,Paid,Review Required,Not Applied,V4,Education
+STU0288,CUST0863,BCA,4,78,Partially Paid,Review Required,Approved,V4,Education
+STU0289,CUST0866,M.Tech,3,82,Paid,Eligible,Not Eligible,V4,Education
+STU0290,CUST0869,BCA,2,68,Paid,Eligible,Approved,V4,Education
+STU0291,CUST0872,B.Tech,4,68,Paid,Eligible,Approved,V4,Education
+STU0292,CUST0875,BCA,2,68,Paid,Eligible,Not Applied,V4,Education
+STU0293,CUST0878,BBA,4,72,Paid,Eligible,Not Applied,V4,Education
+STU0294,CUST0881,MBA,2,72,Partially Paid,Review Required,Applied,V4,Education
+STU0295,CUST0884,MBA,3,94,Pending,Eligible,Approved,V4,Education
+STU0296,CUST0887,M.Tech,3,82,Pending,Eligible,Applied,V4,Education
+STU0297,CUST0890,BBA,3,72,Paid,Eligible,Approved,V4,Education
+STU0298,CUST0893,B.Tech,4,68,Pending,Eligible,Not Eligible,V4,Education
+STU0299,CUST0896,BCA,1,90,Paid,Eligible,Approved,V4,Education
+STU0300,CUST0899,B.Tech,1,82,Paid,Eligible,Approved,V4,Education
+STU0301,CUST0902,MBA,4,78,Paid,Review Required,Applied,V4,Education
+STU0302,CUST0905,BCA,2,82,Paid,Eligible,Not Eligible,V4,Education
+STU0303,CUST0908,M.Tech,3,68,Partially Paid,Eligible,Approved,V4,Education
+STU0304,CUST0911,M.Tech,3,90,Paid,Eligible,Approved,V4,Education
+STU0305,CUST0914,M.Tech,2,62,Paid,Eligible,Not Eligible,V4,Education
+STU0306,CUST0917,M.Tech,1,75,Paid,Eligible,Applied,V4,Education
+STU0307,CUST0920,MBA,1,68,Paid,Eligible,Applied,V4,Education
+STU0308,CUST0923,MBA,1,94,Partially Paid,Eligible,Not Applied,V4,Education
+STU0309,CUST0926,BCA,2,90,Pending,Review Required,Applied,V4,Education
+STU0310,CUST0929,B.Tech,3,94,Partially Paid,Eligible,Approved,V4,Education
+STU0311,CUST0932,B.Tech,3,72,Paid,Review Required,Approved,V4,Education
+STU0312,CUST0935,MBA,3,75,Paid,Eligible,Not Eligible,V4,Education
+STU0313,CUST0938,M.Tech,1,68,Pending,Eligible,Approved,V4,Education
+STU0314,CUST0941,MBA,4,75,Paid,Eligible,Not Eligible,V4,Education
+STU0315,CUST0944,MBA,1,90,Partially Paid,Review Required,Applied,V4,Education
+STU0316,CUST0947,M.Tech,4,68,Paid,Eligible,Applied,V4,Education
+STU0317,CUST0950,MBA,2,78,Partially Paid,Review Required,Approved,V4,Education
+STU0318,CUST0953,BCA,1,62,Paid,Eligible,Not Applied,V4,Education
+STU0319,CUST0956,M.Tech,3,90,Paid,Eligible,Applied,V4,Education
+STU0320,CUST0959,BCA,2,68,Paid,Review Required,Approved,V4,Education
+STU0321,CUST0962,BCA,2,78,Partially Paid,Eligible,Approved,V4,Education
+STU0322,CUST0965,M.Tech,4,82,Partially Paid,Eligible,Approved,V4,Education
+STU0323,CUST0968,MBA,3,82,Pending,Eligible,Not Applied,V4,Education
+STU0324,CUST0971,M.Tech,1,72,Paid,Eligible,Not Eligible,V4,Education
+STU0325,CUST0974,M.Tech,4,94,Pending,Eligible,Applied,V4,Education
+STU0326,CUST0977,BCA,2,90,Paid,Review Required,Not Applied,V4,Education
+STU0327,CUST0980,BCA,3,78,Paid,Eligible,Approved,V4,Education
+STU0328,CUST0983,BBA,4,90,Paid,Review Required,Not Applied,V4,Education
+STU0329,CUST0986,B.Tech,2,75,Paid,Eligible,Approved,V4,Education
+STU0330,CUST0989,MBA,1,68,Pending,Eligible,Not Eligible,V4,Education
+STU0331,CUST0992,M.Tech,1,78,Paid,Eligible,Not Applied,V4,Education
+STU0332,CUST0995,M.Tech,2,68,Partially Paid,Review Required,Not Applied,V4,Education
+STU0333,CUST0998,BCA,3,72,Pending,Review Required,Not Eligible,V4,Education
+STU0334,CUST0002,M.Tech,2,75,Paid,Eligible,Approved,V4,Education
+STU0335,CUST0005,M.Tech,1,90,Paid,Eligible,Applied,V4,Education
+STU0336,CUST0008,BBA,4,62,Paid,Eligible,Applied,V4,Education
+STU0337,CUST0011,M.Tech,1,62,Paid,Eligible,Not Eligible,V4,Education
+STU0338,CUST0014,BCA,2,82,Paid,Eligible,Applied,V4,Education
+STU0339,CUST0017,MBA,1,62,Pending,Eligible,Not Applied,V4,Education
+STU0340,CUST0020,M.Tech,1,62,Paid,Eligible,Not Applied,V4,Education
+STU0341,CUST0023,BBA,3,75,Partially Paid,Eligible,Not Eligible,V4,Education
+STU0342,CUST0026,B.Tech,3,94,Partially Paid,Eligible,Not Eligible,V4,Education
+STU0343,CUST0029,MBA,2,90,Paid,Eligible,Approved,V4,Education
+STU0344,CUST0032,M.Tech,4,75,Paid,Eligible,Applied,V4,Education
+STU0345,CUST0035,M.Tech,1,62,Paid,Eligible,Not Eligible,V4,Education
+STU0346,CUST0038,B.Tech,3,78,Partially Paid,Eligible,Not Applied,V4,Education
+STU0347,CUST0041,BCA,4,86,Paid,Review Required,Applied,V4,Education
+STU0348,CUST0044,BCA,3,68,Paid,Review Required,Approved,V4,Education
+STU0349,CUST0047,BBA,4,62,Paid,Eligible,Not Eligible,V4,Education
+STU0350,CUST0050,MBA,2,90,Paid,Eligible,Not Eligible,V4,Education
+STU0351,CUST0053,MBA,4,62,Paid,Eligible,Approved,V4,Education
+STU0352,CUST0056,BBA,1,86,Paid,Eligible,Not Applied,V4,Education
+STU0353,CUST0059,MBA,1,62,Paid,Review Required,Approved,V4,Education
+STU0354,CUST0062,BBA,3,94,Paid,Review Required,Approved,V4,Education
+STU0355,CUST0065,B.Tech,3,68,Paid,Eligible,Not Applied,V4,Education
+STU0356,CUST0068,BBA,4,75,Paid,Eligible,Applied,V4,Education
+STU0357,CUST0071,MBA,4,75,Partially Paid,Eligible,Not Applied,V4,Education
+STU0358,CUST0074,BCA,3,78,Partially Paid,Eligible,Applied,V4,Education
+STU0359,CUST0077,M.Tech,3,75,Paid,Review Required,Not Applied,V4,Education
+STU0360,CUST0080,MBA,4,86,Paid,Eligible,Applied,V4,Education
+STU0361,CUST0083,BBA,3,94,Partially Paid,Eligible,Approved,V4,Education
+STU0362,CUST0086,BCA,1,75,Paid,Review Required,Applied,V4,Education
+STU0363,CUST0089,MBA,1,90,Paid,Eligible,Not Applied,V4,Education
+STU0364,CUST0092,MBA,1,68,Partially Paid,Eligible,Not Applied,V4,Education
+STU0365,CUST0095,BBA,3,75,Pending,Eligible,Not Eligible,V4,Education
+STU0366,CUST0098,BBA,4,90,Paid,Eligible,Applied,V4,Education
+STU0367,CUST0101,BBA,4,78,Partially Paid,Review Required,Not Applied,V4,Education
+STU0368,CUST0104,BCA,1,75,Paid,Eligible,Not Applied,V4,Education
+STU0369,CUST0107,BCA,2,94,Partially Paid,Eligible,Applied,V4,Education
+STU0370,CUST0110,M.Tech,2,86,Paid,Eligible,Approved,V4,Education
+STU0371,CUST0113,BBA,1,78,Paid,Eligible,Applied,V4,Education
+STU0372,CUST0116,B.Tech,1,82,Partially Paid,Review Required,Applied,V4,Education
+STU0373,CUST0119,B.Tech,3,78,Paid,Eligible,Not Applied,V4,Education
+STU0374,CUST0122,MBA,3,68,Pending,Eligible,Applied,V4,Education
+STU0375,CUST0125,BCA,3,75,Pending,Eligible,Not Applied,V4,Education
+STU0376,CUST0128,M.Tech,4,78,Paid,Eligible,Applied,V4,Education
+STU0377,CUST0131,BCA,4,62,Pending,Review Required,Applied,V4,Education
+STU0378,CUST0134,MBA,3,86,Paid,Eligible,Applied,V4,Education
+STU0379,CUST0137,BCA,1,90,Paid,Eligible,Applied,V4,Education
+STU0380,CUST0140,BCA,1,78,Paid,Eligible,Not Eligible,V4,Education
+STU0381,CUST0143,B.Tech,1,94,Pending,Eligible,Not Applied,V4,Education
+STU0382,CUST0146,BBA,3,86,Pending,Review Required,Not Applied,V4,Education
+STU0383,CUST0149,MBA,2,62,Partially Paid,Eligible,Applied,V4,Education
+STU0384,CUST0152,M.Tech,4,90,Paid,Eligible,Applied,V4,Education
+STU0385,CUST0155,B.Tech,1,82,Paid,Review Required,Not Eligible,V4,Education
+STU0386,CUST0158,BBA,1,82,Paid,Review Required,Not Applied,V4,Education
+STU0387,CUST0161,B.Tech,3,90,Partially Paid,Eligible,Not Applied,V4,Education
+STU0388,CUST0164,B.Tech,1,90,Paid,Eligible,Approved,V4,Education
+STU0389,CUST0167,M.Tech,1,62,Partially Paid,Eligible,Not Eligible,V4,Education
+STU0390,CUST0170,B.Tech,2,62,Partially Paid,Eligible,Applied,V4,Education
+STU0391,CUST0173,B.Tech,1,75,Pending,Review Required,Not Applied,V4,Education
+STU0392,CUST0176,M.Tech,4,68,Partially Paid,Review Required,Applied,V4,Education
+STU0393,CUST0179,BBA,1,62,Paid,Eligible,Approved,V4,Education
+STU0394,CUST0182,MBA,1,90,Paid,Eligible,Not Applied,V4,Education
+STU0395,CUST0185,MBA,1,90,Paid,Eligible,Applied,V4,Education
+STU0396,CUST0188,MBA,1,72,Paid,Eligible,Approved,V4,Education
+STU0397,CUST0191,BBA,2,82,Paid,Eligible,Not Eligible,V4,Education
+STU0398,CUST0194,B.Tech,2,82,Paid,Eligible,Approved,V4,Education
+STU0399,CUST0197,B.Tech,2,62,Pending,Eligible,Approved,V4,Education
+STU0400,CUST0200,MBA,4,72,Partially Paid,Eligible,Applied,V4,Education
+STU0401,CUST0203,BBA,4,82,Paid,Eligible,Applied,V4,Education
+STU0402,CUST0206,BBA,4,86,Paid,Review Required,Approved,V4,Education
+STU0403,CUST0209,M.Tech,1,72,Paid,Eligible,Approved,V4,Education
+STU0404,CUST0212,M.Tech,3,68,Partially Paid,Eligible,Applied,V4,Education
+STU0405,CUST0215,B.Tech,1,68,Paid,Eligible,Applied,V4,Education
+STU0406,CUST0218,MBA,4,78,Pending,Review Required,Approved,V4,Education
+STU0407,CUST0221,MBA,4,94,Partially Paid,Eligible,Applied,V4,Education
+STU0408,CUST0224,MBA,4,62,Paid,Eligible,Approved,V4,Education
+STU0409,CUST0227,MBA,3,62,Pending,Eligible,Not Eligible,V4,Education
+STU0410,CUST0230,M.Tech,1,68,Pending,Eligible,Not Eligible,V4,Education
+STU0411,CUST0233,BCA,2,68,Partially Paid,Eligible,Not Applied,V4,Education
+STU0412,CUST0236,B.Tech,4,94,Paid,Review Required,Applied,V4,Education
+STU0413,CUST0239,BBA,3,75,Paid,Eligible,Not Eligible,V4,Education
+STU0414,CUST0242,BCA,4,62,Pending,Eligible,Not Applied,V4,Education
+STU0415,CUST0245,BBA,4,82,Paid,Review Required,Applied,V4,Education
+STU0416,CUST0248,BBA,1,72,Paid,Eligible,Applied,V4,Education
+STU0417,CUST0251,MBA,2,62,Paid,Eligible,Not Applied,V4,Education
+STU0418,CUST0254,BBA,2,62,Paid,Eligible,Not Applied,V4,Education
+STU0419,CUST0257,M.Tech,4,75,Paid,Review Required,Not Eligible,V4,Education
+STU0420,CUST0260,BBA,1,62,Paid,Eligible,Not Applied,V4,Education
+STU0421,CUST0263,BCA,1,86,Paid,Eligible,Not Applied,V4,Education
+STU0422,CUST0266,MBA,2,75,Paid,Review Required,Applied,V4,Education
+STU0423,CUST0269,MBA,4,62,Partially Paid,Eligible,Approved,V4,Education
+STU0424,CUST0272,BCA,1,94,Partially Paid,Review Required,Approved,V4,Education
+STU0425,CUST0275,MBA,2,62,Paid,Eligible,Approved,V4,Education
+STU0426,CUST0278,BBA,2,86,Paid,Eligible,Applied,V4,Education
+STU0427,CUST0281,MBA,1,68,Pending,Eligible,Approved,V4,Education
+STU0428,CUST0284,B.Tech,3,78,Paid,Eligible,Approved,V4,Education
+STU0429,CUST0287,BBA,1,75,Paid,Eligible,Not Applied,V4,Education
+STU0430,CUST0290,BCA,2,82,Paid,Eligible,Not Eligible,V4,Education
+STU0431,CUST0293,MBA,1,90,Paid,Review Required,Approved,V4,Education
+STU0432,CUST0296,BCA,3,86,Partially Paid,Review Required,Applied,V4,Education
+STU0433,CUST0299,B.Tech,1,62,Pending,Eligible,Approved,V4,Education
+STU0434,CUST0302,B.Tech,2,94,Paid,Eligible,Applied,V4,Education
+STU0435,CUST0305,BBA,4,78,Paid,Eligible,Not Eligible,V4,Education
+STU0436,CUST0308,BBA,1,94,Paid,Eligible,Not Eligible,V4,Education
+STU0437,CUST0311,BCA,3,72,Partially Paid,Eligible,Approved,V4,Education
+STU0438,CUST0314,BBA,4,78,Paid,Eligible,Approved,V4,Education
+STU0439,CUST0317,MBA,1,62,Paid,Eligible,Applied,V4,Education
+STU0440,CUST0320,M.Tech,1,94,Paid,Eligible,Not Applied,V4,Education
+STU0441,CUST0323,M.Tech,1,86,Paid,Eligible,Approved,V4,Education
+STU0442,CUST0326,BCA,1,78,Partially Paid,Eligible,Not Applied,V4,Education
+STU0443,CUST0329,B.Tech,4,72,Paid,Eligible,Approved,V4,Education
+STU0444,CUST0332,MBA,4,62,Paid,Eligible,Applied,V4,Education
+STU0445,CUST0335,M.Tech,2,94,Paid,Review Required,Not Applied,V4,Education
+STU0446,CUST0338,B.Tech,1,72,Paid,Eligible,Not Eligible,V4,Education
+STU0447,CUST0341,B.Tech,3,68,Paid,Eligible,Approved,V4,Education
+STU0448,CUST0344,M.Tech,3,62,Partially Paid,Review Required,Not Eligible,V4,Education
+STU0449,CUST0347,BCA,2,78,Paid,Review Required,Not Applied,V4,Education
+STU0450,CUST0350,BCA,2,72,Partially Paid,Review Required,Applied,V4,Education
+STU0451,CUST0353,BCA,4,62,Paid,Eligible,Approved,V4,Education
+STU0452,CUST0356,BBA,1,82,Partially Paid,Eligible,Approved,V4,Education
+STU0453,CUST0359,MBA,2,78,Paid,Eligible,Not Eligible,V4,Education
+STU0454,CUST0362,B.Tech,4,86,Pending,Eligible,Applied,V4,Education
+STU0455,CUST0365,BCA,1,72,Partially Paid,Eligible,Not Eligible,V4,Education
+STU0456,CUST0368,MBA,1,94,Partially Paid,Review Required,Not Eligible,V4,Education
+STU0457,CUST0371,BCA,4,72,Paid,Eligible,Not Applied,V4,Education
+STU0458,CUST0374,M.Tech,4,86,Pending,Review Required,Approved,V4,Education
+STU0459,CUST0377,M.Tech,3,90,Partially Paid,Eligible,Applied,V4,Education
+STU0460,CUST0380,M.Tech,1,75,Paid,Eligible,Not Applied,V4,Education
+STU0461,CUST0383,MBA,1,94,Paid,Review Required,Approved,V4,Education
+STU0462,CUST0386,BBA,2,75,Paid,Eligible,Applied,V4,Education
+STU0463,CUST0389,BCA,1,78,Partially Paid,Review Required,Applied,V4,Education
+STU0464,CUST0392,B.Tech,2,68,Paid,Review Required,Approved,V4,Education
+STU0465,CUST0395,M.Tech,3,72,Paid,Eligible,Applied,V4,Education
+STU0466,CUST0398,B.Tech,4,78,Paid,Eligible,Not Applied,V4,Education
+STU0467,CUST0401,B.Tech,4,75,Pending,Eligible,Applied,V4,Education
+STU0468,CUST0404,MBA,2,62,Partially Paid,Eligible,Approved,V4,Education
+STU0469,CUST0407,BBA,3,78,Pending,Eligible,Not Applied,V4,Education
+STU0470,CUST0410,M.Tech,3,86,Pending,Eligible,Not Eligible,V4,Education
+STU0471,CUST0413,MBA,3,62,Paid,Eligible,Not Applied,V4,Education
+STU0472,CUST0416,B.Tech,2,68,Paid,Eligible,Approved,V4,Education
+STU0473,CUST0419,BBA,3,68,Paid,Eligible,Not Applied,V4,Education
+STU0474,CUST0422,B.Tech,4,62,Paid,Review Required,Not Applied,V4,Education
+STU0475,CUST0425,BBA,4,72,Paid,Review Required,Not Applied,V4,Education
+STU0476,CUST0428,B.Tech,2,72,Paid,Eligible,Not Applied,V4,Education
+STU0477,CUST0431,M.Tech,4,94,Pending,Eligible,Not Applied,V4,Education
+STU0478,CUST0434,B.Tech,3,62,Paid,Eligible,Approved,V4,Education
+STU0479,CUST0437,MBA,1,75,Paid,Review Required,Not Applied,V4,Education
+STU0480,CUST0440,M.Tech,4,94,Partially Paid,Eligible,Not Applied,V4,Education
+STU0481,CUST0443,MBA,2,82,Pending,Eligible,Approved,V4,Education
+STU0482,CUST0446,B.Tech,3,90,Pending,Eligible,Approved,V4,Education
+STU0483,CUST0449,B.Tech,1,68,Paid,Review Required,Approved,V4,Education
+STU0484,CUST0452,BBA,3,94,Paid,Eligible,Not Applied,V4,Education
+STU0485,CUST0455,MBA,2,94,Pending,Review Required,Not Applied,V4,Education
+STU0486,CUST0458,MBA,2,90,Pending,Eligible,Applied,V4,Education
+STU0487,CUST0461,MBA,1,86,Paid,Review Required,Not Applied,V4,Education
+STU0488,CUST0464,M.Tech,1,90,Paid,Eligible,Applied,V4,Education
+STU0489,CUST0467,M.Tech,4,78,Partially Paid,Review Required,Not Applied,V4,Education
+STU0490,CUST0470,M.Tech,2,90,Paid,Eligible,Not Applied,V4,Education
+STU0491,CUST0473,MBA,4,94,Paid,Eligible,Applied,V4,Education
+STU0492,CUST0476,BCA,1,94,Paid,Eligible,Not Eligible,V4,Education
+STU0493,CUST0479,M.Tech,1,62,Paid,Eligible,Approved,V4,Education
+STU0494,CUST0482,BBA,2,75,Partially Paid,Eligible,Applied,V4,Education
+STU0495,CUST0485,B.Tech,4,62,Partially Paid,Review Required,Approved,V4,Education
+STU0496,CUST0488,MBA,3,86,Partially Paid,Eligible,Not Eligible,V4,Education
+STU0497,CUST0491,MBA,3,68,Partially Paid,Eligible,Applied,V4,Education
+STU0498,CUST0494,M.Tech,3,72,Paid,Eligible,Not Applied,V4,Education
+STU0499,CUST0497,B.Tech,4,78,Paid,Review Required,Not Applied,V4,Education
+STU0500,CUST0500,B.Tech,4,62,Paid,Eligible,Approved,V4,Education

@@ -1,0 +1,14 @@
+,Value
+Total_Queries,501.0
+Answerable_Queries,428.0
+Unanswerable_Gaps,73.0
+Recall@1,0.44510978043912175
+Recall@3,0.6487025948103793
+Recall@5,0.7465069860279441
+MRR,0.5549234863606121
+Answerable_Recall@1,0.5210280373831776
+Answerable_Recall@3,0.7593457943925234
+Answerable_Recall@5,0.8738317757009346
+Answerable_MRR,0.6495716510903426
+Mean_Latency_ms,38.19368862275449
+P95_Latency_ms,47.744

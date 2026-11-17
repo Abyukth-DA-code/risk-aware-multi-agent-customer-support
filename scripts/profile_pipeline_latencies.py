@@ -45,7 +45,7 @@ for idx, row in sample_queries.iterrows():
     t0 = time.perf_counter()
     state = pipeline.run(query=q, domain=d, generate_grounded_response=True)
     e2e_actual = (time.perf_counter() - t0) * 1000
-
+    
     bd = state.metadata.get("latency_breakdown", {})
     for stage in stages:
         if stage == "latency_e2e_ms":
@@ -66,7 +66,7 @@ for idx, row in sample_queries.iterrows():
     t0 = time.perf_counter()
     state = pipeline.run(query=q, domain=d, generate_grounded_response=True)
     e2e_actual = (time.perf_counter() - t0) * 1000
-
+    
     bd = state.metadata.get("latency_breakdown", {})
     for stage in stages:
         if stage == "latency_e2e_ms":

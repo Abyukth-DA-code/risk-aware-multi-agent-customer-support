@@ -24,8 +24,17 @@ import pytest
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
-PROCESSED_RAG_DIR = ROOT / "data" / "processed" / "rag"
-OUTPUT_DIR = ROOT / "outputs" / "rag_evaluation"
+_cand_rag = [
+    ROOT / "datasets" / "processed" / "rag",
+    ROOT / "data" / "processed" / "rag",
+]
+PROCESSED_RAG_DIR = next((c for c in _cand_rag if c.exists()), _cand_rag[0])
+
+_cand_out = [
+    ROOT / "documentation" / "results" / "evaluation_outputs" / "rag_evaluation",
+    ROOT / "outputs" / "rag_evaluation",
+]
+OUTPUT_DIR = next((c for c in _cand_out if c.exists()), _cand_out[0])
 
 
 def test_1_missing_document_ids_detection():
@@ -200,7 +209,11 @@ def test_12_existing_rag_retrieval_continuing_to_work():
 
 def test_13_no_modification_of_frozen_v4_data():
     """Criterion 13: Verify frozen master gold data has not been modified or mutated."""
-    gold_path = ROOT / "data" / "processed" / "FINAL_MASTER_GOLD.csv"
+    _cand_gold = [
+        ROOT / "datasets" / "processed" / "FINAL_MASTER_GOLD.csv",
+        ROOT / "data" / "processed" / "FINAL_MASTER_GOLD.csv",
+    ]
+    gold_path = next((c for c in _cand_gold if c.exists()), _cand_gold[0])
     assert gold_path.exists(), "FINAL_MASTER_GOLD.csv missing"
     gold_df = pd.read_csv(gold_path)
 

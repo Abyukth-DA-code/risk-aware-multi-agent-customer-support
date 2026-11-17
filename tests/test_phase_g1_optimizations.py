@@ -132,7 +132,7 @@ def test_cache_miss_recomputes_and_populates(clean_verifier):
         "title": "Test Title",
         "chunk_text": "First sentence of unique text. Second sentence containing specific return policy info.",
     }
-
+    
     clean_verifier.verify(query="What is the return policy?", retrieved_chunks=[chunk])
     stats_after = EvidenceEntailmentVerifier.get_cache_stats()
     assert stats_after["size"] == 1

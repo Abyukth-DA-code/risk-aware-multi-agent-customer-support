@@ -1,0 +1,74 @@
+case_id,query,intent,top_doc,top_sim,entailment_status,entailment_score,tier,escalated,safety_rule,has_response,is_false_answer
+CASE002728,I'd like to purcjase several of ur item help me,place_order,E004,0.3434,INSUFFICIENT_EVIDENCE,0.1527,ESCALATE,True,EVID_INSUF_04,False,False
+CASE003008,what do I need to do to shop some of your product?,place_order,E001,0.3403,INSUFFICIENT_EVIDENCE,0.3339,ESCALATE,True,EVID_INSUF_04,False,False
+CASE001607,want assistance to write an opinion,review,E010,0.0489,INSUFFICIENT_EVIDENCE,0.0257,ESCALATE,True,LOW_CONF_05,False,False
+CASE000047,Can I apply for a company if I have a backlog?,Placement Support,E021,0.2824,INSUFFICIENT_EVIDENCE,0.2824,ESCALATE,True,LOW_CONF_05,False,False
+CASE001257,can you help me listing your allowed payment methods?,check_payment_methods,E002,0.3671,INSUFFICIENT_EVIDENCE,0.25,ESCALATE,True,,False,False
+CASE001165,"I need to check your allowed payment options, how to do it?",check_payment_methods,E012,0.3787,INSUFFICIENT_EVIDENCE,0.25,ESCALATE,True,,False,False
+CASE000183,Can I change the delivery address?,Delivery Inquiry,E032,0.3614,INSUFFICIENT_EVIDENCE,0.2748,ESCALATE,True,,False,False
+CASE003081,could you help me list your accepted payment modalities?,check_payment_methods,E002,0.409,INSUFFICIENT_EVIDENCE,0.25,ESCALATE,True,,False,False
+CASE000498,wanna see the payment methods help me,check_payment_methods,E009,0.4821,INSUFFICIENT_EVIDENCE,0.25,ESCALATE,True,,False,False
+CASE003317,I need help leaving a comment for your services,review,E001,0.3458,INSUFFICIENT_EVIDENCE,0.1203,ESCALATE,True,,False,False
+CASE001578,I don't know how I can order some of your article,place_order,EV1004,0.1834,INSUFFICIENT_EVIDENCE,0.1834,ESCALATE,True,EVID_INSUF_04,False,False
+CASE000356,where can i acquire an few of ur article,place_order,EV1004,0.1993,INSUFFICIENT_EVIDENCE,0.1333,ESCALATE,True,EVID_INSUF_04,False,False
+CASE000396,The supplier has not confirmed my order. Please help.,Vendor Support,E028,0.3346,INSUFFICIENT_EVIDENCE,0.3346,ESCALATE,True,,False,False
+CASE003096,I do not know what I need to do to purchase something,place_order,E012,0.2327,INSUFFICIENT_EVIDENCE,0.2841,ESCALATE,True,EVID_INSUF_04,False,False
+CASE002146,want assistance submitting my feedback for a service,review,E001,0.2373,INSUFFICIENT_EVIDENCE,0.2373,ESCALATE,True,LOW_CONF_05,False,False
+CASE002970,i dont know how i can acquire some of ur item,place_order,E001,0.3468,INSUFFICIENT_EVIDENCE,0.3837,ESCALATE,True,EVID_INSUF_04,False,False
+CASE000120,How can I contact the vendor about a missing item? Please help.,Vendor Support,E033,0.3031,INSUFFICIENT_EVIDENCE,0.3031,ESCALATE,True,,False,False
+CASE000428,where can i eanr a few of ur item,place_order,EV1004,0.2396,INSUFFICIENT_EVIDENCE,0.2172,ESCALATE,True,EVID_INSUF_04,False,False
+CASE002066,is there an address to leave an opinion ?,review,E007,0.2037,INSUFFICIENT_EVIDENCE,0.2037,ESCALATE,True,LOW_CONF_05,False,False
+CASE002932,is there a method to send some feedback about your products?,review,E001,0.3832,INSUFFICIENT_EVIDENCE,0.3538,ESCALATE,True,LOW_CONF_05,False,False
+CASE000575,Do you offer products suitable for small businesses? Please help.,Product Information,E030,0.203,INSUFFICIENT_EVIDENCE,0.203,ESCALATE,True,LOW_CONF_05,False,False
+CASE001609,is there anaddress to send feedback for a service,review,E001,0.2454,INSUFFICIENT_EVIDENCE,0.228,ESCALATE,True,LOW_CONF_05,False,False
+CASE000404,"For my business, can I get more information about this product?",Product Information,E030,0.343,INSUFFICIENT_EVIDENCE,0.2595,ESCALATE,True,,False,False
+CASE000595,Can I cancel the business subscription?,Subscription Management,E028,0.5914,INSUFFICIENT_EVIDENCE,0.25,ESCALATE,True,EVID_INSUF_04,False,False
+CASE000134,How do I register for campus placements? Please help me.,Placement Support,EV1005,0.4458,INSUFFICIENT_EVIDENCE,0.25,ESCALATE,True,,False,False
+CASE000338,list ur payment modalities,check_payment_methods,E009,0.4188,INSUFFICIENT_EVIDENCE,0.25,ESCALATE,True,,False,False
+CASE001300,i want help sending some feedback about a product,review,E001,0.2375,INSUFFICIENT_EVIDENCE,0.1952,ESCALATE,True,LOW_CONF_05,False,False
+CASE002252,I try to acquire an article,place_order,E010,0.18,INSUFFICIENT_EVIDENCE,0.154,ESCALATE,True,LOW_CONF_05,False,False
+CASE000309,ya have a section to send a comment for ur services,review,E001,0.2173,INSUFFICIENT_EVIDENCE,0.1923,ESCALATE,True,LOW_CONF_05,False,False
+CASE001271,what do I need to do to check your accepted payment methods?,check_payment_methods,E009,0.5105,INSUFFICIENT_EVIDENCE,0.25,ESCALATE,True,,False,False
+CASE000378,Can I get more information about this product?,Product Information,E034,0.1955,INSUFFICIENT_EVIDENCE,0.1955,ESCALATE,True,LOW_CONF_05,False,False
+CASE002527,I am trying to see your accepted payment methods,check_payment_methods,E009,0.4877,INSUFFICIENT_EVIDENCE,0.25,ESCALATE,True,,False,False
+CASE002730,wanna order a few of ur article,place_order,E003,0.1396,INSUFFICIENT_EVIDENCE,0.1396,ESCALATE,True,EVID_INSUF_04,False,False
+CASE000655,How do I renew a library book? I need more information.,Library,E023,0.2995,INSUFFICIENT_EVIDENCE,0.1921,ESCALATE,True,,False,False
+CASE000474,where do I buy something?,place_order,E003,0.2699,INSUFFICIENT_EVIDENCE,0.0004,ESCALATE,True,LOW_CONF_05,False,False
+CASE000145,"For my business, how do I upgrade our business plan?",Subscription Management,E030,0.3391,INSUFFICIENT_EVIDENCE,0.3274,ESCALATE,True,,False,False
+CASE003034,is there an e-mail to submit feedback for your company?,review,E002,0.2962,INSUFFICIENT_EVIDENCE,0.271,ESCALATE,True,,False,False
+CASE003270,assistance to leave some feedback about a service,review,E008,0.2885,INSUFFICIENT_EVIDENCE,0.2885,ESCALATE,True,LOW_CONF_05,False,False
+CASE000011,Where can I find upcoming placement drives? Please help me.,Placement Support,E015,0.3514,INSUFFICIENT_EVIDENCE,0.25,ESCALATE,True,,False,False
+CASE000813,can you help me leave an opinion foor a product?,review,E001,0.3191,INSUFFICIENT_EVIDENCE,0.3,ESCALATE,True,,False,False
+CASE002167,"I want to earn some goddamn items, I need assistance",place_order,E001,0.2656,INSUFFICIENT_EVIDENCE,0.2624,ESCALATE,True,LOW_CONF_05,False,False
+CASE001754,i have to se ur available payment methods could ya help me,check_payment_methods,E002,0.4064,INSUFFICIENT_EVIDENCE,0.25,ESCALATE,True,,False,False
+CASE000087,Can I change the delivery address? Please help.,Delivery Inquiry,E032,0.3682,INSUFFICIENT_EVIDENCE,0.2766,ESCALATE,True,,False,False
+CASE000065,Can I cancel the business subscription? as soon as possible.,Subscription Management,E028,0.5915,INSUFFICIENT_EVIDENCE,0.25,ESCALATE,True,,False,False
+CASE000376,What are the library opening hours? I need more information.,Library,E013,0.3067,INSUFFICIENT_EVIDENCE,0.2962,ESCALATE,True,,False,False
+CASE003175,how to submit my feedback about your company?,review,E012,0.3457,INSUFFICIENT_EVIDENCE,0.3107,ESCALATE,True,,False,False
+CASE001207,I want assistance seeing your available payment modalities,check_payment_methods,E002,0.3796,INSUFFICIENT_EVIDENCE,0.25,ESCALATE,True,,False,False
+CASE001490,help checking your accepted payment options,check_payment_methods,E009,0.4349,INSUFFICIENT_EVIDENCE,0.25,ESCALATE,True,,False,False
+CASE001361,is there a method to send some feedback for ur products,review,E001,0.4061,INSUFFICIENT_EVIDENCE,0.4061,ESCALATE,True,LOW_CONF_05,False,False
+CASE000264,How do I update vendor information?,Vendor Support,E033,0.5133,SUPPORTED,0.5026,ESCALATE,True,,False,False
+CASE001618,want help to write a comment about a product,review,E001,0.3302,INSUFFICIENT_EVIDENCE,0.3302,ESCALATE,True,,False,False
+CASE003169,assistance to order some of ur item,place_order,E004,0.4013,INSUFFICIENT_EVIDENCE,0.2909,ESCALATE,True,EVID_INSUF_04,False,False
+CASE002965,need assistance submitting some feedback about ur company,review,E001,0.3751,INSUFFICIENT_EVIDENCE,0.2188,ESCALATE,True,,False,False
+CASE002187,can you help me to see your accepted payment modalities?,check_payment_methods,E002,0.4286,INSUFFICIENT_EVIDENCE,0.25,ESCALATE,True,,False,False
+CASE000497,what do I have to do to list the allowed payment methods?,check_payment_methods,E009,0.4054,INSUFFICIENT_EVIDENCE,0.25,ESCALATE,True,,False,False
+CASE000131,do you have a method to submit a comment for your company?,review,E001,0.2267,INSUFFICIENT_EVIDENCE,0.2267,ESCALATE,True,LOW_CONF_05,False,False
+CASE000675,What are the library opening hours?,Library,E013,0.2982,INSUFFICIENT_EVIDENCE,0.2865,ESCALATE,True,,False,False
+CASE000811,i have got to buy several articles,place_order,E008,0.2003,INSUFFICIENT_EVIDENCE,0.1199,ESCALATE,True,LOW_CONF_05,False,False
+CASE000712,What features are included in the business subscription? I need assistance.,Subscription Management,E035,0.4011,INSUFFICIENT_EVIDENCE,0.4011,ESCALATE,True,,False,False
+CASE000225,do you have a way to submit a review for your services ?,review,E001,0.3142,INSUFFICIENT_EVIDENCE,0.2662,ESCALATE,True,,False,False
+CASE002131,how can I purchase several of your article?,place_order,EV1004,0.2352,INSUFFICIENT_EVIDENCE,0.2352,ESCALATE,True,EVID_INSUF_04,False,False
+CASE000380,help me see your allowed payment modalities,check_payment_methods,E002,0.332,INSUFFICIENT_EVIDENCE,0.25,ESCALATE,True,,False,False
+CASE001162,I want assistance doing a purchase,place_order,E001,0.3847,INSUFFICIENT_EVIDENCE,0.3847,ESCALATE,True,,False,False
+CASE002870,I don't know what todo to purchase something,place_order,E011,0.2769,INSUFFICIENT_EVIDENCE,0.0932,ESCALATE,True,LOW_CONF_05,False,False
+CASE000861,how do I acquire some articles?,place_order,E001,0.2313,INSUFFICIENT_EVIDENCE,0.1105,ESCALATE,True,EVID_INSUF_04,False,False
+CASE000755,I want assistance to see the payment methods,check_payment_methods,E009,0.5056,INSUFFICIENT_EVIDENCE,0.25,ESCALATE,True,,False,False
+CASE002937,I am trying to check the accepted payment modalities,check_payment_methods,E009,0.4687,INSUFFICIENT_EVIDENCE,0.25,ESCALATE,True,,False,False
+CASE002237,is there a way to submit a comment for your services?,review,E001,0.2334,INSUFFICIENT_EVIDENCE,0.2167,ESCALATE,True,LOW_CONF_05,False,False
+CASE000529,"I have to list your allowed payment options, how do I do it?",check_payment_methods,E009,0.3425,INSUFFICIENT_EVIDENCE,0.25,ESCALATE,True,,False,False
+CASE000075,Is this product available in bulk quantities? Please help.,Product Information,E034,0.1757,INSUFFICIENT_EVIDENCE,0.1757,ESCALATE,True,LOW_CONF_05,False,False
+CASE002015,"I have to list the payment options, I need assistance",check_payment_methods,E009,0.4226,INSUFFICIENT_EVIDENCE,0.25,ESCALATE,True,,False,False
+CASE000004,My delivery is delayed.,Delivery Inquiry,E028,0.3457,INSUFFICIENT_EVIDENCE,0.3457,ESCALATE,True,,False,False
+CASE001055,I do not know how to submit some feedback,review,E001,0.1545,INSUFFICIENT_EVIDENCE,0.1706,ESCALATE,True,LOW_CONF_05,False,False

@@ -7,11 +7,26 @@ from sentence_transformers import SentenceTransformer
 
 
 ROOT = Path(__file__).resolve().parents[2]
-RAG_DIR = ROOT / "data" / "processed" / "rag"
+_cand_rag = [
+    Path(__file__).resolve().parents[3] / "datasets" / "processed" / "rag",
+    ROOT / "datasets" / "processed" / "rag",
+    Path(__file__).resolve().parents[3] / "data" / "processed" / "rag",
+    ROOT / "data" / "processed" / "rag",
+    Path("datasets/processed/rag"),
+    Path("data/processed/rag"),
+]
+RAG_DIR = next((c for c in _cand_rag if c.exists()), _cand_rag[0])
 CHUNKS_FILE = RAG_DIR / "chunks.csv"
 DOCS_FILE = RAG_DIR / "documents.csv"
 
-VECTOR_DIR = ROOT / "vector_store" / "rag_chroma"
+_cand_vector = [
+    ROOT / "vector_store" / "rag_chroma",
+    Path(__file__).resolve().parents[3] / "backend" / "vector_store" / "rag_chroma",
+    Path(__file__).resolve().parents[3] / "vector_store" / "rag_chroma",
+    Path("backend/vector_store/rag_chroma"),
+    Path("vector_store/rag_chroma"),
+]
+VECTOR_DIR = next((c for c in _cand_vector if c.exists()), _cand_vector[0])
 COLLECTION_NAME = "capstone_knowledge_v1"
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 BATCH_SIZE = 32

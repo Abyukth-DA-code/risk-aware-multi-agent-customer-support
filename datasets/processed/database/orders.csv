@@ -1,0 +1,1501 @@
+Order_ID,Customer_ID,Order_Status,Order_Amount_INR,Payment_Status,Delivery_Status,Return_Status,Dataset_Version,Domain,Data_Origin
+ORD00001,CUST0001,Processing,999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00002,CUST0004,Delivered,1499,Pending,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00003,CUST0007,Cancelled,299,Paid,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD00004,CUST0010,Delivered,1499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00005,CUST0013,Delivered,2499,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00006,CUST0016,Cancelled,1499,Paid,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD00007,CUST0019,Cancelled,3999,Refunded,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00008,CUST0022,Refund Pending,7999,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00009,CUST0025,Delivered,2499,Paid,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD00010,CUST0028,Shipped,799,Paid,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00011,CUST0031,Delivered,299,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00012,CUST0034,Shipped,3999,Refunded,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00013,CUST0037,Cancelled,4999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00014,CUST0040,Cancelled,1999,Paid,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD00015,CUST0043,Cancelled,1499,Refunded,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00016,CUST0046,Cancelled,4999,Refunded,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD00017,CUST0049,Return Requested,7999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00018,CUST0052,Shipped,1999,Paid,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00019,CUST0055,Shipped,299,Refunded,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00020,CUST0058,Return Requested,7999,Refunded,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00021,CUST0061,Delivered,7999,Pending,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00022,CUST0064,Return Requested,7999,Pending,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00023,CUST0067,Delivered,299,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00024,CUST0070,Delivered,3999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00025,CUST0073,Processing,999,Pending,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00026,CUST0076,Return Requested,299,Paid,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00027,CUST0079,Shipped,3999,Refunded,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00028,CUST0082,Delivered,3999,Refunded,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD00029,CUST0085,Shipped,1499,Refunded,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00030,CUST0088,Delivered,1499,Refunded,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00031,CUST0091,Shipped,1499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00032,CUST0094,Processing,1999,Refunded,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00033,CUST0097,Delivered,7999,Refunded,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD00034,CUST0100,Refund Pending,1999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00035,CUST0103,Shipped,499,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00036,CUST0106,Shipped,3999,Paid,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00037,CUST0109,Shipped,4999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00038,CUST0112,Cancelled,7999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00039,CUST0115,Delivered,4999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00040,CUST0118,Delivered,2499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00041,CUST0121,Return Requested,799,Paid,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD00042,CUST0124,Return Requested,3999,Pending,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00043,CUST0127,Shipped,1499,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD00044,CUST0130,Cancelled,999,Refunded,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD00045,CUST0133,Return Requested,299,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00046,CUST0136,Delivered,2499,Pending,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00047,CUST0139,Refund Pending,1499,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00048,CUST0142,Cancelled,7999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00049,CUST0145,Shipped,3999,Refunded,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00050,CUST0148,Refund Pending,4999,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00051,CUST0151,Refund Pending,499,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00052,CUST0154,Processing,1499,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD00053,CUST0157,Shipped,1499,Refunded,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00054,CUST0160,Cancelled,2499,Pending,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD00055,CUST0163,Shipped,499,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00056,CUST0166,Delivered,3999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00057,CUST0169,Shipped,2499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00058,CUST0172,Shipped,1499,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00059,CUST0175,Return Requested,1999,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD00060,CUST0178,Delivered,3999,Paid,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD00061,CUST0181,Return Requested,4999,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD00062,CUST0184,Shipped,1999,Refunded,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00063,CUST0187,Delivered,3999,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00064,CUST0190,Cancelled,1999,Pending,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD00065,CUST0193,Cancelled,3999,Refunded,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD00066,CUST0196,Refund Pending,999,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00067,CUST0199,Processing,4999,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00068,CUST0202,Delivered,299,Refunded,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00069,CUST0205,Cancelled,799,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00070,CUST0208,Refund Pending,4999,Pending,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD00071,CUST0211,Delivered,7999,Pending,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00072,CUST0214,Processing,299,Pending,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00073,CUST0217,Processing,3999,Refunded,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00074,CUST0220,Processing,1499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00075,CUST0223,Refund Pending,299,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00076,CUST0226,Processing,1999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00077,CUST0229,Processing,299,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00078,CUST0232,Refund Pending,799,Pending,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00079,CUST0235,Processing,2499,Pending,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD00080,CUST0238,Return Requested,4999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00081,CUST0241,Delivered,4999,Pending,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00082,CUST0244,Delivered,299,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00083,CUST0247,Return Requested,4999,Pending,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00084,CUST0250,Delivered,3999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00085,CUST0253,Delivered,499,Paid,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00086,CUST0256,Refund Pending,299,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00087,CUST0259,Delivered,7999,Paid,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00088,CUST0262,Return Requested,299,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00089,CUST0265,Processing,999,Refunded,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00090,CUST0268,Delivered,4999,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00091,CUST0271,Cancelled,1999,Refunded,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD00092,CUST0274,Refund Pending,1999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00093,CUST0277,Return Requested,4999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00094,CUST0280,Shipped,299,Refunded,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00095,CUST0283,Return Requested,2499,Refunded,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00096,CUST0286,Shipped,2499,Refunded,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD00097,CUST0289,Processing,2499,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00098,CUST0292,Delivered,4999,Pending,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00099,CUST0295,Shipped,799,Pending,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00100,CUST0298,Processing,2499,Refunded,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD00101,CUST0301,Delivered,1499,Paid,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD00102,CUST0304,Delivered,3999,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00103,CUST0307,Return Requested,999,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00104,CUST0310,Return Requested,7999,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00105,CUST0313,Delivered,7999,Refunded,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD00106,CUST0316,Delivered,1999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00107,CUST0319,Delivered,499,Pending,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00108,CUST0322,Cancelled,999,Pending,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00109,CUST0325,Cancelled,1999,Paid,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD00110,CUST0328,Processing,4999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00111,CUST0331,Shipped,4999,Pending,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00112,CUST0334,Refund Pending,3999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00113,CUST0337,Shipped,2499,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00114,CUST0340,Delivered,299,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00115,CUST0343,Delivered,999,Paid,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD00116,CUST0346,Cancelled,999,Pending,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD00117,CUST0349,Return Requested,1999,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00118,CUST0352,Return Requested,3999,Pending,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00119,CUST0355,Refund Pending,1999,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00120,CUST0358,Cancelled,3999,Paid,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD00121,CUST0361,Return Requested,299,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00122,CUST0364,Refund Pending,299,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00123,CUST0367,Refund Pending,999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00124,CUST0370,Delivered,4999,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00125,CUST0373,Cancelled,7999,Pending,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD00126,CUST0376,Processing,299,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00127,CUST0379,Delivered,4999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00128,CUST0382,Cancelled,2499,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00129,CUST0385,Delivered,4999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00130,CUST0388,Cancelled,4999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00131,CUST0391,Shipped,2499,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00132,CUST0394,Processing,7999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00133,CUST0397,Return Requested,499,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00134,CUST0400,Processing,2499,Refunded,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00135,CUST0403,Return Requested,299,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00136,CUST0406,Refund Pending,2499,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00137,CUST0409,Delivered,999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00138,CUST0412,Delivered,499,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00139,CUST0415,Refund Pending,1999,Paid,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00140,CUST0418,Delivered,2499,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00141,CUST0421,Cancelled,999,Refunded,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD00142,CUST0424,Return Requested,4999,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00143,CUST0427,Delivered,499,Refunded,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00144,CUST0430,Delivered,2499,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00145,CUST0433,Cancelled,7999,Refunded,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD00146,CUST0436,Refund Pending,1999,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00147,CUST0439,Processing,999,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD00148,CUST0442,Delivered,7999,Pending,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00149,CUST0445,Shipped,999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00150,CUST0448,Delivered,2499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00151,CUST0451,Shipped,499,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00152,CUST0454,Processing,1999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00153,CUST0457,Delivered,799,Pending,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00154,CUST0460,Cancelled,4999,Pending,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00155,CUST0463,Delivered,499,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00156,CUST0466,Cancelled,1999,Pending,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00157,CUST0469,Shipped,2499,Pending,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD00158,CUST0472,Cancelled,999,Refunded,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD00159,CUST0475,Delivered,2499,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00160,CUST0478,Shipped,1499,Pending,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00161,CUST0481,Delivered,2499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00162,CUST0484,Processing,499,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00163,CUST0487,Return Requested,3999,Refunded,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD00164,CUST0490,Delivered,799,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00165,CUST0493,Shipped,7999,Pending,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00166,CUST0496,Shipped,2499,Refunded,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00167,CUST0499,Shipped,7999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00168,CUST0502,Delivered,2499,Paid,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD00169,CUST0505,Return Requested,3999,Refunded,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00170,CUST0508,Processing,1499,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00171,CUST0511,Cancelled,999,Refunded,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD00172,CUST0514,Delivered,4999,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00173,CUST0517,Delivered,3999,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00174,CUST0520,Return Requested,3999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00175,CUST0523,Shipped,799,Pending,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00176,CUST0526,Processing,7999,Pending,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00177,CUST0529,Cancelled,2499,Refunded,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00178,CUST0532,Refund Pending,1999,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00179,CUST0535,Refund Pending,999,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00180,CUST0538,Cancelled,299,Refunded,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD00181,CUST0541,Return Requested,2499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00182,CUST0544,Delivered,499,Paid,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00183,CUST0547,Return Requested,4999,Refunded,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD00184,CUST0550,Shipped,2499,Pending,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00185,CUST0553,Delivered,3999,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00186,CUST0556,Delivered,499,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00187,CUST0559,Shipped,3999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00188,CUST0562,Processing,499,Pending,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00189,CUST0565,Delivered,1499,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00190,CUST0568,Refund Pending,1999,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00191,CUST0571,Delivered,4999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00192,CUST0574,Cancelled,2499,Pending,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00193,CUST0577,Refund Pending,2499,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00194,CUST0580,Return Requested,2499,Pending,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD00195,CUST0583,Cancelled,999,Pending,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD00196,CUST0586,Processing,2499,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00197,CUST0589,Shipped,499,Refunded,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00198,CUST0592,Delivered,1999,Paid,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD00199,CUST0595,Delivered,1499,Pending,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD00200,CUST0598,Processing,7999,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00201,CUST0601,Shipped,3999,Refunded,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00202,CUST0604,Return Requested,1499,Refunded,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD00203,CUST0607,Delivered,1999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00204,CUST0610,Delivered,799,Paid,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00205,CUST0613,Processing,2499,Refunded,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00206,CUST0616,Processing,2499,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00207,CUST0619,Cancelled,799,Refunded,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00208,CUST0622,Processing,1499,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00209,CUST0625,Refund Pending,3999,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00210,CUST0628,Delivered,3999,Paid,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD00211,CUST0631,Cancelled,4999,Pending,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD00212,CUST0634,Return Requested,3999,Pending,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD00213,CUST0637,Delivered,499,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00214,CUST0640,Shipped,299,Paid,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00215,CUST0643,Shipped,799,Pending,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00216,CUST0646,Cancelled,499,Refunded,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00217,CUST0649,Shipped,4999,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD00218,CUST0652,Processing,4999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00219,CUST0655,Return Requested,999,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00220,CUST0658,Shipped,1999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00221,CUST0661,Refund Pending,999,Paid,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD00222,CUST0664,Cancelled,2499,Paid,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD00223,CUST0667,Delivered,999,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00224,CUST0670,Shipped,4999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00225,CUST0673,Return Requested,1499,Paid,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD00226,CUST0676,Return Requested,499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00227,CUST0679,Shipped,799,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00228,CUST0682,Return Requested,1999,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD00229,CUST0685,Delivered,7999,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD00230,CUST0688,Processing,499,Paid,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00231,CUST0691,Return Requested,1499,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD00232,CUST0694,Shipped,7999,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD00233,CUST0697,Processing,1999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00234,CUST0700,Processing,999,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00235,CUST0703,Refund Pending,1499,Paid,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00236,CUST0706,Refund Pending,3999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00237,CUST0709,Delivered,3999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00238,CUST0712,Processing,3999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00239,CUST0715,Return Requested,799,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00240,CUST0718,Delivered,1999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00241,CUST0721,Return Requested,799,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00242,CUST0724,Shipped,999,Pending,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD00243,CUST0727,Delivered,299,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00244,CUST0730,Delivered,7999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00245,CUST0733,Delivered,1999,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00246,CUST0736,Delivered,3999,Paid,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD00247,CUST0739,Delivered,499,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00248,CUST0742,Shipped,799,Pending,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00249,CUST0745,Return Requested,799,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00250,CUST0748,Return Requested,799,Pending,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD00251,CUST0751,Delivered,799,Pending,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00252,CUST0754,Delivered,499,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00253,CUST0757,Return Requested,2499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00254,CUST0760,Refund Pending,799,Paid,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD00255,CUST0763,Delivered,999,Refunded,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD00256,CUST0766,Delivered,1499,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00257,CUST0769,Processing,1499,Paid,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD00258,CUST0772,Processing,499,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00259,CUST0775,Cancelled,499,Refunded,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00260,CUST0778,Shipped,1999,Paid,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00261,CUST0781,Processing,1999,Refunded,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD00262,CUST0784,Refund Pending,499,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00263,CUST0787,Shipped,999,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00264,CUST0790,Cancelled,1499,Refunded,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD00265,CUST0793,Processing,2499,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00266,CUST0796,Delivered,1499,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00267,CUST0799,Cancelled,1999,Pending,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD00268,CUST0802,Return Requested,499,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00269,CUST0805,Refund Pending,999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00270,CUST0808,Processing,499,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00271,CUST0811,Return Requested,799,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD00272,CUST0814,Delivered,299,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00273,CUST0817,Cancelled,4999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00274,CUST0820,Shipped,799,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00275,CUST0823,Shipped,2499,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00276,CUST0826,Return Requested,7999,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD00277,CUST0829,Cancelled,1999,Paid,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD00278,CUST0832,Refund Pending,7999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00279,CUST0835,Shipped,499,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00280,CUST0838,Return Requested,4999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00281,CUST0841,Delivered,299,Pending,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00282,CUST0844,Delivered,799,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00283,CUST0847,Shipped,999,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00284,CUST0850,Refund Pending,499,Refunded,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00285,CUST0853,Cancelled,299,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00286,CUST0856,Refund Pending,4999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00287,CUST0859,Processing,1499,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00288,CUST0862,Cancelled,3999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00289,CUST0865,Delivered,1499,Refunded,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD00290,CUST0868,Cancelled,999,Pending,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00291,CUST0871,Cancelled,3999,Paid,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD00292,CUST0874,Cancelled,999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00293,CUST0877,Processing,299,Paid,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD00294,CUST0880,Refund Pending,299,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD00295,CUST0883,Processing,1499,Paid,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00296,CUST0886,Delivered,2499,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00297,CUST0889,Return Requested,1499,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00298,CUST0892,Refund Pending,4999,Pending,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00299,CUST0895,Return Requested,499,Refunded,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00300,CUST0898,Delivered,2499,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00301,CUST0901,Return Requested,799,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00302,CUST0904,Refund Pending,1999,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00303,CUST0907,Processing,1499,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00304,CUST0910,Delivered,7999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00305,CUST0913,Delivered,3999,Pending,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00306,CUST0916,Delivered,4999,Paid,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD00307,CUST0919,Shipped,3999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00308,CUST0922,Delivered,1499,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00309,CUST0925,Refund Pending,1999,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD00310,CUST0928,Delivered,1999,Pending,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD00311,CUST0931,Shipped,1499,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00312,CUST0934,Refund Pending,3999,Refunded,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00313,CUST0937,Processing,499,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00314,CUST0940,Delivered,999,Paid,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD00315,CUST0943,Shipped,499,Refunded,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00316,CUST0946,Delivered,499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00317,CUST0949,Delivered,1999,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00318,CUST0952,Delivered,799,Refunded,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00319,CUST0955,Processing,3999,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00320,CUST0958,Processing,799,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00321,CUST0961,Shipped,1499,Pending,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00322,CUST0964,Cancelled,7999,Refunded,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00323,CUST0967,Return Requested,1499,Pending,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00324,CUST0970,Processing,299,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00325,CUST0973,Delivered,2499,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00326,CUST0976,Refund Pending,4999,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00327,CUST0979,Shipped,3999,Refunded,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00328,CUST0982,Cancelled,4999,Paid,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD00329,CUST0985,Shipped,799,Paid,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD00330,CUST0988,Delivered,299,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00331,CUST0991,Cancelled,1999,Refunded,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00332,CUST0994,Delivered,499,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00333,CUST0997,Cancelled,299,Paid,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD00334,CUST1000,Refund Pending,2499,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00335,CUST0001,Delivered,7999,Paid,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD00336,CUST0004,Delivered,1999,Refunded,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00337,CUST0007,Delivered,3999,Refunded,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00338,CUST0010,Processing,299,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00339,CUST0013,Cancelled,999,Paid,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD00340,CUST0016,Processing,299,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00341,CUST0019,Shipped,799,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00342,CUST0022,Delivered,7999,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00343,CUST0025,Refund Pending,1999,Paid,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD00344,CUST0028,Return Requested,2499,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00345,CUST0031,Shipped,1999,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00346,CUST0034,Processing,3999,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00347,CUST0037,Cancelled,7999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00348,CUST0040,Return Requested,7999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00349,CUST0043,Return Requested,1499,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00350,CUST0046,Delivered,7999,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00351,CUST0049,Cancelled,1999,Refunded,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00352,CUST0052,Return Requested,7999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00353,CUST0055,Shipped,499,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00354,CUST0058,Delivered,499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00355,CUST0061,Shipped,999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00356,CUST0064,Shipped,499,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00357,CUST0067,Processing,2499,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD00358,CUST0070,Processing,1999,Refunded,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00359,CUST0073,Refund Pending,3999,Refunded,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00360,CUST0076,Processing,499,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00361,CUST0079,Shipped,1499,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00362,CUST0082,Delivered,2499,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00363,CUST0085,Delivered,1999,Refunded,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00364,CUST0088,Delivered,2499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00365,CUST0091,Delivered,499,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00366,CUST0094,Processing,4999,Refunded,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD00367,CUST0097,Shipped,1499,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00368,CUST0100,Processing,7999,Refunded,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00369,CUST0103,Delivered,1999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00370,CUST0106,Shipped,7999,Pending,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00371,CUST0109,Delivered,999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00372,CUST0112,Processing,499,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD00373,CUST0115,Processing,1499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00374,CUST0118,Shipped,2499,Paid,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD00375,CUST0121,Delivered,1499,Pending,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00376,CUST0124,Delivered,1499,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00377,CUST0127,Refund Pending,499,Paid,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD00378,CUST0130,Processing,7999,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00379,CUST0133,Refund Pending,4999,Pending,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00380,CUST0136,Delivered,3999,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00381,CUST0139,Refund Pending,299,Refunded,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00382,CUST0142,Refund Pending,3999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00383,CUST0145,Refund Pending,999,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00384,CUST0148,Delivered,2499,Paid,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00385,CUST0151,Shipped,1999,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00386,CUST0154,Cancelled,2499,Refunded,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00387,CUST0157,Refund Pending,1499,Refunded,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00388,CUST0160,Refund Pending,7999,Refunded,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00389,CUST0163,Processing,799,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00390,CUST0166,Cancelled,499,Paid,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD00391,CUST0169,Shipped,2499,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00392,CUST0172,Processing,7999,Refunded,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00393,CUST0175,Delivered,1499,Pending,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00394,CUST0178,Cancelled,2499,Paid,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD00395,CUST0181,Shipped,999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00396,CUST0184,Shipped,299,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00397,CUST0187,Shipped,3999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00398,CUST0190,Shipped,3999,Paid,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD00399,CUST0193,Processing,7999,Paid,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD00400,CUST0196,Delivered,2499,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00401,CUST0199,Cancelled,799,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00402,CUST0202,Return Requested,4999,Pending,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00403,CUST0205,Cancelled,299,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00404,CUST0208,Refund Pending,999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00405,CUST0211,Processing,299,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00406,CUST0214,Shipped,3999,Refunded,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00407,CUST0217,Delivered,299,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00408,CUST0220,Cancelled,3999,Paid,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD00409,CUST0223,Cancelled,4999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00410,CUST0226,Delivered,1499,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00411,CUST0229,Processing,299,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00412,CUST0232,Return Requested,999,Paid,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD00413,CUST0235,Processing,4999,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00414,CUST0238,Delivered,799,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00415,CUST0241,Shipped,7999,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00416,CUST0244,Processing,1999,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00417,CUST0247,Processing,1499,Refunded,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00418,CUST0250,Delivered,299,Refunded,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD00419,CUST0253,Return Requested,7999,Refunded,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00420,CUST0256,Return Requested,499,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00421,CUST0259,Shipped,1999,Paid,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD00422,CUST0262,Return Requested,1499,Paid,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00423,CUST0265,Refund Pending,999,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00424,CUST0268,Shipped,799,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00425,CUST0271,Shipped,2499,Pending,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00426,CUST0274,Delivered,7999,Refunded,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00427,CUST0277,Return Requested,999,Refunded,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00428,CUST0280,Shipped,4999,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00429,CUST0283,Cancelled,799,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00430,CUST0286,Processing,799,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00431,CUST0289,Shipped,499,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00432,CUST0292,Return Requested,1499,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00433,CUST0295,Shipped,7999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00434,CUST0298,Processing,299,Refunded,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00435,CUST0301,Delivered,4999,Paid,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00436,CUST0304,Shipped,2499,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00437,CUST0307,Delivered,1999,Pending,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00438,CUST0310,Shipped,799,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00439,CUST0313,Return Requested,799,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00440,CUST0316,Processing,1499,Paid,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00441,CUST0319,Refund Pending,799,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00442,CUST0322,Cancelled,2499,Pending,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD00443,CUST0325,Processing,3999,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00444,CUST0328,Cancelled,999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00445,CUST0331,Shipped,4999,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD00446,CUST0334,Delivered,999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00447,CUST0337,Delivered,499,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00448,CUST0340,Delivered,299,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00449,CUST0343,Return Requested,4999,Refunded,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00450,CUST0346,Return Requested,799,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00451,CUST0349,Refund Pending,999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00452,CUST0352,Delivered,999,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00453,CUST0355,Delivered,7999,Refunded,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00454,CUST0358,Shipped,299,Pending,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD00455,CUST0361,Cancelled,299,Refunded,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00456,CUST0364,Return Requested,499,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD00457,CUST0367,Delivered,2499,Pending,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00458,CUST0370,Cancelled,1499,Pending,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD00459,CUST0373,Delivered,999,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00460,CUST0376,Return Requested,499,Refunded,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD00461,CUST0379,Cancelled,799,Pending,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00462,CUST0382,Cancelled,7999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00463,CUST0385,Delivered,499,Pending,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00464,CUST0388,Delivered,1499,Refunded,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00465,CUST0391,Return Requested,2499,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00466,CUST0394,Cancelled,3999,Paid,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD00467,CUST0397,Processing,1999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00468,CUST0400,Return Requested,499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00469,CUST0403,Delivered,4999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00470,CUST0406,Return Requested,999,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00471,CUST0409,Processing,299,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00472,CUST0412,Refund Pending,1499,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00473,CUST0415,Return Requested,499,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00474,CUST0418,Refund Pending,799,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00475,CUST0421,Processing,7999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00476,CUST0424,Refund Pending,1999,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00477,CUST0427,Processing,3999,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00478,CUST0430,Refund Pending,3999,Pending,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00479,CUST0433,Delivered,299,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00480,CUST0436,Cancelled,3999,Refunded,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD00481,CUST0439,Processing,799,Refunded,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00482,CUST0442,Cancelled,299,Paid,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD00483,CUST0445,Processing,499,Pending,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00484,CUST0448,Delivered,1499,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD00485,CUST0451,Refund Pending,4999,Refunded,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00486,CUST0454,Refund Pending,1999,Refunded,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00487,CUST0457,Return Requested,999,Pending,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD00488,CUST0460,Return Requested,2499,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00489,CUST0463,Return Requested,799,Refunded,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD00490,CUST0466,Refund Pending,799,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00491,CUST0469,Delivered,1999,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00492,CUST0472,Delivered,4999,Pending,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00493,CUST0475,Delivered,3999,Pending,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00494,CUST0478,Refund Pending,3999,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00495,CUST0481,Processing,299,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD00496,CUST0484,Delivered,4999,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00497,CUST0487,Refund Pending,7999,Refunded,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD00498,CUST0490,Cancelled,999,Pending,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00499,CUST0493,Shipped,299,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00500,CUST0496,Cancelled,7999,Refunded,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD00501,CUST0499,Return Requested,1999,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00502,CUST0502,Refund Pending,999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00503,CUST0505,Refund Pending,1499,Refunded,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD00504,CUST0508,Delivered,299,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00505,CUST0511,Refund Pending,2499,Paid,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD00506,CUST0514,Delivered,999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00507,CUST0517,Processing,999,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00508,CUST0520,Delivered,7999,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD00509,CUST0523,Return Requested,7999,Refunded,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD00510,CUST0526,Delivered,4999,Paid,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00511,CUST0529,Processing,4999,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00512,CUST0532,Refund Pending,799,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00513,CUST0535,Cancelled,7999,Paid,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD00514,CUST0538,Processing,2499,Refunded,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00515,CUST0541,Processing,1999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00516,CUST0544,Delivered,2499,Refunded,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD00517,CUST0547,Cancelled,1999,Refunded,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD00518,CUST0550,Delivered,999,Paid,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD00519,CUST0553,Shipped,799,Paid,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD00520,CUST0556,Delivered,1999,Refunded,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00521,CUST0559,Cancelled,2499,Refunded,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00522,CUST0562,Refund Pending,2499,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00523,CUST0565,Processing,799,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00524,CUST0568,Shipped,799,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00525,CUST0571,Refund Pending,299,Paid,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00526,CUST0574,Delivered,1999,Pending,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00527,CUST0577,Refund Pending,4999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00528,CUST0580,Cancelled,1499,Paid,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD00529,CUST0583,Processing,2499,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00530,CUST0586,Return Requested,1499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00531,CUST0589,Return Requested,1999,Refunded,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00532,CUST0592,Delivered,1499,Pending,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00533,CUST0595,Delivered,799,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00534,CUST0598,Delivered,2499,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00535,CUST0601,Delivered,7999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00536,CUST0604,Processing,799,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00537,CUST0607,Cancelled,299,Refunded,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD00538,CUST0610,Shipped,3999,Refunded,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00539,CUST0613,Refund Pending,1999,Refunded,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00540,CUST0616,Cancelled,499,Refunded,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00541,CUST0619,Processing,4999,Refunded,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00542,CUST0622,Shipped,999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00543,CUST0625,Shipped,1499,Paid,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00544,CUST0628,Refund Pending,299,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00545,CUST0631,Delivered,7999,Refunded,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00546,CUST0634,Return Requested,1999,Pending,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00547,CUST0637,Shipped,4999,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00548,CUST0640,Refund Pending,1999,Refunded,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD00549,CUST0643,Delivered,1499,Paid,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD00550,CUST0646,Delivered,499,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD00551,CUST0649,Delivered,999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00552,CUST0652,Delivered,4999,Pending,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD00553,CUST0655,Return Requested,799,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00554,CUST0658,Shipped,299,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00555,CUST0661,Delivered,1499,Refunded,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00556,CUST0664,Refund Pending,999,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD00557,CUST0667,Processing,2499,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00558,CUST0670,Processing,499,Refunded,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD00559,CUST0673,Return Requested,7999,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD00560,CUST0676,Refund Pending,499,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00561,CUST0679,Refund Pending,1499,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00562,CUST0682,Refund Pending,3999,Pending,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00563,CUST0685,Delivered,3999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00564,CUST0688,Return Requested,2499,Refunded,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD00565,CUST0691,Delivered,1499,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00566,CUST0694,Refund Pending,4999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00567,CUST0697,Delivered,7999,Refunded,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00568,CUST0700,Cancelled,499,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00569,CUST0703,Return Requested,1999,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00570,CUST0706,Refund Pending,4999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00571,CUST0709,Delivered,7999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00572,CUST0712,Delivered,7999,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00573,CUST0715,Cancelled,499,Paid,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD00574,CUST0718,Delivered,1499,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00575,CUST0721,Cancelled,3999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00576,CUST0724,Delivered,999,Paid,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD00577,CUST0727,Delivered,999,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD00578,CUST0730,Shipped,7999,Paid,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00579,CUST0733,Cancelled,1999,Paid,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD00580,CUST0736,Delivered,299,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00581,CUST0739,Return Requested,2499,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00582,CUST0742,Return Requested,1999,Pending,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD00583,CUST0745,Shipped,1499,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00584,CUST0748,Return Requested,7999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00585,CUST0751,Cancelled,999,Paid,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD00586,CUST0754,Return Requested,499,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00587,CUST0757,Return Requested,299,Refunded,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00588,CUST0760,Delivered,299,Refunded,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD00589,CUST0763,Cancelled,3999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00590,CUST0766,Processing,999,Refunded,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00591,CUST0769,Processing,4999,Refunded,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00592,CUST0772,Shipped,4999,Paid,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00593,CUST0775,Return Requested,799,Refunded,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD00594,CUST0778,Delivered,799,Refunded,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00595,CUST0781,Return Requested,3999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00596,CUST0784,Refund Pending,3999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00597,CUST0787,Shipped,999,Paid,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00598,CUST0790,Refund Pending,1999,Pending,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD00599,CUST0793,Delivered,299,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD00600,CUST0796,Cancelled,1499,Paid,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD00601,CUST0799,Cancelled,7999,Paid,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD00602,CUST0802,Return Requested,2499,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00603,CUST0805,Shipped,2499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00604,CUST0808,Refund Pending,1999,Pending,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00605,CUST0811,Delivered,4999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00606,CUST0814,Delivered,499,Refunded,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00607,CUST0817,Delivered,799,Paid,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD00608,CUST0820,Return Requested,499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00609,CUST0823,Return Requested,499,Pending,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD00610,CUST0826,Delivered,7999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00611,CUST0829,Delivered,299,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00612,CUST0832,Return Requested,4999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00613,CUST0835,Delivered,1499,Paid,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00614,CUST0838,Cancelled,299,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00615,CUST0841,Delivered,3999,Refunded,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD00616,CUST0844,Delivered,999,Pending,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00617,CUST0847,Refund Pending,799,Refunded,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00618,CUST0850,Return Requested,1999,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00619,CUST0853,Processing,2499,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00620,CUST0856,Delivered,4999,Refunded,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00621,CUST0859,Cancelled,499,Paid,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD00622,CUST0862,Cancelled,7999,Paid,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD00623,CUST0865,Cancelled,499,Paid,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD00624,CUST0868,Return Requested,799,Refunded,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD00625,CUST0871,Return Requested,2499,Refunded,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00626,CUST0874,Refund Pending,299,Refunded,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00627,CUST0877,Refund Pending,3999,Pending,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD00628,CUST0880,Refund Pending,7999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00629,CUST0883,Shipped,3999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00630,CUST0886,Cancelled,4999,Pending,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00631,CUST0889,Delivered,299,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00632,CUST0892,Delivered,2499,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00633,CUST0895,Shipped,499,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00634,CUST0898,Cancelled,1499,Paid,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD00635,CUST0901,Processing,7999,Paid,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD00636,CUST0904,Processing,999,Pending,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00637,CUST0907,Shipped,4999,Refunded,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00638,CUST0910,Shipped,7999,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00639,CUST0913,Delivered,499,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00640,CUST0916,Delivered,499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00641,CUST0919,Refund Pending,4999,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00642,CUST0922,Processing,299,Paid,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD00643,CUST0925,Cancelled,2499,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00644,CUST0928,Shipped,999,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00645,CUST0931,Delivered,2499,Pending,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD00646,CUST0934,Cancelled,299,Paid,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD00647,CUST0937,Processing,3999,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00648,CUST0940,Refund Pending,4999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00649,CUST0943,Refund Pending,7999,Refunded,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00650,CUST0946,Delivered,299,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00651,CUST0949,Delivered,799,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00652,CUST0952,Shipped,2499,Pending,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00653,CUST0955,Delivered,499,Paid,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD00654,CUST0958,Refund Pending,4999,Refunded,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00655,CUST0961,Refund Pending,1499,Paid,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD00656,CUST0964,Processing,7999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00657,CUST0967,Processing,4999,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00658,CUST0970,Shipped,1999,Paid,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD00659,CUST0973,Refund Pending,7999,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD00660,CUST0976,Cancelled,3999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00661,CUST0979,Refund Pending,3999,Pending,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00662,CUST0982,Delivered,1499,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00663,CUST0985,Refund Pending,999,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00664,CUST0988,Shipped,4999,Refunded,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD00665,CUST0991,Refund Pending,1499,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00666,CUST0994,Processing,1999,Paid,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD00667,CUST0997,Shipped,1999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00668,CUST1000,Return Requested,999,Pending,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00669,CUST0001,Return Requested,999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00670,CUST0004,Delivered,999,Refunded,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00671,CUST0007,Refund Pending,499,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD00672,CUST0010,Return Requested,3999,Refunded,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00673,CUST0013,Delivered,3999,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00674,CUST0016,Cancelled,1499,Pending,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00675,CUST0019,Refund Pending,4999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00676,CUST0022,Refund Pending,7999,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00677,CUST0025,Refund Pending,2499,Pending,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00678,CUST0028,Shipped,2499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00679,CUST0031,Return Requested,4999,Pending,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD00680,CUST0034,Delivered,299,Paid,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00681,CUST0037,Delivered,1999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00682,CUST0040,Cancelled,1499,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00683,CUST0043,Processing,7999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00684,CUST0046,Processing,2499,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00685,CUST0049,Refund Pending,1999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00686,CUST0052,Processing,799,Refunded,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00687,CUST0055,Return Requested,999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00688,CUST0058,Cancelled,2499,Pending,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00689,CUST0061,Delivered,799,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00690,CUST0064,Processing,3999,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00691,CUST0067,Shipped,1499,Refunded,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00692,CUST0070,Delivered,799,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00693,CUST0073,Processing,499,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00694,CUST0076,Shipped,1999,Refunded,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00695,CUST0079,Delivered,2499,Paid,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD00696,CUST0082,Cancelled,999,Refunded,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD00697,CUST0085,Return Requested,4999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00698,CUST0088,Shipped,4999,Pending,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00699,CUST0091,Processing,7999,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00700,CUST0094,Delivered,799,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00701,CUST0097,Cancelled,7999,Pending,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00702,CUST0100,Delivered,799,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00703,CUST0103,Shipped,1499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00704,CUST0106,Processing,1999,Refunded,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD00705,CUST0109,Delivered,799,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00706,CUST0112,Delivered,1499,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00707,CUST0115,Processing,499,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00708,CUST0118,Cancelled,299,Paid,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD00709,CUST0121,Cancelled,499,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00710,CUST0124,Cancelled,799,Paid,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD00711,CUST0127,Processing,1499,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00712,CUST0130,Shipped,3999,Paid,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00713,CUST0133,Refund Pending,799,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD00714,CUST0136,Shipped,1999,Pending,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00715,CUST0139,Shipped,4999,Pending,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00716,CUST0142,Cancelled,799,Refunded,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD00717,CUST0145,Processing,7999,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00718,CUST0148,Processing,4999,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00719,CUST0151,Shipped,1999,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00720,CUST0154,Shipped,299,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00721,CUST0157,Shipped,3999,Refunded,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD00722,CUST0160,Processing,3999,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00723,CUST0163,Refund Pending,1499,Refunded,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00724,CUST0166,Cancelled,1999,Paid,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD00725,CUST0169,Cancelled,2499,Pending,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00726,CUST0172,Delivered,2499,Pending,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00727,CUST0175,Delivered,2499,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00728,CUST0178,Return Requested,4999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00729,CUST0181,Refund Pending,499,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00730,CUST0184,Delivered,3999,Refunded,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00731,CUST0187,Return Requested,7999,Pending,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00732,CUST0190,Delivered,799,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00733,CUST0193,Delivered,1499,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00734,CUST0196,Processing,299,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00735,CUST0199,Delivered,3999,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00736,CUST0202,Shipped,3999,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00737,CUST0205,Refund Pending,299,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00738,CUST0208,Delivered,1499,Pending,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00739,CUST0211,Processing,799,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00740,CUST0214,Refund Pending,299,Paid,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD00741,CUST0217,Refund Pending,3999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00742,CUST0220,Processing,499,Refunded,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD00743,CUST0223,Processing,1499,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00744,CUST0226,Return Requested,299,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00745,CUST0229,Processing,1499,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00746,CUST0232,Refund Pending,999,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00747,CUST0235,Processing,1999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00748,CUST0238,Cancelled,499,Pending,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00749,CUST0241,Delivered,299,Refunded,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00750,CUST0244,Cancelled,799,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00751,CUST0247,Delivered,799,Pending,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD00752,CUST0250,Cancelled,1999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00753,CUST0253,Shipped,799,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00754,CUST0256,Processing,999,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00755,CUST0259,Return Requested,999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00756,CUST0262,Return Requested,799,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00757,CUST0265,Return Requested,3999,Refunded,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD00758,CUST0268,Return Requested,3999,Paid,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00759,CUST0271,Shipped,1999,Pending,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD00760,CUST0274,Refund Pending,4999,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00761,CUST0277,Delivered,3999,Paid,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD00762,CUST0280,Shipped,3999,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00763,CUST0283,Delivered,299,Refunded,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD00764,CUST0286,Delivered,1999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00765,CUST0289,Cancelled,3999,Refunded,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00766,CUST0292,Cancelled,1499,Paid,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD00767,CUST0295,Return Requested,1999,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00768,CUST0298,Return Requested,499,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00769,CUST0301,Refund Pending,299,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00770,CUST0304,Delivered,499,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00771,CUST0307,Processing,4999,Refunded,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00772,CUST0310,Shipped,999,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00773,CUST0313,Delivered,3999,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00774,CUST0316,Delivered,1999,Refunded,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00775,CUST0319,Refund Pending,299,Refunded,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD00776,CUST0322,Delivered,499,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00777,CUST0325,Cancelled,499,Paid,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD00778,CUST0328,Delivered,4999,Pending,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00779,CUST0331,Cancelled,999,Refunded,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD00780,CUST0334,Delivered,4999,Refunded,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00781,CUST0337,Delivered,7999,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00782,CUST0340,Return Requested,2499,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00783,CUST0343,Cancelled,2499,Refunded,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00784,CUST0346,Return Requested,799,Refunded,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00785,CUST0349,Shipped,4999,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00786,CUST0352,Refund Pending,2499,Paid,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00787,CUST0355,Cancelled,999,Pending,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD00788,CUST0358,Return Requested,1499,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD00789,CUST0361,Processing,299,Paid,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD00790,CUST0364,Delivered,4999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00791,CUST0367,Shipped,999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00792,CUST0370,Refund Pending,1499,Refunded,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00793,CUST0373,Delivered,3999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00794,CUST0376,Shipped,1999,Refunded,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00795,CUST0379,Shipped,1499,Paid,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00796,CUST0382,Delivered,499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00797,CUST0385,Processing,7999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00798,CUST0388,Return Requested,7999,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00799,CUST0391,Refund Pending,1999,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD00800,CUST0394,Refund Pending,499,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD00801,CUST0397,Refund Pending,2499,Paid,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD00802,CUST0400,Delivered,1999,Refunded,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00803,CUST0403,Cancelled,999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00804,CUST0406,Return Requested,2499,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00805,CUST0409,Processing,1499,Pending,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00806,CUST0412,Shipped,499,Pending,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00807,CUST0415,Processing,1499,Paid,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00808,CUST0418,Processing,799,Paid,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00809,CUST0421,Delivered,3999,Pending,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00810,CUST0424,Cancelled,4999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00811,CUST0427,Delivered,1499,Pending,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD00812,CUST0430,Cancelled,499,Paid,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD00813,CUST0433,Processing,2499,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00814,CUST0436,Shipped,1999,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00815,CUST0439,Delivered,1999,Refunded,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00816,CUST0442,Delivered,3999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00817,CUST0445,Return Requested,1999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00818,CUST0448,Return Requested,299,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00819,CUST0451,Delivered,1999,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00820,CUST0454,Processing,299,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00821,CUST0457,Cancelled,999,Paid,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD00822,CUST0460,Cancelled,1499,Refunded,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD00823,CUST0463,Cancelled,799,Paid,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD00824,CUST0466,Cancelled,4999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00825,CUST0469,Delivered,299,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00826,CUST0472,Cancelled,1499,Paid,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD00827,CUST0475,Return Requested,299,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00828,CUST0478,Shipped,1999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00829,CUST0481,Refund Pending,2499,Paid,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00830,CUST0484,Return Requested,499,Paid,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00831,CUST0487,Cancelled,499,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00832,CUST0490,Cancelled,3999,Refunded,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD00833,CUST0493,Delivered,299,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00834,CUST0496,Processing,2499,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00835,CUST0499,Return Requested,1999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00836,CUST0502,Cancelled,1499,Paid,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD00837,CUST0505,Shipped,2499,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00838,CUST0508,Delivered,1999,Pending,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00839,CUST0511,Return Requested,2499,Refunded,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD00840,CUST0514,Delivered,7999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00841,CUST0517,Cancelled,1999,Pending,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD00842,CUST0520,Delivered,999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00843,CUST0523,Shipped,4999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00844,CUST0526,Return Requested,7999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00845,CUST0529,Cancelled,4999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00846,CUST0532,Shipped,799,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00847,CUST0535,Processing,1499,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00848,CUST0538,Refund Pending,999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00849,CUST0541,Delivered,7999,Refunded,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD00850,CUST0544,Cancelled,7999,Paid,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD00851,CUST0547,Delivered,999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00852,CUST0550,Return Requested,3999,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00853,CUST0553,Return Requested,1999,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD00854,CUST0556,Processing,799,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00855,CUST0559,Delivered,2499,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00856,CUST0562,Delivered,999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00857,CUST0565,Processing,7999,Pending,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00858,CUST0568,Delivered,2499,Pending,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00859,CUST0571,Return Requested,2499,Paid,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00860,CUST0574,Return Requested,7999,Refunded,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00861,CUST0577,Delivered,3999,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00862,CUST0580,Cancelled,4999,Pending,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD00863,CUST0583,Delivered,4999,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00864,CUST0586,Shipped,3999,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00865,CUST0589,Processing,799,Pending,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD00866,CUST0592,Delivered,4999,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00867,CUST0595,Processing,499,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00868,CUST0598,Refund Pending,7999,Refunded,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD00869,CUST0601,Processing,1999,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00870,CUST0604,Processing,7999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00871,CUST0607,Shipped,1999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00872,CUST0610,Delivered,3999,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00873,CUST0613,Return Requested,2499,Refunded,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD00874,CUST0616,Cancelled,2499,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00875,CUST0619,Shipped,7999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00876,CUST0622,Delivered,299,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00877,CUST0625,Return Requested,3999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00878,CUST0628,Delivered,999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00879,CUST0631,Processing,3999,Pending,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00880,CUST0634,Processing,999,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD00881,CUST0637,Processing,3999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00882,CUST0640,Cancelled,1499,Refunded,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD00883,CUST0643,Cancelled,999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00884,CUST0646,Delivered,299,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00885,CUST0649,Refund Pending,299,Refunded,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00886,CUST0652,Delivered,299,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00887,CUST0655,Delivered,1499,Refunded,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD00888,CUST0658,Return Requested,7999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00889,CUST0661,Refund Pending,1499,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00890,CUST0664,Refund Pending,499,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00891,CUST0667,Processing,799,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00892,CUST0670,Cancelled,2499,Refunded,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00893,CUST0673,Return Requested,999,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00894,CUST0676,Cancelled,4999,Paid,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD00895,CUST0679,Return Requested,7999,Paid,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00896,CUST0682,Refund Pending,1999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00897,CUST0685,Cancelled,7999,Pending,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD00898,CUST0688,Return Requested,3999,Pending,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00899,CUST0691,Delivered,1499,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00900,CUST0694,Delivered,3999,Paid,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00901,CUST0697,Processing,2499,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00902,CUST0700,Cancelled,999,Paid,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD00903,CUST0703,Delivered,1499,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00904,CUST0706,Shipped,4999,Refunded,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00905,CUST0709,Delivered,1999,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00906,CUST0712,Cancelled,7999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00907,CUST0715,Delivered,1999,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD00908,CUST0718,Refund Pending,299,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00909,CUST0721,Return Requested,3999,Refunded,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00910,CUST0724,Refund Pending,2499,Paid,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD00911,CUST0727,Return Requested,1999,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00912,CUST0730,Cancelled,1999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00913,CUST0733,Delivered,1499,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00914,CUST0736,Return Requested,4999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00915,CUST0739,Cancelled,499,Paid,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD00916,CUST0742,Refund Pending,1999,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00917,CUST0745,Delivered,3999,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00918,CUST0748,Refund Pending,1499,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00919,CUST0751,Delivered,1999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00920,CUST0754,Processing,4999,Paid,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00921,CUST0757,Delivered,999,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00922,CUST0760,Refund Pending,4999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00923,CUST0763,Refund Pending,499,Refunded,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00924,CUST0766,Return Requested,299,Pending,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00925,CUST0769,Refund Pending,4999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00926,CUST0772,Delivered,7999,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00927,CUST0775,Delivered,499,Refunded,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00928,CUST0778,Cancelled,1499,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00929,CUST0781,Delivered,999,Paid,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD00930,CUST0784,Shipped,3999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00931,CUST0787,Delivered,1499,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00932,CUST0790,Cancelled,4999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00933,CUST0793,Cancelled,1999,Refunded,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00934,CUST0796,Shipped,799,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00935,CUST0799,Delivered,1499,Refunded,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD00936,CUST0802,Processing,299,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00937,CUST0805,Return Requested,299,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00938,CUST0808,Delivered,2499,Pending,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00939,CUST0811,Cancelled,7999,Pending,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD00940,CUST0814,Shipped,1499,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00941,CUST0817,Refund Pending,4999,Paid,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00942,CUST0820,Delivered,499,Pending,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00943,CUST0823,Shipped,3999,Pending,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00944,CUST0826,Delivered,7999,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00945,CUST0829,Delivered,1999,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD00946,CUST0832,Delivered,499,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00947,CUST0835,Processing,3999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00948,CUST0838,Cancelled,7999,Paid,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD00949,CUST0841,Delivered,2499,Paid,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD00950,CUST0844,Return Requested,499,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD00951,CUST0847,Cancelled,2499,Paid,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD00952,CUST0850,Delivered,4999,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD00953,CUST0853,Delivered,1999,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD00954,CUST0856,Cancelled,1999,Refunded,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD00955,CUST0859,Delivered,799,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00956,CUST0862,Cancelled,7999,Pending,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00957,CUST0865,Cancelled,499,Pending,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00958,CUST0868,Shipped,2499,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD00959,CUST0871,Refund Pending,7999,Pending,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00960,CUST0874,Return Requested,299,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00961,CUST0877,Cancelled,299,Paid,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD00962,CUST0880,Delivered,3999,Refunded,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00963,CUST0883,Cancelled,7999,Pending,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00964,CUST0886,Delivered,1999,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00965,CUST0889,Return Requested,1999,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00966,CUST0892,Cancelled,2499,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00967,CUST0895,Delivered,1999,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00968,CUST0898,Return Requested,4999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00969,CUST0901,Refund Pending,299,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00970,CUST0904,Cancelled,2499,Paid,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD00971,CUST0907,Processing,2499,Pending,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00972,CUST0910,Delivered,799,Pending,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00973,CUST0913,Cancelled,2499,Paid,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD00974,CUST0916,Delivered,1499,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00975,CUST0919,Delivered,299,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD00976,CUST0922,Processing,799,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD00977,CUST0925,Refund Pending,2499,Pending,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00978,CUST0928,Delivered,3999,Refunded,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00979,CUST0931,Refund Pending,3999,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00980,CUST0934,Delivered,2499,Refunded,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00981,CUST0937,Processing,999,Refunded,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00982,CUST0940,Cancelled,7999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00983,CUST0943,Delivered,7999,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00984,CUST0946,Cancelled,3999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00985,CUST0949,Return Requested,4999,Paid,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD00986,CUST0952,Delivered,4999,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00987,CUST0955,Processing,499,Refunded,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD00988,CUST0958,Delivered,1999,Refunded,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD00989,CUST0961,Processing,4999,Pending,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD00990,CUST0964,Shipped,1499,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00991,CUST0967,Return Requested,7999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00992,CUST0970,Return Requested,3999,Refunded,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD00993,CUST0973,Delivered,1499,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00994,CUST0976,Processing,499,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00995,CUST0979,Shipped,799,Refunded,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00996,CUST0982,Refund Pending,1499,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD00997,CUST0985,Delivered,7999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD00998,CUST0988,Refund Pending,799,Paid,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD00999,CUST0991,Delivered,4999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01000,CUST0994,Delivered,7999,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD01001,CUST0997,Refund Pending,2499,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD01002,CUST1000,Return Requested,799,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01003,CUST0001,Return Requested,1499,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01004,CUST0004,Processing,2499,Pending,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD01005,CUST0007,Return Requested,4999,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD01006,CUST0010,Return Requested,2499,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01007,CUST0013,Cancelled,2499,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01008,CUST0016,Refund Pending,3999,Pending,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD01009,CUST0019,Return Requested,299,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD01010,CUST0022,Cancelled,1499,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01011,CUST0025,Shipped,499,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD01012,CUST0028,Refund Pending,999,Refunded,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD01013,CUST0031,Shipped,799,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD01014,CUST0034,Delivered,499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01015,CUST0037,Cancelled,499,Pending,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01016,CUST0040,Delivered,1499,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01017,CUST0043,Delivered,7999,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD01018,CUST0046,Return Requested,999,Refunded,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD01019,CUST0049,Delivered,499,Refunded,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD01020,CUST0052,Return Requested,7999,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD01021,CUST0055,Delivered,1499,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD01022,CUST0058,Delivered,3999,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD01023,CUST0061,Return Requested,1999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01024,CUST0064,Shipped,299,Pending,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01025,CUST0067,Delivered,1499,Paid,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD01026,CUST0070,Delivered,3999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01027,CUST0073,Return Requested,3999,Paid,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD01028,CUST0076,Refund Pending,2499,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD01029,CUST0079,Return Requested,1499,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01030,CUST0082,Delivered,7999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01031,CUST0085,Processing,799,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD01032,CUST0088,Processing,1499,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD01033,CUST0091,Cancelled,299,Refunded,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD01034,CUST0094,Refund Pending,3999,Pending,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD01035,CUST0097,Refund Pending,499,Refunded,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01036,CUST0100,Processing,3999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01037,CUST0103,Return Requested,1499,Pending,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD01038,CUST0106,Return Requested,499,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01039,CUST0109,Refund Pending,3999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01040,CUST0112,Cancelled,299,Pending,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD01041,CUST0115,Delivered,1499,Pending,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD01042,CUST0118,Return Requested,1999,Pending,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD01043,CUST0121,Processing,999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01044,CUST0124,Delivered,7999,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD01045,CUST0127,Delivered,4999,Paid,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD01046,CUST0130,Refund Pending,3999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01047,CUST0133,Delivered,1999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01048,CUST0136,Delivered,4999,Pending,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD01049,CUST0139,Cancelled,999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01050,CUST0142,Return Requested,799,Pending,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD01051,CUST0145,Cancelled,299,Paid,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD01052,CUST0148,Return Requested,799,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD01053,CUST0151,Delivered,1499,Paid,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD01054,CUST0154,Delivered,7999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01055,CUST0157,Processing,7999,Refunded,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01056,CUST0160,Refund Pending,999,Pending,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD01057,CUST0163,Return Requested,2499,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD01058,CUST0166,Cancelled,4999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01059,CUST0169,Refund Pending,999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01060,CUST0172,Delivered,499,Paid,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD01061,CUST0175,Delivered,1999,Refunded,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD01062,CUST0178,Delivered,7999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01063,CUST0181,Refund Pending,7999,Pending,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01064,CUST0184,Processing,499,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01065,CUST0187,Delivered,7999,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD01066,CUST0190,Refund Pending,3999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01067,CUST0193,Return Requested,1499,Refunded,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD01068,CUST0196,Delivered,799,Refunded,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD01069,CUST0199,Delivered,3999,Refunded,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD01070,CUST0202,Refund Pending,1499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01071,CUST0205,Cancelled,999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01072,CUST0208,Cancelled,499,Refunded,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01073,CUST0211,Refund Pending,4999,Refunded,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD01074,CUST0214,Refund Pending,999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01075,CUST0217,Delivered,799,Pending,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01076,CUST0220,Delivered,299,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01077,CUST0223,Delivered,2499,Paid,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD01078,CUST0226,Refund Pending,3999,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD01079,CUST0229,Delivered,4999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01080,CUST0232,Processing,4999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01081,CUST0235,Return Requested,3999,Refunded,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD01082,CUST0238,Delivered,1999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01083,CUST0241,Delivered,499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01084,CUST0244,Processing,999,Paid,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD01085,CUST0247,Processing,299,Pending,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01086,CUST0250,Cancelled,3999,Paid,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD01087,CUST0253,Shipped,799,Pending,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD01088,CUST0256,Shipped,1499,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01089,CUST0259,Delivered,7999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01090,CUST0262,Delivered,3999,Pending,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01091,CUST0265,Refund Pending,1999,Paid,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD01092,CUST0268,Delivered,7999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01093,CUST0271,Processing,4999,Pending,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD01094,CUST0274,Processing,3999,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD01095,CUST0277,Processing,999,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD01096,CUST0280,Cancelled,999,Refunded,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01097,CUST0283,Cancelled,299,Pending,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01098,CUST0286,Delivered,3999,Refunded,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD01099,CUST0289,Cancelled,2499,Pending,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD01100,CUST0292,Refund Pending,499,Pending,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01101,CUST0295,Delivered,4999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01102,CUST0298,Delivered,1999,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD01103,CUST0301,Delivered,299,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01104,CUST0304,Return Requested,3999,Refunded,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD01105,CUST0307,Processing,799,Pending,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01106,CUST0310,Return Requested,3999,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD01107,CUST0313,Return Requested,1999,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01108,CUST0316,Processing,1499,Refunded,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD01109,CUST0319,Delivered,7999,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD01110,CUST0322,Return Requested,1999,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD01111,CUST0325,Shipped,3999,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01112,CUST0328,Shipped,799,Refunded,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD01113,CUST0331,Return Requested,999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01114,CUST0334,Cancelled,499,Pending,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD01115,CUST0337,Refund Pending,7999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01116,CUST0340,Shipped,1499,Refunded,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01117,CUST0343,Delivered,499,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD01118,CUST0346,Processing,4999,Refunded,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD01119,CUST0349,Return Requested,4999,Refunded,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD01120,CUST0352,Cancelled,1999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01121,CUST0355,Processing,499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01122,CUST0358,Shipped,499,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01123,CUST0361,Delivered,799,Pending,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01124,CUST0364,Cancelled,299,Paid,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD01125,CUST0367,Return Requested,4999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01126,CUST0370,Processing,3999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01127,CUST0373,Delivered,299,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD01128,CUST0376,Cancelled,1999,Paid,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD01129,CUST0379,Cancelled,4999,Refunded,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD01130,CUST0382,Processing,1499,Refunded,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01131,CUST0385,Delivered,1499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01132,CUST0388,Shipped,299,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01133,CUST0391,Processing,799,Refunded,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD01134,CUST0394,Cancelled,1499,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01135,CUST0397,Refund Pending,799,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01136,CUST0400,Delivered,1999,Refunded,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD01137,CUST0403,Shipped,1999,Paid,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD01138,CUST0406,Return Requested,299,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01139,CUST0409,Shipped,3999,Refunded,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD01140,CUST0412,Shipped,499,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD01141,CUST0415,Refund Pending,799,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01142,CUST0418,Delivered,4999,Refunded,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD01143,CUST0421,Return Requested,1499,Pending,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD01144,CUST0424,Return Requested,799,Refunded,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01145,CUST0427,Return Requested,499,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01146,CUST0430,Return Requested,4999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01147,CUST0433,Processing,7999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01148,CUST0436,Delivered,1999,Paid,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD01149,CUST0439,Cancelled,999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01150,CUST0442,Delivered,499,Refunded,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD01151,CUST0445,Return Requested,499,Refunded,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01152,CUST0448,Processing,1999,Refunded,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD01153,CUST0451,Shipped,2499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01154,CUST0454,Processing,1999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01155,CUST0457,Shipped,1499,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01156,CUST0460,Return Requested,3999,Pending,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01157,CUST0463,Delivered,2499,Pending,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD01158,CUST0466,Cancelled,499,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01159,CUST0469,Shipped,3999,Refunded,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01160,CUST0472,Cancelled,2499,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01161,CUST0475,Processing,1499,Pending,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD01162,CUST0478,Processing,7999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01163,CUST0481,Refund Pending,2499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01164,CUST0484,Refund Pending,1499,Refunded,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD01165,CUST0487,Cancelled,3999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01166,CUST0490,Refund Pending,299,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01167,CUST0493,Return Requested,3999,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD01168,CUST0496,Delivered,3999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01169,CUST0499,Refund Pending,1499,Pending,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD01170,CUST0502,Return Requested,1999,Refunded,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD01171,CUST0505,Processing,1499,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01172,CUST0508,Cancelled,7999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01173,CUST0511,Delivered,7999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01174,CUST0514,Processing,799,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01175,CUST0517,Shipped,1999,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01176,CUST0520,Shipped,1499,Refunded,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD01177,CUST0523,Delivered,799,Paid,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD01178,CUST0526,Shipped,1999,Paid,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD01179,CUST0529,Return Requested,1999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01180,CUST0532,Delivered,799,Refunded,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01181,CUST0535,Refund Pending,3999,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01182,CUST0538,Delivered,999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01183,CUST0541,Refund Pending,4999,Refunded,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD01184,CUST0544,Processing,499,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01185,CUST0547,Processing,1999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01186,CUST0550,Refund Pending,3999,Refunded,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01187,CUST0553,Return Requested,1499,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01188,CUST0556,Delivered,799,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01189,CUST0559,Delivered,799,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD01190,CUST0562,Refund Pending,499,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD01191,CUST0565,Refund Pending,2499,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01192,CUST0568,Delivered,4999,Refunded,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD01193,CUST0571,Delivered,1499,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01194,CUST0574,Return Requested,299,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD01195,CUST0577,Delivered,7999,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD01196,CUST0580,Shipped,299,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD01197,CUST0583,Shipped,7999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01198,CUST0586,Refund Pending,4999,Refunded,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD01199,CUST0589,Cancelled,499,Paid,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD01200,CUST0592,Refund Pending,299,Refunded,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD01201,CUST0595,Delivered,1499,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD01202,CUST0598,Delivered,999,Refunded,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01203,CUST0601,Return Requested,7999,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD01204,CUST0604,Delivered,799,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD01205,CUST0607,Delivered,4999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01206,CUST0610,Refund Pending,1999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01207,CUST0613,Cancelled,799,Pending,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01208,CUST0616,Return Requested,1499,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01209,CUST0619,Shipped,3999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01210,CUST0622,Processing,7999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01211,CUST0625,Cancelled,2499,Paid,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD01212,CUST0628,Delivered,499,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01213,CUST0631,Delivered,3999,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD01214,CUST0634,Cancelled,499,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01215,CUST0637,Processing,2499,Refunded,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD01216,CUST0640,Delivered,499,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01217,CUST0643,Delivered,7999,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01218,CUST0646,Refund Pending,2499,Pending,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD01219,CUST0649,Refund Pending,7999,Refunded,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD01220,CUST0652,Processing,1999,Pending,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD01221,CUST0655,Cancelled,1499,Paid,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD01222,CUST0658,Delivered,499,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD01223,CUST0661,Delivered,799,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD01224,CUST0664,Delivered,499,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01225,CUST0667,Processing,7999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01226,CUST0670,Cancelled,7999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01227,CUST0673,Return Requested,4999,Pending,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01228,CUST0676,Shipped,3999,Pending,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD01229,CUST0679,Shipped,4999,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01230,CUST0682,Processing,499,Pending,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01231,CUST0685,Refund Pending,2499,Pending,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01232,CUST0688,Delivered,799,Refunded,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD01233,CUST0691,Delivered,3999,Pending,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01234,CUST0694,Return Requested,2499,Pending,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD01235,CUST0697,Return Requested,3999,Refunded,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD01236,CUST0700,Cancelled,799,Refunded,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01237,CUST0703,Processing,1499,Pending,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD01238,CUST0706,Return Requested,1999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01239,CUST0709,Delivered,7999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01240,CUST0712,Shipped,7999,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD01241,CUST0715,Delivered,2499,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD01242,CUST0718,Shipped,299,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01243,CUST0721,Return Requested,1499,Refunded,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD01244,CUST0724,Delivered,1499,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01245,CUST0727,Delivered,4999,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD01246,CUST0730,Return Requested,2499,Refunded,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01247,CUST0733,Delivered,3999,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01248,CUST0736,Processing,7999,Pending,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD01249,CUST0739,Delivered,3999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01250,CUST0742,Processing,4999,Paid,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD01251,CUST0745,Shipped,1999,Pending,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD01252,CUST0748,Return Requested,499,Refunded,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01253,CUST0751,Shipped,299,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01254,CUST0754,Cancelled,499,Refunded,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01255,CUST0757,Cancelled,1999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01256,CUST0760,Cancelled,4999,Pending,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD01257,CUST0763,Delivered,1999,Paid,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD01258,CUST0766,Refund Pending,1499,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01259,CUST0769,Processing,2499,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD01260,CUST0772,Refund Pending,4999,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD01261,CUST0775,Return Requested,4999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01262,CUST0778,Return Requested,3999,Paid,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD01263,CUST0781,Return Requested,299,Refunded,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01264,CUST0784,Processing,799,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD01265,CUST0787,Return Requested,1499,Pending,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01266,CUST0790,Refund Pending,499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01267,CUST0793,Refund Pending,1499,Paid,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD01268,CUST0796,Cancelled,999,Pending,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01269,CUST0799,Delivered,799,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01270,CUST0802,Refund Pending,1499,Pending,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD01271,CUST0805,Processing,2499,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01272,CUST0808,Shipped,799,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01273,CUST0811,Return Requested,4999,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD01274,CUST0814,Processing,299,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01275,CUST0817,Cancelled,1499,Paid,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD01276,CUST0820,Shipped,499,Pending,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01277,CUST0823,Delivered,7999,Refunded,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD01278,CUST0826,Return Requested,7999,Refunded,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD01279,CUST0829,Delivered,999,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01280,CUST0832,Shipped,7999,Pending,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD01281,CUST0835,Delivered,799,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01282,CUST0838,Shipped,3999,Pending,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD01283,CUST0841,Delivered,3999,Refunded,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD01284,CUST0844,Delivered,1999,Refunded,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD01285,CUST0847,Return Requested,999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01286,CUST0850,Processing,1999,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD01287,CUST0853,Cancelled,299,Paid,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD01288,CUST0856,Refund Pending,999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01289,CUST0859,Return Requested,1999,Paid,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD01290,CUST0862,Processing,299,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01291,CUST0865,Delivered,999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01292,CUST0868,Processing,1999,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01293,CUST0871,Refund Pending,499,Pending,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD01294,CUST0874,Processing,1999,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01295,CUST0877,Return Requested,1499,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01296,CUST0880,Processing,7999,Refunded,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD01297,CUST0883,Return Requested,299,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD01298,CUST0886,Processing,799,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01299,CUST0889,Return Requested,1499,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01300,CUST0892,Delivered,999,Refunded,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD01301,CUST0895,Return Requested,2499,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD01302,CUST0898,Refund Pending,799,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD01303,CUST0901,Cancelled,1999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01304,CUST0904,Delivered,2499,Paid,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD01305,CUST0907,Processing,7999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01306,CUST0910,Cancelled,7999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01307,CUST0913,Processing,999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01308,CUST0916,Processing,7999,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01309,CUST0919,Delivered,1999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01310,CUST0922,Return Requested,4999,Pending,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD01311,CUST0925,Processing,499,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01312,CUST0928,Refund Pending,1499,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD01313,CUST0931,Delivered,2499,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01314,CUST0934,Return Requested,999,Pending,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD01315,CUST0937,Refund Pending,799,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01316,CUST0940,Delivered,7999,Pending,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01317,CUST0943,Cancelled,3999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01318,CUST0946,Processing,799,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD01319,CUST0949,Delivered,2499,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01320,CUST0952,Delivered,4999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01321,CUST0955,Delivered,3999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01322,CUST0958,Shipped,4999,Refunded,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01323,CUST0961,Processing,1999,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD01324,CUST0964,Delivered,1499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01325,CUST0967,Processing,799,Paid,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD01326,CUST0970,Cancelled,2499,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01327,CUST0973,Delivered,1999,Paid,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD01328,CUST0976,Refund Pending,1499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01329,CUST0979,Shipped,7999,Paid,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD01330,CUST0982,Delivered,1999,Pending,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD01331,CUST0985,Refund Pending,3999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01332,CUST0988,Delivered,999,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD01333,CUST0991,Shipped,799,Pending,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01334,CUST0994,Processing,299,Pending,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD01335,CUST0997,Cancelled,3999,Pending,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD01336,CUST1000,Delivered,799,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01337,CUST0001,Delivered,1499,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD01338,CUST0004,Cancelled,1499,Refunded,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD01339,CUST0007,Cancelled,999,Refunded,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01340,CUST0010,Cancelled,7999,Paid,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD01341,CUST0013,Delivered,999,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01342,CUST0016,Delivered,1499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01343,CUST0019,Cancelled,499,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01344,CUST0022,Delivered,499,Pending,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD01345,CUST0025,Return Requested,1499,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01346,CUST0028,Delivered,7999,Pending,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD01347,CUST0031,Return Requested,7999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01348,CUST0034,Refund Pending,1499,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD01349,CUST0037,Delivered,4999,Refunded,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01350,CUST0040,Processing,1499,Paid,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD01351,CUST0043,Delivered,299,Paid,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD01352,CUST0046,Refund Pending,2499,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01353,CUST0049,Shipped,3999,Pending,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD01354,CUST0052,Cancelled,799,Paid,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD01355,CUST0055,Delivered,1999,Refunded,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD01356,CUST0058,Processing,2499,Pending,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD01357,CUST0061,Cancelled,2499,Paid,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD01358,CUST0064,Refund Pending,1999,Refunded,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD01359,CUST0067,Return Requested,2499,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD01360,CUST0070,Shipped,3999,Paid,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD01361,CUST0073,Cancelled,4999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01362,CUST0076,Processing,2499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01363,CUST0079,Delivered,799,Paid,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD01364,CUST0082,Processing,1499,Refunded,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD01365,CUST0085,Delivered,299,Refunded,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD01366,CUST0088,Processing,2499,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD01367,CUST0091,Return Requested,7999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01368,CUST0094,Cancelled,499,Refunded,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01369,CUST0097,Delivered,3999,Paid,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD01370,CUST0100,Delivered,499,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01371,CUST0103,Cancelled,3999,Pending,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD01372,CUST0106,Refund Pending,1499,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01373,CUST0109,Delivered,499,Refunded,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD01374,CUST0112,Delivered,2499,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01375,CUST0115,Processing,499,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD01376,CUST0118,Processing,3999,Pending,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01377,CUST0121,Cancelled,7999,Paid,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD01378,CUST0124,Return Requested,2499,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01379,CUST0127,Delivered,299,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01380,CUST0130,Return Requested,999,Paid,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD01381,CUST0133,Return Requested,799,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD01382,CUST0136,Refund Pending,4999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01383,CUST0139,Refund Pending,3999,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD01384,CUST0142,Delivered,499,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD01385,CUST0145,Return Requested,3999,Pending,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01386,CUST0148,Refund Pending,3999,Refunded,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01387,CUST0151,Shipped,7999,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01388,CUST0154,Delivered,499,Pending,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD01389,CUST0157,Return Requested,7999,Refunded,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01390,CUST0160,Processing,2499,Pending,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01391,CUST0163,Return Requested,299,Refunded,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD01392,CUST0166,Cancelled,1999,Refunded,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01393,CUST0169,Shipped,2499,Pending,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD01394,CUST0172,Cancelled,1999,Pending,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD01395,CUST0175,Processing,299,Paid,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD01396,CUST0178,Delivered,3999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01397,CUST0181,Cancelled,999,Refunded,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD01398,CUST0184,Shipped,7999,Pending,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01399,CUST0187,Return Requested,2499,Pending,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD01400,CUST0190,Refund Pending,799,Refunded,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01401,CUST0193,Return Requested,499,Pending,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01402,CUST0196,Delivered,799,Refunded,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01403,CUST0199,Refund Pending,2499,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01404,CUST0202,Delivered,4999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01405,CUST0205,Shipped,1999,Paid,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD01406,CUST0208,Delivered,499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01407,CUST0211,Cancelled,999,Paid,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD01408,CUST0214,Delivered,3999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01409,CUST0217,Refund Pending,299,Refunded,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01410,CUST0220,Refund Pending,4999,Refunded,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD01411,CUST0223,Delivered,3999,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01412,CUST0226,Refund Pending,7999,Refunded,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD01413,CUST0229,Delivered,4999,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD01414,CUST0232,Delivered,999,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD01415,CUST0235,Shipped,3999,Refunded,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD01416,CUST0238,Refund Pending,499,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01417,CUST0241,Refund Pending,799,Paid,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD01418,CUST0244,Processing,299,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01419,CUST0247,Shipped,4999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01420,CUST0250,Shipped,2499,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01421,CUST0253,Refund Pending,4999,Pending,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01422,CUST0256,Refund Pending,2499,Pending,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD01423,CUST0259,Refund Pending,4999,Paid,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD01424,CUST0262,Delivered,299,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01425,CUST0265,Shipped,1999,Pending,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD01426,CUST0268,Delivered,2499,Paid,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD01427,CUST0271,Delivered,4999,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD01428,CUST0274,Return Requested,4999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01429,CUST0277,Delivered,1499,Refunded,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD01430,CUST0280,Processing,3999,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD01431,CUST0283,Shipped,2499,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01432,CUST0286,Delivered,4999,Paid,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD01433,CUST0289,Return Requested,799,Refunded,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01434,CUST0292,Delivered,4999,Refunded,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD01435,CUST0295,Shipped,799,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD01436,CUST0298,Cancelled,1499,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01437,CUST0301,Return Requested,2499,Refunded,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD01438,CUST0304,Delivered,1999,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01439,CUST0307,Delivered,499,Pending,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD01440,CUST0310,Return Requested,299,Pending,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01441,CUST0313,Refund Pending,7999,Refunded,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01442,CUST0316,Shipped,1499,Refunded,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD01443,CUST0319,Processing,4999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01444,CUST0322,Cancelled,7999,Paid,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01445,CUST0325,Processing,499,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD01446,CUST0328,Delivered,499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01447,CUST0331,Processing,999,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01448,CUST0334,Return Requested,4999,Pending,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01449,CUST0337,Cancelled,3999,Pending,Not Applicable,Requested,V4,E-commerce,SYNTHETIC
+ORD01450,CUST0340,Return Requested,3999,Pending,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01451,CUST0343,Cancelled,799,Pending,Not Applicable,Rejected,V4,E-commerce,SYNTHETIC
+ORD01452,CUST0346,Processing,799,Refunded,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD01453,CUST0349,Delivered,3999,Pending,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD01454,CUST0352,Delivered,4999,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD01455,CUST0355,Refund Pending,2499,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01456,CUST0358,Cancelled,1499,Paid,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD01457,CUST0361,Delivered,499,Paid,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01458,CUST0364,Shipped,1499,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01459,CUST0367,Delivered,7999,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01460,CUST0370,Shipped,999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01461,CUST0373,Delivered,4999,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01462,CUST0376,Processing,3999,Refunded,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD01463,CUST0379,Processing,1999,Pending,Not Dispatched,Rejected,V4,E-commerce,SYNTHETIC
+ORD01464,CUST0382,Refund Pending,7999,Paid,In Transit,Approved,V4,E-commerce,SYNTHETIC
+ORD01465,CUST0385,Return Requested,3999,Pending,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01466,CUST0388,Refund Pending,1999,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD01467,CUST0391,Delivered,2499,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD01468,CUST0394,Processing,1499,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC
+ORD01469,CUST0397,Delivered,7999,Paid,Delivered,Rejected,V4,E-commerce,SYNTHETIC
+ORD01470,CUST0400,Cancelled,499,Paid,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD01471,CUST0403,Cancelled,7999,Paid,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD01472,CUST0406,Cancelled,999,Pending,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD01473,CUST0409,Delivered,499,Refunded,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01474,CUST0412,Shipped,999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01475,CUST0415,Refund Pending,4999,Refunded,Delayed,Requested,V4,E-commerce,SYNTHETIC
+ORD01476,CUST0418,Cancelled,299,Pending,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01477,CUST0421,Shipped,2499,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01478,CUST0424,Refund Pending,4999,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01479,CUST0427,Delivered,499,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01480,CUST0430,Delivered,799,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01481,CUST0433,Shipped,2499,Paid,Delivered,Approved,V4,E-commerce,SYNTHETIC
+ORD01482,CUST0436,Shipped,799,Paid,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01483,CUST0439,Processing,499,Paid,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD01484,CUST0442,Shipped,1499,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01485,CUST0445,Delivered,999,Refunded,In Transit,Requested,V4,E-commerce,SYNTHETIC
+ORD01486,CUST0448,Cancelled,4999,Pending,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01487,CUST0451,Shipped,299,Paid,Not Dispatched,Approved,V4,E-commerce,SYNTHETIC
+ORD01488,CUST0454,Processing,499,Pending,Delivered,Requested,V4,E-commerce,SYNTHETIC
+ORD01489,CUST0457,Return Requested,999,Paid,Delayed,Approved,V4,E-commerce,SYNTHETIC
+ORD01490,CUST0460,Cancelled,499,Paid,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD01491,CUST0463,Return Requested,799,Paid,Not Dispatched,Requested,V4,E-commerce,SYNTHETIC
+ORD01492,CUST0466,Delivered,4999,Paid,In Transit,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01493,CUST0469,Cancelled,799,Paid,Not Applicable,Approved,V4,E-commerce,SYNTHETIC
+ORD01494,CUST0472,Processing,4999,Pending,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01495,CUST0475,Refund Pending,3999,Refunded,Delayed,Rejected,V4,E-commerce,SYNTHETIC
+ORD01496,CUST0478,Delivered,299,Paid,Not Dispatched,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01497,CUST0481,Cancelled,1499,Pending,Not Applicable,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01498,CUST0484,Refund Pending,999,Refunded,Delayed,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01499,CUST0487,Delivered,4999,Refunded,Delivered,Not_Applicable,V4,E-commerce,SYNTHETIC
+ORD01500,CUST0490,Delivered,2499,Paid,In Transit,Rejected,V4,E-commerce,SYNTHETIC

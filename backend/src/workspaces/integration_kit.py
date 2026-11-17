@@ -522,7 +522,7 @@ def _build_api_client_example_js(
     return f'''/**
  * Autonomous Multi-Agent Customer Support — JavaScript API Client Example
  * Project: Autonomous Multi-Agent Customer Support System with HITL Escalation
- *
+ * 
  * Demonstrates querying the customer support widget endpoint via native fetch
  * (compatible with Node.js 18+ and modern browsers).
  */
@@ -594,7 +594,7 @@ def generate_integration_kit_zip(
 ) -> bytes:
     """
     Generates an in-memory ZIP package containing all 5 required integration assets.
-
+    
     If workspace_id and widget_token are provided, the assets are customized for that workspace.
     Otherwise, generic placeholder configuration is used without leaking private credentials.
     """

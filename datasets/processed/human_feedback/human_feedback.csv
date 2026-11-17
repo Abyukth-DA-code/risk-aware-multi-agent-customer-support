@@ -1,0 +1,502 @@
+Case_ID,Query,Domain,Intent,Risk,Complexity,Evidence_Quality,Escalation_Required,Autonomy_Decision,AI_Resolution,Human_Decision,Correct_Incorrect,Correction,Escalation_Appropriate,Knowledge_Gap,Knowledge_Update_Required,Agent_Selection_Correct,Evidence_Sufficient,Reviewer_Notes,Evaluation_Status,Data_Origin
+CASE002728,I'd like to purcjase several of ur item help me,E-commerce,place_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003008,what do I need to do to shop some of your product?,E-commerce,place_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002147,I'd like to change to the standard acconut,E-commerce,switch_account,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003197,I ned assistance to get my invoice #12588,E-commerce,get_invoice,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000902,i ahve to report problems with signup,E-commerce,registration_problems,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000657,I lost my student ID card. What should I do? I need more information.,Education,Student ID,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001672,check in which cases can I ask for a refund,E-commerce,check_refund_policy,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001527,want help to cancel purchase {{Order Number}},E-commerce,cancel_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003109,I want assistance canceling purchase {{Order Number}},E-commerce,cancel_order,Medium,Medium,Insufficient,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001607,want assistance to write an opinion,E-commerce,review,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001982,how can I see your reimbursement policy?,E-commerce,check_refund_policy,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001947,can ushow me the withdrawal penalties,E-commerce,check_cancellation_fee,Low,Low,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000210,can you help me make a claim against your organization?,E-commerce,complaint,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000804,speaking with assistant,E-commerce,contact_human_agent,Low,Low,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001816,could I open a standard account?,E-commerce,create_account,Low,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002446,i do not know how to report a trouble with online payments,E-commerce,payment_issue,High,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001448,purchase {{Order Number}} status,E-commerce,track_order,Medium,Medium,Insufficient,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000860,is it possible to lodge a claim?,E-commerce,complaint,Medium,High,Strong,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000047,Can I apply for a company if I have a backlog?,Education,Placement Support,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001861,assistance to set my new shipping address up,E-commerce,set_up_shipping_address,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002182,I have to speak with a person,E-commerce,contact_human_agent,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001475,need assistance submitting a shipping address,E-commerce,set_up_shipping_address,Low,Low,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001412,"my experience with your brand was bad, make a consumer claim",E-commerce,complaint,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000477,I need help choosing my elective courses. I need more information.,Education,Course Registration,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001378,can you show me when my item is going to arrive?,E-commerce,delivery_period,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000018,Can my business get a refund for a damaged item?,Small Business,Return and Refund,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000314,Can you help me? when is the scholarship application deadline?,Education,Scholarship,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002520,get invoices from last purchase,E-commerce,get_invoice,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001257,can you help me listing your allowed payment methods?,E-commerce,check_payment_methods,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000950,I need assistance to enter another shipping address,E-commerce,set_up_shipping_address,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001165,"I need to check your allowed payment options, how to do it?",E-commerce,check_payment_methods,Low,Low,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001951,want help seeing the withdrawal charge,E-commerce,check_cancellation_fee,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002734,is it possible to unsubscribe to the company newsletter?,E-commerce,newsletter_subscription,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000183,Can I change the delivery address?,Small Business,Delivery Inquiry,Medium,Medium,Insufficient,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003143,wanna file a customer claim against ur company,E-commerce,complaint,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000969,changing data on {{Account Type}} account,E-commerce,edit_account,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002780,I'm trying to inform of an issue with payments,E-commerce,payment_issue,High,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000254,uhave a free number to call customer support,E-commerce,contact_customer_service,Low,Low,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003081,could you help me list your accepted payment modalities?,E-commerce,check_payment_methods,Low,Low,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000491,how to subscribe to the newsletter?,E-commerce,newsletter_subscription,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000559,tell me more about updating the delivery address,E-commerce,change_shipping_address,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002899,help to cancel purchase {{Order Number}},E-commerce,cancel_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002693,add some products to order {{Order Number}},E-commerce,change_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001274,could you give me information about the shipment methods?,E-commerce,delivery_options,Low,Low,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000173,Can you help me? how do I register for the semester exam?,Education,Exam Registration,Low,Low,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001236,Where can I find my exam schedule? I need more information.,Education,Exam Schedule,Low,Medium,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002022,need aasistance reporting a problem with goddamn sign-up,E-commerce,registration_problems,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002192,where do I get the bill from {{Person Name}}?,E-commerce,get_invoice,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000325,what is the shpiping period?,E-commerce,delivery_period,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003124,assistance checking the early exit fee,E-commerce,check_cancellation_fee,Medium,Medium,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002754,assistance informing of problems with registrations,E-commerce,registration_problems,Medium,High,Conflicting,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001687,"I have to sign up to your newsletter, I need assistance",E-commerce,newsletter_subscription,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000557,Can someone help resolve this issue? Please help.,Small Business,Customer Support,Medium,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000498,wanna see  the payment methods help me,E-commerce,check_payment_methods,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003036,opening new platinum account for daughter,E-commerce,create_account,Low,Medium,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000990,Can I update my company information? as soon as possible.,Small Business,Account Management,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002966,I need to check in which situations can I ask for a refund,E-commerce,check_refund_policy,Medium,High,Insufficient,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002942,want help notifying of troubles with online payments,E-commerce,payment_issue,High,High,Conflicting,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001467,how acn i get information about forgotten access keys,E-commerce,recover_password,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002255,"someone stole my PIN, I want assistance to restore it",E-commerce,recover_password,Medium,Medium,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002405,i try to check at what time i can contact customer support,E-commerce,contact_customer_service,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000754,I lost my student ID card. What should I do?,Education,Student ID,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003231,i do not know what to do to close the {{Account Category}} account,E-commerce,delete_account,High,High,Insufficient,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000664,there is an issue trying to change my shipping address,E-commerce,change_shipping_address,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002035,"I need to see what damn shipment options I have, help me",E-commerce,delivery_options,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000528,cn I place an order from {{Delivery City}}?,E-commerce,delivery_options,Low,Medium,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003069,filing consumer claim against your business,E-commerce,complaint,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002320,i need assistance to reset the pin code of my account,E-commerce,recover_password,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001011,I want assistance to cancel purchase {{Order Number}},E-commerce,cancel_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000610,lodging consumer complaint against your business,E-commerce,complaint,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001075,want assistance to check how long refunds take,E-commerce,check_refund_policy,Medium,High,Insufficient,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000566,is it possible to see the bills from {{Person Name}}?,E-commerce,check_invoice,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000146,I don't know what to do to inform of an error with a sign-up,E-commerce,registration_problems,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000218,How do I register for a course?,Education,Course Registration,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001355,could you tell me about shipping periods?,E-commerce,delivery_period,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001992,assistance seeing what shipment options are available,E-commerce,delivery_options,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001384,editing data on {{Account Type}} account,E-commerce,edit_account,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003086,how to get bill #85632?,E-commerce,get_invoice,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002532,want assistance seeinhg how long the shipment takes,E-commerce,delivery_period,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002946,I need help retrieving my account access key,E-commerce,recover_password,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002813,wqhere to obtain rebates of money,E-commerce,get_refund,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001640,Why has my invoice not been generated? I need assistance.,Small Business,Invoice Inquiry,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001614,are there early exit fees?,E-commerce,check_cancellation_fee,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001620,want help to check in what situations can i ask for refunds,E-commerce,check_refund_policy,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001420,"I want to see my invoice #37777, I need assistance",E-commerce,check_invoice,Medium,Medium,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000203,I want to submit the edlivery address,E-commerce,set_up_shipping_address,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002331,"I lost bill #37777, mail it to me",E-commerce,get_invoice,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002268,there is an error trying to update the address,E-commerce,change_shipping_address,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002898,I don't know how to talk with an agent,E-commerce,contact_human_agent,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002610,i havent registered yet i need help creating a {{Account Type}} account,E-commerce,create_account,Low,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001677,can you help md unsubscribing to your company newsletter?,E-commerce,newsletter_subscription,Low,Low,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003317,I need help leaving a comment for your services,E-commerce,review,Low,Low,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001578,I don't know how I can order some of your article,E-commerce,place_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001050,how to download the bills from {{Person Name}}?,E-commerce,get_invoice,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000798,wanna see how soon can i expect the shipment help me,E-commerce,delivery_period,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000356,where can i acquire an few of ur article,E-commerce,place_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000083,Can I update my company information? I need assistance.,Small Business,Account Management,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000208,show me what shipment methods I have,E-commerce,delivery_options,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000699,My refund has not arrived yet. as soon as possible.,Small Business,Return and Refund,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000137,How can I download my invoice? as soon as possible.,Small Business,Invoice Inquiry,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003256,want help checking in what situations can I ask for a refund,E-commerce,check_refund_policy,Medium,High,Insufficient,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002636,I do not know how I can enter the new delivery address,E-commerce,set_up_shipping_address,Low,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002463,I do not know how to seehow soon can I expect my purchase,E-commerce,delivery_period,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002056,need to check what hours i can call customer service,E-commerce,contact_customer_service,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001245,deleter a product from purchase {{Order Number}},E-commerce,change_order,Medium,Medium,Conflicting,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002435,I don't know what I have to do to cancel my {{Account Type}} account,E-commerce,delete_account,High,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000628,How can I pay my semester fees?,Education,Fees and Payment,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002567,how to change to the {{Account Category}} account,E-commerce,switch_account,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001522,I want to update my user profile,E-commerce,edit_account,Medium,Medium,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000070,How can I apply for a scholarship?,Education,Scholarship,Low,Low,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000396,The supplier has not confirmed my order. Please help.,Small Business,Vendor Support,Low,Medium,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000492,what do i need to do to ask for a rebate of money,E-commerce,get_refund,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001409,what do i need to do to get my invoices from {{Person Name}},E-commerce,get_invoice,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001154,i have got to ceck ur money back guarantee i need help,E-commerce,check_refund_policy,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000908,i dont know how to inform of a trouble with payment,E-commerce,payment_issue,High,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003096,I do not know what I need to do to purchase something,E-commerce,place_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003221,help trying to edit the deliveyr address,E-commerce,change_shipping_address,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001727,I have to give a quick look at the invoice #00108,E-commerce,check_invoice,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003165,"I lost the bill #12588, mail it to me",E-commerce,get_invoice,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002839,"I have to correct order {{Order Number}}, can you help me?",E-commerce,change_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002404,i have a problem with the cancellation of my {{Account Category}} account,E-commerce,delete_account,High,High,Strong,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001129,help me to delete an item from order {{Order Number}},E-commerce,change_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002005,I want assistance to see my invoices from {{Person Name}},E-commerce,check_invoice,Medium,Medium,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001582,I am trying to file a rreclamation against your business,E-commerce,complaint,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003311,directing to person,E-commerce,contact_human_agent,Low,Low,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001404,I don't know what I need to do to contact customer service,E-commerce,contact_customer_service,Low,Low,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000094,Can you help me? has the exam date for my subject changed?,Education,Exam Schedule,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003220,"I have to enter a new shipping address, how do I do it?",E-commerce,set_up_shipping_address,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001455,have a problem with the removal of my {{Account Type}} account,E-commerce,delete_account,High,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000501,I want to check at what time I can reach customer serfvice,E-commerce,contact_customer_service,Low,Low,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000983,I need to check in which cases can I ask for a reimbursement,E-commerce,check_refund_policy,Low,Low,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001193,where can I check what hours I can call customer service?,E-commerce,contact_customer_service,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001839,find information about the cancellation of a pro account,E-commerce,delete_account,High,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002259,can you help me see the damn withdrawal charge?,E-commerce,check_cancellation_fee,Low,Low,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001771,help with creating my {{Account Type}} account,E-commerce,create_account,Low,Medium,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001175,can ya  help me to speak with customer assistance,E-commerce,contact_customer_service,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002146,want assistance submitting my feedback for a service,E-commerce,review,Medium,Medium,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000937,can I check what hours I can reach customer assistance?,E-commerce,contact_customer_service,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002970,i dont know how i can acquire some of ur item,E-commerce,place_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000120,How can I contact the vendor about a missing item? Please help.,Small Business,Vendor Support,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002897,help me to see at what time I can contact customer service,E-commerce,contact_customer_service,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001223,how can I check if there are any updates on the restitution?,E-commerce,track_refund,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000428,where can i eanr a few of ur item,E-commerce,place_order,Medium,Medium,Insufficient,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002416,where can I see the withdrawal penalty?,E-commerce,check_cancellation_fee,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002976,assistance checking the withdrawal penalty,E-commerce,check_cancellation_fee,Low,Low,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001212,i dont use m freemium account I'm trying to cancel it,E-commerce,delete_account,High,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002066,is there an address to leave an opinion ?,E-commerce,review,Low,Low,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000892,How do I request an official transcript? Please help me.,Education,Academic Records,Low,Low,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002672,consumer reclamation,E-commerce,complaint,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000127,Can I pay by bank transfer?,Small Business,Business Payment,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002507,i want supports trying to correct the address,E-commerce,change_shipping_address,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001131,can you help me see the early exit penalties?,E-commerce,check_cancellation_fee,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003055,can I inform of a problem with registrations?,E-commerce,registration_problems,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002587,i cant make a payment where can i notify of an error,E-commerce,payment_issue,High,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002932,is there a method to send some feedback about your products?,E-commerce,review,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001425,assistance to see order {{Order Number}} current status,E-commerce,track_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000575,Do you offer products suitable for small businesses? Please help.,Small Business,Product Information,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003203,I am trying to unsubscribe from your company newsletter,E-commerce,newsletter_subscription,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000005,My student ID is not working. Please help me.,Education,Student ID,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002054,create new standard account for daughter,E-commerce,create_account,Low,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001609,is there anaddress to send feedback for a service,E-commerce,review,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002727,updating order {{Order Number}},E-commerce,change_order,Medium,Medium,Conflicting,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002875,I do not know how I can chat with an agent,E-commerce,contact_human_agent,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001256,I need to see when will my product arrive,E-commerce,delivery_period,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002373,"I need to see when will my parcel arrive, how to do it?",E-commerce,delivery_period,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002674,i do not know how i can talk to a human agent,E-commerce,contact_human_agent,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001054,I do not know how I can set up my shipping address,E-commerce,set_up_shipping_address,Low,Low,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000791,I can't talk with  a human agent,E-commerce,contact_human_agent,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000404,"For my business, can I get more information about this product?",Small Business,Product Information,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000481,i call to check when my parcel is gonna arive,E-commerce,delivery_period,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002361,what is your customer assistance number?,E-commerce,contact_customer_service,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001481,"I can't sign up, I want help to inform of signup issues",E-commerce,registration_problems,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000624,want assistance notifying of problems with online payment,E-commerce,payment_issue,High,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000397,chnge data on {{Account Type}} account,E-commerce,edit_account,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002185,"I paid {{Currency Symbol}}{{Refund Amount}} for this item, want help to get a rebate",E-commerce,get_refund,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000307,I have to look for the bills from {{Person Name}},E-commerce,check_invoice,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000753,change to the {{Account Category}} account,E-commerce,switch_account,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002506,could you mail me my goddamn invoices from {{Person Name}}?,E-commerce,get_invoice,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002890,I have troubles setting up a new shipping address,E-commerce,set_up_shipping_address,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002169,information about the removal of a {{Account Type}} account,E-commerce,delete_account,High,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000342,"For my business, can I update my company information?",Small Business,Account Management,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001472,show me at what time I can contact customer support,E-commerce,contact_customer_service,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003100,there is a trouble setting up a delivery address,E-commerce,set_up_shipping_address,Low,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001664,where can i obtain a compensation of money,E-commerce,get_refund,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002086,do ya deoiver to {{Delivery City}},E-commerce,delivery_options,Low,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000595,Can I cancel the business subscription?,Small Business,Subscription Management,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003237,I want help to see order {{Order Number}} status,E-commerce,track_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001417,how do i create a premium account,E-commerce,create_account,Low,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001552,i have lost  my pwd could i reset it,E-commerce,recover_password,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000258,What is the minimum attendance required for my course?,Education,Attendance Policy,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002437,can you help me contact osmeone?,E-commerce,contact_human_agent,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001847,i have problems with a forgotten password,E-commerce,recover_password,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000134,How do I register for campus placements? Please help me.,Education,Placement Support,Low,Low,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000297,When is the scholarship application deadline?,Education,Scholarship,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000266,When is the last date to register for the exam? I need more information.,Education,Exam Registration,Low,Low,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002889,where do I restore my user pass?,E-commerce,recover_password,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002949,changing purchase {{Order Number}},E-commerce,change_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000243,help touse the {{Account Category}} profile,E-commerce,switch_account,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001380,can you help me changing purchase {{Order Number}}?,E-commerce,change_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000338,list ur payment modalities,E-commerce,check_payment_methods,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001904,i dont know how i can see my rebate current status,E-commerce,track_refund,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001400,I need to see my goddamn invoices from last year,E-commerce,check_invoice,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001018,how can I find bill #00108?,E-commerce,check_invoice,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001454,how can I find information about the shipping period?,E-commerce,delivery_period,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001724,i do not know how i can report an error with signup,E-commerce,registration_problems,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000152,How can I add another employee to the account? I need assistance.,Small Business,Account Management,Low,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001473,what do I need to do to create a {{Account Type}} account?,E-commerce,create_account,Low,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000650,help me see in what cases can I reuest my money back,E-commerce,check_refund_policy,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002733,i want help trying to edit my delivery address,E-commerce,change_shipping_address,Medium,Medium,Conflicting,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001300,i want help sending some feedback about a product,E-commerce,review,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000236,where could I see when my delivery is going to arrive?,E-commerce,delivery_period,Low,Medium,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002252,I try to acquire an article,E-commerce,place_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002964,I submitted a wrong shipping address,E-commerce,change_shipping_address,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000578,"For my business, i have a problem with my account.",Small Business,Customer Support,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002174,there are problems setting up a new delivery address,E-commerce,set_up_shipping_address,Medium,Medium,Strong,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002420,status of order,E-commerce,track_order,Medium,Medium,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000309,ya have a section to send a comment for ur services,E-commerce,review,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000384,want assistance receiving a refund of money,E-commerce,get_refund,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002411,wat support trying to update my address,E-commerce,change_shipping_address,Medium,Medium,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003150,help removing several products from purchase {{Order Number}},E-commerce,change_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000239,i have a question about opening pro accounts,E-commerce,create_account,Low,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002245,I don't know how to check the early exit charge,E-commerce,check_cancellation_fee,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002883,I'm waiting for an refund of {{Currency Symbol}}{{Refund Amount}},E-commerce,track_refund,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002551,i have got to change the details on my user i need help,E-commerce,edit_account,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001271,what do I need to do to check your accepted payment methods?,E-commerce,check_payment_methods,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002283,I don't knowhow to cancel purchase {{Order Number}},E-commerce,cancel_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001875,I don't know what to do to remove the premium account,E-commerce,delete_account,High,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000378,Can I get more information about this product?,Small Business,Product Information,Low,Low,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002527,I am trying to see your accepted payment methods,E-commerce,check_payment_methods,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000339,can ya help me to change to the gold account,E-commerce,switch_account,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001003,could I check at what time I can call customer service?,E-commerce,contact_customer_service,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003010,edit details on {{Account Category}} account,E-commerce,edit_account,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001886,see purchase {{Order Number}} status,E-commerce,track_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001290,I want help canceling the {{Account Type}} account,E-commerce,delete_account,High,High,Insufficient,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002730,wanna order a few of ur article,E-commerce,place_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000655,How do I renew a library book? I need more information.,Education,Library,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000855,there is a problem setting up my delivery address,E-commerce,set_up_shipping_address,Medium,Medium,Conflicting,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000474,where do I buy something?,E-commerce,place_order,Medium,Medium,Conflicting,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003043,help seeing in what cases can i request refunds,E-commerce,check_refund_policy,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000111,I do not know how I candownload my bill #37777,E-commerce,get_invoice,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002895,"I can't open an account, where do I report a signup issue?",E-commerce,registration_problems,Medium,High,Insufficient,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002622,can you help me receive your corporate newsletter?,E-commerce,newsletter_subscription,Low,Low,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001831,can ya tell me about signing up to ur newsletter,E-commerce,newsletter_subscription,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002493,I expect a rebate of {{Currency Symbol}}{{Refund Amount}},E-commerce,track_refund,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001240,I try to switch to the {{Account Category}} account,E-commerce,switch_account,Medium,Medium,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002088,help to check what shipping options i have,E-commerce,delivery_options,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002927,what do I need to do to restore my user account access key ?,E-commerce,recover_password,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002234,i need help to chat with an human agent,E-commerce,contact_human_agent,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000985,help trying to modify the damn address,E-commerce,change_shipping_address,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002675,i have issues modifying the address,E-commerce,change_shipping_address,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002215,"I ain't registered, I want to create a pro account",E-commerce,create_account,Low,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002936,I awnt assistance to locate the bill #00108,E-commerce,check_invoice,Low,Low,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000145,"For my business, how do I upgrade our business plan?",Small Business,Subscription Management,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001845,want assistance retrieving the password of my user,E-commerce,recover_password,Medium,Medium,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003034,is there an e-mail to submit feedback for your company?,E-commerce,review,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002339,"the payment failed, how to report an error with payment?",E-commerce,payment_issue,High,High,Insufficient,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000518,where to check the restitution status?,E-commerce,track_refund,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002502,"I ain't registered, how to open a standard account with you?",E-commerce,create_account,Low,Medium,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001350,help me reporting an issue wigh online payment,E-commerce,payment_issue,High,High,Conflicting,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002537,assistance to see thd early termination fee,E-commerce,check_cancellation_fee,Medium,Medium,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003275,I can't notify of errors with a signup,E-commerce,registration_problems,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003270,assistance to leave some feedback about a service,E-commerce,review,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001068,i have got to see how soon can i expect my delivery,E-commerce,delivery_period,Low,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002099,I try to notify of issues with registrations,E-commerce,registration_problems,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000011,Where can I find upcoming placement drives? Please help me.,Education,Placement Support,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000077,Is attendance compulsory for this subject?,Education,Attendance Policy,Low,Low,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002628,I don't know what I need to do to chat with an operator,E-commerce,contact_human_agent,Low,Low,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002128,seeing reimbursement status,E-commerce,track_refund,Medium,Medium,Strong,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000031,How can I download my marks card?,Education,Academic Records,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000813,can you help me leave an opinion foor a product?,E-commerce,review,Low,Low,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003080,modify {{Account Category}} account,E-commerce,edit_account,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002167,"I want to earn some goddamn items, I need assistance",E-commerce,place_order,Medium,Medium,Insufficient,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001792,is it possible to receive reimbursements?,E-commerce,get_refund,Medium,High,Insufficient,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001754,i have to se ur available payment methods could ya help me,E-commerce,check_payment_methods,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001691,I have problems entering a different shipping address,E-commerce,set_up_shipping_address,Medium,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001707,can i call customer assistance,E-commerce,contact_customer_service,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001836,I have problems with cancelling purchase {{Order Number}},E-commerce,cancel_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001174,I have to see the current status of my reimbursement,E-commerce,track_refund,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001695,need assistance to find my fucking bill from {{Person Name}},E-commerce,check_invoice,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003248,"I have paid {{Currency Symbol}}{{Refund Amount}} for a purchase, I want to get a refund",E-commerce,get_refund,Medium,High,Insufficient,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003323,help to check what methods for delivery i have,E-commerce,delivery_options,Low,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000469,I don't know how to inform of problems with a signup,E-commerce,registration_problems,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002312,need help seeing in what cases can I ask for a refund,E-commerce,check_refund_policy,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000087,Can I change the delivery address? Please help.,Small Business,Delivery Inquiry,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001717,I'm tryng to get the bill #00108,E-commerce,get_invoice,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002293,help me to reset my profile pwd,E-commerce,recover_password,Medium,Medium,Conflicting,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002749,how to see the cancellation penalty,E-commerce,check_cancellation_fee,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001382,tracking order {{Order Number}},E-commerce,track_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001121,I need hepl to report an error with online payment,E-commerce,payment_issue,High,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002514,would it be possible to check the shipping methods?,E-commerce,delivery_options,Low,Low,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000065,Can I cancel the business subscription? as soon as possible.,Small Business,Subscription Management,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002811,i have to see the invoice #00108,E-commerce,check_invoice,Medium,Medium,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000021,How can I check the status of my business order? as soon as possible.,Small Business,Order Management,Low,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002045,where can I make a consumer claim against your company?,E-commerce,complaint,Medium,High,Conflicting,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001095,how to get bill #12588,E-commerce,get_invoice,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002851,I'm trying to get th fucking invoices from {{Person Name}},E-commerce,get_invoice,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002611,can i set the shipping address up,E-commerce,set_up_shipping_address,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000806,problem with {{Account Category}} account cancellations,E-commerce,delete_account,High,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000376,What are the library opening hours? I need more information.,Education,Library,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003320,i do not know how to check my refund current status,E-commerce,track_refund,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001546,updaing info on gold account,E-commerce,edit_account,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000176,"For my business, why has my invoice not been generated?",Small Business,Invoice Inquiry,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000340,where could I see what options for delivery I have?,E-commerce,delivery_options,Low,Medium,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001273,could I set up a delivery address?,E-commerce,set_up_shipping_address,Low,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000744,I need assistance editing my delivery address,E-commerce,change_shipping_address,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002389,updating data on {{Account Type}} account,E-commerce,edit_account,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000520,where do I report an issue iwth sign-up?,E-commerce,registration_problems,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001434,how could I report problems with payment?,E-commerce,payment_issue,High,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001863,i dont know what to do to recover the pwd of my profile,E-commerce,recover_password,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003175,how to submit my feedback about your company?,E-commerce,review,Medium,Medium,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001515,I'd like to get the bill from {{Person Name}} how to od it,E-commerce,get_invoice,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000926,I don't know what I need to do to get the bill #85632,E-commerce,get_invoice,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001207,I want assistance seeing your available payment modalities,E-commerce,check_payment_methods,Low,Low,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001825,I want to check what hours I can contact customer support,E-commerce,contact_customer_service,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002113,help me seeing in what cases can I request reimbursements,E-commerce,check_refund_policy,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002815,"I paid {{Currency Symbol}}{{Refund Amount}} for an item, help me receive my money back",E-commerce,get_refund,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000200,problem with cancelling purchase {{Order Number}},E-commerce,cancel_order,Medium,Medium,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001853,open new {{Account Type}} account for daughter,E-commerce,create_account,Low,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001573,I have problems with  an address correction,E-commerce,change_shipping_address,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002594,how to see the withdrawal fee?,E-commerce,check_cancellation_fee,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000839,what do i need to do to speak with an assistant,E-commerce,contact_human_agent,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001940,there is a problem entering my secondary delivery address,E-commerce,set_up_shipping_address,Medium,Medium,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002218,i want assistance to solve issues with payment,E-commerce,payment_issue,High,High,Insufficient,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001123,could you help me reset the PIN of my user profile?,E-commerce,recover_password,Medium,Medium,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002580,can you help me chat with a human agent?,E-commerce,contact_human_agent,Low,Low,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001114,is it possible to check invoice #37777,E-commerce,check_invoice,Medium,Medium,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001590,i dont know how to check what methods for delivery are there,E-commerce,delivery_options,Low,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002956,have a question abut canceling purchase {{Order Number}},E-commerce,cancel_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001374,can you help me to report a trouble with payments?,E-commerce,payment_issue,High,High,Insufficient,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002601,i need assistance to locate the bills from {{Person Name}},E-commerce,check_invoice,Low,Low,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003047,I am trying to speak with an operator,E-commerce,contact_human_agent,Low,Low,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003239,help using the standard account,E-commerce,switch_account,Medium,Medium,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002296,what do i have to do to close the {{Account Type}} account,E-commerce,delete_account,High,High,Insufficient,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003202,i dont know how to report signup issues,E-commerce,registration_problems,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000685,can you help me to check the methods for shipping?,E-commerce,delivery_options,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002840,I need to know if there is anything new on the restitution,E-commerce,track_refund,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001151,"For my business, what payment methods do you accept for business customers?",Small Business,Business Payment,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002382,can i place an oeder from {{Delivery City}},E-commerce,delivery_options,Low,Medium,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000194,"For my business, i need to change an order I placed.",Small Business,Order Management,Medium,Medium,Insufficient,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000457,I do not know what to do to speak with an live agent,E-commerce,contact_human_agent,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002039,I don't know how I could see purchase {{Order Number}} status,E-commerce,track_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000105,Can you help me? my fee payment has failed. What should I do?,Education,Fees and Payment,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001447,"I would like to make a bloody complaint, could you help me?",E-commerce,complaint,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001490,help checking your accepted payment options,E-commerce,check_payment_methods,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001258,will umail me the bills from {{Person Name}},E-commerce,get_invoice,Medium,Medium,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001635,what do I have to do to cancel a premium account?,E-commerce,delete_account,High,High,Insufficient,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001449,show me in which situations  can i ask for refunds,E-commerce,check_refund_policy,Medium,High,Insufficient,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000667,Can I return part of a business order? Please help.,Small Business,Return and Refund,Low,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000826,want assistance to see the shipping options,E-commerce,delivery_options,Low,Low,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001232,i want assistance to locatr my bill #00108,E-commerce,check_invoice,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003259,can you help me create a different bloody platinum account?,E-commerce,create_account,Low,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001361,is there a method to send some feedback for ur products,E-commerce,review,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001408,i need assistance to set up the new delivery address,E-commerce,set_up_shipping_address,Low,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002122,I need help receiving refunds,E-commerce,get_refund,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002707,how to check the early termination penalty?,E-commerce,check_cancellation_fee,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002962,want assistance opening a {{Account Category}} account for my dad,E-commerce,create_account,Low,Medium,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002939,checking invoice from 4 purchases ago,E-commerce,check_invoice,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001545,I do not know how I could check the ETA of purchase {{Order Number}},E-commerce,track_order,Medium,Medium,Insufficient,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003030,show me purchase {{Order Number}} statud,E-commerce,track_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001654,I need help checking the biol #37777,E-commerce,check_invoice,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000264,How do I update vendor information?,Small Business,Vendor Support,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000809,i have got to locate purchase {{Order Number}} help me,E-commerce,track_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001945,there is an issue trying to correct the address,E-commerce,change_shipping_address,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000246,file complaint against your business,E-commerce,complaint,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001938,need help to make a complaint against your organization,E-commerce,complaint,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002055,I want help to see the fucking ETA of the order {{Order Number}},E-commerce,track_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002272,I want to correct purchase {{Order Number}},E-commerce,change_order,Medium,Medium,Strong,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001733,I want information about the removal of my {{Account Type}} account,E-commerce,delete_account,High,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002324,what do i have to do to get invoice #37777,E-commerce,get_invoice,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001623,Can you help me? my grade is missing from the student portal.,Education,Academic Records,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000948,I cannot submit a secondary delivery address,E-commerce,set_up_shipping_address,Low,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001618,want help to write a comment about a product,E-commerce,review,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000222,know if there is anything new on my restitution,E-commerce,track_refund,Medium,Medium,Strong,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002867,how to see what shipping options I have?,E-commerce,delivery_options,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001849,how to change order {{Order Number}}?,E-commerce,change_order,Medium,Medium,Strong,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001035,hoe can i check the withdrawal penalties,E-commerce,check_cancellation_fee,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000677,"I have got to notify of registration problems, help me",E-commerce,registration_problems,Medium,High,Insufficient,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000737,"I have to edit the address, I need assistance",E-commerce,change_shipping_address,Medium,Medium,Strong,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000214,Can you help me? what is the minimum attendance required for my course?,Education,Attendance Policy,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003148,supports editnig my delivery address,E-commerce,change_shipping_address,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003169,assistance to order some  of ur item,E-commerce,place_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001353,I want help receiving the corporate newsletter,E-commerce,newsletter_subscription,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002965,need assistance submitting some feedback about ur company,E-commerce,review,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001564,I need help to check purchase {{Order Number}} current status,E-commerce,track_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002188,can you give me information about receiving your newsletter?,E-commerce,newsletter_subscription,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002187,can you help me to see your accepted payment modalities?,E-commerce,check_payment_methods,Low,Low,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002000,where can I see the early termination charge?,E-commerce,check_cancellation_fee,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003071,"I need to edit my goddamn user, could I get some help?",E-commerce,edit_account,Medium,Medium,Insufficient,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001283,I need to see purchase {{Order Number}} current status,E-commerce,track_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000964,where to file a customer reclamation against your company ?,E-commerce,complaint,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000497,what do I have to do to list the allowed payment methods?,E-commerce,check_payment_methods,Low,Low,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001483,"I can no longer afford order {{Order Number}}, cancel it",E-commerce,cancel_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000131,do you have a method to submit a comment for your company?,E-commerce,review,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001097,I try to chat with an operator,E-commerce,contact_human_agent,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000675,What are the library opening hours?,Education,Library,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002864,need to modify my personal data can uhelp me,E-commerce,edit_account,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000674,how long till I obtain a refund of money?,E-commerce,get_refund,Medium,High,Insufficient,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001494,"I cannot make a payment, I need help notifying of errors",E-commerce,payment_issue,High,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001627,how could i change to the {{Account Type}} account,E-commerce,switch_account,Medium,Medium,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001276,need assistance to obtain a refund of my money,E-commerce,get_refund,Medium,High,Insufficient,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000281,Can I change my elective after course registration?,Education,Course Registration,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001118,"For my business, the payment was deducted but the order is still unpaid.",Small Business,Business Payment,Low,Medium,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000619,where do I reset my user account key?,E-commerce,recover_password,Medium,Medium,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000811,i have got to buy several articles,E-commerce,place_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000712,What features are included in the business subscription? I need assistance.,Small Business,Subscription Management,Low,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002572,I have got to check if there are any news on the restitution,E-commerce,track_refund,Medium,Medium,Strong,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001067,trouble modifying delivery address,E-commerce,change_shipping_address,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001794,need assistance to make a consumer claim against ur business,E-commerce,complaint,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001046,i dont khow what i need to do to change to the gold account,E-commerce,switch_account,Medium,Medium,Strong,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002914,I need to retrieve the pass of my user account,E-commerce,recover_password,Medium,Medium,Conflicting,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001030,update standard account,E-commerce,edit_account,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000554,show me ur reimbursement policy,E-commerce,check_refund_policy,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000225,do you have a way to submit a review for your services ?,E-commerce,review,Low,Low,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002591,how can i notify of errors with a sign-up,E-commerce,registration_problems,Medium,High,Insufficient,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002131,how can I purchase several of your article?,E-commerce,place_order,Medium,Medium,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001655,watn assistance recovering my account pass,E-commerce,recover_password,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001080,see bill from {{Person Name}},E-commerce,check_invoice,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001586,"I need to check what delivery options I have, help me",E-commerce,delivery_options,Low,Medium,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001908,where to report issues with online payments,E-commerce,payment_issue,High,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000380,help me see your allowed payment modalities,E-commerce,check_payment_methods,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002349,I want help to switch something of order {{Order Number}},E-commerce,change_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000098,I need help with a business order. Please help.,Small Business,Customer Support,Low,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001093,need assistance cancelinv purchase {{Order Number}},E-commerce,cancel_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002528,what do i need to do to reportt registration errors,E-commerce,registration_problems,Medium,High,Insufficient,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002653,I want help checking the restitution current status,E-commerce,track_refund,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001785,how do i sign up to thhe corporate newsletter,E-commerce,newsletter_subscription,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000612,"I cannot open an account, help to inform of signup issues",E-commerce,registration_problems,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000079,Has the exam date for my subject changed?,Education,Exam Schedule,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002659,i cannot see if there is anything new on my refund,E-commerce,track_refund,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000449,What is the minimum attendance required for my course? Please help me.,Education,Attendance Policy,Low,Low,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002799,where can I see when my package is going to arrive?,E-commerce,delivery_period,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000287,"For my business, how can I pay for my business order?",Small Business,Business Payment,Low,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002523,I do not know how I can restore the apss of my user profile,E-commerce,recover_password,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000692,help me see under what circumstances can I request a refund,E-commerce,check_refund_policy,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001427,I have to check in which cases can I ask to be reimbursed,E-commerce,check_refund_policy,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001357,"I need to see how soon can I expect the order, help me",E-commerce,delivery_period,Low,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000306,I have got to inform of an issue with online payments,E-commerce,payment_issue,High,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002232,wanna know more about the shipping periods,E-commerce,delivery_period,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002518,"I have got to change to the freemium account, help me",E-commerce,switch_account,Medium,Medium,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001162,I want assistance doing a purchase,E-commerce,place_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002941,"I cannot find the termination penalty, can I get some help?",E-commerce,check_cancellation_fee,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000905,Why has my invoice not been generated? Please help.,Small Business,Invoice Inquiry,Medium,Medium,Insufficient,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002655,i have to inform of a payment issue,E-commerce,payment_issue,High,High,Strong,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000095,Can you help me? there is an error in my academic record.,Education,Academic Records,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000332,I need to change an order I placed. I need assistance.,Small Business,Order Management,Medium,Medium,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001914,question about canceling a bloody purchase,E-commerce,cancel_order,Medium,Medium,Insufficient,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001887,help me seeing purchase {{Order Number}} status,E-commerce,track_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002023,how to use the standard profile,E-commerce,switch_account,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003058,"I paid {{Currency Symbol}}{{Refund Amount}} for these articles, I have to obtain a rebate",E-commerce,get_refund,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001044,where can I see if there is anything new on the restitution?,E-commerce,track_refund,Medium,Medium,Strong,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000867,could you tell me more about opening platinum accounts?,E-commerce,create_account,Low,Medium,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002870,I don't know what todo to purchase something,E-commerce,place_order,Medium,Medium,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003068,add article to order {{Order Number}},E-commerce,change_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000293,creating new {{Account Type}} account,E-commerce,create_account,Low,Medium,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000861,how do I acquire some articles?,E-commerce,place_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000755,I want assistance to see the payment methods,E-commerce,check_payment_methods,Low,Low,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002937,I am trying to check the accepted payment modalities,E-commerce,check_payment_methods,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001579,What is your return policy?,Small Business,Return and Refund,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002371,help checking the status of purchase {{Order Number}},E-commerce,track_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002024,I want to check when my item is going to arrive,E-commerce,delivery_period,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002637,I cannot receive the fucking newsletter,E-commerce,newsletter_subscription,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002031,where to know if there is anything new on the rebate,E-commerce,track_refund,Medium,Medium,Insufficient,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003082,"I have to see the ETA of the order {{Order Number}}, how to do it?",E-commerce,track_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000321,can ya help me to request a refund of my money,E-commerce,get_refund,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002123,open a gold account,E-commerce,create_account,Low,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002237,is there a way to submit a comment for your services?,E-commerce,review,Low,Low,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000220,Can I edit my exam registration after submitting it? Please help me.,Education,Exam Registration,Low,Medium,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002971,i want help notifying of a problem with online payments,E-commerce,payment_issue,High,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002960,"I cannot find my invoice #12588, will you mail it to me?",E-commerce,get_invoice,Medium,Medium,Insufficient,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001500,can I check what hours customer service available is?,E-commerce,contact_customer_service,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002375,could you help me enter the secondary delivery address?,E-commerce,set_up_shipping_address,Low,Medium,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000529,"I have to list your allowed payment options, how do I do it?",E-commerce,check_payment_methods,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000104,i need help with cancelling order {{Order Number}},E-commerce,cancel_order,Medium,Medium,Strong,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002261,how could I get in touch with customer support?,E-commerce,contact_customer_service,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000075,Is this product available in bulk quantities? Please help.,Small Business,Product Information,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000352,where can i get information about opening pro accounts,E-commerce,create_account,Low,Medium,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002015,"I have to list the payment options, I need assistance",E-commerce,check_payment_methods,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000940,i missed several items in purchase {{Order Number}},E-commerce,change_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002498,i want help talkingh to a live agent,E-commerce,contact_human_agent,Low,Low,Conflicting,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001713,create {{Account Category}} accountfor wife,E-commerce,create_account,Low,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000148,how could I edit my goddamn account?,E-commerce,edit_account,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003315,"I have to check the status of my compensation, I need help",E-commerce,track_refund,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000733,need assistance to cancel order {{Order Number}},E-commerce,cancel_order,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001463,i do not know what to do to rerquest a compensation of money,E-commerce,get_refund,Medium,High,Insufficient,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001946,I have got to subscribe to the fucking newsletter,E-commerce,newsletter_subscription,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001098,I don't know what I need to do to get the bill #12588,E-commerce,get_invoice,Medium,Medium,Insufficient,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002338,can ya tell me about an address correction,E-commerce,change_shipping_address,Medium,Medium,Insufficient,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003240,I would like to change to the goddamn {{Account Type}} account,E-commerce,switch_account,Medium,Medium,Conflicting,Yes,ESCALATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000004,My delivery is delayed.,Small Business,Delivery Inquiry,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003000,I can't remove some articles from purchase {{Order Number}},E-commerce,change_order,Medium,Medium,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001055,I do not know how to submit some feedback,E-commerce,review,Medium,Medium,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002257,i do not know how to file a customer complaint,E-commerce,complaint,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000936,help me contact customer assistance,E-commerce,contact_customer_service,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000439,When is the deadline for paying my fees? I need more information.,Education,Fees and Payment,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000800,updateorder {{Order Number}},E-commerce,change_order,Medium,Medium,Insufficient,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002242,wanna edit the data included on my user profile can uhelp me,E-commerce,edit_account,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002173,help making a consumer claim against your organization,E-commerce,complaint,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE002214,i want assistance to speak to an agentt,E-commerce,contact_human_agent,Low,Low,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE001690,can uhelp me changing to the standard account,E-commerce,switch_account,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE003332,how do I get compensations?,E-commerce,get_refund,Medium,High,Strong,No,ORCHESTRATE,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE
+CASE000435,I try to modify my address,E-commerce,change_shipping_address,Medium,Medium,Strong,No,ANSWER,,,,,,,,,,,Pending Human Review,DERIVED_TEST_TEMPLATE

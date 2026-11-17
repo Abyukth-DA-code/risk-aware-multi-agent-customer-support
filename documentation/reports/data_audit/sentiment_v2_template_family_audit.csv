@@ -1,0 +1,5 @@
+Template_Family,Total_Instances,V1_Train_Count,V1_Val_Count,V1_Test_Count,V1_Cross_Split_Leakage,V2_Assigned_Split,V2_Train_Count,V2_Val_Count,V2_Test_Count,V2_Cross_Split_Leakage
+Add employee,5,4,0,1,YES (Train + Eval),test,0,0,5,ZERO (Isolated to single split)
+ID issuance status,5,3,2,0,YES (Train + Eval),validation,0,5,0,ZERO (Isolated to single split)
+Lost student ID,5,3,0,2,YES (Train + Eval),test,0,0,5,ZERO (Isolated to single split)
+Re-order products,5,4,1,0,YES (Train + Eval),validation,0,5,0,ZERO (Isolated to single split)

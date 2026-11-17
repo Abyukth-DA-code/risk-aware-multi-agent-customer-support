@@ -1,0 +1,571 @@
+Query,True_Sentiment,Predicted_Sentiment,Correct
+I'd like to purcjase several of ur item help me,Neutral,Neutral,True
+what do I need to do to shop some of your product?,Neutral,Neutral,True
+I'd like to change to the standard acconut,Neutral,Neutral,True
+I ned assistance to get my invoice #12588,Neutral,Neutral,True
+i ahve to report problems with signup,Negative,Negative,True
+I lost my student ID card. What should I do? I need more information.,Neutral,Negative,False
+check in which cases can I ask for a refund,Negative,Negative,True
+want help to cancel purchase {{Order Number}},Neutral,Neutral,True
+I want assistance canceling purchase {{Order Number}},Neutral,Neutral,True
+want assistance to write an opinion,Neutral,Neutral,True
+how can I see your reimbursement policy?,Neutral,Neutral,True
+can ushow me the withdrawal penalties,Neutral,Neutral,True
+can you help me make a claim against your organization?,Neutral,Neutral,True
+speaking with assistant,Neutral,Neutral,True
+could I open a standard account?,Neutral,Neutral,True
+i do not know how to report a trouble with online payments,Negative,Negative,True
+purchase {{Order Number}} status,Neutral,Neutral,True
+is it possible to lodge a claim?,Neutral,Neutral,True
+Can I apply for a company if I have a backlog?,Neutral,Neutral,True
+assistance to set my new shipping address up,Neutral,Neutral,True
+I have to speak with a person,Neutral,Neutral,True
+need assistance submitting a shipping address,Neutral,Neutral,True
+"my experience with your brand was bad, make a consumer claim",Negative,Neutral,False
+I need help choosing my elective courses. I need more information.,Neutral,Neutral,True
+can you show me when my item is going to arrive?,Neutral,Neutral,True
+Can my business get a refund for a damaged item?,Negative,Negative,True
+Can you help me? when is the scholarship application deadline?,Neutral,Neutral,True
+get invoices from last purchase,Neutral,Neutral,True
+can you help me listing your allowed payment methods?,Neutral,Neutral,True
+I need assistance to enter another shipping address,Negative,Negative,True
+"I need to check your allowed payment options, how to do it?",Neutral,Neutral,True
+want help seeing the withdrawal charge,Neutral,Neutral,True
+is it possible to unsubscribe to the company newsletter?,Neutral,Neutral,True
+Can I change the delivery address?,Neutral,Neutral,True
+wanna file a customer claim against ur company,Neutral,Neutral,True
+changing data on {{Account Type}} account,Neutral,Neutral,True
+I'm trying to inform of an issue with payments,Negative,Negative,True
+uhave a free number to call customer support,Neutral,Neutral,True
+could you help me list your accepted payment modalities?,Neutral,Neutral,True
+how to subscribe to the newsletter?,Neutral,Neutral,True
+tell me more about updating the delivery address,Neutral,Neutral,True
+help to cancel purchase {{Order Number}},Neutral,Neutral,True
+add some products to order {{Order Number}},Neutral,Neutral,True
+could you give me information about the shipment methods?,Neutral,Neutral,True
+Can you help me? how do I register for the semester exam?,Neutral,Neutral,True
+Where can I find my exam schedule? I need more information.,Neutral,Neutral,True
+need aasistance reporting a problem with goddamn sign-up,Negative,Negative,True
+where do I get the bill from {{Person Name}}?,Neutral,Neutral,True
+what is the shpiping period?,Neutral,Neutral,True
+assistance checking the early exit fee,Neutral,Neutral,True
+assistance informing of problems with registrations,Negative,Negative,True
+"I have to sign up to your newsletter, I need assistance",Neutral,Neutral,True
+Can someone help resolve this issue? Please help.,Negative,Negative,True
+wanna see  the payment methods help me,Neutral,Neutral,True
+opening new platinum account for daughter,Neutral,Neutral,True
+Can I update my company information? as soon as possible.,Neutral,Neutral,True
+I need to check in which situations can I ask for a refund,Negative,Negative,True
+want help notifying of troubles with online payments,Negative,Negative,True
+how acn i get information about forgotten access keys,Neutral,Neutral,True
+"someone stole my PIN, I want assistance to restore it",Neutral,Neutral,True
+i try to check at what time i can contact customer support,Neutral,Neutral,True
+I lost my student ID card. What should I do?,Neutral,Negative,False
+i do not know what to do to close the {{Account Category}} account,Negative,Negative,True
+there is an issue trying to change my shipping address,Negative,Negative,True
+"I need to see what damn shipment options I have, help me",Neutral,Neutral,True
+cn I place an order from {{Delivery City}}?,Neutral,Neutral,True
+filing consumer claim against your business,Neutral,Neutral,True
+i need assistance to reset the pin code of my account,Neutral,Neutral,True
+I want assistance to cancel purchase {{Order Number}},Neutral,Neutral,True
+lodging consumer complaint against your business,Negative,Negative,True
+want assistance to check how long refunds take,Negative,Negative,True
+is it possible to see the bills from {{Person Name}}?,Neutral,Neutral,True
+I don't know what to do to inform of an error with a sign-up,Negative,Negative,True
+How do I register for a course?,Neutral,Neutral,True
+could you tell me about shipping periods?,Neutral,Neutral,True
+assistance seeing what shipment options are available,Neutral,Neutral,True
+editing data on {{Account Type}} account,Neutral,Neutral,True
+how to get bill #85632?,Neutral,Neutral,True
+want assistance seeinhg how long the shipment takes,Neutral,Neutral,True
+I need help retrieving my account access key,Neutral,Neutral,True
+wqhere to obtain rebates of money,Neutral,Neutral,True
+Why has my invoice not been generated? I need assistance.,Negative,Negative,True
+are there early exit fees?,Neutral,Neutral,True
+want help to check in what situations can i ask for refunds,Negative,Negative,True
+"I want to see my invoice #37777, I need assistance",Neutral,Neutral,True
+I want to submit the edlivery address,Neutral,Neutral,True
+"I lost bill #37777, mail it to me",Negative,Negative,True
+there is an error trying to update the address,Negative,Negative,True
+I don't know how to talk with an agent,Neutral,Neutral,True
+i havent registered yet i need help creating a {{Account Type}} account,Neutral,Neutral,True
+can you help md unsubscribing to your company newsletter?,Neutral,Neutral,True
+I need help leaving a comment for your services,Neutral,Neutral,True
+I don't know how I can order some of your article,Neutral,Neutral,True
+how to download the bills from {{Person Name}}?,Neutral,Neutral,True
+wanna see how soon can i expect the shipment help me,Neutral,Neutral,True
+where can i acquire an few of ur article,Neutral,Neutral,True
+Can I update my company information? I need assistance.,Neutral,Neutral,True
+show me what shipment methods I have,Neutral,Neutral,True
+My refund has not arrived yet. as soon as possible.,Negative,Negative,True
+How can I download my invoice? as soon as possible.,Neutral,Neutral,True
+want help checking in what situations can I ask for a refund,Negative,Negative,True
+I do not know how I can enter the new delivery address,Negative,Negative,True
+I do not know how to seehow soon can I expect my purchase,Negative,Negative,True
+need to check what hours i can call customer service,Neutral,Neutral,True
+deleter a product from purchase {{Order Number}},Neutral,Neutral,True
+I don't know what I have to do to cancel my {{Account Type}} account,Neutral,Neutral,True
+How can I pay my semester fees?,Neutral,Neutral,True
+how to change to the {{Account Category}} account,Neutral,Neutral,True
+I want to update my user profile,Neutral,Neutral,True
+How can I apply for a scholarship?,Neutral,Neutral,True
+The supplier has not confirmed my order. Please help.,Negative,Negative,True
+what do i need to do to ask for a rebate of money,Neutral,Neutral,True
+what do i need to do to get my invoices from {{Person Name}},Neutral,Neutral,True
+i have got to ceck ur money back guarantee i need help,Neutral,Neutral,True
+i dont know how to inform of a trouble with payment,Neutral,Neutral,True
+I do not know what I need to do to purchase something,Negative,Negative,True
+help trying to edit the deliveyr address,Neutral,Neutral,True
+I have to give a quick look at the invoice #00108,Neutral,Neutral,True
+"I lost the bill #12588, mail it to me",Negative,Negative,True
+"I have to correct order {{Order Number}}, can you help me?",Neutral,Neutral,True
+i have a problem with the cancellation of my {{Account Category}} account,Negative,Negative,True
+help me to delete an item from order {{Order Number}},Neutral,Neutral,True
+I want assistance to see my invoices from {{Person Name}},Neutral,Neutral,True
+I am trying to file a rreclamation against your business,Neutral,Neutral,True
+directing to person,Neutral,Neutral,True
+I don't know what I need to do to contact customer service,Neutral,Neutral,True
+Can you help me? has the exam date for my subject changed?,Neutral,Neutral,True
+"I have to enter a new shipping address, how do I do it?",Neutral,Neutral,True
+have a problem with the removal of my {{Account Type}} account,Negative,Negative,True
+I want to check at what time I can reach customer serfvice,Neutral,Neutral,True
+I need to check in which cases can I ask for a reimbursement,Neutral,Neutral,True
+where can I check what hours I can call customer service?,Neutral,Neutral,True
+find information about the cancellation of a pro account,Neutral,Neutral,True
+can you help me see the damn withdrawal charge?,Neutral,Neutral,True
+help with creating my {{Account Type}} account,Neutral,Neutral,True
+can ya  help me to speak with customer assistance,Neutral,Neutral,True
+want assistance submitting my feedback for a service,Neutral,Neutral,True
+can I check what hours I can reach customer assistance?,Neutral,Neutral,True
+i dont know how i can acquire some of ur item,Neutral,Neutral,True
+How can I contact the vendor about a missing item? Please help.,Negative,Negative,True
+help me to see at what time I can contact customer service,Neutral,Neutral,True
+how can I check if there are any updates on the restitution?,Neutral,Neutral,True
+where can i eanr a few of ur item,Neutral,Neutral,True
+where can I see the withdrawal penalty?,Neutral,Neutral,True
+assistance checking the withdrawal penalty,Neutral,Neutral,True
+i dont use m freemium account I'm trying to cancel it,Neutral,Neutral,True
+is there an address to leave an opinion ?,Neutral,Neutral,True
+How do I request an official transcript? Please help me.,Neutral,Neutral,True
+consumer reclamation,Neutral,Neutral,True
+Can I pay by bank transfer?,Neutral,Neutral,True
+i want supports trying to correct the address,Neutral,Neutral,True
+can you help me see the early exit penalties?,Neutral,Neutral,True
+can I inform of a problem with registrations?,Negative,Negative,True
+i cant make a payment where can i notify of an error,Negative,Negative,True
+is there a method to send some feedback about your products?,Neutral,Neutral,True
+assistance to see order {{Order Number}} current status,Neutral,Neutral,True
+Do you offer products suitable for small businesses? Please help.,Neutral,Neutral,True
+I am trying to unsubscribe from your company newsletter,Neutral,Neutral,True
+My student ID is not working. Please help me.,Negative,Negative,True
+create new standard account for daughter,Neutral,Neutral,True
+is there anaddress to send feedback for a service,Neutral,Neutral,True
+updating order {{Order Number}},Neutral,Neutral,True
+I do not know how I can chat with an agent,Negative,Negative,True
+I need to see when will my product arrive,Neutral,Neutral,True
+"I need to see when will my parcel arrive, how to do it?",Neutral,Neutral,True
+i do not know how i can talk to a human agent,Negative,Negative,True
+I do not know how I can set up my shipping address,Negative,Negative,True
+I can't talk with  a human agent,Negative,Negative,True
+"For my business, can I get more information about this product?",Neutral,Neutral,True
+i call to check when my parcel is gonna arive,Neutral,Neutral,True
+what is your customer assistance number?,Neutral,Neutral,True
+"I can't sign up, I want help to inform of signup issues",Negative,Negative,True
+want assistance notifying of problems with online payment,Negative,Negative,True
+chnge data on {{Account Type}} account,Neutral,Neutral,True
+"I paid {{Currency Symbol}}{{Refund Amount}} for this item, want help to get a rebate",Negative,Negative,True
+I have to look for the bills from {{Person Name}},Neutral,Neutral,True
+change to the {{Account Category}} account,Neutral,Neutral,True
+could you mail me my goddamn invoices from {{Person Name}}?,Neutral,Neutral,True
+I have troubles setting up a new shipping address,Neutral,Neutral,True
+information about the removal of a {{Account Type}} account,Neutral,Neutral,True
+"For my business, can I update my company information?",Neutral,Neutral,True
+show me at what time I can contact customer support,Neutral,Neutral,True
+there is a trouble setting up a delivery address,Neutral,Neutral,True
+where can i obtain a compensation of money,Neutral,Neutral,True
+do ya deoiver to {{Delivery City}},Neutral,Neutral,True
+Can I cancel the business subscription?,Neutral,Neutral,True
+I want help to see order {{Order Number}} status,Neutral,Neutral,True
+how do i create a premium account,Neutral,Neutral,True
+i have lost  my pwd could i reset it,Negative,Negative,True
+What is the minimum attendance required for my course?,Neutral,Neutral,True
+can you help me contact osmeone?,Neutral,Neutral,True
+i have problems with a forgotten password,Negative,Negative,True
+How do I register for campus placements? Please help me.,Neutral,Neutral,True
+When is the scholarship application deadline?,Neutral,Neutral,True
+When is the last date to register for the exam? I need more information.,Neutral,Neutral,True
+where do I restore my user pass?,Neutral,Neutral,True
+changing purchase {{Order Number}},Neutral,Neutral,True
+help touse the {{Account Category}} profile,Neutral,Neutral,True
+can you help me changing purchase {{Order Number}}?,Neutral,Neutral,True
+list ur payment modalities,Neutral,Neutral,True
+i dont know how i can see my rebate current status,Neutral,Neutral,True
+I need to see my goddamn invoices from last year,Neutral,Neutral,True
+how can I find bill #00108?,Neutral,Neutral,True
+how can I find information about the shipping period?,Neutral,Neutral,True
+i do not know how i can report an error with signup,Negative,Negative,True
+How can I add another employee to the account? I need assistance.,Neutral,Neutral,True
+what do I need to do to create a {{Account Type}} account?,Neutral,Neutral,True
+help me see in what cases can I reuest my money back,Neutral,Neutral,True
+i want help trying to edit my delivery address,Neutral,Neutral,True
+i want help sending some feedback about a product,Neutral,Neutral,True
+where could I see when my delivery is going to arrive?,Neutral,Neutral,True
+I try to acquire an article,Neutral,Neutral,True
+I submitted a wrong shipping address,Negative,Negative,True
+"For my business, i have a problem with my account.",Negative,Negative,True
+there are problems setting up a new delivery address,Negative,Negative,True
+status of order,Neutral,Neutral,True
+ya have a section to send a comment for ur services,Neutral,Neutral,True
+want assistance receiving a refund of money,Negative,Negative,True
+wat support trying to update my address,Neutral,Neutral,True
+help removing several products from purchase {{Order Number}},Neutral,Neutral,True
+i have a question about opening pro accounts,Neutral,Neutral,True
+I don't know how to check the early exit charge,Neutral,Neutral,True
+I'm waiting for an refund of {{Currency Symbol}}{{Refund Amount}},Negative,Negative,True
+i have got to change the details on my user i need help,Neutral,Neutral,True
+what do I need to do to check your accepted payment methods?,Neutral,Neutral,True
+I don't knowhow to cancel purchase {{Order Number}},Neutral,Neutral,True
+I don't know what to do to remove the premium account,Neutral,Neutral,True
+Can I get more information about this product?,Neutral,Neutral,True
+I am trying to see your accepted payment methods,Neutral,Neutral,True
+can ya help me to change to the gold account,Neutral,Neutral,True
+could I check at what time I can call customer service?,Neutral,Neutral,True
+edit details on {{Account Category}} account,Neutral,Neutral,True
+see purchase {{Order Number}} status,Neutral,Neutral,True
+I want help canceling the {{Account Type}} account,Neutral,Neutral,True
+wanna order a few of ur article,Neutral,Neutral,True
+How do I renew a library book? I need more information.,Neutral,Neutral,True
+there is a problem setting up my delivery address,Negative,Negative,True
+where do I buy something?,Neutral,Neutral,True
+help seeing in what cases can i request refunds,Negative,Negative,True
+I do not know how I candownload my bill #37777,Negative,Negative,True
+"I can't open an account, where do I report a signup issue?",Negative,Negative,True
+can you help me receive your corporate newsletter?,Neutral,Neutral,True
+can ya tell me about signing up to ur newsletter,Neutral,Neutral,True
+I expect a rebate of {{Currency Symbol}}{{Refund Amount}},Negative,Negative,True
+I try to switch to the {{Account Category}} account,Neutral,Neutral,True
+help to check what shipping options i have,Neutral,Neutral,True
+what do I need to do to restore my user account access key ?,Neutral,Neutral,True
+i need help to chat with an human agent,Neutral,Neutral,True
+help trying to modify the damn address,Neutral,Neutral,True
+i have issues modifying the address,Negative,Negative,True
+"I ain't registered, I want to create a pro account",Neutral,Neutral,True
+I awnt assistance to locate the bill #00108,Neutral,Neutral,True
+"For my business, how do I upgrade our business plan?",Neutral,Neutral,True
+want assistance retrieving the password of my user,Neutral,Neutral,True
+is there an e-mail to submit feedback for your company?,Neutral,Neutral,True
+"the payment failed, how to report an error with payment?",Negative,Negative,True
+where to check the restitution status?,Neutral,Neutral,True
+"I ain't registered, how to open a standard account with you?",Neutral,Neutral,True
+help me reporting an issue wigh online payment,Negative,Negative,True
+assistance to see thd early termination fee,Neutral,Neutral,True
+I can't notify of errors with a signup,Negative,Negative,True
+assistance to leave some feedback about a service,Neutral,Neutral,True
+i have got to see how soon can i expect my delivery,Neutral,Neutral,True
+I try to notify of issues with registrations,Negative,Negative,True
+Where can I find upcoming placement drives? Please help me.,Neutral,Neutral,True
+Is attendance compulsory for this subject?,Neutral,Neutral,True
+I don't know what I need to do to chat with an operator,Neutral,Neutral,True
+seeing reimbursement status,Neutral,Neutral,True
+How can I download my marks card?,Neutral,Neutral,True
+can you help me leave an opinion foor a product?,Neutral,Neutral,True
+modify {{Account Category}} account,Neutral,Neutral,True
+"I want to earn some goddamn items, I need assistance",Neutral,Neutral,True
+is it possible to receive reimbursements?,Neutral,Neutral,True
+i have to se ur available payment methods could ya help me,Neutral,Neutral,True
+I have problems entering a different shipping address,Negative,Negative,True
+can i call customer assistance,Neutral,Neutral,True
+I have problems with cancelling purchase {{Order Number}},Negative,Negative,True
+I have to see the current status of my reimbursement,Neutral,Neutral,True
+need assistance to find my fucking bill from {{Person Name}},Neutral,Neutral,True
+"I have paid {{Currency Symbol}}{{Refund Amount}} for a purchase, I want to get a refund",Negative,Negative,True
+help to check what methods for delivery i have,Neutral,Neutral,True
+I don't know how to inform of problems with a signup,Negative,Negative,True
+need help seeing in what cases can I ask for a refund,Negative,Negative,True
+Can I change the delivery address? Please help.,Neutral,Neutral,True
+I'm tryng to get the bill #00108,Neutral,Neutral,True
+help me to reset my profile pwd,Neutral,Neutral,True
+how to see the cancellation penalty,Neutral,Neutral,True
+tracking order {{Order Number}},Neutral,Neutral,True
+I need hepl to report an error with online payment,Negative,Negative,True
+would it be possible to check the shipping methods?,Neutral,Neutral,True
+Can I cancel the business subscription? as soon as possible.,Neutral,Neutral,True
+i have to see the invoice #00108,Neutral,Neutral,True
+How can I check the status of my business order? as soon as possible.,Neutral,Neutral,True
+where can I make a consumer claim against your company?,Neutral,Neutral,True
+how to get bill #12588,Neutral,Neutral,True
+I'm trying to get th fucking invoices from {{Person Name}},Neutral,Neutral,True
+can i set the shipping address up,Neutral,Neutral,True
+problem with {{Account Category}} account cancellations,Negative,Negative,True
+What are the library opening hours? I need more information.,Neutral,Neutral,True
+i do not know how to check my refund current status,Negative,Negative,True
+updaing info on gold account,Neutral,Neutral,True
+"For my business, why has my invoice not been generated?",Negative,Negative,True
+where could I see what options for delivery I have?,Neutral,Neutral,True
+could I set up a delivery address?,Neutral,Neutral,True
+I need assistance editing my delivery address,Neutral,Neutral,True
+updating data on {{Account Type}} account,Neutral,Neutral,True
+where do I report an issue iwth sign-up?,Negative,Negative,True
+how could I report problems with payment?,Negative,Negative,True
+i dont know what to do to recover the pwd of my profile,Neutral,Neutral,True
+how to submit my feedback about your company?,Neutral,Neutral,True
+I'd like to get the bill from {{Person Name}} how to od it,Neutral,Neutral,True
+I don't know what I need to do to get the bill #85632,Neutral,Neutral,True
+I want assistance seeing your available payment modalities,Neutral,Neutral,True
+I want to check what hours I can contact customer support,Neutral,Neutral,True
+help me seeing in what cases can I request reimbursements,Neutral,Neutral,True
+"I paid {{Currency Symbol}}{{Refund Amount}} for an item, help me receive my money back",Negative,Negative,True
+problem with cancelling purchase {{Order Number}},Negative,Negative,True
+open new {{Account Type}} account for daughter,Neutral,Neutral,True
+I have problems with  an address correction,Negative,Negative,True
+how to see the withdrawal fee?,Neutral,Neutral,True
+what do i need to do to speak with an assistant,Neutral,Neutral,True
+there is a problem entering my secondary delivery address,Negative,Negative,True
+i want assistance to solve issues with payment,Negative,Negative,True
+could you help me reset the PIN of my user profile?,Neutral,Neutral,True
+can you help me chat with a human agent?,Neutral,Neutral,True
+is it possible to check invoice #37777,Neutral,Neutral,True
+i dont know how to check what methods for delivery are there,Neutral,Neutral,True
+have a question abut canceling purchase {{Order Number}},Neutral,Neutral,True
+can you help me to report a trouble with payments?,Neutral,Neutral,True
+i need assistance to locate the bills from {{Person Name}},Neutral,Neutral,True
+I am trying to speak with an operator,Neutral,Neutral,True
+help using the standard account,Neutral,Neutral,True
+what do i have to do to close the {{Account Type}} account,Neutral,Neutral,True
+i dont know how to report signup issues,Negative,Negative,True
+can you help me to check the methods for shipping?,Neutral,Neutral,True
+I need to know if there is anything new on the restitution,Neutral,Neutral,True
+"For my business, what payment methods do you accept for business customers?",Neutral,Neutral,True
+can i place an oeder from {{Delivery City}},Neutral,Neutral,True
+"For my business, i need to change an order I placed.",Neutral,Neutral,True
+I do not know what to do to speak with an live agent,Negative,Negative,True
+I don't know how I could see purchase {{Order Number}} status,Neutral,Neutral,True
+Can you help me? my fee payment has failed. What should I do?,Negative,Negative,True
+"I would like to make a bloody complaint, could you help me?",Negative,Negative,True
+help checking your accepted payment options,Neutral,Neutral,True
+will umail me the bills from {{Person Name}},Neutral,Neutral,True
+what do I have to do to cancel a premium account?,Neutral,Neutral,True
+show me in which situations  can i ask for refunds,Negative,Negative,True
+Can I return part of a business order? Please help.,Neutral,Neutral,True
+want assistance to see the shipping options,Neutral,Neutral,True
+i want assistance to locatr my bill #00108,Neutral,Neutral,True
+can you help me create a different bloody platinum account?,Neutral,Neutral,True
+is there a method to send some feedback for ur products,Neutral,Neutral,True
+i need assistance to set up the new delivery address,Neutral,Neutral,True
+I need help receiving refunds,Negative,Negative,True
+how to check the early termination penalty?,Neutral,Neutral,True
+want assistance opening a {{Account Category}} account for my dad,Neutral,Neutral,True
+checking invoice from 4 purchases ago,Neutral,Neutral,True
+I do not know how I could check the ETA of purchase {{Order Number}},Negative,Negative,True
+show me purchase {{Order Number}} statud,Neutral,Neutral,True
+I need help checking the biol #37777,Neutral,Neutral,True
+How do I update vendor information?,Neutral,Neutral,True
+i have got to locate purchase {{Order Number}} help me,Neutral,Neutral,True
+there is an issue trying to correct the address,Negative,Negative,True
+file complaint against your business,Negative,Negative,True
+need help to make a complaint against your organization,Negative,Negative,True
+I want help to see the fucking ETA of the order {{Order Number}},Neutral,Neutral,True
+I want to correct purchase {{Order Number}},Neutral,Neutral,True
+I want information about the removal of my {{Account Type}} account,Neutral,Neutral,True
+what do i have to do to get invoice #37777,Neutral,Neutral,True
+Can you help me? my grade is missing from the student portal.,Negative,Negative,True
+I cannot submit a secondary delivery address,Negative,Negative,True
+want help to write a comment about a product,Neutral,Neutral,True
+know if there is anything new on my restitution,Neutral,Neutral,True
+how to see what shipping options I have?,Neutral,Neutral,True
+how to change order {{Order Number}}?,Neutral,Neutral,True
+hoe can i check the withdrawal penalties,Neutral,Neutral,True
+"I have got to notify of registration problems, help me",Negative,Negative,True
+"I have to edit the address, I need assistance",Neutral,Neutral,True
+Can you help me? what is the minimum attendance required for my course?,Neutral,Neutral,True
+supports editnig my delivery address,Neutral,Neutral,True
+assistance to order some  of ur item,Neutral,Neutral,True
+I want help receiving the corporate newsletter,Neutral,Neutral,True
+need assistance submitting some feedback about ur company,Neutral,Neutral,True
+I need help to check purchase {{Order Number}} current status,Neutral,Neutral,True
+can you give me information about receiving your newsletter?,Neutral,Neutral,True
+can you help me to see your accepted payment modalities?,Neutral,Neutral,True
+where can I see the early termination charge?,Neutral,Neutral,True
+"I need to edit my goddamn user, could I get some help?",Neutral,Neutral,True
+I need to see purchase {{Order Number}} current status,Neutral,Neutral,True
+where to file a customer reclamation against your company ?,Neutral,Neutral,True
+what do I have to do to list the allowed payment methods?,Neutral,Neutral,True
+"I can no longer afford order {{Order Number}}, cancel it",Neutral,Neutral,True
+do you have a method to submit a comment for your company?,Neutral,Neutral,True
+I try to chat with an operator,Neutral,Neutral,True
+What are the library opening hours?,Neutral,Neutral,True
+need to modify my personal data can uhelp me,Neutral,Neutral,True
+how long till I obtain a refund of money?,Negative,Negative,True
+"I cannot make a payment, I need help notifying of errors",Negative,Negative,True
+how could i change to the {{Account Type}} account,Neutral,Neutral,True
+need assistance to obtain a refund of my money,Negative,Negative,True
+Can I change my elective after course registration?,Neutral,Neutral,True
+"For my business, the payment was deducted but the order is still unpaid.",Neutral,Neutral,True
+where do I reset my user account key?,Neutral,Neutral,True
+i have got to buy several articles,Neutral,Neutral,True
+What features are included in the business subscription? I need assistance.,Neutral,Neutral,True
+I have got to check if there are any news on the restitution,Neutral,Neutral,True
+trouble modifying delivery address,Neutral,Neutral,True
+need assistance to make a consumer claim against ur business,Neutral,Neutral,True
+i dont khow what i need to do to change to the gold account,Neutral,Neutral,True
+I need to retrieve the pass of my user account,Neutral,Neutral,True
+update standard account,Neutral,Neutral,True
+show me ur reimbursement policy,Neutral,Neutral,True
+do you have a way to submit a review for your services ?,Neutral,Neutral,True
+how can i notify of errors with a sign-up,Negative,Negative,True
+how can I purchase several of your article?,Neutral,Neutral,True
+watn assistance recovering my account pass,Neutral,Neutral,True
+see bill from {{Person Name}},Neutral,Neutral,True
+"I need to check what delivery options I have, help me",Neutral,Neutral,True
+where to report issues with online payments,Negative,Negative,True
+help me see your allowed payment modalities,Neutral,Neutral,True
+I want help to switch something of order {{Order Number}},Neutral,Neutral,True
+I need help with a business order. Please help.,Neutral,Neutral,True
+need assistance cancelinv purchase {{Order Number}},Neutral,Neutral,True
+what do i need to do to reportt registration errors,Negative,Negative,True
+I want help checking the restitution current status,Neutral,Neutral,True
+how do i sign up to thhe corporate newsletter,Neutral,Neutral,True
+"I cannot open an account, help to inform of signup issues",Negative,Negative,True
+Has the exam date for my subject changed?,Neutral,Neutral,True
+i cannot see if there is anything new on my refund,Negative,Negative,True
+What is the minimum attendance required for my course? Please help me.,Neutral,Neutral,True
+where can I see when my package is going to arrive?,Neutral,Neutral,True
+"For my business, how can I pay for my business order?",Neutral,Neutral,True
+I do not know how I can restore the apss of my user profile,Negative,Negative,True
+help me see under what circumstances can I request a refund,Negative,Negative,True
+I have to check in which cases can I ask to be reimbursed,Neutral,Neutral,True
+"I need to see how soon can I expect the order, help me",Neutral,Neutral,True
+I have got to inform of an issue with online payments,Negative,Negative,True
+wanna know more about the shipping periods,Neutral,Neutral,True
+"I have got to change to the freemium account, help me",Neutral,Neutral,True
+I want assistance doing a purchase,Neutral,Neutral,True
+"I cannot find the termination penalty, can I get some help?",Negative,Negative,True
+Why has my invoice not been generated? Please help.,Negative,Negative,True
+i have to inform of a payment issue,Negative,Negative,True
+Can you help me? there is an error in my academic record.,Negative,Negative,True
+I need to change an order I placed. I need assistance.,Neutral,Neutral,True
+question about canceling a bloody purchase,Neutral,Neutral,True
+help me seeing purchase {{Order Number}} status,Neutral,Neutral,True
+how to use the standard profile,Neutral,Neutral,True
+"I paid {{Currency Symbol}}{{Refund Amount}} for these articles, I have to obtain a rebate",Negative,Negative,True
+where can I see if there is anything new on the restitution?,Neutral,Neutral,True
+could you tell me more about opening platinum accounts?,Neutral,Neutral,True
+I don't know what todo to purchase something,Neutral,Neutral,True
+add article to order {{Order Number}},Neutral,Neutral,True
+creating new {{Account Type}} account,Neutral,Neutral,True
+how do I acquire some articles?,Neutral,Neutral,True
+I want assistance to see the payment methods,Neutral,Neutral,True
+I am trying to check the accepted payment modalities,Neutral,Neutral,True
+What is your return policy?,Neutral,Neutral,True
+help checking the status of purchase {{Order Number}},Neutral,Neutral,True
+I want to check when my item is going to arrive,Neutral,Neutral,True
+I cannot receive the fucking newsletter,Negative,Negative,True
+where to know if there is anything new on the rebate,Neutral,Neutral,True
+"I have to see the ETA of the order {{Order Number}}, how to do it?",Neutral,Neutral,True
+can ya help me to request a refund of my money,Negative,Negative,True
+open a gold account,Neutral,Neutral,True
+is there a way to submit a comment for your services?,Neutral,Neutral,True
+Can I edit my exam registration after submitting it? Please help me.,Neutral,Neutral,True
+i want help notifying of a problem with online payments,Negative,Negative,True
+"I cannot find my invoice #12588, will you mail it to me?",Negative,Negative,True
+can I check what hours customer service available is?,Neutral,Neutral,True
+could you help me enter the secondary delivery address?,Neutral,Neutral,True
+"I have to list your allowed payment options, how do I do it?",Neutral,Neutral,True
+i need help with cancelling order {{Order Number}},Neutral,Neutral,True
+how could I get in touch with customer support?,Neutral,Neutral,True
+Is this product available in bulk quantities? Please help.,Neutral,Neutral,True
+where can i get information about opening pro accounts,Neutral,Neutral,True
+"I have to list the payment options, I need assistance",Neutral,Neutral,True
+i missed several items in purchase {{Order Number}},Neutral,Neutral,True
+i want help talkingh to a live agent,Neutral,Neutral,True
+create {{Account Category}} accountfor wife,Neutral,Neutral,True
+how could I edit my goddamn account?,Neutral,Neutral,True
+"I have to check the status of my compensation, I need help",Neutral,Neutral,True
+need assistance to cancel order {{Order Number}},Neutral,Neutral,True
+i do not know what to do to rerquest a compensation of money,Negative,Negative,True
+I have got to subscribe to the fucking newsletter,Neutral,Neutral,True
+I don't know what I need to do to get the bill #12588,Neutral,Neutral,True
+can ya tell me about an address correction,Neutral,Neutral,True
+I would like to change to the goddamn {{Account Type}} account,Neutral,Neutral,True
+My delivery is delayed.,Negative,Negative,True
+I can't remove some articles from purchase {{Order Number}},Negative,Neutral,False
+I do not know how to submit some feedback,Negative,Negative,True
+i do not know how to file a customer complaint,Negative,Negative,True
+help me contact customer assistance,Neutral,Neutral,True
+When is the deadline for paying my fees? I need more information.,Neutral,Neutral,True
+updateorder {{Order Number}},Neutral,Neutral,True
+wanna edit the data included on my user profile can uhelp me,Neutral,Neutral,True
+help making a consumer claim against your organization,Neutral,Neutral,True
+i want assistance to speak to an agentt,Neutral,Neutral,True
+can uhelp me changing to the standard account,Neutral,Neutral,True
+how do I get compensations?,Neutral,Neutral,True
+I try to modify my address,Neutral,Neutral,True
+I lost the student ID card. What should I do?,Neutral,Negative,False
+I lost my student ID card. What should I do? Please help me.,Neutral,Negative,False
+Can you help me? i lost my student ID card. What should I do?,Neutral,Negative,False
+How can I add another employee to the account?,Neutral,Negative,False
+How can I add another employee to the account? Please help.,Neutral,Negative,False
+How can I add another employee to the account? as soon as possible.,Neutral,Negative,False
+"For my business, how can I add another employee to the account?",Neutral,Negative,False
+"Thanks, received the updated shipping tracking link.",Positive,Positive,True
+"Appreciate the assistance with my course registration, thank you.",Positive,Positive,True
+Thanks for clarifying the bulk discount policy so clearly.,Positive,Positive,True
+"Very grateful for the swift assistance, thank you.",Positive,Positive,True
+"Thanks for following up on our ticket, much appreciated.",Positive,Positive,True
+"Got the receipt now, thanks for emailing it over.",Positive,Positive,True
+Thank you for helping me find the scholarship forms.,Positive,Positive,True
+Appreciate the quick fix on our company subscription.,Positive,Positive,True
+Thanks a bunch for sorting out the return label.,Positive,Positive,True
+"Received the SMS notification, thanks for updating my phone number.",Positive,Positive,True
+Thanks for verifying my student ID details so promptly.,Positive,Positive,True
+"Appreciate the smooth assistance from start to finish, thank you.",Positive,Positive,True
+Huge weight off my shoulders knowing the exam hall ticket is approved.,Positive,Neutral,False
+"Oh thank goodness, thought I'd have to wait weeks for that replacement card.",Positive,Positive,True
+Very glad the vendor delivery was rescheduled without extra fees.,Positive,Positive,True
+"What a relief, my semester tuition receipt is now reflected in the portal.",Positive,Neutral,False
+So relieved the accidental purchase was canceled before processing.,Positive,Positive,True
+Pleased that the bulk order arrived right before our weekend event.,Positive,Positive,True
+Happy to report the portal glitch didn't erase my assignment submission.,Positive,Negative,False
+"That saves our accounting department hours of reconciliation, thank you!",Positive,Positive,True
+Glad we got this resolved before the enrollment window closed.,Positive,Positive,True
+"Extremely satisfied with the resolution, thought I lost the discount.",Positive,Positive,True
+Relieved that my company tax ID was verified so smoothly.,Positive,Positive,True
+Such a relief that my placement interview slot was preserved.,Positive,Positive,True
+Delighted that the damaged goods were replaced without any hassle.,Positive,Positive,True
+"The new access credentials worked seamlessly, logged in successfully now.",Positive,Neutral,False
+"Item arrived in pristine condition this afternoon, thank you.",Positive,Positive,True
+"The double billing has been credited back to my account, thank you.",Positive,Positive,True
+"I can now see all registered subjects on my dashboard, issue fixed.",Positive,Negative,False
+The commercial invoice now shows the right company name and address.,Positive,Neutral,False
+"Everything is working as expected after restarting the portal, thanks.",Positive,Positive,True
+"Delivery boy just handed over the package, everything inside is intact.",Positive,Neutral,False
+"The scholarship amount has been disbursed into my college account, thank you.",Positive,Positive,True
+"Vendor confirmed the shipment details after your intervention, problem solved.",Positive,Positive,True
+"Successfully downloaded the official transcript copy, thank you!",Positive,Positive,True
+"The faulty cable was swapped for a new one without questions, very pleased.",Positive,Positive,True
+"Our multi-user access permissions are now working properly, thanks.",Positive,Positive,True
+"The return was picked up this morning and receipt acknowledged, all good.",Positive,Positive,True
+Hands down the best customer service interaction I've had all year.,Positive,Neutral,False
+"The support specialist was extraordinarily courteous, patient, and knowledgeable.",Positive,Positive,True
+"Incredible turnaround time on this urgent order revision, thank you!",Positive,Positive,True
+"Really appreciate the clear step-by-step guidance, made it foolproof.",Positive,Positive,True
+Your prompt attention to our supplier dispute saved our production run.,Positive,Positive,True
+Kudos to the university helpdesk team for handling peak registration so smoothly.,Positive,Positive,True
+The chat support agent went above and beyond to find my tracking number.,Positive,Neutral,False
+"Impressive customer care, quick, polite, and completely resolved my issue.",Positive,Positive,True
+Great professionalism shown in resolving our enterprise billing concern.,Positive,Positive,True
+The campus IT department resolved the Wi-Fi authentication bug very promptly.,Positive,Positive,True
+"Top-tier service, the agent even followed up to ensure the delivery arrived.",Positive,Neutral,False
+"Remarkable speed in addressing my refund request, five-star support!",Positive,Negative,False
+"You're a legend, thanks so much for fixing that!",Positive,Positive,True
+"Worked like a dream, appreciate the help!",Positive,Positive,True
+"Bingo, that solved the whole issue right there.",Positive,Positive,True
+"Cheers, that was way easier than I anticipated!",Positive,Positive,True
+"Boom, portal let me right in, thank you!",Positive,Positive,True
+"You saved the day with that quick tracking lookup, cheers!",Positive,Positive,True
+"All sorted on my end now, thanks a million!",Positive,Positive,True
+"Smooth sailing from here, thanks for steering me in the right direction.",Positive,Positive,True
+"Cannot thank you enough, you really went the extra mile!",Positive,Positive,True
+"Worked immediately on the first try, thanks buddy!",Positive,Positive,True
+"Huge shoutout to the support team, you guys nailed it!",Positive,Positive,True
+"That's the ticket, everything looks spot on now!",Positive,Neutral,False

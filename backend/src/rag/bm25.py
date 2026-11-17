@@ -15,13 +15,21 @@ from typing import Any, Dict, List, Optional
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[2]
-CHUNKS_PATH = ROOT / "data" / "processed" / "rag" / "chunks.csv"
+_cand_chunks = [
+    Path(__file__).resolve().parents[3] / "datasets" / "processed" / "rag" / "chunks.csv",
+    ROOT / "datasets" / "processed" / "rag" / "chunks.csv",
+    Path(__file__).resolve().parents[3] / "data" / "processed" / "rag" / "chunks.csv",
+    ROOT / "data" / "processed" / "rag" / "chunks.csv",
+    Path("datasets/processed/rag/chunks.csv"),
+    Path("data/processed/rag/chunks.csv"),
+]
+CHUNKS_PATH = next((c for c in _cand_chunks if c.exists()), _cand_chunks[0])
 
 
 class BM25OkapiIndex:
     """
     BM25Okapi retrieval engine for knowledge-base chunks.
-
+    
     Formula:
         IDF(q) = ln((N - n(q) + 0.5) / (n(q) + 0.5) + 1.0)
         TF_comp = (f(q, D) * (k1 + 1)) / (f(q, D) + k1 * (1 - b + b * (|D| / avgdl)))
@@ -109,7 +117,7 @@ class BM25OkapiIndex:
     ) -> List[Dict[str, Any]]:
         """
         Score all chunks against query and return top_k matches.
-
+        
         Args:
             query: User search query string.
             domain: Optional domain filter (e.g. 'E-commerce').

@@ -1,0 +1,22 @@
+Metric,Value
+Core cases,3339
+Unique Case IDs,3339
+Unique queries,3339
+Domains,3
+Intents,47
+Risk levels,3
+Complexity levels,3
+Escalation classes,2
+RAG documents,46
+Customers,1000
+Orders,1500
+Transactions,1803
+Support tickets,1000
+Students,500
+Business records,500
+Memory records,1500
+Critical safety cases,180
+Train cases,5640
+Validation cases,501
+Test cases,501
+Human review cases,501

@@ -1,4 +1,9 @@
 
+import os
+os.environ.setdefault("HF_HUB_OFFLINE", "1")
+os.environ.setdefault("TRANSFORMERS_OFFLINE", "1")
+os.environ.setdefault("ANONYMIZED_TELEMETRY", "False")
+
 from pathlib import Path
 
 import chromadb
@@ -6,7 +11,14 @@ from sentence_transformers import SentenceTransformer
 
 
 ROOT = Path(__file__).resolve().parents[2]
-VECTOR_DIR = ROOT / "vector_store" / "rag_chroma"
+_cand_vector = [
+    ROOT / "vector_store" / "rag_chroma",
+    Path(__file__).resolve().parents[3] / "backend" / "vector_store" / "rag_chroma",
+    Path(__file__).resolve().parents[3] / "vector_store" / "rag_chroma",
+    Path("backend/vector_store/rag_chroma"),
+    Path("vector_store/rag_chroma"),
+]
+VECTOR_DIR = next((c for c in _cand_vector if c.exists()), _cand_vector[0])
 COLLECTION_NAME = "capstone_knowledge_v1"
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 

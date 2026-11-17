@@ -1,0 +1,99 @@
+{
+  "timestamp": "2026-10-13T01:25:00Z",
+  "splits": {
+    "train": {
+      "rows": 2518,
+      "distribution": {
+        "Neutral": 1760,
+        "Negative": 568,
+        "Positive": 190
+      },
+      "domain_distribution": {
+        "E-commerce": 2068,
+        "Small Business": 237,
+        "Education": 213
+      },
+      "provenance": {
+        "PUBLIC_SOURCE": 1998,
+        "SYNTHETIC": 520
+      },
+      "synthetic_percentage": 20.65
+    },
+    "validation": {
+      "rows": 563,
+      "distribution": {
+        "Neutral": 381,
+        "Negative": 120,
+        "Positive": 62
+      },
+      "domain_distribution": {
+        "E-commerce": 452,
+        "Small Business": 57,
+        "Education": 54
+      },
+      "provenance": {
+        "PUBLIC_SOURCE": 430,
+        "SYNTHETIC": 133
+      },
+      "synthetic_percentage": 23.62
+    },
+    "test": {
+      "rows": 563,
+      "distribution": {
+        "Neutral": 385,
+        "Negative": 116,
+        "Positive": 62
+      },
+      "domain_distribution": {
+        "E-commerce": 455,
+        "Small Business": 56,
+        "Education": 52
+      },
+      "provenance": {
+        "PUBLIC_SOURCE": 433,
+        "SYNTHETIC": 130
+      },
+      "synthetic_percentage": 23.09
+    }
+  },
+  "disjointness_assertions": {
+    "case_id_overlap": {
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0,
+      "status": "PASS"
+    },
+    "exact_query_overlap": {
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0,
+      "status": "PASS"
+    },
+    "normalized_query_overlap": {
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0,
+      "status": "PASS"
+    },
+    "super_normalized_query_overlap": {
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0,
+      "status": "PASS"
+    },
+    "template_family_isolation": {
+      "train_batch": "POS_FAM_TRAIN",
+      "val_batch": "POS_FAM_VAL",
+      "test_batch": "POS_FAM_TEST",
+      "status": "PASS (100% disjoint batches)"
+    }
+  },
+  "reconciliation_summary": {
+    "duplicates_reconciled": 59,
+    "suspicious_labels_corrected": 9,
+    "quarantined_records": 144,
+    "synthetic_positives_added_train": 190,
+    "synthetic_positives_added_val": 62,
+    "synthetic_positives_added_test": 62
+  }
+}

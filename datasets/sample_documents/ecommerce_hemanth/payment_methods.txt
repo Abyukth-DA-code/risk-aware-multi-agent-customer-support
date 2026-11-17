@@ -1,0 +1,23 @@
+Hemanth Online E-Commerce Store - Official Payment Methods and Billing Policy
+
+1. Authorized Payment Gateways and Methods:
+Hemanth Online Store supports secure, PCI-DSS Level 1 compliant checkout processing. We accept the following trusted payment methods:
+- Major Credit & Debit Cards: Visa, MasterCard, American Express, Discover, JCB, and RuPay.
+- Digital Wallets & Mobile Pay: Apple Pay, Google Pay, PayPal, and Samsung Pay.
+- Direct Net Banking & UPI: Supported across top 50 national banks and verified UPI IDs (@okhdfc, @okaxis, @ybl).
+- Buy Now Pay Later (BNPL): Flexible installment financing via Klarna, Afterpay, and Affirm on eligible baskets.
+
+2. Currency and Tax Invoicing:
+All catalog prices are listed in United States Dollars (USD) or Indian Rupees (INR) based on your selected regional currency localization. Mandatory state and municipal sales taxes, value-added taxes (VAT), or Goods and Services Tax (GST) are calculated dynamically at checkout based on the final destination delivery address. A formal tax invoice in PDF format is generated and emailed immediately following order confirmation.
+
+3. Payment Security and Encryption:
+All cardholder data is tokenized using 256-bit AES end-to-end SSL encryption. Hemanth Online Store never stores, views, or records raw CVV security codes or full 16-digit credit card account numbers on our local web servers or operational databases.
+
+4. Failed Charges and Billing Errors:
+If your transaction fails at checkout:
+- Verify that your billing street address matches the address registered with your card issuing bank.
+- Ensure your card has active international e-commerce permissions enabled.
+- If you notice a pending authorization charge on your bank statement for an uncompleted checkout attempt, your bank will release the authorization hold automatically within 2 to 5 business days.
+
+5. Dispute Resolution and Unauthorized Charges:
+If you suspect an unauthorized transaction has occurred on your card, please reach out directly to our Security and Accounts team at billing@hemanthstore.com before submitting a bank chargeback, as our team can rapidly locate and reverse accidental duplicate orders.

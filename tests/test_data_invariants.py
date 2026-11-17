@@ -8,7 +8,8 @@ from pathlib import Path
 import pandas as pd
 import pytest
 
-DATA_DIR = Path(__file__).resolve().parents[1] / "data" / "processed"
+_cand_data = Path(__file__).resolve().parents[1] / "datasets" / "processed"
+DATA_DIR = _cand_data if _cand_data.exists() else (Path(__file__).resolve().parents[1] / "data" / "processed")
 
 
 def test_final_master_gold_invariants():

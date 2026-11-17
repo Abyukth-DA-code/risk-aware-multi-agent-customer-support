@@ -491,3 +491,4 @@ class EscalationPredictionResponse(BasePredictionResponse):
         default="Class probability derived from DecisionTreeClassifier leaf sample distributions.",
         description="Score calibration note",
     )
+

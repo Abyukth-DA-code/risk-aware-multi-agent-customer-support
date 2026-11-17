@@ -1,0 +1,501 @@
+Business_Record_ID,Customer_ID,Record_Type,Reference_ID,Amount_INR,Record_Status,Approval_Status,Dataset_Version,Domain,Data_Origin
+BUS0001,CUST0003,Invoice,REF00001,100000,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0002,CUST0006,Payment,REF00002,8500,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0003,CUST0009,Invoice,REF00003,25000,Needs Review,Not Required,V4,Small Business,SYNTHETIC
+BUS0004,CUST0012,Vendor,REF00004,5000,Pending,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0005,CUST0015,Inventory,REF00005,25000,Open,Not Required,V4,Small Business,SYNTHETIC
+BUS0006,CUST0018,Invoice,REF00006,1500,Pending,Not Required,V4,Small Business,SYNTHETIC
+BUS0007,CUST0021,Expense,REF00007,25000,Open,Not Required,V4,Small Business,SYNTHETIC
+BUS0008,CUST0024,Inventory,REF00008,100000,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0009,CUST0027,Payment,REF00009,1500,Pending,Not Required,V4,Small Business,SYNTHETIC
+BUS0010,CUST0030,Expense,REF00010,12000,Pending,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0011,CUST0033,Vendor,REF00011,12000,Pending,Approved,V4,Small Business,SYNTHETIC
+BUS0012,CUST0036,Payment,REF00012,5000,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0013,CUST0039,Payment,REF00013,8500,Needs Review,Not Required,V4,Small Business,SYNTHETIC
+BUS0014,CUST0042,Invoice,REF00014,1500,Pending,Not Required,V4,Small Business,SYNTHETIC
+BUS0015,CUST0045,Invoice,REF00015,100000,Pending,Approved,V4,Small Business,SYNTHETIC
+BUS0016,CUST0048,Expense,REF00016,8500,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0017,CUST0051,Vendor,REF00017,100000,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0018,CUST0054,Invoice,REF00018,8500,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0019,CUST0057,Vendor,REF00019,8500,Pending,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0020,CUST0060,Invoice,REF00020,5000,Needs Review,Not Required,V4,Small Business,SYNTHETIC
+BUS0021,CUST0063,Expense,REF00021,12000,Pending,Not Required,V4,Small Business,SYNTHETIC
+BUS0022,CUST0066,Payment,REF00022,5000,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0023,CUST0069,Vendor,REF00023,12000,Needs Review,Not Required,V4,Small Business,SYNTHETIC
+BUS0024,CUST0072,Inventory,REF00024,8500,Pending,Not Required,V4,Small Business,SYNTHETIC
+BUS0025,CUST0075,Expense,REF00025,100000,Open,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0026,CUST0078,Vendor,REF00026,12000,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0027,CUST0081,Expense,REF00027,1500,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0028,CUST0084,Inventory,REF00028,12000,Pending,Approved,V4,Small Business,SYNTHETIC
+BUS0029,CUST0087,Expense,REF00029,100000,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0030,CUST0090,Payment,REF00030,1500,Pending,Not Required,V4,Small Business,SYNTHETIC
+BUS0031,CUST0093,Expense,REF00031,1500,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0032,CUST0096,Payment,REF00032,1500,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0033,CUST0099,Invoice,REF00033,8500,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0034,CUST0102,Expense,REF00034,25000,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0035,CUST0105,Invoice,REF00035,5000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0036,CUST0108,Inventory,REF00036,8500,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0037,CUST0111,Invoice,REF00037,100000,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0038,CUST0114,Inventory,REF00038,100000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0039,CUST0117,Vendor,REF00039,100000,Pending,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0040,CUST0120,Expense,REF00040,50000,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0041,CUST0123,Invoice,REF00041,5000,Needs Review,Not Required,V4,Small Business,SYNTHETIC
+BUS0042,CUST0126,Inventory,REF00042,8500,Approved,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0043,CUST0129,Vendor,REF00043,12000,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0044,CUST0132,Payment,REF00044,25000,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0045,CUST0135,Invoice,REF00045,12000,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0046,CUST0138,Inventory,REF00046,5000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0047,CUST0141,Expense,REF00047,50000,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0048,CUST0144,Expense,REF00048,1500,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0049,CUST0147,Payment,REF00049,50000,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0050,CUST0150,Expense,REF00050,12000,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0051,CUST0153,Vendor,REF00051,5000,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0052,CUST0156,Expense,REF00052,50000,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0053,CUST0159,Vendor,REF00053,1500,Approved,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0054,CUST0162,Invoice,REF00054,100000,Pending,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0055,CUST0165,Vendor,REF00055,12000,Needs Review,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0056,CUST0168,Payment,REF00056,5000,Open,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0057,CUST0171,Inventory,REF00057,100000,Pending,Not Required,V4,Small Business,SYNTHETIC
+BUS0058,CUST0174,Inventory,REF00058,1500,Pending,Not Required,V4,Small Business,SYNTHETIC
+BUS0059,CUST0177,Vendor,REF00059,100000,Needs Review,Not Required,V4,Small Business,SYNTHETIC
+BUS0060,CUST0180,Expense,REF00060,5000,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0061,CUST0183,Invoice,REF00061,8500,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0062,CUST0186,Expense,REF00062,8500,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0063,CUST0189,Payment,REF00063,50000,Pending,Approved,V4,Small Business,SYNTHETIC
+BUS0064,CUST0192,Expense,REF00064,1500,Approved,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0065,CUST0195,Vendor,REF00065,12000,Approved,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0066,CUST0198,Inventory,REF00066,8500,Pending,Not Required,V4,Small Business,SYNTHETIC
+BUS0067,CUST0201,Expense,REF00067,100000,Open,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0068,CUST0204,Invoice,REF00068,5000,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0069,CUST0207,Payment,REF00069,100000,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0070,CUST0210,Payment,REF00070,100000,Approved,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0071,CUST0213,Payment,REF00071,12000,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0072,CUST0216,Invoice,REF00072,50000,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0073,CUST0219,Payment,REF00073,12000,Open,Not Required,V4,Small Business,SYNTHETIC
+BUS0074,CUST0222,Invoice,REF00074,100000,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0075,CUST0225,Expense,REF00075,12000,Needs Review,Not Required,V4,Small Business,SYNTHETIC
+BUS0076,CUST0228,Expense,REF00076,1500,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0077,CUST0231,Invoice,REF00077,100000,Pending,Not Required,V4,Small Business,SYNTHETIC
+BUS0078,CUST0234,Vendor,REF00078,25000,Pending,Not Required,V4,Small Business,SYNTHETIC
+BUS0079,CUST0237,Inventory,REF00079,8500,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0080,CUST0240,Vendor,REF00080,25000,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0081,CUST0243,Inventory,REF00081,5000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0082,CUST0246,Vendor,REF00082,1500,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0083,CUST0249,Payment,REF00083,5000,Open,Not Required,V4,Small Business,SYNTHETIC
+BUS0084,CUST0252,Expense,REF00084,25000,Needs Review,Not Required,V4,Small Business,SYNTHETIC
+BUS0085,CUST0255,Invoice,REF00085,8500,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0086,CUST0258,Expense,REF00086,8500,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0087,CUST0261,Invoice,REF00087,12000,Needs Review,Not Required,V4,Small Business,SYNTHETIC
+BUS0088,CUST0264,Invoice,REF00088,12000,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0089,CUST0267,Payment,REF00089,100000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0090,CUST0270,Payment,REF00090,12000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0091,CUST0273,Invoice,REF00091,1500,Pending,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0092,CUST0276,Payment,REF00092,5000,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0093,CUST0279,Expense,REF00093,5000,Pending,Approved,V4,Small Business,SYNTHETIC
+BUS0094,CUST0282,Expense,REF00094,25000,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0095,CUST0285,Expense,REF00095,5000,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0096,CUST0288,Expense,REF00096,12000,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0097,CUST0291,Invoice,REF00097,25000,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0098,CUST0294,Invoice,REF00098,50000,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0099,CUST0297,Inventory,REF00099,1500,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0100,CUST0300,Vendor,REF00100,50000,Needs Review,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0101,CUST0303,Inventory,REF00101,1500,Needs Review,Not Required,V4,Small Business,SYNTHETIC
+BUS0102,CUST0306,Vendor,REF00102,5000,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0103,CUST0309,Payment,REF00103,100000,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0104,CUST0312,Vendor,REF00104,100000,Open,Not Required,V4,Small Business,SYNTHETIC
+BUS0105,CUST0315,Vendor,REF00105,1500,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0106,CUST0318,Inventory,REF00106,50000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0107,CUST0321,Vendor,REF00107,100000,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0108,CUST0324,Payment,REF00108,100000,Approved,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0109,CUST0327,Expense,REF00109,12000,Approved,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0110,CUST0330,Inventory,REF00110,100000,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0111,CUST0333,Payment,REF00111,25000,Pending,Approved,V4,Small Business,SYNTHETIC
+BUS0112,CUST0336,Payment,REF00112,25000,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0113,CUST0339,Vendor,REF00113,50000,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0114,CUST0342,Invoice,REF00114,12000,Open,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0115,CUST0345,Vendor,REF00115,12000,Pending,Not Required,V4,Small Business,SYNTHETIC
+BUS0116,CUST0348,Expense,REF00116,50000,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0117,CUST0351,Expense,REF00117,100000,Open,Not Required,V4,Small Business,SYNTHETIC
+BUS0118,CUST0354,Invoice,REF00118,25000,Open,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0119,CUST0357,Invoice,REF00119,25000,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0120,CUST0360,Invoice,REF00120,5000,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0121,CUST0363,Inventory,REF00121,100000,Pending,Not Required,V4,Small Business,SYNTHETIC
+BUS0122,CUST0366,Vendor,REF00122,1500,Pending,Approved,V4,Small Business,SYNTHETIC
+BUS0123,CUST0369,Vendor,REF00123,25000,Open,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0124,CUST0372,Payment,REF00124,5000,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0125,CUST0375,Payment,REF00125,5000,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0126,CUST0378,Invoice,REF00126,5000,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0127,CUST0381,Invoice,REF00127,1500,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0128,CUST0384,Inventory,REF00128,8500,Open,Not Required,V4,Small Business,SYNTHETIC
+BUS0129,CUST0387,Vendor,REF00129,50000,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0130,CUST0390,Inventory,REF00130,8500,Open,Not Required,V4,Small Business,SYNTHETIC
+BUS0131,CUST0393,Expense,REF00131,25000,Needs Review,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0132,CUST0396,Vendor,REF00132,8500,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0133,CUST0399,Payment,REF00133,100000,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0134,CUST0402,Payment,REF00134,8500,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0135,CUST0405,Payment,REF00135,25000,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0136,CUST0408,Invoice,REF00136,100000,Needs Review,Not Required,V4,Small Business,SYNTHETIC
+BUS0137,CUST0411,Inventory,REF00137,25000,Needs Review,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0138,CUST0414,Payment,REF00138,1500,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0139,CUST0417,Inventory,REF00139,1500,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0140,CUST0420,Invoice,REF00140,12000,Pending,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0141,CUST0423,Expense,REF00141,8500,Needs Review,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0142,CUST0426,Vendor,REF00142,5000,Open,Not Required,V4,Small Business,SYNTHETIC
+BUS0143,CUST0429,Payment,REF00143,5000,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0144,CUST0432,Payment,REF00144,1500,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0145,CUST0435,Inventory,REF00145,25000,Pending,Approved,V4,Small Business,SYNTHETIC
+BUS0146,CUST0438,Payment,REF00146,1500,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0147,CUST0441,Payment,REF00147,25000,Pending,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0148,CUST0444,Invoice,REF00148,25000,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0149,CUST0447,Inventory,REF00149,25000,Open,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0150,CUST0450,Payment,REF00150,5000,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0151,CUST0453,Invoice,REF00151,50000,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0152,CUST0456,Expense,REF00152,8500,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0153,CUST0459,Expense,REF00153,5000,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0154,CUST0462,Expense,REF00154,8500,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0155,CUST0465,Vendor,REF00155,50000,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0156,CUST0468,Expense,REF00156,1500,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0157,CUST0471,Invoice,REF00157,25000,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0158,CUST0474,Expense,REF00158,100000,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0159,CUST0477,Invoice,REF00159,25000,Needs Review,Not Required,V4,Small Business,SYNTHETIC
+BUS0160,CUST0480,Vendor,REF00160,8500,Pending,Not Required,V4,Small Business,SYNTHETIC
+BUS0161,CUST0483,Inventory,REF00161,1500,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0162,CUST0486,Invoice,REF00162,1500,Pending,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0163,CUST0489,Payment,REF00163,100000,Pending,Approved,V4,Small Business,SYNTHETIC
+BUS0164,CUST0492,Invoice,REF00164,8500,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0165,CUST0495,Payment,REF00165,50000,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0166,CUST0498,Vendor,REF00166,50000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0167,CUST0501,Payment,REF00167,50000,Open,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0168,CUST0504,Expense,REF00168,12000,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0169,CUST0507,Payment,REF00169,8500,Approved,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0170,CUST0510,Payment,REF00170,8500,Pending,Not Required,V4,Small Business,SYNTHETIC
+BUS0171,CUST0513,Payment,REF00171,1500,Needs Review,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0172,CUST0516,Payment,REF00172,50000,Pending,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0173,CUST0519,Inventory,REF00173,50000,Needs Review,Not Required,V4,Small Business,SYNTHETIC
+BUS0174,CUST0522,Vendor,REF00174,5000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0175,CUST0525,Vendor,REF00175,12000,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0176,CUST0528,Expense,REF00176,12000,Approved,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0177,CUST0531,Payment,REF00177,5000,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0178,CUST0534,Vendor,REF00178,25000,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0179,CUST0537,Inventory,REF00179,1500,Pending,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0180,CUST0540,Invoice,REF00180,5000,Pending,Approved,V4,Small Business,SYNTHETIC
+BUS0181,CUST0543,Vendor,REF00181,50000,Pending,Approved,V4,Small Business,SYNTHETIC
+BUS0182,CUST0546,Inventory,REF00182,1500,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0183,CUST0549,Vendor,REF00183,100000,Pending,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0184,CUST0552,Vendor,REF00184,25000,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0185,CUST0555,Vendor,REF00185,5000,Pending,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0186,CUST0558,Expense,REF00186,50000,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0187,CUST0561,Expense,REF00187,100000,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0188,CUST0564,Vendor,REF00188,8500,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0189,CUST0567,Payment,REF00189,50000,Needs Review,Not Required,V4,Small Business,SYNTHETIC
+BUS0190,CUST0570,Inventory,REF00190,8500,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0191,CUST0573,Inventory,REF00191,50000,Pending,Not Required,V4,Small Business,SYNTHETIC
+BUS0192,CUST0576,Vendor,REF00192,12000,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0193,CUST0579,Payment,REF00193,5000,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0194,CUST0582,Invoice,REF00194,100000,Open,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0195,CUST0585,Payment,REF00195,8500,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0196,CUST0588,Inventory,REF00196,12000,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0197,CUST0591,Expense,REF00197,5000,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0198,CUST0594,Payment,REF00198,50000,Open,Not Required,V4,Small Business,SYNTHETIC
+BUS0199,CUST0597,Payment,REF00199,100000,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0200,CUST0600,Inventory,REF00200,1500,Pending,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0201,CUST0603,Vendor,REF00201,5000,Needs Review,Not Required,V4,Small Business,SYNTHETIC
+BUS0202,CUST0606,Invoice,REF00202,25000,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0203,CUST0609,Payment,REF00203,100000,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0204,CUST0612,Payment,REF00204,12000,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0205,CUST0615,Inventory,REF00205,100000,Pending,Not Required,V4,Small Business,SYNTHETIC
+BUS0206,CUST0618,Vendor,REF00206,8500,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0207,CUST0621,Payment,REF00207,1500,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0208,CUST0624,Invoice,REF00208,1500,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0209,CUST0627,Invoice,REF00209,1500,Open,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0210,CUST0630,Payment,REF00210,5000,Pending,Not Required,V4,Small Business,SYNTHETIC
+BUS0211,CUST0633,Vendor,REF00211,25000,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0212,CUST0636,Payment,REF00212,8500,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0213,CUST0639,Invoice,REF00213,25000,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0214,CUST0642,Invoice,REF00214,50000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0215,CUST0645,Invoice,REF00215,25000,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0216,CUST0648,Expense,REF00216,50000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0217,CUST0651,Expense,REF00217,8500,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0218,CUST0654,Expense,REF00218,100000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0219,CUST0657,Expense,REF00219,100000,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0220,CUST0660,Inventory,REF00220,5000,Needs Review,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0221,CUST0663,Inventory,REF00221,1500,Open,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0222,CUST0666,Inventory,REF00222,5000,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0223,CUST0669,Payment,REF00223,8500,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0224,CUST0672,Expense,REF00224,100000,Approved,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0225,CUST0675,Payment,REF00225,100000,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0226,CUST0678,Invoice,REF00226,5000,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0227,CUST0681,Invoice,REF00227,1500,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0228,CUST0684,Inventory,REF00228,50000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0229,CUST0687,Inventory,REF00229,5000,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0230,CUST0690,Invoice,REF00230,12000,Pending,Approved,V4,Small Business,SYNTHETIC
+BUS0231,CUST0693,Inventory,REF00231,1500,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0232,CUST0696,Payment,REF00232,12000,Approved,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0233,CUST0699,Expense,REF00233,25000,Pending,Approved,V4,Small Business,SYNTHETIC
+BUS0234,CUST0702,Expense,REF00234,100000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0235,CUST0705,Payment,REF00235,100000,Pending,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0236,CUST0708,Inventory,REF00236,5000,Needs Review,Not Required,V4,Small Business,SYNTHETIC
+BUS0237,CUST0711,Inventory,REF00237,12000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0238,CUST0714,Inventory,REF00238,100000,Pending,Not Required,V4,Small Business,SYNTHETIC
+BUS0239,CUST0717,Vendor,REF00239,25000,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0240,CUST0720,Invoice,REF00240,100000,Approved,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0241,CUST0723,Vendor,REF00241,25000,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0242,CUST0726,Inventory,REF00242,50000,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0243,CUST0729,Payment,REF00243,8500,Needs Review,Not Required,V4,Small Business,SYNTHETIC
+BUS0244,CUST0732,Expense,REF00244,8500,Pending,Approved,V4,Small Business,SYNTHETIC
+BUS0245,CUST0735,Invoice,REF00245,100000,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0246,CUST0738,Payment,REF00246,8500,Pending,Approved,V4,Small Business,SYNTHETIC
+BUS0247,CUST0741,Inventory,REF00247,100000,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0248,CUST0744,Expense,REF00248,25000,Pending,Approved,V4,Small Business,SYNTHETIC
+BUS0249,CUST0747,Vendor,REF00249,100000,Open,Not Required,V4,Small Business,SYNTHETIC
+BUS0250,CUST0750,Inventory,REF00250,100000,Pending,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0251,CUST0753,Inventory,REF00251,50000,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0252,CUST0756,Payment,REF00252,12000,Needs Review,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0253,CUST0759,Invoice,REF00253,8500,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0254,CUST0762,Payment,REF00254,25000,Approved,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0255,CUST0765,Inventory,REF00255,1500,Open,Not Required,V4,Small Business,SYNTHETIC
+BUS0256,CUST0768,Vendor,REF00256,8500,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0257,CUST0771,Inventory,REF00257,50000,Pending,Approved,V4,Small Business,SYNTHETIC
+BUS0258,CUST0774,Inventory,REF00258,5000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0259,CUST0777,Inventory,REF00259,5000,Pending,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0260,CUST0780,Vendor,REF00260,1500,Open,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0261,CUST0783,Payment,REF00261,12000,Needs Review,Not Required,V4,Small Business,SYNTHETIC
+BUS0262,CUST0786,Inventory,REF00262,50000,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0263,CUST0789,Inventory,REF00263,12000,Approved,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0264,CUST0792,Invoice,REF00264,8500,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0265,CUST0795,Vendor,REF00265,25000,Pending,Approved,V4,Small Business,SYNTHETIC
+BUS0266,CUST0798,Payment,REF00266,12000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0267,CUST0801,Expense,REF00267,1500,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0268,CUST0804,Inventory,REF00268,12000,Pending,Approved,V4,Small Business,SYNTHETIC
+BUS0269,CUST0807,Expense,REF00269,5000,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0270,CUST0810,Expense,REF00270,25000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0271,CUST0813,Inventory,REF00271,50000,Open,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0272,CUST0816,Inventory,REF00272,100000,Needs Review,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0273,CUST0819,Vendor,REF00273,25000,Open,Not Required,V4,Small Business,SYNTHETIC
+BUS0274,CUST0822,Payment,REF00274,12000,Approved,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0275,CUST0825,Payment,REF00275,25000,Open,Not Required,V4,Small Business,SYNTHETIC
+BUS0276,CUST0828,Vendor,REF00276,8500,Pending,Not Required,V4,Small Business,SYNTHETIC
+BUS0277,CUST0831,Expense,REF00277,50000,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0278,CUST0834,Invoice,REF00278,8500,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0279,CUST0837,Expense,REF00279,100000,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0280,CUST0840,Inventory,REF00280,1500,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0281,CUST0843,Payment,REF00281,12000,Pending,Approved,V4,Small Business,SYNTHETIC
+BUS0282,CUST0846,Vendor,REF00282,25000,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0283,CUST0849,Invoice,REF00283,12000,Approved,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0284,CUST0852,Expense,REF00284,50000,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0285,CUST0855,Expense,REF00285,12000,Open,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0286,CUST0858,Payment,REF00286,5000,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0287,CUST0861,Expense,REF00287,100000,Approved,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0288,CUST0864,Inventory,REF00288,100000,Open,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0289,CUST0867,Invoice,REF00289,100000,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0290,CUST0870,Vendor,REF00290,50000,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0291,CUST0873,Inventory,REF00291,5000,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0292,CUST0876,Vendor,REF00292,100000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0293,CUST0879,Expense,REF00293,100000,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0294,CUST0882,Expense,REF00294,5000,Pending,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0295,CUST0885,Payment,REF00295,50000,Needs Review,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0296,CUST0888,Vendor,REF00296,100000,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0297,CUST0891,Expense,REF00297,1500,Pending,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0298,CUST0894,Inventory,REF00298,100000,Open,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0299,CUST0897,Inventory,REF00299,25000,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0300,CUST0900,Invoice,REF00300,50000,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0301,CUST0903,Inventory,REF00301,50000,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0302,CUST0906,Invoice,REF00302,25000,Approved,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0303,CUST0909,Expense,REF00303,1500,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0304,CUST0912,Payment,REF00304,5000,Open,Not Required,V4,Small Business,SYNTHETIC
+BUS0305,CUST0915,Expense,REF00305,100000,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0306,CUST0918,Invoice,REF00306,12000,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0307,CUST0921,Vendor,REF00307,5000,Needs Review,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0308,CUST0924,Invoice,REF00308,50000,Needs Review,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0309,CUST0927,Payment,REF00309,12000,Open,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0310,CUST0930,Payment,REF00310,12000,Pending,Not Required,V4,Small Business,SYNTHETIC
+BUS0311,CUST0933,Payment,REF00311,12000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0312,CUST0936,Invoice,REF00312,25000,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0313,CUST0939,Vendor,REF00313,8500,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0314,CUST0942,Vendor,REF00314,8500,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0315,CUST0945,Payment,REF00315,50000,Needs Review,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0316,CUST0948,Payment,REF00316,1500,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0317,CUST0951,Inventory,REF00317,50000,Needs Review,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0318,CUST0954,Invoice,REF00318,1500,Pending,Approved,V4,Small Business,SYNTHETIC
+BUS0319,CUST0957,Vendor,REF00319,25000,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0320,CUST0960,Invoice,REF00320,12000,Needs Review,Not Required,V4,Small Business,SYNTHETIC
+BUS0321,CUST0963,Invoice,REF00321,25000,Pending,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0322,CUST0966,Expense,REF00322,5000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0323,CUST0969,Inventory,REF00323,25000,Needs Review,Not Required,V4,Small Business,SYNTHETIC
+BUS0324,CUST0972,Inventory,REF00324,5000,Needs Review,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0325,CUST0975,Inventory,REF00325,50000,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0326,CUST0978,Payment,REF00326,100000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0327,CUST0981,Vendor,REF00327,1500,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0328,CUST0984,Vendor,REF00328,100000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0329,CUST0987,Expense,REF00329,50000,Pending,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0330,CUST0990,Payment,REF00330,50000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0331,CUST0993,Vendor,REF00331,25000,Open,Not Required,V4,Small Business,SYNTHETIC
+BUS0332,CUST0996,Expense,REF00332,50000,Pending,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0333,CUST0999,Payment,REF00333,100000,Needs Review,Not Required,V4,Small Business,SYNTHETIC
+BUS0334,CUST0003,Inventory,REF00334,1500,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0335,CUST0006,Invoice,REF00335,1500,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0336,CUST0009,Vendor,REF00336,5000,Approved,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0337,CUST0012,Inventory,REF00337,1500,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0338,CUST0015,Payment,REF00338,1500,Needs Review,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0339,CUST0018,Vendor,REF00339,1500,Needs Review,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0340,CUST0021,Invoice,REF00340,12000,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0341,CUST0024,Payment,REF00341,25000,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0342,CUST0027,Expense,REF00342,25000,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0343,CUST0030,Inventory,REF00343,100000,Pending,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0344,CUST0033,Inventory,REF00344,100000,Open,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0345,CUST0036,Invoice,REF00345,12000,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0346,CUST0039,Vendor,REF00346,50000,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0347,CUST0042,Vendor,REF00347,5000,Approved,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0348,CUST0045,Inventory,REF00348,1500,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0349,CUST0048,Vendor,REF00349,1500,Approved,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0350,CUST0051,Invoice,REF00350,50000,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0351,CUST0054,Invoice,REF00351,5000,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0352,CUST0057,Expense,REF00352,5000,Open,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0353,CUST0060,Invoice,REF00353,25000,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0354,CUST0063,Payment,REF00354,25000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0355,CUST0066,Invoice,REF00355,50000,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0356,CUST0069,Payment,REF00356,50000,Pending,Approved,V4,Small Business,SYNTHETIC
+BUS0357,CUST0072,Inventory,REF00357,5000,Pending,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0358,CUST0075,Expense,REF00358,50000,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0359,CUST0078,Inventory,REF00359,8500,Needs Review,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0360,CUST0081,Expense,REF00360,1500,Open,Not Required,V4,Small Business,SYNTHETIC
+BUS0361,CUST0084,Invoice,REF00361,50000,Pending,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0362,CUST0087,Payment,REF00362,8500,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0363,CUST0090,Inventory,REF00363,5000,Approved,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0364,CUST0093,Invoice,REF00364,25000,Open,Not Required,V4,Small Business,SYNTHETIC
+BUS0365,CUST0096,Payment,REF00365,12000,Pending,Not Required,V4,Small Business,SYNTHETIC
+BUS0366,CUST0099,Invoice,REF00366,5000,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0367,CUST0102,Vendor,REF00367,12000,Approved,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0368,CUST0105,Invoice,REF00368,5000,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0369,CUST0108,Expense,REF00369,1500,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0370,CUST0111,Payment,REF00370,12000,Pending,Not Required,V4,Small Business,SYNTHETIC
+BUS0371,CUST0114,Inventory,REF00371,1500,Pending,Approved,V4,Small Business,SYNTHETIC
+BUS0372,CUST0117,Payment,REF00372,50000,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0373,CUST0120,Vendor,REF00373,100000,Open,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0374,CUST0123,Vendor,REF00374,100000,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0375,CUST0126,Inventory,REF00375,50000,Open,Not Required,V4,Small Business,SYNTHETIC
+BUS0376,CUST0129,Expense,REF00376,100000,Pending,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0377,CUST0132,Vendor,REF00377,5000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0378,CUST0135,Vendor,REF00378,12000,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0379,CUST0138,Vendor,REF00379,8500,Pending,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0380,CUST0141,Expense,REF00380,12000,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0381,CUST0144,Payment,REF00381,5000,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0382,CUST0147,Expense,REF00382,12000,Approved,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0383,CUST0150,Vendor,REF00383,25000,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0384,CUST0153,Vendor,REF00384,1500,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0385,CUST0156,Vendor,REF00385,8500,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0386,CUST0159,Payment,REF00386,5000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0387,CUST0162,Payment,REF00387,25000,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0388,CUST0165,Payment,REF00388,5000,Approved,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0389,CUST0168,Vendor,REF00389,5000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0390,CUST0171,Expense,REF00390,12000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0391,CUST0174,Vendor,REF00391,25000,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0392,CUST0177,Payment,REF00392,8500,Approved,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0393,CUST0180,Vendor,REF00393,25000,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0394,CUST0183,Vendor,REF00394,100000,Needs Review,Not Required,V4,Small Business,SYNTHETIC
+BUS0395,CUST0186,Payment,REF00395,8500,Needs Review,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0396,CUST0189,Expense,REF00396,100000,Approved,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0397,CUST0192,Vendor,REF00397,12000,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0398,CUST0195,Vendor,REF00398,5000,Pending,Approved,V4,Small Business,SYNTHETIC
+BUS0399,CUST0198,Invoice,REF00399,8500,Open,Not Required,V4,Small Business,SYNTHETIC
+BUS0400,CUST0201,Inventory,REF00400,25000,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0401,CUST0204,Vendor,REF00401,100000,Pending,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0402,CUST0207,Payment,REF00402,1500,Pending,Not Required,V4,Small Business,SYNTHETIC
+BUS0403,CUST0210,Vendor,REF00403,25000,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0404,CUST0213,Invoice,REF00404,5000,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0405,CUST0216,Invoice,REF00405,1500,Open,Not Required,V4,Small Business,SYNTHETIC
+BUS0406,CUST0219,Inventory,REF00406,8500,Open,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0407,CUST0222,Expense,REF00407,12000,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0408,CUST0225,Invoice,REF00408,100000,Pending,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0409,CUST0228,Payment,REF00409,100000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0410,CUST0231,Vendor,REF00410,1500,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0411,CUST0234,Invoice,REF00411,1500,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0412,CUST0237,Vendor,REF00412,12000,Pending,Not Required,V4,Small Business,SYNTHETIC
+BUS0413,CUST0240,Vendor,REF00413,12000,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0414,CUST0243,Vendor,REF00414,25000,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0415,CUST0246,Inventory,REF00415,100000,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0416,CUST0249,Payment,REF00416,50000,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0417,CUST0252,Invoice,REF00417,8500,Needs Review,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0418,CUST0255,Payment,REF00418,1500,Needs Review,Not Required,V4,Small Business,SYNTHETIC
+BUS0419,CUST0258,Payment,REF00419,8500,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0420,CUST0261,Vendor,REF00420,12000,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0421,CUST0264,Vendor,REF00421,100000,Open,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0422,CUST0267,Inventory,REF00422,25000,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0423,CUST0270,Payment,REF00423,25000,Needs Review,Not Required,V4,Small Business,SYNTHETIC
+BUS0424,CUST0273,Inventory,REF00424,12000,Needs Review,Not Required,V4,Small Business,SYNTHETIC
+BUS0425,CUST0276,Invoice,REF00425,1500,Approved,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0426,CUST0279,Inventory,REF00426,5000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0427,CUST0282,Vendor,REF00427,12000,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0428,CUST0285,Vendor,REF00428,12000,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0429,CUST0288,Expense,REF00429,5000,Pending,Not Required,V4,Small Business,SYNTHETIC
+BUS0430,CUST0291,Inventory,REF00430,5000,Pending,Approved,V4,Small Business,SYNTHETIC
+BUS0431,CUST0294,Inventory,REF00431,1500,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0432,CUST0297,Payment,REF00432,1500,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0433,CUST0300,Vendor,REF00433,8500,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0434,CUST0303,Invoice,REF00434,1500,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0435,CUST0306,Expense,REF00435,5000,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0436,CUST0309,Expense,REF00436,8500,Open,Not Required,V4,Small Business,SYNTHETIC
+BUS0437,CUST0312,Expense,REF00437,1500,Needs Review,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0438,CUST0315,Payment,REF00438,1500,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0439,CUST0318,Inventory,REF00439,100000,Needs Review,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0440,CUST0321,Vendor,REF00440,25000,Open,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0441,CUST0324,Payment,REF00441,25000,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0442,CUST0327,Payment,REF00442,12000,Open,Not Required,V4,Small Business,SYNTHETIC
+BUS0443,CUST0330,Inventory,REF00443,50000,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0444,CUST0333,Inventory,REF00444,8500,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0445,CUST0336,Vendor,REF00445,25000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0446,CUST0339,Expense,REF00446,12000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0447,CUST0342,Vendor,REF00447,12000,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0448,CUST0345,Inventory,REF00448,1500,Open,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0449,CUST0348,Expense,REF00449,12000,Pending,Not Required,V4,Small Business,SYNTHETIC
+BUS0450,CUST0351,Vendor,REF00450,1500,Approved,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0451,CUST0354,Invoice,REF00451,50000,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0452,CUST0357,Invoice,REF00452,12000,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0453,CUST0360,Payment,REF00453,100000,Needs Review,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0454,CUST0363,Inventory,REF00454,1500,Pending,Approved,V4,Small Business,SYNTHETIC
+BUS0455,CUST0366,Expense,REF00455,5000,Pending,Not Required,V4,Small Business,SYNTHETIC
+BUS0456,CUST0369,Vendor,REF00456,100000,Open,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0457,CUST0372,Inventory,REF00457,25000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0458,CUST0375,Inventory,REF00458,25000,Open,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0459,CUST0378,Invoice,REF00459,8500,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0460,CUST0381,Inventory,REF00460,50000,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0461,CUST0384,Inventory,REF00461,5000,Needs Review,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0462,CUST0387,Invoice,REF00462,12000,Open,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0463,CUST0390,Expense,REF00463,100000,Approved,Not Required,V4,Small Business,SYNTHETIC
+BUS0464,CUST0393,Invoice,REF00464,8500,Open,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0465,CUST0396,Payment,REF00465,100000,Open,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0466,CUST0399,Inventory,REF00466,8500,Pending,Not Required,V4,Small Business,SYNTHETIC
+BUS0467,CUST0402,Vendor,REF00467,8500,Open,Not Required,V4,Small Business,SYNTHETIC
+BUS0468,CUST0405,Vendor,REF00468,100000,Needs Review,Not Required,V4,Small Business,SYNTHETIC
+BUS0469,CUST0408,Payment,REF00469,1500,Needs Review,Not Required,V4,Small Business,SYNTHETIC
+BUS0470,CUST0411,Payment,REF00470,25000,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0471,CUST0414,Payment,REF00471,100000,Open,Not Required,V4,Small Business,SYNTHETIC
+BUS0472,CUST0417,Vendor,REF00472,8500,Needs Review,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0473,CUST0420,Expense,REF00473,50000,Pending,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0474,CUST0423,Invoice,REF00474,50000,Approved,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0475,CUST0426,Vendor,REF00475,1500,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0476,CUST0429,Inventory,REF00476,5000,Needs Review,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0477,CUST0432,Inventory,REF00477,1500,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0478,CUST0435,Expense,REF00478,50000,Needs Review,Not Required,V4,Small Business,SYNTHETIC
+BUS0479,CUST0438,Payment,REF00479,50000,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0480,CUST0441,Expense,REF00480,5000,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0481,CUST0444,Payment,REF00481,25000,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0482,CUST0447,Inventory,REF00482,100000,Open,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0483,CUST0450,Vendor,REF00483,1500,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0484,CUST0453,Invoice,REF00484,25000,Needs Review,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0485,CUST0456,Expense,REF00485,1500,Needs Review,Not Required,V4,Small Business,SYNTHETIC
+BUS0486,CUST0459,Invoice,REF00486,50000,Open,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0487,CUST0462,Vendor,REF00487,1500,Needs Review,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0488,CUST0465,Inventory,REF00488,100000,Paid,Not Required,V4,Small Business,SYNTHETIC
+BUS0489,CUST0468,Invoice,REF00489,5000,Paid,Approved,V4,Small Business,SYNTHETIC
+BUS0490,CUST0471,Expense,REF00490,1500,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0491,CUST0474,Vendor,REF00491,8500,Needs Review,Approved,V4,Small Business,SYNTHETIC
+BUS0492,CUST0477,Vendor,REF00492,1500,Pending,Not Required,V4,Small Business,SYNTHETIC
+BUS0493,CUST0480,Expense,REF00493,5000,Paid,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0494,CUST0483,Invoice,REF00494,1500,Needs Review,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0495,CUST0486,Expense,REF00495,1500,Pending,Approved,V4,Small Business,SYNTHETIC
+BUS0496,CUST0489,Payment,REF00496,5000,Open,Approved,V4,Small Business,SYNTHETIC
+BUS0497,CUST0492,Payment,REF00497,25000,Approved,Pending Approval,V4,Small Business,SYNTHETIC
+BUS0498,CUST0495,Invoice,REF00498,12000,Approved,Approved,V4,Small Business,SYNTHETIC
+BUS0499,CUST0498,Inventory,REF00499,50000,Pending,Approved,V4,Small Business,SYNTHETIC
+BUS0500,CUST0501,Expense,REF00500,50000,Open,Pending Approval,V4,Small Business,SYNTHETIC

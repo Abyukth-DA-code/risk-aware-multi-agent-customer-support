@@ -1,0 +1,28 @@
+Hemanth Online E-Commerce Store - Customer Support and Escalation Policy
+
+1. Multi-Tier Customer Support Structure:
+Hemanth Online Store operates an intelligent multi-agent resolution framework designed to provide instantaneous answers to common customer inquiries while seamlessly escalating complex or high-risk cases to designated human specialists:
+- Tier 1 (Automated Support): 24/7 AI-driven support chat widget providing immediate grounded guidance on orders, product specifications, returns, and store policies.
+- Tier 2 (Human Support Specialists): Dedicated human customer support agents available Monday through Saturday from 8:00 AM to 8:00 PM EST via live chat and email.
+- Tier 3 (Executive Supervisor Escalation): Senior operations and billing supervisors empowered to authorize custom financial overrides, policy exceptions, and executive problem resolution.
+
+2. Criteria for Automated Human Escalation:
+Your inquiry will automatically be routed to an authorized human supervisor under any of the following mandatory conditions:
+- Fraudulent or disputed financial charges exceeding $100.00.
+- Reports of stolen packages, courier delivery fraud, or transit damage claims.
+- Formal legal inquiries, regulatory safety notifications, or consumer protection complaints.
+- Queries where our knowledge base lacks sufficient authoritative policy evidence to formulate a complete answer.
+- Recurring customer dissatisfaction or explicit requests to communicate with a human supervisor.
+
+3. Escalation Tracking and Unique Case Dossiers:
+When an escalation event is triggered, the system generates a unique, traceable Escalation Reference ID (e.g., esc_XXXXXXXXXX). An immutable case dossier containing the full customer inquiry transcript, risk tier classification, and safety policy triggers is dispatched to the Human Supervisor Escalation Queue.
+
+4. Supervisor Response Times and Service Level Agreements (SLAs):
+- Urgent Financial & Security Inquiries: Reviewed and resolved within 2 to 4 business hours.
+- Standard Policy Exceptions and Returns: Reviewed and resolved within 24 business hours.
+- Supervisors possess the administrative authority to issue courtesy store credit, authorize manual refund overrides, or expedite replacement shipments.
+
+5. Direct Contact Channels:
+- Online Chat Widget: Click the floating chat bubble on any store page.
+- Support Email: support@hemanthstore.com
+- Telephone Hotline: 1-800-HEMANTH (Available 9:00 AM - 6:00 PM EST)

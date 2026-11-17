@@ -31,8 +31,17 @@ from src.rag.ingestion.pipeline import DocumentIngestionPipeline
 
 
 ROOT = Path(__file__).resolve().parents[1]
-BENCHMARK_PATH = ROOT / "data" / "processed" / "rag" / "retrieval_benchmark_remediated_v2.csv"
-M3_DISK_PATH = ROOT / "src" / "models" / "risk_model_(M3).joblib"
+_cand_bench = [
+    ROOT / "datasets" / "processed" / "rag" / "retrieval_benchmark_remediated_v2.csv",
+    ROOT / "data" / "processed" / "rag" / "retrieval_benchmark_remediated_v2.csv",
+]
+BENCHMARK_PATH = next((c for c in _cand_bench if c.exists()), _cand_bench[0])
+
+_cand_m3 = [
+    ROOT / "backend" / "src" / "models" / "risk_model_(M3).joblib",
+    ROOT / "src" / "models" / "risk_model_(M3).joblib",
+]
+M3_DISK_PATH = next((c for c in _cand_m3 if c.exists()), _cand_m3[0])
 
 
 # -------------------------------------------------------------------------

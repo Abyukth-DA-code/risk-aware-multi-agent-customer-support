@@ -1,0 +1,19 @@
+Hemanth Online E-Commerce Store - Official Order Cancellation Policy
+
+1. Order Cancellation Window:
+Customers may cancel an online order directly from their Account Order History dashboard within 60 minutes of placing the order, provided the order has not yet entered warehouse packaging or pallet sorting. During this initial grace window, cancellation is automated and processed with a 100% full instant refund.
+
+2. In-Processing and Dispatched Orders:
+Once an order status progresses to "Processing / Packed" or "Dispatched / In Transit", automated cancellation is no longer possible because the parcel has been assigned to a regional logistics courier:
+- Dispatched orders cannot be redirected or intercepted in mid-transit.
+- If you no longer desire the item, please wait for delivery and request a return via our standard 30-Day Return Portal.
+- Alternatively, you may refuse delivery at your doorstep when the courier driver arrives, and the parcel will automatically be returned to our fulfillment hub for refund processing.
+
+3. Out of Stock and Backorder Cancellations:
+If an ordered product becomes unavailable due to an unexpected inventory discrepancy or manufacturing backlog, Hemanth Online Store reserves the right to cancel the line item. Customers will be immediately alerted via email and SMS, and a complete refund including all shipping costs will be disbursed within 24 hours.
+
+4. Fraud Prevention and Security Cancellations:
+To safeguard cardholders against fraudulent activity and unauthorized identity theft, our automated risk engine evaluates checkout transactions. Orders flagged for suspicious billing mismatches, unauthorized IP proxy patterns, or high-velocity charge attempts may be placed on temporary hold or cancelled. Affected customers will be contacted to verify account authorization.
+
+5. How to Request Manual Cancellation:
+To request urgent assistance with an order placed within the past hour, reach out immediately to our 24/7 Live Support Chat widget or email support@hemanthstore.com with the subject line "URGENT CANCELLATION: Order #XXXXX".

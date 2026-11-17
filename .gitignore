@@ -1,48 +1,73 @@
 
-# Python virtual environments
-.venv/
-venv/
-env/
-ENV/
-
-# Python cache
+# ==========================================
+# Python bytecode and compiled files
+# ==========================================
 __pycache__/
 *.py[cod]
+*$py.class
+
+# ==========================================
+# Virtual environments
+# ==========================================
+.venv/
+env/
+venv/
+ENV/
+
+# ==========================================
+# Testing and coverage
+# ==========================================
 .pytest_cache/
-
-# IDE and OS files
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-
-# Environment variables and secrets
-.env
-.env.*
-
-# Logs and temporary files
-*.log
-scratch/
-*.zip
-
-# Local databases
-*.db
-*.sqlite
-*.sqlite3
-
-# Generated vector database
-backend/vector_store/
-
-# Private tenant data
-datasets/tenants/
-
-# Test and coverage
 .coverage
 htmlcov/
 
+# ==========================================
+# Jupyter and IDE files
+# ==========================================
+.ipynb_checkpoints/
+.vscode/
+.idea/
 
-# Private tenant datasets
-data/tenants/
+# ==========================================
+# Operating system files
+# ==========================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ==========================================
+# Environment variables and secrets
+# ==========================================
+.env
+.env.*
+*.log
+
+# ==========================================
+# Temporary files and archives
+# ==========================================
+scratch/
+*.zip
+*.tar.gz
+
+# ==========================================
+# Local databases
+# ==========================================
+*.db
+*.sqlite
+*.sqlite3
+backend/database/tenants.db
+
+# ==========================================
+# Generated ChromaDB vector database
+# ==========================================
+backend/vector_store/
+datasets/chromadb/
 data/chromadb/
+
+# ==========================================
+# Private tenant data and documents
+# ==========================================
+datasets/tenants/
 data/tenants/
-data/chromadb/

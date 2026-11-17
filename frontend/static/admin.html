@@ -1,0 +1,2055 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business Admin Console — Autonomous Support Framework</title>
+  <style>
+    :root {
+      --primary: #2563eb;
+      --primary-hover: #1d4ed8;
+      --primary-light: #eff6ff;
+      --success: #16a34a;
+      --success-light: #f0fdf4;
+      --warning: #d97706;
+      --warning-light: #fffbeb;
+      --danger: #dc2626;
+      --danger-light: #fef2f2;
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --text: #0f172a;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --border-dark: #cbd5e1;
+      --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+      --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+      --radius: 8px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      padding-bottom: 60px;
+    }
+
+    /* Navigation Bar */
+    .navbar {
+      background: #0f172a;
+      color: #f8fafc;
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: var(--shadow-md);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+
+    .nav-brand .badge {
+      background: #3b82f6;
+      font-size: 0.72rem;
+      padding: 2px 8px;
+      border-radius: 9999px;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      color: #94a3b8;
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: color 0.15s;
+    }
+
+    .nav-links a:hover,
+    .nav-links a.active {
+      color: #ffffff;
+    }
+
+    .nav-session {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .session-badge {
+      font-size: 0.8rem;
+      padding: 4px 10px;
+      border-radius: 6px;
+      background: #1e293b;
+      color: #94a3b8;
+      border: 1px solid #334155;
+    }
+
+    .session-badge.connected {
+      background: #064e3b;
+      color: #6ee7b7;
+      border-color: #047857;
+    }
+
+    /* Layout Container */
+    .container {
+      max-width: 1200px;
+      margin: 28px auto;
+      padding: 0 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    /* Cards */
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .card-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .card-subtitle {
+      color: var(--text-muted);
+      font-size: 0.88rem;
+      margin-top: 4px;
+    }
+
+    /* Forms & Inputs */
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    label {
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: #334155;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 9px 12px;
+      border: 1px solid var(--border-dark);
+      border-radius: 6px;
+      font-size: 0.92rem;
+      background: #ffffff;
+      color: var(--text);
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+    }
+
+    .input-password-wrapper {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+
+    .input-password-wrapper input {
+      padding-right: 40px;
+    }
+
+    .toggle-password-btn {
+      position: absolute;
+      right: 8px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: var(--text-muted);
+      font-size: 1.1rem;
+      padding: 4px;
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 9px 16px;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: 1px solid transparent;
+      transition: all 0.15s;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: #ffffff;
+    }
+
+    .btn-primary:hover {
+      background: var(--primary-hover);
+    }
+
+    .btn-secondary {
+      background: #f1f5f9;
+      color: #334155;
+      border-color: var(--border-dark);
+    }
+
+    .btn-secondary:hover {
+      background: #e2e8f0;
+    }
+
+    .btn-danger {
+      background: var(--danger-light);
+      color: var(--danger);
+      border-color: #fca5a5;
+    }
+
+    .btn-danger:hover {
+      background: #fee2e2;
+    }
+
+    .btn-sm {
+      padding: 5px 10px;
+      font-size: 0.8rem;
+    }
+
+    .btn:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    /* Tabs */
+    .tab-bar {
+      display: flex;
+      gap: 8px;
+      border-bottom: 2px solid var(--border);
+      margin-bottom: 20px;
+    }
+
+    .tab-btn {
+      padding: 8px 16px;
+      background: none;
+      border: none;
+      font-size: 0.92rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -2px;
+      transition: color 0.15s, border-color 0.15s;
+    }
+
+    .tab-btn.active {
+      color: var(--primary);
+      border-bottom-color: var(--primary);
+    }
+
+    /* Alerts */
+    .alert {
+      padding: 12px 16px;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+    }
+
+    .alert-success {
+      background: var(--success-light);
+      color: #166534;
+      border: 1px solid #bbf7d0;
+    }
+
+    .alert-warning {
+      background: var(--warning-light);
+      color: #92400e;
+      border: 1px solid #fde68a;
+    }
+
+    .alert-danger {
+      background: var(--danger-light);
+      color: #991b1b;
+      border: 1px solid #fecaca;
+    }
+
+    .alert-info {
+      background: var(--primary-light);
+      color: #1e40af;
+      border: 1px solid #bfdbfe;
+    }
+
+    /* Workspace Grid */
+    .workspace-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+
+    .workspace-card {
+      border: 2px solid var(--border);
+      border-radius: 8px;
+      padding: 16px;
+      cursor: pointer;
+      background: #ffffff;
+      transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .workspace-card:hover {
+      border-color: #93c5fd;
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .workspace-card.selected {
+      border-color: var(--primary);
+      background: #f8faff;
+      box-shadow: 0 0 0 1px var(--primary);
+    }
+
+    .workspace-card-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 8px;
+    }
+
+    .workspace-name {
+      font-weight: 700;
+      font-size: 1.05rem;
+      color: var(--text);
+    }
+
+    .domain-badge {
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 9999px;
+      background: #f1f5f9;
+      color: #334155;
+    }
+
+    .domain-badge.ecommerce {
+      background: #e0f2fe;
+      color: #0369a1;
+    }
+
+    .domain-badge.education {
+      background: #f3e8ff;
+      color: #7e22ce;
+    }
+
+    .domain-badge.small_business {
+      background: #fef3c7;
+      color: #b45309;
+    }
+
+    .workspace-meta {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: auto;
+      padding-top: 8px;
+      border-top: 1px solid var(--border);
+    }
+
+    /* Readiness Meter */
+    .readiness-overview {
+      display: grid;
+      grid-template-columns: 240px 1fr;
+      gap: 24px;
+      align-items: center;
+      margin-bottom: 24px;
+      background: #f8fafc;
+      border: 1px solid var(--border);
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    @media (max-width: 768px) {
+      .readiness-overview {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .gauge-box {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .gauge-circle {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: #ffffff;
+      background: var(--warning);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .gauge-circle.ready {
+      background: var(--success);
+    }
+
+    .gauge-circle.incomplete {
+      background: var(--danger);
+    }
+
+    .gauge-label {
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .readiness-stats {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .stat-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.9rem;
+      padding: 4px 0;
+      border-bottom: 1px dashed var(--border);
+    }
+
+    .stat-row:last-child {
+      border-bottom: none;
+    }
+
+    .progress-bar-bg {
+      width: 100%;
+      height: 10px;
+      background: #e2e8f0;
+      border-radius: 9999px;
+      overflow: hidden;
+      margin-top: 4px;
+    }
+
+    .progress-bar-fill {
+      height: 100%;
+      background: var(--warning);
+      transition: width 0.3s ease;
+    }
+
+    .progress-bar-fill.ready {
+      background: var(--success);
+    }
+
+    /* Tables */
+    .table-container {
+      overflow-x: auto;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+      text-align: left;
+    }
+
+    th {
+      background: #f8fafc;
+      padding: 10px 14px;
+      font-weight: 600;
+      color: #475569;
+      border-bottom: 1px solid var(--border);
+    }
+
+    td {
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--border);
+      color: var(--text);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    tr:hover td {
+      background: #fbfcfe;
+    }
+
+    .status-badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 9999px;
+    }
+
+    .status-badge.validated {
+      background: #dcfce7;
+      color: #15803d;
+    }
+
+    .status-badge.uploaded {
+      background: #e0f2fe;
+      color: #0369a1;
+    }
+
+    .status-badge.not-uploaded {
+      background: #f1f5f9;
+      color: #64748b;
+    }
+
+    .status-badge.failed {
+      background: #fee2e2;
+      color: #b91c1c;
+    }
+
+    /* Drag & Drop Upload Zone */
+    .dropzone {
+      border: 2px dashed #94a3b8;
+      border-radius: 8px;
+      padding: 32px 20px;
+      text-align: center;
+      background: #fafafa;
+      cursor: pointer;
+      transition: all 0.2s;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .dropzone:hover,
+    .dropzone.dragover {
+      border-color: var(--primary);
+      background: #eff6ff;
+    }
+
+    .dropzone-icon {
+      font-size: 2.2rem;
+      color: var(--primary);
+    }
+
+    .dropzone-text {
+      font-weight: 600;
+      color: #334155;
+    }
+
+    .dropzone-subtext {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+    }
+
+    .format-chips {
+      display: flex;
+      gap: 6px;
+      margin-top: 4px;
+    }
+
+    .format-chip {
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 2px 6px;
+      border-radius: 4px;
+      background: #e2e8f0;
+      color: #475569;
+    }
+
+    /* Code Snippet Box */
+    .code-box {
+      background: #0f172a;
+      color: #f8fafc;
+      padding: 16px;
+      border-radius: 6px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.85rem;
+      line-height: 1.45;
+      overflow-x: auto;
+      position: relative;
+    }
+
+    .code-box-copy {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+
+    /* Spinner */
+    .spinner {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      border-radius: 50%;
+      border-top-color: #ffffff;
+      animation: spin 0.8s ease-in-out infinite;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .hidden {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-brand">
+      <span>⚡ Autonomous Support Platform</span>
+      <span class="badge">Business Admin</span>
+    </div>
+    <nav class="nav-links">
+      <a href="/widget/demo">🛍️ Customer Storefront</a>
+      <a href="/admin" class="active">🏢 Business Admin</a>
+      <a href="/supervisor">🛡️ Supervisor Desk</a>
+      <a href="/docs" target="_blank">📖 API Docs</a>
+    </nav>
+    <div class="nav-session">
+      <span id="sessionStatusBadge" class="session-badge">🔒 Session: Disconnected</span>
+      <button id="lockSessionBtn" class="btn btn-secondary btn-sm hidden" onclick="disconnectSession()">
+        🔒 Lock Session
+      </button>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- Global Flash Alerts -->
+    <div id="globalAlert" class="hidden"></div>
+
+    <!-- ======================================================================= -->
+    <!-- 1. TENANT AUTHENTICATION & LOGIN (In-Memory Session Only) -->
+    <!-- ======================================================================= -->
+    <section class="card" id="authSection">
+      <div class="card-header">
+        <div>
+          <h2 class="card-title">🔐 Business Authentication</h2>
+          <p class="card-subtitle">Connect your business tenant credentials. Master keys remain strictly in volatile memory and are never persisted to localStorage.</p>
+        </div>
+      </div>
+
+      <div class="tab-bar">
+        <button class="tab-btn active" id="tabConnectBtn" onclick="switchAuthTab('connect')">Connect Existing API Key</button>
+        <button class="tab-btn" id="tabRegisterBtn" onclick="switchAuthTab('register')">Register New Business Tenant</button>
+      </div>
+
+      <!-- Connect Form -->
+      <div id="authConnectPanel">
+        <form onsubmit="handleConnect(event)" class="form-grid">
+          <div class="form-group" style="grid-column: span 2;">
+            <label for="inputApiKey">Business Master API Key (cap_...)</label>
+            <div class="input-password-wrapper">
+              <input type="password" id="inputApiKey" placeholder="cap_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" required>
+              <button type="button" class="toggle-password-btn" onclick="togglePasswordVisibility('inputApiKey')">👁️</button>
+            </div>
+            <span class="card-subtitle">Enter your master key to view and manage your isolated workspaces.</span>
+          </div>
+          <div style="grid-column: span 2; display: flex; gap: 10px; align-items: center;">
+            <button type="submit" id="connectSubmitBtn" class="btn btn-primary">
+              Connect Session
+            </button>
+            <button type="button" class="btn btn-secondary" onclick="fillDemoCredentials()">
+              Fill Demo Store Key (cap_demo_admin_key)
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Register Form -->
+      <div id="authRegisterPanel" class="hidden">
+        <form onsubmit="handleRegister(event)" class="form-grid">
+          <div class="form-group">
+            <label for="inputTenantName">Business / Company Name</label>
+            <input type="text" id="inputTenantName" placeholder="e.g., Apex Global Retail" required minlength="2">
+          </div>
+          <div class="form-group">
+            <label for="inputTenantEmail">Owner Contact Email</label>
+            <input type="email" id="inputTenantEmail" placeholder="e.g., owner@apexretail.com" required>
+          </div>
+          <div style="grid-column: span 2;">
+            <button type="submit" id="registerSubmitBtn" class="btn btn-primary">
+              Register Business & Generate Root Key
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Registration Key Reveal Banner -->
+      <div id="keyRevealBox" class="alert alert-warning hidden" style="margin-top: 16px;">
+        <div>
+          <strong>⚠️ Master API Key Issued:</strong>
+          <p style="margin: 4px 0 8px 0;">Copy this key now. Master keys provide administrative authority over all your business workspaces and are never stored in your browser.</p>
+          <div style="display: flex; gap: 8px; align-items: center;">
+            <code id="revealedKeyText" style="font-size: 0.95rem; font-weight: 700; background: #ffffff; padding: 4px 8px; border-radius: 4px; border: 1px solid #d97706;"></code>
+            <button class="btn btn-secondary btn-sm" onclick="copyRevealedKey()">📋 Copy Key</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================= -->
+    <!-- 2. WORKSPACE MANAGEMENT (Multi-Business Hub) -->
+    <!-- ======================================================================= -->
+    <section class="card hidden" id="workspaceSection">
+      <div class="card-header">
+        <div>
+          <h2 class="card-title">🏢 Business Workspaces</h2>
+          <p class="card-subtitle">Manage isolated ventures and knowledge partitions under this business owner account.</p>
+        </div>
+        <button class="btn btn-secondary btn-sm" onclick="toggleCreateWorkspaceForm()">
+          + Add New Workspace
+        </button>
+      </div>
+
+      <!-- Create Workspace Form (Collapsible) -->
+      <div id="createWorkspaceBox" class="card hidden" style="background: #f8fafc; border-color: #cbd5e1; margin-bottom: 20px;">
+        <h3 style="font-size: 1rem; margin-bottom: 12px;">Create New Isolated Workspace</h3>
+        <form onsubmit="handleCreateWorkspace(event)" class="form-grid">
+          <div class="form-group">
+            <label for="inputWsName">Workspace Name</label>
+            <input type="text" id="inputWsName" placeholder="e.g. Apex Electronics Store" required minlength="2">
+          </div>
+          <div class="form-group">
+            <label for="selectWsDomain">Business Domain</label>
+            <select id="selectWsDomain" required>
+              <option value="E-commerce">E-commerce (Retail, Shipping, Returns)</option>
+              <option value="Education">Education (Attendance, Grades, Fees)</option>
+              <option value="Small Business">Small Business (Services, Invoicing, Billing)</option>
+            </select>
+          </div>
+          <div class="form-group" style="grid-column: span 2;">
+            <label for="inputWsDesc">Description (Optional)</label>
+            <input type="text" id="inputWsDesc" placeholder="e.g., Online storefront policy and return support">
+          </div>
+          <div style="grid-column: span 2; display: flex; gap: 8px;">
+            <button type="submit" id="createWsBtn" class="btn btn-primary">Create Workspace</button>
+            <button type="button" class="btn btn-secondary" onclick="toggleCreateWorkspaceForm()">Cancel</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Workspace Cards List -->
+      <div id="workspaceGrid" class="workspace-grid">
+        <div style="color: var(--text-muted); font-size: 0.9rem;">No workspaces loaded yet.</div>
+      </div>
+    </section>
+
+    <!-- ======================================================================= -->
+    <!-- 3. DOMAIN CHECKLIST & OPERATIONAL READINESS -->
+    <!-- ======================================================================= -->
+    <section class="card hidden" id="checklistSection">
+      <div class="card-header">
+        <div>
+          <h2 class="card-title" id="activeWorkspaceHeader">📋 Domain Knowledge Checklist</h2>
+          <p class="card-subtitle" id="activeWorkspaceSubheader">Backend readiness evaluation and category ingestion tracking.</p>
+        </div>
+        <div style="display: flex; gap: 8px;">
+          <button class="btn btn-secondary btn-sm" onclick="refreshActiveWorkspaceData()">🔄 Refresh</button>
+          <button class="btn btn-primary btn-sm" onclick="toggleAddCustomCategoryForm()">+ Custom Category</button>
+        </div>
+      </div>
+
+      <!-- Readiness Overview -->
+      <div class="readiness-overview">
+        <div class="gauge-box">
+          <div id="readinessGaugeCircle" class="gauge-circle incomplete">
+            <span id="readinessPercentText">0%</span>
+          </div>
+          <span class="gauge-label" id="readinessStatusLabel">Incomplete</span>
+        </div>
+        <div class="readiness-stats">
+          <div class="stat-row">
+            <span><strong>Target Domain:</strong></span>
+            <span id="statDomainDisplay">—</span>
+          </div>
+          <div class="stat-row">
+            <span><strong>Required Categories Completed:</strong></span>
+            <span id="statRequiredDisplay">0 / 0</span>
+          </div>
+          <div class="stat-row">
+            <span><strong>Recommended Categories Completed:</strong></span>
+            <span id="statRecommendedDisplay">0 / 0</span>
+          </div>
+          <div>
+            <div class="progress-bar-bg">
+              <div id="readinessProgressBar" class="progress-bar-fill" style="width: 0%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Missing Required Categories Alert -->
+      <div id="missingCategoriesAlert" class="alert alert-warning hidden">
+        <div>
+          <strong>Missing Mandatory Knowledge Categories:</strong>
+          <p style="margin-top: 4px; font-size: 0.85rem;">The AI assistant will safely abstain and escalate queries regarding unpopulated mandatory policies:</p>
+          <ul id="missingCategoriesList" style="margin: 6px 0 0 20px; font-size: 0.85rem;"></ul>
+        </div>
+      </div>
+
+      <!-- Custom Category Form (Collapsible) -->
+      <div id="addCustomCategoryBox" class="card hidden" style="background: #f8fafc; border-color: #cbd5e1; margin-bottom: 20px;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 12px;">Add Custom Knowledge Category</h3>
+        <form onsubmit="handleAddCustomCategory(event)" class="form-grid">
+          <div class="form-group">
+            <label for="inputCustomCatName">Category Name</label>
+            <input type="text" id="inputCustomCatName" placeholder="e.g., Seasonal Promotional Rules" required minlength="3">
+          </div>
+          <div class="form-group" style="justify-content: center;">
+            <label style="display: flex; align-items: center; gap: 8px; cursor: pointer; margin-top: 18px;">
+              <input type="checkbox" id="checkCustomRequired">
+              Strictly required for operational readiness
+            </label>
+          </div>
+          <div style="grid-column: span 2; display: flex; gap: 8px;">
+            <button type="submit" id="addCustomCatBtn" class="btn btn-primary">Add Category</button>
+            <button type="button" class="btn btn-secondary" onclick="toggleAddCustomCategoryForm()">Cancel</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Canonical Checklist Table -->
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Policy / Category Name</th>
+              <th>Type</th>
+              <th>Status</th>
+              <th>Linked Document & Records</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="checklistTableBody">
+            <tr><td colspan="5" style="text-align: center; color: var(--text-muted);">Loading checklist items...</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ======================================================================= -->
+    <!-- 4. DOCUMENT INGESTION & VECTOR STORAGE HUB -->
+    <!-- ======================================================================= -->
+    <section class="card hidden" id="uploadSection">
+      <div class="card-header">
+        <div>
+          <h2 class="card-title">📤 Ingest Knowledge Documents</h2>
+          <p class="card-subtitle">Upload authoritative policy files for automatic semantic chunking, vector embedding, and ChromaDB indexing.</p>
+        </div>
+      </div>
+
+      <!-- Upload Form with Drag and Drop -->
+      <form onsubmit="handleUploadSubmit(event)" id="docUploadForm" style="display: flex; flex-direction: column; gap: 16px;">
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="selectUploadCategory">Target Policy Category</label>
+            <select id="selectUploadCategory" required>
+              <option value="">-- Select a Category --</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Supported Formats & Quality Constraints</label>
+            <div class="format-chips">
+              <span class="format-chip">PDF (.pdf)</span>
+              <span class="format-chip">Word (.docx)</span>
+              <span class="format-chip">Text (.txt)</span>
+              <span class="format-chip">Data (.csv)</span>
+              <span class="format-chip">Max 10 MB</span>
+              <span class="format-chip">Min 50 chars</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dropzone -->
+        <div class="dropzone" id="fileDropzone" onclick="document.getElementById('fileInput').click()">
+          <div class="dropzone-icon">📄</div>
+          <div class="dropzone-text" id="dropzoneText">Drag and drop document here, or click to browse</div>
+          <div class="dropzone-subtext" id="selectedFileInfo">Accepted formats: .pdf, .docx, .txt, .csv</div>
+          <input type="file" id="fileInput" accept=".pdf,.docx,.txt,.csv" style="display: none;" onchange="handleFileSelected(this)">
+        </div>
+
+        <div style="display: flex; justify-content: flex-end; gap: 10px;">
+          <button type="submit" id="uploadBtn" class="btn btn-primary" disabled>
+            Upload & Index Document
+          </button>
+        </div>
+      </form>
+
+      <!-- Upload Result Alert -->
+      <div id="uploadFeedbackAlert" class="alert hidden" style="margin-top: 16px;"></div>
+
+      <!-- Ingested Documents Table -->
+      <div style="margin-top: 24px;">
+        <h3 style="font-size: 1rem; margin-bottom: 12px; color: #334155;">Indexed Workspace Documents</h3>
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>Document Filename</th>
+                <th>Category Key</th>
+                <th>Chunks</th>
+                <th>Character Count</th>
+                <th>Document ID</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="documentsTableBody">
+              <tr><td colspan="6" style="text-align: center; color: var(--text-muted);">No documents loaded yet.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================= -->
+    <!-- 5. CLIENT INTEGRATION & PUBLIC WIDGET CREDENTIALS -->
+    <!-- ======================================================================= -->
+    <section class="card hidden" id="integrationSection">
+      <div class="card-header">
+        <div>
+          <h2 class="card-title">🔌 Storefront Integration & Download Kit</h2>
+          <p class="card-subtitle">Connect this workspace to your external website using the scoped public widget token or download the client kit.</p>
+        </div>
+        <div>
+          <button class="btn btn-primary" onclick="downloadWorkspaceZipKit()">
+            ⬇️ Download Integration Kit (.ZIP)
+          </button>
+        </div>
+      </div>
+
+      <!-- Token Management Card -->
+      <div class="form-grid" style="margin-bottom: 20px;">
+        <div class="form-group" style="grid-column: span 2;">
+          <label>Public Widget Token (Scoped strictly to this workspace)</label>
+          <div style="display: flex; gap: 8px;">
+            <input type="text" id="displayWidgetToken" readonly style="font-family: monospace; font-weight: 600; background: #f8fafc;">
+            <button class="btn btn-secondary" onclick="copyWidgetToken()">📋 Copy Token</button>
+            <button class="btn btn-secondary" onclick="rotateWidgetToken()">🔄 Rotate</button>
+            <button class="btn btn-danger" onclick="revokeWidgetToken()">🚫 Revoke</button>
+          </div>
+          <span class="card-subtitle">
+            <strong>Security Invariant:</strong> This <code>wtk_...</code> token can safely be placed in public frontend code. It grants read-only customer query permissions to this workspace only.
+          </span>
+        </div>
+      </div>
+
+      <!-- Embed Code Snippet -->
+      <div>
+        <label>HTML Embed Snippet (Paste before &lt;/body&gt;)</label>
+        <div class="code-box">
+          <button class="btn btn-secondary btn-sm code-box-copy" onclick="copyEmbedSnippet()">📋 Copy Snippet</button>
+          <pre id="embedSnippetCode">&lt;!-- Loading snippet... --&gt;</pre>
+        </div>
+      </div>
+
+      <!-- Direct Testing Link -->
+      <div style="margin-top: 20px; display: flex; align-items: center; justify-content: space-between; background: #eff6ff; padding: 14px 18px; border-radius: 6px; border: 1px solid #bfdbfe;">
+        <div>
+          <strong style="color: #1e40af;">🚀 Test Customer Storefront:</strong>
+          <span style="color: #1e40af; font-size: 0.9rem; margin-left: 6px;">Open the customer-facing chat demo configured for this active workspace.</span>
+        </div>
+        <a id="testStorefrontLink" href="/widget/demo" target="_blank" class="btn btn-primary btn-sm">
+          Open Customer Demo ↗
+        </a>
+      </div>
+    </section>
+
+    <!-- ======================================================================= -->
+    <!-- 6. CUSTOMER MEMORY & PRIVACY CONTROLS (GDPR RTBF) -->
+    <!-- ======================================================================= -->
+    <section class="card hidden" id="memorySection">
+      <div class="card-header">
+        <div>
+          <h2 class="card-title">🧠 Customer Memory & Privacy Controls</h2>
+          <p class="card-subtitle">Inspect persistent customer memories, manage retention TTLs, and execute technical Right-to-be-Forgotten erasures.</p>
+        </div>
+        <div>
+          <button class="btn btn-secondary" onclick="toggleAddMemoryForm()">
+            + Add Customer Memory
+          </button>
+        </div>
+      </div>
+
+      <!-- Architectural Context Alert -->
+      <div class="alert alert-info" style="margin-bottom: 20px;">
+        <div>
+          <strong>ℹ️ Architectural Context:</strong>
+          Short-term conversation context (multi-turn pronouns, ellipsis, topic flow) is ephemeral and session-scoped (<code>session_id</code>).
+          In contrast, <strong>Customer Memory</strong> represents persistent long-term customer context (profile, preferences, loyalty status)
+          subject to configurable TTL retention and GDPR Right-to-be-Forgotten compliance.
+        </div>
+      </div>
+
+      <!-- Lookup Controls -->
+      <div class="form-grid" style="margin-bottom: 20px; align-items: flex-end;">
+        <div class="form-group" style="flex: 1;">
+          <label for="inputCustomerIdLookup">Lookup Customer ID</label>
+          <input type="text" id="inputCustomerIdLookup" placeholder="e.g. cust_demo_01" value="cust_demo_01">
+        </div>
+        <div class="form-group" style="width: auto;">
+          <button class="btn btn-primary" onclick="lookupCustomerMemory()">
+            🔍 Search Records
+          </button>
+        </div>
+      </div>
+
+      <!-- Add Memory Form (Hidden by default) -->
+      <div id="addMemoryBox" class="hidden" style="background: #f8fafc; border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 20px;">
+        <h3 style="font-size: 1rem; margin-bottom: 14px; color: #1e293b;">Store New Customer Memory Record</h3>
+        <form onsubmit="handleAddMemorySubmit(event)">
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="selectMemoryCategory">Memory Category</label>
+              <select id="selectMemoryCategory" required>
+                <option value="profile">Profile & Contact</option>
+                <option value="preference">Customer Preference</option>
+                <option value="account">Account & Tier Status</option>
+                <option value="history">Historical Resolution Context</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="selectMemoryTtl">Retention Period (TTL)</label>
+              <select id="selectMemoryTtl">
+                <option value="30">30 Days</option>
+                <option value="90" selected>90 Days (Standard)</option>
+                <option value="180">180 Days</option>
+                <option value="365">1 Year (365 Days)</option>
+                <option value="0">Permanent (No Expiration)</option>
+              </select>
+            </div>
+            <div class="form-group" style="grid-column: span 2;">
+              <label for="inputMemoryContent">Memory Content / Proposition</label>
+              <input type="text" id="inputMemoryContent" placeholder="e.g. Customer prefers email correspondence over phone calls." required>
+            </div>
+          </div>
+          <div style="display: flex; justify-content: flex-end; gap: 10px; margin-top: 14px;">
+            <button type="button" class="btn btn-secondary" onclick="toggleAddMemoryForm()">Cancel</button>
+            <button type="submit" id="addMemorySubmitBtn" class="btn btn-primary">Save Memory Record</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Memory Records Table -->
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Memory ID</th>
+              <th>Category</th>
+              <th>Memory Content</th>
+              <th>Confidence</th>
+              <th>Expires At</th>
+              <th>Status</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="memoryTableBody">
+            <tr><td colspan="7" style="text-align: center; color: var(--text-muted);">Enter a Customer ID and click 'Search Records' to inspect persistent memories.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Bulk Right-to-be-Forgotten Wipe -->
+      <div id="rtbfPurgeBox" class="hidden" style="margin-top: 20px; display: flex; align-items: center; justify-content: space-between; background: #fef2f2; border: 1px solid #fecaca; border-radius: 8px; padding: 14px 18px;">
+        <div>
+          <strong style="color: #991b1b;">⚠️ GDPR Right-to-be-Forgotten:</strong>
+          <span style="font-size: 0.85rem; color: #991b1b; margin-left: 6px;">Irrevocably erase all persistent memory records for customer <code id="rtbfCustomerTarget"></code>.</span>
+        </div>
+        <button class="btn btn-danger btn-sm" onclick="purgeCustomerMemoryRtbf()">
+          🚫 Purge All Customer Records
+        </button>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======================================================================= -->
+  <!-- APPLICATION LOGIC (Vanilla JS, Zero Persistent Storage of Secrets) -->
+  <!-- ======================================================================= -->
+  <script>
+    // In-Memory Session State (NEVER stored in localStorage)
+    const state = {
+      apiKey: null,
+      tenant: null,
+      workspaces: [],
+      activeWorkspaceId: null,
+      activeChecklist: [],
+      activeReadiness: null,
+      activeDocuments: [],
+      selectedFile: null
+    };
+
+    const API_BASE = window.location.origin;
+
+    // Helper: Escape HTML
+    function escapeHtml(str) {
+      if (str === null || str === undefined) return '';
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    function showFlash(type, message) {
+      const box = document.getElementById('globalAlert');
+      box.className = `alert alert-${type}`;
+      box.innerHTML = `<div>${escapeHtml(message)}</div>`;
+      box.classList.remove('hidden');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function clearFlash() {
+      const box = document.getElementById('globalAlert');
+      box.classList.add('hidden');
+      box.innerHTML = '';
+    }
+
+    function togglePasswordVisibility(inputId) {
+      const el = document.getElementById(inputId);
+      el.type = el.type === 'password' ? 'text' : 'password';
+    }
+
+    function switchAuthTab(tab) {
+      clearFlash();
+      const tabConnect = document.getElementById('tabConnectBtn');
+      const tabRegister = document.getElementById('tabRegisterBtn');
+      const panelConnect = document.getElementById('authConnectPanel');
+      const panelRegister = document.getElementById('authRegisterPanel');
+
+      if (tab === 'connect') {
+        tabConnect.classList.add('active');
+        tabRegister.classList.remove('active');
+        panelConnect.classList.remove('hidden');
+        panelRegister.classList.add('hidden');
+      } else {
+        tabConnect.classList.remove('active');
+        tabRegister.classList.add('active');
+        panelConnect.classList.add('hidden');
+        panelRegister.classList.remove('hidden');
+      }
+    }
+
+    function fillDemoCredentials() {
+      document.getElementById('inputApiKey').value = 'cap_demo_admin_key';
+    }
+
+    // Connect with API Key
+    async function handleConnect(event) {
+      event.preventDefault();
+      clearFlash();
+      const keyInput = document.getElementById('inputApiKey').value.trim();
+      if (!keyInput) return;
+
+      const btn = document.getElementById('connectSubmitBtn');
+      btn.disabled = true;
+      btn.innerHTML = '<span class="spinner"></span> Connecting...';
+
+      try {
+        const resp = await fetch(`${API_BASE}/api/v1/workspaces`, {
+          headers: { 'Authorization': `Bearer ${keyInput}` }
+        });
+
+        if (!resp.ok) {
+          const errData = await resp.json().catch(() => ({}));
+          throw new Error(errData.detail || `Authentication failed (${resp.status})`);
+        }
+
+        const workspaces = await resp.json();
+        state.apiKey = keyInput;
+        state.workspaces = workspaces;
+
+        onSessionConnected();
+      } catch (err) {
+        showFlash('danger', `Connection Error: ${err.message}`);
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = 'Connect Session';
+      }
+    }
+
+    // Register New Business Tenant
+    async function handleRegister(event) {
+      event.preventDefault();
+      clearFlash();
+      const name = document.getElementById('inputTenantName').value.trim();
+      const email = document.getElementById('inputTenantEmail').value.trim();
+
+      const btn = document.getElementById('registerSubmitBtn');
+      btn.disabled = true;
+      btn.innerHTML = '<span class="spinner"></span> Registering...';
+
+      try {
+        const resp = await fetch(`${API_BASE}/api/v1/tenants/register`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ name, email })
+        });
+
+        if (!resp.ok) {
+          const errData = await resp.json().catch(() => ({}));
+          throw new Error(errData.detail || `Registration failed (${resp.status})`);
+        }
+
+        const data = await resp.json();
+        state.apiKey = data.api_key;
+        state.tenant = data;
+
+        // Reveal Key
+        document.getElementById('revealedKeyText').innerText = data.api_key;
+        document.getElementById('keyRevealBox').classList.remove('hidden');
+
+        // Automatically load workspaces
+        const wsResp = await fetch(`${API_BASE}/api/v1/workspaces`, {
+          headers: { 'Authorization': `Bearer ${data.api_key}` }
+        });
+        state.workspaces = wsResp.ok ? await wsResp.json() : [];
+
+        onSessionConnected();
+      } catch (err) {
+        showFlash('danger', `Registration Error: ${err.message}`);
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = 'Register Business & Generate Root Key';
+      }
+    }
+
+    function copyRevealedKey() {
+      const text = document.getElementById('revealedKeyText').innerText;
+      navigator.clipboard.writeText(text);
+      alert('Master API Key copied to clipboard! Store it safely.');
+    }
+
+    function onSessionConnected() {
+      // Update Navbar Session Status
+      const badge = document.getElementById('sessionStatusBadge');
+      badge.className = 'session-badge connected';
+      badge.innerText = `🟢 Connected (${state.workspaces.length} Workspaces)`;
+      document.getElementById('lockSessionBtn').classList.remove('hidden');
+
+      // Unhide sections
+      document.getElementById('workspaceSection').classList.remove('hidden');
+
+      // Render workspaces
+      renderWorkspaceGrid();
+
+      // If workspaces exist, select the first one automatically
+      if (state.workspaces.length > 0) {
+        selectWorkspace(state.workspaces[0].workspace_id);
+      } else {
+        document.getElementById('createWorkspaceBox').classList.remove('hidden');
+      }
+    }
+
+    function disconnectSession() {
+      state.apiKey = null;
+      state.tenant = null;
+      state.workspaces = [];
+      state.activeWorkspaceId = null;
+      state.activeChecklist = [];
+      state.activeReadiness = null;
+      state.activeDocuments = [];
+
+      document.getElementById('inputApiKey').value = '';
+      document.getElementById('keyRevealBox').classList.add('hidden');
+
+      document.getElementById('sessionStatusBadge').className = 'session-badge';
+      document.getElementById('sessionStatusBadge').innerText = '🔒 Session: Disconnected';
+      document.getElementById('lockSessionBtn').classList.add('hidden');
+
+      document.getElementById('workspaceSection').classList.add('hidden');
+      document.getElementById('checklistSection').classList.add('hidden');
+      document.getElementById('uploadSection').classList.add('hidden');
+      document.getElementById('integrationSection').classList.add('hidden');
+      document.getElementById('memorySection').classList.add('hidden');
+
+      showFlash('info', 'Administrative session locked. In-memory keys cleared.');
+    }
+
+    function toggleCreateWorkspaceForm() {
+      const box = document.getElementById('createWorkspaceBox');
+      box.classList.toggle('hidden');
+    }
+
+    async function handleCreateWorkspace(event) {
+      event.preventDefault();
+      clearFlash();
+
+      const name = document.getElementById('inputWsName').value.trim();
+      const domain = document.getElementById('selectWsDomain').value;
+      const description = document.getElementById('inputWsDesc').value.trim();
+
+      const btn = document.getElementById('createWsBtn');
+      btn.disabled = true;
+      btn.innerHTML = '<span class="spinner"></span> Creating...';
+
+      try {
+        const resp = await fetch(`${API_BASE}/api/v1/workspaces`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${state.apiKey}`
+          },
+          body: JSON.stringify({ name, domain, description: description || null })
+        });
+
+        if (!resp.ok) {
+          const errData = await resp.json().catch(() => ({}));
+          throw new Error(errData.detail || `Failed to create workspace (${resp.status})`);
+        }
+
+        const newWs = await resp.json();
+        state.workspaces.unshift(newWs);
+        renderWorkspaceGrid();
+        toggleCreateWorkspaceForm();
+        document.getElementById('inputWsName').value = '';
+        document.getElementById('inputWsDesc').value = '';
+
+        showFlash('success', `Workspace "${newWs.name}" created successfully with domain "${newWs.domain}".`);
+        selectWorkspace(newWs.workspace_id);
+      } catch (err) {
+        showFlash('danger', `Workspace Creation Error: ${err.message}`);
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = 'Create Workspace';
+      }
+    }
+
+    function renderWorkspaceGrid() {
+      const grid = document.getElementById('workspaceGrid');
+      if (!state.workspaces.length) {
+        grid.innerHTML = '<div style="color: var(--text-muted); font-size: 0.9rem;">No workspaces found. Click "+ Add New Workspace" to create one.</div>';
+        return;
+      }
+
+      grid.innerHTML = state.workspaces.map(ws => {
+        const isSelected = ws.workspace_id === state.activeWorkspaceId;
+        const domClass = ws.domain.toLowerCase().replace(/[^a-z0-9]/g, '_');
+        return `
+          <div class="workspace-card ${isSelected ? 'selected' : ''}" onclick="selectWorkspace('${ws.workspace_id}')">
+            <div class="workspace-card-header">
+              <span class="workspace-name">${escapeHtml(ws.name)}</span>
+              <span class="domain-badge ${domClass}">${escapeHtml(ws.domain)}</span>
+            </div>
+            <div style="font-size: 0.85rem; color: var(--text-muted);">
+              ID: <code>${escapeHtml(ws.workspace_id)}</code>
+            </div>
+            ${ws.description ? `<div style="font-size: 0.82rem; color: #475569;">${escapeHtml(ws.description)}</div>` : ''}
+            <div class="workspace-meta">
+              <span>Status: <strong style="color: #16a34a;">Active</strong></span>
+              <span style="font-size: 0.8rem; color: var(--primary);">Select to configure →</span>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    async function selectWorkspace(workspaceId) {
+      state.activeWorkspaceId = workspaceId;
+      renderWorkspaceGrid();
+      await refreshActiveWorkspaceData();
+    }
+
+    async function refreshActiveWorkspaceData() {
+      if (!state.activeWorkspaceId || !state.apiKey) return;
+
+      const ws = state.workspaces.find(w => w.workspace_id === state.activeWorkspaceId);
+      if (!ws) return;
+
+      // Update section headers
+      document.getElementById('activeWorkspaceHeader').innerText = `📋 ${ws.name} Knowledge Checklist`;
+      document.getElementById('activeWorkspaceSubheader').innerText = `Domain: ${ws.domain} | Workspace ID: ${ws.workspace_id}`;
+      document.getElementById('statDomainDisplay').innerText = ws.domain;
+
+      // Unhide downstream sections
+      document.getElementById('checklistSection').classList.remove('hidden');
+      document.getElementById('uploadSection').classList.remove('hidden');
+      document.getElementById('integrationSection').classList.remove('hidden');
+      document.getElementById('memorySection').classList.remove('hidden');
+
+      // Fetch in parallel: Checklist, Readiness, Documents, Widget Token
+      try {
+        const authHeaders = { 'Authorization': `Bearer ${state.apiKey}` };
+
+        const [chkResp, readResp, docsResp, tokResp] = await Promise.all([
+          fetch(`${API_BASE}/api/v1/workspaces/${ws.workspace_id}/checklist`, { headers: authHeaders }),
+          fetch(`${API_BASE}/api/v1/workspaces/${ws.workspace_id}/readiness`, { headers: authHeaders }),
+          fetch(`${API_BASE}/api/v1/workspaces/${ws.workspace_id}/documents`, { headers: authHeaders }),
+          fetch(`${API_BASE}/api/v1/workspaces/${ws.workspace_id}/widget/token`, { headers: authHeaders })
+        ]);
+
+        if (chkResp.ok) state.activeChecklist = await chkResp.json();
+        if (readResp.ok) state.activeReadiness = await readResp.json();
+        if (docsResp.ok) state.activeDocuments = await docsResp.json();
+        const tokenData = tokResp.ok ? await tokResp.json() : null;
+
+        renderReadinessGauge();
+        renderChecklistTable();
+        renderUploadCategoryDropdown();
+        renderDocumentsTable();
+        renderIntegrationCard(tokenData);
+        await lookupCustomerMemory();
+      } catch (err) {
+        showFlash('danger', `Error fetching workspace details: ${err.message}`);
+      }
+    }
+
+    function renderReadinessGauge() {
+      const r = state.activeReadiness;
+      if (!r) return;
+
+      const pct = Math.round(r.readiness_percentage || 0);
+      document.getElementById('readinessPercentText').innerText = `${pct}%`;
+      document.getElementById('statRequiredDisplay').innerText = `${r.required_completed} / ${r.required_categories}`;
+      document.getElementById('statRecommendedDisplay').innerText = `${r.recommended_completed} / ${r.total_categories - r.required_categories}`;
+
+      const bar = document.getElementById('readinessProgressBar');
+      bar.style.width = `${pct}%`;
+
+      const circle = document.getElementById('readinessGaugeCircle');
+      const label = document.getElementById('readinessStatusLabel');
+
+      circle.className = 'gauge-circle';
+      bar.className = 'progress-bar-fill';
+
+      if (r.is_ready_for_testing) {
+        circle.classList.add('ready');
+        bar.classList.add('ready');
+        label.innerText = 'Ready For Testing';
+        label.style.color = 'var(--success)';
+      } else {
+        circle.classList.add(pct < 40 ? 'incomplete' : 'warning');
+        label.innerText = pct < 40 ? 'Incomplete KB' : 'Partially Ready';
+        label.style.color = pct < 40 ? 'var(--danger)' : 'var(--warning)';
+      }
+
+      // Missing Categories Warnings
+      const missingBox = document.getElementById('missingCategoriesAlert');
+      const missingList = document.getElementById('missingCategoriesList');
+      if (r.missing_required_categories && r.missing_required_categories.length > 0) {
+        missingList.innerHTML = r.missing_required_categories.map((cat, idx) => {
+          const warning = (r.unanswerable_query_warnings && r.unanswerable_query_warnings[idx]) || 'Queries regarding this category will safely escalate.';
+          return `<li><strong>${escapeHtml(cat)}:</strong> ${escapeHtml(warning)}</li>`;
+        }).join('');
+        missingBox.classList.remove('hidden');
+      } else {
+        missingBox.classList.add('hidden');
+      }
+    }
+
+    function renderChecklistTable() {
+      const tbody = document.getElementById('checklistTableBody');
+      if (!state.activeChecklist.length) {
+        tbody.innerHTML = '<tr><td colspan="5" style="text-align: center; color: var(--text-muted);">No checklist categories defined.</td></tr>';
+        return;
+      }
+
+      tbody.innerHTML = state.activeChecklist.map(item => {
+        const statusClass = item.status.toLowerCase().replace(/[^a-z0-9]/g, '-');
+        const isReqBadge = item.is_required
+          ? '<span class="status-badge" style="background:#fee2e2; color:#b91c1c;">Required</span>'
+          : '<span class="status-badge" style="background:#eff6ff; color:#1d4ed8;">Recommended</span>';
+
+        const linkedDoc = item.filename
+          ? `<strong>${escapeHtml(item.filename)}</strong> <span style="font-size:0.8rem; color:var(--text-muted);">(${item.extracted_records_count} chunks)</span>`
+          : '<span style="color:var(--text-muted); font-size:0.85rem;">None</span>';
+
+        return `
+          <tr>
+            <td>
+              <strong>${escapeHtml(item.category_name)}</strong>
+              <div style="font-size:0.78rem; color:var(--text-muted);"><code>${escapeHtml(item.category_key)}</code></div>
+            </td>
+            <td>${isReqBadge}</td>
+            <td><span class="status-badge ${statusClass}">${escapeHtml(item.status)}</span></td>
+            <td>${linkedDoc}</td>
+            <td>
+              <button class="btn btn-secondary btn-sm" onclick="preselectUploadCategory('${item.category_key}')">
+                📤 Upload
+              </button>
+            </td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    function renderUploadCategoryDropdown() {
+      const select = document.getElementById('selectUploadCategory');
+      select.innerHTML = '<option value="">-- Select a Category --</option>' +
+        state.activeChecklist.map(c => `
+          <option value="${escapeHtml(c.category_key)}">
+            ${c.is_required ? '🔴 [Required]' : '🔵 [Recommended]'} ${escapeHtml(c.category_name)}
+          </option>
+        `).join('');
+    }
+
+    function preselectUploadCategory(categoryKey) {
+      document.getElementById('selectUploadCategory').value = categoryKey;
+      document.getElementById('uploadSection').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function toggleAddCustomCategoryForm() {
+      document.getElementById('addCustomCategoryBox').classList.toggle('hidden');
+    }
+
+    async function handleAddCustomCategory(event) {
+      event.preventDefault();
+      clearFlash();
+      const name = document.getElementById('inputCustomCatName').value.trim();
+      const isReq = document.getElementById('checkCustomRequired').checked;
+
+      const btn = document.getElementById('addCustomCatBtn');
+      btn.disabled = true;
+      btn.innerHTML = '<span class="spinner"></span> Adding...';
+
+      try {
+        const resp = await fetch(`${API_BASE}/api/v1/workspaces/${state.activeWorkspaceId}/checklist/custom`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${state.apiKey}`
+          },
+          body: JSON.stringify({ category_name: name, is_required: isReq })
+        });
+
+        if (!resp.ok) {
+          const errData = await resp.json().catch(() => ({}));
+          throw new Error(errData.detail || `Failed to add category (${resp.status})`);
+        }
+
+        document.getElementById('inputCustomCatName').value = '';
+        document.getElementById('checkCustomRequired').checked = false;
+        toggleAddCustomCategoryForm();
+
+        showFlash('success', `Custom category "${name}" added to checklist.`);
+        await refreshActiveWorkspaceData();
+      } catch (err) {
+        showFlash('danger', `Add Category Error: ${err.message}`);
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = 'Add Category';
+      }
+    }
+
+    // Drag & Drop File Handling
+    const dropzone = document.getElementById('fileDropzone');
+    ['dragenter', 'dragover'].forEach(eventName => {
+      dropzone.addEventListener(eventName, (e) => {
+        e.preventDefault();
+        dropzone.classList.add('dragover');
+      }, false);
+    });
+
+    ['dragleave', 'drop'].forEach(eventName => {
+      dropzone.addEventListener(eventName, (e) => {
+        e.preventDefault();
+        dropzone.classList.remove('dragover');
+      }, false);
+    });
+
+    dropzone.addEventListener('drop', (e) => {
+      const dt = e.dataTransfer;
+      const files = dt.files;
+      if (files.length) {
+        setFile(files[0]);
+      }
+    });
+
+    function handleFileSelected(input) {
+      if (input.files && input.files.length) {
+        setFile(input.files[0]);
+      }
+    }
+
+    function setFile(file) {
+      const allowedExts = ['.pdf', '.docx', '.txt', '.csv'];
+      const ext = '.' + file.name.split('.').pop().toLowerCase();
+      if (!allowedExts.includes(ext)) {
+        alert(`Unsupported file format "${ext}". Allowed formats are: .pdf, .docx, .txt, .csv`);
+        return;
+      }
+
+      state.selectedFile = file;
+      document.getElementById('dropzoneText').innerText = `Selected: ${file.name}`;
+      document.getElementById('selectedFileInfo').innerText = `Size: ${(file.size / 1024).toFixed(1)} KB | Format: ${ext}`;
+      document.getElementById('uploadBtn').disabled = false;
+    }
+
+    async function handleUploadSubmit(event) {
+      event.preventDefault();
+      clearFlash();
+      const feedback = document.getElementById('uploadFeedbackAlert');
+      feedback.classList.add('hidden');
+
+      const catKey = document.getElementById('selectUploadCategory').value;
+      if (!catKey) {
+        alert('Please select a target policy category from the dropdown.');
+        return;
+      }
+
+      if (!state.selectedFile) {
+        alert('Please choose or drop a document file to upload.');
+        return;
+      }
+
+      const btn = document.getElementById('uploadBtn');
+      btn.disabled = true;
+      btn.innerHTML = '<span class="spinner"></span> Extracting & Indexing...';
+
+      const formData = new FormData();
+      formData.append('category_key', catKey);
+      formData.append('file', state.selectedFile);
+
+      try {
+        const resp = await fetch(`${API_BASE}/api/v1/workspaces/${state.activeWorkspaceId}/documents/upload`, {
+          method: 'POST',
+          headers: { 'Authorization': `Bearer ${state.apiKey}` },
+          body: formData
+        });
+
+        if (!resp.ok) {
+          const errData = await resp.json().catch(() => ({}));
+          throw new Error(errData.detail || `Upload failed with HTTP ${resp.status}`);
+        }
+
+        const res = await resp.json();
+        feedback.className = 'alert alert-success';
+        feedback.innerHTML = `
+          <div>
+            <strong>✅ Document Ingestion Succeeded!</strong>
+            <p style="font-size:0.85rem; margin-top:4px;">
+              Document <code>${escapeHtml(res.filename)}</code> processed. Extracted <strong>${res.chunks_indexed}</strong> vector chunks (${res.character_count} characters) into workspace collection.
+            </p>
+          </div>
+        `;
+        feedback.classList.remove('hidden');
+
+        // Reset file selection
+        state.selectedFile = null;
+        document.getElementById('fileInput').value = '';
+        document.getElementById('dropzoneText').innerText = 'Drag and drop document here, or click to browse';
+        document.getElementById('selectedFileInfo').innerText = 'Accepted formats: .pdf, .docx, .txt, .csv';
+        btn.disabled = true;
+
+        // Refresh all workspace metrics
+        await refreshActiveWorkspaceData();
+      } catch (err) {
+        feedback.className = 'alert alert-danger';
+        feedback.innerHTML = `<div><strong>❌ Ingestion Error:</strong> ${escapeHtml(err.message)}</div>`;
+        feedback.classList.remove('hidden');
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = 'Upload & Index Document';
+      }
+    }
+
+    function renderDocumentsTable() {
+      const tbody = document.getElementById('documentsTableBody');
+      if (!state.activeDocuments.length) {
+        tbody.innerHTML = '<tr><td colspan="6" style="text-align: center; color: var(--text-muted);">No documents indexed in this workspace yet.</td></tr>';
+        return;
+      }
+
+      tbody.innerHTML = state.activeDocuments.map(doc => `
+        <tr>
+          <td><strong>${escapeHtml(doc.filename)}</strong></td>
+          <td><code>${escapeHtml(doc.category_key || '—')}</code></td>
+          <td>${doc.chunk_count || 0}</td>
+          <td>${(doc.char_count || 0).toLocaleString()}</td>
+          <td><code style="font-size:0.78rem;">${escapeHtml(doc.document_id)}</code></td>
+          <td>
+            <button class="btn btn-danger btn-sm" onclick="deleteDocument('${doc.document_id}', '${escapeHtml(doc.filename)}')">
+              🗑️ Delete
+            </button>
+          </td>
+        </tr>
+      `).join('');
+    }
+
+    async function deleteDocument(documentId, filename) {
+      if (!confirm(`Are you sure you want to delete document "${filename}"? This will permanently purge its vector chunks and reset the checklist category.`)) {
+        return;
+      }
+
+      try {
+        const resp = await fetch(`${API_BASE}/api/v1/workspaces/${state.activeWorkspaceId}/documents/${documentId}`, {
+          method: 'DELETE',
+          headers: { 'Authorization': `Bearer ${state.apiKey}` }
+        });
+
+        if (!resp.ok) {
+          const errData = await resp.json().catch(() => ({}));
+          throw new Error(errData.detail || `Failed to delete document (${resp.status})`);
+        }
+
+        showFlash('success', `Document "${filename}" deleted and vector chunks purged.`);
+        await refreshActiveWorkspaceData();
+      } catch (err) {
+        showFlash('danger', `Delete Error: ${err.message}`);
+      }
+    }
+
+    function renderIntegrationCard(tokenData) {
+      const token = (tokenData && tokenData.widget_token) || 'wtk_not_available';
+      document.getElementById('displayWidgetToken').value = token;
+
+      // Update Embed Snippet
+      const snippet = '<' + '!-- Autonomous Customer Support Widget Embed --' + '>\n' +
+        '<' + 'script\n' +
+        `  src="${API_BASE}/static/widget.js"\n` +
+        `  data-workspace-id="${state.activeWorkspaceId}"\n` +
+        `  data-widget-token="${token}"\n` +
+        `  data-customer-id="cust_demo_01"\n` +
+        `  data-api-base="${API_BASE}">\n` +
+        '<' + '/script>';
+      document.getElementById('embedSnippetCode').innerText = snippet;
+
+      // Update Storefront Link
+      document.getElementById('testStorefrontLink').href = `/widget/demo?workspace_id=${state.activeWorkspaceId}&token=${token}&customer_id=cust_demo_01`;
+    }
+
+    function copyWidgetToken() {
+      const token = document.getElementById('displayWidgetToken').value;
+      navigator.clipboard.writeText(token);
+      alert('Public Widget Token copied to clipboard!');
+    }
+
+    function copyEmbedSnippet() {
+      const snippet = document.getElementById('embedSnippetCode').innerText;
+      navigator.clipboard.writeText(snippet);
+      alert('HTML embed snippet copied to clipboard!');
+    }
+
+    async function rotateWidgetToken() {
+      if (!confirm('Are you sure you want to rotate the widget token? Existing website embeds will stop working until updated.')) {
+        return;
+      }
+
+      try {
+        const resp = await fetch(`${API_BASE}/api/v1/workspaces/${state.activeWorkspaceId}/widget/token/rotate`, {
+          method: 'POST',
+          headers: { 'Authorization': `Bearer ${state.apiKey}` }
+        });
+        if (!resp.ok) throw new Error('Token rotation failed');
+        const data = await resp.json();
+        showFlash('success', 'Widget token rotated successfully. Embed snippet updated.');
+        renderIntegrationCard(data);
+      } catch (err) {
+        showFlash('danger', err.message);
+      }
+    }
+
+    async function revokeWidgetToken() {
+      if (!confirm('Are you sure you want to revoke the widget token? Customer chat queries from external websites will immediately be rejected.')) {
+        return;
+      }
+
+      try {
+        const resp = await fetch(`${API_BASE}/api/v1/workspaces/${state.activeWorkspaceId}/widget/token/revoke`, {
+          method: 'POST',
+          headers: { 'Authorization': `Bearer ${state.apiKey}` }
+        });
+        if (!resp.ok) throw new Error('Token revocation failed');
+        const data = await resp.json();
+        showFlash('warning', 'Widget token revoked. External queries are now blocked.');
+        renderIntegrationCard(data);
+      } catch (err) {
+        showFlash('danger', err.message);
+      }
+    }
+
+    async function downloadWorkspaceZipKit() {
+      if (!state.activeWorkspaceId || !state.apiKey) return;
+      const downloadUrl = `${API_BASE}/api/v1/workspaces/${state.activeWorkspaceId}/integration/download-kit`;
+
+      try {
+        const resp = await fetch(downloadUrl, {
+          headers: { 'Authorization': `Bearer ${state.apiKey}` }
+        });
+
+        if (!resp.ok) {
+          const errData = await resp.json().catch(() => ({}));
+          throw new Error(errData.detail || `Download failed (${resp.status})`);
+        }
+
+        const blob = await resp.blob();
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `integration-kit-${state.activeWorkspaceId}.zip`;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        window.URL.revokeObjectURL(url);
+      } catch (err) {
+        showFlash('danger', `Failed to download integration ZIP: ${err.message}`);
+      }
+    }
+
+    // =======================================================================
+    // CUSTOMER MEMORY & PRIVACY CONTROLS (GDPR RTBF)
+    // =======================================================================
+    function toggleAddMemoryForm() {
+      document.getElementById('addMemoryBox').classList.toggle('hidden');
+    }
+
+    async function lookupCustomerMemory() {
+      const custId = document.getElementById('inputCustomerIdLookup').value.trim();
+      const tbody = document.getElementById('memoryTableBody');
+      const rtbfBox = document.getElementById('rtbfPurgeBox');
+
+      if (!state.activeWorkspaceId || !state.apiKey) return;
+      if (!custId) {
+        tbody.innerHTML = '<tr><td colspan="7" style="text-align: center; color: var(--text-muted);">Please enter a Customer ID to query memories.</td></tr>';
+        rtbfBox.classList.add('hidden');
+        return;
+      }
+
+      tbody.innerHTML = '<tr><td colspan="7" style="text-align: center;"><span class="spinner"></span> Loading customer memories...</td></tr>';
+
+      try {
+        const resp = await fetch(`${API_BASE}/api/v1/workspaces/${state.activeWorkspaceId}/customers/${encodeURIComponent(custId)}/memory?include_expired=true`, {
+          headers: { 'Authorization': `Bearer ${state.apiKey}` }
+        });
+
+        if (!resp.ok) {
+          const errData = await resp.json().catch(() => ({}));
+          throw new Error(errData.detail || `Query failed (${resp.status})`);
+        }
+
+        const data = await resp.json();
+        const memories = data.memories || [];
+        renderMemoryTable(memories, custId);
+      } catch (err) {
+        tbody.innerHTML = `<tr><td colspan="7" style="text-align: center; color: var(--danger);">Error loading memories: ${escapeHtml(err.message)}</td></tr>`;
+        rtbfBox.classList.add('hidden');
+      }
+    }
+
+    function renderMemoryTable(memories, customerId) {
+      const tbody = document.getElementById('memoryTableBody');
+      const rtbfBox = document.getElementById('rtbfPurgeBox');
+
+      if (!memories.length) {
+        tbody.innerHTML = `<tr><td colspan="7" style="text-align: center; color: var(--text-muted);">No persistent memory records found for customer <code>${escapeHtml(customerId)}</code>.</td></tr>`;
+        rtbfBox.classList.add('hidden');
+        return;
+      }
+
+      document.getElementById('rtbfCustomerTarget').innerText = customerId;
+      rtbfBox.classList.remove('hidden');
+
+      tbody.innerHTML = memories.map(m => {
+        const isExpired = m.status === 'Expired' || (m.expires_at && new Date(m.expires_at) <= new Date());
+        const statusBadge = isExpired
+          ? '<span class="status-badge" style="background:#f1f5f9; color:#64748b;">Expired</span>'
+          : '<span class="status-badge validated">Active</span>';
+
+        const expiresDisplay = m.expires_at ? new Date(m.expires_at).toLocaleDateString() : 'Permanent';
+
+        return `
+          <tr>
+            <td><code style="font-size:0.78rem;">${escapeHtml(m.memory_id)}</code></td>
+            <td><span class="status-badge" style="background:#eff6ff; color:#1d4ed8;">${escapeHtml(m.memory_category)}</span></td>
+            <td><strong>${escapeHtml(m.memory_content)}</strong></td>
+            <td>${(m.confidence * 100).toFixed(0)}%</td>
+            <td>${expiresDisplay}</td>
+            <td>${statusBadge}</td>
+            <td>
+              <button class="btn btn-danger btn-sm" onclick="deleteIndividualMemory('${escapeHtml(m.memory_id)}', '${escapeHtml(customerId)}')">
+                🗑️ Delete
+              </button>
+            </td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    async function handleAddMemorySubmit(event) {
+      event.preventDefault();
+      clearFlash();
+
+      const custId = document.getElementById('inputCustomerIdLookup').value.trim();
+      const category = document.getElementById('selectMemoryCategory').value;
+      const ttlDays = parseInt(document.getElementById('selectMemoryTtl').value, 10);
+      const content = document.getElementById('inputMemoryContent').value.trim();
+
+      if (!custId || !content) {
+        alert('Please provide Customer ID and Memory Content.');
+        return;
+      }
+
+      const btn = document.getElementById('addMemorySubmitBtn');
+      btn.disabled = true;
+      btn.innerHTML = '<span class="spinner"></span> Saving...';
+
+      const payload = {
+        category: category,
+        content: content,
+        confidence: 1.0,
+        ttl_days: ttlDays > 0 ? ttlDays : null
+      };
+
+      try {
+        const resp = await fetch(`${API_BASE}/api/v1/workspaces/${state.activeWorkspaceId}/customers/${encodeURIComponent(custId)}/memory`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${state.apiKey}`
+          },
+          body: JSON.stringify(payload)
+        });
+
+        if (!resp.ok) {
+          const errData = await resp.json().catch(() => ({}));
+          throw new Error(errData.detail || `Save failed (${resp.status})`);
+        }
+
+        document.getElementById('inputMemoryContent').value = '';
+        toggleAddMemoryForm();
+        showFlash('success', `Customer memory saved with ${ttlDays > 0 ? (ttlDays + ' days retention') : 'permanent retention'}.`);
+        await lookupCustomerMemory();
+      } catch (err) {
+        showFlash('danger', `Save Memory Error: ${err.message}`);
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = 'Save Memory Record';
+      }
+    }
+
+    async function deleteIndividualMemory(memoryId, customerId) {
+      if (!confirm(`Are you sure you want to delete memory record "${memoryId}"?`)) return;
+
+      try {
+        const resp = await fetch(`${API_BASE}/api/v1/workspaces/${state.activeWorkspaceId}/customers/${encodeURIComponent(customerId)}/memory/${encodeURIComponent(memoryId)}`, {
+          method: 'DELETE',
+          headers: { 'Authorization': `Bearer ${state.apiKey}` }
+        });
+
+        if (!resp.ok) {
+          const errData = await resp.json().catch(() => ({}));
+          throw new Error(errData.detail || `Delete failed (${resp.status})`);
+        }
+
+        showFlash('success', `Customer memory "${memoryId}" permanently deleted.`);
+        await lookupCustomerMemory();
+      } catch (err) {
+        showFlash('danger', `Delete Memory Error: ${err.message}`);
+      }
+    }
+
+    async function purgeCustomerMemoryRtbf() {
+      const custId = document.getElementById('inputCustomerIdLookup').value.trim();
+      if (!custId) return;
+
+      const confirmed = confirm(`TECHNICAL RIGHT-TO-BE-FORGOTTEN (GDPR):\n\nAre you sure you want to permanently erase ALL persistent memory records for customer "${custId}" in this workspace?\n\nThis operation cannot be undone.`);
+      if (!confirmed) return;
+
+      try {
+        const resp = await fetch(`${API_BASE}/api/v1/workspaces/${state.activeWorkspaceId}/customers/${encodeURIComponent(custId)}/memory`, {
+          method: 'DELETE',
+          headers: { 'Authorization': `Bearer ${state.apiKey}` }
+        });
+
+        if (!resp.ok) {
+          const errData = await resp.json().catch(() => ({}));
+          throw new Error(errData.detail || `Purge failed (${resp.status})`);
+        }
+
+        const data = await resp.json();
+        showFlash('warning', `Technical erasure complete: ${data.message}`);
+        await lookupCustomerMemory();
+      } catch (err) {
+        showFlash('danger', `Purge Error: ${err.message}`);
+      }
+    }
+
+    // Auto-connect if ?key=... or ?demo=1 is provided in URL
+    window.addEventListener('DOMContentLoaded', () => {
+      const params = new URLSearchParams(window.location.search);
+      const autoKey = params.get('key');
+      const autoDemo = params.get('demo');
+      if (autoKey) {
+        document.getElementById('inputApiKey').value = autoKey;
+        handleConnect({ preventDefault: () => {} });
+      } else if (autoDemo === '1') {
+        fillDemoCredentials();
+        handleConnect({ preventDefault: () => {} });
+      }
+    });
+  </script>
+</body>
+</html>

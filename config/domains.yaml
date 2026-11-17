@@ -1,0 +1,163 @@
+# Domain Configuration Specification for Multi-Agent Customer Support System
+# Version: 4.0 Clean Canonical
+# Research Direction: Risk-Aware Adaptive Multi-Agent Orchestration
+
+domains:
+  ecommerce:
+    name: "E-commerce"
+    code: "ECOMM"
+    description: "Retail e-commerce platform handling orders, logistics, payments, refunds, and user accounts."
+    kb_namespace: "ecommerce_policies"
+    kb_document_range: ["E001", "E012", "EV1001", "EV1004"]
+    database_entities:
+      - customers
+      - orders
+      - transactions
+      - support_tickets
+    supported_intents:
+      - cancel_order
+      - change_order
+      - change_shipping_address
+      - check_cancellation_fee
+      - check_invoice
+      - check_payment_methods
+      - check_refund_policy
+      - complaint
+      - contact_customer_service
+      - contact_human_agent
+      - create_account
+      - delete_account
+      - delivery_options
+      - delivery_period
+      - edit_account
+      - get_invoice
+      - get_refund
+      - newsletter_subscription
+      - payment_issue
+      - place_order
+      - recover_password
+      - registration_problems
+      - review
+      - set_up_shipping_address
+      - switch_account
+      - track_order
+      - track_refund
+    available_agents:
+      - Order Agent
+      - Payment Agent
+      - Customer History Agent
+      - Policy/RAG Agent
+      - Verification Agent
+      - Knowledge Agent
+    risk_policies:
+      high_risk_intents:
+        - payment_issue
+        - delete_account
+      sensitive_actions:
+        - Account Deletion
+        - Payment Reversal
+        - Shipping Address Redirection Post-Dispatch
+      financial_threshold_inr: 5000.00
+    escalation_rules:
+      - condition: "fraud_flag == 1"
+        action: "IMMEDIATE_ESCALATE"
+        reason: "Potential fraudulent transaction detected"
+      - condition: "risk == 'Critical'"
+        action: "IMMEDIATE_ESCALATE"
+        reason: "Critical security or high-value financial dispute"
+      - condition: "evidence_quality == 'Conflicting' and risk in ['Medium', 'High']"
+        action: "ESCALATE"
+        reason: "Conflicting policy evidence on sensitive transaction"
+      - condition: "verification_score < 0.70 and sensitive_action == 'Yes'"
+        action: "ESCALATE"
+        reason: "Failed customer identity verification for sensitive account change"
+
+  education:
+    name: "Education"
+    code: "EDU"
+    description: "Higher education university academic support portal covering enrollment, exams, fees, and records."
+    kb_namespace: "education_policies"
+    kb_document_range: ["E013", "E024", "EV1005", "EV1008"]
+    database_entities:
+      - customers
+      - education_records
+      - support_tickets
+    supported_intents:
+      - Academic Records
+      - Attendance Policy
+      - Course Registration
+      - Exam Registration
+      - Exam Schedule
+      - Fees and Payment
+      - Library
+      - Placement Support
+      - Scholarship
+      - Student ID
+    available_agents:
+      - Policy/RAG Agent
+      - Customer History Agent
+      - Verification Agent
+      - Knowledge Agent
+    risk_policies:
+      high_risk_intents:
+        - Fees and Payment
+        - Academic Records
+      sensitive_actions:
+        - Grade Correction / Official Transcript Issuance
+        - Fee Refund / Scholarship Disbursement
+      attendance_shortfall_threshold_percent: 75.0
+    escalation_rules:
+      - condition: "exam_status == 'Barred'"
+        action: "ESCALATE"
+        reason: "Student barred from examination requiring dean approval"
+      - condition: "fee_status == 'Overdue' and intent == 'Exam Registration'"
+        action: "ESCALATE"
+        reason: "Financial hold on exam registration"
+      - condition: "evidence_quality == 'Conflicting'"
+        action: "ESCALATE"
+        reason: "Contradictory academic regulation identified"
+
+  small_business:
+    name: "Small Business"
+    code: "SBIZ"
+    description: "B2B small business ERP and commercial operations covering invoices, vendors, delivery, and payments."
+    kb_namespace: "smallbiz_policies"
+    kb_document_range: ["E025", "E036", "EV1009", "EV1010"]
+    database_entities:
+      - customers
+      - business_records
+      - support_tickets
+    supported_intents:
+      - Account Management
+      - Business Payment
+      - Customer Support
+      - Delivery Inquiry
+      - Invoice Inquiry
+      - Order Management
+      - Product Information
+      - Return and Refund
+      - Subscription Management
+      - Vendor Support
+    available_agents:
+      - Payment Agent
+      - Order Agent
+      - Customer History Agent
+      - Policy/RAG Agent
+      - Verification Agent
+      - Knowledge Agent
+    risk_policies:
+      high_risk_intents:
+        - Business Payment
+        - Vendor Support
+      sensitive_actions:
+        - Tax Filing Modification
+        - Vendor Contract Renegotiation
+        - High-Value Invoice Adjustment
+      financial_threshold_inr: 25000.00
+    escalation_rules:
+      - condition: "record_amount_inr > 25000 and intent == 'Business Payment'"
+        action: "ESCALATE"
+        reason: "High-value commercial transaction exceeds automated autonomy threshold"
+      - condition: "approval_status == 'Rejected'"
+        action: "ESCALATE"
+        reason: "Commercial record requires manual supervisor review"

@@ -1,0 +1,42 @@
+{
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "classifier": "LogisticRegression",
+  "selected_C": 4.0,
+  "classes": [
+    "Negative",
+    "Neutral",
+    "Positive"
+  ],
+  "seed": 42,
+  "requested_device": "auto",
+  "batch_size": 32,
+  "data_dir": "C:\\Users\\mehem\\Downloads\\Final_Year_AIML_Capstron_Project\\data\\processed\\sentiment\\v2_refined",
+  "output_dir": "C:\\Users\\mehem\\Downloads\\Final_Year_AIML_Capstron_Project\\outputs\\sentiment_model2\\v2_minilm",
+  "input_sha256": {
+    "train": "85fe11439fa1deb2b4ef5643c616a70b5a2c4e774244bf266390ccc250e53489",
+    "validation": "ef17d49ec20b376c5cad4b500f4ed4cb838424423127ad3f7123add006ea7762",
+    "test": "5fae6129b45ddceb15ca6999f1fbd0cf3c22448612529a4bfe383b4797451089"
+  },
+  "row_counts": {
+    "train": 2504,
+    "validation": 570,
+    "test": 570
+  },
+  "class_distributions": {
+    "train": {
+      "Neutral": 1760,
+      "Negative": 554,
+      "Positive": 190
+    },
+    "validation": {
+      "Neutral": 391,
+      "Negative": 117,
+      "Positive": 62
+    },
+    "test": {
+      "Neutral": 395,
+      "Negative": 113,
+      "Positive": 62
+    }
+  }
+}

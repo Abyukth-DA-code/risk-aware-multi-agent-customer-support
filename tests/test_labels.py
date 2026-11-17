@@ -6,7 +6,9 @@ import os
 import pytest
 import pandas as pd
 
-PROCESSED_DIR = os.path.join("data", "processed")
+from pathlib import Path
+_cand_proc = Path(__file__).resolve().parents[1] / "datasets" / "processed"
+PROCESSED_DIR = str(_cand_proc) if _cand_proc.exists() else os.path.join("data", "processed")
 
 def test_taxonomy_conformance():
     df = pd.read_csv(os.path.join(PROCESSED_DIR, "FINAL_MASTER_GOLD.csv"))
@@ -31,7 +33,7 @@ def test_taxonomy_conformance():
 
 def test_domain_intent_isolation():
     df = pd.read_csv(os.path.join(PROCESSED_DIR, "FINAL_MASTER_GOLD.csv"))
-
+    
     ecom_intents = set(df[df['Domain'] == 'E-commerce']['Intent'])
     edu_intents = set(df[df['Domain'] == 'Education']['Intent'])
     sbiz_intents = set(df[df['Domain'] == 'Small Business']['Intent'])

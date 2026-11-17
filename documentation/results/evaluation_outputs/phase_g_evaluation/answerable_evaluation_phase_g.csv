@@ -1,0 +1,429 @@
+case_id,query,intent,tier,escalated,entailment_status,entailment_score,has_response,has_citations
+CASE002147,I'd like to change to the standard acconut,switch_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2175,False,False
+CASE003197,I ned assistance to get my invoice #12588,get_invoice,ANSWER,False,SUPPORTED,0.6301,True,True
+CASE000902,i ahve to report problems with signup,registration_problems,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4217,False,False
+CASE000657,I lost my student ID card. What should I do? I need more information.,Student ID,ANSWER,False,SUPPORTED,0.4699,True,True
+CASE001672,check in which cases can I ask for a refund,check_refund_policy,ORCHESTRATE,False,SUPPORTED,0.4624,True,True
+CASE001527,want help to cancel purchase {{Order Number}},cancel_order,ESCALATE,True,SUPPORTED,0.527,False,False
+CASE003109,I want assistance canceling purchase {{Order Number}},cancel_order,ESCALATE,True,SUPPORTED,0.5456,False,False
+CASE001982,how can I see your reimbursement policy?,check_refund_policy,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3325,False,False
+CASE001947,can ushow me the withdrawal penalties,check_cancellation_fee,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2864,False,False
+CASE000210,can you help me make a claim against your organization?,complaint,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.178,False,False
+CASE000804,speaking with assistant,contact_human_agent,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2178,False,False
+CASE001816,could I open a standard account?,create_account,ANSWER,False,SUPPORTED,0.4582,True,True
+CASE002446,i do not know how to report a trouble with online payments,payment_issue,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4286,False,False
+CASE001448,purchase {{Order Number}} status,track_order,ESCALATE,True,SUPPORTED,0.5168,False,False
+CASE000860,is it possible to lodge a claim?,complaint,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2574,False,False
+CASE001861,assistance to set my new shipping address up,set_up_shipping_address,ANSWER,False,SUPPORTED,0.5804,True,True
+CASE002182,I have to speak with a person,contact_human_agent,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.0758,False,False
+CASE001475,need assistance submitting a shipping address,set_up_shipping_address,ANSWER,False,SUPPORTED,0.5184,True,True
+CASE001412,"my experience with your brand was bad, make a consumer claim",complaint,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2822,False,False
+CASE000477,I need help choosing my elective courses. I need more information.,Course Registration,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2473,False,False
+CASE001378,can you show me when my item is going to arrive?,delivery_period,ANSWER,False,SUPPORTED,0.4944,True,True
+CASE000018,Can my business get a refund for a damaged item?,Return and Refund,ORCHESTRATE,False,SUPPORTED,0.5046,True,True
+CASE000314,Can you help me? when is the scholarship application deadline?,Scholarship,ANSWER,False,SUPPORTED,0.5704,True,True
+CASE002520,get invoices from last purchase,get_invoice,ANSWER,False,SUPPORTED,0.7028,True,True
+CASE000950,I need assistance to enter another shipping address,set_up_shipping_address,ANSWER,False,SUPPORTED,0.562,True,True
+CASE001951,want help seeing the withdrawal charge,check_cancellation_fee,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2601,False,False
+CASE002734,is it possible to unsubscribe to the company newsletter?,newsletter_subscription,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2775,False,False
+CASE003143,wanna file a customer claim against ur company,complaint,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2753,False,False
+CASE000969,changing data on {{Account Type}} account,edit_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4103,False,False
+CASE002780,I'm trying to inform of an issue with payments,payment_issue,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.418,False,False
+CASE000254,uhave a free number to call customer support,contact_customer_service,ANSWER,False,SUPPORTED,0.6316,True,True
+CASE000491,how to subscribe to the newsletter?,newsletter_subscription,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2979,False,False
+CASE000559,tell me more about updating the delivery address,change_shipping_address,ANSWER,False,SUPPORTED,0.6323,True,True
+CASE002899,help to cancel purchase {{Order Number}},cancel_order,ESCALATE,True,SUPPORTED,0.5451,False,False
+CASE002693,add some products to order {{Order Number}},change_order,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2396,False,False
+CASE001274,could you give me information about the shipment methods?,delivery_options,ANSWER,False,SUPPORTED,0.5193,True,True
+CASE000173,Can you help me? how do I register for the semester exam?,Exam Registration,ESCALATE,True,SUPPORTED,0.6472,False,False
+CASE001236,Where can I find my exam schedule? I need more information.,Exam Schedule,ESCALATE,True,SUPPORTED,0.5158,False,False
+CASE002022,need aasistance reporting a problem with goddamn sign-up,registration_problems,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.0584,False,False
+CASE002192,where do I get the bill from {{Person Name}}?,get_invoice,ANSWER,False,SUPPORTED,0.4608,True,True
+CASE000325,what is the shpiping period?,delivery_period,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.1757,False,False
+CASE003124,assistance checking the early exit fee,check_cancellation_fee,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2376,False,False
+CASE002754,assistance informing of problems with registrations,registration_problems,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.0449,False,False
+CASE001687,"I have to sign up to your newsletter, I need assistance",newsletter_subscription,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2247,False,False
+CASE000557,Can someone help resolve this issue? Please help.,Customer Support,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2082,False,False
+CASE003036,opening new platinum account for daughter,create_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3052,False,False
+CASE000990,Can I update my company information? as soon as possible.,Account Management,ESCALATE,True,SUPPORTED,0.485,False,False
+CASE002966,I need to check in which situations can I ask for a refund,check_refund_policy,ORCHESTRATE,False,SUPPORTED,0.4741,True,True
+CASE002942,want help notifying of troubles with online payments,payment_issue,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.0195,False,False
+CASE001467,how acn i get information about forgotten access keys,recover_password,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3305,False,False
+CASE002255,"someone stole my PIN, I want assistance to restore it",recover_password,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2297,False,False
+CASE002405,i try to check at what time i can contact customer support,contact_customer_service,ANSWER,False,SUPPORTED,0.5783,True,True
+CASE000754,I lost my student ID card. What should I do?,Student ID,ANSWER,False,SUPPORTED,0.4603,True,True
+CASE003231,i do not know what to do to close the {{Account Category}} account,delete_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2557,False,False
+CASE000664,there is an issue trying to change my shipping address,change_shipping_address,ESCALATE,True,SUPPORTED,0.6283,False,False
+CASE002035,"I need to see what damn shipment options I have, help me",delivery_options,ANSWER,False,SUPPORTED,0.5018,True,True
+CASE000528,cn I place an order from {{Delivery City}}?,delivery_options,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3714,False,False
+CASE003069,filing consumer claim against your business,complaint,ORCHESTRATE,False,SUPPORTED,0.465,True,True
+CASE002320,i need assistance to reset the pin code of my account,recover_password,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3,False,False
+CASE001011,I want assistance to cancel purchase {{Order Number}},cancel_order,ESCALATE,True,SUPPORTED,0.5332,False,False
+CASE000610,lodging consumer complaint against your business,complaint,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3873,False,False
+CASE001075,want assistance to check how long refunds take,check_refund_policy,ESCALATE,True,SUPPORTED,0.6819,False,False
+CASE000566,is it possible to see the bills from {{Person Name}}?,check_invoice,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.0872,False,False
+CASE000146,I don't know what to do to inform of an error with a sign-up,registration_problems,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.414,False,False
+CASE000218,How do I register for a course?,Course Registration,ANSWER,False,SUPPORTED,0.6563,True,True
+CASE001355,could you tell me about shipping periods?,delivery_period,ORCHESTRATE,False,INSUFFICIENT_EVIDENCE,0.3197,False,False
+CASE001992,assistance seeing what shipment options are available,delivery_options,ANSWER,False,SUPPORTED,0.5527,True,True
+CASE001384,editing data on {{Account Type}} account,edit_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3657,False,False
+CASE003086,how to get bill #85632?,get_invoice,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3182,False,False
+CASE002532,want assistance seeinhg how long the shipment takes,delivery_period,ANSWER,False,SUPPORTED,0.486,True,True
+CASE002946,I need help retrieving my account access key,recover_password,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3585,False,False
+CASE002813,wqhere to obtain rebates of money,get_refund,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4072,False,False
+CASE001640,Why has my invoice not been generated? I need assistance.,Invoice Inquiry,ANSWER,False,SUPPORTED,0.4535,True,True
+CASE001614,are there early exit fees?,check_cancellation_fee,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2473,False,False
+CASE001620,want help to check in what situations can i ask for refunds,check_refund_policy,ESCALATE,True,SUPPORTED,0.5747,False,False
+CASE001420,"I want to see my invoice #37777, I need assistance",check_invoice,ANSWER,False,SUPPORTED,0.6407,True,True
+CASE000203,I want to submit the edlivery address,set_up_shipping_address,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.359,False,False
+CASE002331,"I lost bill #37777, mail it to me",get_invoice,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2564,False,False
+CASE002268,there is an error trying to update the address,change_shipping_address,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3616,False,False
+CASE002898,I don't know how to talk with an agent,contact_human_agent,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.1344,False,False
+CASE002610,i havent registered yet i need help creating a {{Account Type}} account,create_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2676,False,False
+CASE001677,can you help md unsubscribing to your company newsletter?,newsletter_subscription,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3934,False,False
+CASE001050,how to download the bills from {{Person Name}}?,get_invoice,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.1383,False,False
+CASE000798,wanna see how soon can i expect the shipment help me,delivery_period,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4282,False,False
+CASE000083,Can I update my company information? I need assistance.,Account Management,ESCALATE,True,SUPPORTED,0.4975,False,False
+CASE000208,show me what shipment methods I have,delivery_options,ANSWER,False,SUPPORTED,0.5767,True,True
+CASE000699,My refund has not arrived yet. as soon as possible.,Return and Refund,ORCHESTRATE,False,SUPPORTED,0.5483,True,True
+CASE000137,How can I download my invoice? as soon as possible.,Invoice Inquiry,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4481,False,False
+CASE003256,want help checking in what situations can I ask for a refund,check_refund_policy,ORCHESTRATE,False,SUPPORTED,0.4633,False,False
+CASE002636,I do not know how I can enter the new delivery address,set_up_shipping_address,ANSWER,False,SUPPORTED,0.616,True,True
+CASE002463,I do not know how to seehow soon can I expect my purchase,delivery_period,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3255,False,False
+CASE002056,need to check what hours i can call customer service,contact_customer_service,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3446,False,False
+CASE001245,deleter a product from purchase {{Order Number}},change_order,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.309,False,False
+CASE002435,I don't know what I have to do to cancel my {{Account Type}} account,delete_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4062,False,False
+CASE000628,How can I pay my semester fees?,Fees and Payment,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.25,False,False
+CASE002567,how to change to the {{Account Category}} account,switch_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3259,False,False
+CASE001522,I want to update my user profile,edit_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.1586,False,False
+CASE000070,How can I apply for a scholarship?,Scholarship,ANSWER,False,SUPPORTED,0.6259,True,True
+CASE000492,what do i need to do to ask for a rebate of money,get_refund,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3487,False,False
+CASE001409,what do i need to do to get my invoices from {{Person Name}},get_invoice,ANSWER,False,SUPPORTED,0.56,True,True
+CASE001154,i have got to ceck ur money back guarantee i need help,check_refund_policy,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3124,False,False
+CASE000908,i dont know how to inform of a trouble with payment,payment_issue,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3713,False,False
+CASE003221,help trying to edit the deliveyr address,change_shipping_address,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.317,False,False
+CASE001727,I have to give a quick look at the invoice #00108,check_invoice,ANSWER,False,SUPPORTED,0.5698,True,True
+CASE003165,"I lost the bill #12588, mail it to me",get_invoice,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3168,False,False
+CASE002839,"I have to correct order {{Order Number}}, can you help me?",change_order,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2873,False,False
+CASE002404,i have a problem with the cancellation of my {{Account Category}} account,delete_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4042,False,False
+CASE001129,help me to delete an item from order {{Order Number}},change_order,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3358,False,False
+CASE002005,I want assistance to see my invoices from {{Person Name}},check_invoice,ANSWER,False,SUPPORTED,0.5867,True,True
+CASE001582,I am trying to file a rreclamation against your business,complaint,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2185,False,False
+CASE003311,directing to person,contact_human_agent,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.13,False,False
+CASE001404,I don't know what I need to do to contact customer service,contact_customer_service,ANSWER,False,SUPPORTED,0.5909,True,True
+CASE000094,Can you help me? has the exam date for my subject changed?,Exam Schedule,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4412,False,False
+CASE003220,"I have to enter a new shipping address, how do I do it?",set_up_shipping_address,ANSWER,False,SUPPORTED,0.634,True,True
+CASE001455,have a problem with the removal of my {{Account Type}} account,delete_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3111,False,False
+CASE000501,I want to check at what time I can reach customer serfvice,contact_customer_service,ANSWER,False,SUPPORTED,0.4505,True,True
+CASE000983,I need to check in which cases can I ask for a reimbursement,check_refund_policy,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3533,False,False
+CASE001193,where can I check what hours I can call customer service?,contact_customer_service,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3367,False,False
+CASE001839,find information about the cancellation of a pro account,delete_account,ORCHESTRATE,False,SUPPORTED,0.4941,True,True
+CASE002259,can you help me see the damn withdrawal charge?,check_cancellation_fee,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2526,False,False
+CASE001771,help with creating my {{Account Type}} account,create_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.216,False,False
+CASE001175,can ya help me to speak with customer assistance,contact_customer_service,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3019,False,False
+CASE000937,can I check what hours I can reach customer assistance?,contact_customer_service,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3428,False,False
+CASE002897,help me to see at what time I can contact customer service,contact_customer_service,ANSWER,False,SUPPORTED,0.4539,True,True
+CASE001223,how can I check if there are any updates on the restitution?,track_refund,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.316,False,False
+CASE002416,where can I see the withdrawal penalty?,check_cancellation_fee,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3037,False,False
+CASE002976,assistance checking the withdrawal penalty,check_cancellation_fee,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3451,False,False
+CASE001212,i dont use m freemium account I'm trying to cancel it,delete_account,ORCHESTRATE,False,SUPPORTED,0.5444,True,True
+CASE000892,How do I request an official transcript? Please help me.,Academic Records,ANSWER,False,SUPPORTED,0.45,True,True
+CASE002672,consumer reclamation,complaint,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3575,False,False
+CASE000127,Can I pay by bank transfer?,Business Payment,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.25,False,False
+CASE002507,i want supports trying to correct the address,change_shipping_address,ANSWER,False,SUPPORTED,0.5608,True,True
+CASE001131,can you help me see the early exit penalties?,check_cancellation_fee,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.1463,False,False
+CASE003055,can I inform of a problem with registrations?,registration_problems,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.241,False,False
+CASE002587,i cant make a payment where can i notify of an error,payment_issue,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3255,False,False
+CASE001425,assistance to see order {{Order Number}} current status,track_order,ESCALATE,True,SUPPORTED,0.4623,False,False
+CASE003203,I am trying to unsubscribe from your company newsletter,newsletter_subscription,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4286,False,False
+CASE000005,My student ID is not working. Please help me.,Student ID,ANSWER,False,SUPPORTED,0.4817,True,True
+CASE002054,create new standard account for daughter,create_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4115,False,False
+CASE002727,updating order {{Order Number}},change_order,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3079,False,False
+CASE002875,I do not know how I can chat with an agent,contact_human_agent,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.1311,False,False
+CASE001256,I need to see when will my product arrive,delivery_period,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2993,False,False
+CASE002373,"I need to see when will my parcel arrive, how to do it?",delivery_period,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.37,False,False
+CASE002674,i do not know how i can talk to a human agent,contact_human_agent,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.1608,False,False
+CASE001054,I do not know how I can set up my shipping address,set_up_shipping_address,ANSWER,False,SUPPORTED,0.5039,True,True
+CASE000791,I can't talk with a human agent,contact_human_agent,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.0879,False,False
+CASE000481,i call to check when my parcel is gonna arive,delivery_period,ANSWER,False,SUPPORTED,0.5178,True,True
+CASE002361,what is your customer assistance number?,contact_customer_service,ANSWER,False,SUPPORTED,0.5393,True,True
+CASE001481,"I can't sign up, I want help to inform of signup issues",registration_problems,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.1164,False,False
+CASE000624,want assistance notifying of problems with online payment,payment_issue,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4323,False,False
+CASE000397,chnge data on {{Account Type}} account,edit_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2702,False,False
+CASE002185,"I paid {{Currency Symbol}}{{Refund Amount}} for this item, want help to get a rebate",get_refund,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.362,False,False
+CASE000307,I have to look for the bills from {{Person Name}},check_invoice,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4263,False,False
+CASE000753,change to the {{Account Category}} account,switch_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3445,False,False
+CASE002506,could you mail me my goddamn invoices from {{Person Name}}?,get_invoice,ANSWER,False,SUPPORTED,0.5119,True,True
+CASE002890,I have troubles setting up a new shipping address,set_up_shipping_address,ANSWER,False,SUPPORTED,0.5524,True,True
+CASE002169,information about the removal of a {{Account Type}} account,delete_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4149,False,False
+CASE000342,"For my business, can I update my company information?",Account Management,ESCALATE,True,SUPPORTED,0.5573,False,False
+CASE001472,show me at what time I can contact customer support,contact_customer_service,ANSWER,False,SUPPORTED,0.5384,True,True
+CASE003100,there is a trouble setting up a delivery address,set_up_shipping_address,ORCHESTRATE,False,SUPPORTED,0.4635,True,True
+CASE001664,where can i obtain a compensation of money,get_refund,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2064,False,False
+CASE002086,do ya deoiver to {{Delivery City}},delivery_options,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2692,False,False
+CASE003237,I want help to see order {{Order Number}} status,track_order,ESCALATE,True,SUPPORTED,0.5002,False,False
+CASE001417,how do i create a premium account,create_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2355,False,False
+CASE001552,i have lost my pwd could i reset it,recover_password,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.0597,False,False
+CASE000258,What is the minimum attendance required for my course?,Attendance Policy,ANSWER,False,SUPPORTED,0.7188,True,True
+CASE002437,can you help me contact osmeone?,contact_human_agent,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4149,False,False
+CASE001847,i have problems with a forgotten password,recover_password,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.1118,False,False
+CASE000297,When is the scholarship application deadline?,Scholarship,ANSWER,False,SUPPORTED,0.564,True,True
+CASE000266,When is the last date to register for the exam? I need more information.,Exam Registration,ESCALATE,True,SUPPORTED,0.6794,False,False
+CASE002889,where do I restore my user pass?,recover_password,ESCALATE,True,INSUFFICIENT_EVIDENCE,-0.0263,False,False
+CASE002949,changing purchase {{Order Number}},change_order,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4305,False,False
+CASE000243,help touse the {{Account Category}} profile,switch_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2409,False,False
+CASE001380,can you help me changing purchase {{Order Number}}?,change_order,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2695,False,False
+CASE001904,i dont know how i can see my rebate current status,track_refund,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.306,False,False
+CASE001400,I need to see my goddamn invoices from last year,check_invoice,ANSWER,False,SUPPORTED,0.6091,True,True
+CASE001018,how can I find bill #00108?,check_invoice,ESCALATE,True,SUPPORTED,0.4514,False,False
+CASE001454,how can I find information about the shipping period?,delivery_period,ANSWER,False,SUPPORTED,0.4868,True,True
+CASE001724,i do not know how i can report an error with signup,registration_problems,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3736,False,False
+CASE000152,How can I add another employee to the account? I need assistance.,Account Management,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3522,False,False
+CASE001473,what do I need to do to create a {{Account Type}} account?,create_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2456,False,False
+CASE000650,help me see in what cases can I reuest my money back,check_refund_policy,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4006,False,False
+CASE002733,i want help trying to edit my delivery address,change_shipping_address,ANSWER,False,SUPPORTED,0.5768,True,True
+CASE000236,where could I see when my delivery is going to arrive?,delivery_period,ANSWER,False,SUPPORTED,0.4859,True,True
+CASE002964,I submitted a wrong shipping address,change_shipping_address,ORCHESTRATE,False,SUPPORTED,0.5834,True,True
+CASE000578,"For my business, i have a problem with my account.",Customer Support,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4075,False,False
+CASE002174,there are problems setting up a new delivery address,set_up_shipping_address,ESCALATE,True,SUPPORTED,0.5528,False,False
+CASE002420,status of order,track_order,ESCALATE,True,SUPPORTED,0.456,False,False
+CASE000384,want assistance receiving a refund of money,get_refund,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4141,False,False
+CASE002411,wat support trying to update my address,change_shipping_address,ESCALATE,True,SUPPORTED,0.5155,False,False
+CASE003150,help removing several products from purchase {{Order Number}},change_order,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3356,False,False
+CASE000239,i have a question about opening pro accounts,create_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2449,False,False
+CASE002245,I don't know how to check the early exit charge,check_cancellation_fee,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.1906,False,False
+CASE002883,I'm waiting for an refund of {{Currency Symbol}}{{Refund Amount}},track_refund,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3866,False,False
+CASE002551,i have got to change the details on my user i need help,edit_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.291,False,False
+CASE002283,I don't knowhow to cancel purchase {{Order Number}},cancel_order,ESCALATE,True,SUPPORTED,0.5739,False,False
+CASE001875,I don't know what to do to remove the premium account,delete_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3888,False,False
+CASE000339,can ya help me to change to the gold account,switch_account,ANSWER,False,SUPPORTED,0.4588,True,True
+CASE001003,could I check at what time I can call customer service?,contact_customer_service,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4249,False,False
+CASE003010,edit details on {{Account Category}} account,edit_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3559,False,False
+CASE001886,see purchase {{Order Number}} status,track_order,ESCALATE,True,SUPPORTED,0.5687,False,False
+CASE001290,I want help canceling the {{Account Type}} account,delete_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2764,False,False
+CASE000855,there is a problem setting up my delivery address,set_up_shipping_address,ANSWER,False,SUPPORTED,0.4751,True,True
+CASE003043,help seeing in what cases can i request refunds,check_refund_policy,ESCALATE,True,SUPPORTED,0.5327,False,False
+CASE000111,I do not know how I candownload my bill #37777,get_invoice,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2483,False,False
+CASE002895,"I can't open an account, where do I report a signup issue?",registration_problems,ORCHESTRATE,False,SUPPORTED,0.5082,True,True
+CASE002622,can you help me receive your corporate newsletter?,newsletter_subscription,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2504,False,False
+CASE001831,can ya tell me about signing up to ur newsletter,newsletter_subscription,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2346,False,False
+CASE002493,I expect a rebate of {{Currency Symbol}}{{Refund Amount}},track_refund,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3695,False,False
+CASE001240,I try to switch to the {{Account Category}} account,switch_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2935,False,False
+CASE002088,help to check what shipping options i have,delivery_options,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4457,False,False
+CASE002927,what do I need to do to restore my user account access key ?,recover_password,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3823,False,False
+CASE002234,i need help to chat with an human agent,contact_human_agent,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.1333,False,False
+CASE000985,help trying to modify the damn address,change_shipping_address,ANSWER,False,SUPPORTED,0.4836,True,True
+CASE002675,i have issues modifying the address,change_shipping_address,ANSWER,False,SUPPORTED,0.4667,True,True
+CASE002215,"I ain't registered, I want to create a pro account",create_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3637,False,False
+CASE002936,I awnt assistance to locate the bill #00108,check_invoice,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2605,False,False
+CASE001845,want assistance retrieving the password of my user,recover_password,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2177,False,False
+CASE002339,"the payment failed, how to report an error with payment?",payment_issue,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4009,False,False
+CASE000518,where to check the restitution status?,track_refund,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.297,False,False
+CASE002502,"I ain't registered, how to open a standard account with you?",create_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4123,False,False
+CASE001350,help me reporting an issue wigh online payment,payment_issue,ORCHESTRATE,False,SUPPORTED,0.4642,True,True
+CASE002537,assistance to see thd early termination fee,check_cancellation_fee,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2772,False,False
+CASE003275,I can't notify of errors with a signup,registration_problems,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.187,False,False
+CASE001068,i have got to see how soon can i expect my delivery,delivery_period,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3551,False,False
+CASE002099,I try to notify of issues with registrations,registration_problems,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3876,False,False
+CASE000077,Is attendance compulsory for this subject?,Attendance Policy,ANSWER,False,SUPPORTED,0.7305,True,True
+CASE002628,I don't know what I need to do to chat with an operator,contact_human_agent,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2777,False,False
+CASE002128,seeing reimbursement status,track_refund,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3897,False,False
+CASE000031,How can I download my marks card?,Academic Records,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2486,False,False
+CASE003080,modify {{Account Category}} account,edit_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3834,False,False
+CASE001792,is it possible to receive reimbursements?,get_refund,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3648,False,False
+CASE001691,I have problems entering a different shipping address,set_up_shipping_address,ESCALATE,True,SUPPORTED,0.5839,False,False
+CASE001707,can i call customer assistance,contact_customer_service,ANSWER,False,SUPPORTED,0.6366,True,True
+CASE001836,I have problems with cancelling purchase {{Order Number}},cancel_order,ESCALATE,True,SUPPORTED,0.5272,False,False
+CASE001174,I have to see the current status of my reimbursement,track_refund,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3214,False,False
+CASE001695,need assistance to find my fucking bill from {{Person Name}},check_invoice,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2078,False,False
+CASE003248,"I have paid {{Currency Symbol}}{{Refund Amount}} for a purchase, I want to get a refund",get_refund,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3386,False,False
+CASE003323,help to check what methods for delivery i have,delivery_options,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4316,False,False
+CASE000469,I don't know how to inform of problems with a signup,registration_problems,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2209,False,False
+CASE002312,need help seeing in what cases can I ask for a refund,check_refund_policy,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.416,False,False
+CASE001717,I'm tryng to get the bill #00108,get_invoice,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2778,False,False
+CASE002293,help me to reset my profile pwd,recover_password,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.1138,False,False
+CASE002749,how to see the cancellation penalty,check_cancellation_fee,ANSWER,False,SUPPORTED,0.4951,True,True
+CASE001382,tracking order {{Order Number}},track_order,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4265,False,False
+CASE001121,I need hepl to report an error with online payment,payment_issue,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4218,False,False
+CASE002514,would it be possible to check the shipping methods?,delivery_options,ANSWER,False,SUPPORTED,0.5748,True,True
+CASE002811,i have to see the invoice #00108,check_invoice,ANSWER,False,SUPPORTED,0.5802,True,True
+CASE000021,How can I check the status of my business order? as soon as possible.,Order Management,ANSWER,False,SUPPORTED,0.47,True,True
+CASE002045,where can I make a consumer claim against your company?,complaint,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3576,False,False
+CASE001095,how to get bill #12588,get_invoice,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3412,False,False
+CASE002851,I'm trying to get th fucking invoices from {{Person Name}},get_invoice,ANSWER,False,SUPPORTED,0.5236,True,True
+CASE002611,can i set the shipping address up,set_up_shipping_address,ANSWER,False,SUPPORTED,0.6006,True,True
+CASE000806,problem with {{Account Category}} account cancellations,delete_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2664,False,False
+CASE003320,i do not know how to check my refund current status,track_refund,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3476,False,False
+CASE001546,updaing info on gold account,edit_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3834,False,False
+CASE000176,"For my business, why has my invoice not been generated?",Invoice Inquiry,ANSWER,False,SUPPORTED,0.4959,True,True
+CASE000340,where could I see what options for delivery I have?,delivery_options,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4176,False,False
+CASE001273,could I set up a delivery address?,set_up_shipping_address,ANSWER,False,SUPPORTED,0.4856,True,True
+CASE000744,I need assistance editing my delivery address,change_shipping_address,ANSWER,False,SUPPORTED,0.6036,True,True
+CASE002389,updating data on {{Account Type}} account,edit_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3498,False,False
+CASE000520,where do I report an issue iwth sign-up?,registration_problems,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4226,False,False
+CASE001434,how could I report problems with payment?,payment_issue,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4109,False,False
+CASE001863,i dont know what to do to recover the pwd of my profile,recover_password,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.087,False,False
+CASE001515,I'd like to get the bill from {{Person Name}} how to od it,get_invoice,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.1707,False,False
+CASE000926,I don't know what I need to do to get the bill #85632,get_invoice,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2959,False,False
+CASE001825,I want to check what hours I can contact customer support,contact_customer_service,ANSWER,False,SUPPORTED,0.4832,True,True
+CASE002113,help me seeing in what cases can I request reimbursements,check_refund_policy,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3196,False,False
+CASE002815,"I paid {{Currency Symbol}}{{Refund Amount}} for an item, help me receive my money back",get_refund,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4001,False,False
+CASE000200,problem with cancelling purchase {{Order Number}},cancel_order,ESCALATE,True,SUPPORTED,0.5666,False,False
+CASE001853,open new {{Account Type}} account for daughter,create_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2865,False,False
+CASE001573,I have problems with an address correction,change_shipping_address,ESCALATE,True,SUPPORTED,0.4667,False,False
+CASE002594,how to see the withdrawal fee?,check_cancellation_fee,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2647,False,False
+CASE000839,what do i need to do to speak with an assistant,contact_human_agent,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.1754,False,False
+CASE001940,there is a problem entering my secondary delivery address,set_up_shipping_address,ANSWER,False,SUPPORTED,0.464,True,True
+CASE002218,i want assistance to solve issues with payment,payment_issue,ORCHESTRATE,False,INSUFFICIENT_EVIDENCE,0.4345,False,False
+CASE001123,could you help me reset the PIN of my user profile?,recover_password,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.1582,False,False
+CASE002580,can you help me chat with a human agent?,contact_human_agent,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.1215,False,False
+CASE001114,is it possible to check invoice #37777,check_invoice,ANSWER,False,SUPPORTED,0.63,True,True
+CASE001590,i dont know how to check what methods for delivery are there,delivery_options,ANSWER,False,SUPPORTED,0.4779,True,True
+CASE002956,have a question abut canceling purchase {{Order Number}},cancel_order,ESCALATE,True,SUPPORTED,0.5818,False,False
+CASE001374,can you help me to report a trouble with payments?,payment_issue,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3966,False,False
+CASE002601,i need assistance to locate the bills from {{Person Name}},check_invoice,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.1643,False,False
+CASE003047,I am trying to speak with an operator,contact_human_agent,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.1258,False,False
+CASE003239,help using the standard account,switch_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3981,False,False
+CASE002296,what do i have to do to close the {{Account Type}} account,delete_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2723,False,False
+CASE003202,i dont know how to report signup issues,registration_problems,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4154,False,False
+CASE000685,can you help me to check the methods for shipping?,delivery_options,ANSWER,False,SUPPORTED,0.5201,True,True
+CASE002840,I need to know if there is anything new on the restitution,track_refund,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.1572,False,False
+CASE001151,"For my business, what payment methods do you accept for business customers?",Business Payment,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.25,False,False
+CASE002382,can i place an oeder from {{Delivery City}},delivery_options,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2826,False,False
+CASE000194,"For my business, i need to change an order I placed.",Order Management,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4278,False,False
+CASE000457,I do not know what to do to speak with an live agent,contact_human_agent,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2524,False,False
+CASE002039,I don't know how I could see purchase {{Order Number}} status,track_order,ESCALATE,True,SUPPORTED,0.5714,False,False
+CASE000105,Can you help me? my fee payment has failed. What should I do?,Fees and Payment,ANSWER,False,SUPPORTED,0.4595,True,True
+CASE001447,"I would like to make a bloody complaint, could you help me?",complaint,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.1665,False,False
+CASE001258,will umail me the bills from {{Person Name}},get_invoice,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3324,False,False
+CASE001635,what do I have to do to cancel a premium account?,delete_account,ESCALATE,True,SUPPORTED,0.5821,False,False
+CASE001449,show me in which situations can i ask for refunds,check_refund_policy,ESCALATE,True,SUPPORTED,0.506,False,False
+CASE000667,Can I return part of a business order? Please help.,Return and Refund,ANSWER,False,SUPPORTED,0.519,True,True
+CASE000826,want assistance to see the shipping options,delivery_options,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4171,False,False
+CASE001232,i want assistance to locatr my bill #00108,check_invoice,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3388,False,False
+CASE003259,can you help me create a different bloody platinum account?,create_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3256,False,False
+CASE001408,i need assistance to set up the new delivery address,set_up_shipping_address,ANSWER,False,SUPPORTED,0.5713,True,True
+CASE002122,I need help receiving refunds,get_refund,ESCALATE,True,SUPPORTED,0.5927,False,False
+CASE002707,how to check the early termination penalty?,check_cancellation_fee,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3271,False,False
+CASE002962,want assistance opening a {{Account Category}} account for my dad,create_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2996,False,False
+CASE002939,checking invoice from 4 purchases ago,check_invoice,ANSWER,False,SUPPORTED,0.6404,True,True
+CASE001545,I do not know how I could check the ETA of purchase {{Order Number}},track_order,ESCALATE,True,SUPPORTED,0.4963,False,False
+CASE003030,show me purchase {{Order Number}} statud,track_order,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4453,False,False
+CASE001654,I need help checking the biol #37777,check_invoice,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.1588,False,False
+CASE000809,i have got to locate purchase {{Order Number}} help me,track_order,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.286,False,False
+CASE001945,there is an issue trying to correct the address,change_shipping_address,ANSWER,False,SUPPORTED,0.4621,True,True
+CASE000246,file complaint against your business,complaint,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.373,False,False
+CASE001938,need help to make a complaint against your organization,complaint,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2935,False,False
+CASE002055,I want help to see the fucking ETA of the order {{Order Number}},track_order,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.245,False,False
+CASE002272,I want to correct purchase {{Order Number}},change_order,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3699,False,False
+CASE001733,I want information about the removal of my {{Account Type}} account,delete_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.418,False,False
+CASE002324,what do i have to do to get invoice #37777,get_invoice,ESCALATE,True,SUPPORTED,0.6458,False,False
+CASE001623,Can you help me? my grade is missing from the student portal.,Academic Records,ANSWER,False,SUPPORTED,0.475,True,True
+CASE000948,I cannot submit a secondary delivery address,set_up_shipping_address,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4358,False,False
+CASE000222,know if there is anything new on my restitution,track_refund,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.0877,False,False
+CASE002867,how to see what shipping options I have?,delivery_options,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3829,False,False
+CASE001849,how to change order {{Order Number}}?,change_order,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2984,False,False
+CASE001035,hoe can i check the withdrawal penalties,check_cancellation_fee,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3186,False,False
+CASE000677,"I have got to notify of registration problems, help me",registration_problems,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3499,False,False
+CASE000737,"I have to edit the address, I need assistance",change_shipping_address,ANSWER,False,SUPPORTED,0.4593,True,True
+CASE000214,Can you help me? what is the minimum attendance required for my course?,Attendance Policy,ANSWER,False,SUPPORTED,0.7133,True,True
+CASE003148,supports editnig my delivery address,change_shipping_address,ANSWER,False,SUPPORTED,0.6404,True,True
+CASE001353,I want help receiving the corporate newsletter,newsletter_subscription,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.426,False,False
+CASE001564,I need help to check purchase {{Order Number}} current status,track_order,ESCALATE,True,SUPPORTED,0.5797,False,False
+CASE002188,can you give me information about receiving your newsletter?,newsletter_subscription,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2767,False,False
+CASE002000,where can I see the early termination charge?,check_cancellation_fee,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2839,False,False
+CASE003071,"I need to edit my goddamn user, could I get some help?",edit_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.1778,False,False
+CASE001283,I need to see purchase {{Order Number}} current status,track_order,ESCALATE,True,SUPPORTED,0.5577,False,False
+CASE000964,where to file a customer reclamation against your company ?,complaint,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2945,False,False
+CASE001483,"I can no longer afford order {{Order Number}}, cancel it",cancel_order,ESCALATE,True,SUPPORTED,0.5674,False,False
+CASE001097,I try to chat with an operator,contact_human_agent,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.1912,False,False
+CASE002864,need to modify my personal data can uhelp me,edit_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2557,False,False
+CASE000674,how long till I obtain a refund of money?,get_refund,ESCALATE,True,SUPPORTED,0.6874,False,False
+CASE001494,"I cannot make a payment, I need help notifying of errors",payment_issue,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3279,False,False
+CASE001627,how could i change to the {{Account Type}} account,switch_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3116,False,False
+CASE001276,need assistance to obtain a refund of my money,get_refund,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4262,False,False
+CASE000281,Can I change my elective after course registration?,Course Registration,ESCALATE,True,SUPPORTED,0.4936,False,False
+CASE001118,"For my business, the payment was deducted but the order is still unpaid.",Business Payment,ANSWER,False,SUPPORTED,0.6083,True,True
+CASE000619,where do I reset my user account key?,recover_password,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3149,False,False
+CASE002572,I have got to check if there are any news on the restitution,track_refund,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2152,False,False
+CASE001067,trouble modifying delivery address,change_shipping_address,ANSWER,False,SUPPORTED,0.6202,True,True
+CASE001794,need assistance to make a consumer claim against ur business,complaint,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.396,False,False
+CASE001046,i dont khow what i need to do to change to the gold account,switch_account,ANSWER,False,SUPPORTED,0.4637,True,True
+CASE002914,I need to retrieve the pass of my user account,recover_password,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3734,False,False
+CASE001030,update standard account,edit_account,ORCHESTRATE,False,SUPPORTED,0.4842,True,True
+CASE000554,show me ur reimbursement policy,check_refund_policy,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2871,False,False
+CASE002591,how can i notify of errors with a sign-up,registration_problems,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2305,False,False
+CASE001655,watn assistance recovering my account pass,recover_password,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4058,False,False
+CASE001080,see bill from {{Person Name}},check_invoice,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3256,False,False
+CASE001586,"I need to check what delivery options I have, help me",delivery_options,ANSWER,False,SUPPORTED,0.5143,True,True
+CASE001908,where to report issues with online payments,payment_issue,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.401,False,False
+CASE002349,I want help to switch something of order {{Order Number}},change_order,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2387,False,False
+CASE000098,I need help with a business order. Please help.,Customer Support,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4339,False,False
+CASE001093,need assistance cancelinv purchase {{Order Number}},cancel_order,ESCALATE,True,SUPPORTED,0.5104,False,False
+CASE002528,what do i need to do to reportt registration errors,registration_problems,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3205,False,False
+CASE002653,I want help checking the restitution current status,track_refund,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3857,False,False
+CASE001785,how do i sign up to thhe corporate newsletter,newsletter_subscription,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2449,False,False
+CASE000612,"I cannot open an account, help to inform of signup issues",registration_problems,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4307,False,False
+CASE000079,Has the exam date for my subject changed?,Exam Schedule,ESCALATE,True,SUPPORTED,0.4515,False,False
+CASE002659,i cannot see if there is anything new on my refund,track_refund,ESCALATE,True,SUPPORTED,0.4756,False,False
+CASE000449,What is the minimum attendance required for my course? Please help me.,Attendance Policy,ANSWER,False,SUPPORTED,0.7057,True,True
+CASE002799,where can I see when my package is going to arrive?,delivery_period,ESCALATE,True,SUPPORTED,0.5122,False,False
+CASE000287,"For my business, how can I pay for my business order?",Business Payment,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.25,False,False
+CASE002523,I do not know how I can restore the apss of my user profile,recover_password,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.1529,False,False
+CASE000692,help me see under what circumstances can I request a refund,check_refund_policy,ORCHESTRATE,False,SUPPORTED,0.5203,True,True
+CASE001427,I have to check in which cases can I ask to be reimbursed,check_refund_policy,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3906,False,False
+CASE001357,"I need to see how soon can I expect the order, help me",delivery_period,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.342,False,False
+CASE000306,I have got to inform of an issue with online payments,payment_issue,ORCHESTRATE,False,SUPPORTED,0.4571,True,True
+CASE002232,wanna know more about the shipping periods,delivery_period,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3384,False,False
+CASE002518,"I have got to change to the freemium account, help me",switch_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3891,False,False
+CASE002941,"I cannot find the termination penalty, can I get some help?",check_cancellation_fee,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2828,False,False
+CASE000905,Why has my invoice not been generated? Please help.,Invoice Inquiry,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.427,False,False
+CASE002655,i have to inform of a payment issue,payment_issue,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.352,False,False
+CASE000095,Can you help me? there is an error in my academic record.,Academic Records,ESCALATE,True,SUPPORTED,0.4519,False,False
+CASE000332,I need to change an order I placed. I need assistance.,Order Management,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3793,False,False
+CASE001914,question about canceling a bloody purchase,cancel_order,ANSWER,False,SUPPORTED,0.569,True,True
+CASE001887,help me seeing purchase {{Order Number}} status,track_order,ESCALATE,True,SUPPORTED,0.558,False,False
+CASE002023,how to use the standard profile,switch_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.0843,False,False
+CASE003058,"I paid {{Currency Symbol}}{{Refund Amount}} for these articles, I have to obtain a rebate",get_refund,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3618,False,False
+CASE001044,where can I see if there is anything new on the restitution?,track_refund,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2449,False,False
+CASE000867,could you tell me more about opening platinum accounts?,create_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.032,False,False
+CASE003068,add article to order {{Order Number}},change_order,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.253,False,False
+CASE000293,creating new {{Account Type}} account,create_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3205,False,False
+CASE001579,What is your return policy?,Return and Refund,ANSWER,False,SUPPORTED,0.5052,True,True
+CASE002371,help checking the status of purchase {{Order Number}},track_order,ESCALATE,True,SUPPORTED,0.5641,False,False
+CASE002024,I want to check when my item is going to arrive,delivery_period,ANSWER,False,SUPPORTED,0.5966,True,True
+CASE002637,I cannot receive the fucking newsletter,newsletter_subscription,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3449,False,False
+CASE002031,where to know if there is anything new on the rebate,track_refund,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.294,False,False
+CASE003082,"I have to see the ETA of the order {{Order Number}}, how to do it?",track_order,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2856,False,False
+CASE000321,can ya help me to request a refund of my money,get_refund,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3737,False,False
+CASE002123,open a gold account,create_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3549,False,False
+CASE000220,Can I edit my exam registration after submitting it? Please help me.,Exam Registration,ESCALATE,True,SUPPORTED,0.6294,False,False
+CASE002971,i want help notifying of a problem with online payments,payment_issue,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.0282,False,False
+CASE002960,"I cannot find my invoice #12588, will you mail it to me?",get_invoice,ANSWER,False,SUPPORTED,0.5859,True,True
+CASE001500,can I check what hours customer service available is?,contact_customer_service,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3747,False,False
+CASE002375,could you help me enter the secondary delivery address?,set_up_shipping_address,ANSWER,False,SUPPORTED,0.468,True,True
+CASE000104,i need help with cancelling order {{Order Number}},cancel_order,ESCALATE,True,SUPPORTED,0.5736,False,False
+CASE002261,how could I get in touch with customer support?,contact_customer_service,ANSWER,False,SUPPORTED,0.7233,True,True
+CASE000352,where can i get information about opening pro accounts,create_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2466,False,False
+CASE000940,i missed several items in purchase {{Order Number}},change_order,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2962,False,False
+CASE002498,i want help talkingh to a live agent,contact_human_agent,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.1979,False,False
+CASE001713,create {{Account Category}} accountfor wife,create_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.172,False,False
+CASE000148,how could I edit my goddamn account?,edit_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3909,False,False
+CASE003315,"I have to check the status of my compensation, I need help",track_refund,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3169,False,False
+CASE000733,need assistance to cancel order {{Order Number}},cancel_order,ESCALATE,True,SUPPORTED,0.6157,False,False
+CASE001463,i do not know what to do to rerquest a compensation of money,get_refund,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2963,False,False
+CASE001946,I have got to subscribe to the fucking newsletter,newsletter_subscription,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2307,False,False
+CASE001098,I don't know what I need to do to get the bill #12588,get_invoice,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.2973,False,False
+CASE002338,can ya tell me about an address correction,change_shipping_address,ANSWER,False,SUPPORTED,0.5832,True,True
+CASE003240,I would like to change to the goddamn {{Account Type}} account,switch_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.371,False,False
+CASE003000,I can't remove some articles from purchase {{Order Number}},change_order,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3217,False,False
+CASE002257,i do not know how to file a customer complaint,complaint,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3611,False,False
+CASE000936,help me contact customer assistance,contact_customer_service,ANSWER,False,SUPPORTED,0.6209,True,True
+CASE000439,When is the deadline for paying my fees? I need more information.,Fees and Payment,ANSWER,False,SUPPORTED,0.6108,True,True
+CASE000800,updateorder {{Order Number}},change_order,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3083,False,False
+CASE002242,wanna edit the data included on my user profile can uhelp me,edit_account,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.0827,False,False
+CASE002173,help making a consumer claim against your organization,complaint,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3289,False,False
+CASE002214,i want assistance to speak to an agentt,contact_human_agent,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.4325,False,False
+CASE001690,can uhelp me changing to the standard account,switch_account,ANSWER,False,SUPPORTED,0.5836,True,True
+CASE003332,how do I get compensations?,get_refund,ESCALATE,True,INSUFFICIENT_EVIDENCE,0.3204,False,False
+CASE000435,I try to modify my address,change_shipping_address,ANSWER,False,SUPPORTED,0.4891,True,True

@@ -6,7 +6,9 @@ import os
 import pytest
 import pandas as pd
 
-PROCESSED_DIR = os.path.join("data", "processed")
+from pathlib import Path
+_cand_proc = Path(__file__).resolve().parents[1] / "datasets" / "processed"
+PROCESSED_DIR = str(_cand_proc) if _cand_proc.exists() else os.path.join("data", "processed")
 
 def test_operational_foreign_keys():
     db_dir = os.path.join(PROCESSED_DIR, "database")

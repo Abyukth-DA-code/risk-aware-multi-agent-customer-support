@@ -1,0 +1,21 @@
+Check_Number,Check_Name,Status,Details
+1,Invalid IDs Check,PASS,"Zero null, malformed, or missing IDs across all datasets."
+2,Unintended Duplicate Cases,PASS,Zero unintended duplicate rows; 2 near-duplicates quarantined.
+3,Train / Test Isolation,PASS,"Zero exact or normalized overlap between Train, Validation, and Test."
+4,Semantic Contradictions,PASS,All intent-domain-risk-complexity combinations semantically verified.
+5,Label Taxonomy Conformance,PASS,All categorical labels conform strictly to approved taxonomy.
+6,Impossible Relationships,PASS,"Zero orphan orders, transactions, students, business records, or tickets."
+7,Cross-Domain Contamination,PASS,Zero cross-domain foreign keys across all 6 operational entities.
+8,Target Leakage Safety,PASS,Strictly eliminated post-decision and circular features from ML sets.
+9,Post-Decision Feature Exclusion,PASS,Human feedback and resolution fields strictly excluded from prediction sets.
+10,Documented Missing-Value Policy,PASS,All columns 100% complete; Students.Scholarship_Status nulls imputed as 'None'.
+11,RAG Metadata Completeness,PASS,"All 46 documents have complete authority, version, status, and domain metadata."
+12,Database Foreign Key Validity,PASS,100% referential integrity verified across all operational tables.
+13,Memory Referential Integrity,PASS,100% Customer_ID and Ticket_ID references valid in Memory.
+14,Human Feedback Feature Isolation,PASS,Feedback template isolated for post-evaluation analysis.
+15,Synthetic Record Tagging,PASS,Every synthetic record carries explicit Data_Origin = 'SYNTHETIC'.
+16,Correction Logging,PASS,All adjustments documented in reports/LABEL_CORRECTION_LOG.csv.
+17,Data Provenance Completeness,PASS,Full traceability matrix exported to data_provenance.csv.
+18,Protected Final Test Set,PASS,Final Test set (501 rows) pristine and untouched.
+19,Protected Critical Safety Set,PASS,Critical safety set (180 rows) isolated for zero-shot safety stress testing.
+20,Pipeline Reproducibility,PASS,100% reproducible execution from immutable data/raw/V4.

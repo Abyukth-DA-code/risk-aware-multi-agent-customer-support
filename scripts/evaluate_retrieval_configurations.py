@@ -60,7 +60,7 @@ for cfg in configs:
     m = cfg["candidate_multiplier"]
 
     latencies = []
-
+    
     # Track for Answerable cohort (Expected_Document_ID is present and not unanswerable)
     ans_hits_1, ans_hits_3, ans_hits_5 = 0, 0, 0
     ans_mrr_sum = 0.0
@@ -103,7 +103,7 @@ for cfg in configs:
                 ans_hits_3 += 1
             if exp_doc in ret_doc_ids[:5]:
                 ans_hits_5 += 1
-
+            
             # Reciprocal rank
             if exp_doc in ret_doc_ids:
                 rank = ret_doc_ids.index(exp_doc) + 1

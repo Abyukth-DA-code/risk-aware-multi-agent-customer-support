@@ -12,7 +12,14 @@ from typing import Any, Dict, List, Optional, Tuple
 import uuid
 
 ROOT = Path(__file__).resolve().parents[2]
-DEFAULT_DB_PATH = ROOT / "database" / "tenants.db"
+_cand_db = [
+    ROOT / "database" / "tenants.db",
+    Path(__file__).resolve().parents[3] / "backend" / "database" / "tenants.db",
+    Path(__file__).resolve().parents[3] / "database" / "tenants.db",
+    Path("backend/database/tenants.db"),
+    Path("database/tenants.db"),
+]
+DEFAULT_DB_PATH = next((c for c in _cand_db if c.exists()), _cand_db[0])
 
 
 class WorkspaceDB:
@@ -925,3 +932,5 @@ class WorkspaceDB:
                     (now,),
                 )
             return cur.rowcount
+
+

@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "timestamp": "2026-10-25T17:17:33.909010+00:00",
+    "total_queries": 501,
+    "eval_split": "test (held-out)",
+    "policy_a_name": "Policy A: Fixed / Pre-retrieval Baseline (M6 argmax classifier)",
+    "policy_b_name": "Policy B: Risk-Aware Adaptive Orchestration Pipeline (Production Safety Engine)"
+  },
+  "evaluation_subsets": {
+    "total_queries": 501,
+    "ground_truth_escalation_count": 49,
+    "strictly_safe_subset_count": 94,
+    "unsafe_subset_logical_union_count": 341,
+    "unsafe_subset_breakdown": {
+      "high_or_critical_risk_count": 30,
+      "insufficient_or_conflicting_evidence_count": 132,
+      "sensitive_action_count": 81,
+      "financial_impact_count": 170,
+      "knowledge_gap_or_metadata_conflict_count": 73,
+      "ground_truth_escalate_count": 49
+    }
+  },
+  "three_class_routing_metrics": {
+    "policy_a": {
+      "accuracy": 0.8862,
+      "macro_f1": 0.6316,
+      "confusion_matrix_labels": [
+        "ANSWER",
+        "ORCHESTRATE",
+        "ESCALATE"
+      ],
+      "confusion_matrix": [
+        [
+          365,
+          6,
+          2
+        ],
+        [
+          2,
+          77,
+          0
+        ],
+        [
+          33,
+          14,
+          2
+        ]
+      ]
+    },
+    "policy_b": {
+      "accuracy": 0.2555,
+      "macro_f1": 0.2882,
+      "confusion_matrix_labels": [
+        "ANSWER",
+        "ORCHESTRATE",
+        "ESCALATE"
+      ],
+      "confusion_matrix": [
+        [
+          64,
+          3,
+          306
+        ],
+        [
+          0,
+          20,
+          59
+        ],
+        [
+          2,
+          3,
+          44
+        ]
+      ]
+    }
+  },
+  "binary_escalation_metrics": {
+    "policy_a": {
+      "precision": 0.5,
+      "recall": 0.0408,
+      "f1_score": 0.0755
+    },
+    "policy_b": {
+      "precision": 0.1076,
+      "recall": 0.898,
+      "f1_score": 0.1921
+    }
+  },
+  "safety_and_over_defense_metrics": {
+    "unsafe_autonomous_answer_rate": {
+      "denominator_description": "Explicitly unsafe queries logical union (N=341)",
+      "policy_a_violations": 272,
+      "policy_a_rate": 0.7977,
+      "policy_b_violations": 21,
+      "policy_b_rate": 0.0616
+    },
+    "knowledge_gap_hallucination_rate": {
+      "denominator_description": "Missing knowledge queries (N=73)",
+      "policy_a_violations": 73,
+      "policy_a_rate": 1.0,
+      "policy_b_violations": 0,
+      "policy_b_rate": 0.0
+    },
+    "high_risk_autonomous_answer_rate": {
+      "denominator_description": "High risk queries (N=30)",
+      "policy_a_violations": 2,
+      "policy_a_rate": 0.0667,
+      "policy_b_violations": 0,
+      "policy_b_rate": 0.0
+    },
+    "unnecessary_escalation_rate": {
+      "denominator_description": "Strictly safe queries (N=94)",
+      "policy_a_unnecessary_escalations": 0,
+      "policy_a_rate": 0.0,
+      "policy_b_unnecessary_escalations": 48,
+      "policy_b_rate": 0.5106
+    }
+  },
+  "latency_profile_ms": {
+    "policy_a": {
+      "mean_ms": 53.63,
+      "median_ms": 49.35,
+      "p90_ms": 58.26,
+      "p95_ms": 64.56,
+      "p99_ms": 148.91
+    },
+    "policy_b": {
+      "mean_ms": 105.95,
+      "median_ms": 97.81,
+      "p90_ms": 145.87,
+      "p95_ms": 166.33,
+      "p99_ms": 270.6
+    }
+  },
+  "policy_b_rule_distribution": {
+    "NONE": 300,
+    "EVID_INSUF_04": 138,
+    "LOW_CONF_05": 33,
+    "RISK_VERIF_02": 30
+  }
+}

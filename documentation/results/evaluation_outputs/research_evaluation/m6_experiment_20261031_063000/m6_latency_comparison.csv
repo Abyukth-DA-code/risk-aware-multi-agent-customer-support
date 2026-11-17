@@ -1,0 +1,11 @@
+Metric,Policy_A,Policy_B,Policy_C,Difference_B_minus_A,Difference_C_minus_A,Measurement_Protocol
+Mean (ms),42.46,66.69,66.69,24.23,24.23,"Monotonic perf_counter(), warm in-memory sequential evaluation, single pass over 501 test cases"
+Std Dev (ms),8.18,23.14,23.14,14.96,14.96,"Monotonic perf_counter(), warm in-memory sequential evaluation, single pass over 501 test cases"
+Min (P0) (ms),26.94,46.91,46.91,19.97,19.97,"Monotonic perf_counter(), warm in-memory sequential evaluation, single pass over 501 test cases"
+P25 (ms),37.99,54.21,54.22,16.22,16.22,"Monotonic perf_counter(), warm in-memory sequential evaluation, single pass over 501 test cases"
+Median (P50) (ms),39.64,58.92,58.92,19.28,19.28,"Monotonic perf_counter(), warm in-memory sequential evaluation, single pass over 501 test cases"
+P75 (ms),43.77,72.43,72.44,28.66,28.66,"Monotonic perf_counter(), warm in-memory sequential evaluation, single pass over 501 test cases"
+P90 (ms),54.25,88.94,88.95,34.7,34.7,"Monotonic perf_counter(), warm in-memory sequential evaluation, single pass over 501 test cases"
+P95 (ms),59.89,102.39,102.4,42.5,42.5,"Monotonic perf_counter(), warm in-memory sequential evaluation, single pass over 501 test cases"
+P99 (ms),75.17,143.41,143.41,68.24,68.25,"Monotonic perf_counter(), warm in-memory sequential evaluation, single pass over 501 test cases"
+Max (P100) (ms),82.69,335.09,335.09,252.4,252.4,"Monotonic perf_counter(), warm in-memory sequential evaluation, single pass over 501 test cases"

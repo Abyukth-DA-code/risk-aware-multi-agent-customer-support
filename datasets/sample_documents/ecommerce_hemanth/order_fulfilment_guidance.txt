@@ -1,0 +1,21 @@
+Hemanth Online E-Commerce Store - Order and Fulfilment Guidance
+
+1. Fulfillment Center Operations:
+Orders placed on Hemanth Online Store are fulfilled from our automated high-density fulfillment hubs located across key regional transportation corridors. Our automated sorting conveyors and barcode scanning workflows ensure 99.8% picking accuracy and rapid turnaround.
+
+2. Order Lifecycle Stages:
+When you complete a purchase, your order progresses through the following transparent stages:
+- Stage 1 (Payment Confirmed): Payment successfully authorized; digital receipt generated.
+- Stage 2 (Warehouse Picking): Automated picking systems retrieve your inventory items from climate-controlled storage bays.
+- Stage 3 (Quality Inspection & Packing): Multi-point physical audit; items packaged securely with shock-absorbing protection.
+- Stage 4 (Manifested & Dispatched): Carrier airway bill scanned; tracking number assigned and emailed to customer.
+- Stage 5 (Out for Delivery & Completed): Carrier driver en route to destination street address; final delivery confirmation logged.
+
+3. Split Shipments and Multi-Warehouse Fulfilment:
+If an order contains multiple items that are stored in different regional distribution warehouses, your purchase may be delivered in separate parcels to ensure the fastest possible transit time. You will receive separate tracking links for each parcel at no additional delivery cost.
+
+4. Backorders and Pre-Orders:
+For newly released consumer electronics or high-demand merchandise, pre-orders guarantee allocation from the upcoming factory allocation shipment. Pre-orders are billed at checkout, and estimated dispatch dates are displayed prominently on the product page. Customers may cancel an unfulfilled pre-order at any time prior to warehouse allocation for a full 100% refund.
+
+5. Delivery Acceptance Recommendations:
+Upon courier delivery, we advise customers to inspect the outer shipping carton for punctures, tears, or tampered tape before signing for acceptance. If severe external carton damage is visible, note "Received in Damaged Condition" on the courier delivery manifest.

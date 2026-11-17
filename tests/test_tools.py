@@ -131,7 +131,7 @@ def test_order_return_eligibility_logic(tools_fixture):
 
     # Find delivered, returnable order
     delivered_orders = db.orders_df[
-        (db.orders_df["Delivery_Status"] == "Delivered") &
+        (db.orders_df["Delivery_Status"] == "Delivered") & 
         (db.orders_df["Return_Status"] != "Returned") &
         (db.orders_df["Return_Status"] != "Not_Eligible")
     ]

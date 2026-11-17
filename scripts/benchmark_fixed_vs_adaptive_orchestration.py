@@ -447,9 +447,9 @@ def run_benchmark():
 
     # Build Markdown Report
     md_content = f"""# Fixed vs. Adaptive Orchestration Benchmark Report
-**Project:** Autonomous Multi-Agent Customer Support System with HITL Escalation
-**Timestamp:** {start_time}
-**Dataset:** 501 Held-Out Test Queries (`data/processed/autonomy/test.csv`)
+**Project:** Autonomous Multi-Agent Customer Support System with HITL Escalation  
+**Timestamp:** {start_time}  
+**Dataset:** 501 Held-Out Test Queries (`data/processed/autonomy/test.csv`)  
 **Status:** Evaluation Completed (Reproducible)
 
 ---

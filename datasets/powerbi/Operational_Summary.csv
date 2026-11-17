@@ -1,0 +1,8 @@
+Table,Rows,Role
+Customers,1000,Customer profile
+Orders,1500,E-commerce context
+Transactions,1803,Payment context
+Support Tickets,1000,Historical support context
+Students,500,Education context
+Business Records,500,Small-business context
+Memory,1500,Customer memory

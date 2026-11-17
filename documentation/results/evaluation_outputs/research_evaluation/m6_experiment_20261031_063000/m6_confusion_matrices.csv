@@ -1,0 +1,10 @@
+Configuration,Policy_Name,Actual_Class,Predicted_ANSWER,Predicted_ORCHESTRATE,Predicted_ESCALATE,Total_Actual
+Policy_A,Policy A: Fixed Baseline (M6 argmax),ANSWER,365,6,2,373
+Policy_A,Policy A: Fixed Baseline (M6 argmax),ORCHESTRATE,2,77,0,79
+Policy_A,Policy A: Fixed Baseline (M6 argmax),ESCALATE,33,14,2,49
+Policy_B,Policy B: Original Adaptive Policy,ANSWER,64,3,306,373
+Policy_B,Policy B: Original Adaptive Policy,ORCHESTRATE,0,20,59,79
+Policy_B,Policy B: Original Adaptive Policy,ESCALATE,2,3,44,49
+Policy_C,Policy C: Risk-Calibrated Adaptive Policy,ANSWER,89,3,281,373
+Policy_C,Policy C: Risk-Calibrated Adaptive Policy,ORCHESTRATE,0,20,59,79
+Policy_C,Policy C: Risk-Calibrated Adaptive Policy,ESCALATE,7,3,39,49
