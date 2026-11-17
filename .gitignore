@@ -1,0 +1,41 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Logs and temporary files
+*.log
+scratch/
+*.zip
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated vector database
+backend/vector_store/
+
+# Private tenant data
+datasets/tenants/
+
+# Test and coverage
+.coverage
+htmlcov/
