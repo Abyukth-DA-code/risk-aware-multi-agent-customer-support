@@ -1,0 +1,3 @@
+model,train_seconds,validation_accuracy,validation_macro_f1,validation_negative_recall,approx_inference_ms_per_query
+tfidf_logistic_regression,0.9249,0.9631578947368421,0.9306495488883703,0.9572649572649573,0.2494
+tfidf_linear_svm,0.6304,0.9578947368421052,0.9290996537584344,0.9829059829059829,0.2684

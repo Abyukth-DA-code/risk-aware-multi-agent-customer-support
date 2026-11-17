@@ -1,0 +1,1287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Supervisor Desk — Autonomous Support Platform</title>
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --card-bg: #111827;
+      --card-border: #1f2937;
+      --card-hover: #1e293b;
+      --primary: #3b82f6;
+      --primary-hover: #2563eb;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent: #06b6d4;
+      --danger: #ef4444;
+      --danger-bg: rgba(239, 68, 68, 0.12);
+      --warning: #f59e0b;
+      --warning-bg: rgba(245, 158, 11, 0.12);
+      --success: #10b981;
+      --success-bg: rgba(16, 185, 129, 0.12);
+      --info: #3b82f6;
+      --info-bg: rgba(59, 130, 246, 0.12);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Navigation Bar */
+    header {
+      background: #0d1322;
+      border-bottom: 1px solid var(--card-border);
+      padding: 14px 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    .brand-badge {
+      font-size: 0.7rem;
+      background: rgba(239, 68, 68, 0.2);
+      color: #f87171;
+      border: 1px solid rgba(239, 68, 68, 0.4);
+      padding: 2px 8px;
+      border-radius: 9999px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .nav-item {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.88rem;
+      font-weight: 500;
+      padding: 6px 12px;
+      border-radius: 6px;
+      transition: all 0.2s ease;
+    }
+
+    .nav-item:hover {
+      color: #ffffff;
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .nav-item.active {
+      color: #ffffff;
+      background: var(--primary);
+    }
+
+    .session-indicator {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .status-badge {
+      font-size: 0.78rem;
+      padding: 4px 10px;
+      border-radius: 9999px;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      border: 1px solid var(--card-border);
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text-muted);
+    }
+
+    .status-badge.connected {
+      background: var(--success-bg);
+      color: var(--success);
+      border-color: rgba(16, 185, 129, 0.3);
+    }
+
+    /* Main Container */
+    main {
+      flex: 1;
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 28px 24px;
+      width: 100%;
+    }
+
+    /* Flash Alerts */
+    .alert {
+      padding: 14px 18px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border: 1px solid transparent;
+    }
+
+    .alert-danger { background: var(--danger-bg); border-color: rgba(239, 68, 68, 0.3); color: #fca5a5; }
+    .alert-success { background: var(--success-bg); border-color: rgba(16, 185, 129, 0.3); color: #86efac; }
+    .alert-warning { background: var(--warning-bg); border-color: rgba(245, 158, 11, 0.3); color: #fde047; }
+    .alert-info { background: var(--info-bg); border-color: rgba(59, 130, 246, 0.3); color: #93c5fd; }
+
+    /* Cards */
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    }
+
+    .card-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .card-desc {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      margin-bottom: 18px;
+    }
+
+    /* Auth Form */
+    .auth-grid {
+      display: flex;
+      gap: 12px;
+      align-items: flex-end;
+      flex-wrap: wrap;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      flex: 1;
+      min-width: 280px;
+    }
+
+    label {
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    input, select, textarea {
+      background: #090e17;
+      border: 1px solid var(--card-border);
+      border-radius: 6px;
+      padding: 10px 14px;
+      color: #ffffff;
+      font-size: 0.9rem;
+      outline: none;
+      transition: border-color 0.2s;
+      width: 100%;
+    }
+
+    input:focus, select:focus, textarea:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.25);
+    }
+
+    /* Buttons */
+    .btn {
+      background: var(--primary);
+      color: #ffffff;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 0.88rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: all 0.2s;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .btn:hover { background: var(--primary-hover); }
+    .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.08);
+      color: #e2e8f0;
+      border: 1px solid var(--card-border);
+    }
+    .btn-secondary:hover { background: rgba(255, 255, 255, 0.15); }
+
+    .btn-danger {
+      background: var(--danger);
+      color: #ffffff;
+    }
+    .btn-danger:hover { background: #dc2626; }
+
+    .btn-success {
+      background: var(--success);
+      color: #ffffff;
+    }
+    .btn-success:hover { background: #059669; }
+
+    .btn-sm {
+      padding: 6px 12px;
+      font-size: 0.8rem;
+    }
+
+    /* Stats Grid */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .stat-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 10px;
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .stat-val {
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: #ffffff;
+    }
+
+    .stat-label {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    /* Queue Controls & Filters */
+    .queue-controls {
+      display: flex;
+      gap: 14px;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+
+    .filters-group {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    /* Table */
+    .table-responsive {
+      overflow-x: auto;
+      border-radius: 8px;
+      border: 1px solid var(--card-border);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+      text-align: left;
+    }
+
+    th {
+      background: #0d1322;
+      color: var(--text-muted);
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 0.72rem;
+      letter-spacing: 0.05em;
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--card-border);
+    }
+
+    td {
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--card-border);
+      color: #cbd5e1;
+    }
+
+    tr:hover td {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    /* Badges */
+    .chip {
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 4px;
+      text-transform: uppercase;
+      display: inline-block;
+      letter-spacing: 0.04em;
+    }
+
+    .chip-critical { background: rgba(239, 68, 68, 0.2); color: #f87171; border: 1px solid rgba(239, 68, 68, 0.4); }
+    .chip-high { background: rgba(249, 115, 22, 0.2); color: #fb923c; border: 1px solid rgba(249, 115, 22, 0.4); }
+    .chip-medium { background: rgba(245, 158, 11, 0.2); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.4); }
+    .chip-low { background: rgba(59, 130, 246, 0.2); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.4); }
+
+    .chip-pending { background: rgba(245, 158, 11, 0.2); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.4); }
+    .chip-in-review { background: rgba(59, 130, 246, 0.2); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.4); }
+    .chip-resolved { background: rgba(16, 185, 129, 0.2); color: #4ade80; border: 1px solid rgba(16, 185, 129, 0.4); }
+    .chip-rejected { background: rgba(148, 163, 184, 0.2); color: #cbd5e1; border: 1px solid rgba(148, 163, 184, 0.4); }
+
+    .domain-chip {
+      font-size: 0.72rem;
+      padding: 2px 7px;
+      border-radius: 4px;
+      background: #1e293b;
+      color: #94a3b8;
+    }
+
+    /* Modal / Dossier Overlay */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(4px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 2000;
+      padding: 20px;
+    }
+
+    .modal-container {
+      background: #111827;
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      width: 100%;
+      max-width: 980px;
+      max-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+      overflow: hidden;
+    }
+
+    .modal-header {
+      padding: 18px 24px;
+      background: #0d1322;
+      border-bottom: 1px solid var(--card-border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .modal-body {
+      padding: 24px;
+      overflow-y: auto;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+    }
+
+    .modal-footer {
+      padding: 16px 24px;
+      background: #0d1322;
+      border-top: 1px solid var(--card-border);
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 12px;
+    }
+
+    /* Dossier Sections */
+    .dossier-section {
+      background: #090e17;
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 16px 20px;
+    }
+
+    .dossier-section-title {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .diagnostic-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+    }
+
+    .diagnostic-item {
+      background: #111827;
+      border: 1px solid var(--card-border);
+      border-radius: 6px;
+      padding: 10px 14px;
+    }
+
+    .diagnostic-label {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+    }
+
+    .diagnostic-val {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #ffffff;
+      margin-top: 2px;
+    }
+
+    /* Chunks list */
+    .chunks-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .chunk-card {
+      background: #111827;
+      border: 1px solid var(--card-border);
+      border-radius: 6px;
+      padding: 12px 14px;
+      font-size: 0.84rem;
+    }
+
+    .chunk-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+
+    .chunk-text {
+      color: #94a3b8;
+      font-style: italic;
+      line-height: 1.45;
+    }
+
+    /* Turns transcript */
+    .turn-row {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--card-border);
+      font-size: 0.85rem;
+    }
+    .turn-row:last-child { border-bottom: none; }
+    .turn-user { color: #60a5fa; font-weight: 600; }
+    .turn-bot { color: #e2e8f0; }
+
+    /* Audit Certificate */
+    .audit-cert {
+      background: rgba(16, 185, 129, 0.08);
+      border: 1px solid rgba(16, 185, 129, 0.25);
+      border-radius: 8px;
+      padding: 16px;
+      color: #a7f3d0;
+      font-size: 0.88rem;
+    }
+
+    .hidden { display: none !important; }
+    .spinner {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      border-radius: 50%;
+      border-top-color: #ffffff;
+      animation: spin 0.8s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      header { flex-direction: column; gap: 12px; align-items: flex-start; }
+      nav { flex-wrap: wrap; }
+      .queue-controls { flex-direction: column; align-items: stretch; }
+      .filters-group { flex-direction: column; align-items: stretch; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ======================================================================= -->
+  <!-- NAVIGATION -->
+  <!-- ======================================================================= -->
+  <header>
+    <a href="/supervisor" class="brand">
+      <span>⚡ Autonomous Support Platform</span>
+      <span class="brand-badge">Supervisor Desk</span>
+    </a>
+    <nav>
+      <a href="/widget/demo" class="nav-item">🛒 Customer Storefront</a>
+      <a href="/admin" class="nav-item">📊 Business Admin</a>
+      <a href="/supervisor" class="nav-item active">🛡️ Supervisor Desk</a>
+      <a href="/docs" target="_blank" class="nav-item">📖 API Docs</a>
+    </nav>
+    <div class="session-indicator">
+      <span id="sessionBadge" class="status-badge">🔒 Supervisor: Disconnected</span>
+      <button id="lockSessionBtn" class="btn btn-secondary btn-sm hidden" onclick="disconnectSupervisor()">
+        🔒 Lock Session
+      </button>
+    </div>
+  </header>
+
+  <!-- ======================================================================= -->
+  <!-- MAIN WORKSPACE -->
+  <!-- ======================================================================= -->
+  <main>
+    <div id="flashAlert" class="alert hidden"></div>
+
+    <!-- Supervisor Authentication Section -->
+    <section id="authSection" class="card">
+      <div class="card-title">🔐 Supervisor Authentication</div>
+      <div class="card-desc">
+        Connect using your business tenant master API key (<code>cap_...</code>).
+        Credentials remain exclusively in volatile in-memory state and are never written to browser storage.
+      </div>
+      <form onsubmit="handleSupervisorConnect(event)">
+        <div class="auth-grid">
+          <div class="form-group">
+            <label for="inputApiKey">Business Master API Key</label>
+            <input type="password" id="inputApiKey" placeholder="cap_..." required autocomplete="off" />
+          </div>
+          <button type="submit" id="connectBtn" class="btn">
+            Connect Supervisor Desk
+          </button>
+          <button type="button" class="btn btn-secondary" onclick="fillDemoCredentials()">
+            Fill Demo Key (cap_demo_admin_key)
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <!-- Connected Dashboard Area -->
+    <div id="dashboardArea" class="hidden">
+
+      <!-- Statistics Counters -->
+      <div class="stats-grid">
+        <div class="stat-card">
+          <span class="stat-label">Total Escalations</span>
+          <span id="statTotal" class="stat-val">0</span>
+        </div>
+        <div class="stat-card" style="border-left: 4px solid var(--warning);">
+          <span class="stat-label">Pending / Unassigned</span>
+          <span id="statPending" class="stat-val" style="color: #fbbf24;">0</span>
+        </div>
+        <div class="stat-card" style="border-left: 4px solid var(--info);">
+          <span class="stat-label">In Review (Active)</span>
+          <span id="statInReview" class="stat-val" style="color: #60a5fa;">0</span>
+        </div>
+        <div class="stat-card" style="border-left: 4px solid var(--success);">
+          <span class="stat-label">Resolved Cases</span>
+          <span id="statResolved" class="stat-val" style="color: #4ade80;">0</span>
+        </div>
+      </div>
+
+      <!-- Queue Controls & Filters -->
+      <div class="queue-controls">
+        <div class="filters-group">
+          <div style="min-width: 200px;">
+            <select id="selectWorkspaceFilter" onchange="onWorkspaceFilterChange()">
+              <option value="__ALL__">All Workspaces (Aggregated)</option>
+            </select>
+          </div>
+          <div style="min-width: 150px;">
+            <select id="selectStatusFilter" onchange="applyFilters()">
+              <option value="">All Statuses</option>
+              <option value="PENDING">Pending Only</option>
+              <option value="IN_REVIEW">In Review Only</option>
+              <option value="RESOLVED">Resolved Only</option>
+              <option value="REJECTED">Rejected Only</option>
+            </select>
+          </div>
+          <div style="min-width: 130px;">
+            <select id="selectRiskFilter" onchange="applyFilters()">
+              <option value="">All Risks</option>
+              <option value="Critical">Critical Risk</option>
+              <option value="High">High Risk</option>
+              <option value="Medium">Medium Risk</option>
+              <option value="Low">Low Risk</option>
+            </select>
+          </div>
+        </div>
+        <div class="filters-group">
+          <input type="text" id="inputSearchQuery" placeholder="Filter query or ID..." style="width: 240px;" oninput="applyFilters()" />
+          <button class="btn btn-secondary" onclick="loadEscalationsQueue()" title="Refresh escalation queue">
+            🔄 Refresh
+          </button>
+        </div>
+      </div>
+
+      <!-- Escalation Queue Table -->
+      <section class="card" style="padding: 0; overflow: hidden;">
+        <div class="table-responsive">
+          <table>
+            <thead>
+              <tr>
+                <th>Risk</th>
+                <th>Escalation ID</th>
+                <th>Workspace</th>
+                <th>Customer / Session</th>
+                <th>Customer Query</th>
+                <th>Reason / Safety Trigger</th>
+                <th>Status</th>
+                <th>Created</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="queueTableBody">
+              <tr>
+                <td colspan="9" style="text-align: center; padding: 32px; color: var(--text-muted);">
+                  Loading escalation queue...
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ======================================================================= -->
+  <!-- CASE DOSSIER & HUMAN REVIEW MODAL -->
+  <!-- ======================================================================= -->
+  <div id="dossierModal" class="modal-overlay hidden">
+    <div class="modal-container">
+      <div class="modal-header">
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <h2 style="font-size: 1.15rem; color: #ffffff;" id="modalDossierTitle">Case Dossier</h2>
+          <span id="modalDossierStatusChip" class="chip chip-pending">PENDING</span>
+        </div>
+        <button class="btn btn-secondary btn-sm" onclick="closeDossierModal()">&times; Close</button>
+      </div>
+
+      <div class="modal-body" id="modalDossierBody">
+        <!-- Injected via renderDossierContent -->
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" onclick="closeDossierModal()">Dismiss</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================================= -->
+  <!-- JAVASCRIPT LOGIC (Strict In-Memory Auth, No LocalStorage of Secrets) -->
+  <!-- ======================================================================= -->
+  <script>
+    'use strict';
+
+    const API_BASE = window.location.origin;
+
+    // Volatile in-memory supervisor state
+    const state = {
+      apiKey: null,
+      tenantId: null,
+      workspaces: [],
+      escalations: [],
+      activeDossier: null
+    };
+
+    function escapeHtml(str) {
+      if (str === null || str === undefined) return '';
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    function showFlash(type, message) {
+      const box = document.getElementById('flashAlert');
+      box.className = `alert alert-${type}`;
+      box.innerHTML = `<div>${escapeHtml(message)}</div>`;
+      box.classList.remove('hidden');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function clearFlash() {
+      const box = document.getElementById('flashAlert');
+      box.className = 'alert hidden';
+      box.innerHTML = '';
+    }
+
+    function fillDemoCredentials() {
+      document.getElementById('inputApiKey').value = 'cap_demo_admin_key';
+    }
+
+    // Connect Supervisor
+    async function handleSupervisorConnect(e) {
+      if (e) e.preventDefault();
+      clearFlash();
+
+      const key = document.getElementById('inputApiKey').value.trim();
+      if (!key) return;
+
+      const btn = document.getElementById('connectBtn');
+      btn.disabled = true;
+      btn.innerHTML = '<span class="spinner"></span> Authenticating...';
+
+      try {
+        const resp = await fetch(`${API_BASE}/api/v1/workspaces`, {
+          headers: { 'Authorization': `Bearer ${key}` }
+        });
+
+        if (!resp.ok) {
+          const err = await resp.json().catch(() => ({}));
+          throw new Error(err.detail || `Authentication failed (${resp.status})`);
+        }
+
+        const workspaces = await resp.json();
+        state.apiKey = key;
+        state.workspaces = workspaces;
+        if (workspaces.length > 0) {
+          state.tenantId = workspaces[0].tenant_id;
+        }
+
+        onSupervisorConnected();
+      } catch (err) {
+        showFlash('danger', `Connection Error: ${err.message}`);
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = 'Connect Supervisor Desk';
+      }
+    }
+
+    function onSupervisorConnected() {
+      document.getElementById('authSection').classList.add('hidden');
+      document.getElementById('dashboardArea').classList.remove('hidden');
+      document.getElementById('lockSessionBtn').classList.remove('hidden');
+
+      const badge = document.getElementById('sessionBadge');
+      badge.className = 'status-badge connected';
+      badge.innerText = `🟢 Connected (${state.workspaces.length} Workspaces)`;
+
+      // Populate Workspace Filter Dropdown
+      const select = document.getElementById('selectWorkspaceFilter');
+      select.innerHTML = '<option value="__ALL__">All Workspaces (Aggregated)</option>' +
+        state.workspaces.map(w => `<option value="${escapeHtml(w.workspace_id)}">${escapeHtml(w.name)} (${escapeHtml(w.domain)})</option>`).join('');
+
+      loadEscalationsQueue();
+    }
+
+    function disconnectSupervisor() {
+      state.apiKey = null;
+      state.tenantId = null;
+      state.workspaces = [];
+      state.escalations = [];
+      state.activeDossier = null;
+
+      document.getElementById('inputApiKey').value = '';
+      document.getElementById('authSection').classList.remove('hidden');
+      document.getElementById('dashboardArea').classList.add('hidden');
+      document.getElementById('lockSessionBtn').classList.add('hidden');
+
+      const badge = document.getElementById('sessionBadge');
+      badge.className = 'status-badge';
+      badge.innerText = '🔒 Supervisor: Disconnected';
+
+      closeDossierModal();
+      showFlash('info', 'Supervisor session locked. Volatile keys cleared from memory.');
+    }
+
+    function onWorkspaceFilterChange() {
+      loadEscalationsQueue();
+    }
+
+    // Fetch Escalations from real backend
+    async function loadEscalationsQueue() {
+      if (!state.apiKey) return;
+      clearFlash();
+
+      const tbody = document.getElementById('queueTableBody');
+      tbody.innerHTML = '<tr><td colspan="9" style="text-align: center; padding: 24px;"><span class="spinner"></span> Loading real escalations...</td></tr>';
+
+      const selectedWs = document.getElementById('selectWorkspaceFilter').value;
+      const targetWorkspaces = selectedWs === '__ALL__'
+        ? state.workspaces
+        : state.workspaces.filter(w => w.workspace_id === selectedWs);
+
+      try {
+        let allItems = [];
+        for (const ws of targetWorkspaces) {
+          const resp = await fetch(`${API_BASE}/api/v1/workspaces/${encodeURIComponent(ws.workspace_id)}/escalations`, {
+            headers: { 'Authorization': `Bearer ${state.apiKey}` }
+          });
+          if (resp.ok) {
+            const items = await resp.json();
+            allItems = allItems.concat(items);
+          }
+        }
+
+        // Sort descending by created_at
+        allItems.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+        state.escalations = allItems;
+
+        updateStats(allItems);
+        applyFilters();
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const autoCase = urlParams.get('case');
+        if (autoCase) {
+          const target = allItems.find(i => i.escalation_id === autoCase);
+          if (target) {
+            openDossier(target.workspace_id, target.escalation_id);
+          }
+        }
+      } catch (err) {
+        tbody.innerHTML = `<tr><td colspan="9" style="text-align:center; padding:24px; color:var(--danger);">Error loading queue: ${escapeHtml(err.message)} <button class="btn btn-secondary btn-sm" onclick="loadEscalationsQueue()" style="margin-left:8px;">Retry</button></td></tr>`;
+      }
+    }
+
+    function updateStats(items) {
+      document.getElementById('statTotal').innerText = items.length;
+      document.getElementById('statPending').innerText = items.filter(i => i.status === 'PENDING').length;
+      document.getElementById('statInReview').innerText = items.filter(i => i.status === 'IN_REVIEW').length;
+      document.getElementById('statResolved').innerText = items.filter(i => i.status === 'RESOLVED').length;
+    }
+
+    function applyFilters() {
+      const statusFilter = document.getElementById('selectStatusFilter').value;
+      const riskFilter = document.getElementById('selectRiskFilter').value;
+      const searchQuery = document.getElementById('inputSearchQuery').value.trim().toLowerCase();
+
+      let filtered = state.escalations;
+
+      if (statusFilter) {
+        filtered = filtered.filter(i => i.status === statusFilter);
+      }
+      if (riskFilter) {
+        filtered = filtered.filter(i => (i.risk || '').toLowerCase() === riskFilter.toLowerCase());
+      }
+      if (searchQuery) {
+        filtered = filtered.filter(i =>
+          (i.query || '').toLowerCase().includes(searchQuery) ||
+          (i.escalation_id || '').toLowerCase().includes(searchQuery) ||
+          (i.customer_id || '').toLowerCase().includes(searchQuery) ||
+          (i.session_id || '').toLowerCase().includes(searchQuery)
+        );
+      }
+
+      renderQueueTable(filtered);
+    }
+
+    function renderQueueTable(items) {
+      const tbody = document.getElementById('queueTableBody');
+      if (!items || items.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="9" style="text-align: center; padding: 32px; color: var(--text-muted);">No escalation records found matching current criteria.</td></tr>';
+        return;
+      }
+
+      tbody.innerHTML = items.map(item => {
+        const riskClass = (item.risk || 'low').toLowerCase();
+        const statusClass = (item.status || 'pending').toLowerCase().replace('_', '-');
+        const createdDate = new Date(item.created_at).toLocaleString();
+
+        const wsObj = state.workspaces.find(w => w.workspace_id === item.workspace_id);
+        const wsName = wsObj ? wsObj.name : item.workspace_id;
+
+        return `
+          <tr>
+            <td><span class="chip chip-${riskClass}">${escapeHtml(item.risk || 'Low')}</span></td>
+            <td><code>${escapeHtml(item.escalation_id)}</code></td>
+            <td>
+              <div style="font-weight:600; color:#fff;">${escapeHtml(wsName)}</div>
+              <span class="domain-chip">${escapeHtml(item.domain)}</span>
+            </td>
+            <td>
+              <div style="font-size:0.8rem;">${escapeHtml(item.customer_id || 'Anonymous')}</div>
+              <div style="font-size:0.75rem; color:var(--text-muted);"><code>${escapeHtml(item.session_id || '-')}</code></div>
+            </td>
+            <td style="max-width:240px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;" title="${escapeHtml(item.query)}">
+              "${escapeHtml(item.query)}"
+            </td>
+            <td>
+              <div style="font-weight:500; color:#f8fafc;">${escapeHtml(item.escalation_reason || 'Human Assistance Required')}</div>
+              ${item.safety_rule_triggered ? `<span class="chip chip-critical" style="font-size:0.65rem; margin-top:3px;">${escapeHtml(item.safety_rule_triggered)}</span>` : ''}
+            </td>
+            <td><span class="chip chip-${statusClass}">${escapeHtml(item.status)}</span></td>
+            <td style="font-size:0.78rem; color:var(--text-muted);">${createdDate}</td>
+            <td>
+              <button class="btn btn-secondary btn-sm" onclick="openDossier('${escapeHtml(item.workspace_id)}', '${escapeHtml(item.escalation_id)}')">
+                Review Case &rarr;
+              </button>
+            </td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    // =======================================================================
+    // DOSSIER MODAL & HUMAN REVIEW ACTIONS
+    // =======================================================================
+
+    async function openDossier(workspaceId, escalationId) {
+      if (!state.apiKey) return;
+      clearFlash();
+
+      const modal = document.getElementById('dossierModal');
+      const body = document.getElementById('modalDossierBody');
+      modal.classList.remove('hidden');
+      body.innerHTML = '<div style="text-align:center; padding: 48px;"><span class="spinner"></span> Loading case dossier...</div>';
+
+      try {
+        const resp = await fetch(`${API_BASE}/api/v1/workspaces/${encodeURIComponent(workspaceId)}/escalations/${encodeURIComponent(escalationId)}`, {
+          headers: { 'Authorization': `Bearer ${state.apiKey}` }
+        });
+
+        if (!resp.ok) {
+          const err = await resp.json().catch(() => ({}));
+          throw new Error(err.detail || `Failed to fetch dossier (${resp.status})`);
+        }
+
+        const dossier = await resp.json();
+        state.activeDossier = dossier;
+
+        // Fetch session turns if session_id is available
+        let turns = [];
+        if (dossier.session_id) {
+          try {
+            const turnsResp = await fetch(`${API_BASE}/api/v1/workspaces/${encodeURIComponent(workspaceId)}/sessions/${encodeURIComponent(dossier.session_id)}/turns`, {
+              headers: { 'Authorization': `Bearer ${state.apiKey}` }
+            });
+            if (turnsResp.ok) {
+              turns = await turnsResp.json();
+            }
+          } catch (tErr) {
+            // Silently ignore session turn fetch failure
+          }
+        }
+
+        renderDossierContent(dossier, turns);
+      } catch (err) {
+        body.innerHTML = `<div class="alert alert-danger">Failed to open dossier: ${escapeHtml(err.message)}</div>`;
+      }
+    }
+
+    function closeDossierModal() {
+      document.getElementById('dossierModal').classList.add('hidden');
+      state.activeDossier = null;
+    }
+
+    function renderDossierContent(d, turns) {
+      document.getElementById('modalDossierTitle').innerText = `Case Dossier — ${d.escalation_id}`;
+      const statusChip = document.getElementById('modalDossierStatusChip');
+      const sClass = (d.status || 'pending').toLowerCase().replace('_', '-');
+      statusChip.className = `chip chip-${sClass}`;
+      statusChip.innerText = d.status;
+
+      let chunksHtml = '<div style="color:var(--text-muted); font-size:0.85rem;">No retrieval evidence chunks recorded.</div>';
+      if (d.retrieved_chunks_json) {
+        try {
+          const parsed = JSON.parse(d.retrieved_chunks_json);
+          if (Array.isArray(parsed) && parsed.length > 0) {
+            chunksHtml = `<div class="chunks-list">` + parsed.map(c => `
+              <div class="chunk-card">
+                <div class="chunk-header">
+                  <span style="font-weight:600; color:#fff;">📄 ${escapeHtml(c.title || c.document_name || 'Policy Document')}</span>
+                  <span class="chip chip-medium">${escapeHtml(c.category_key || c.document_type || 'Evidence')} (Sim: ${c.similarity ? (c.similarity * 100).toFixed(1) + '%' : 'N/A'})</span>
+                </div>
+                <div class="chunk-text">"${escapeHtml(c.chunk_text || '')}"</div>
+              </div>
+            `).join('') + `</div>`;
+          }
+        } catch (e) {}
+      }
+
+      let turnsHtml = '<div style="color:var(--text-muted); font-size:0.85rem;">No previous conversation turns recorded for this session.</div>';
+      if (turns && turns.length > 0) {
+        turnsHtml = turns.map(t => `
+          <div class="turn-row">
+            <div><span class="turn-user">Customer (Turn ${t.turn_index}):</span> ${escapeHtml(t.user_query)}</div>
+            <div><span class="turn-bot">Assistant:</span> ${escapeHtml(t.bot_response || 'No response')}</div>
+          </div>
+        `).join('');
+      }
+
+      const isTerminal = d.status === 'RESOLVED' || d.status === 'REJECTED';
+
+      let actionPanelHtml = '';
+      if (isTerminal) {
+        actionPanelHtml = `
+          <div class="audit-cert">
+            <h4 style="color:#34d399; font-size:0.95rem; margin-bottom:6px;">🔒 Immutable Review Audit Record</h4>
+            <div><strong>Decision:</strong> <code>${escapeHtml(d.human_decision || 'N/A')}</code></div>
+            <div><strong>Resolved By:</strong> ${escapeHtml(d.resolved_by || 'Supervisor')}</div>
+            <div><strong>Supervisor Notes:</strong> ${escapeHtml(d.reviewer_notes || 'None provided')}</div>
+            <div><strong>Resolution Timestamp:</strong> ${escapeHtml(d.resolved_at || d.updated_at)}</div>
+            <div style="margin-top:8px; font-size:0.78rem; opacity:0.8;">This case has reached its terminal lifecycle state and cannot be reopened.</div>
+          </div>
+        `;
+      } else {
+        actionPanelHtml = `
+          <form onsubmit="handleReviewSubmit(event)">
+            <div style="display:flex; flex-direction:column; gap:14px;">
+              <div style="display:grid; grid-template-columns: 1fr 1fr; gap:12px;">
+                <div class="form-group">
+                  <label for="reviewAction">Decision Action</label>
+                  <select id="reviewAction" required onchange="onActionSelectChange()">
+                    <option value="RESOLVED">Resolve Case (Approve / Custom Guidance)</option>
+                    <option value="REJECTED">Reject Request (Enforce Limitation)</option>
+                    ${d.status === 'PENDING' ? '<option value="IN_REVIEW">Claim Ticket (Set IN_REVIEW)</option>' : ''}
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="reviewDecisionCode">Decision Code</label>
+                  <select id="reviewDecisionCode" required>
+                    <option value="APPROVE_OVERRIDE">APPROVE_OVERRIDE (Authorize Exception)</option>
+                    <option value="REJECT_REQUEST">REJECT_REQUEST (Decline Request)</option>
+                    <option value="PROVIDE_CUSTOM_ANSWER">PROVIDE_CUSTOM_ANSWER (Specialist Guidance)</option>
+                    <option value="CONFIRM_POLICY_LIMITATION">CONFIRM_POLICY_LIMITATION (Policy Enforced)</option>
+                    <option value="REQUEST_MORE_INFO">REQUEST_MORE_INFO (Missing Info)</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="reviewSupervisorId">Reviewer Identity / Handle</label>
+                <input type="text" id="reviewSupervisorId" placeholder="e.g. supervisor_lead" value="supervisor_admin" required />
+              </div>
+
+              <div class="form-group">
+                <label for="reviewNotes">Supervisor Review Commentary & Rationale</label>
+                <textarea id="reviewNotes" rows="3" placeholder="Provide detailed audit notes justifying the decision..." required></textarea>
+              </div>
+
+              <div style="display:flex; justify-content:flex-end; gap:10px; margin-top:6px;">
+                <button type="submit" id="submitReviewBtn" class="btn btn-primary">
+                  Submit Official Decision
+                </button>
+              </div>
+            </div>
+          </form>
+        `;
+      }
+
+      const body = document.getElementById('modalDossierBody');
+      body.innerHTML = `
+        <!-- Customer Query Banner -->
+        <div class="dossier-section">
+          <div class="dossier-section-title">💬 Customer Inquiry & Context</div>
+          <div style="font-size: 1.05rem; font-weight:600; color:#fff; margin-bottom: 6px;">
+            "${escapeHtml(d.query)}"
+          </div>
+          <div style="display:flex; gap:14px; font-size:0.8rem; color:var(--text-muted); flex-wrap:wrap;">
+            <span><strong>Workspace:</strong> ${escapeHtml(d.workspace_id)} (${escapeHtml(d.domain)})</span>
+            <span><strong>Customer ID:</strong> ${escapeHtml(d.customer_id || 'Anonymous')}</span>
+            <span><strong>Session ID:</strong> <code>${escapeHtml(d.session_id || 'None')}</code></span>
+            <span><strong>Created:</strong> ${new Date(d.created_at).toLocaleString()}</span>
+          </div>
+        </div>
+
+        <!-- Dialogue History -->
+        <div class="dossier-section">
+          <div class="dossier-section-title">🔄 Multi-Turn Dialogue Transcript</div>
+          ${turnsHtml}
+        </div>
+
+        <!-- Model Diagnostics -->
+        <div class="dossier-section">
+          <div class="dossier-section-title">🧠 Multi-Agent Diagnostic Inferences</div>
+          <div class="diagnostic-grid">
+            <div class="diagnostic-item">
+              <div class="diagnostic-label">Intent</div>
+              <div class="diagnostic-val">${escapeHtml(d.intent || 'Unknown')}</div>
+              <div style="font-size:0.75rem; color:var(--text-muted);">${d.intent_confidence ? 'Conf: ' + (d.intent_confidence * 100).toFixed(1) + '%' : ''}</div>
+            </div>
+            <div class="diagnostic-item">
+              <div class="diagnostic-label">Risk Level</div>
+              <div class="diagnostic-val"><span class="chip chip-${(d.risk || 'low').toLowerCase()}">${escapeHtml(d.risk || 'Low')}</span></div>
+              <div style="font-size:0.75rem; color:var(--text-muted);">${d.risk_confidence ? 'Conf: ' + (d.risk_confidence * 100).toFixed(1) + '%' : ''}</div>
+            </div>
+            <div class="diagnostic-item">
+              <div class="diagnostic-label">Complexity</div>
+              <div class="diagnostic-val">${escapeHtml(d.complexity || 'Standard')}</div>
+            </div>
+            <div class="diagnostic-item">
+              <div class="diagnostic-label">Autonomy Tier</div>
+              <div class="diagnostic-val" style="color:#f87171;">${escapeHtml(d.final_autonomy_tier || 'ESCALATE')}</div>
+            </div>
+          </div>
+
+          <div style="margin-top:14px; padding:10px 14px; background:#111827; border-radius:6px; border-left: 3px solid var(--danger);">
+            <div style="font-size:0.78rem; text-transform:uppercase; color:#f87171; font-weight:700;">Triggered Safety Policy</div>
+            <div style="font-size:0.9rem; color:#fff; margin-top:2px;">
+              ${d.safety_rule_triggered ? `<code>${escapeHtml(d.safety_rule_triggered)}</code> — ` : ''}${escapeHtml(d.escalation_reason || 'Human Assistance Required')}
+            </div>
+            ${d.recommended_action ? `<div style="font-size:0.82rem; color:var(--text-muted); margin-top:4px;"><strong>AI Recommendation:</strong> ${escapeHtml(d.recommended_action)}</div>` : ''}
+          </div>
+        </div>
+
+        <!-- Grounding Evidence -->
+        <div class="dossier-section">
+          <div class="dossier-section-title">📚 Retrieved Knowledge Base Evidence</div>
+          <div style="margin-bottom:10px; font-size:0.84rem; color:var(--text-muted);">
+            Evidence Quality: <strong>${escapeHtml(d.evidence_quality || 'Unknown')}</strong> | Retrieval Similarity: <strong>${d.retrieval_similarity_score ? (d.retrieval_similarity_score * 100).toFixed(1) + '%' : 'N/A'}</strong>
+          </div>
+          ${chunksHtml}
+        </div>
+
+        <!-- Human Review Actions -->
+        <div class="dossier-section">
+          <div class="dossier-section-title">⚖️ Supervisor Review Decision & Action</div>
+          ${actionPanelHtml}
+        </div>
+      `;
+
+      const urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.get('scroll') === 'audit') {
+        setTimeout(() => {
+          const auditEl = body.querySelector('.audit-cert') || body.lastElementChild;
+          if (auditEl) {
+            auditEl.scrollIntoView({ behavior: 'instant', block: 'end' });
+          }
+        }, 50);
+      }
+    }
+
+    function onActionSelectChange() {
+      const action = document.getElementById('reviewAction').value;
+      const codeSelect = document.getElementById('reviewDecisionCode');
+      if (action === 'IN_REVIEW') {
+        codeSelect.value = 'REQUEST_MORE_INFO';
+      } else if (action === 'REJECTED') {
+        codeSelect.value = 'REJECT_REQUEST';
+      } else {
+        codeSelect.value = 'APPROVE_OVERRIDE';
+      }
+    }
+
+    async function handleReviewSubmit(e) {
+      e.preventDefault();
+      if (!state.activeDossier || !state.apiKey) return;
+
+      const d = state.activeDossier;
+      const targetStatus = document.getElementById('reviewAction').value;
+      const decisionCode = document.getElementById('reviewDecisionCode').value;
+      const supervisorId = document.getElementById('reviewSupervisorId').value.trim();
+      const notes = document.getElementById('reviewNotes').value.trim();
+
+      if (!supervisorId) {
+        alert('Reviewer identity is required.');
+        return;
+      }
+      if (!notes && (targetStatus === 'RESOLVED' || targetStatus === 'REJECTED')) {
+        alert('Supervisor commentary notes are required for resolving or rejecting an escalation.');
+        return;
+      }
+
+      if (targetStatus === 'RESOLVED' || targetStatus === 'REJECTED') {
+        const confirmed = confirm(
+          `CONFIRM CONSEQUENTIAL DECISION:\n\n` +
+          `You are transitioning case ${d.escalation_id} to "${targetStatus}" with decision code "${decisionCode}".\n\n` +
+          `Terminal state transitions are permanent and cannot be modified or reopened.\n\n` +
+          `Proceed with official submission?`
+        );
+        if (!confirmed) return;
+      }
+
+      const btn = document.getElementById('submitReviewBtn');
+      btn.disabled = true;
+      btn.innerHTML = '<span class="spinner"></span> Submitting Decision...';
+
+      try {
+        const resp = await fetch(`${API_BASE}/api/v1/workspaces/${encodeURIComponent(d.workspace_id)}/escalations/${encodeURIComponent(d.escalation_id)}/review`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${state.apiKey}`
+          },
+          body: JSON.stringify({
+            status: targetStatus,
+            human_decision: decisionCode,
+            reviewer_notes: notes,
+            resolved_by: supervisorId
+          })
+        });
+
+        if (!resp.ok) {
+          const err = await resp.json().catch(() => ({}));
+          throw new Error(err.detail || `Submission failed (${resp.status})`);
+        }
+
+        const updatedDossier = await resp.json();
+        state.activeDossier = updatedDossier;
+
+        // Re-render dossier with updated state
+        renderDossierContent(updatedDossier, []);
+
+        // Refresh queue
+        await loadEscalationsQueue();
+
+        showFlash('success', `Case ${d.escalation_id} successfully updated to "${targetStatus}".`);
+      } catch (err) {
+        alert(`Review Error: ${err.message}`);
+      } finally {
+        if (btn) {
+          btn.disabled = false;
+          btn.innerHTML = 'Submit Official Decision';
+        }
+      }
+    }
+
+    // Auto-fill demo credentials if ?demo=1 is specified in URL (without bypassing auth)
+    window.addEventListener('DOMContentLoaded', () => {
+      const params = new URLSearchParams(window.location.search);
+      if (params.get('demo') === '1') {
+        fillDemoCredentials();
+        handleSupervisorConnect(null);
+      }
+    });
+  </script>
+</body>
+</html>

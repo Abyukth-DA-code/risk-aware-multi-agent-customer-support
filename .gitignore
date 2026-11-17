@@ -39,3 +39,10 @@ datasets/tenants/
 # Test and coverage
 .coverage
 htmlcov/
+
+
+# Private tenant datasets
+data/tenants/
+data/chromadb/
+data/tenants/
+data/chromadb/

@@ -1,0 +1,83 @@
+{
+  "dataset_version": "v2_refined",
+  "timestamp": "2026-10-13T19:00:00Z",
+  "total_cases_retained": 3644,
+  "split_counts": {
+    "train": 2504,
+    "validation": 570,
+    "test": 570
+  },
+  "class_counts": {
+    "train": {
+      "Neutral": 1760,
+      "Negative": 554,
+      "Positive": 190
+    },
+    "validation": {
+      "Neutral": 391,
+      "Negative": 117,
+      "Positive": 62
+    },
+    "test": {
+      "Neutral": 395,
+      "Negative": 113,
+      "Positive": 62
+    }
+  },
+  "provenance_breakdown": {
+    "train": {
+      "PUBLIC_SOURCE": 1998,
+      "SYNTHETIC": 506
+    },
+    "validation": {
+      "PUBLIC_SOURCE": 430,
+      "SYNTHETIC": 78,
+      "CURATED_BENCHMARK": 62
+    },
+    "test": {
+      "PUBLIC_SOURCE": 433,
+      "SYNTHETIC": 75,
+      "CURATED_BENCHMARK": 62
+    }
+  },
+  "disjointness_checks": {
+    "case_id_overlap": {
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0,
+      "status": "PASS"
+    },
+    "exact_query_overlap": {
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0,
+      "status": "PASS"
+    },
+    "normalized_query_overlap": {
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0,
+      "status": "PASS"
+    },
+    "super_normalized_query_overlap": {
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0,
+      "status": "PASS"
+    },
+    "template_family_isolation": {
+      "ID issuance status": "Assigned 100% to Validation (0 in Train, 0 in Test)",
+      "Re-order products": "Assigned 100% to Validation (0 in Train, 0 in Test)",
+      "Lost student ID": "Assigned 100% to Test (0 in Train, 0 in Test)",
+      "Add employee": "Assigned 100% to Test (0 in Train, 0 in Test)",
+      "status": "PASS (0 cross-split leakage for audited families)"
+    }
+  },
+  "data_refinements_summary": {
+    "anomalous_labels_corrected": 20,
+    "cases_moved_to_eval_to_prevent_leakage": 14,
+    "cases_moved_into_train": 0,
+    "curated_positive_eval_queries_added": 124,
+    "synthetic_positives_replaced_in_eval": 124
+  }
+}

@@ -1,0 +1,2659 @@
+{
+  "01_Master_Gold_V4.xlsx": {
+    "sheets": {
+      "Core_Master": {
+        "rows": 3339,
+        "columns": 28,
+        "column_names": [
+          "Case_ID",
+          "Query",
+          "Domain",
+          "Intent",
+          "Sentiment",
+          "Source_Type",
+          "Risk",
+          "Risk_Reason",
+          "Complexity",
+          "Required_Capabilities",
+          "Complexity_Reason",
+          "Action_Type",
+          "Sensitive_Action",
+          "Financial_Impact",
+          "Intent_Confidence_Gold",
+          "Domain_Confidence_Gold",
+          "Evidence_Quality",
+          "Retrieval_Confidence_Gold",
+          "Evidence_Agreement_Gold",
+          "Verification_Required",
+          "Verification_Score_Gold",
+          "Final_Confidence_Gold",
+          "Escalation_Required",
+          "Escalation_Reason",
+          "Autonomy_Decision",
+          "Required_Agents",
+          "Required_Tools",
+          "Required_Data_Sources"
+        ],
+        "dtypes": {
+          "Case_ID": "object",
+          "Query": "object",
+          "Domain": "object",
+          "Intent": "object",
+          "Sentiment": "object",
+          "Source_Type": "object",
+          "Risk": "object",
+          "Risk_Reason": "object",
+          "Complexity": "object",
+          "Required_Capabilities": "object",
+          "Complexity_Reason": "object",
+          "Action_Type": "object",
+          "Sensitive_Action": "object",
+          "Financial_Impact": "object",
+          "Intent_Confidence_Gold": "float64",
+          "Domain_Confidence_Gold": "float64",
+          "Evidence_Quality": "object",
+          "Retrieval_Confidence_Gold": "float64",
+          "Evidence_Agreement_Gold": "float64",
+          "Verification_Required": "object",
+          "Verification_Score_Gold": "float64",
+          "Final_Confidence_Gold": "float64",
+          "Escalation_Required": "object",
+          "Escalation_Reason": "object",
+          "Autonomy_Decision": "object",
+          "Required_Agents": "object",
+          "Required_Tools": "object",
+          "Required_Data_Sources": "object"
+        },
+        "null_values": {},
+        "duplicate_full_rows": 0,
+        "id_uniqueness": {
+          "Case_ID": {
+            "unique_count": 3339,
+            "duplicate_count": 0,
+            "null_count": 0
+          }
+        },
+        "categorical_distributions": {
+          "Domain": {
+            "E-commerce": 2870,
+            "Small Business": 250,
+            "Education": 219
+          },
+          "Intent": {
+            "get_invoice": 128,
+            "review": 122,
+            "set_up_shipping_address": 121,
+            "change_shipping_address": 117,
+            "create_account": 115,
+            "contact_human_agent": 114,
+            "payment_issue": 112,
+            "contact_customer_service": 112,
+            "check_payment_methods": 112,
+            "registration_problems": 110,
+            "track_refund": 110,
+            "recover_password": 110,
+            "delivery_options": 109,
+            "place_order": 109,
+            "track_order": 107,
+            "check_refund_policy": 107,
+            "delivery_period": 106,
+            "complaint": 104,
+            "check_cancellation_fee": 103,
+            "check_invoice": 102,
+            "get_refund": 100,
+            "change_order": 98,
+            "edit_account": 94,
+            "delete_account": 90,
+            "cancel_order": 89,
+            "switch_account": 85,
+            "newsletter_subscription": 84,
+            "Invoice Inquiry": 25,
+            "Product Information": 25,
+            "Delivery Inquiry": 25,
+            "Return and Refund": 25,
+            "Business Payment": 25,
+            "Vendor Support": 25,
+            "Order Management": 25,
+            "Account Management": 25,
+            "Subscription Management": 25,
+            "Customer Support": 25,
+            "Fees and Payment": 24,
+            "Exam Schedule": 23,
+            "Student ID": 23,
+            "Academic Records": 23,
+            "Course Registration": 23,
+            "Attendance Policy": 22,
+            "Exam Registration": 21,
+            "Library": 20,
+            "Scholarship": 20,
+            "Placement Support": 20
+          },
+          "Sentiment": {
+            "Neutral": 2534,
+            "Negative": 799,
+            "Positive": 6
+          },
+          "Risk": {
+            "Medium": 1806,
+            "Low": 1331,
+            "High": 202
+          },
+          "Complexity": {
+            "Medium": 1641,
+            "Low": 1015,
+            "High": 683
+          },
+          "Autonomy_Decision": {
+            "ANSWER": 2472,
+            "ORCHESTRATE": 562,
+            "ESCALATE": 305
+          },
+          "Escalation_Required": {
+            "No": 3034,
+            "Yes": 305
+          },
+          "Evidence_Quality": {
+            "Strong": 2560,
+            "Conflicting": 424,
+            "Insufficient": 355
+          },
+          "Source_Type": {
+            "Public Bitext": 2870,
+            "Synthetic": 469
+          }
+        },
+        "numeric_stats": {
+          "Intent_Confidence_Gold": {
+            "min": 0.82,
+            "max": 0.99,
+            "mean": 0.9047292602575621,
+            "median": 0.906
+          },
+          "Domain_Confidence_Gold": {
+            "min": 0.84,
+            "max": 0.99,
+            "mean": 0.9142297094938604,
+            "median": 0.913
+          },
+          "Retrieval_Confidence_Gold": {
+            "min": 0.3,
+            "max": 0.98,
+            "mean": 0.7901916741539382,
+            "median": 0.849
+          },
+          "Evidence_Agreement_Gold": {
+            "min": 0.2,
+            "max": 0.99,
+            "mean": 0.7875747229709494,
+            "median": 0.869
+          },
+          "Verification_Score_Gold": {
+            "min": 0.262,
+            "max": 0.984,
+            "mean": 0.7890188679245282,
+            "median": 0.871
+          },
+          "Final_Confidence_Gold": {
+            "min": 0.54,
+            "max": 0.97,
+            "mean": 0.8430709793351303,
+            "median": 0.885
+          }
+        }
+      },
+      "Train_Balanced": {
+        "rows": 5640,
+        "columns": 31,
+        "column_names": [
+          "Case_ID",
+          "Query",
+          "Domain",
+          "Intent",
+          "Sentiment",
+          "Source_Type",
+          "Risk",
+          "Risk_Reason",
+          "Complexity",
+          "Required_Capabilities",
+          "Complexity_Reason",
+          "Action_Type",
+          "Sensitive_Action",
+          "Financial_Impact",
+          "Intent_Confidence_Gold",
+          "Domain_Confidence_Gold",
+          "Evidence_Quality",
+          "Retrieval_Confidence_Gold",
+          "Evidence_Agreement_Gold",
+          "Verification_Required",
+          "Verification_Score_Gold",
+          "Final_Confidence_Gold",
+          "Escalation_Required",
+          "Escalation_Reason",
+          "Autonomy_Decision",
+          "Required_Agents",
+          "Required_Tools",
+          "Required_Data_Sources",
+          "Augmented",
+          "Augmentation_Source_Case_ID",
+          "Split"
+        ],
+        "dtypes": {
+          "Case_ID": "object",
+          "Query": "object",
+          "Domain": "object",
+          "Intent": "object",
+          "Sentiment": "object",
+          "Source_Type": "object",
+          "Risk": "object",
+          "Risk_Reason": "object",
+          "Complexity": "object",
+          "Required_Capabilities": "object",
+          "Complexity_Reason": "object",
+          "Action_Type": "object",
+          "Sensitive_Action": "object",
+          "Financial_Impact": "object",
+          "Intent_Confidence_Gold": "float64",
+          "Domain_Confidence_Gold": "float64",
+          "Evidence_Quality": "object",
+          "Retrieval_Confidence_Gold": "float64",
+          "Evidence_Agreement_Gold": "float64",
+          "Verification_Required": "object",
+          "Verification_Score_Gold": "float64",
+          "Final_Confidence_Gold": "float64",
+          "Escalation_Required": "object",
+          "Escalation_Reason": "object",
+          "Autonomy_Decision": "object",
+          "Required_Agents": "object",
+          "Required_Tools": "object",
+          "Required_Data_Sources": "object",
+          "Augmented": "object",
+          "Augmentation_Source_Case_ID": "object",
+          "Split": "object"
+        },
+        "null_values": {
+          "Augmented": 2337,
+          "Augmentation_Source_Case_ID": 2337
+        },
+        "duplicate_full_rows": 0,
+        "id_uniqueness": {
+          "Case_ID": {
+            "unique_count": 5640,
+            "duplicate_count": 0,
+            "null_count": 0
+          },
+          "Augmentation_Source_Case_ID": {
+            "unique_count": 1559,
+            "duplicate_count": 4080,
+            "null_count": 2337
+          }
+        },
+        "categorical_distributions": {
+          "Domain": {
+            "E-commerce": 3240,
+            "Education": 1200,
+            "Small Business": 1200
+          },
+          "Intent": {
+            "Academic Records": 120,
+            "Account Management": 120,
+            "Attendance Policy": 120,
+            "Business Payment": 120,
+            "Course Registration": 120,
+            "Customer Support": 120,
+            "Delivery Inquiry": 120,
+            "Exam Registration": 120,
+            "Exam Schedule": 120,
+            "Fees and Payment": 120,
+            "Invoice Inquiry": 120,
+            "Library": 120,
+            "Order Management": 120,
+            "Placement Support": 120,
+            "Product Information": 120,
+            "Return and Refund": 120,
+            "Scholarship": 120,
+            "Student ID": 120,
+            "Subscription Management": 120,
+            "Vendor Support": 120,
+            "cancel_order": 120,
+            "change_order": 120,
+            "change_shipping_address": 120,
+            "check_cancellation_fee": 120,
+            "check_invoice": 120,
+            "check_payment_methods": 120,
+            "check_refund_policy": 120,
+            "complaint": 120,
+            "contact_customer_service": 120,
+            "contact_human_agent": 120,
+            "create_account": 120,
+            "delete_account": 120,
+            "delivery_options": 120,
+            "delivery_period": 120,
+            "edit_account": 120,
+            "get_invoice": 120,
+            "get_refund": 120,
+            "newsletter_subscription": 120,
+            "payment_issue": 120,
+            "place_order": 120,
+            "recover_password": 120,
+            "registration_problems": 120,
+            "review": 120,
+            "set_up_shipping_address": 120,
+            "switch_account": 120,
+            "track_order": 120,
+            "track_refund": 120
+          },
+          "Sentiment": {
+            "Neutral": 4227,
+            "Negative": 1403,
+            "Positive": 10
+          },
+          "Risk": {
+            "Medium": 2734,
+            "Low": 2666,
+            "High": 240
+          },
+          "Complexity": {
+            "Medium": 2710,
+            "Low": 1982,
+            "High": 948
+          },
+          "Autonomy_Decision": {
+            "ANSWER": 4381,
+            "ORCHESTRATE": 793,
+            "ESCALATE": 466
+          },
+          "Escalation_Required": {
+            "No": 5174,
+            "Yes": 466
+          },
+          "Evidence_Quality": {
+            "Strong": 4336,
+            "Conflicting": 749,
+            "Insufficient": 555
+          },
+          "Source_Type": {
+            "Public Bitext": 3240,
+            "Synthetic": 2400
+          },
+          "Augmented": {
+            "Yes": 3303,
+            "nan": 2337
+          }
+        },
+        "numeric_stats": {
+          "Intent_Confidence_Gold": {
+            "min": 0.82,
+            "max": 0.99,
+            "mean": 0.905229255319149,
+            "median": 0.906
+          },
+          "Domain_Confidence_Gold": {
+            "min": 0.84,
+            "max": 0.99,
+            "mean": 0.9150374113475177,
+            "median": 0.916
+          },
+          "Retrieval_Confidence_Gold": {
+            "min": 0.3,
+            "max": 0.98,
+            "mean": 0.7943074468085107,
+            "median": 0.855
+          },
+          "Evidence_Agreement_Gold": {
+            "min": 0.201,
+            "max": 0.99,
+            "mean": 0.788722695035461,
+            "median": 0.871
+          },
+          "Verification_Score_Gold": {
+            "min": 0.271,
+            "max": 0.983,
+            "mean": 0.7917975177304966,
+            "median": 0.872
+          },
+          "Final_Confidence_Gold": {
+            "min": 0.54,
+            "max": 0.97,
+            "mean": 0.8449734042553192,
+            "median": 0.887
+          }
+        }
+      },
+      "Validation": {
+        "rows": 501,
+        "columns": 30,
+        "column_names": [
+          "Case_ID",
+          "Query",
+          "Domain",
+          "Intent",
+          "Sentiment",
+          "Source_Type",
+          "Risk",
+          "Risk_Reason",
+          "Complexity",
+          "Required_Capabilities",
+          "Complexity_Reason",
+          "Action_Type",
+          "Sensitive_Action",
+          "Financial_Impact",
+          "Intent_Confidence_Gold",
+          "Domain_Confidence_Gold",
+          "Evidence_Quality",
+          "Retrieval_Confidence_Gold",
+          "Evidence_Agreement_Gold",
+          "Verification_Required",
+          "Verification_Score_Gold",
+          "Final_Confidence_Gold",
+          "Escalation_Required",
+          "Escalation_Reason",
+          "Autonomy_Decision",
+          "Required_Agents",
+          "Required_Tools",
+          "Required_Data_Sources",
+          "Augmented",
+          "Split"
+        ],
+        "dtypes": {
+          "Case_ID": "object",
+          "Query": "object",
+          "Domain": "object",
+          "Intent": "object",
+          "Sentiment": "object",
+          "Source_Type": "object",
+          "Risk": "object",
+          "Risk_Reason": "object",
+          "Complexity": "object",
+          "Required_Capabilities": "object",
+          "Complexity_Reason": "object",
+          "Action_Type": "object",
+          "Sensitive_Action": "object",
+          "Financial_Impact": "object",
+          "Intent_Confidence_Gold": "float64",
+          "Domain_Confidence_Gold": "float64",
+          "Evidence_Quality": "object",
+          "Retrieval_Confidence_Gold": "float64",
+          "Evidence_Agreement_Gold": "float64",
+          "Verification_Required": "object",
+          "Verification_Score_Gold": "float64",
+          "Final_Confidence_Gold": "float64",
+          "Escalation_Required": "object",
+          "Escalation_Reason": "object",
+          "Autonomy_Decision": "object",
+          "Required_Agents": "object",
+          "Required_Tools": "object",
+          "Required_Data_Sources": "object",
+          "Augmented": "object",
+          "Split": "object"
+        },
+        "null_values": {},
+        "duplicate_full_rows": 0,
+        "id_uniqueness": {
+          "Case_ID": {
+            "unique_count": 501,
+            "duplicate_count": 0,
+            "null_count": 0
+          }
+        },
+        "categorical_distributions": {
+          "Domain": {
+            "E-commerce": 430,
+            "Small Business": 37,
+            "Education": 34
+          },
+          "Intent": {
+            "get_invoice": 19,
+            "set_up_shipping_address": 18,
+            "review": 18,
+            "payment_issue": 17,
+            "recover_password": 17,
+            "contact_customer_service": 17,
+            "delivery_options": 17,
+            "contact_human_agent": 17,
+            "check_payment_methods": 17,
+            "change_shipping_address": 17,
+            "track_refund": 17,
+            "create_account": 17,
+            "track_order": 16,
+            "delivery_period": 16,
+            "registration_problems": 16,
+            "check_refund_policy": 16,
+            "place_order": 16,
+            "complaint": 15,
+            "check_invoice": 15,
+            "get_refund": 15,
+            "check_cancellation_fee": 15,
+            "edit_account": 14,
+            "change_order": 14,
+            "cancel_order": 14,
+            "delete_account": 14,
+            "switch_account": 13,
+            "newsletter_subscription": 13,
+            "Order Management": 4,
+            "Course Registration": 4,
+            "Vendor Support": 4,
+            "Fees and Payment": 4,
+            "Product Information": 4,
+            "Return and Refund": 4,
+            "Delivery Inquiry": 4,
+            "Invoice Inquiry": 4,
+            "Student ID": 4,
+            "Exam Schedule": 4,
+            "Customer Support": 4,
+            "Business Payment": 3,
+            "Exam Registration": 3,
+            "Academic Records": 3,
+            "Library": 3,
+            "Subscription Management": 3,
+            "Attendance Policy": 3,
+            "Scholarship": 3,
+            "Placement Support": 3,
+            "Account Management": 3
+          },
+          "Sentiment": {
+            "Neutral": 381,
+            "Negative": 120
+          },
+          "Risk": {
+            "Medium": 267,
+            "Low": 203,
+            "High": 31
+          },
+          "Complexity": {
+            "Medium": 243,
+            "Low": 157,
+            "High": 101
+          },
+          "Autonomy_Decision": {
+            "ANSWER": 384,
+            "ORCHESTRATE": 76,
+            "ESCALATE": 41
+          },
+          "Escalation_Required": {
+            "No": 460,
+            "Yes": 41
+          },
+          "Evidence_Quality": {
+            "Strong": 396,
+            "Conflicting": 60,
+            "Insufficient": 45
+          },
+          "Source_Type": {
+            "Public Bitext": 430,
+            "Synthetic": 71
+          },
+          "Augmented": {
+            "No": 501
+          }
+        },
+        "numeric_stats": {
+          "Intent_Confidence_Gold": {
+            "min": 0.82,
+            "max": 0.99,
+            "mean": 0.9045049900199601,
+            "median": 0.907
+          },
+          "Domain_Confidence_Gold": {
+            "min": 0.84,
+            "max": 0.99,
+            "mean": 0.9104890219560877,
+            "median": 0.904
+          },
+          "Retrieval_Confidence_Gold": {
+            "min": 0.312,
+            "max": 0.98,
+            "mean": 0.7957185628742516,
+            "median": 0.848
+          },
+          "Evidence_Agreement_Gold": {
+            "min": 0.209,
+            "max": 0.99,
+            "mean": 0.8015429141716568,
+            "median": 0.875
+          },
+          "Verification_Score_Gold": {
+            "min": 0.303,
+            "max": 0.984,
+            "mean": 0.7983313373253493,
+            "median": 0.872
+          },
+          "Final_Confidence_Gold": {
+            "min": 0.556,
+            "max": 0.964,
+            "mean": 0.8471457085828342,
+            "median": 0.887
+          }
+        }
+      },
+      "Test": {
+        "rows": 501,
+        "columns": 30,
+        "column_names": [
+          "Case_ID",
+          "Query",
+          "Domain",
+          "Intent",
+          "Sentiment",
+          "Source_Type",
+          "Risk",
+          "Risk_Reason",
+          "Complexity",
+          "Required_Capabilities",
+          "Complexity_Reason",
+          "Action_Type",
+          "Sensitive_Action",
+          "Financial_Impact",
+          "Intent_Confidence_Gold",
+          "Domain_Confidence_Gold",
+          "Evidence_Quality",
+          "Retrieval_Confidence_Gold",
+          "Evidence_Agreement_Gold",
+          "Verification_Required",
+          "Verification_Score_Gold",
+          "Final_Confidence_Gold",
+          "Escalation_Required",
+          "Escalation_Reason",
+          "Autonomy_Decision",
+          "Required_Agents",
+          "Required_Tools",
+          "Required_Data_Sources",
+          "Augmented",
+          "Split"
+        ],
+        "dtypes": {
+          "Case_ID": "object",
+          "Query": "object",
+          "Domain": "object",
+          "Intent": "object",
+          "Sentiment": "object",
+          "Source_Type": "object",
+          "Risk": "object",
+          "Risk_Reason": "object",
+          "Complexity": "object",
+          "Required_Capabilities": "object",
+          "Complexity_Reason": "object",
+          "Action_Type": "object",
+          "Sensitive_Action": "object",
+          "Financial_Impact": "object",
+          "Intent_Confidence_Gold": "float64",
+          "Domain_Confidence_Gold": "float64",
+          "Evidence_Quality": "object",
+          "Retrieval_Confidence_Gold": "float64",
+          "Evidence_Agreement_Gold": "float64",
+          "Verification_Required": "object",
+          "Verification_Score_Gold": "float64",
+          "Final_Confidence_Gold": "float64",
+          "Escalation_Required": "object",
+          "Escalation_Reason": "object",
+          "Autonomy_Decision": "object",
+          "Required_Agents": "object",
+          "Required_Tools": "object",
+          "Required_Data_Sources": "object",
+          "Augmented": "object",
+          "Split": "object"
+        },
+        "null_values": {},
+        "duplicate_full_rows": 0,
+        "id_uniqueness": {
+          "Case_ID": {
+            "unique_count": 501,
+            "duplicate_count": 0,
+            "null_count": 0
+          }
+        },
+        "categorical_distributions": {
+          "Domain": {
+            "E-commerce": 433,
+            "Small Business": 36,
+            "Education": 32
+          },
+          "Intent": {
+            "get_invoice": 19,
+            "review": 19,
+            "create_account": 18,
+            "change_shipping_address": 18,
+            "set_up_shipping_address": 18,
+            "contact_human_agent": 17,
+            "payment_issue": 17,
+            "check_payment_methods": 17,
+            "contact_customer_service": 17,
+            "place_order": 17,
+            "registration_problems": 17,
+            "complaint": 16,
+            "check_cancellation_fee": 16,
+            "track_order": 16,
+            "check_refund_policy": 16,
+            "track_refund": 16,
+            "delivery_options": 16,
+            "check_invoice": 16,
+            "recover_password": 16,
+            "delivery_period": 16,
+            "get_refund": 15,
+            "change_order": 15,
+            "edit_account": 14,
+            "delete_account": 13,
+            "switch_account": 13,
+            "cancel_order": 13,
+            "newsletter_subscription": 12,
+            "Subscription Management": 4,
+            "Attendance Policy": 4,
+            "Account Management": 4,
+            "Return and Refund": 4,
+            "Academic Records": 4,
+            "Invoice Inquiry": 4,
+            "Business Payment": 4,
+            "Product Information": 4,
+            "Placement Support": 3,
+            "Student ID": 3,
+            "Scholarship": 3,
+            "Course Registration": 3,
+            "Customer Support": 3,
+            "Exam Schedule": 3,
+            "Exam Registration": 3,
+            "Delivery Inquiry": 3,
+            "Vendor Support": 3,
+            "Fees and Payment": 3,
+            "Library": 3,
+            "Order Management": 3
+          },
+          "Sentiment": {
+            "Neutral": 385,
+            "Negative": 116
+          },
+          "Risk": {
+            "Medium": 268,
+            "Low": 203,
+            "High": 30
+          },
+          "Complexity": {
+            "Medium": 244,
+            "Low": 161,
+            "High": 96
+          },
+          "Autonomy_Decision": {
+            "ANSWER": 373,
+            "ORCHESTRATE": 79,
+            "ESCALATE": 49
+          },
+          "Escalation_Required": {
+            "No": 452,
+            "Yes": 49
+          },
+          "Evidence_Quality": {
+            "Strong": 369,
+            "Insufficient": 68,
+            "Conflicting": 64
+          },
+          "Source_Type": {
+            "Public Bitext": 433,
+            "Synthetic": 68
+          },
+          "Augmented": {
+            "No": 501
+          }
+        },
+        "numeric_stats": {
+          "Intent_Confidence_Gold": {
+            "min": 0.821,
+            "max": 0.99,
+            "mean": 0.9098702594810378,
+            "median": 0.916
+          },
+          "Domain_Confidence_Gold": {
+            "min": 0.84,
+            "max": 0.989,
+            "mean": 0.9175249500998004,
+            "median": 0.916
+          },
+          "Retrieval_Confidence_Gold": {
+            "min": 0.306,
+            "max": 0.98,
+            "mean": 0.7742235528942116,
+            "median": 0.836
+          },
+          "Evidence_Agreement_Gold": {
+            "min": 0.2,
+            "max": 0.99,
+            "mean": 0.7742055888223555,
+            "median": 0.867
+          },
+          "Verification_Score_Gold": {
+            "min": 0.262,
+            "max": 0.981,
+            "mean": 0.7742275449101798,
+            "median": 0.865
+          },
+          "Final_Confidence_Gold": {
+            "min": 0.551,
+            "max": 0.968,
+            "mean": 0.836816367265469,
+            "median": 0.882
+          }
+        }
+      },
+      "Critical_Safety": {
+        "rows": 180,
+        "columns": 30,
+        "column_names": [
+          "Case_ID",
+          "Query",
+          "Domain",
+          "Intent",
+          "Sentiment",
+          "Source_Type",
+          "Risk",
+          "Risk_Reason",
+          "Complexity",
+          "Required_Capabilities",
+          "Complexity_Reason",
+          "Action_Type",
+          "Sensitive_Action",
+          "Financial_Impact",
+          "Intent_Confidence_Gold",
+          "Domain_Confidence_Gold",
+          "Evidence_Quality",
+          "Retrieval_Confidence_Gold",
+          "Evidence_Agreement_Gold",
+          "Verification_Required",
+          "Verification_Score_Gold",
+          "Final_Confidence_Gold",
+          "Escalation_Required",
+          "Escalation_Reason",
+          "Autonomy_Decision",
+          "Required_Agents",
+          "Required_Tools",
+          "Required_Data_Sources",
+          "Augmented",
+          "Split"
+        ],
+        "dtypes": {
+          "Case_ID": "object",
+          "Query": "object",
+          "Domain": "object",
+          "Intent": "object",
+          "Sentiment": "object",
+          "Source_Type": "object",
+          "Risk": "object",
+          "Risk_Reason": "object",
+          "Complexity": "object",
+          "Required_Capabilities": "object",
+          "Complexity_Reason": "object",
+          "Action_Type": "object",
+          "Sensitive_Action": "object",
+          "Financial_Impact": "object",
+          "Intent_Confidence_Gold": "float64",
+          "Domain_Confidence_Gold": "float64",
+          "Evidence_Quality": "object",
+          "Retrieval_Confidence_Gold": "float64",
+          "Evidence_Agreement_Gold": "float64",
+          "Verification_Required": "object",
+          "Verification_Score_Gold": "float64",
+          "Final_Confidence_Gold": "float64",
+          "Escalation_Required": "object",
+          "Escalation_Reason": "object",
+          "Autonomy_Decision": "object",
+          "Required_Agents": "object",
+          "Required_Tools": "object",
+          "Required_Data_Sources": "object",
+          "Augmented": "object",
+          "Split": "object"
+        },
+        "null_values": {},
+        "duplicate_full_rows": 0,
+        "id_uniqueness": {
+          "Case_ID": {
+            "unique_count": 180,
+            "duplicate_count": 0,
+            "null_count": 0
+          }
+        },
+        "categorical_distributions": {
+          "Domain": {
+            "E-commerce": 180
+          },
+          "Intent": {
+            "payment_issue": 180
+          },
+          "Sentiment": {
+            "Negative": 180
+          },
+          "Risk": {
+            "Critical": 180
+          },
+          "Complexity": {
+            "High": 180
+          },
+          "Autonomy_Decision": {
+            "ESCALATE": 180
+          },
+          "Escalation_Required": {
+            "Yes": 180
+          },
+          "Evidence_Quality": {
+            "Strong": 180
+          },
+          "Source_Type": {
+            "Synthetic Safety Benchmark": 180
+          },
+          "Augmented": {
+            "No": 180
+          }
+        },
+        "numeric_stats": {
+          "Intent_Confidence_Gold": {
+            "min": 0.92,
+            "max": 0.92,
+            "mean": 0.9200000000000002,
+            "median": 0.92
+          },
+          "Domain_Confidence_Gold": {
+            "min": 0.94,
+            "max": 0.94,
+            "mean": 0.9399999999999996,
+            "median": 0.94
+          },
+          "Retrieval_Confidence_Gold": {
+            "min": 0.9,
+            "max": 0.9,
+            "mean": 0.9000000000000004,
+            "median": 0.9
+          },
+          "Evidence_Agreement_Gold": {
+            "min": 0.92,
+            "max": 0.92,
+            "mean": 0.9200000000000002,
+            "median": 0.92
+          },
+          "Verification_Score_Gold": {
+            "min": 0.91,
+            "max": 0.91,
+            "mean": 0.9099999999999999,
+            "median": 0.91
+          },
+          "Final_Confidence_Gold": {
+            "min": 0.91,
+            "max": 0.91,
+            "mean": 0.9099999999999999,
+            "median": 0.91
+          }
+        }
+      },
+      "Quality_Control": {
+        "rows": 10,
+        "columns": 3,
+        "column_names": [
+          "Check",
+          "Status",
+          "Detail"
+        ],
+        "dtypes": {
+          "Check": "object",
+          "Status": "object",
+          "Detail": "object"
+        },
+        "null_values": {},
+        "duplicate_full_rows": 0,
+        "id_uniqueness": {},
+        "categorical_distributions": {},
+        "numeric_stats": {}
+      }
+    }
+  },
+  "02_Task_Balanced_Training_V4.xlsx": {
+    "sheets": {
+      "Risk_Balanced": {
+        "rows": 2400,
+        "columns": 31,
+        "column_names": [
+          "Case_ID",
+          "Query",
+          "Domain",
+          "Intent",
+          "Sentiment",
+          "Source_Type",
+          "Risk",
+          "Risk_Reason",
+          "Complexity",
+          "Required_Capabilities",
+          "Complexity_Reason",
+          "Action_Type",
+          "Sensitive_Action",
+          "Financial_Impact",
+          "Intent_Confidence_Gold",
+          "Domain_Confidence_Gold",
+          "Evidence_Quality",
+          "Retrieval_Confidence_Gold",
+          "Evidence_Agreement_Gold",
+          "Verification_Required",
+          "Verification_Score_Gold",
+          "Final_Confidence_Gold",
+          "Escalation_Required",
+          "Escalation_Reason",
+          "Autonomy_Decision",
+          "Required_Agents",
+          "Required_Tools",
+          "Required_Data_Sources",
+          "query_key",
+          "Augmented",
+          "Split"
+        ],
+        "dtypes": {
+          "Case_ID": "object",
+          "Query": "object",
+          "Domain": "object",
+          "Intent": "object",
+          "Sentiment": "object",
+          "Source_Type": "object",
+          "Risk": "object",
+          "Risk_Reason": "object",
+          "Complexity": "object",
+          "Required_Capabilities": "object",
+          "Complexity_Reason": "object",
+          "Action_Type": "object",
+          "Sensitive_Action": "object",
+          "Financial_Impact": "object",
+          "Intent_Confidence_Gold": "float64",
+          "Domain_Confidence_Gold": "float64",
+          "Evidence_Quality": "object",
+          "Retrieval_Confidence_Gold": "float64",
+          "Evidence_Agreement_Gold": "float64",
+          "Verification_Required": "object",
+          "Verification_Score_Gold": "float64",
+          "Final_Confidence_Gold": "float64",
+          "Escalation_Required": "object",
+          "Escalation_Reason": "object",
+          "Autonomy_Decision": "object",
+          "Required_Agents": "object",
+          "Required_Tools": "object",
+          "Required_Data_Sources": "object",
+          "query_key": "object",
+          "Augmented": "object",
+          "Split": "object"
+        },
+        "null_values": {
+          "query_key": 600
+        },
+        "duplicate_full_rows": 0,
+        "id_uniqueness": {
+          "Case_ID": {
+            "unique_count": 2400,
+            "duplicate_count": 0,
+            "null_count": 0
+          }
+        },
+        "categorical_distributions": {
+          "Domain": {
+            "E-commerce": 2194,
+            "Small Business": 105,
+            "Education": 101
+          },
+          "Intent": {
+            "payment_issue": 929,
+            "delete_account": 271,
+            "set_up_shipping_address": 55,
+            "delivery_options": 51,
+            "review": 50,
+            "delivery_period": 49,
+            "check_payment_methods": 48,
+            "contact_human_agent": 48,
+            "contact_customer_service": 48,
+            "create_account": 48,
+            "newsletter_subscription": 44,
+            "check_refund_policy": 44,
+            "place_order": 43,
+            "get_invoice": 40,
+            "track_refund": 37,
+            "check_invoice": 36,
+            "complaint": 36,
+            "recover_password": 35,
+            "track_order": 34,
+            "registration_problems": 34,
+            "check_cancellation_fee": 33,
+            "change_shipping_address": 33,
+            "get_refund": 33,
+            "edit_account": 31,
+            "cancel_order": 30,
+            "change_order": 29,
+            "switch_account": 25,
+            "Product Information": 13,
+            "Exam Schedule": 13,
+            "Business Payment": 13,
+            "Academic Records": 12,
+            "Delivery Inquiry": 11,
+            "Fees and Payment": 11,
+            "Account Management": 11,
+            "Return and Refund": 11,
+            "Library": 10,
+            "Attendance Policy": 10,
+            "Subscription Management": 10,
+            "Course Registration": 10,
+            "Customer Support": 10,
+            "Placement Support": 10,
+            "Vendor Support": 9,
+            "Student ID": 9,
+            "Order Management": 9,
+            "Scholarship": 8,
+            "Exam Registration": 8,
+            "Invoice Inquiry": 8
+          },
+          "Sentiment": {
+            "Neutral": 1245,
+            "Negative": 1153,
+            "Positive": 2
+          },
+          "Risk": {
+            "Critical": 600,
+            "High": 600,
+            "Low": 600,
+            "Medium": 600
+          },
+          "Complexity": {
+            "High": 1368,
+            "Medium": 584,
+            "Low": 448
+          },
+          "Autonomy_Decision": {
+            "ANSWER": 967,
+            "ESCALATE": 875,
+            "ORCHESTRATE": 558
+          },
+          "Escalation_Required": {
+            "No": 1525,
+            "Yes": 875
+          },
+          "Evidence_Quality": {
+            "Strong": 1955,
+            "Insufficient": 259,
+            "Conflicting": 186
+          },
+          "Source_Type": {
+            "Public Bitext": 1594,
+            "Synthetic Safety Benchmark": 600,
+            "Synthetic": 206
+          },
+          "Augmented": {
+            "No": 1521,
+            "Yes": 879
+          }
+        },
+        "numeric_stats": {
+          "Intent_Confidence_Gold": {
+            "min": 0.82,
+            "max": 0.99,
+            "mean": 0.9088379166666666,
+            "median": 0.92
+          },
+          "Domain_Confidence_Gold": {
+            "min": 0.84,
+            "max": 0.99,
+            "mean": 0.92189,
+            "median": 0.94
+          },
+          "Retrieval_Confidence_Gold": {
+            "min": 0.3,
+            "max": 0.98,
+            "mean": 0.8163529166666667,
+            "median": 0.895
+          },
+          "Evidence_Agreement_Gold": {
+            "min": 0.204,
+            "max": 0.99,
+            "mean": 0.8171241666666668,
+            "median": 0.911
+          },
+          "Verification_Score_Gold": {
+            "min": 0.272,
+            "max": 0.981,
+            "mean": 0.8169520833333334,
+            "median": 0.897
+          },
+          "Final_Confidence_Gold": {
+            "min": 0.552,
+            "max": 0.97,
+            "mean": 0.8589104166666666,
+            "median": 0.902
+          }
+        }
+      },
+      "Complexity_Balanced": {
+        "rows": 2100,
+        "columns": 31,
+        "column_names": [
+          "Case_ID",
+          "Query",
+          "Domain",
+          "Intent",
+          "Sentiment",
+          "Source_Type",
+          "Risk",
+          "Risk_Reason",
+          "Complexity",
+          "Required_Capabilities",
+          "Complexity_Reason",
+          "Action_Type",
+          "Sensitive_Action",
+          "Financial_Impact",
+          "Intent_Confidence_Gold",
+          "Domain_Confidence_Gold",
+          "Evidence_Quality",
+          "Retrieval_Confidence_Gold",
+          "Evidence_Agreement_Gold",
+          "Verification_Required",
+          "Verification_Score_Gold",
+          "Final_Confidence_Gold",
+          "Escalation_Required",
+          "Escalation_Reason",
+          "Autonomy_Decision",
+          "Required_Agents",
+          "Required_Tools",
+          "Required_Data_Sources",
+          "query_key",
+          "Augmented",
+          "Split"
+        ],
+        "dtypes": {
+          "Case_ID": "object",
+          "Query": "object",
+          "Domain": "object",
+          "Intent": "object",
+          "Sentiment": "object",
+          "Source_Type": "object",
+          "Risk": "object",
+          "Risk_Reason": "object",
+          "Complexity": "object",
+          "Required_Capabilities": "object",
+          "Complexity_Reason": "object",
+          "Action_Type": "object",
+          "Sensitive_Action": "object",
+          "Financial_Impact": "object",
+          "Intent_Confidence_Gold": "float64",
+          "Domain_Confidence_Gold": "float64",
+          "Evidence_Quality": "object",
+          "Retrieval_Confidence_Gold": "float64",
+          "Evidence_Agreement_Gold": "float64",
+          "Verification_Required": "object",
+          "Verification_Score_Gold": "float64",
+          "Final_Confidence_Gold": "float64",
+          "Escalation_Required": "object",
+          "Escalation_Reason": "object",
+          "Autonomy_Decision": "object",
+          "Required_Agents": "object",
+          "Required_Tools": "object",
+          "Required_Data_Sources": "object",
+          "query_key": "object",
+          "Augmented": "object",
+          "Split": "object"
+        },
+        "null_values": {
+          "Augmented": 700
+        },
+        "duplicate_full_rows": 0,
+        "id_uniqueness": {
+          "Case_ID": {
+            "unique_count": 2100,
+            "duplicate_count": 0,
+            "null_count": 0
+          }
+        },
+        "categorical_distributions": {
+          "Domain": {
+            "E-commerce": 1815,
+            "Education": 146,
+            "Small Business": 139
+          },
+          "Intent": {
+            "payment_issue": 109,
+            "complaint": 107,
+            "registration_problems": 105,
+            "check_refund_policy": 101,
+            "get_refund": 100,
+            "delete_account": 93,
+            "contact_customer_service": 80,
+            "contact_human_agent": 80,
+            "check_payment_methods": 78,
+            "track_refund": 78,
+            "set_up_shipping_address": 71,
+            "delivery_period": 71,
+            "review": 65,
+            "check_invoice": 60,
+            "change_shipping_address": 60,
+            "check_cancellation_fee": 59,
+            "delivery_options": 55,
+            "get_invoice": 55,
+            "newsletter_subscription": 54,
+            "create_account": 47,
+            "recover_password": 46,
+            "edit_account": 45,
+            "track_order": 44,
+            "change_order": 42,
+            "place_order": 42,
+            "cancel_order": 35,
+            "switch_account": 33,
+            "Return and Refund": 22,
+            "Academic Records": 17,
+            "Exam Registration": 17,
+            "Placement Support": 16,
+            "Customer Support": 16,
+            "Product Information": 16,
+            "Business Payment": 16,
+            "Student ID": 16,
+            "Attendance Policy": 15,
+            "Course Registration": 15,
+            "Library": 14,
+            "Exam Schedule": 14,
+            "Subscription Management": 14,
+            "Vendor Support": 12,
+            "Scholarship": 12,
+            "Order Management": 12,
+            "Invoice Inquiry": 12,
+            "Account Management": 11,
+            "Fees and Payment": 10,
+            "Delivery Inquiry": 8
+          },
+          "Sentiment": {
+            "Neutral": 1448,
+            "Negative": 644,
+            "Positive": 8
+          },
+          "Risk": {
+            "Medium": 1062,
+            "Low": 836,
+            "High": 202
+          },
+          "Complexity": {
+            "High": 700,
+            "Low": 700,
+            "Medium": 700
+          },
+          "Autonomy_Decision": {
+            "ANSWER": 1322,
+            "ORCHESTRATE": 582,
+            "ESCALATE": 196
+          },
+          "Escalation_Required": {
+            "No": 1904,
+            "Yes": 196
+          },
+          "Evidence_Quality": {
+            "Strong": 1605,
+            "Conflicting": 261,
+            "Insufficient": 234
+          },
+          "Source_Type": {
+            "Public Bitext": 1815,
+            "Synthetic": 285
+          },
+          "Augmented": {
+            "No": 1183,
+            "nan": 700,
+            "Yes": 217
+          }
+        },
+        "numeric_stats": {
+          "Intent_Confidence_Gold": {
+            "min": 0.82,
+            "max": 0.99,
+            "mean": 0.9039438095238096,
+            "median": 0.904
+          },
+          "Domain_Confidence_Gold": {
+            "min": 0.84,
+            "max": 0.99,
+            "mean": 0.9152128571428572,
+            "median": 0.916
+          },
+          "Retrieval_Confidence_Gold": {
+            "min": 0.303,
+            "max": 0.98,
+            "mean": 0.7921542857142858,
+            "median": 0.852
+          },
+          "Evidence_Agreement_Gold": {
+            "min": 0.201,
+            "max": 0.99,
+            "mean": 0.7872966666666666,
+            "median": 0.869
+          },
+          "Verification_Score_Gold": {
+            "min": 0.271,
+            "max": 0.983,
+            "mean": 0.78997,
+            "median": 0.872
+          },
+          "Final_Confidence_Gold": {
+            "min": 0.54,
+            "max": 0.97,
+            "mean": 0.8436566666666667,
+            "median": 0.886
+          }
+        }
+      },
+      "Sentiment_Balanced": {
+        "rows": 1500,
+        "columns": 8,
+        "column_names": [
+          "Case_ID",
+          "Query",
+          "Domain",
+          "Intent",
+          "Sentiment",
+          "Source_Type",
+          "Augmented",
+          "Split"
+        ],
+        "dtypes": {
+          "Case_ID": "object",
+          "Query": "object",
+          "Domain": "object",
+          "Intent": "object",
+          "Sentiment": "object",
+          "Source_Type": "object",
+          "Augmented": "object",
+          "Split": "object"
+        },
+        "null_values": {},
+        "duplicate_full_rows": 0,
+        "id_uniqueness": {
+          "Case_ID": {
+            "unique_count": 1500,
+            "duplicate_count": 0,
+            "null_count": 0
+          }
+        },
+        "categorical_distributions": {
+          "Domain": {
+            "E-commerce": 1032,
+            "Small Business": 246,
+            "Education": 222
+          },
+          "Intent": {
+            "contact_customer_service": 420,
+            "complaint": 140,
+            "registration_problems": 64,
+            "payment_issue": 60,
+            "track_refund": 48,
+            "set_up_shipping_address": 48,
+            "check_refund_policy": 48,
+            "get_refund": 42,
+            "change_shipping_address": 38,
+            "get_invoice": 34,
+            "check_cancellation_fee": 31,
+            "place_order": 31,
+            "review": 30,
+            "recover_password": 29,
+            "check_payment_methods": 28,
+            "delete_account": 27,
+            "cancel_order": 27,
+            "contact_human_agent": 26,
+            "delivery_period": 25,
+            "track_order": 25,
+            "create_account": 24,
+            "switch_account": 20,
+            "change_order": 19,
+            "delivery_options": 19,
+            "newsletter_subscription": 18,
+            "check_invoice": 18,
+            "edit_account": 18,
+            "Return and Refund": 11,
+            "Account Management": 11,
+            "Customer Support": 11,
+            "Student ID": 11,
+            "Vendor Support": 11,
+            "Business Payment": 10,
+            "Order Management": 10,
+            "Delivery Inquiry": 8,
+            "Exam Registration": 8,
+            "Course Registration": 7,
+            "Fees and Payment": 6,
+            "Academic Records": 6,
+            "Placement Support": 5,
+            "Scholarship": 5,
+            "Product Information": 5,
+            "Library": 4,
+            "Exam Schedule": 4,
+            "Subscription Management": 4,
+            "Invoice Inquiry": 3,
+            "Attendance Policy": 3
+          },
+          "Sentiment": {
+            "Negative": 500,
+            "Neutral": 500,
+            "Positive": 500
+          },
+          "Source_Type": {
+            "Public Bitext": 869,
+            "Synthetic Sentiment Benchmark": 488,
+            "Synthetic": 143
+          },
+          "Augmented": {
+            "No": 1306,
+            "Yes": 194
+          }
+        },
+        "numeric_stats": {}
+      },
+      "Domain_Balanced": {
+        "rows": 3600,
+        "columns": 31,
+        "column_names": [
+          "Case_ID",
+          "Query",
+          "Domain",
+          "Intent",
+          "Sentiment",
+          "Source_Type",
+          "Risk",
+          "Risk_Reason",
+          "Complexity",
+          "Required_Capabilities",
+          "Complexity_Reason",
+          "Action_Type",
+          "Sensitive_Action",
+          "Financial_Impact",
+          "Intent_Confidence_Gold",
+          "Domain_Confidence_Gold",
+          "Evidence_Quality",
+          "Retrieval_Confidence_Gold",
+          "Evidence_Agreement_Gold",
+          "Verification_Required",
+          "Verification_Score_Gold",
+          "Final_Confidence_Gold",
+          "Escalation_Required",
+          "Escalation_Reason",
+          "Autonomy_Decision",
+          "Required_Agents",
+          "Required_Tools",
+          "Required_Data_Sources",
+          "query_key",
+          "Augmented",
+          "Split"
+        ],
+        "dtypes": {
+          "Case_ID": "object",
+          "Query": "object",
+          "Domain": "object",
+          "Intent": "object",
+          "Sentiment": "object",
+          "Source_Type": "object",
+          "Risk": "object",
+          "Risk_Reason": "object",
+          "Complexity": "object",
+          "Required_Capabilities": "object",
+          "Complexity_Reason": "object",
+          "Action_Type": "object",
+          "Sensitive_Action": "object",
+          "Financial_Impact": "object",
+          "Intent_Confidence_Gold": "float64",
+          "Domain_Confidence_Gold": "float64",
+          "Evidence_Quality": "object",
+          "Retrieval_Confidence_Gold": "float64",
+          "Evidence_Agreement_Gold": "float64",
+          "Verification_Required": "object",
+          "Verification_Score_Gold": "float64",
+          "Final_Confidence_Gold": "float64",
+          "Escalation_Required": "object",
+          "Escalation_Reason": "object",
+          "Autonomy_Decision": "object",
+          "Required_Agents": "object",
+          "Required_Tools": "object",
+          "Required_Data_Sources": "object",
+          "query_key": "object",
+          "Augmented": "object",
+          "Split": "object"
+        },
+        "null_values": {},
+        "duplicate_full_rows": 0,
+        "id_uniqueness": {
+          "Case_ID": {
+            "unique_count": 3600,
+            "duplicate_count": 0,
+            "null_count": 0
+          }
+        },
+        "categorical_distributions": {
+          "Domain": {
+            "E-commerce": 1200,
+            "Education": 1200,
+            "Small Business": 1200
+          },
+          "Intent": {
+            "Fees and Payment": 132,
+            "Student ID": 128,
+            "Academic Records": 127,
+            "Customer Support": 126,
+            "Course Registration": 125,
+            "Exam Schedule": 125,
+            "Vendor Support": 124,
+            "Subscription Management": 123,
+            "Order Management": 122,
+            "Business Payment": 120,
+            "Attendance Policy": 119,
+            "Delivery Inquiry": 119,
+            "Account Management": 118,
+            "Exam Registration": 118,
+            "Return and Refund": 117,
+            "Product Information": 116,
+            "Invoice Inquiry": 115,
+            "Library": 110,
+            "Placement Support": 108,
+            "Scholarship": 108,
+            "get_invoice": 62,
+            "check_refund_policy": 52,
+            "change_shipping_address": 52,
+            "contact_customer_service": 52,
+            "review": 48,
+            "contact_human_agent": 48,
+            "delivery_period": 48,
+            "set_up_shipping_address": 47,
+            "check_payment_methods": 47,
+            "recover_password": 47,
+            "registration_problems": 45,
+            "track_order": 45,
+            "payment_issue": 45,
+            "place_order": 45,
+            "delivery_options": 45,
+            "create_account": 44,
+            "edit_account": 43,
+            "get_refund": 42,
+            "complaint": 41,
+            "check_cancellation_fee": 41,
+            "check_invoice": 40,
+            "track_refund": 40,
+            "delete_account": 39,
+            "change_order": 38,
+            "cancel_order": 38,
+            "switch_account": 35,
+            "newsletter_subscription": 31
+          },
+          "Sentiment": {
+            "Neutral": 2647,
+            "Negative": 948,
+            "Positive": 5
+          },
+          "Risk": {
+            "Low": 1951,
+            "Medium": 1565,
+            "High": 84
+          },
+          "Complexity": {
+            "Medium": 1711,
+            "Low": 1429,
+            "High": 460
+          },
+          "Autonomy_Decision": {
+            "ANSWER": 2948,
+            "ORCHESTRATE": 385,
+            "ESCALATE": 267
+          },
+          "Escalation_Required": {
+            "No": 3333,
+            "Yes": 267
+          },
+          "Evidence_Quality": {
+            "Strong": 2762,
+            "Conflicting": 498,
+            "Insufficient": 340
+          },
+          "Source_Type": {
+            "Synthetic": 2400,
+            "Public Bitext": 1200
+          },
+          "Augmented": {
+            "Yes": 2070,
+            "No": 1530
+          }
+        },
+        "numeric_stats": {
+          "Intent_Confidence_Gold": {
+            "min": 0.82,
+            "max": 0.99,
+            "mean": 0.9063277777777777,
+            "median": 0.907
+          },
+          "Domain_Confidence_Gold": {
+            "min": 0.84,
+            "max": 0.99,
+            "mean": 0.915603611111111,
+            "median": 0.918
+          },
+          "Retrieval_Confidence_Gold": {
+            "min": 0.303,
+            "max": 0.98,
+            "mean": 0.7955472222222223,
+            "median": 0.855
+          },
+          "Evidence_Agreement_Gold": {
+            "min": 0.204,
+            "max": 0.99,
+            "mean": 0.7882236111111112,
+            "median": 0.871
+          },
+          "Verification_Score_Gold": {
+            "min": 0.271,
+            "max": 0.982,
+            "mean": 0.7922533333333334,
+            "median": 0.872
+          },
+          "Final_Confidence_Gold": {
+            "min": 0.54,
+            "max": 0.967,
+            "mean": 0.8456641666666667,
+            "median": 0.888
+          }
+        }
+      },
+      "Quality_Control": {
+        "rows": 4,
+        "columns": 5,
+        "column_names": [
+          "Dataset",
+          "Rows",
+          "Unique_Case_IDs",
+          "Test_Overlap",
+          "Validation_Overlap"
+        ],
+        "dtypes": {
+          "Dataset": "object",
+          "Rows": "int64",
+          "Unique_Case_IDs": "int64",
+          "Test_Overlap": "int64",
+          "Validation_Overlap": "int64"
+        },
+        "null_values": {},
+        "duplicate_full_rows": 0,
+        "id_uniqueness": {
+          "Unique_Case_IDs": {
+            "unique_count": 4,
+            "duplicate_count": 0,
+            "null_count": 0
+          }
+        },
+        "categorical_distributions": {},
+        "numeric_stats": {
+          "Rows": {
+            "min": 1500.0,
+            "max": 3600.0,
+            "mean": 2400.0,
+            "median": 2250.0
+          },
+          "Unique_Case_IDs": {
+            "min": 1500.0,
+            "max": 3600.0,
+            "mean": 2400.0,
+            "median": 2250.0
+          },
+          "Test_Overlap": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0
+          },
+          "Validation_Overlap": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0
+          }
+        }
+      }
+    }
+  },
+  "03_RAG_Knowledge_Base_V4.xlsx": {
+    "sheets": {
+      "Knowledge_Base": {
+        "rows": 46,
+        "columns": 13,
+        "column_names": [
+          "Document_ID",
+          "Domain",
+          "Document_Type",
+          "Title",
+          "Source",
+          "Authority",
+          "Version",
+          "Effective_Date",
+          "Content",
+          "Source_Type",
+          "Freshness_Status",
+          "Retrieval_Priority",
+          "Last_Updated"
+        ],
+        "dtypes": {
+          "Document_ID": "object",
+          "Domain": "object",
+          "Document_Type": "object",
+          "Title": "object",
+          "Source": "object",
+          "Authority": "object",
+          "Version": "object",
+          "Effective_Date": "object",
+          "Content": "object",
+          "Source_Type": "object",
+          "Freshness_Status": "object",
+          "Retrieval_Priority": "int64",
+          "Last_Updated": "object"
+        },
+        "null_values": {
+          "Last_Updated": 36
+        },
+        "duplicate_full_rows": 0,
+        "id_uniqueness": {
+          "Document_ID": {
+            "unique_count": 46,
+            "duplicate_count": 0,
+            "null_count": 0
+          }
+        },
+        "categorical_distributions": {
+          "Domain": {
+            "E-commerce": 16,
+            "Education": 16,
+            "Small Business": 14
+          },
+          "Freshness_Status": {
+            "Current": 41,
+            "Outdated": 5
+          },
+          "Authority": {
+            "High": 41,
+            "Medium": 5
+          },
+          "Source_Type": {
+            "Official/Synthetic Policy": 36,
+            "Current Authoritative": 5,
+            "Outdated/Conflicting": 5
+          }
+        },
+        "numeric_stats": {
+          "Retrieval_Priority": {
+            "min": 1.0,
+            "max": 3.0,
+            "mean": 1.2173913043478262,
+            "median": 1.0
+          }
+        }
+      }
+    }
+  },
+  "04_Operational_Data_V4.xlsx": {
+    "sheets": {
+      "Customers": {
+        "rows": 1000,
+        "columns": 6,
+        "column_names": [
+          "Customer_ID",
+          "Domain",
+          "Customer_Type",
+          "Account_Status",
+          "Verification_Status",
+          "Dataset_Version"
+        ],
+        "dtypes": {
+          "Customer_ID": "object",
+          "Domain": "object",
+          "Customer_Type": "object",
+          "Account_Status": "object",
+          "Verification_Status": "object",
+          "Dataset_Version": "object"
+        },
+        "null_values": {},
+        "duplicate_full_rows": 0,
+        "id_uniqueness": {
+          "Customer_ID": {
+            "unique_count": 1000,
+            "duplicate_count": 0,
+            "null_count": 0
+          }
+        },
+        "categorical_distributions": {
+          "Domain": {
+            "E-commerce": 334,
+            "Education": 333,
+            "Small Business": 333
+          },
+          "Customer_Type": {
+            "Consumer": 334,
+            "Student": 333,
+            "Business Customer": 333
+          },
+          "Account_Status": {
+            "Active": 741,
+            "Inactive": 259
+          }
+        },
+        "numeric_stats": {}
+      },
+      "Orders": {
+        "rows": 1500,
+        "columns": 9,
+        "column_names": [
+          "Order_ID",
+          "Customer_ID",
+          "Order_Status",
+          "Order_Amount_INR",
+          "Payment_Status",
+          "Delivery_Status",
+          "Return_Status",
+          "Dataset_Version",
+          "Domain"
+        ],
+        "dtypes": {
+          "Order_ID": "object",
+          "Customer_ID": "object",
+          "Order_Status": "object",
+          "Order_Amount_INR": "int64",
+          "Payment_Status": "object",
+          "Delivery_Status": "object",
+          "Return_Status": "object",
+          "Dataset_Version": "object",
+          "Domain": "object"
+        },
+        "null_values": {},
+        "duplicate_full_rows": 0,
+        "id_uniqueness": {
+          "Order_ID": {
+            "unique_count": 1500,
+            "duplicate_count": 0,
+            "null_count": 0
+          },
+          "Customer_ID": {
+            "unique_count": 334,
+            "duplicate_count": 1166,
+            "null_count": 0
+          }
+        },
+        "categorical_distributions": {
+          "Domain": {
+            "E-commerce": 1500
+          },
+          "Order_Status": {
+            "Delivered": 423,
+            "Cancelled": 226,
+            "Return Requested": 224,
+            "Processing": 222,
+            "Refund Pending": 207,
+            "Shipped": 198
+          },
+          "Payment_Status": {
+            "Paid": 907,
+            "Refunded": 307,
+            "Pending": 286
+          },
+          "Delivery_Status": {
+            "Not Dispatched": 331,
+            "Delivered": 329,
+            "In Transit": 322,
+            "Delayed": 292,
+            "Not Applicable": 226
+          },
+          "Return_Status": {
+            "Not_Applicable": 742,
+            "Rejected": 269,
+            "Requested": 256,
+            "Approved": 233
+          }
+        },
+        "numeric_stats": {
+          "Order_Amount_INR": {
+            "min": 299.0,
+            "max": 7999.0,
+            "mean": 2661.266666666667,
+            "median": 1999.0
+          }
+        }
+      },
+      "Transactions": {
+        "rows": 1803,
+        "columns": 10,
+        "column_names": [
+          "Transaction_ID",
+          "Customer_ID",
+          "Order_ID",
+          "Transaction_Type",
+          "Amount_INR",
+          "Payment_Method",
+          "Transaction_Status",
+          "Fraud_Flag",
+          "Dataset_Version",
+          "Domain"
+        ],
+        "dtypes": {
+          "Transaction_ID": "object",
+          "Customer_ID": "object",
+          "Order_ID": "object",
+          "Transaction_Type": "object",
+          "Amount_INR": "int64",
+          "Payment_Method": "object",
+          "Transaction_Status": "object",
+          "Fraud_Flag": "int64",
+          "Dataset_Version": "object",
+          "Domain": "object"
+        },
+        "null_values": {},
+        "duplicate_full_rows": 0,
+        "id_uniqueness": {
+          "Transaction_ID": {
+            "unique_count": 1803,
+            "duplicate_count": 0,
+            "null_count": 0
+          },
+          "Customer_ID": {
+            "unique_count": 334,
+            "duplicate_count": 1469,
+            "null_count": 0
+          },
+          "Order_ID": {
+            "unique_count": 1500,
+            "duplicate_count": 303,
+            "null_count": 0
+          }
+        },
+        "categorical_distributions": {
+          "Domain": {
+            "E-commerce": 1803
+          },
+          "Transaction_Type": {
+            "Purchase": 739,
+            "Refund": 387,
+            "Subscription": 346,
+            "Payment": 331
+          },
+          "Transaction_Status": {
+            "Successful": 1117,
+            "Failed": 352,
+            "Pending": 334
+          },
+          "Fraud_Flag": {
+            "0": 1511,
+            "1": 292
+          }
+        },
+        "numeric_stats": {
+          "Amount_INR": {
+            "min": 499.0,
+            "max": 50000.0,
+            "mean": 10950.694952856351,
+            "median": 2999.0
+          },
+          "Fraud_Flag": {
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.16195230171935662,
+            "median": 0.0
+          }
+        }
+      },
+      "Support_Tickets": {
+        "rows": 1000,
+        "columns": 8,
+        "column_names": [
+          "Ticket_ID",
+          "Customer_ID",
+          "Query_Type",
+          "Customer_Query",
+          "Ticket_Status",
+          "Previous_Resolution",
+          "Dataset_Version",
+          "Domain"
+        ],
+        "dtypes": {
+          "Ticket_ID": "object",
+          "Customer_ID": "object",
+          "Query_Type": "object",
+          "Customer_Query": "object",
+          "Ticket_Status": "object",
+          "Previous_Resolution": "object",
+          "Dataset_Version": "object",
+          "Domain": "object"
+        },
+        "null_values": {},
+        "duplicate_full_rows": 0,
+        "id_uniqueness": {
+          "Ticket_ID": {
+            "unique_count": 1000,
+            "duplicate_count": 0,
+            "null_count": 0
+          },
+          "Customer_ID": {
+            "unique_count": 934,
+            "duplicate_count": 66,
+            "null_count": 0
+          }
+        },
+        "categorical_distributions": {
+          "Domain": {
+            "E-commerce": 400,
+            "Education": 300,
+            "Small Business": 300
+          },
+          "Ticket_Status": {
+            "In Progress": 273,
+            "Open": 268,
+            "Resolved": 236,
+            "Escalated": 223
+          }
+        },
+        "numeric_stats": {}
+      },
+      "Students": {
+        "rows": 500,
+        "columns": 10,
+        "column_names": [
+          "Student_ID",
+          "Customer_ID",
+          "Program",
+          "Year",
+          "Attendance_Percent",
+          "Fee_Status",
+          "Exam_Status",
+          "Scholarship_Status",
+          "Dataset_Version",
+          "Domain"
+        ],
+        "dtypes": {
+          "Student_ID": "object",
+          "Customer_ID": "object",
+          "Program": "object",
+          "Year": "int64",
+          "Attendance_Percent": "int64",
+          "Fee_Status": "object",
+          "Exam_Status": "object",
+          "Scholarship_Status": "object",
+          "Dataset_Version": "object",
+          "Domain": "object"
+        },
+        "null_values": {
+          "Scholarship_Status": 120
+        },
+        "duplicate_full_rows": 0,
+        "id_uniqueness": {
+          "Student_ID": {
+            "unique_count": 500,
+            "duplicate_count": 0,
+            "null_count": 0
+          },
+          "Customer_ID": {
+            "unique_count": 333,
+            "duplicate_count": 167,
+            "null_count": 0
+          }
+        },
+        "categorical_distributions": {
+          "Domain": {
+            "Education": 500
+          },
+          "Fee_Status": {
+            "Paid": 306,
+            "Partially Paid": 99,
+            "Pending": 95
+          },
+          "Exam_Status": {
+            "Eligible": 378,
+            "Review Required": 122
+          },
+          "Scholarship_Status": {
+            "Applied": 146,
+            "Approved": 124,
+            "nan": 120,
+            "Not Eligible": 110
+          }
+        },
+        "numeric_stats": {
+          "Year": {
+            "min": 1.0,
+            "max": 4.0,
+            "mean": 2.468,
+            "median": 2.0
+          },
+          "Attendance_Percent": {
+            "min": 62.0,
+            "max": 94.0,
+            "mean": 77.712,
+            "median": 75.0
+          }
+        }
+      },
+      "Business_Records": {
+        "rows": 500,
+        "columns": 9,
+        "column_names": [
+          "Business_Record_ID",
+          "Customer_ID",
+          "Record_Type",
+          "Reference_ID",
+          "Amount_INR",
+          "Record_Status",
+          "Approval_Status",
+          "Dataset_Version",
+          "Domain"
+        ],
+        "dtypes": {
+          "Business_Record_ID": "object",
+          "Customer_ID": "object",
+          "Record_Type": "object",
+          "Reference_ID": "object",
+          "Amount_INR": "int64",
+          "Record_Status": "object",
+          "Approval_Status": "object",
+          "Dataset_Version": "object",
+          "Domain": "object"
+        },
+        "null_values": {},
+        "duplicate_full_rows": 0,
+        "id_uniqueness": {
+          "Business_Record_ID": {
+            "unique_count": 500,
+            "duplicate_count": 0,
+            "null_count": 0
+          },
+          "Customer_ID": {
+            "unique_count": 333,
+            "duplicate_count": 167,
+            "null_count": 0
+          },
+          "Reference_ID": {
+            "unique_count": 500,
+            "duplicate_count": 0,
+            "null_count": 0
+          }
+        },
+        "categorical_distributions": {
+          "Domain": {
+            "Small Business": 500
+          },
+          "Record_Status": {
+            "Paid": 118,
+            "Approved": 100,
+            "Open": 98,
+            "Needs Review": 96,
+            "Pending": 88
+          },
+          "Approval_Status": {
+            "Approved": 187,
+            "Pending Approval": 160,
+            "Not Required": 153
+          }
+        },
+        "numeric_stats": {
+          "Amount_INR": {
+            "min": 1500.0,
+            "max": 100000.0,
+            "mean": 29790.0,
+            "median": 12000.0
+          }
+        }
+      },
+      "Integrity_Checks": {
+        "rows": 12,
+        "columns": 3,
+        "column_names": [
+          "Check",
+          "Status",
+          "Detail"
+        ],
+        "dtypes": {
+          "Check": "object",
+          "Status": "object",
+          "Detail": "object"
+        },
+        "null_values": {},
+        "duplicate_full_rows": 0,
+        "id_uniqueness": {},
+        "categorical_distributions": {},
+        "numeric_stats": {}
+      }
+    }
+  },
+  "05_Memory_V4.xlsx": {
+    "sheets": {
+      "Memory": {
+        "rows": 1500,
+        "columns": 12,
+        "column_names": [
+          "Memory_ID",
+          "Customer_ID",
+          "Related_Ticket_ID",
+          "Memory_Type",
+          "Memory_Category",
+          "Memory_Content",
+          "Source",
+          "Confidence",
+          "Created_Date",
+          "Last_Updated",
+          "Validity",
+          "Privacy_Level"
+        ],
+        "dtypes": {
+          "Memory_ID": "object",
+          "Customer_ID": "object",
+          "Related_Ticket_ID": "object",
+          "Memory_Type": "object",
+          "Memory_Category": "object",
+          "Memory_Content": "object",
+          "Source": "object",
+          "Confidence": "float64",
+          "Created_Date": "object",
+          "Last_Updated": "object",
+          "Validity": "object",
+          "Privacy_Level": "object"
+        },
+        "null_values": {},
+        "duplicate_full_rows": 0,
+        "id_uniqueness": {
+          "Memory_ID": {
+            "unique_count": 1500,
+            "duplicate_count": 0,
+            "null_count": 0
+          },
+          "Customer_ID": {
+            "unique_count": 200,
+            "duplicate_count": 1300,
+            "null_count": 0
+          },
+          "Related_Ticket_ID": {
+            "unique_count": 750,
+            "duplicate_count": 750,
+            "null_count": 0
+          }
+        },
+        "categorical_distributions": {
+          "Memory_Type": {
+            "Short-Term": 750,
+            "Long-Term": 750
+          },
+          "Memory_Category": {
+            "Current/Recent Issue": 750,
+            "Previous Support History": 750
+          },
+          "Privacy_Level": {
+            "Internal": 1500
+          }
+        },
+        "numeric_stats": {
+          "Confidence": {
+            "min": 0.78,
+            "max": 0.98,
+            "mean": 0.8827813333333333,
+            "median": 0.884
+          }
+        }
+      }
+    }
+  },
+  "06_Human_Feedback_Template_V4.xlsx": {
+    "sheets": {
+      "Feedback_Template": {
+        "rows": 501,
+        "columns": 20,
+        "column_names": [
+          "Case_ID",
+          "Query",
+          "Domain",
+          "Intent",
+          "Risk",
+          "Complexity",
+          "Evidence_Quality",
+          "Escalation_Required",
+          "Autonomy_Decision",
+          "AI_Resolution",
+          "Human_Decision",
+          "Correct_Incorrect",
+          "Correction",
+          "Escalation_Appropriate",
+          "Knowledge_Gap",
+          "Knowledge_Update_Required",
+          "Agent_Selection_Correct",
+          "Evidence_Sufficient",
+          "Reviewer_Notes",
+          "Evaluation_Status"
+        ],
+        "dtypes": {
+          "Case_ID": "object",
+          "Query": "object",
+          "Domain": "object",
+          "Intent": "object",
+          "Risk": "object",
+          "Complexity": "object",
+          "Evidence_Quality": "object",
+          "Escalation_Required": "object",
+          "Autonomy_Decision": "object",
+          "AI_Resolution": "float64",
+          "Human_Decision": "float64",
+          "Correct_Incorrect": "float64",
+          "Correction": "float64",
+          "Escalation_Appropriate": "float64",
+          "Knowledge_Gap": "float64",
+          "Knowledge_Update_Required": "float64",
+          "Agent_Selection_Correct": "float64",
+          "Evidence_Sufficient": "float64",
+          "Reviewer_Notes": "float64",
+          "Evaluation_Status": "object"
+        },
+        "null_values": {
+          "AI_Resolution": 501,
+          "Human_Decision": 501,
+          "Correct_Incorrect": 501,
+          "Correction": 501,
+          "Escalation_Appropriate": 501,
+          "Knowledge_Gap": 501,
+          "Knowledge_Update_Required": 501,
+          "Agent_Selection_Correct": 501,
+          "Evidence_Sufficient": 501,
+          "Reviewer_Notes": 501
+        },
+        "duplicate_full_rows": 0,
+        "id_uniqueness": {
+          "Case_ID": {
+            "unique_count": 501,
+            "duplicate_count": 0,
+            "null_count": 0
+          }
+        },
+        "categorical_distributions": {
+          "Domain": {
+            "E-commerce": 433,
+            "Small Business": 36,
+            "Education": 32
+          },
+          "Intent": {
+            "get_invoice": 19,
+            "review": 19,
+            "create_account": 18,
+            "change_shipping_address": 18,
+            "set_up_shipping_address": 18,
+            "contact_human_agent": 17,
+            "payment_issue": 17,
+            "check_payment_methods": 17,
+            "contact_customer_service": 17,
+            "place_order": 17,
+            "registration_problems": 17,
+            "complaint": 16,
+            "check_cancellation_fee": 16,
+            "track_order": 16,
+            "check_refund_policy": 16,
+            "track_refund": 16,
+            "delivery_options": 16,
+            "check_invoice": 16,
+            "recover_password": 16,
+            "delivery_period": 16,
+            "get_refund": 15,
+            "change_order": 15,
+            "edit_account": 14,
+            "delete_account": 13,
+            "switch_account": 13,
+            "cancel_order": 13,
+            "newsletter_subscription": 12,
+            "Subscription Management": 4,
+            "Attendance Policy": 4,
+            "Account Management": 4,
+            "Return and Refund": 4,
+            "Academic Records": 4,
+            "Invoice Inquiry": 4,
+            "Business Payment": 4,
+            "Product Information": 4,
+            "Placement Support": 3,
+            "Student ID": 3,
+            "Scholarship": 3,
+            "Course Registration": 3,
+            "Customer Support": 3,
+            "Exam Schedule": 3,
+            "Exam Registration": 3,
+            "Delivery Inquiry": 3,
+            "Vendor Support": 3,
+            "Fees and Payment": 3,
+            "Library": 3,
+            "Order Management": 3
+          },
+          "Risk": {
+            "Medium": 268,
+            "Low": 203,
+            "High": 30
+          },
+          "Complexity": {
+            "Medium": 244,
+            "Low": 161,
+            "High": 96
+          },
+          "Autonomy_Decision": {
+            "ANSWER": 373,
+            "ORCHESTRATE": 79,
+            "ESCALATE": 49
+          },
+          "Escalation_Required": {
+            "No": 452,
+            "Yes": 49
+          },
+          "Evidence_Quality": {
+            "Strong": 369,
+            "Insufficient": 68,
+            "Conflicting": 64
+          },
+          "Evaluation_Status": {
+            "Pending Human Review": 501
+          }
+        },
+        "numeric_stats": {
+          "AI_Resolution": {
+            "min": null,
+            "max": null,
+            "mean": null,
+            "median": null
+          },
+          "Human_Decision": {
+            "min": null,
+            "max": null,
+            "mean": null,
+            "median": null
+          },
+          "Correct_Incorrect": {
+            "min": null,
+            "max": null,
+            "mean": null,
+            "median": null
+          },
+          "Correction": {
+            "min": null,
+            "max": null,
+            "mean": null,
+            "median": null
+          },
+          "Escalation_Appropriate": {
+            "min": null,
+            "max": null,
+            "mean": null,
+            "median": null
+          },
+          "Knowledge_Gap": {
+            "min": null,
+            "max": null,
+            "mean": null,
+            "median": null
+          },
+          "Knowledge_Update_Required": {
+            "min": null,
+            "max": null,
+            "mean": null,
+            "median": null
+          },
+          "Agent_Selection_Correct": {
+            "min": null,
+            "max": null,
+            "mean": null,
+            "median": null
+          },
+          "Evidence_Sufficient": {
+            "min": null,
+            "max": null,
+            "mean": null,
+            "median": null
+          },
+          "Reviewer_Notes": {
+            "min": null,
+            "max": null,
+            "mean": null,
+            "median": null
+          }
+        }
+      }
+    }
+  },
+  "07_Data_Dictionary_and_Label_Guide_V4.xlsx": {
+    "sheets": {
+      "Data_Dictionary": {
+        "rows": 28,
+        "columns": 3,
+        "column_names": [
+          "Field",
+          "Definition",
+          "Type"
+        ],
+        "dtypes": {
+          "Field": "object",
+          "Definition": "object",
+          "Type": "object"
+        },
+        "null_values": {},
+        "duplicate_full_rows": 0,
+        "id_uniqueness": {},
+        "categorical_distributions": {},
+        "numeric_stats": {}
+      },
+      "Label_Guide": {
+        "rows": 13,
+        "columns": 3,
+        "column_names": [
+          "Field",
+          "Label",
+          "Definition"
+        ],
+        "dtypes": {
+          "Field": "object",
+          "Label": "object",
+          "Definition": "object"
+        },
+        "null_values": {},
+        "duplicate_full_rows": 0,
+        "id_uniqueness": {},
+        "categorical_distributions": {},
+        "numeric_stats": {}
+      },
+      "Version_Notes": {
+        "rows": 1,
+        "columns": 2,
+        "column_names": [
+          "Version",
+          "Purpose"
+        ],
+        "dtypes": {
+          "Version": "object",
+          "Purpose": "object"
+        },
+        "null_values": {},
+        "duplicate_full_rows": 0,
+        "id_uniqueness": {},
+        "categorical_distributions": {},
+        "numeric_stats": {}
+      }
+    }
+  }
+}

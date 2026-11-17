@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  # ---------------------------------------------------------------------------
+  # 1. Autonomous Multi-Agent Backend Platform (FastAPI + Chroma + M1-M6)
+  # ---------------------------------------------------------------------------
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: support_platform_backend
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - HOST=0.0.0.0
+      - PORT=8000
+      - WORKSPACE_STORAGE=local
+    volumes:
+      - ./database:/app/database
+      - ./sample_documents:/app/sample_documents
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://127.0.0.1:8000/docs"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
+
+  # ---------------------------------------------------------------------------
+  # 2. Hemanth Online Store - Streamlit E-Commerce Frontend
+  # ---------------------------------------------------------------------------
+  storefront:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: hemanth_storefront
+    restart: unless-stopped
+    ports:
+      - "8501:8501"
+    environment:
+      - API_BASE=http://backend:8000
+    command: ["streamlit", "run", "hemanth_store_app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+    depends_on:
+      backend:
+        condition: service_healthy
+    volumes:
+      - ./database:/app/database

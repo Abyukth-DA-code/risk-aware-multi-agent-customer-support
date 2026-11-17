@@ -1,0 +1,121 @@
+{
+  "sample_size": 100,
+  "cold_profile": {
+    "latency_resolution_ms": {
+      "mean": 0.11944000000000006,
+      "median": 0.005,
+      "p95": 0.008,
+      "max": 11.373
+    },
+    "latency_triage_ms": {
+      "mean": 61.15173999999999,
+      "median": 57.183499999999995,
+      "p95": 81.12249999999999,
+      "max": 222.53
+    },
+    "latency_retrieval_ms": {
+      "mean": 25.115620000000003,
+      "median": 20.8155,
+      "p95": 29.431599999999996,
+      "max": 363.335
+    },
+    "latency_verification_ms": {
+      "mean": 22.462609999999998,
+      "median": 19.2215,
+      "p95": 43.210699999999996,
+      "max": 78.486
+    },
+    "latency_policy_ms": {
+      "mean": 0.21776000000000004,
+      "median": 0.1985,
+      "p95": 0.33699999999999997,
+      "max": 0.704
+    },
+    "latency_supervisor_ms": {
+      "mean": 0.03143000000000001,
+      "median": 0.028,
+      "p95": 0.04214999999999999,
+      "max": 0.724
+    },
+    "latency_generation_ms": {
+      "mean": 0.00455,
+      "median": 0.0,
+      "p95": 0.015049999999999997,
+      "max": 0.03
+    },
+    "latency_orchestration_overhead_ms": {
+      "mean": 0.11664899998404905,
+      "median": 0.09820000042485333,
+      "p95": 0.15112499838651405,
+      "max": 0.9844000002699858
+    },
+    "latency_e2e_ms": {
+      "mean": 109.17603000000001,
+      "median": 100.432,
+      "p95": 136.76949999999997,
+      "max": 614.634
+    }
+  },
+  "warm_profile": {
+    "latency_resolution_ms": {
+      "mean": 0.005410000000000001,
+      "median": 0.005,
+      "p95": 0.008,
+      "max": 0.009
+    },
+    "latency_triage_ms": {
+      "mean": 62.09718,
+      "median": 59.54,
+      "p95": 83.473,
+      "max": 151.68
+    },
+    "latency_retrieval_ms": {
+      "mean": 22.484689999999997,
+      "median": 21.652,
+      "p95": 29.977899999999998,
+      "max": 71.069
+    },
+    "latency_verification_ms": {
+      "mean": 5.11273,
+      "median": 0.3005,
+      "p95": 26.160349999999998,
+      "max": 45.552
+    },
+    "latency_policy_ms": {
+      "mean": 0.22821000000000002,
+      "median": 0.2075,
+      "p95": 0.34015,
+      "max": 1.101
+    },
+    "latency_supervisor_ms": {
+      "mean": 0.026099999999999998,
+      "median": 0.027,
+      "p95": 0.046099999999999995,
+      "max": 0.229
+    },
+    "latency_generation_ms": {
+      "mean": 0.00438,
+      "median": 0.0,
+      "p95": 0.014049999999999998,
+      "max": 0.02
+    },
+    "latency_orchestration_overhead_ms": {
+      "mean": 0.11420700013981958,
+      "median": 0.10230000118887972,
+      "p95": 0.1595100028026628,
+      "max": 0.745399994354699
+    },
+    "latency_e2e_ms": {
+      "mean": 90.03501999999999,
+      "median": 85.3285,
+      "p95": 126.51555,
+      "max": 183.08
+    }
+  },
+  "cache_stats": {
+    "size": 41,
+    "max_size": 1000,
+    "hits": 99,
+    "misses": 41
+  }
+}

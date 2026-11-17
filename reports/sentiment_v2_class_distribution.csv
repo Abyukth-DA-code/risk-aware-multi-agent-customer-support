@@ -1,0 +1,4 @@
+Split,V1_Total,V1_Negative,V1_Neutral,V1_Positive,V2_Total,V2_Negative,V2_Neutral,V2_Positive,V2_Pct_Negative,V2_Pct_Neutral,V2_Pct_Positive
+Train,2518,568,1760,190,2504,554,1760,190,22.12,70.29,7.59
+Validation,563,120,381,62,570,117,391,62,20.53,68.6,10.88
+Test,563,116,385,62,570,113,395,62,19.82,69.3,10.88

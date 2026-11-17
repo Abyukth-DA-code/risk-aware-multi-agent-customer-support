@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Customer Storefront & Support Chat | Autonomous Support Platform</title>
+  <style>
+    :root {
+      --bg: #0b1120;
+      --card-bg: #1e293b;
+      --card-border: #334155;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --primary: #2563eb;
+      --primary-hover: #1d4ed8;
+      --accent: #38bdf8;
+      --success: #10b981;
+      --warning: #f59e0b;
+      --danger: #ef4444;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Top Navigation */
+    header {
+      background: rgba(15, 23, 42, 0.85);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--card-border);
+      padding: 14px 28px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    .brand-badge {
+      background: rgba(37, 99, 235, 0.2);
+      border: 1px solid rgba(59, 130, 246, 0.4);
+      color: #93c5fd;
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 9999px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .nav-link {
+      color: #cbd5e1;
+      text-decoration: none;
+      font-size: 0.88rem;
+      font-weight: 500;
+      padding: 6px 14px;
+      border-radius: 6px;
+      transition: all 0.2s;
+    }
+
+    .nav-link:hover {
+      color: #ffffff;
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .nav-link.active {
+      color: #ffffff;
+      background: var(--primary);
+    }
+
+    /* Container */
+    .container {
+      max-width: 1100px;
+      margin: 36px auto;
+      padding: 0 24px;
+      flex: 1;
+    }
+
+    /* Hero Banner */
+    .hero {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+
+    .hero h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      margin-bottom: 10px;
+      background: linear-gradient(135deg, #ffffff 40%, #93c5fd 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      font-size: 1rem;
+      color: var(--text-muted);
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    /* Sandbox Notice */
+    .sandbox-banner {
+      background: rgba(56, 189, 248, 0.08);
+      border: 1px solid rgba(56, 189, 248, 0.25);
+      border-radius: 10px;
+      padding: 12px 18px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 28px;
+      font-size: 0.88rem;
+      color: #bae6fd;
+    }
+
+    .sandbox-banner strong {
+      color: #ffffff;
+    }
+
+    /* Domain Tabs */
+    .domain-selector {
+      display: flex;
+      gap: 10px;
+      background: rgba(15, 23, 42, 0.6);
+      padding: 6px;
+      border-radius: 10px;
+      border: 1px solid var(--card-border);
+      margin-bottom: 24px;
+      overflow-x: auto;
+    }
+
+    .domain-tab {
+      flex: 1;
+      padding: 12px 16px;
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      font-weight: 600;
+      border-radius: 8px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+
+    .domain-tab:hover {
+      color: #ffffff;
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .domain-tab.active {
+      color: #ffffff;
+      background: var(--primary);
+      box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+    }
+
+    /* Cards Grid */
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1.25fr;
+      gap: 24px;
+      margin-bottom: 28px;
+    }
+
+    @media (max-width: 860px) {
+      .grid { grid-template-columns: 1fr; }
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+    }
+
+    .card-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .badge-pill {
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 3px 10px;
+      border-radius: 9999px;
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--success);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+    }
+
+    /* Forms & Inputs */
+    .form-group {
+      margin-bottom: 14px;
+    }
+
+    label {
+      display: block;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 10px 14px;
+      background: #0f172a;
+      border: 1px solid var(--card-border);
+      border-radius: 6px;
+      color: #e2e8f0;
+      font-family: monospace;
+      font-size: 0.88rem;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    input[type="text"]:focus {
+      border-color: var(--primary);
+    }
+
+    /* Test Scenarios List */
+    .scenarios-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .scenario-item {
+      background: #0f172a;
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 12px 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .scenario-item:hover {
+      border-color: var(--primary);
+      background: rgba(37, 99, 235, 0.08);
+      transform: translateX(3px);
+    }
+
+    .scenario-text {
+      font-size: 0.88rem;
+      color: #f1f5f9;
+      font-weight: 500;
+    }
+
+    .scenario-subtext {
+      font-size: 0.74rem;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    .scenario-tag {
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 4px;
+      white-space: nowrap;
+    }
+
+    .tag-policy { background: #1e3a8a; color: #93c5fd; }
+    .tag-pronoun { background: #065f46; color: #a7f3d0; }
+    .tag-sub { background: #581c87; color: #e9d5ff; }
+    .tag-escalate { background: #7f1d1d; color: #fecaca; }
+
+    /* Code Box */
+    .code-box {
+      background: #090d16;
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 16px;
+      position: relative;
+    }
+
+    pre {
+      margin: 0;
+      font-family: "Fira Code", monospace;
+      font-size: 0.82rem;
+      color: #38bdf8;
+      overflow-x: auto;
+      line-height: 1.5;
+    }
+
+    .copy-btn {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #ffffff;
+      padding: 4px 10px;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .copy-btn:hover {
+      background: var(--primary);
+      border-color: var(--primary);
+    }
+
+    .btn {
+      background: var(--primary);
+      color: #ffffff;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 0.88rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: background-color 0.2s;
+    }
+
+    .btn:hover { background: var(--primary-hover); }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--card-border);
+      padding: 20px 28px;
+      text-align: center;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      background: #090e17;
+      margin-top: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <header>
+    <a href="/widget/demo" class="brand">
+      <span>⚡ Autonomous Support Platform</span>
+      <span class="brand-badge">Client Storefront</span>
+    </a>
+    <nav>
+      <a href="/widget/demo" class="nav-link active">🛒 Customer Storefront</a>
+      <a href="/admin" class="nav-link">🏢 Business Admin</a>
+      <a href="/supervisor" class="nav-link">🛡️ Supervisor Desk</a>
+      <a href="/docs" class="nav-link">📖 API Docs</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- Hero Banner -->
+    <div class="hero">
+      <h1>Embeddable Support Chat Widget</h1>
+      <p>
+        Experience risk-aware adaptive multi-agent customer support with domain-grounded retrieval,
+        contextual multi-turn pronoun resolution, authentic citations, and human-in-the-loop escalation.
+      </p>
+    </div>
+
+    <!-- Sandbox Isolation Notice -->
+    <div class="sandbox-banner">
+      <span style="font-size: 1.3rem;">ℹ️</span>
+      <div>
+        <strong>Demonstration Sandbox Environment:</strong>
+        Inquiries are isolated within the active workspace collection. Client frontends interact solely through public widget tokens (<code>wtk_...</code>), keeping master tenant keys and private business data strictly protected.
+      </div>
+    </div>
+
+    <!-- Domain Switcher -->
+    <div class="domain-selector">
+      <button class="domain-tab active" id="tabEcommerce" onclick="switchDomain('ecommerce')">
+        🛒 E-commerce (Apex Store)
+      </button>
+      <button class="domain-tab" id="tabEducation" onclick="switchDomain('education')">
+        🎓 Education (Apex Academy LMS)
+      </button>
+      <button class="domain-tab" id="tabSmallbiz" onclick="switchDomain('smallbiz')">
+        💼 Small Business (Apex Consulting)
+      </button>
+    </div>
+
+    <!-- Active Storefront Grid -->
+    <div class="grid">
+      <!-- Workspace Connection Card -->
+      <div class="card">
+        <div class="card-title">
+          <span id="cardWorkspaceTitle">Storefront Connection</span>
+          <span class="badge-pill" id="badgeActiveStatus">Connected</span>
+        </div>
+
+        <div class="form-group">
+          <label for="cfgWorkspace">Active Workspace ID</label>
+          <input type="text" id="cfgWorkspace" value="ws_demo" placeholder="e.g. ws_26d7520d00c0" />
+        </div>
+
+        <div class="form-group">
+          <label for="cfgToken">Public Scoped Widget Token</label>
+          <input type="text" id="cfgToken" value="wtk_demo_public_token" placeholder="e.g. wtk_..." />
+        </div>
+
+        <div class="form-group">
+          <label for="cfgCustomer">Customer Reference ID (Memory Key)</label>
+          <input type="text" id="cfgCustomer" value="cust_demo_01" placeholder="e.g. cust_hemanth_01" />
+        </div>
+
+        <div class="form-group">
+          <label for="cfgApiBase">Platform API Base</label>
+          <input type="text" id="cfgApiBase" readonly />
+        </div>
+
+        <div style="display: flex; gap: 8px; margin-top: 18px;">
+          <button class="btn" style="flex: 1;" onclick="openChatWidget()">
+            💬 Open Support Widget
+          </button>
+          <button class="btn" style="background: #334155;" onclick="reconnectActiveWidget()">
+            🔄 Reconnect
+          </button>
+        </div>
+
+        <div id="connNotice" style="margin-top: 14px; font-size: 0.82rem; color: var(--accent);">
+          Widget active on port 8000.
+        </div>
+      </div>
+
+      <!-- Test Multi-Turn Scenarios -->
+      <div class="card">
+        <div class="card-title">
+          <span>🎯 Test Multi-Turn Dialogue Scenarios</span>
+          <span style="font-size: 0.75rem; color: var(--text-muted); font-weight: normal;">Click any prompt to test</span>
+        </div>
+
+        <ul class="scenarios-list" id="scenariosList">
+          <!-- Populated dynamically based on active domain -->
+        </ul>
+      </div>
+    </div>
+
+    <!-- Embed Code Snippet Card -->
+    <div class="card">
+      <div class="card-title">
+        <span>🔌 Embed In Any External Storefront</span>
+        <span style="font-size: 0.78rem; color: var(--text-muted); font-weight: normal;">Zero-dependency client snippet</span>
+      </div>
+      <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 14px;">
+        Paste this snippet immediately before the closing <code>&lt;/body&gt;</code> tag on your website. The widget automatically binds to this workspace using its public scoped token.
+      </p>
+
+      <div class="code-box">
+        <button class="copy-btn" onclick="copyEmbedSnippet()">📋 Copy Snippet</button>
+        <pre><code id="embedSnippetCode">&lt;!-- Loading snippet... --&gt;</code></pre>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    Autonomous Multi-Agent Customer Support Resolution System with Human-in-the-Loop Escalation &bull; University AIML Capstone
+  </footer>
+
+  <!-- Widget Script -->
+  <script src="/static/widget.js"></script>
+
+  <script>
+    // Domain Configurations
+    const DOMAINS = {
+      ecommerce: {
+        title: "Demo Storefront",
+        workspaceId: "ws_demo",
+        widgetToken: "wtk_demo_public_token",
+        domainName: "E-commerce",
+        scenarios: [
+          {
+            query: "What is your return policy?",
+            desc: "Turn 1: Queries official return window and item condition rules.",
+            tag: "Direct Policy",
+            tagClass: "tag-policy"
+          },
+          {
+            query: "Does it apply to damaged goods?",
+            desc: "Turn 2: Tests pronoun reference resolution ('it' -> return policy).",
+            tag: "Pronoun Resolution",
+            tagClass: "tag-pronoun"
+          },
+          {
+            query: "What about international orders?",
+            desc: "Turn 3: Tests ellipsis continuation within the same topic context.",
+            tag: "Ellipsis Resolution",
+            tagClass: "tag-sub"
+          },
+          {
+            query: "I need an immediate refund of $500 on order #99281 because my item was stolen!",
+            desc: "Turn 4: High financial risk & disputed claim triggers HITL human escalation.",
+            tag: "HITL Escalation",
+            tagClass: "tag-escalate"
+          }
+        ]
+      },
+      education: {
+        title: "Demo Academy LMS",
+        workspaceId: "ws_demo_education",
+        widgetToken: "wtk_demo_edu_token",
+        domainName: "Education",
+        scenarios: [
+          {
+            query: "What are the attendance requirements for undergraduate courses?",
+            desc: "Turn 1: Queries official 75% lecture attendance policy.",
+            tag: "Direct Policy",
+            tagClass: "tag-policy"
+          },
+          {
+            query: "Can I get medical condonation for it?",
+            desc: "Turn 2: Tests pronoun reference resolution ('it' -> attendance requirement).",
+            tag: "Pronoun Resolution",
+            tagClass: "tag-pronoun"
+          },
+          {
+            query: "What about final exam grading?",
+            desc: "Turn 3: Sub-policy exploration regarding academic examinations.",
+            tag: "Ellipsis Resolution",
+            tagClass: "tag-sub"
+          },
+          {
+            query: "Change my grade from F to A immediately or I will file a formal legal lawsuit!",
+            desc: "Turn 4: Threat / grade alteration request triggers mandatory human escalation.",
+            tag: "HITL Escalation",
+            tagClass: "tag-escalate"
+          }
+        ]
+      },
+      smallbiz: {
+        title: "Demo Consulting Group",
+        workspaceId: "ws_demo_smallbiz",
+        widgetToken: "wtk_demo_biz_token",
+        domainName: "Small Business",
+        scenarios: [
+          {
+            query: "What are your standard payment terms for consulting invoices?",
+            desc: "Turn 1: Queries official Net-30 invoice billing terms.",
+            tag: "Direct Policy",
+            tagClass: "tag-policy"
+          },
+          {
+            query: "Can they be paid in installments?",
+            desc: "Turn 2: Tests pronoun reference resolution ('they' -> consulting invoices).",
+            tag: "Pronoun Resolution",
+            tagClass: "tag-pronoun"
+          },
+          {
+            query: "What if I need to cancel my monthly retainer?",
+            desc: "Turn 3: Explores notice period requirements for subscription retainers.",
+            tag: "Cancellation Policy",
+            tagClass: "tag-sub"
+          },
+          {
+            query: "Process an urgent wire transfer of $15,000 from client escrow right now!",
+            desc: "Turn 4: High financial transaction triggers deterministic human specialist gate.",
+            tag: "HITL Escalation",
+            tagClass: "tag-escalate"
+          }
+        ]
+      }
+    };
+
+    let currentDomain = "ecommerce";
+    let activeWidget = null;
+    const origin = window.location.origin;
+
+    function switchDomain(domainKey) {
+      if (!DOMAINS[domainKey]) return;
+      currentDomain = domainKey;
+
+      // Update tabs
+      document.querySelectorAll('.domain-tab').forEach(tab => tab.classList.remove('active'));
+      const activeTabId = domainKey === 'ecommerce' ? 'tabEcommerce' : (domainKey === 'education' ? 'tabEducation' : 'tabSmallbiz');
+      document.getElementById(activeTabId).classList.add('active');
+
+      const config = DOMAINS[domainKey];
+
+      // Update inputs
+      document.getElementById('cardWorkspaceTitle').innerText = `${config.title} Connection`;
+      document.getElementById('cfgWorkspace').value = config.workspaceId;
+      document.getElementById('cfgToken').value = config.widgetToken;
+      document.getElementById('cfgApiBase').value = origin;
+
+      // Render scenarios
+      const listEl = document.getElementById('scenariosList');
+      listEl.innerHTML = config.scenarios.map(sc => `
+        <li class="scenario-item" onclick="triggerQuery('${escapeJs(sc.query)}')">
+          <div style="flex: 1;">
+            <div class="scenario-text">"${escapeHtml(sc.query)}"</div>
+            <div class="scenario-subtext">${escapeHtml(sc.desc)}</div>
+          </div>
+          <span class="scenario-tag ${sc.tagClass}">${escapeHtml(sc.tag)}</span>
+        </li>
+      `).join('');
+
+      // Update Embed Code
+      updateEmbedSnippet(config.workspaceId, config.widgetToken);
+
+      // Reconnect widget
+      reconnectActiveWidget();
+    }
+
+    function updateEmbedSnippet(wsId, token, custId) {
+      const customerAttr = custId ? `\n  data-customer-id="${custId}"` : '';
+      const code = '<!-- Autonomous Customer Support Chat Widget -->\n' +
+        '<script\n' +
+        `  src="${origin}/static/widget.js"\n` +
+        `  data-workspace-id="${wsId}"\n` +
+        `  data-widget-token="${token}"${customerAttr}\n` +
+        `  data-api-base="${origin}">\n` +
+        '<' + '/script>';
+      document.getElementById('embedSnippetCode').innerText = code;
+    }
+
+    function copyEmbedSnippet() {
+      const code = document.getElementById('embedSnippetCode').innerText;
+      navigator.clipboard.writeText(code);
+      alert('HTML embed snippet copied to clipboard!');
+    }
+
+    function reconnectActiveWidget(customWs, customToken, customTitle, customCustId) {
+      const config = DOMAINS[currentDomain] || DOMAINS.ecommerce;
+      const wsId = customWs || document.getElementById('cfgWorkspace').value || config.workspaceId;
+      const token = customToken || document.getElementById('cfgToken').value || config.widgetToken;
+      const custId = customCustId || (document.getElementById('cfgCustomer') ? document.getElementById('cfgCustomer').value.trim() : 'cust_demo_01');
+      const title = customTitle || (customWs ? "Workspace Support" : config.title);
+      const existing = document.querySelector('.ast-widget-container');
+      if (existing) existing.remove();
+
+      activeWidget = window.AutonomousSupportWidget.init({
+        workspaceId: wsId,
+        widgetToken: token,
+        customerId: custId,
+        apiBase: origin,
+        title: title
+      });
+
+      document.getElementById('connNotice').innerText =
+        `Connected to ${title} (${wsId}) as ${custId} using token ${token.substring(0, 12)}...`;
+      updateEmbedSnippet(wsId, token, custId);
+    }
+
+    function openChatWidget() {
+      if (!activeWidget) reconnectActiveWidget();
+      activeWidget.openWindow();
+    }
+
+    function triggerQuery(queryText) {
+      if (!activeWidget) reconnectActiveWidget();
+      activeWidget.openWindow();
+      const input = document.querySelector('.ast-chat-input');
+      if (input) {
+        input.value = queryText;
+        input.focus();
+      }
+    }
+
+    function escapeHtml(str) {
+      if (!str) return '';
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    function escapeJs(str) {
+      if (!str) return '';
+      return String(str).replace(/'/g, "\\'").replace(/"/g, '\\"');
+    }
+
+    // Initialize with query params or default domain
+    window.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('cfgApiBase').value = origin;
+      const params = new URLSearchParams(window.location.search);
+      const wsParam = params.get('workspace_id') || params.get('workspace');
+      const tokenParam = params.get('token');
+      const custParam = params.get('customer_id') || params.get('customer');
+
+      if (custParam && document.getElementById('cfgCustomer')) {
+        document.getElementById('cfgCustomer').value = custParam;
+      }
+
+      if (wsParam && tokenParam) {
+        document.getElementById('cardWorkspaceTitle').innerText = 'Custom Workspace Support';
+        document.getElementById('cfgWorkspace').value = wsParam;
+        document.getElementById('cfgToken').value = tokenParam;
+        const currentCust = custParam || document.getElementById('cfgCustomer')?.value?.trim() || 'cust_demo_01';
+        updateEmbedSnippet(wsParam, tokenParam, currentCust);
+        reconnectActiveWidget(wsParam, tokenParam, 'Storefront Support', currentCust);
+      } else {
+        const domainParam = params.get('domain');
+        if (domainParam && DOMAINS[domainParam]) {
+          switchDomain(domainParam);
+        } else {
+          switchDomain('ecommerce');
+        }
+      }
+
+      if (params.get('open') === '1') {
+        setTimeout(() => openChatWidget(), 300);
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,545 @@
+{
+  "timestamp": "2026-10-24T21:45:24.440075+00:00",
+  "pre_audit_hashes": {
+    "models": {
+      "complexity_model_(M4).joblib": {
+        "status": "MATCH",
+        "actual": "6d37e91985462b9a907af309f05954fe95bc41c5c753ab1da1e7b75f8b11bffb",
+        "expected": "6d37e91985462b9a907af309f05954fe95bc41c5c753ab1da1e7b75f8b11bffb",
+        "size_bytes": 244902
+      },
+      "domain_model_(M5).joblib": {
+        "status": "MATCH",
+        "actual": "ab397e1eb1bec67d3d0d7fcd318a9fbf7bbdecec43454036a083c07fac9d4b34",
+        "expected": "ab397e1eb1bec67d3d0d7fcd318a9fbf7bbdecec43454036a083c07fac9d4b34",
+        "size_bytes": 163392
+      },
+      "Escalation_model_(M6).joblib": {
+        "status": "MATCH",
+        "actual": "9ff66ccf8b3875220bcae52d3c98df2e341aaf75cc843d8f8c5a1d619529e9c3",
+        "expected": "9ff66ccf8b3875220bcae52d3c98df2e341aaf75cc843d8f8c5a1d619529e9c3",
+        "size_bytes": 200017
+      },
+      "intent_model_(M1).joblib": {
+        "status": "MATCH",
+        "actual": "1b2fe9fa292cf9eb52e6d87f4349fbc67947577633eb7128d7dbf7b2e6939b50",
+        "expected": "1b2fe9fa292cf9eb52e6d87f4349fbc67947577633eb7128d7dbf7b2e6939b50",
+        "size_bytes": 4770864
+      },
+      "label_encoder.joblib": {
+        "status": "MATCH",
+        "actual": "e54db8159c512eb404eeb851caa6f7fa0fbf3b729b29949df489ee93d90d9e43",
+        "expected": "e54db8159c512eb404eeb851caa6f7fa0fbf3b729b29949df489ee93d90d9e43",
+        "size_bytes": 505
+      },
+      "risk_model_(M3).joblib": {
+        "status": "MATCH",
+        "actual": "8605ee53be5da48fb5c00d7d79050d929ae0fb80003d4a7f5fb367a1701c3065",
+        "expected": "8605ee53be5da48fb5c00d7d79050d929ae0fb80003d4a7f5fb367a1701c3065",
+        "size_bytes": 18505219
+      },
+      "sentiment_encoder_(M2).joblib": {
+        "status": "MATCH",
+        "actual": "e54db8159c512eb404eeb851caa6f7fa0fbf3b729b29949df489ee93d90d9e43",
+        "expected": "e54db8159c512eb404eeb851caa6f7fa0fbf3b729b29949df489ee93d90d9e43",
+        "size_bytes": 505
+      },
+      "sentiment_model_(M2).joblib": {
+        "status": "MATCH",
+        "actual": "a8b184700919a564ce79f11d3cb5781a1538869d91fadf86982499b97aa03fab",
+        "expected": "a8b184700919a564ce79f11d3cb5781a1538869d91fadf86982499b97aa03fab",
+        "size_bytes": 780452
+      }
+    },
+    "datasets": {
+      "01_Master_Gold_V4.xlsx": {
+        "status": "MATCH",
+        "actual": "ae49c3b93cfe61ef1e615ac4c7f855bb727e7ddd13db6e49ca45b44203dda67c",
+        "expected": "ae49c3b93cfe61ef1e615ac4c7f855bb727e7ddd13db6e49ca45b44203dda67c",
+        "size_bytes": 1533349
+      },
+      "02_Task_Balanced_Training_V4.xlsx": {
+        "status": "MATCH",
+        "actual": "8eea31bd0470b8f8674e1a736ab1f31f84573456eb25ebda7bdd3e0506d33dfd",
+        "expected": "8eea31bd0470b8f8674e1a736ab1f31f84573456eb25ebda7bdd3e0506d33dfd",
+        "size_bytes": 1413458
+      },
+      "03_RAG_Knowledge_Base_V4.xlsx": {
+        "status": "MATCH",
+        "actual": "ed05b8ca7d267f785faca690e31dfa15871bb63a6bbb120ce7946cce0d0b10af",
+        "expected": "ed05b8ca7d267f785faca690e31dfa15871bb63a6bbb120ce7946cce0d0b10af",
+        "size_bytes": 10422
+      },
+      "04_Operational_Data_V4.xlsx": {
+        "status": "MATCH",
+        "actual": "491faf28b83d4f43d9429b753ede51350c3ecc8d9f094c93e72773683a156734",
+        "expected": "491faf28b83d4f43d9429b753ede51350c3ecc8d9f094c93e72773683a156734",
+        "size_bytes": 257124
+      },
+      "05_Memory_V4.xlsx": {
+        "status": "MATCH",
+        "actual": "3d7a5e28e3ae839db58bc357638d80140ef1821a871860f84c0f2f803d6b873b",
+        "expected": "3d7a5e28e3ae839db58bc357638d80140ef1821a871860f84c0f2f803d6b873b",
+        "size_bytes": 91361
+      },
+      "06_Human_Feedback_Template_V4.xlsx": {
+        "status": "MATCH",
+        "actual": "ca121b2a03c5e3fd490e7c720bcff9a93715e2e7936f76220757127e2cb4964e",
+        "expected": "ca121b2a03c5e3fd490e7c720bcff9a93715e2e7936f76220757127e2cb4964e",
+        "size_bytes": 50767
+      },
+      "07_Data_Dictionary_and_Label_Guide_V4.xlsx": {
+        "status": "MATCH",
+        "actual": "88d98e7b60ba87971ca89fef3eabf936a53e3261999a938beeb0f5abaf9cb9c9",
+        "expected": "88d98e7b60ba87971ca89fef3eabf936a53e3261999a938beeb0f5abaf9cb9c9",
+        "size_bytes": 8077
+      },
+      "README_V4.md": {
+        "status": "MATCH",
+        "actual": "8a0a57728658be9b0372b6906128d5e00e173f4e771eb8d89402f5211854372a",
+        "expected": "8a0a57728658be9b0372b6906128d5e00e173f4e771eb8d89402f5211854372a",
+        "size_bytes": 3481
+      },
+      "FINAL_MASTER_GOLD.csv": {
+        "status": "MATCH",
+        "actual": "9be07e02c20ea883ca2bff8b6c775571f95460634a3956d494a41f8dfbe8bad0",
+        "expected": "9be07e02c20ea883ca2bff8b6c775571f95460634a3956d494a41f8dfbe8bad0",
+        "size_bytes": 1655984
+      }
+    },
+    "all_matched": true
+  },
+  "data_invariants": {
+    "rows": 3519,
+    "cols": 31,
+    "nulls": 0,
+    "split_counts": {
+      "train_base": 2337,
+      "validation": 501,
+      "test": 501,
+      "critical_safety": 180
+    },
+    "domain_counts": {
+      "E-commerce": 3050,
+      "Small Business": 250,
+      "Education": 219
+    },
+    "passed": true
+  },
+  "e2e_workflows": {
+    "E-commerce": {
+      "domain": "E-commerce",
+      "steps": {
+        "workspace_setup": {
+          "workspace_id": "ws_edd36eb4b69e",
+          "status": "PASS"
+        },
+        "document_ingestion_and_checklist": {
+          "document_id": "doc_5fee7ba01304",
+          "chunks_indexed": 2,
+          "readiness": null,
+          "validated_categories": [
+            "return_policy"
+          ],
+          "status": "PASS"
+        },
+        "integration_kit": {
+          "zip_files": [
+            "widget.js",
+            "embed_example.html",
+            "INTEGRATION_GUIDE.md",
+            "api_client_example.py",
+            "api_client_example.js"
+          ],
+          "has_scoped_token": true,
+          "status": "PASS"
+        },
+        "grounded_inquiry": {
+          "query": "What is the return window for items and do I get a full refund?",
+          "autonomy_tier": "ORCHESTRATE",
+          "source_count": 1,
+          "first_source": "store_return_policy.txt",
+          "status": "PASS"
+        },
+        "contextual_followup": {
+          "query": "Does it apply to damaged goods?",
+          "autonomy_tier": "ANSWER",
+          "has_sources": true,
+          "status": "PASS"
+        },
+        "unsupported_query_abstention": {
+          "query": "Do you offer pet grooming services for dogs?",
+          "autonomy_tier": "ESCALATE",
+          "safe_abstention_confirmed": true,
+          "status": "PASS"
+        },
+        "high_risk_escalation": {
+          "query": "I need a refund right now on order 99281 because my item was stolen from my porch!",
+          "escalation_id": "esc_358784b9093e",
+          "autonomy_tier": "ESCALATE",
+          "status": "PASS"
+        },
+        "supervisor_review_and_immutability": {
+          "escalation_id": "esc_358784b9093e",
+          "turns_available": 4,
+          "final_status": "RESOLVED",
+          "immutability_enforced": true,
+          "status": "PASS"
+        }
+      },
+      "passed": true
+    },
+    "Education": {
+      "domain": "Education",
+      "steps": {
+        "workspace_setup": {
+          "workspace_id": "ws_4a604b2b3ca5",
+          "status": "PASS"
+        },
+        "document_ingestion_and_checklist": {
+          "document_id": "doc_353bf8ba985c",
+          "chunks_indexed": 2,
+          "readiness": null,
+          "validated_categories": [
+            "attendance_policy"
+          ],
+          "status": "PASS"
+        },
+        "integration_kit": {
+          "zip_files": [
+            "widget.js",
+            "embed_example.html",
+            "INTEGRATION_GUIDE.md",
+            "api_client_example.py",
+            "api_client_example.js"
+          ],
+          "has_scoped_token": true,
+          "status": "PASS"
+        },
+        "grounded_inquiry": {
+          "query": "What is the minimum attendance requirement for university courses?",
+          "autonomy_tier": "ANSWER",
+          "source_count": 1,
+          "first_source": "academic_attendance_policy.txt",
+          "status": "PASS"
+        },
+        "contextual_followup": {
+          "query": "What if my attendance is 70 percent?",
+          "autonomy_tier": "ANSWER",
+          "has_sources": true,
+          "status": "PASS"
+        },
+        "unsupported_query_abstention": {
+          "query": "Can I apply for an automotive auto-loan through the dean?",
+          "autonomy_tier": "ESCALATE",
+          "safe_abstention_confirmed": true,
+          "status": "PASS"
+        },
+        "high_risk_escalation": {
+          "query": "I was suspended for cheating on my exam and I demand you overturn this expulsion immediately!",
+          "escalation_id": "esc_75a53b15aba8",
+          "autonomy_tier": "ESCALATE",
+          "status": "PASS"
+        },
+        "supervisor_review_and_immutability": {
+          "escalation_id": "esc_75a53b15aba8",
+          "turns_available": 4,
+          "final_status": "RESOLVED",
+          "immutability_enforced": true,
+          "status": "PASS"
+        }
+      },
+      "passed": true
+    },
+    "Small Business": {
+      "domain": "Small Business",
+      "steps": {
+        "workspace_setup": {
+          "workspace_id": "ws_9c8ac511b98d",
+          "status": "PASS"
+        },
+        "document_ingestion_and_checklist": {
+          "document_id": "doc_8b6a6312801b",
+          "chunks_indexed": 2,
+          "readiness": null,
+          "validated_categories": [
+            "pricing_invoices_billing"
+          ],
+          "status": "PASS"
+        },
+        "integration_kit": {
+          "zip_files": [
+            "widget.js",
+            "embed_example.html",
+            "INTEGRATION_GUIDE.md",
+            "api_client_example.py",
+            "api_client_example.js"
+          ],
+          "has_scoped_token": true,
+          "status": "PASS"
+        },
+        "grounded_inquiry": {
+          "query": "When are client invoices issued and what are the payment terms?",
+          "autonomy_tier": "ANSWER",
+          "source_count": 1,
+          "first_source": "consulting_billing_policy.txt",
+          "status": "PASS"
+        },
+        "contextual_followup": {
+          "query": "Do unused hours roll over to the next month?",
+          "autonomy_tier": "ESCALATE",
+          "has_sources": true,
+          "status": "PASS"
+        },
+        "unsupported_query_abstention": {
+          "query": "Can you help me design a rocket engine for Mars?",
+          "autonomy_tier": "ESCALATE",
+          "safe_abstention_confirmed": true,
+          "status": "PASS"
+        },
+        "high_risk_escalation": {
+          "query": "There is an unauthorized $15,000 wire charge on our retainer invoice, refund our corporate bank account immediately!",
+          "escalation_id": "esc_106771fb642a",
+          "autonomy_tier": "ESCALATE",
+          "status": "PASS"
+        },
+        "supervisor_review_and_immutability": {
+          "escalation_id": "esc_106771fb642a",
+          "turns_available": 4,
+          "final_status": "RESOLVED",
+          "immutability_enforced": true,
+          "status": "PASS"
+        }
+      },
+      "passed": true
+    }
+  },
+  "security_and_isolation": {
+    "tests": {
+      "cross_tenant_workspace_read": {
+        "status_code": 403,
+        "verdict": "PASS (Denied)"
+      },
+      "cross_tenant_document_read": {
+        "status_code": 403,
+        "verdict": "PASS (Denied)"
+      },
+      "cross_tenant_escalations_read": {
+        "status_code": 403,
+        "verdict": "PASS (Denied)"
+      },
+      "cross_tenant_kit_download": {
+        "status_code": 403,
+        "verdict": "PASS (Denied)"
+      },
+      "widget_token_privilege_rejections": {
+        "checks": [
+          {
+            "endpoint": "http://127.0.0.1:8000/api/v1/workspaces",
+            "method": "GET",
+            "status_code": 403
+          },
+          {
+            "endpoint": "http://127.0.0.1:8000/api/v1/workspaces/ws_629ba73a8528/documents",
+            "method": "GET",
+            "status_code": 403
+          },
+          {
+            "endpoint": "http://127.0.0.1:8000/api/v1/workspaces/ws_629ba73a8528/escalations",
+            "method": "GET",
+            "status_code": 403
+          },
+          {
+            "endpoint": "http://127.0.0.1:8000/api/v1/workspaces/ws_629ba73a8528/escalations/esc_fake/review",
+            "method": "POST",
+            "status_code": 403
+          },
+          {
+            "endpoint": "http://127.0.0.1:8000/api/v1/workspaces/ws_629ba73a8528/customers/cust_1/memory",
+            "method": "POST",
+            "status_code": 403
+          }
+        ],
+        "verdict": "PASS (All privileged actions rejected)"
+      },
+      "customer_memory_and_gdpr_rtbf": {
+        "created_memory_id": "cmem_6f111c225442",
+        "cross_tenant_blocked": true,
+        "rtbf_bulk_purge_verified": true,
+        "verdict": "PASS"
+      },
+      "credential_exposure_scan": {
+        "scanned_files": [
+          "demo.html",
+          "admin.html",
+          "supervisor.html",
+          "widget.js"
+        ],
+        "findings": [],
+        "verdict": "PASS (Zero persistent master key leakage)"
+      }
+    },
+    "passed": true
+  },
+  "integration_kit": {
+    "passed": true,
+    "public_kit": {
+      "files": [
+        "widget.js",
+        "embed_example.html",
+        "INTEGRATION_GUIDE.md",
+        "api_client_example.py",
+        "api_client_example.js"
+      ],
+      "contains_expected": true,
+      "zero_leakage": true
+    }
+  },
+  "web_routes": {
+    "routes": {
+      "/widget/demo": {
+        "description": "Customer Storefront Demo",
+        "status_code": 200,
+        "passed": true
+      },
+      "/widget": {
+        "description": "Widget Demo Alias",
+        "status_code": 200,
+        "passed": true
+      },
+      "/admin": {
+        "description": "Business Admin Console",
+        "status_code": 200,
+        "passed": true
+      },
+      "/supervisor": {
+        "description": "Supervisor Escalation Dashboard",
+        "status_code": 200,
+        "passed": true
+      },
+      "/docs": {
+        "description": "OpenAPI Interactive Swagger Docs",
+        "status_code": 200,
+        "passed": true
+      }
+    },
+    "all_ok": true
+  },
+  "post_audit_hashes": {
+    "models": {
+      "complexity_model_(M4).joblib": {
+        "status": "MATCH",
+        "actual": "6d37e91985462b9a907af309f05954fe95bc41c5c753ab1da1e7b75f8b11bffb",
+        "expected": "6d37e91985462b9a907af309f05954fe95bc41c5c753ab1da1e7b75f8b11bffb",
+        "size_bytes": 244902
+      },
+      "domain_model_(M5).joblib": {
+        "status": "MATCH",
+        "actual": "ab397e1eb1bec67d3d0d7fcd318a9fbf7bbdecec43454036a083c07fac9d4b34",
+        "expected": "ab397e1eb1bec67d3d0d7fcd318a9fbf7bbdecec43454036a083c07fac9d4b34",
+        "size_bytes": 163392
+      },
+      "Escalation_model_(M6).joblib": {
+        "status": "MATCH",
+        "actual": "9ff66ccf8b3875220bcae52d3c98df2e341aaf75cc843d8f8c5a1d619529e9c3",
+        "expected": "9ff66ccf8b3875220bcae52d3c98df2e341aaf75cc843d8f8c5a1d619529e9c3",
+        "size_bytes": 200017
+      },
+      "intent_model_(M1).joblib": {
+        "status": "MATCH",
+        "actual": "1b2fe9fa292cf9eb52e6d87f4349fbc67947577633eb7128d7dbf7b2e6939b50",
+        "expected": "1b2fe9fa292cf9eb52e6d87f4349fbc67947577633eb7128d7dbf7b2e6939b50",
+        "size_bytes": 4770864
+      },
+      "label_encoder.joblib": {
+        "status": "MATCH",
+        "actual": "e54db8159c512eb404eeb851caa6f7fa0fbf3b729b29949df489ee93d90d9e43",
+        "expected": "e54db8159c512eb404eeb851caa6f7fa0fbf3b729b29949df489ee93d90d9e43",
+        "size_bytes": 505
+      },
+      "risk_model_(M3).joblib": {
+        "status": "MATCH",
+        "actual": "8605ee53be5da48fb5c00d7d79050d929ae0fb80003d4a7f5fb367a1701c3065",
+        "expected": "8605ee53be5da48fb5c00d7d79050d929ae0fb80003d4a7f5fb367a1701c3065",
+        "size_bytes": 18505219
+      },
+      "sentiment_encoder_(M2).joblib": {
+        "status": "MATCH",
+        "actual": "e54db8159c512eb404eeb851caa6f7fa0fbf3b729b29949df489ee93d90d9e43",
+        "expected": "e54db8159c512eb404eeb851caa6f7fa0fbf3b729b29949df489ee93d90d9e43",
+        "size_bytes": 505
+      },
+      "sentiment_model_(M2).joblib": {
+        "status": "MATCH",
+        "actual": "a8b184700919a564ce79f11d3cb5781a1538869d91fadf86982499b97aa03fab",
+        "expected": "a8b184700919a564ce79f11d3cb5781a1538869d91fadf86982499b97aa03fab",
+        "size_bytes": 780452
+      }
+    },
+    "datasets": {
+      "01_Master_Gold_V4.xlsx": {
+        "status": "MATCH",
+        "actual": "ae49c3b93cfe61ef1e615ac4c7f855bb727e7ddd13db6e49ca45b44203dda67c",
+        "expected": "ae49c3b93cfe61ef1e615ac4c7f855bb727e7ddd13db6e49ca45b44203dda67c",
+        "size_bytes": 1533349
+      },
+      "02_Task_Balanced_Training_V4.xlsx": {
+        "status": "MATCH",
+        "actual": "8eea31bd0470b8f8674e1a736ab1f31f84573456eb25ebda7bdd3e0506d33dfd",
+        "expected": "8eea31bd0470b8f8674e1a736ab1f31f84573456eb25ebda7bdd3e0506d33dfd",
+        "size_bytes": 1413458
+      },
+      "03_RAG_Knowledge_Base_V4.xlsx": {
+        "status": "MATCH",
+        "actual": "ed05b8ca7d267f785faca690e31dfa15871bb63a6bbb120ce7946cce0d0b10af",
+        "expected": "ed05b8ca7d267f785faca690e31dfa15871bb63a6bbb120ce7946cce0d0b10af",
+        "size_bytes": 10422
+      },
+      "04_Operational_Data_V4.xlsx": {
+        "status": "MATCH",
+        "actual": "491faf28b83d4f43d9429b753ede51350c3ecc8d9f094c93e72773683a156734",
+        "expected": "491faf28b83d4f43d9429b753ede51350c3ecc8d9f094c93e72773683a156734",
+        "size_bytes": 257124
+      },
+      "05_Memory_V4.xlsx": {
+        "status": "MATCH",
+        "actual": "3d7a5e28e3ae839db58bc357638d80140ef1821a871860f84c0f2f803d6b873b",
+        "expected": "3d7a5e28e3ae839db58bc357638d80140ef1821a871860f84c0f2f803d6b873b",
+        "size_bytes": 91361
+      },
+      "06_Human_Feedback_Template_V4.xlsx": {
+        "status": "MATCH",
+        "actual": "ca121b2a03c5e3fd490e7c720bcff9a93715e2e7936f76220757127e2cb4964e",
+        "expected": "ca121b2a03c5e3fd490e7c720bcff9a93715e2e7936f76220757127e2cb4964e",
+        "size_bytes": 50767
+      },
+      "07_Data_Dictionary_and_Label_Guide_V4.xlsx": {
+        "status": "MATCH",
+        "actual": "88d98e7b60ba87971ca89fef3eabf936a53e3261999a938beeb0f5abaf9cb9c9",
+        "expected": "88d98e7b60ba87971ca89fef3eabf936a53e3261999a938beeb0f5abaf9cb9c9",
+        "size_bytes": 8077
+      },
+      "README_V4.md": {
+        "status": "MATCH",
+        "actual": "8a0a57728658be9b0372b6906128d5e00e173f4e771eb8d89402f5211854372a",
+        "expected": "8a0a57728658be9b0372b6906128d5e00e173f4e771eb8d89402f5211854372a",
+        "size_bytes": 3481
+      },
+      "FINAL_MASTER_GOLD.csv": {
+        "status": "MATCH",
+        "actual": "9be07e02c20ea883ca2bff8b6c775571f95460634a3956d494a41f8dfbe8bad0",
+        "expected": "9be07e02c20ea883ca2bff8b6c775571f95460634a3956d494a41f8dfbe8bad0",
+        "size_bytes": 1655984
+      }
+    },
+    "all_matched": true
+  },
+  "verdicts": {
+    "local_capstone_acceptance": "PASS",
+    "multi_tenant_security_confidence": "PASS",
+    "integration_kit_usability": "PASS",
+    "cloud_migration_readiness": "PASS WITH LIMITATIONS",
+    "production_deployment_readiness": "PASS WITH LIMITATIONS",
+    "overall_audit_verdict": "PASS WITH LIMITATIONS"
+  }
+}

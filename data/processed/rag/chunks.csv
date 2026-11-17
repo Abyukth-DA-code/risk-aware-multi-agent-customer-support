@@ -1,0 +1,96 @@
+Chunk_ID,Document_ID,Domain,Document_Type,Title,Authority,Version,Freshness_Status,Retrieval_Priority,Chunk_Index,Chunk_Text
+E001_C01,E001,E-commerce,Return Policy,Product Return Policy,High,v1.0,Current,1,1,Customers may request a return for eligible products within the stated return window. Items must meet the applicable condition requirements. Some product categories may be non-returnable.
+E001_C02,E001,E-commerce,Return Policy,Product Return Policy,High,v1.0,Current,1,2,Customers may request a return for eligible products within the stated return window.
+E001_C03,E001,E-commerce,Return Policy,Product Return Policy,High,v1.0,Current,1,3,Items must meet the applicable condition requirements.
+E001_C04,E001,E-commerce,Return Policy,Product Return Policy,High,v1.0,Current,1,4,Some product categories may be non-returnable.
+E002_C01,E002,E-commerce,Refund Policy,Refund Processing Policy,High,v1.0,Current,1,1,Approved refunds are initiated after the return or cancellation is validated. Processing time can vary by payment method and financial institution.
+E002_C02,E002,E-commerce,Refund Policy,Refund Processing Policy,High,v1.0,Current,1,2,Approved refunds are initiated after the return or cancellation is validated.
+E002_C03,E002,E-commerce,Refund Policy,Refund Processing Policy,High,v1.0,Current,1,3,Processing time can vary by payment method and financial institution.
+E003_C01,E003,E-commerce,Order Policy,Order Cancellation Policy,High,v1.0,Current,1,1,An order may be cancelled when it has not reached a stage where cancellation is restricted. Orders already dispatched may require a return process instead.
+E003_C02,E003,E-commerce,Order Policy,Order Cancellation Policy,High,v1.0,Current,1,2,An order may be cancelled when it has not reached a stage where cancellation is restricted.
+E003_C03,E003,E-commerce,Order Policy,Order Cancellation Policy,High,v1.0,Current,1,3,Orders already dispatched may require a return process instead.
+E004_C01,E004,E-commerce,Delivery Policy,Delivery Delay Policy,High,v1.0,Current,1,1,"Customers can check shipment status using the order tracking information. Delays may occur because of logistics, weather, or operational conditions."
+E004_C02,E004,E-commerce,Delivery Policy,Delivery Delay Policy,High,v1.0,Current,1,2,Customers can check shipment status using the order tracking information.
+E004_C03,E004,E-commerce,Delivery Policy,Delivery Delay Policy,High,v1.0,Current,1,3,"Delays may occur because of logistics, weather, or operational conditions."
+E005_C01,E005,E-commerce,Payment Policy,Duplicate Payment Policy,High,v1.0,Current,1,1,"If a customer believes the same order was charged more than once, the transaction records should be verified before a refund or reversal is initiated."
+E006_C01,E006,E-commerce,Account Security,Account Security Policy,High,v1.0,Current,1,1,Customers should report suspected unauthorized account access promptly. Sensitive account changes may require identity verification.
+E006_C02,E006,E-commerce,Account Security,Account Security Policy,High,v1.0,Current,1,2,Customers should report suspected unauthorized account access promptly.
+E006_C03,E006,E-commerce,Account Security,Account Security Policy,High,v1.0,Current,1,3,Sensitive account changes may require identity verification.
+E007_C01,E007,E-commerce,Shipping Policy,Shipping Address Policy,High,v1.0,Current,1,1,Shipping address changes are subject to order status and verification requirements. Changes may not be possible after dispatch.
+E007_C02,E007,E-commerce,Shipping Policy,Shipping Address Policy,High,v1.0,Current,1,2,Shipping address changes are subject to order status and verification requirements.
+E007_C03,E007,E-commerce,Shipping Policy,Shipping Address Policy,High,v1.0,Current,1,3,Changes may not be possible after dispatch.
+E008_C01,E008,E-commerce,Subscription Policy,Subscription Cancellation Policy,High,v1.0,Current,1,1,Customers can request cancellation according to the subscription terms. Cancellation timing may affect the current billing period.
+E008_C02,E008,E-commerce,Subscription Policy,Subscription Cancellation Policy,High,v1.0,Current,1,2,Customers can request cancellation according to the subscription terms.
+E008_C03,E008,E-commerce,Subscription Policy,Subscription Cancellation Policy,High,v1.0,Current,1,3,Cancellation timing may affect the current billing period.
+E009_C01,E009,E-commerce,Invoice Policy,Invoice and Receipt Policy,High,v1.0,Current,1,1,Customers may obtain invoices or receipts for eligible purchases. Invoice information should match the corresponding order and payment record.
+E009_C02,E009,E-commerce,Invoice Policy,Invoice and Receipt Policy,High,v1.0,Current,1,2,Customers may obtain invoices or receipts for eligible purchases.
+E009_C03,E009,E-commerce,Invoice Policy,Invoice and Receipt Policy,High,v1.0,Current,1,3,Invoice information should match the corresponding order and payment record.
+E010_C01,E010,E-commerce,Fraud Policy,Suspicious Transaction Policy,High,v1.0,Current,1,1,Unrecognized or suspicious transactions require verification. Potential fraud or unauthorized financial activity should not be resolved solely through an automated customer response.
+E010_C02,E010,E-commerce,Fraud Policy,Suspicious Transaction Policy,High,v1.0,Current,1,2,Unrecognized or suspicious transactions require verification.
+E010_C03,E010,E-commerce,Fraud Policy,Suspicious Transaction Policy,High,v1.0,Current,1,3,Potential fraud or unauthorized financial activity should not be resolved solely through an automated customer response.
+E011_C01,E011,E-commerce,Warranty Policy,Product Warranty Policy,High,v1.0,Current,1,1,"Warranty eligibility depends on the product, purchase record, warranty terms, and applicable exclusions."
+E012_C01,E012,E-commerce,Contact Policy,Customer Support Contact Policy,High,v1.0,Current,1,1,Customers may contact support through the approved support channels. Cases requiring sensitive verification may be transferred to authorized staff.
+E012_C02,E012,E-commerce,Contact Policy,Customer Support Contact Policy,High,v1.0,Current,1,2,Customers may contact support through the approved support channels.
+E012_C03,E012,E-commerce,Contact Policy,Customer Support Contact Policy,High,v1.0,Current,1,3,Cases requiring sensitive verification may be transferred to authorized staff.
+E013_C01,E013,Education,Attendance Policy,Student Attendance Policy,High,v1.0,Current,1,1,Students are expected to meet the attendance requirements established for their courses. Exceptions are handled according to institutional rules.
+E013_C02,E013,Education,Attendance Policy,Student Attendance Policy,High,v1.0,Current,1,2,Students are expected to meet the attendance requirements established for their courses.
+E013_C03,E013,Education,Attendance Policy,Student Attendance Policy,High,v1.0,Current,1,3,Exceptions are handled according to institutional rules.
+E014_C01,E014,Education,Examination Policy,Examination Rules,High,v1.0,Current,1,1,"Students must follow examination schedules, identification requirements, and examination conduct rules. Exceptions require appropriate authorization."
+E014_C02,E014,Education,Examination Policy,Examination Rules,High,v1.0,Current,1,2,"Students must follow examination schedules, identification requirements, and examination conduct rules."
+E014_C03,E014,Education,Examination Policy,Examination Rules,High,v1.0,Current,1,3,Exceptions require appropriate authorization.
+E015_C01,E015,Education,Assessment Policy,Assignment Submission Policy,High,v1.0,Current,1,1,Assignments should be submitted through the designated system before the stated deadline. Late submissions are governed by the applicable course or institutional policy.
+E015_C02,E015,Education,Assessment Policy,Assignment Submission Policy,High,v1.0,Current,1,2,Assignments should be submitted through the designated system before the stated deadline.
+E015_C03,E015,Education,Assessment Policy,Assignment Submission Policy,High,v1.0,Current,1,3,Late submissions are governed by the applicable course or institutional policy.
+E016_C01,E016,Education,Fee Policy,Tuition Fee Payment Policy,High,v1.0,Current,1,1,Students must pay applicable fees by the published deadlines. Payment issues should be verified against the student's official fee record.
+E016_C02,E016,Education,Fee Policy,Tuition Fee Payment Policy,High,v1.0,Current,1,2,Students must pay applicable fees by the published deadlines.
+E016_C03,E016,Education,Fee Policy,Tuition Fee Payment Policy,High,v1.0,Current,1,3,Payment issues should be verified against the student's official fee record.
+E017_C01,E017,Education,Refund Policy,Student Fee Refund Policy,High,v1.0,Current,1,1,"Eligible fee refunds are processed according to institutional refund rules, timelines, and approval requirements."
+E018_C01,E018,Education,Academic Records,Grade Correction Policy,High,v1.0,Current,1,1,Requests to correct academic records require verification and must follow the institution's formal review process.
+E019_C01,E019,Education,Enrollment Policy,Course Registration Policy,High,v1.0,Current,1,1,"Course registration depends on eligibility, capacity, prerequisites, and registration windows defined by the institution."
+E020_C01,E020,Education,Examination Policy,Exam Revaluation Policy,High,v1.0,Current,1,1,Students may request revaluation when permitted by institutional rules and within the specified application period.
+E021_C01,E021,Education,Scholarship Policy,Scholarship Eligibility Policy,High,v1.0,Current,1,1,Scholarship eligibility is determined using the criteria published by the institution or scholarship authority. Supporting information may require verification.
+E021_C02,E021,Education,Scholarship Policy,Scholarship Eligibility Policy,High,v1.0,Current,1,2,Scholarship eligibility is determined using the criteria published by the institution or scholarship authority.
+E021_C03,E021,Education,Scholarship Policy,Scholarship Eligibility Policy,High,v1.0,Current,1,3,Supporting information may require verification.
+E022_C01,E022,Education,Student Account,Student Portal Access Policy,High,v1.0,Current,1,1,Students should use approved credentials and recovery procedures to access the student portal. Suspected unauthorized access requires escalation to authorized support.
+E022_C02,E022,Education,Student Account,Student Portal Access Policy,High,v1.0,Current,1,2,Students should use approved credentials and recovery procedures to access the student portal.
+E022_C03,E022,Education,Student Account,Student Portal Access Policy,High,v1.0,Current,1,3,Suspected unauthorized access requires escalation to authorized support.
+E023_C01,E023,Education,Privacy Policy,Student Data Privacy Policy,High,v1.0,Current,1,1,Student records and personal information must be handled according to institutional privacy requirements and applicable regulations.
+E024_C01,E024,Education,Administrative Policy,Document Request Policy,High,v1.0,Current,1,1,Requests for official student documents are processed through designated administrative channels and may require identity verification.
+E025_C01,E025,Small Business,Invoice Policy,Business Invoice Policy,High,v1.0,Current,1,1,"Invoices should contain accurate customer, service, amount, tax, and payment information. Changes to issued invoices may require authorization."
+E025_C02,E025,Small Business,Invoice Policy,Business Invoice Policy,High,v1.0,Current,1,2,"Invoices should contain accurate customer, service, amount, tax, and payment information."
+E025_C03,E025,Small Business,Invoice Policy,Business Invoice Policy,High,v1.0,Current,1,3,Changes to issued invoices may require authorization.
+E026_C01,E026,Small Business,Payment Policy,Customer Payment Policy,High,v1.0,Current,1,1,Customer payments should be recorded against the correct invoice or order. Unmatched or duplicate payments require verification.
+E026_C02,E026,Small Business,Payment Policy,Customer Payment Policy,High,v1.0,Current,1,2,Customer payments should be recorded against the correct invoice or order.
+E026_C03,E026,Small Business,Payment Policy,Customer Payment Policy,High,v1.0,Current,1,3,Unmatched or duplicate payments require verification.
+E027_C01,E027,Small Business,Refund Policy,Customer Refund Policy,High,v1.0,Current,1,1,"Refund requests are reviewed against the applicable sale, service, and refund terms. High-value refunds may require owner or manager approval."
+E027_C02,E027,Small Business,Refund Policy,Customer Refund Policy,High,v1.0,Current,1,2,"Refund requests are reviewed against the applicable sale, service, and refund terms."
+E027_C03,E027,Small Business,Refund Policy,Customer Refund Policy,High,v1.0,Current,1,3,High-value refunds may require owner or manager approval.
+E028_C01,E028,Small Business,Order Policy,Order Cancellation Policy,High,v1.0,Current,1,1,Orders may be cancelled according to their fulfillment status and business terms. Completed or dispatched orders may require a different resolution process.
+E028_C02,E028,Small Business,Order Policy,Order Cancellation Policy,High,v1.0,Current,1,2,Orders may be cancelled according to their fulfillment status and business terms.
+E028_C03,E028,Small Business,Order Policy,Order Cancellation Policy,High,v1.0,Current,1,3,Completed or dispatched orders may require a different resolution process.
+E029_C01,E029,Small Business,Inventory Policy,Inventory Adjustment Policy,High,v1.0,Current,1,1,Inventory adjustments should be supported by a valid reason and corresponding operational record. Large discrepancies require review.
+E029_C02,E029,Small Business,Inventory Policy,Inventory Adjustment Policy,High,v1.0,Current,1,2,Inventory adjustments should be supported by a valid reason and corresponding operational record.
+E029_C03,E029,Small Business,Inventory Policy,Inventory Adjustment Policy,High,v1.0,Current,1,3,Large discrepancies require review.
+E030_C01,E030,Small Business,Customer Data,Customer Information Policy,High,v1.0,Current,1,1,Customer information should be accessed and changed only for legitimate business purposes. Sensitive changes require appropriate verification.
+E030_C02,E030,Small Business,Customer Data,Customer Information Policy,High,v1.0,Current,1,2,Customer information should be accessed and changed only for legitimate business purposes.
+E030_C03,E030,Small Business,Customer Data,Customer Information Policy,High,v1.0,Current,1,3,Sensitive changes require appropriate verification.
+E031_C01,E031,Small Business,Access Control,Employee Account Access Policy,High,v1.0,Current,1,1,Employee access should follow role-based permissions. Requests for privileged access require authorization.
+E031_C02,E031,Small Business,Access Control,Employee Account Access Policy,High,v1.0,Current,1,2,Employee access should follow role-based permissions.
+E031_C03,E031,Small Business,Access Control,Employee Account Access Policy,High,v1.0,Current,1,3,Requests for privileged access require authorization.
+E032_C01,E032,Small Business,Payroll Policy,Payroll Change Policy,High,v1.0,Current,1,1,Changes to payroll or employee payment information require verification and authorized approval.
+E033_C01,E033,Small Business,Vendor Policy,Vendor Payment Policy,High,v1.0,Current,1,1,Vendor payments should be matched to approved invoices and business records. Changes to vendor banking details require verification.
+E033_C02,E033,Small Business,Vendor Policy,Vendor Payment Policy,High,v1.0,Current,1,2,Vendor payments should be matched to approved invoices and business records.
+E033_C03,E033,Small Business,Vendor Policy,Vendor Payment Policy,High,v1.0,Current,1,3,Changes to vendor banking details require verification.
+E034_C01,E034,Small Business,Sales Policy,Sales Order Policy,High,v1.0,Current,1,1,"Sales orders should contain accurate product, quantity, customer, price, and fulfillment information."
+E035_C01,E035,Small Business,Expense Policy,Business Expense Policy,High,v1.0,Current,1,1,Business expenses should be supported by appropriate records and approved according to company procedures.
+E036_C01,E036,Small Business,Security Policy,Suspicious Activity Policy,High,v1.0,Current,1,1,"Potentially unauthorized financial, account, or operational activity should be verified and escalated to an authorized human decision-maker."
+EV1001_C01,EV1001,E-commerce,Trust Evaluation,Refund Window,High,v3.0,Current,1,1,Approved refunds are processed after validation and may require additional time depending on the payment method.
+EV1002_C01,EV1002,E-commerce,Trust Evaluation,Refund Window,Medium,v2.0,Outdated,3,1,Refunds are always completed within 24 hours.
+EV1003_C01,EV1003,E-commerce,Trust Evaluation,Return Window,High,v3.0,Current,1,1,Eligible returns must follow the currently published return window and condition requirements.
+EV1004_C01,EV1004,E-commerce,Trust Evaluation,Return Window,Medium,v2.0,Outdated,3,1,All products can be returned at any time.
+EV1005_C01,EV1005,Education,Trust Evaluation,Attendance Policy,High,v3.0,Current,1,1,Students must satisfy the currently published attendance requirement for eligibility.
+EV1006_C01,EV1006,Education,Trust Evaluation,Attendance Policy,Medium,v2.0,Outdated,3,1,Attendance is never considered for examination eligibility.
+EV1007_C01,EV1007,Education,Trust Evaluation,Exam Registration,High,v3.0,Current,1,1,Exam registration must be completed within the officially published registration period.
+EV1008_C01,EV1008,Education,Trust Evaluation,Exam Registration,Medium,v2.0,Outdated,3,1,Late exam registration is always accepted.
+EV1009_C01,EV1009,Small Business,Trust Evaluation,Invoice Payment,High,v3.0,Current,1,1,Invoices should be paid according to the currently approved payment terms.
+EV1010_C01,EV1010,Small Business,Trust Evaluation,Invoice Payment,Medium,v2.0,Outdated,3,1,All invoices must be paid immediately regardless of agreed terms.

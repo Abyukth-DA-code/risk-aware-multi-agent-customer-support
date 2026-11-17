@@ -1,0 +1,55 @@
+# Risk-Aware Adaptive Autonomy Decision Rules & Thresholds
+# Version: 4.0 Clean Canonical
+# Research Direction: Risk-Aware Adaptive Multi-Agent Orchestration
+
+autonomy_tiers:
+  ANSWER:
+    description: "Direct autonomous resolution without multi-agent coordination or human review."
+    conditions:
+      max_risk: "Low"
+      max_complexity: "Medium"
+      min_confidence: 0.75
+      required_evidence_quality: ["Strong"]
+      verification_required: false
+      sensitive_action: false
+
+  ORCHESTRATE:
+    description: "Adaptive multi-agent dynamic coordination across operational systems and RAG."
+    conditions:
+      allowed_risks: ["Low", "Medium", "High"]
+      required_complexity: "High"
+      min_confidence: 0.70
+      required_evidence_quality: ["Strong", "Insufficient"]
+      policy_restriction: false
+      action_requires_escalation: false
+
+  ESCALATE:
+    description: "Human-in-the-loop escalation workflow with context and evidence dossier."
+    trigger_criteria:
+      - rule_id: "CRIT_01"
+        condition: "risk == 'Critical'"
+        reason: "Critical autonomy risk or severe security concern"
+      - rule_id: "RISK_VERIF_02"
+        condition: "risk == 'High' and verification_required == true and verification_score < 0.80"
+        reason: "High Risk + Verification/Evidence Issue"
+      - rule_id: "EVID_CONF_03"
+        condition: "evidence_quality == 'Conflicting' and risk in ['Medium', 'High']"
+        reason: "Insufficient/Conflicting Evidence"
+      - rule_id: "EVID_INSUF_04"
+        condition: "evidence_quality == 'Insufficient' and risk in ['Medium', 'High']"
+        reason: "Insufficient/Conflicting Evidence"
+      - rule_id: "LOW_CONF_05"
+        condition: "final_confidence < 0.65"
+        reason: "Low Confidence Review"
+      - rule_id: "SENS_FIN_06"
+        condition: "sensitive_action == true and financial_impact == true and risk == 'High'"
+        reason: "Human Approval Required"
+
+observable_confidence_weights:
+  # Reliability signals replacing self-reported LLM confidence
+  retrieval_similarity_weight: 0.25
+  reranker_score_weight: 0.25
+  source_authority_weight: 0.15
+  document_freshness_weight: 0.15
+  evidence_agreement_weight: 0.10
+  database_consistency_weight: 0.10
